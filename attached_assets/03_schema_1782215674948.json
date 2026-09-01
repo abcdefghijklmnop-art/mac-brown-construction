@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Effective Fly Casting Technique (EFCT)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "EFCT is a casting system developed by Michael Mauri that's built around natural body movement and efficient mechanics, designed to simplify the learning curve for fly casters of any skill level."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What casting disciplines does Michael Mauri teach?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Michael teaches single-hand casting, double-hand (Spey) casting, and overhead casting, working with anglers from complete beginners to advanced casters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I take a casting lesson with Michael Mauri?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Michael offers private casting lessons and guided trips out of Stuart, Florida through Mauri Flyfishing, and also teaches at fly-fishing shows and destination casting schools across Europe, Canada, and the United States."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Michael Mauri design fly rods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Michael consults as a design engineer for a leading fly rod manufacturer and also designs and handcrafts his own line of fly rods."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long has Michael Mauri been teaching fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Michael has been teaching fly casting internationally since 1998, with decades of experience guiding and instructing across multiple continents."
+      }
+    }
+  ]
+}

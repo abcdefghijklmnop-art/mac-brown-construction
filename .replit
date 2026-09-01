@@ -1,0 +1,132 @@
+modules = ["nodejs-24", "python-3.11"]
+
+[deployment]
+router = "application"
+deploymentTarget = "autoscale"
+
+[deployment.postBuild]
+args = ["pnpm", "store", "prune"]
+env = { "CI" = "true" }
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "artifacts/ffgs-nextjs: web"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "artifacts/api-server: API Server"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "artifacts/mockup-sandbox: Component Preview Server"
+
+[[workflows.workflow]]
+name = "artifacts/ffgs-nextjs: web"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "PORT=24755 BASE_PATH=/ffgs-next/ pnpm --filter @workspace/ffgs-nextjs run dev"
+
+[[workflows.workflow]]
+name = "artifacts/api-server: API Server"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "console"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "PORT=8080 pnpm --filter @workspace/api-server run dev"
+waitForPort = 8080
+
+[[workflows.workflow]]
+name = "artifacts/mockup-sandbox: Component Preview Server"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "PORT=8081 BASE_PATH=/__mockup pnpm --filter @workspace/mockup-sandbox run dev"
+
+[[workflows.workflow]]
+name = "artifacts/mac-brown-nextjs: web"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "PORT=20544 BASE_PATH=/mbff-next/ pnpm --filter @workspace/mac-brown-nextjs run dev"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[agent]
+stack = "PNPM_WORKSPACE"
+expertMode = true
+integrations = ["google-sheet:1.0.0"]
+
+[postMerge]
+path = "scripts/post-merge.sh"
+timeoutMs = 20000
+
+[[ports]]
+localPort = 8080
+externalPort = 8080
+
+[[ports]]
+localPort = 8081
+externalPort = 80
+
+[[ports]]
+localPort = 8082
+externalPort = 3002
+
+[[ports]]
+localPort = 8083
+externalPort = 3001
+
+[[ports]]
+localPort = 19437
+externalPort = 3000
+
+[[ports]]
+localPort = 20544
+externalPort = 5000
+
+[[ports]]
+localPort = 22221
+externalPort = 3003
+
+[[ports]]
+localPort = 22777
+externalPort = 5173
+
+[[ports]]
+localPort = 24755
+externalPort = 4200
+
+[nix]
+channel = "stable-25_05"
+
+[userenv]
+
+[userenv.shared]
+WAIVER_SPREADSHEET_ID = "1B2LQkmW-vTyZdCqL1te9wYrQzOWBTTW8wciGHf8P8-Q"
+FFGS_SHEET_ID = "1wpGeW6i4_ySD6AjIjhvzUrQAMZcAwSlPGSdkOY9s0f8"
+MBFF_BOOKING_SHEET_ID = "1Fpp8o_TKPmmtrmhdJb3xKD4XNdP_Zcn1eCOi1xxubK8"
+MBFF_SCHEDULE_SHEET_ID = "1Fpp8o_TKPmmtrmhdJb3xKD4XNdP_Zcn1eCOi1xxubK8"
+FFGS_SHEET_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbyz0pRBPM0mjBrulzEKhRzOy1Vfl2g4Bi1u5LMCo38wqYig_XxRhfZSDgMQ-59nHnO9/exec"
+MBFF_BOOKING_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwxDqAnmyxc32lG8UDu2O6Aw_xXOHkLK2qadeY03rJUbwzRSeTgLQnfPsDc6o09y27_/exec"

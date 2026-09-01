@@ -1,0 +1,90 @@
+On macbrownflyfish.com append the following 
+final entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+then run bash push.sh to deploy all changes.
+No other changes.
+
+    {
+      "@type": "Question",
+      "name": "What is the difference between haul and retrieve in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A haul is a quick tug on the fly line during the casting stroke to increase rod load and line speed — performed during the last half of the casting stroke. A retrieve is any method that pulls the fly line in through the guides while fishing to control the amount of line outside. Hauls happen during casting. Retrieves happen during fishing. Confusing the two leads to poor haul timing and inefficient line management."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you improve fly casting tracking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The two most effective tools for improving fly casting tracking are the pizza box tool developed by Doug Swisher and Carl Richards — attached to the rod hand to reveal any deviation from a straight path through air drag — and a red dot laser pointer attached to the rod that traces the tip-top path on a ceiling or wall. Both provide immediate visual feedback that reveals tracking faults invisible to the naked eye in real time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the 50% rule for tailing loops in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 50% rule for tailing loops states that a tailing loop should be observed past the halfway point in loop travel before being classified as a true tail. Many casts have crossover during the setup of roll casts, distance casts, and other positioning moves that are not tailing loops in the early stages. Since the traveling transverse wave propagates down the line to the end, a true tail will be visible past the 50% travel point."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What causes a tailing loop in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tailing loops most commonly stem from too early or abrupt application of force, line planes less than 180 degrees, rod tip jumping above the oncoming line path, improper haul timing, and transverse waves. Most literature blames concavity of the rod tip path but a straight rod tip path creating a transverse wave is equally a cause. The chaos of creating tailing loops is brought about by a jerk factor — an abrupt change in the rate of acceleration."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is casting synergy in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Casting synergy is the simultaneous convergence of the haul, the stop, and the rod unbend into one finite moment — where the whole is greater than the sum of its parts. When all variables align at the same instant maximum line speed is achieved with minimum effort. When they are slightly out of phase the result is a fraction of what was possible. Timing is everything in fly casting synergy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Fly Fisher's Triad in fly fishing instruction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Fly Fisher's Triad is Mac Brown's framework for fly fishing development built on three equal components — strategy, line control, and tactics. Strategy is knowledge and wisdom applied to reading and covering water. Line control is the kinesthetic act of repositioning the fly through every cast and mend. Tactics are the moment-to-moment decisions about how the fly behaves during the drift. All three must work together for consistently successful fly fishing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the pantomime method in fly casting instruction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The pantomime method is practicing the casting stroke without a rod — building the correct motor pattern in the brain before the complexity of rod and line is added. Mel Krieger developed the pantomime method for the Fenwick Fly Casting Schools in the mid-1970s. Most students achieve correct timing in under 10 minutes using pantomime. Once the motor pattern is established the cast follows naturally when the rod is introduced."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the five essentials framework in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The five essentials of fly casting codified by Bill and Jay Gammel are: 1) There must be a taut line connection between rod tip and fly. 2) The rod must pause to allow the loop to unroll before the next stroke. 3) Stroke length and arc must vary with the amount of line being cast. 4) The rod tip must travel in a straight-line path. 5) Power must be applied in a smooth acceleration to a stop. Every casting fault can be traced to a violation of one or more of these five principles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the double haul and who invented it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The double haul is a line acceleration technique where the line hand pulls the fly line on both the back cast and the forward cast — distributing the workload between both hands and dramatically increasing line speed. It was introduced to the world by Marvin Hedge in St. Louis in 1934 when he broke the world fly casting distance record by 22 feet. It is not just a distance technique — a properly timed double haul improves accuracy, loop control, and efficiency on every cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn fly casting from a certified instructor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers private fly casting lessons, the Masterclass Casting Workshop, and the week-long Fly Fishing Guide School — all taught from first principles by Mac Brown, the only FFI Master Casting Instructor in North Carolina and recipient of the FFI Lifetime Achievement Award. Online lessons available worldwide via FaceTime, Zoom, or Skype at $400 per session. Every lesson is guaranteed — if you do not experience measurable improvement the lesson is free."
+      }
+    }
+
+Then run bash push.sh to deploy all changes. 
+No other changes.

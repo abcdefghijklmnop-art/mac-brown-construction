@@ -1,0 +1,50 @@
+Act as an expert Next.js developer and technical SEO specialist. We need to create four separate, standalone, permanent structural landing page routes in our App Router. 
+
+CRITICAL ROUTING INSTRUCTION: 
+These pages will function as high-converting, "hidden/orphan" landing pages used to capture specific regional technical search traffic. Do NOT add these pages to the main navigation bar, site header menu, or footer links. They must only exist at their direct route URLs.
+
+Generate the following 4 routes using consistent premium styling matching macbrownflyfish.com using Tailwind CSS:
+
+1. Routes & Copy Targeting Matrix:
+- Route A: `/dry-fly-school-north-carolina`
+  * H1: "Dry Fly Fishing Schools & Surface Presentation Instruction"
+  * Subheading: "Smoky Mountains · Bryson City, North Carolina"
+  * Intro Hook: A welcoming, jargon-free introduction for anglers who want to master matching the hatch, casting delicate surface presentations, and getting perfect drag-free drifts.
+- Route B: `/wet-fly-instruction-smokies`
+  * H1: "Wet Fly Fishing Clinics & Subsurface Instruction"
+  * Subheading: "Smoky Mountains · Bryson City, North Carolina"
+  * Intro Hook: A clear introduction focused on mastering the wet fly swing, managing line tension below the surface, and effectively rigging multi-fly setups.
+- Route C: `/nymph-fishing-school-nc`
+  * H1: "Advanced Nymph Fishing Schools & Tactical Instruction"
+  * Subheading: "Smoky Mountains · Bryson City, North Carolina"
+  * Intro Hook: An accessible introduction explaining that because trout eat 90% of their food underwater, mastering tight-line, high-sticking, and indicator nymphing is the ultimate way to catch more fish.
+- Route D: `/streamer-fishing-masterclass`
+  * H1: "Streamer Fly Fishing Schools & Predatory Tactics"
+  * Subheading: "Smoky Mountains · Bryson City, North Carolina"
+  * Intro Hook: A high-energy introduction built for the predator hunter looking to cast big flies, master aggressive retrieval strips, strip-setting, and target the largest trophy fish in the river.
+
+2. Implement a 2-Way "Fork in the River" Section Layout on ALL 4 Pages:
+Immediately below each hero, provide two clear, distinct options to monetize the traffic instantly based on their commitment level:
+- Card 1: 1-on-1 Instructional Guided Fly Fishing Trips (Path A)
+  * Hook: Perfect if you want custom, dedicated 1-on-1 or 2-angler technical coaching on wild mountain streams or drifting the river, tailored completely to your pace.
+  * Call-to-Action Link: Explicitly links/points directly to `/instructional-guided-trips`.
+- Card 2: Immersive 2-Day Weekend Fly Fishing School Clinic (Path B - Primary Revenue Focus)
+  * Hook: Our premier multi-day immersion program. True skill progression over an entire weekend covering deep mechanics, casting diagnostics, and real-world water tactics. Education, not entertainment.
+  * Call-to-Action Link: Explicitly links/points directly to our main clinic booking hub at `/smoky-mountain-weekend-schools`.
+
+3. Dumbass-Friendly "No-Shame" FAQ Section (Tailor per page template):
+Include an Accordion component addressing basic, real-world beginner anxieties:
+- Dry Fly FAQ: "Do I need to be an expert?" -> No, we teach you how to see the fish eat the bug from square one.
+- Nymph FAQ: "Why choose nymphing?" -> Because it puts your fly where the fish spend 90% of their day feeding.
+- Gear FAQ: "Do I need my own gear?" -> Absolutely not. We provide premium, top-tier rods, reels, and matched lines for all students.
+
+4. Features & Curriculum Matrix:
+Design a modern, clean grid component pairing core technical concepts (for Google semantic optimization) with obvious, felt benefits (for human conversion optimization):
+- "Loop Control & Presentation" -> "Spend your day fishing instead of untangling wind knots."
+- "Kinesthetic Sport Biomechanics" -> "Find your natural casting rhythm so your shoulder and arm don't ache by lunchtime."
+
+5. Pedagogy & Regional Logistics Section:
+- Include a section detailing our kinesthetic teaching style: focusing on muscle memory, feeling the rod load, and understanding line physics rather than rigid stances or yelling math formulas.
+- Include a Local Logistics block at the bottom defining the geographic footprint (Bryson City, Tuckasegee River, Nantahala River, Western North Carolina), confirming all premium tackle/gear is provided, and featuring distinct booking/consultation actions.
+
+Please implement these components cleanly, ensuring the internal links precisely match `/instructional-guided-trips` and `/smoky-mountain-weekend-schools` across all four new pages.

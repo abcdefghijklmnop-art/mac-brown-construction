@@ -1,0 +1,174 @@
+export default function KnoxvilleFlyFishing() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            Guided Fly Fishing · Western North Carolina · Since 1987
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Fly Fishing Trips from Knoxville, TN
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed">
+            The finest wild trout water in the eastern United States is less than two hours from Knoxville. The Smoky Mountains are in your backyard — let us show you what they are hiding.
+          </p>
+          <a href="/contact" className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+            Book Your Trip
+          </a>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Less Than Two Hours — World-Class Trout Water
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Knoxville anglers have one of the great fly fishing secrets of the eastern United States practically in their backyard — and most never fully explore it. Bryson City, North Carolina sits less than two hours from Knoxville on the North Carolina side of the Great Smoky Mountains, at the center of what serious anglers call the Trout Mecca of the South.
+            </p>
+            <p>
+              Swain County holds more miles of quality wild trout water than any other county in North Carolina. Over 85% of the county is protected public land — the Great Smoky Mountains National Park and the Nantahala National Forest — which means the water stays cold, the fish stay wild, and the experience stays genuinely exceptional. Mac Brown Fly Fish has been guiding and teaching on this water since 1987, longer than any other outfitter in Western North Carolina.
+            </p>
+            <p>
+              For Knoxville anglers this is an easy day trip. For those who want to make a weekend of it, Bryson City offers everything you need — great lodging, excellent food, and enough outdoor adventure to fill a week.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Waters */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Water — Right Across the Mountain
+          </h2>
+          <div className="space-y-6">
+            {[
+              {
+                name: "Great Smoky Mountains National Park Streams",
+                distance: "~1.5 hours from Knoxville",
+                description: "The national park you can see from Knoxville holds some of the finest wild trout fishing in the eastern United States. Crystal-clear mountain streams, native brook trout in the high-elevation waters, wild rainbow and brown trout throughout. Pristine, protected, and largely unfished relative to their quality.",
+                highlight: "Best for: Wild trout, pristine water, all seasons",
+              },
+              {
+                name: "Tuckasegee River — Delayed Harvest",
+                distance: "~1.75 hours from Knoxville",
+                description: "From October through May the Delayed Harvest section of the Tuckasegee in Webster, NC is loaded with exceptional numbers of trout. One of the most productive guided destinations in the region for float trips and wade trips alike. A perfect day trip distance from Knoxville.",
+                highlight: "Best for: Float trips, wade trips, October through May",
+              },
+              {
+                name: "Nantahala River",
+                distance: "~2 hours from Knoxville",
+                description: "The premier tailwater in North Carolina — cold, clear, and productive every month of the year. Wild brown and rainbow trout in beautiful mountain scenery. Worth every mile of the drive from Knoxville for the angler who wants a genuine wild trout challenge.",
+                highlight: "Best for: Wild trout, technical fishing, year-round",
+              },
+              {
+                name: "Smoky Mountain Lakes",
+                distance: "~1.75 hours from Knoxville",
+                description: "Fontana Lake and the other mountain stillwaters of the Smoky Mountains offer exceptional fly fishing for large trout — especially from late fall through early spring. A completely different experience from river fishing and one of the best-kept secrets within reach of Knoxville.",
+                highlight: "Best for: Trophy trout, stillwater fishing, fall through spring",
+              },
+            ].map((water, index) => (
+              <div key={index} className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+                <div className="flex flex-wrap items-start justify-between gap-4 mb-3">
+                  <h3 className="text-xl font-bold text-[#1a3a5c]">{water.name}</h3>
+                  <span className="text-sm font-bold text-[#1D9E75] bg-green-50 px-3 py-1 rounded-full">
+                    📍 {water.distance}
+                  </span>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-3">{water.description}</p>
+                <p className="text-sm font-semibold text-[#2E6DA4] italic">{water.highlight}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What We Offer */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Every Way to Experience the Water
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              { title: "Guided Float Trips", desc: "Drift the Tuckasegee in a drift boat. The best seat on the river.", link: "/instructional-float-trips" },
+              { title: "Guided Wade Trips", desc: "Get in the water on the park streams or the Nantahala tailwater.", link: "/instructional-wade-trips" },
+              { title: "Guided Lake Trips", desc: "Trophy trout on the Smoky Mountain stillwaters.", link: "/instructional-lake-trips" },
+              { title: "Fly Casting Instruction", desc: "Private lessons from NC's only Master Casting Instructor. Guaranteed or free.", link: "/fly-fishing-instruction" },
+              { title: "Fly Fishing Schools", desc: "Weekend immersion programs — a perfect Knoxville weekend trip.", link: "/smoky-mountain-weekend-schools" },
+              { title: "Group & Corporate Trips", desc: "Customized fly fishing for Knoxville groups of any size.", link: "/group-corporate-fly-fishing" },
+              { title: "Backcountry Trips", desc: "Remote streams deep in the national park — wild and unforgettable.", link: "/backcountry-trout-fishing" },
+              { title: "Online Casting Lessons", desc: "Sharpen your cast before you make the drive from Knoxville.", link: "/fly-fishing-instruction" },
+            ].map((item, i) => (
+              <a key={i} href={item.link} className="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-md transition-shadow block">
+                <h3 className="text-lg font-bold text-[#1a3a5c] mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+                <p className="text-[#1D9E75] font-bold text-sm mt-3">Learn more →</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What to Bring */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What to Bring
+          </h2>
+          <p className="text-gray-700 text-lg mb-6">
+            All rods, reels, flies, and leaders provided. Just show up ready to fish.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              "Rain gear — mountain weather changes fast",
+              "Warm layers — mornings on the water can be cool",
+              "Polarized sunglasses — essential for spotting fish",
+              "A hat with a brim — sun and glare protection",
+              "Sunscreen and lip balm",
+              "Clothing in earth tones — blend into your surroundings",
+              "Valid NC fishing license if over 16 — ncwildlife.org or 1-888-248-6834",
+            ].map((item, i) => (
+              <div key={i} className="flex items-start gap-3 bg-white rounded-lg p-4 border border-gray-200">
+                <span className="text-[#1D9E75] font-bold mt-0.5">✓</span>
+                <span className="text-gray-700">{item}</span>
+              </div>
+            ))}
+          </div>
+          <p className="text-gray-500 text-sm mt-6 italic">
+            A NC or TN fishing license is required for waters within the Great Smoky Mountains National Park.
+          </p>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-[#1a3a5c] text-white py-16 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6">
+            The Smokies Are Right There — Come Fish Them Properly
+          </h2>
+          <p className="text-lg text-[#a0c4e0] mb-8 leading-relaxed">
+            Knoxville anglers have world-class trout fishing less than two hours away. Mac Brown has been guiding it since 1987. Stop driving past it and come fish it the right way.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/contact" className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors">
+              Book Your Knoxville Trip
+            </a>
+            <a href="tel:8287361469" className="bg-white hover:bg-gray-100 text-[#1a3a5c] font-bold px-10 py-4 rounded-lg text-lg transition-colors">
+              Call 828-736-1469
+            </a>
+          </div>
+          <p className="text-[#a0c4e0] mt-6 text-sm">
+            macbrownflyfish@gmail.com · flyfishingguideschool.com · Bryson City, NC · Since 1987
+          </p>
+        </div>
+      </section>
+
+    </div>
+  );
+}

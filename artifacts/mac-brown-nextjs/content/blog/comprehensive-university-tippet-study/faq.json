@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Are all fly fishing tippet brands equal in performance?",
+    "answer": "No — and Mac Brown's 1996 university tippet study proved it. Tested at the MSU and WCU materials labs, multiple brands showed significant differences in actual diameter versus labeled size, elasticity, abrasion resistance, and knot strength. Maxima Chameleon labeled as 4X measured closer to 2X at .009 inches — significantly heavier than advertised. The study found that harder materials achieve greater abrasion resistance at the expense of breaking easier, while supple materials stretch further before failure."
+  },
+  {
+    "question": "What does tippet X size actually mean?",
+    "answer": "The X system designates tippet diameter — subtract the X number from .011 inches to find the diameter. 4X equals .007 inches in diameter. However the study found that labeled X sizes frequently do not match actual measured diameters across brands. Two tippets labeled the same X size from different manufacturers can have significantly different actual diameters — which affects sink rate, visibility, knot strength, and breaking strength independently of the label."
+  },
+  {
+    "question": "What is the difference between monofilament and fluorocarbon tippet?",
+    "answer": "Monofilament is supple, less expensive, and stretches more before breaking — making it more forgiving on hook sets and better for fishing in the film. Fluorocarbon is harder, denser, nearly invisible underwater, and sinks faster — making it superior for subsurface presentations and abrasion resistance. The study found that harder materials including fluorocarbon achieve greater abrasion resistance at the cost of lower stretch before failure. Mac Brown uses Maxima Chameleon for leaders and fluorocarbon tippet for subsurface fishing."
+  },
+  {
+    "question": "What tippet size should I use for trout fishing in the Smoky Mountains?",
+    "answer": "Match tippet size to fly size and conditions. A rough guide: 3X for streamers and heavy nymphs, 4X-5X for standard nymph and wet fly rigs, 6X for dry flies and small nymphs in clear water, 7X-8X for winter midge fishing and highly pressured fish. Water clarity, fish size, current speed, and fly air resistance all influence tippet selection. Always carry multiple sizes — changing tippet is the least expensive adjustment you can make."
+  },
+  {
+    "question": "Where can I learn more about leader and tippet construction?",
+    "answer": "Mac Brown's leader construction guide at macbrownflyfish.com covers butt section design, taper formulas, material selection, and proven leader builds for dry fly, nymph, wet fly, and streamer fishing on Smoky Mountain trout streams — refined over 55+ years of guiding on the Tuckasegee, Nantahala, and wild streams of the Great Smoky Mountains. Mac Brown Fly Fish also offers private casting and rigging lessons in Bryson City, NC."
+  }
+]

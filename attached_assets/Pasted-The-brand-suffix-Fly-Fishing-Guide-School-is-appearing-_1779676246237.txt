@@ -1,0 +1,28 @@
+The brand suffix | Fly Fishing Guide School is appearing twice on every page because it is both hardcoded in the title AND being appended by the root layout template. Please fix the root layout title template so it only appends the suffix once automatically.
+2. Once that is fixed, update every page title to ONLY the short unique part — the template will add the brand suffix automatically. Set each page title to exactly this:
+/ (Home): "Fly Fishing Guide School | Bryson City NC | Since 1987"
+(home page should override template completely — set as absolute title)
+
+/fly-fishing-guide-school: "5-Day Immersive Guide Training"
+/bryson-city-fly-fishing-guide-school: "Guide School — Bryson City, NC"
+/asheville-fly-fishing-guide-school: "Guide School Near Asheville NC"
+/atlanta-fly-fishing-guide-school: "Guide School Near Atlanta GA"
+/birmingham-fly-fishing-guide-school: "Guide School Near Birmingham AL"
+/charlotte-fly-fishing-guide-school: "Guide School Near Charlotte NC"
+/chattanooga-fly-fishing-guide-school: "Guide School Near Chattanooga TN"
+/greenville-sc-fly-fishing-guide-school: "Guide School Near Greenville SC"
+/knoxville-fly-fishing-guide-school: "Guide School Near Knoxville TN"
+/nashville-fly-fishing-guide-school: "Guide School Near Nashville TN"
+/raleigh-fly-fishing-guide-school: "Guide School Near Raleigh NC"
+/meet-rowing-fly-casting-fly-fishing-instructors: "Meet the Instructors"
+/testimonials-kudos: "Testimonials & Reviews"
+/mission-statement: "Our Mission"
+/new-to-fly-fishing: "New to Fly Fishing? Start Here"
+/necessary-items-fly-fishing-guide-school: "What to Bring"
+/contact-information-best-fly-fishing-guide-school: "Contact & Location"
+/reservation-form: "Reserve Your Spot"
+/gallery-fly-fishing-guide-school: "Photo Gallery"
+/blog-post: "From the River — Fly Fishing Blog"
+The template will then render each as [short title] | Fly Fishing Guide School automatically — keeping every final title under 60 characters. Please show me the final rendered titles with character counts after fixing."
+
+Once Replit shows you the final rendered titles paste them back and I'll verify every single one is clean before we move to descriptions and redirects for the guide school.Sonnet 4.6

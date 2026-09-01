@@ -1,0 +1,171 @@
+Full page read. Rich content — loch-style rigging, UK Team USA Youth connection, John Horsey and David Downie, booby flies, blob patterns, and the specific lake lineup near Bryson City. **H1 assessment:** "Fly Fishing Lakes & Stillwaters" — clean and search-relevant. Leave it. Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/learn-catch-trout-fly-fishing-lakes-stillwaters-ponds-lochs/
+
+AEO — add immediately below H1:
+"Fly fishing lakes and stillwaters near 
+Bryson City, NC offers some of the most 
+underrated trout fishing in the Smoky 
+Mountains — with fish significantly larger 
+than typical river trout. Mac Brown Fly Fish 
+guides loch-style lake trips on Bear Lake, 
+Wolf Lake, Tanasee Lake, Cheoah Lake, 
+Calderwood Lake, Fontana Lake, and Nantahala 
+Lake — all high mountain impoundments in 
+the Smoky Mountains. Standard loch-style 
+rigging uses three flies on an 18-20 foot 
+leader — bob fly on the top dropper, middle 
+dropper in the center, point fly at the end 
+— spaced 5-6 feet apart on Maxima 
+fluorocarbon 3X. The retrieval rate is the 
+single most important variable separating 
+good loch-style anglers from great ones."
+
+FAQ — add before footer as expandable 
+accordion:
+
+Q1: What lakes near Bryson City NC 
+offer good fly fishing?
+A1: Mac Brown Fly Fish guides lake 
+fly fishing trips on Bear Lake, Wolf 
+Lake, Tanasee Lake, Cheoah Lake, 
+Calderwood Lake, Fontana Lake, and 
+Nantahala Lake — all high mountain 
+impoundments near Bryson City in the 
+Smoky Mountains of Western North 
+Carolina. Lake trout are significantly 
+larger than typical river trout on 
+these waters. A crafted wooden dory 
+is the boat of choice for loch-style 
+lake fly fishing in this region.
+
+Q2: What is loch-style fly fishing?
+A2: Loch-style fly fishing is a 
+traditional UK method for stillwater 
+trout — fishing a cast of three flies 
+on a long leader from a drifting boat, 
+using varied retrieval rates to imitate 
+different aquatic insects and baitfish 
+at different depths. The bob fly — 
+top dropper closest to the rod — is 
+worked across the surface on the 
+retrieve to imitate emerging insects. 
+The middle dropper and point fly fish 
+at varying depths depending on line 
+type and retrieval speed. Mac Brown 
+learned loch-style techniques from 
+elite UK anglers including John Horsey 
+from England and David Downie from 
+Scotland during Fly Fishing Team USA 
+Youth training clinics in Bryson City.
+
+Q3: What fly rod and line setup is 
+best for lake fly fishing?
+A3: A 10-foot 7-weight rod is Mac 
+Brown's recommended setup for lake 
+fly fishing in the Smoky Mountains 
+— the longer length enables longer 
+casts with less effort and provides 
+better control during the retrieve. 
+Fly line choices for lakes are more 
+complex than river fishing — ranging 
+from floating lines and midge tips 
+through glass lines, sweep lines, 
+and full sinking lines with densities 
+from type 1 through type 14. Line 
+density determines sink rate and 
+the depth at which the flies fish. 
+All line types are provided on Mac 
+Brown Fly Fish guided lake trips.
+
+Q4: What flies work best for lake 
+and stillwater trout fishing?
+A4: Lake fly patterns differ 
+significantly from river flies. Mac 
+Brown's preferred lake patterns include 
+blobs, boobies, lures, and traditional 
+UK wet flies. Boobies — featuring foam 
+eyes — float independently of the fly 
+line, enabling unique presentations 
+where the line fishes beneath the fly 
+over grass flats. Blob patterns provide 
+strong attraction in low light. The 
+Humongous and Woolly Bugger are reliable 
+lure patterns. Most patterns are tied 
+on size 10 hooks. Traditional UK wet 
+fly color combinations — available 
+through Davy Wotton's patterns — have 
+been productive for hundreds of years.
+
+Q5: Can I book a guided lake fly 
+fishing trip near Bryson City NC?
+A5: Yes — Mac Brown Fly Fish offers 
+guided lake fly fishing trips year-round 
+on the high mountain impoundments near 
+Bryson City, NC. Lake trips are $875 
+for a full day for 1 or 2 anglers — 
+all rods, reels, lines, flies, and 
+tackle provided. Loch-style lake 
+fishing is particularly productive 
+in spring and fall when trout are 
+most actively feeding near the 
+surface. Book at macbrownflyfish.com 
+or call (828) 736-1469.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What lakes near Bryson City NC offer good fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish guides lake fly fishing trips on Bear Lake, Wolf Lake, Tanasee Lake, Cheoah Lake, Calderwood Lake, Fontana Lake, and Nantahala Lake — all high mountain impoundments near Bryson City in the Smoky Mountains of Western North Carolina. Lake trout are significantly larger than typical river trout on these waters. A crafted wooden dory is the boat of choice for loch-style lake fly fishing in this region."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is loch-style fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Loch-style fly fishing is a traditional UK method for stillwater trout — fishing a cast of three flies on a long leader from a drifting boat, using varied retrieval rates to imitate different aquatic insects at different depths. Mac Brown learned loch-style techniques from elite UK anglers including John Horsey from England and David Downie from Scotland during Fly Fishing Team USA Youth training clinics in Bryson City."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What fly rod and line setup is best for lake fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 10-foot 7-weight rod is Mac Brown's recommended setup for lake fly fishing — the longer length enables longer casts with less effort. Fly line choices range from floating lines and midge tips through glass lines, sweep lines, and full sinking lines with densities from type 1 through type 14. Line density determines sink rate and the depth at which the flies fish. All line types are provided on Mac Brown Fly Fish guided lake trips."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What flies work best for lake and stillwater trout fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown's preferred lake patterns include blobs, boobies, lures, and traditional UK wet flies. Boobies — featuring foam eyes — float independently of the fly line, enabling unique presentations over grass flats. Blob patterns provide strong attraction in low light. The Humongous and Woolly Bugger are reliable lure patterns. Most patterns are tied on size 10 hooks. Traditional UK wet fly color combinations have been productive for hundreds of years."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I book a guided lake fly fishing trip near Bryson City NC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — Mac Brown Fly Fish offers guided lake fly fishing trips year-round on the high mountain impoundments near Bryson City, NC. Lake trips are $875 for a full day for 1 or 2 anglers — all rods, reels, lines, flies, and tackle provided. Loch-style lake fishing is particularly productive in spring and fall when trout are most actively feeding near the surface."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

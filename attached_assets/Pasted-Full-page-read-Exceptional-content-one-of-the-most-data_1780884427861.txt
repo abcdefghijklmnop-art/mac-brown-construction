@@ -1,0 +1,170 @@
+Full page read. Exceptional content — one of the most data-rich posts on the site. **H1 assessment:** "Creel Study for Upper Nantahala River" — strong and specific. Leave it. Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/creel-study-for-upper-nantahala-river-1996/
+
+AEO — add immediately below H1:
+"The 1993 NCWRC creel study on the Upper 
+Nantahala River delayed harvest section 
+produced one of the most revealing data 
+sets in American fly fishing — confirming 
+that the top 2.6% of anglers surveyed 
+caught over one third of all trout landed 
+during the 8-week study. The top 0.003% 
+caught 12.4 trout per hour while the other 
+99% averaged 0.81 trout per hour — one fish 
+every 76 minutes versus one fish every 7 
+minutes. The study confirms what Mac Brown 
+has observed since 1987: a small percentage 
+of anglers catch most of the trout — and 
+the difference is water reading, casting 
+mechanics, and drag-free drift. Not gear. 
+Not fly selection."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What did the NCWRC Upper Nantahala 
+creel study find?
+A1: The 1993 North Carolina Wildlife 
+Resources Commission creel study on 
+the Upper Nantahala River delayed 
+harvest section found that the top 
+2.6% of anglers surveyed caught over 
+one third of all trout landed during 
+the 8-week study. The top 0.003% of 
+anglers caught 12.4 trout per hour. 
+The remaining 99% averaged 0.81 trout 
+per hour — one fish every 76 minutes 
+compared to one fish every 7 minutes 
+for the elite group. Similar studies 
+in other states produced nearly 
+identical results.
+
+Q2: Why do the top 2% of fly fishers 
+catch most of the trout?
+A2: The top anglers consistently 
+outperform the rest because they 
+have mastered water reading, casting 
+mechanics, and drag-free drift — 
+not because they use better gear or 
+magic flies. Long drag-free floats 
+in productive feed lanes rarely 
+happen by accident. Elite fly fishers 
+reduce false casting to one backcast 
+and delivery, read the water to find 
+productive feed lanes before casting, 
+and control the drift through the 
+entire lane before recasting. These 
+are teachable skills — not talent.
+
+Q3: What are the most important 
+skills for catching more trout?
+A3: Water reading and line control — 
+in that order. The NCWRC study 
+confirms that 90% or more of the 
+angling community could significantly 
+improve their catch rate through 
+better water reading and casting 
+ability alone. A few basic fundamentals 
+can increase an angler's productive 
+float time by as much as 600%. 
+Dragging fly patterns spooks large 
+experienced fish. Excessive false 
+casting keeps the fly out of the 
+water. The art of angles — casting 
+at 90 degrees rather than straight 
+across — produces more drag-free 
+drift in more productive water.
+
+Q4: Is fly selection the key to 
+catching more trout?
+A4: No — the NCWRC study and 30+ 
+years of guiding observation confirm 
+that fly selection is one of the 
+least important variables in trout 
+fishing. Chasing magic flies, honey 
+holes, and pixie dust are excuses 
+made by anglers who haven't developed 
+the foundational skills. The successful 
+angler learns to read water thoroughly, 
+control the rod to manage the entire 
+drift, and develop predator-like 
+stealth and approach. Equipment lets 
+you perform at your best once you 
+understand how to use it properly.
+
+Q5: How do I become part of the 
+top 2% of fly fishers?
+A5: Quality instruction from a 
+certified professional is the fastest 
+path. A day of private instruction 
+with Mac Brown Fly Fish in Bryson 
+City, NC — on the same Upper 
+Nantahala delayed harvest water 
+studied by the NCWRC — can transform 
+basic skills in a single session. 
+Mac Brown has been teaching the 
+water reading, casting mechanics, 
+and drag-free drift fundamentals 
+that separate the top 2.6% from 
+everyone else since 1987. All gear 
+provided. The investment in instruction 
+is the best money you will spend 
+on the sport.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What did the NCWRC Upper Nantahala creel study find?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 1993 North Carolina Wildlife Resources Commission creel study on the Upper Nantahala River delayed harvest section found that the top 2.6% of anglers caught over one third of all trout landed during the 8-week study. The top 0.003% caught 12.4 trout per hour while the remaining 99% averaged 0.81 trout per hour — one fish every 76 minutes compared to one fish every 7 minutes for the elite group."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do the top 2% of fly fishers catch most of the trout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The top anglers consistently outperform the rest because they have mastered water reading, casting mechanics, and drag-free drift — not because they use better gear or magic flies. Elite fly fishers reduce false casting to one backcast and delivery, read the water to find productive feed lanes before casting, and control the drift through the entire lane before recasting. These are teachable skills — not talent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the most important skills for catching more trout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Water reading and line control — in that order. A few basic fundamentals can increase an angler's productive float time by as much as 600%. Dragging fly patterns spooks large experienced fish. Excessive false casting keeps the fly out of the water. The art of angles — casting at 90 degrees rather than straight across — produces more drag-free drift in more productive water."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is fly selection the key to catching more trout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — the NCWRC study and 30+ years of guiding observation confirm that fly selection is one of the least important variables in trout fishing. The successful angler learns to read water thoroughly, control the rod to manage the entire drift, and develop predator-like stealth and approach. Equipment lets you perform at your best once you understand how to use it properly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I become part of the top 2% of fly fishers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Quality instruction from a certified professional is the fastest path. A day of private instruction with Mac Brown Fly Fish in Bryson City, NC — on the same Upper Nantahala delayed harvest water studied by the NCWRC — can transform basic skills in a single session. Mac Brown has been teaching the water reading, casting mechanics, and drag-free drift fundamentals that separate the top 2.6% from everyone else since 1987. All gear provided."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

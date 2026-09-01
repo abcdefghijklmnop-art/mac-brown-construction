@@ -1,0 +1,37 @@
+- [FFGS schema implementation](ffgs-schema.md) — schema.tsx created at artifacts/ffgs/src/lib/schema.tsx; LocalBusiness+EducationalOrganization sitewide, Course on guide school + all 10 city pages, Article on blog posts, FAQPage on guide-school.
+- [MBFF Next.js schema implementation](mbff-schema.md) — schema.ts at src/lib/schema.ts; LocalBusiness sitewide in layout, Course/Service/WebPage/FAQPage/Article per page type, cityTripSchema for all 11 city pages.
+- [MBFF metadata server-wrapper pattern](mbff-server-wrapper.md) — "use client" pages get a thin server page.tsx (exports metadata with title absolute) + *-client.tsx for content. Use title:{absolute:""} to bypass the layout template.
+- [AI editing via bash](ai-editing-bash.md) — code_execution sandbox lacks process.env; use Python urllib in bash instead for Anthropic API calls.
+- [Vercel Next.js monorepo images](vercel-nextjs-monorepo-images.md) — Vercel scans public/ from workspace root not Root Directory; fix with cp -rL in build script + dereference symlinks first.
+- [Responsive image optimization](responsive-image-optimization.md) — srcSet pattern + mobile WebP versions for both sites; covers all pages audited in the PageSpeed session.
+- [MBFF homepage LCP fix](mbff-homepage-lcp.md) — hero slider "use client" caused 9.3s LCP; fixed by server-rendering first slide in page.tsx with HeroSliderClient overlay that fades in after hydration.
+- [Logo LCP fix — server slot pattern](logo-lcp-fix.md) — logo inside "use client" SiteNav caused 1-2s element render delay; fixed by passing logo as ReactNode slot from server layout.tsx into SiteShell/SiteNav.
+- [MBFF hero image performance](mbff-hero-performance.md) — decoding="async" fix + 1100px intermediate WebP images to reduce hero payload on mobile Lighthouse.
+- [Favicon public/ override rule](favicon-public-override.md) — favicon.ico + favicon.svg in public/ always win over Next.js app/icon.png; check and replace both on every new site.
+- [Next.js basePath dev preview blank page](nextjs-basepath-dev-preview.md) — basePath root returns empty 200 in Next.js 15 dev; fix with output:'export' in dev mode only (no Vercel impact).
+- [Preview build/restart ordering](preview-build-restart.md) — run production builds before restarting Next.js dev workflows; otherwise stale `.next` assets can make the preview appear unstyled.
+- [Vercel env vars vs Replit secrets](vercel-env-vars.md) — Resend and all secrets must be added separately in Vercel dashboard; Replit secrets do NOT carry over to Vercel deployments.
+- [AEO hero tagline rule](aeo-hero-tagline.md) — hero overlay italic taglines belong in body paragraphs, not the hero overlay. Move them on all new/edited pages.
+- [FFGS schema entity graph](ffgs-entity-graph.md) — @id added to sitewide schema, parentOrg→MBFF, all city provider @id refs, Person schema on instructor pages.
+- [FFGS Google logo square fix](ffgs-logo-square.md) — schema logo must be ffgs-logo-square.webp (188x188, white bg); layout.tsx already set; do NOT revert to ffgs-logo.webp (188x120 landscape causes black bars in Google circle).
+- [MBFF Google logo square fix](mbff-logo-square.md) — schema logo must be mbff-logo-square.webp (240x240, white bg) at root /public/; schema.ts already set; old path /images/mbff-logo.webp was a 404.
+- [FFGS itinerary change (pending)](ffgs-itinerary-change.md) — user wants 4 days Thu–Sun and $4,595; full scope mapped, waiting for go-ahead to implement.
+- [FFGS email routes and PDF attachments](ffgs-email-routes.md) — column AB paid fires Next.js route at ffgs-nextjs/src/app/api/ffgs-payment-confirmed/route.ts; PDFs in public/assessments/ NOT api-server/static/pdfs/.
+- [FFGS Apps Script payment trigger](ffgs-apps-script.md) — sheet tab = "Reservations", trigger col = T (20), function = onEditFFGSPayment, endpoint = /api/ffgs-payment-confirmed.
+- [No ACA references](no-aca-rule.md) — never mention ACA (American Canoe Association) anywhere on either site; remove on sight.
+- [lib/schedule as source of truth](lib-schedule-source.md) — workshop cards on the Masterclass parent page come from masterclassSessions in lib/schedule/src/index.ts; renaming a workshop requires updating that array + rebuild libs.
+- [Speakable schema — DROPPED](speakable-schema.md) — user dropped speakable permanently; never add speakablePageSchema(), .speakable-aeo class, or any Speakable JSON-LD to any page on either site.
+- [Transactional email logo transparency](email-logo-transparency.md) — transparent PNG/WebP logos show a black box in some email clients (Outlook); flatten onto the container's exact bg color instead, don't rely on alpha in emails.
+- [FFGS BlogPostLayout contentHtml H1 rule](ffgs-blog-h1-rule.md) — sanitizeContentHtml converts H1→H2; never put an H1 in contentHtml; the layout renders the post title as a real H1 in the hero. Cross-domain links (MBFF↔FFGS) must use <a>, not Next.js <Link>.
+- [FFGS blog typeMap](ffgs-blog-typemap.md) — typeMap in [slug]/page.tsx controls Article/TechArticle/BlogPosting; defaults to TechArticle; location/hub posts should be "Article"; always add non-technical posts explicitly.
+- [Follow-up task rules](follow-up-task-rules.md) — never propose tasks with verb titles (Build, Push, Start, Deploy); never propose deployment steps as follow-ups; user runs push.sh themselves.
+- [Content number consistency](content-number-consistency.md) — stats (years, counts, prices) appearing in AEO, body copy, faculty intro, and schema on the same page must all match; grep every location when updating one.
+- [Reuse existing image code](reuse-existing-image-code.md) — grep for the image filename before writing any new img/hero/srcSet code; copy the working block from wherever it already exists on the site.
+- [Hero shot — one and done rule](hero-shot-rule.md) — grep image filename + hero-slider.tsx before any hero work; copy exact aspect ratio, overlay gradient, object-position, mobile srcSet. Standard FFGS: aspect-video max-h-[75vh] min-h-[480px], gradient from-black/60 via-black/10 to-black/30.
+- [MBFF booking notification architecture](mbff-booking-notifications.md) — reserve form email to Mac removed Jul 28; Mac only hears on waiver, payment method, or Apps Script col U trigger; review email stamped in col AB (28), NOT col Y.
+- [Apps Script canonical location](apps-scripts-canonical-location.md) — all live Google Apps Scripts live in apps-scripts/; always update that folder when changing a script; includes verified MBFF Bookings column map.
+- [MBFF blocked dates calendar system](mbff-blocked-dates.md) — BlockedDates tab in School Dates sheet (no space); API now reads it; YYYY-MM-DD format; manual entry by Mac.
+- [Mac Brown bio corrections](mac-brown-bio-corrections.md) — "FFI Lifetime Achievement Award" (not Fly Fishing Show); "former Fly Fishing Team USA Youth Team coach" (not current, not full Team USA).
+- [FFGS cost & value page structure](ffgs-worth-it-page-structure.md) — "Proven Over Popular" is section 4 (after quick answer intro), not near the bottom; old "The Bottom Line" heading is gone.
+- [FFGS Schools submenu order](ffgs-schools-submenu-order.md) — user-specified priority: Fish Better → Become a Guide → Cost & Value → Upcoming Dates → New to FF → Certification → What to Bring → Locations.
+- [Translation widget safety](translation-widget-safety.md) — Google widget and proxy handoff were rejected; visitors can use browser-native translation instead.

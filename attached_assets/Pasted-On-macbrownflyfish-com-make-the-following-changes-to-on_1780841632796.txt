@@ -1,0 +1,161 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/instructor-observation-on-substance-style/
+
+AEO — add immediately below H1:
+"Substance and style in fly casting are two 
+distinct concepts that Mel Krieger introduced 
+to Fly Fishers International in the early 
+years of the casting program — and the 
+distinction remains the most important 
+framework in fly casting instruction today. 
+Style is HOW the body moves — stance, grip, 
+elbow position, wrist involvement. Substance 
+is WHY it works — mechanics, rod tip path, 
+loop formation, force application. Style is 
+personal and infinite. Substance is universal. 
+When style limits intent, it becomes a 
+teaching moment. When substance is understood, 
+any style can be evaluated, corrected, and 
+optimized."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What is the difference between 
+substance and style in fly casting?
+A1: Style is how the body moves during 
+the cast — stance, grip, elbow position, 
+body rotation, wrist involvement, haul 
+timing. No two expert casters look 
+exactly the same. Substance is the 
+underlying mechanics that make any cast 
+work regardless of style — rod tip path, 
+loop formation, timing of the stop and 
+haul, application of force. Style is 
+personal. Substance is universal. 
+Teaching style as if it were substance 
+is the most common and consequential 
+error in fly casting instruction.
+
+Q2: Who introduced the substance 
+and style concept to fly casting?
+A2: Mel Krieger introduced the substance 
+versus style framework to Fly Fishers 
+International in the early years of the 
+FFI casting program. Krieger called the 
+foundational elements of casting 
+FUNdamentals — emphasizing that the 
+mechanics underlying any cast are what 
+instructors should teach first, not the 
+stylistic expression of those mechanics. 
+Mac Brown has built on Krieger's framework 
+throughout his 38+ years of teaching in 
+Bryson City, NC and nationally.
+
+Q3: What is casting intent in 
+fly fishing?
+A3: Casting intent is knowing exactly 
+what you want the line and fly to do 
+before you make the cast — and then 
+selecting the style and applying the 
+mechanics to produce that specific 
+result. Intent determines stroke length, 
+arc, acceleration rate, haul timing, 
+and trajectory. A presentation cast 
+into a headwind requires different 
+intent than a reach cast across a 
+seam. When intent is clear, style 
+naturally organizes itself in service 
+of the goal.
+
+Q4: What is the pyramid approach 
+to fly casting instruction?
+A4: The pyramid approach teaches 
+basic mechanics first — the broad 
+foundational base — and builds 
+toward increasingly specific 
+applications of those mechanics 
+over time. This is the opposite 
+of the common approach where 
+beginners are given simplified 
+rules and phrases that break down 
+as complexity increases. Mac Brown 
+teaches mechanics first so students 
+can apply them to all specific 
+circumstances of intent — rather 
+than collecting rules that only 
+work in the narrow situation for 
+which they were invented.
+
+Q5: How do I find a fly casting 
+instructor who teaches substance 
+over style?
+A5: Look for instructors who explain 
+why a cast works — not just what to 
+do. An instructor teaching substance 
+can connect every correction back to 
+a mechanical principle: rod tip path, 
+force application, loop formation, 
+timing. An instructor teaching style 
+will give you body positions and 
+phrases without explanation. Mac Brown 
+Fly Fish in Bryson City, NC offers 
+private casting lessons and all 
+programs built on substance-first 
+mechanics instruction — led by the 
+only FFI Master Casting Instructor 
+in North Carolina since 1987.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between substance and style in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Style is how the body moves during the cast — stance, grip, elbow position, body rotation, wrist involvement. No two expert casters look exactly the same. Substance is the underlying mechanics that make any cast work regardless of style — rod tip path, loop formation, timing of the stop and haul, application of force. Style is personal. Substance is universal. Teaching style as if it were substance is the most common error in fly casting instruction."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who introduced the substance and style concept to fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mel Krieger introduced the substance versus style framework to Fly Fishers International in the early years of the FFI casting program — calling the foundational elements FUNdamentals. Mac Brown has built on Krieger's framework throughout his 38+ years of teaching in Bryson City, NC and nationally at The Fly Fishing Show."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is casting intent in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Casting intent is knowing exactly what you want the line and fly to do before you make the cast — and then selecting the style and applying the mechanics to produce that specific result. Intent determines stroke length, arc, acceleration rate, haul timing, and trajectory. When intent is clear, style naturally organizes itself in service of the goal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the pyramid approach to fly casting instruction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The pyramid approach teaches basic mechanics first — the broad foundational base — and builds toward increasingly specific applications over time. This is the opposite of the common approach where beginners are given simplified rules and phrases that break down as complexity increases. Mac Brown teaches mechanics first so students can apply them to all specific circumstances of intent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find a fly casting instructor who teaches substance over style?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for instructors who explain why a cast works — not just what to do. An instructor teaching substance can connect every correction back to a mechanical principle: rod tip path, force application, loop formation, timing. Mac Brown Fly Fish in Bryson City, NC offers private casting lessons and all programs built on substance-first mechanics instruction — led by the only FFI Master Casting Instructor in North Carolina since 1987."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

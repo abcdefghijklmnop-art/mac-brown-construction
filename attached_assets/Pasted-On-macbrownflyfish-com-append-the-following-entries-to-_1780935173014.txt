@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 7.
+
+    {
+      "@type": "Question",
+      "name": "What is jigging in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Jigging is a technique used with subsurface patterns — especially nymph fishing — where the angler moves the fly up and down erratically through the water vertically."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a knotless tapered leader in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A knotless tapered leader is a fly fishing tapered leader manufactured from a single piece of monofilament."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a knotted leader in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A knotted leader is a fly fishing leader constructed by knotting sections of different-diameter leader material together to create a tapered leader."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a large arbor reel in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A large arbor reel is wider and larger in diameter than a standard reel. Advantages include an increased line retrieve rate and quick stripping of long lengths of line when casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a larva in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The larva is the aquatic growth stage of caddis and some other insects. Many caddis larva species build a protective covering of sticks, leaves, and fine gravel during this stage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a leader in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The leader is the section of monofilament line between the fly line and the fly. It is usually tapered so that it will deliver the fly softly and away from the fly line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a lie in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lies are areas in a river or lake where fish hang out. Optimum or prime lies are typically out of the main current, provide cover from predators, or offer a good source of insects and other food."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is line weight in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The weight of the first 30 feet of a fly line determines the line weight of a rod or reel. This measurement system is used to standardize fly lines when matching them to fly rods of differing stiffness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is loading the rod in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When a forward or backward cast is made the weight of the line puts a bend in the rod — loading or storing the energy necessary for the ensuing forward or backward cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is matching the hatch in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Matching the hatch is an attempt by a fly angler to select an artificial fly that imitates the color, size, shape, and behavior of natural insects that fish are actively feeding on. Often when a hatch is occurring fish become very selective and refuse insects that do not match the predominant species present."
+      }
+    }
+
+Confirm saved. Stand by for Paste 7.

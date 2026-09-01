@@ -1,0 +1,72 @@
+City-specific pages (often called "local landing pages") are notoriously hard to get indexed because Google's modern systems aggressively target what they perceive as "doorway pages" or "duplicate templates."
+
+If you have city pages (e.g., targeting individual towns for your fly fishing guide services), and they are sitting in Google Search Console as **"Discovered - currently not indexed"** or **"Crawled - currently not indexed,"** Google's algorithms have decided the pages aren't unique enough or easily discoverable.
+
+Here is the exact diagnostic breakdown of **why** this is happening to your city pages and **how to force Google to index them**.
+
+---
+
+## Part 1: Why Google is Snubbing Your City Pages
+
+### 1. The "Template Duplication" Trap (The #1 Reason)
+
+Google is incredibly smart at fingerprinting page templates. If your page for *City A* is 95% identical to your page for *City B*—with only the city name, zip code, and maybe a river name swapped out—Google’s Helpful Content system flags it as **thin, programmatic, or duplicate content**.
+
+* **Google's logic:** "Why should I index 20 pages that all say the exact same thing, just with different city names?" It will index one or two, and exclude the rest.
+
+### 2. The "Orphan Page" Problem (No Internal Links)
+
+If you generated these city pages but they aren’t linked naturally from major pages on your site, Google has a hard time finding them—and even if it does, it assumes they aren’t important.
+
+* A URL listed *only* in your `sitemap.xml` with no real human-clickable links pointing to it is an "orphan." Google deprioritizes crawling orphans.
+
+### 3. Next.js Client-Side Rendering Bottlenecks
+
+If your city pages are dynamic and rely entirely on client-side JavaScript to render the content (instead of being Server-Side Rendered (SSR) or Static Site Generated (SSG) in Next.js), Googlebot might hit the page, see a blank template before the JavaScript loads, and leave without indexing it.
+
+---
+
+## Part 2: The Action Plan to Get Them Indexed
+
+To get Google to value and index these pages, you need to prove they are high-quality, distinct, and integrated into your site structure.
+
+### Step 1: Push the "Uniqueness Ratio" Above 60%
+
+To survive modern indexing filters, each city page needs to have **genuinely unique, localized information** that cannot be found on the other city pages.
+
+* **Add local details:** Mention specific local boat ramps, rivers, fly shops, local regulations, or hatches unique to that specific area.
+* **Embed unique Google Maps:** Embed a custom Google Map of the specific city or access point on each page.
+* **Local Testimonials:** Put reviews from clients who fished specifically in *that* location.
+* *Rule of thumb:* If you strip the city name out, a reader should still easily tell which area the page is talking about.
+
+### Step 2: Build an Internal Linking "Hub" (No More Orphans)
+
+Do not hide your city pages. Give Googlebot a clear pathway to crawl them.
+
+* **Create a Directory Page:** Create a main "Areas We Serve" or "Destinations" page.
+* **Link them all:** List and link to every single city page from this hub. Link to this hub page directly from your main navigation menu or your footer.
+* **Contextual links:** If you have a blog post about a specific river, insert a natural link to the nearest city page.
+
+### Step 3: Ensure Next.js is Prerendering the Pages
+
+Because you are using Next.js on Vercel, make sure these pages are being built using **Static Generation (`getStaticProps` / `generateStaticParams`)** or **Server-Side Rendering**.
+
+* **The Test:** Go to one of your city pages, right-click, and select **View Page Source**.
+* If you search for your city's name in the raw HTML source code and *cannot* find it, Googlebot can't see it either because it's rendering too late via JavaScript. If you *can* see the text in the raw source, your Next.js rendering is perfect.
+
+### Step 4: Use a "Sitemap Index" and Submit
+
+Make sure these city URLs are explicitly listed in your `sitemap.xml`.
+
+1. Once the sitemap is updated with the city pages, go to **Google Search Console -> Sitemaps**.
+2. Re-submit the sitemap URL to force Google to process the new list.
+
+### Step 5: Run a Manual GSC Live Test
+
+For 2 or 3 of your most important city pages:
+
+1. Put the URL in the GSC top search bar.
+2. Click **Test Live URL** (this forces Google to render the page on the spot and confirms if there are any mobile-friendly or loading errors).
+3. Click **Request Indexing**.
+
+By adding unique local data, linking them clearly from a "Locations" hub page, and ensuring Next.js is serving pre-rendered HTML, Google will quickly recognize their value and start pushing them into the index.

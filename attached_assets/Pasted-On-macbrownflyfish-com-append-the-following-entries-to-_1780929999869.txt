@@ -1,0 +1,61 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 10.
+
+    {
+      "@type": "Question",
+      "name": "What is a dynamic roll cast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A dynamic roll cast makes use of the fly line moving backward in a D or V loop to have greater fly line distance off the surface of the water before the forward delivery. It requires keener timing compared to a static roll cast and produces greater line speed and distance. The dynamic roll cast is the foundation of all Spey casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is optimal load placement in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Optimal load placement is the positioning of the fly line on the back cast that distributes the line's weight most efficiently for bending the rod deep on the forward cast. This placement is critical for allowing the rod to perform more of the work during the cast. Incorrect load placement — line too high or too low — reduces the energy available for the forward delivery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the casting analyzer in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The casting analyzer is a tool invented by Noel Perkins and Bruce Richards used for examining the smoothness of applied force during the casting stroke. It measures the symmetry of the back and forward casts for translatory casts and contains data from elite casters to compare your application of power. Mac Brown used casting analyzer data in his loop morphing research published in The Loop journal of Fly Fishers International."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a closed stance in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In a closed stance the foot, hip, and shoulder on the casting side are situated in front of the opposite foot. This position creates great torque if the hips and shoulders are rotated in conjunction with the back-and-forth casting motion. It also enables the caster to haul to the maximum distance in both directions — preferred by many distance casters and tournament competitors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an open stance in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In an open stance the casting side foot is in the back slightly closer to alignment than the front one. This makes visibility of the fly line easier in both directions and introduces greater hip rotation during the casting stroke. It may limit haul distance because the body blocks hauling length — a consideration for distance casters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a square stance in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In a square stance both feet are perpendicular to the direction of the intended forward cast — typically shoulder-width apart as if standing on a line. This stance takes advantage of using the abdomen for power from the core and is used mainly for short to medium distance casts where maximum power from body rotation is not required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a single haul in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A single haul is a method of accelerating the rod tip and line speed using a haul on either the forward cast or the back cast but not both. It is usually an accident on the back cast for beginner casters discovering the double haul for the first time. Used deliberately the singl

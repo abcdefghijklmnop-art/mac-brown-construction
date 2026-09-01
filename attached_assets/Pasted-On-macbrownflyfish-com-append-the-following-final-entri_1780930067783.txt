@@ -1,0 +1,90 @@
+On macbrownflyfish.com append the following 
+final entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+then run bash push.sh to deploy all changes.
+No other changes.
+
+    {
+      "@type": "Question",
+      "name": "What is the straight line path SLP in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The straight-line path SLP describes the brief period of time that the rod tip is traveling in a straight line during the casting stroke. Smooth acceleration and hauling the line help achieve a longer SLP — useful for straight-line casting for accuracy and distance. The longer the SLP the tighter and more efficient the resulting loop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the hand rod path in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The hand-rod path describes the path and distance the rod hand follows when performing the cast. These paths include simple geometric patterns such as straight lines, circular, elliptical, triangular, and smooth curves. The shape of the hand-rod path directly determines the loop plane and loop shape — straight paths produce straight loops, curved paths produce curves."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is timing in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Timing in fly casting is the time period for each movement during the overall casting sequence — the execution of swing movements in the proper sequence. For example using the arm before the weight transfer of the body would be a timing dysfunction. Timing also refers to when the haul begins and ends relative to the rod stroke — the synchronization of all elements at the stop is what produces maximum line speed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a bob fly in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The bob fly is the top dropper of the leader — the fly positioned closest to the fly rod in a cast of multiple flies. In loch-style lake fishing the bob fly is worked across the surface on the retrieve to imitate emerging insects. The bob fly position is the most visible and most actively fished fly in a multi-fly rig."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a feed lane in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A feed lane is an area where food organisms are heavily concentrated in the water current — the most productive place to present a fly. Fish hold in positions that allow them to intercept food with minimal energy expenditure. Identifying feed lanes by reading surface currents, foam lines, and seams is one of the most important water reading skills in fly fishing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a prime lie in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A prime lie is an area in the stream that offers fish both food and shelter from predators. Prime lies are where the largest and most dominant fish in any given section hold — combining easy access to food lanes with overhead cover or depth for protection. Identifying prime lies before making a cast is the strategy component that separates consistent anglers from occasional ones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is conservation of energy in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Conservation of energy in fly casting states that the sum of potential and kinetic energy within the casting system remains constant. The gain of kinetic energy must equal the loss of potential energy in any process of the system. This principle explains why a rod bent deeply at the stop releases that stored energy back into the line — the potential energy of the bent rod converts to kinetic energy in the unrolling loop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is momentum in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Momentum in fly casting is the measure of motion for a property of matter that relates the line's mass and its velocity. A heavier fly line carries more momentum at the same speed than a lighter one — requiring more force to accelerate but delivering more energy to the leader at turnover. Understanding momentum explains why line weight selection matters for presentation quality."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the roll cast pickup in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The roll cast pickup is a method of beginning the casting stroke in which the fly line becomes aerial to load the line in front and break the surface tension bond of water. The pickup enables a more efficient casting cycle allowing you to shoot line on the pickup. The steps include a roll cast pickup followed by ONE back cast and a delivery cast — minimizing false casting and keeping the fly in the water longer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a direction altered cast in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A direction altered cast is a casting stroke in which the forward or backward cast does not end up in the same plane from which it started. Direction altered casts are used to change the presentation angle without multiple false casts — single-handed Spey casts, reach casts, and curve casts all involve direction alteration to place the fly in positions a straight cast cannot reach."
+      }
+    }
+
+Then run bash push.sh to deploy. 
+No other changes.

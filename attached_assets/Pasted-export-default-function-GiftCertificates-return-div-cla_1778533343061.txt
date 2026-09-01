@@ -1,0 +1,180 @@
+export default function GiftCertificates() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            The Gift That Lasts a Lifetime
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Gift Certificates
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed max-w-2xl mx-auto">
+            Give the angler in your life something no fly shop can sell — a day on the finest trout water in the eastern United States with the most experienced guide in the region.
+          </p>
+          
+            href="tel:8287361469"
+            className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors inline-block"
+          >
+            Call to Purchase — 828-736-1469
+          </a>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c] inline-block">
+            The Perfect Gift for Any Angler
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto">
+            Gear gets used up. Flies get lost. Rods get replaced. But the knowledge, confidence, and memories built on a great day of fly fishing on the rivers of the Great Smoky Mountains — those stay with a person forever. A Mac Brown Fly Fish gift certificate is not just a day on the water. It is an investment in someone's journey as an angler that pays dividends for the rest of their life.
+          </p>
+        </div>
+      </section>
+
+      {/* Gift Options */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What You Can Give
+          </h2>
+          <p className="text-gray-600 italic mb-8 text-lg">
+            Gift certificates are available for any program or dollar amount. Here are the most popular options:
+          </p>
+
+          <div className="grid sm:grid-cols-2 gap-6">
+            {[
+              {
+                icon: "🎣",
+                title: "Guided Wade Trip",
+                desc: "A full day in the water on the mountain streams and tailwaters of the Great Smoky Mountains. All gear provided. Real fish, real instruction, real memories. Perfect for the angler who wants to fish — and fish better.",
+                link: "/instructional-wade-trips",
+              },
+              {
+                icon: "🚣",
+                title: "Guided Float Trip",
+                desc: "A day drifting the Tuckasegee River in a drift boat — covering water most anglers never reach, learning the river from the finest guide in the region. Comfortable, productive, and genuinely unforgettable.",
+                link: "/instructional-float-trips",
+              },
+              {
+                icon: "🏫",
+                title: "Fly Casting Instruction",
+                desc: "One hour of private casting instruction from North Carolina's only Master Casting Instructor — guaranteed to improve the recipient's casting permanently or the lesson is free. The gift that fixes what years of self-teaching couldn't.",
+                link: "/fly-fishing-instruction",
+              },
+              {
+                icon: "🎓",
+                title: "Fly Fishing School",
+                desc: "A weekend immersion program covering casting, reading water, tactics, entomology, and everything that separates consistent anglers from everyone else. The gift that deepens understanding at every level.",
+                link: "/smoky-mountain-weekend-schools",
+              },
+              {
+                icon: "🏔️",
+                title: "Backcountry Trip",
+                desc: "Remote streams deep in the Great Smoky Mountains National Park — wild fish, pristine wilderness, and the kind of day on the water that becomes a story told for years. For the adventurous angler who wants something extraordinary.",
+                link: "/backcountry-trout-fishing",
+              },
+              {
+                icon: "🌊",
+                title: "Guided Lake Trip",
+                desc: "Stillwater fly fishing on the mountain lakes of the Smoky Mountains — a completely different game from river fishing and one of the best-kept secrets in the region. Trophy-sized trout and a stunning setting.",
+                link: "/instructional-lake-trips",
+              },
+            ].map((item, i) => (
+              
+                key={i}
+                href={item.link}
+                className="bg-white rounded-xl p-8 border border-gray-200 hover:shadow-md transition-shadow block"
+              >
+                <div className="text-3xl mb-4">{item.icon}</div>
+                <h3 className="text-xl font-bold text-[#1a3a5c] mb-3">{item.title}</h3>
+                <p className="text-gray-600 leading-relaxed text-sm">{item.desc}</p>
+                <p className="text-[#1D9E75] font-bold text-sm mt-4">Learn more →</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Who It's For */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Who This Gift Is For
+          </h2>
+          <div className="grid sm:grid-cols-3 gap-6">
+            {[
+              {
+                icon: "🌱",
+                title: "The Complete Beginner",
+                desc: "Someone who has always wanted to try fly fishing but never had the right introduction. A guided trip with Mac Brown is the finest first experience available anywhere in the Southeast.",
+              },
+              {
+                icon: "📈",
+                title: "The Frustrated Intermediate",
+                desc: "The angler who has been fishing for years and hit a wall they cannot break through alone. One casting lesson or guided day fixes more than years of solo practice.",
+              },
+              {
+                icon: "🏆",
+                title: "The Serious Angler",
+                desc: "The accomplished fly fisher who wants to go deeper — into advanced technique, remote water, or the kind of instruction that only comes from a Master Casting Instructor with four decades on these rivers.",
+              },
+            ].map((item, i) => (
+              <div key={i} className="bg-gray-50 rounded-xl p-6 border border-gray-200 text-center">
+                <div className="text-3xl mb-3">{item.icon}</div>
+                <h3 className="font-bold text-[#1a3a5c] mb-3">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Occasions */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Perfect for Any Occasion
+          </h2>
+          <div className="grid sm:grid-cols-4 gap-4">
+            {[
+              { icon: "🎄", label: "Christmas" },
+              { icon: "👨‍👧", label: "Father's Day" },
+              { icon: "🎂", label: "Birthdays" },
+              { icon: "💍", label: "Anniversaries" },
+              { icon: "🎓", label: "Graduation" },
+              { icon: "💼", label: "Corporate Gifts" },
+              { icon: "🏖️", label: "Retirement" },
+              { icon: "❤️", label: "Just Because" },
+            ].map((item, i) => (
+              <div key={i} className="bg-white rounded-xl p-4 border border-gray-200 text-center">
+                <div className="text-3xl mb-2">{item.icon}</div>
+                <p className="font-semibold text-[#1a3a5c] text-sm">{item.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            How It Works
+          </h2>
+          <div className="space-y-4">
+            {[
+              { step: "1", title: "Call or Email Us", desc: "Tell us who the gift is for, what experience you have in mind, and any details about the recipient's skill level or interests. We will help you choose the perfect program." },
+              { step: "2", title: "We Issue the Certificate", desc: "A personalized gift certificate is prepared and delivered to you — ready to present for any occasion. Certificates are available for specific programs or for a dollar amount the recipient applies to their chosen experience." },
+              { step: "3", title: "They Choose Their Date", desc: "The recipient contacts us directly to schedule their trip or lesson at a time that works for them. Gift certificates are valid for one full year from the date of purchase." },
+              { step: "4", title: "A Day They Will Never Forget", desc: "They show up. We handle everything. They leave knowing more, casting better, and understanding fly fishing in a way that makes every future trip on the water richer than the last." },
+            ].map((item, i) => (
+              <div key={i} className="flex gap-6 items-start bg-gray-50 rounded-xl p-6 border border-gray-200">
+                <div className="w-12 h-12 rounded-full bg-[#1D9E75] text-white font-bold text-xl flex items-center justify-center flex-shrink-0">
+                  {item.step}
+                </div>
+                <div>
+                  <h3 className="font-bold text-[#1a3a5c] text-lg mb-1">{item.tit

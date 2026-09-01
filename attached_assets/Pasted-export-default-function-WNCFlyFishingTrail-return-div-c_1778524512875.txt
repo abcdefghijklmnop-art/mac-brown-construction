@@ -1,0 +1,75 @@
+export default function WNCFlyFishingTrail() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            Guided Fly Fishing · Jackson County & Beyond · Since 1987
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Western North Carolina Fly Fishing Trail
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed">
+            The WNC Fly Fishing Trail showcases the finest trout waters of Jackson County — and Mac Brown Fly Fish has been guiding every mile of it since 1987.
+          </p>
+          
+            href="/contact"
+            className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors inline-block"
+          >
+            Book Your Trip
+          </a>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            About the WNC Fly Fishing Trail
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              The Western North Carolina Fly Fishing Trail is a program developed to showcase the extraordinary trout waters of Jackson County — one of the most diverse and productive fly fishing regions in the eastern United States. Featuring tailwaters, wild mountain streams, Delayed Harvest sections, and remote backcountry creeks, the WNC Fly Fishing Trail puts some of the Southeast's finest water on the map for visiting and local anglers alike.
+            </p>
+            <p>
+              Mac Brown Fly Fish has guided fly fishing wade and float trips on every piece of water featured on the trail. This is not water we have visited occasionally — it is water we have fished hundreds of times, in every season, at every water level, through every hatch cycle the region produces. That depth of knowledge translates directly into better days on the water for the anglers who fish with us.
+            </p>
+            <p>
+              The trail waters are accessible from Cashiers, Highlands, Asheville, Sylva, Dillsboro, Bryson City, Cherokee, and every other town in the Western NC region. Wherever you are staying, world-class fly fishing is within easy reach — and we know exactly which water to fish on any given day.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Waters */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Featured Waters on the WNC Fly Fishing Trail
+          </h2>
+          <p className="text-gray-600 italic mb-8">
+            Mac Brown Fly Fish has guided every one of these waters. Here are some favorites:
+          </p>
+
+          <div className="space-y-6">
+            {[
+              {
+                name: "Tuckasegee River — Delayed Harvest",
+                type: "Tailwater / Delayed Harvest",
+                description: "The most popular guided water on the entire trail. From October through May the Delayed Harvest section in Webster, NC is loaded with exceptional numbers of trout. Float trips cover miles of productive water from a drift boat. Wade trips put you in the river where the fish are holding. Either way this is a day on the water that visitors remember long after they leave Western NC.",
+                towns: "Sylva · Dillsboro · Bryson City · Cashiers · Asheville",
+                highlight: "Best for: Float trips, wade trips, all skill levels, October through May",
+              },
+              {
+                name: "Scotts Creek",
+                type: "Wild Mountain Stream",
+                description: "A beautiful Jackson County creek flowing through Sylva offering quality wild trout fishing in an accessible and scenic setting. One of the personal favorites on the trail — a stream that rewards careful wading and precise presentation with wild fish that have seen real pressure and developed genuine selectivity.",
+                towns: "Sylva · Dillsboro",
+                highlight: "Best for: Wild trout, wade fishing, technical presentation",
+              },
+              {
+                name: "Panthertown Creek",
+                type: "Backcountry Wild Stream",
+                description: "Flowing through the spectacular Panthertown Valley — sometimes called the Yosemite of the East — Panthertown Creek offers outstanding wild trout fishing in one of the most beautiful natural settings in the southern Appalachians. A walk-in backcountry experience that delivers both exceptional scenery and quality

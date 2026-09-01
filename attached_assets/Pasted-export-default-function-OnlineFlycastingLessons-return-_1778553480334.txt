@@ -1,0 +1,293 @@
+export default function OnlineFlycastingLessons() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            Live Video Fly Casting Coaching · Global · All Skill Levels
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Live Video Fly Casting Lessons
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed">
+            World-class fly casting instruction from NC's only Master Casting Instructor — delivered live to your iPad or smartphone wherever you are in the world.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+              href="tel:8287361469"
+              className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Call to Book — 828-736-1469
+            </a>
+            
+              href="mailto:macbrownflyfish@gmail.com"
+              className="bg-white hover:bg-gray-100 text-[#1a3a5c] font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Email Us
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* The Problem with Every Other Resource */}
+      <section className="bg-[#1D9E75] py-10 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-white text-xl font-semibold leading-relaxed">
+            YouTube. DVDs. Books. Every visual resource for fly casting shares one universal flaw —
+          </p>
+          <p className="text-green-100 text-xl font-bold mt-2">
+            there is no direct feedback. Live video coaching fixes that.
+          </p>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Most Accessible Fly Casting Instruction in the World
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Live video fly casting coaching is one of the most effective methods available for improving your cast — and the technology available today makes it practically indistinguishable from standing next to an instructor on the bank. Using FaceTime, Skype, Facebook Messenger, or any video platform on your iPad or smartphone, Mac Brown watches your cast in real time, provides instant diagnostic feedback, and guides you through corrections that produce immediate improvement.
+            </p>
+            <p>
+              Mac began using live video coaching with casting clients around the globe several years ago — originally through Skype — and the results were significantly better than anticipated. The instantaneous feedback loop that video enables makes the session remarkably efficient. A correction suggested in real time lands differently than anything you could read or watch on your own. You feel the change, adjust immediately, and build the right movement pattern from the very first repetition.
+            </p>
+            <p>
+              This method has been used successfully to mentor students working toward their FFI Certified Instructor and Master Casting Instructor certifications — some of the most demanding casting standards in the sport. If it works at that level, it works at every level below it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Science Behind It */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Magic of Instant Diagnostic Feedback
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed mb-8">
+            <p>
+              Fly casting is a kinesthetic skill — it is learned through movement, feel, and the body's response to feedback. Most self-improvement resources for fly casting — YouTube videos, DVDs, books, online articles — are passive. You watch, you read, you try to translate what you observed into physical movement. The gap between watching and doing is where most improvement stalls.
+            </p>
+            <p>
+              Live video coaching closes that gap completely. Mac watches your cast as you make it, identifies the specific fault in real time, and provides the correction immediately — before the wrong movement has a chance to reinforce itself. Word pictures, audio cues, and instant visual feedback combine to produce improvement that sticks in a way that no passive resource can match.
+            </p>
+            <p>
+              The results from a fly casting modality study at Lee University illustrate just what is possible. A total beginner fly fisher received only twenty minutes of instruction — using word pictures and direct audio feedback through live video. By the end of the session she was hitting two out of three casts into a two-inch target cone at 35 feet. On her third attempt she landed within five inches of the target. These results were published in The Loop magazine — the journal of the international fly casting instructor community.
+            </p>
+            <p>
+              Twenty minutes. A complete beginner. A two-inch target at 35 feet. That is the power of direct feedback.
+            </p>
+          </div>
+
+          <div className="bg-[#1a3a5c] text-white rounded-xl p-8">
+            <h3 className="text-xl font-bold mb-4">Lee University Fly Casting Modality Study</h3>
+            <div className="grid sm:grid-cols-3 gap-6 text-center">
+              {[
+                { stat: "20", label: "Minutes of instruction" },
+                { stat: "35'", label: "Target distance" },
+                { stat: "2\"", label: "Target cone size" },
+              ].map((item, i) => (
+                <div key={i}>
+                  <p className="text-4xl font-bold text-[#1D9E75] mb-1">{item.stat}</p>
+                  <p className="text-[#a0c4e0] text-sm">{item.label}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-[#a0c4e0] text-sm mt-6 italic text-center">
+              Complete beginner hitting 2 of 3 casts into a 2" target at 35' after 20 minutes of live video instruction. Published in The Loop magazine.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Who It's For */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Who Live Video Coaching Is For
+          </h2>
+          <div className="grid sm:grid-cols-3 gap-6">
+            {[
+              {
+                icon: "🌱",
+                title: "Beginners",
+                desc: "Build the right foundation from your very first cast — before bad habits have a chance to set in. The most efficient way to start fly casting correctly is with immediate feedback from an expert instructor.",
+              },
+              {
+                icon: "📈",
+                title: "Intermediate Casters",
+                desc: "You have the basics but something is not clicking — distance, accuracy, timing, or a specific cast for a problem on the stream. Live video diagnosis finds the fault in minutes that years of self-correction couldn't.",
+              },
+              {
+                icon: "🏆",
+                title: "Advanced & Certification Candidates",
+                desc: "Anglers working toward FFI Certified Instructor or Master Casting Instructor certification. Mac has successfully mentored candidates to certification through live video coaching at the highest testing standard in the sport.",
+              },
+            ].map((item, i) => (
+              <div key={i} className="bg-gray-50 rounded-xl p-6 border border-gray-200 text-center">
+                <div className="text-3xl mb-3">{item.icon}</div>
+                <h3 className="font-bold text-[#1a3a5c] mb-3">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What Gets Covered */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What a Live Video Session Covers
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-8">
+            Every session is tailored to your specific goals and current skill level. Topics available for live video instruction include:
+          </p>
+          <div className="grid sm:grid-cols-2 gap-3">
+            {[
+              "Foundational pick up and lay down cast — getting started right",
+              "Loop control and shape — understanding why your cast does what it does",
+              "Rod arc and variable arc for different line lengths",
+              "Timing — the most common fault at every skill level",
+              "Late stroke power application for tight efficient loops",
+              "The double haul — generating line speed for distance",
+              "Roll cast mechanics and efficiency",
+              "Curve casts for problem-solving on the stream",
+              "Change of direction casts — single handed Spey",
+              "Tracking and accuracy for consistent presentation",
+              "Aerial mending during and after the stroke",
+              "Switch rod and Spey casting fundamentals",
+              "FFI Certified Instructor task preparation",
+              "FFI Master Casting Instructor task preparation",
+              "Specific problem casts for your home water",
+            ].map((item, i) => (
+              <div key={i} className="flex items-start gap-3 bg-white rounded-lg p-4 border border-gray-200">
+                <span className="text-[#1D9E75] font-bold mt-0.5 flex-shrink-0">✓</span>
+                <span className="text-gray-700 text-sm">{item}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            How It Works — Simple Setup, Immediate Results
+          </h2>
+          <div className="space-y-4">
+            {[
+              {
+                step: "1",
+                title: "Contact Us to Schedule",
+                desc: "Call or email to book your session and discuss your goals, current skill level, and what you most want to improve. This conversation helps Mac prepare the most targeted session possible.",
+              },
+              {
+                step: "2",
+                title: "Choose Your Platform",
+                desc: "FaceTime, Skype, Facebook Messenger, Zoom, or any video platform that works on your device. If you have a preferred platform just let us know. All you need is a smartphone or iPad with a decent camera.",
+              },
+              {
+                step: "3",
+                title: "Find Your Space",
+                desc: "You need enough room to cast — a backyard, a park, a parking lot, or any open space works perfectly. A lawn is ideal. Set up your phone or tablet so Mac can see your full casting stroke from a clear angle.",
+              },
+              {
+                step: "4",
+                title: "Cast — Mac Watches and Coaches",
+                desc: "The session runs exactly like an in-person lesson. You cast, Mac watches, he provides immediate feedback and corrections. You adjust, cast again, and feel the improvement in real time. Most participants experience dramatic improvement within the first 20 to 30 minutes.",
+              },
+              {
+                step: "5",
+                title: "Leave With a Practice Plan",
+                desc: "Every session ends with a clear set of specific things to practice before the next session — so your improvement continues long after you put the phone down.",
+              },
+            ].map((item, i) => (
+              <div key={i} className="flex gap-6 items-start bg-gray-50 rounded-xl p-6 border border-gray-200">
+                <div className="w-12 h-12 rounded-full bg-[#1D9E75] text-white font-bold text-xl flex items-center justify-center flex-shrink-0">
+                  {item.step}
+                </div>
+                <div>
+                  <h3 className="font-bold text-[#1a3a5c] text-lg mb-1">{item.title}</h3>
+                  <p className="text-gray-600 leading-relaxed">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Vs Other Resources */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            How Live Video Compares to Other Resources
+          </h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[#1a3a5c] text-white">
+                  <th className="p-4 text-left rounded-tl-lg">Resource</th>
+                  <th className="p-4 text-center">Direct Feedback</th>
+                  <th className="p-4 text-center">Personalized</th>
+                  <th className="p-4 text-center">Immediate</th>
+                  <th className="p-4 text-center rounded-tr-lg">Accessible</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { resource: "YouTube / DVDs", feedback: "✗", personalized: "✗", immediate: "✗", accessible: "✓" },
+                  { resource: "Books", feedback: "✗", personalized: "✗", immediate: "✗", accessible: "✓" },
+                  { resource: "Casting Forums", feedback: "Delayed", personalized: "Partial", immediate: "✗", accessible: "✓" },
+                  { resource: "In-Person Lesson", feedback: "✓", personalized: "✓", immediate: "✓", accessible: "Requires Travel" },
+                  { resource: "Live Video Coaching", feedback: "✓", personalized: "✓", immediate: "✓", accessible: "✓" },
+                ].map((row, i) => (
+                  <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+                    <td className="p-4 font-semibold text-[#1a3a5c]">{row.resource}</td>
+                    <td className="p-4 text-center">{row.feedback}</td>
+                    <td className="p-4 text-center">{row.personalized}</td>
+                    <td className="p-4 text-center">{row.immediate}</td>
+                    <td className="p-4 text-center">{row.accessible}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Global Reach */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c] inline-block">
+            Available to Casters Anywhere in the World
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed max-w-3xl mx-auto mb-8">
+            Live video coaching has no geographic boundary. Mac has coached casting clients across the United States and around the globe — from the mountains of Western North Carolina to anglers preparing for trips to Patagonia, New Zealand, Iceland, and beyond. Wherever you are and wherever you fish, the instruction is available to you.
+          </p>
+          <div className="grid sm:grid-cols-3 gap-4">
+            {[
+              { icon: "🇺🇸", label: "United States" },
+              { icon: "🌍", label: "International" },
+              { icon: "🌏", label: "Anywhere with Wi-Fi" },
+            ].map((item, i) => (
+              <div key={i} className="bg-gray-50 rounded-xl p-6 border border-gray-200 text-center">
+                <div className="text-3xl mb-2">{item.icon}</div>
+                <p className="font-semibold text-[#1a3a5c]">{item.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-[#1a3a5c] text-white py-16 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6">
+            Book Your

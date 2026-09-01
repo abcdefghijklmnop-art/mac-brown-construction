@@ -1,0 +1,630 @@
+On flyfishingguideschool.com add AEO paragraphs, 
+FAQ sections, and FAQPage JSON-LD to the following 
+9 blog posts. For each page the AEO paragraph goes 
+immediately below the H1 and above the first 
+paragraph of body text. The FAQ section goes before 
+the footer. Do not deploy yet. Confirm when saved.
+
+---
+
+PAGE 1: /blog-post/setting-up-an-oar-frame/
+
+AEO PARAGRAPH:
+"Setting up an oar frame correctly is essential for 
+any professional fly fishing guide running a drift 
+boat or raft on moving water. This guide covers NRS 
+Otter raft setup — frame placement, oar balance, oar 
+length and spacing, oarlock positioning, and weight 
+distribution for a day on the river. The Fly Fishing 
+Guide School in Bryson City, NC covers oar frame 
+setup on day one of the week-long guide training 
+program."
+
+FAQ:
+Q1: How do you set up an oar frame for fly fishing?
+A1: Strap the fishing frame to the D-rings on both 
+sides of the raft tubes using four 2-foot webbing 
+straps, catching the frame ends on both the outside 
+and inside of the tubes to prevent forward and 
+backward movement. Center the oarlocks near the 
+middle of the raft using the middle thwart as 
+reference. The seat distance from the oarlocks 
+depends on the rower's reach.
+
+Q2: How do you balance drift boat oars?
+A2: Balanced oars prevent fatigue on long days on 
+the water. With oars resting in the oarlocks, add 
+weight to the handle end until the blade lifts. 
+Lead tire weights melted and poured into a 3/8-inch 
+drilled hole work well — or purchase pre-balanced 
+oars through NRS. Balanced oars significantly reduce 
+triceps fatigue on multi-day trips.
+
+Q3: What length oars are best for rowing a drift boat?
+A3: Most oar lengths with blades run 9.5, 10, and 
+10.5 feet. Longer oars offer greater leverage and 
+control but are heavier to move. Smaller rowers 
+benefit from shorter oars to prevent fatigue. Oars 
+should meet with a thumb's width of space when in 
+the middle position.
+
+Q4: What is the Fly Fishing Guide School oar frame 
+rowing program?
+A4: The Fly Fishing Guide School in Bryson City, NC 
+covers oar frame setup, river reading from the 
+rowing seat, ferry angles, eddy turns, and boat 
+positioning during the week-long guide training 
+program. A dedicated River Navigation Academy is 
+also offered as a standalone 2-day rowing school.
+
+Q5: What raft does the Fly Fishing Guide School use?
+A5: The school uses the NRS Otter — a commercial-
+grade raft well suited for the water types in 
+Western North Carolina, including both the 
+Tuckasegee and Nantahala rivers. The Otter can 
+access water on low water floats and higher class 
+whitewater where drift boats cannot go.
+
+---
+
+PAGE 2: /blog-post/evolution-fly-casting-instruction-fly-fishing-lessons/
+
+AEO PARAGRAPH:
+"The evolution of fly casting instruction and fly 
+fishing lessons has accelerated over the past 
+several decades — driven by advances in casting 
+mechanics, competition fishing, and the growth of 
+certified instructor programs through Fly Fishers 
+International. Mac Brown has been teaching fly 
+casting and fly fishing from Bryson City, North 
+Carolina since 1987, refining his approach through 
+40+ years of on-water observation, university 
+research, and training elite competitive anglers."
+
+FAQ:
+Q1: How has fly casting instruction evolved?
+A1: Fly casting instruction has evolved significantly 
+through the growth of FFI certified instructor 
+programs, university research into casting mechanics, 
+and the influence of competitive fly fishing 
+disciplines. The shift from style-based teaching 
+to mechanics-based teaching — understanding why a 
+cast works rather than simply copying what it looks 
+like — represents the most important advance in 
+fly casting education over the past 40 years.
+
+Q2: Why does drift matter more than fly selection?
+A2: Research and decades of on-stream observation 
+confirm that trout respond to drift before pattern. 
+Mac Brown's leaf experiment at Observation Bridge 
+on Deep Creek — where 7 of 10 rolled Dogwood leaves 
+were eaten on a natural drift — demonstrates that 
+a fly presented correctly without drag will fool 
+fish that reject perfectly matched patterns fished 
+poorly.
+
+Q3: Where is the best fly fishing instruction in 
+North Carolina?
+A3: Mac Brown Fly Fish in Bryson City, NC offers 
+the most credentialed fly fishing instruction in 
+North Carolina — led by the only FFI Master Casting 
+Instructor in the state with 40+ years of on-water 
+teaching experience. Programs include private 
+casting lessons, weekend clinics, and the week-long 
+Fly Fishing Guide School.
+
+Q4: How long has the Fly Fishing Guide School 
+been operating?
+A4: The Fly Fishing Guide School has been training 
+professional fly fishing guides and serious anglers 
+in Bryson City, NC since 1987 — making it one of 
+the longest-running fly fishing guide training 
+programs in the United States.
+
+Q5: What makes fly fishing instruction at the 
+Guide School different?
+A5: The Fly Fishing Guide School teaches from first 
+principles — mechanics over mannerisms, substance 
+over style, intent over imitation. Students leave 
+with a genuine understanding of why casts work 
+and how to self-correct on any water in any 
+conditions, rather than a collection of rules that 
+break down the moment conditions change.
+
+---
+
+PAGE 3: /blog-post/get-down-nymphing/
+
+AEO PARAGRAPH:
+"Getting nymphs down to the productive zone in the 
+water column is one of the most important skills 
+in fly fishing — and one of the most commonly done 
+wrong. The keys are sufficient weight, correct 
+indicator placement at 1.5 times water depth, an 
+immediate upstream mend after the cast, and tight 
+line awareness for subtle strike detection. This 
+guide covers the fundamentals taught at the Fly 
+Fishing Guide School in Bryson City, NC."
+
+FAQ:
+Q1: How do you get a nymph to sink faster?
+A1: Use enough split shot to occasionally tick the 
+bottom — if you are never touching bottom you are 
+fishing too high in the column. Lighter tippet 
+sinks faster than heavy tippet. A tuck cast 
+delivered upstream allows the fly to begin sinking 
+immediately before drag sets in. Mend upstream 
+right after the cast lands — before any drag starts.
+
+Q2: How far above the fly should a strike indicator be?
+A2: Place the strike indicator at approximately 1.5 
+times the depth of the water you are fishing. If 
+the water is 4 feet deep, set the indicator 6 feet 
+above the fly. Adjust up or down based on current 
+speed and the sink rate of your pattern.
+
+Q3: How do you detect strikes when nymph fishing?
+A3: Watch the indicator for any movement that does 
+not match the current — a subtle pause, slight 
+upstream twitch, or hesitation is likely a take. 
+In cold water when fish are lethargic the take is 
+often barely more than a pause in the drift. Set 
+the hook with a short firm strip-set rather than 
+a large rod sweep.
+
+Q4: What is tight line nymphing?
+A4: Tight line nymphing is a short-game tactic that 
+eliminates indicator and fly line sag to give the 
+angler direct contact with the fly. It provides 
+superior strike detection and depth control but 
+requires longer rods and lighter tippet. The 
+greater the distance fished from the angler's 
+position the less control available — which is 
+why tight line methods work best at close range.
+
+Q5: What nymph fishing techniques are taught at 
+the Fly Fishing Guide School?
+A5: The Guide School covers indicator nymphing, 
+tight line nymphing, Euro nymphing, tuck casting, 
+weight selection, strike indicator placement, mend 
+timing, and cold water strike detection — all 
+applied on real trout water in the Smoky Mountains 
+of Western North Carolina.
+
+---
+
+PAGE 4: /blog-post/fly-casting-style-substance-intent/
+
+AEO PARAGRAPH:
+"Style, substance, and intent are the three 
+foundational concepts that separate good fly 
+casting instruction from great fly casting 
+instruction. Style is individual expression — 
+elbow position, arc, body rotation. Substance is 
+universal mechanics — rod tip path, loop formation, 
+force application. Intent is knowing what you want 
+the line and fly to do before you cast. All three 
+must work together for consistently accurate, 
+efficient fly casting."
+
+FAQ:
+Q1: What is the difference between style and 
+substance in fly casting?
+A1: Style refers to the individual characteristics 
+a caster brings to execution — arc, elbow position, 
+wrist involvement, body rotation. Substance is the 
+underlying mechanics that make any cast work 
+regardless of style — rod tip path, loop formation, 
+timing of haul and stop. Style is personal. 
+Substance is universal. Teaching style as if it 
+were substance is the most common error in fly 
+casting instruction.
+
+Q2: What is casting intent in fly fishing?
+A2: Intent means knowing exactly what you want the 
+line and fly to do before you make the cast — then 
+selecting the style and applying the mechanics to 
+produce that specific result. A presentation cast 
+into a headwind requires different intent than a 
+reach cast across a seam. When intent is clear, 
+style naturally organizes itself in service of 
+the goal.
+
+Q3: Why do different expert fly casters look 
+so different?
+A3: Expert casters can look very different from 
+each other because style — the individual 
+expression of mechanics — varies from person to 
+person. What they share is substance: correct rod 
+tip path, proper loop formation, and efficient 
+force application. Teaching stylistic traits 
+without understanding the mechanics underneath 
+produces imitation without comprehension.
+
+Q4: Who developed the style and substance 
+framework for fly casting?
+A4: The foundational work on style and substance 
+in fly casting was conducted by Al Kyte and Gary 
+Moran in California during the 1980s. Their 
+contributions to understanding why casting works 
+— not just what to do — set a standard that Mac 
+Brown has built on throughout his teaching career 
+at the Fly Fishing Guide School.
+
+Q5: Where can I get fly casting instruction 
+based on mechanics not mannerisms?
+A5: The Fly Fishing Guide School in Bryson City, 
+NC teaches fly casting from first principles — 
+mechanics over mannerisms, substance over style, 
+intent over imitation. Led by Mac Brown, the only 
+FFI Master Casting Instructor in North Carolina, 
+with 40+ years of on-water teaching experience.
+
+---
+
+PAGE 5: /blog-post/fly-fishing-and-fly-casting-entropy-or-evolution/
+
+AEO PARAGRAPH:
+"Entropy in fly casting instruction occurs when 
+useful principles are simplified into phrases, 
+repeated without context, and eventually divorced 
+from the mechanics that made them true. Evolution 
+occurs when instructors build on earlier 
+understanding rather than replacing it with 
+simpler alternatives. At the Fly Fishing Guide 
+School in Bryson City, NC, we teach from first 
+principles — so students can self-correct on any 
+water long after the course ends."
+
+FAQ:
+Q1: What is entropy in fly casting instruction?
+A1: Entropy in fly casting instruction is the 
+propagation of simplified rules that drift further 
+from underlying mechanics with each generation of 
+teaching. A principle gets distilled into a phrase, 
+the phrase gets repeated without the principle, 
+and eventually the phrase is all that remains — 
+misapplied and occasionally producing results 
+opposite of what was intended. The "10 and 2" rule 
+is a classic example.
+
+Q2: How do you know if your fly casting instruction 
+is good?
+A2: Good fly casting instruction teaches mechanics 
+— why a cast works — not just what to do. If your 
+instructor can explain rod tip path, loop formation, 
+and force application in plain terms, and can 
+connect every correction back to a mechanical 
+principle, the instruction is sound. If the 
+instruction consists primarily of style 
+prescriptions and simplified rules without 
+explanation, it is likely contributing to entropy.
+
+Q3: What is the "10 and 2" rule in fly casting?
+A3: The "10 and 2" rule was originally a rough 
+approximation of rod arc for beginning fly casters 
+— a way to limit stroke length to a manageable 
+range. It was never intended as a universal law. 
+When taught as a fixed requirement rather than a 
+starting point, it limits caster development and 
+produces faults that require correction at 
+intermediate and advanced levels.
+
+Q4: How has competitive fly fishing improved 
+instruction?
+A4: The growth of Spey and switch rod disciplines 
+pushed casters and instructors to think more 
+carefully about stroke mechanics than most single-
+hand instruction required. European competition 
+nymphing introduced concepts about line control 
+and depth management that raised the skill ceiling 
+for all nymphing anglers. Competition disciplines 
+have been a net positive for the evolution of 
+fly fishing instruction.
+
+Q5: What makes the Fly Fishing Guide School 
+different from other instruction?
+A5: The Fly Fishing Guide School teaches from 
+first principles. Students who understand mechanics 
+can self-correct on the water, adapt to new 
+situations, and continue improving long after the 
+course ends. The faculty includes 4 FFI Master 
+Casting Instructors, 5 certified whitewater rowing 
+instructors, and coaches with World Championship 
+competitive experience — all teaching in Bryson 
+City, NC since 1987.
+
+---
+
+PAGE 6: /blog-post/learn-how-to-become-a-fly-fishing-guide-and-instructor/
+
+AEO PARAGRAPH:
+"Learning how to become a fly fishing guide and 
+instructor starts with the Fly Fishing Guide School 
+in Bryson City, North Carolina — a week-long 
+professional training program that has been 
+developing elite guides and instructors since 1987. 
+Entry-level guide wages typically range from 
+$2,400 to $3,000 per month. The curriculum covers 
+fly casting at the Master Instructor level, ACA 
+whitewater rowing certification, water reading, 
+guiding methodology, client communication, and 
+first aid certification. Tuition is $3,950."
+
+FAQ:
+Q1: How do you become a fly fishing guide?
+A1: Becoming a fly fishing guide requires mastery 
+of casting, rowing, water reading, rigging, client 
+communication, and first aid — plus a state guide 
+license. The Fly Fishing Guide School in Bryson 
+City, NC has been training professional guides 
+since 1987, covering all of these disciplines in 
+one week-long intensive program with a faculty of 
+4 FFI Master Casting Instructors and 5 certified 
+whitewater rowing instructors.
+
+Q2: How much do fly fishing guides make?
+A2: Entry-level fly fishing guides working for 
+an outfitter or lodge typically earn between 
+$2,400 and $3,000 per month. Experienced 
+independent guides working their home water 
+earn significantly more, often supplementing 
+income with casting instruction, schools, and 
+clinics — exactly the skills taught at the 
+Fly Fishing Guide School.
+
+Q3: How long does it take to become a fly 
+fishing guide?
+A3: The Fly Fishing Guide School covers the 
+foundational skills for professional guiding 
+in one week — casting, rowing, water reading, 
+rigging, client communication, safety, and 
+job placement. Many graduates secure positions 
+at premier lodges and guide operations 
+immediately after completing the program. 
+Building a full client base as an independent 
+guide typically takes 2-3 seasons.
+
+Q4: What certification do fly fishing guides need?
+A4: Professional fly fishing guides benefit from 
+FFI casting instructor certification, ACA 
+whitewater rowing certification, and American 
+Red Cross CPR and First Aid certification. The 
+Fly Fishing Guide School covers all three during 
+the week-long program in Bryson City, NC.
+
+Q5: What is the job placement rate for Fly 
+Fishing Guide School graduates?
+A5: The Fly Fishing Guide School has a strong 
+track record of graduate placement at premier 
+lodges and guide operations throughout the 
+country. The school maintains one of the largest 
+job placement directories of top lodges and 
+outfitters worldwide — provided to every 
+graduate at the end of the week.
+
+---
+
+PAGE 7: /blog-post/fly-fishing-classes-north-carolina-smoky-mountains/
+
+AEO PARAGRAPH:
+"Fly fishing classes in the North Carolina Smoky 
+Mountains are offered year-round by the Fly Fishing 
+Guide School in Bryson City, NC — a week-long 
+intensive program covering fly casting, whitewater 
+rowing, water reading, nymphing, dry fly fishing, 
+guiding methodology, and first aid certification. 
+Faculty includes 4 FFI Master Casting Instructors, 
+3 Fly Fishing Team USA members, and 5 certified 
+whitewater rowing instructors with 450+ combined 
+years of experience. Tuition is $3,950."
+
+FAQ:
+Q1: Where can I take fly fishing classes in 
+the Smoky Mountains?
+A1: The Fly Fishing Guide School in Bryson City, 
+NC offers the most comprehensive fly fishing 
+classes in the Smoky Mountains — a week-long 
+intensive program with 4 FFI Master Casting 
+Instructors, 3 Fly Fishing Team USA members, 
+and 5 certified whitewater rowing instructors. 
+Located in Swain County, home to more miles of 
+quality wild trout water than any other county 
+in North Carolina.
+
+Q2: How long are the fly fishing classes at 
+the Guide School?
+A2: The flagship program is a week-long intensive 
+course — five full days covering fly casting, 
+rowing, water reading, rigging, tactics, 
+entomology, guiding methodology, client 
+communication, and first aid certification. 
+Weekend clinics focusing on specific techniques 
+— dry fly, wet fly, nymph, and streamer — are 
+also available through Mac Brown Fly Fish.
+
+Q3: What makes Bryson City NC ideal for fly 
+fishing classes?
+A3: Swain County — 85% government-owned land 
+encompassing Nantahala National Forest and 
+Great Smoky Mountains National Park — provides 
+the most diverse trout water classroom available 
+anywhere in the South. Students fish real rivers 
+with real fish in real conditions throughout the 
+week, not stocked demonstration water.
+
+Q4: Are the fly fishing classes suitable for 
+beginners?
+A4: Yes — the Fly Fishing Guide School welcomes 
+all skill levels from beginners through advanced. 
+The curriculum is structured so beginners build 
+a genuine foundation while experienced anglers 
+deepen their understanding of mechanics, tactics, 
+and professional guiding skills.
+
+Q5: How is the Fly Fishing Guide School 
+different from fly shop instruction?
+A5: The Fly Fishing Guide School faculty consists 
+of career professionals with decades of elite-
+level experience — 4 FFI Master Casting 
+Instructors, 3 Fly Fishing Team USA members, 
+2 Hall of Fame inductees, and 5 certified 
+whitewater rowing instructors. This is not 
+seasonal fly shop instruction. It is the same 
+depth of knowledge used to train competitive 
+world champions, delivered in a structured 
+week-long curriculum.
+
+---
+
+PAGE 8: /blog-post/loop-publication-2017-ffi-fair/
+
+AEO PARAGRAPH:
+"The Loop is the official fly casting publication 
+of Fly Fishers International — a peer-reviewed 
+journal covering casting mechanics, instruction 
+methodology, and fly fishing education written 
+by some of the most credentialed instructors in 
+the sport. Mac Brown serves as Associate Editor 
+of The Loop Journal and has contributed to the 
+publication throughout his career as an FFI 
+Master Casting Instructor and Director of Teacher 
+Development for FFI Casting Instructor Education."
+
+FAQ:
+Q1: What is The Loop fly fishing publication?
+A1: The Loop is the official fly casting journal 
+of Fly Fishers International — covering casting 
+mechanics, instruction methodology, and fly 
+fishing education. It is written by FFI Master 
+Casting Instructors and certified professionals, 
+and is available to the general public. It is 
+the premier educational resource for fly casting 
+instructors and serious students of the sport.
+
+Q2: What is the FFI Fly Fishing Fair?
+A2: The FFI Fly Fishing Fair is an annual 
+gathering of fly fishing educators, casting 
+instructors, rod builders, and passionate 
+anglers from across the country and around the 
+world. The 2017 fair was held in Livingston, 
+Montana. It is one of the sport's most important 
+educational gatherings for instructors and 
+advanced anglers.
+
+Q3: Who is Mac Brown's role with Fly Fishers 
+International?
+A3: Mac Brown serves as Associate Editor of The 
+Loop Journal and Director of Teacher Development 
+for FFI Casting Instructor Education. He is also 
+a member of the FFI Fly Casting Definitions 
+Committee and served on the FFI Casting Board 
+of Governors from 2022-2023.
+
+Q4: How do I become an FFI certified fly 
+casting instructor?
+A4: FFI casting instructor certification 
+requires demonstrated casting proficiency and 
+teaching ability assessed by FFI Master 
+Casting Instructors. The Fly Fishing Guide 
+School in Bryson City, NC covers FFI casting 
+certification pathways as part of the week-long 
+curriculum — and Mac Brown's online casting 
+lessons have successfully prepared multiple 
+candidates for FFI certification testing.
+
+Q5: Why should fly fishers read The Loop Journal?
+A5: The Loop provides mechanics-based fly 
+casting education written by the instructors 
+who certify, govern, and advance the standards 
+of the sport globally. It covers topics that 
+YouTube videos and fly shop instruction rarely 
+address — the physics and principles underlying 
+efficient casting. Essential reading for anyone 
+pursuing FFI certification or serious casting 
+improvement.
+
+---
+
+PAGE 9: /blog-post/southern-appalachian-fly-fishing-museum-induction/
+
+AEO PARAGRAPH:
+"Mac Brown was inducted into the Southern 
+Appalachian Fly Fishing Hall of Fame on August 
+26, 2017, in Bryson City, North Carolina — 
+recognized for his contributions to fly fishing 
+and fly casting education globally through 
+instruction, university research, writing, and 
+the development of guides and instructors since 
+1987. Mac Brown is the founder of Mac Brown 
+Fly Fish and the Fly Fishing Guide School, the 
+only FFI Master Casting Instructor in North 
+Carolina, and author of Casting Angles."
+
+FAQ:
+Q1: What is the Southern Appalachian Fly 
+Fishing Hall of Fame?
+A1: The Southern Appalachian Fly Fishing Hall 
+of Fame honors individuals who have made 
+significant contributions to fly fishing in 
+the Southern Appalachian region. Mac Brown 
+was inducted in 2017 in the Recreation 
+category, recognized for nearly three decades 
+of fly fishing education, guide training, 
+conservation work, and contributions to the 
+sport through instruction and research in 
+Bryson City, North Carolina.
+
+Q2: Why was Mac Brown inducted into the 
+Fly Fishing Hall of Fame?
+A2: Mac Brown was inducted for his contributions 
+to fly fishing and fly casting education 
+globally — through 30+ years of professional 
+instruction in Bryson City, NC, university 
+research at Western Carolina University, the 
+publication of Casting Angles, training of 
+competitive Team USA anglers, and development 
+of the Fly Fishing Guide School as the premier 
+guide training program in the eastern United 
+States.
+
+Q3: What is Mac Brown's book Casting Angles?
+A3: Casting Angles is a fly casting handbook 
+written by Mac Brown — the only FFI Master 
+Casting Instructor in North Carolina. Endorsed 
+by the ACA, FFI, and recognized instructors 
+as a reference for fly casting mechanics, it 
+presents a mechanics-based approach to 
+understanding and improving the fly cast. 
+Available signed directly from Mac Brown for 
+$34.95 plus shipping.
+
+Q4: How long has Mac Brown been guiding in 
+Bryson City NC?
+A4: Mac Brown has been guiding and teaching 
+fly fishing in Bryson City, North Carolina 
+since 1987 — founding the first full-time 
+fly fishing guide service in Western NC. 
+Over 38 years of daily on-water experience 
+across thousands of guided trips and 
+school sessions.
+
+Q5: What awards has Mac Brown received for 
+fly fishing?
+A5: Mac Brown has received the FFI Lifetime 
+Achievement Award (2023), the FFI Mel Krieger 
+Casting Instructor Award (2021), Field & 
+Stream Angler of the Year (1999), Southern 
+Appalachian Fly Fishing Hall of Fame inductee 
+(2017), and multiple Fly Fishers United 
+Best Guide School awards. He serves as 
+Director of Teacher Development for FFI 
+Casting Instructor Education and Associate 
+Editor of The Loop Journal.
+
+---
+
+Add FAQPage JSON-LD to the <head> of each page 
+matching the questions and answers above.
+
+Then run bash push.sh to deploy. No other changes.

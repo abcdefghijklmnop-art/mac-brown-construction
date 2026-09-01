@@ -1,0 +1,21 @@
+Let me read the actual assessment route to see exactly what it returns.I can see the code. This is in `artifacts/api-server` — a separate Express server, not the Next.js app. Let me scroll down to find the return statement.Found it. Lines 252–257 show the return:
+
+```js
+res.json({
+  ok:               true,
+  studentEmailFound: !!studentEmail,
+  studentEmail:      studentEmail ?? null,
+});
+```
+
+**The endpoint is returning `{ ok: true }` correctly.** So the form should be showing green. The problem is the form is posting to `https://macbrownflyfish.com/api/assessment` but this endpoint lives in the **api-server** (`artifacts/api-server`) which runs on a different port — it's an Express server, not the Next.js app. The Next.js app deployed to Vercel doesn't have this route, so Vercel returns a 404, the fetch fails, and the button shows red — even though the email somehow came through.
+
+The email coming through is the mystery. Let me check where this api-server is actually running.Now I can see everything clearly. The endpoint returns `{ ok: true }` exactly right. But it lives in `artifacts/api-server` — a **separate Express server**, not the Next.js app on Vercel. 
+
+The form posts to `https://macbrownflyfish.com/api/assessment` — Vercel — which doesn't have this route, so Vercel 404s and the form shows red.
+
+But the email IS coming through, which means the form is somehow hitting the right server some of the time — probably the Replit dev URL.
+
+**The fix:** The api-server needs to be either deployed separately or its routes need to be added to the Next.js app on Vercel. This is a Replit conversation — paste this:
+
+> The assessment endpoint is in `artifacts/api-server` but the form posts to `https://macbrownflyfish.com/api/assessment` which is the Next.js Vercel app. The form shows red error even though emails come through. Please either move the assessment route into `ffgs-nextjs/src/app/api/` as a Next.js route handler so it deploys with Vercel, OR tell me the correct URL the api-server is running at so I can update the form's fetch URL.

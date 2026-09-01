@@ -1,0 +1,32 @@
+Here's the Replit prompt — copy this exactly:
+
+---
+
+**Replit Prompt: Fix AMP-parameter redirect errors + duplicate path**
+
+We have 28 URLs in Google Search Console failing redirect validation because they carry legacy AMP query parameters (`?amp` or `?noamp=mobile`) that aren't being handled by the current redirect rules. Add explicit redirect rules (in `next.config.js` or the equivalent redirects config) to strip these query parameters and 301 redirect to the clean canonical URL.
+
+**Rule 1 — Strip `?amp` and `?noamp=mobile` globally:**
+Any request to `macbrownflyfish.com/<path>/?amp` or `macbrownflyfish.com/<path>/?noamp=mobile` should 301 redirect to `macbrownflyfish.com/<path>/` (no query string).
+
+**Specific failing URLs to verify against after the rule is in place:**
+- `/mac-brown-fly-fish-trucker-hats/?amp`
+- `/nc-oar-frame-rowing-school-smokies/?amp`
+- `/meet-our-guides/?noamp=mobile`
+- `/contact/?amp`
+- `/contact-fly-fishing-guided-trips-bryson-city-nc/?amp`
+- `/fly-fishers-complete-a-z-boot-camp/?amp`
+- `/wnc-fly-fishing-trail/?amp`
+- `/fly-casting-model/casting-model/?amp`
+
+**Rule 2 — Fix duplicated path segment:**
+`/learn-leader-construction/learn-leader-construction/` currently resolves as a doubled path. Add a 301 redirect from `/learn-leader-construction/learn-leader-construction/` to `/learn-leader-construction/` and confirm the correct page renders at the singular path.
+
+**Rule 3 — Orphaned legacy page (separate from AMP fix, flag if not already handled):**
+`/fly-fishing-guide-trips-north-carolina/` (and its `/wade-fishing/` subpath) is a legacy WordPress page still live and being crawled. Confirm whether a 301 to a current equivalent page already exists; if not, add one, or return a 410 if there's no current equivalent. This page must not go live as-is — it contains outdated pricing and prohibited references.
+
+**Do not generate or alter any page content or copy.** This is redirect/routing configuration only. Do not touch anything unrelated to these rules.
+
+---
+
+Want me to also draft a separate note flagging the `_next/static/css/*.css` 404/not-indexed issue (532 pages combined) as a Vercel/Cloudflare cache investigation for later, so it doesn't get lost?

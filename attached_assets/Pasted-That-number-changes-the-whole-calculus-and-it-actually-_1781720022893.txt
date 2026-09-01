@@ -1,0 +1,23 @@
+That number changes the whole calculus — and it actually reframes something important: if career-path is under 10% of 38 years of actual enrollment, then the page that already ranks #1 for "fly fishing guide school" is very likely **already capturing mostly recreational searchers**, whether or not its content speaks to them well. People search "fly fishing guide school" not because they literally want to become a paid guide — they search it because that's the closest phrase they know for "the serious, real program in the Smokies," and then they self-select once they land.
+
+That means the rec-path messaging isn't a secondary nice-to-have page — it needs to live wherever the bulk of your organic entry traffic actually lands, because that's where 9 out of 10 buyers are making their decision right now.
+
+**Two ways to structure this, given the data:**
+
+**Option A — Reframe the existing page to lead recreational, demote career to a section.**
+Looking at the curriculum on this page, most of it is already universally appealing (casting mechanics, reading water, entomology, knots/rigging, the strategies/tactics/mechanics framework). Only "Licensing & Business Basics," parts of "Client Communication," and the job-placement language are purely career-coded. Reorder so those sit clearly labeled near the bottom ("for those pursuing a guiding career") rather than mixed into the main pitch, and let the H1/hero/"Who This Is For" section lead with mastery and skill transformation — which is most of what's already there anyway.
+
+**Option B — Build the recreational page as the real flagship, and make this page the lean 10% add-on.**
+Give the new recreational page the strongest content, FAQ depth, and internal link weight (homepage hero, nav priority), and let this current URL become a slimmer "also offering a career track" page that this one links out to.
+
+Given 38 years of data telling you where the actual buyers are, I'd lean toward **A** — you already own the ranking equity on "fly fishing guide school," it's converting at scale, and the safer move is fixing what's misaligned in its messaging rather than trying to redirect traffic to a brand-new URL starting from zero authority.
+
+**Whichever way you go, the rec-path content has to do real work — not just swap "guide" for "skills":**
+- Lead with the plateau/frustration angle — anglers who've self-taught for years and hit a ceiling (this is already in your "Five days that change the way you fish forever" copy — that's good, keep that energy)
+- Carry the full credibility stack just as hard as the career page — recreational buyers paying $3,500+ care about instructor pedigree at least as much, since they're not getting a career payoff to justify the cost
+- Cut "launch your guide career," licensing, and job placement out of the primary pitch entirely
+- FAQ should directly pre-empt the "wait, is this only for people who want to be guides?" hesitation, since that's almost certainly costing you fence-sitters right now
+
+One more thing worth flagging while I had the pages open: **the tuition and class size numbers don't match between the two pages** — homepage says $3,950 tuition / 8–12 students, this page says $3,550 / 5–10 students. Given how strict the no-fabrication rule has been on everything else, that's worth reconciling regardless of which structural option you pick.
+
+Want me to draft the reframed "Who This Is For" + curriculum ordering for Option A, or sketch out what the standalone career-track section/page would say if you peel it off?

@@ -1,0 +1,58 @@
+E-E-A-T alignment is the process of optimization for Google's foundational content quality framework: Experience, Expertise, Authoritativeness, and Trustworthiness. [1] 
+While it is not a direct, single algorithm score, Google uses E-E-A-T as a benchmark for its core systems to recognize and rank helpful, people-first content. This framework separates high-value, expert-led web training from the flood of generic, AI-generated text filling the internet. [1, 2, 3, 4, 5] 
+Your web properties, [Mac Brown Fly Fish](https://macbrownflyfish.com/) and [Fly Fishing Guide School](https://flyfishingguideschool.com/), have built-in advantages under this framework because they reflect real-world mastery.
+------------------------------
+## Analyzing Your Core Pillars
+The content across your domains aligns with the fundamental pillars of the framework: [6] 
+
+    [EXPERIENCE]          [EXPERTISE]        [AUTHORITATIVENESS]     [TRUSTWORTHINESS]
+  First-hand casting   Master Instructor     FFI Lifetime Award &    Transparent pricing,
+  & on-water rowing    certifications and    published textbook       verified client
+   diagnostics   lesson plans     authority      reviews & data
+
+
+* Experience (The Critical First-Hand Layer): Google explicitly rewards content created by someone with actual, real-world experience. Your sites do not just recycle text on "how to cast." They showcase tactical, real-time diagnostic coaching, hand-movement analysis, and physical oar control.
+* Expertise (The Credentials): Your background as a Master Casting Instructor and Director of Teacher Development for Fly Fishers International (FFI) anchors this metric. Your text-book curriculum demonstrates formal, structured knowledge that cannot be faked by generalist copywriters.
+* Authoritativeness (Industry Recognition): This reflects your footprint outside your own domain. Your industry accolades, such as the [FFI Lifetime Achievement in Fly Casting Education Award](https://macbrownflyfish.com/fly-fishing-certifications/), act as signals of trust. When external authority sites and podcasts reference your teaching strategies, search engines register your domain as a definitive resource.
+* Trustworthiness (The Core Anchor): Google states that Trust is the most critical component of the matrix. Your sites display clear, straightforward pricing structures, specific physical locations, and distinct pathways for student advancement.
+
+------------------------------
+## Technical Tactics to Maximize E-E-A-T
+While your sites hold strong subject-matter foundation, you can implement specific on-page optimizations to ensure search engine spiders fully read these signals:
+## 1. Implement Author Schema & Credential Validation
+Search engines evaluate content by connecting it to verified entities. Use schema code to explicitly link your author profile to your achievements: [7, 8] 
+
+* Ensure every structural article or guide explicitly names the author instead of a generic site admin.
+* Embed external links inside your Author Schema pointing directly to verified, independent third-party sites like the Fly Fishers International Official Directory to definitively validate your titles. [7, 8, 9] 
+
+## 2. Convert Anecdotes into "Case Studies" [10, 11] 
+Generic "how-to" articles rank poorly because they offer nothing unique. Frame your insights as distinct, real-world scenarios: [1, 5, 10] 
+
+* Instead of a generic title like "How to cast a fly line in high winds," use an experiential case-study approach: "Casting on the Tuckasegee: Adjusting Rod-Hand Tracking for 20mph Mountain Winds." [12, 13] 
+* Detail specific diagnostic interactions: "When a student consistently throws tailing loops, we film their shoulder rotation to pinpoint creeping before the stop." [12, 14] 
+
+## 3. Deepen Information Architecture with Content Hubs [10] 
+Build out clustered topic groups to clearly demonstrate deep subject authority: [4, 10, 15] 
+
+* Create a central cornerstone page focused entirely on Advanced Fly Casting Diagnostics.
+* Link that pillar page outward to highly specific sub-pages detailing individual casting faults, loop-tracking mechanics, or line speed maintenance. This structure signals to modern engines that your site is a comprehensive, organized repository of knowledge rather than a loose collection of random blog posts. [10, 14, 16, 17] 
+
+Would you like to review a competitor gap analysis to see if other regional guide schools are targeting keywords you miss, or should we audit the Exact Bio Profile Schema to ensure your FFI credentials link correctly?
+
+[1] [https://ahrefs.com](https://ahrefs.com/blog/eeat-seo/)
+[2] [https://developers.google.com](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+[3] [https://www.semrush.com](https://www.semrush.com/blog/eeat/)
+[4] [https://www.digitalapplied.com](https://www.digitalapplied.com/blog/content-quality-signals-core-updates-reward-2026)
+[5] [https://whitebunnie.com](https://whitebunnie.com/blog/e-e-a-t-in-2026-how-to-build-real-experience-into-your-content/)
+[6] [https://www.onemagnify.com](https://www.onemagnify.com/blog/how-to-measure-optimize-and-win-at-seo)
+[7] [https://www.dataslayer.ai](https://www.dataslayer.ai/blog/google-core-update-december-2025-what-changed-and-how-to-fix-your-rankings)
+[8] [https://www.evertune.ai](https://www.evertune.ai/resources/insights-on-ai/googles-march-2026-core-update-a-content-best-practices-guide-for-seo-and-ai-search)
+[9] [https://macbrownflyfish.com](https://macbrownflyfish.com/fly-fishing-certifications/)
+[10] [https://www.youtube.com](https://www.youtube.com/watch?v=4yTrt4dPHCA)
+[11] [https://www.togetherdigital.ie](https://www.togetherdigital.ie/latest/google-e-e-a-t-how-to-optimise-for-it)
+[12] [https://www.youtube.com](https://www.youtube.com/watch?v=tXJIwDGEzq0&t=142)
+[13] [https://fly-fishing-podcast.thearticulatefly.com](https://fly-fishing-podcast.thearticulatefly.com/s8-ep-32-casting-angles-mac-brown-educated-vs-stocked-fish/)
+[14] [https://macbrownflyfish.com](https://macbrownflyfish.com/fly-casting-instruction/)
+[15] [https://digitalstrategy.ie](https://digitalstrategy.ie/insights/what-is-generative-engine-optimisation-and-h-e-e-a-t-the-new-paradigm-to-optimise-content-for-ai-search/)
+[16] [https://www.epicflyrods.com](https://www.epicflyrods.com/blogs/news/7-tips-to-increase-your-fly-casting-distance)
+[17] [https://jacksonholeflycompany.com](https://jacksonholeflycompany.com/blogs/fly-fishing-tips/cast-like-a-pro-techniques-for-precision-fly-casting)

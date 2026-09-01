@@ -1,0 +1,28 @@
+kind = "web"
+  previewPath = "/ffgs-next/"
+  title = "Fly Fishing Guide School (Next.js)"
+  version = "1.0.0"
+  id = "artifacts/ffgs-nextjs"
+  router = "path"
+
+  [[integratedSkills]]
+  name = "react-vite"
+  version = "1.0.0"
+
+  [[services]]
+  name = "web"
+  paths = [ "/ffgs-next/" ]
+  localPort = 24755
+
+  [services.development]
+  run = "pnpm --filter @workspace/ffgs-nextjs run dev"
+
+  [services.production]
+  build = [ "pnpm", "--filter", "@workspace/ffgs-nextjs", "run", "build" ]
+  publicDir = "artifacts/ffgs-nextjs/out"
+  serve = "static"
+
+  [services.env]
+  PORT = "24755"
+  BASE_PATH = "/ffgs-next/"
+  

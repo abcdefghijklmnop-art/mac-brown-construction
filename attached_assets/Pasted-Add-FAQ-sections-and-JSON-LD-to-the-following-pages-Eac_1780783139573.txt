@@ -1,0 +1,196 @@
+Add FAQ sections and JSON-LD to the following pages.
+Each FAQ section goes before the footer with the 
+heading "Frequently Asked Questions" displayed as 
+expandable accordion items. Add matching FAQPage 
+JSON-LD to the <head> of each page.
+Write accurate answers from existing page content.
+Do not invent information.
+Do not deploy yet. Confirm when saved.
+
+/fly-casting-instruction/
+Q1: How much do fly casting lessons cost in Bryson City NC?
+Q2: What types of fly casting instruction are available?
+Q3: How long is a fly casting lesson?
+Q4: Do I need my own gear for a casting lesson?
+Q5: What is the cancellation and payment policy?
+
+/masterclass-fly-casting-workshop/
+Q1: What is the Masterclass Fly Casting Workshop?
+Q2: How much does the Masterclass Casting Workshop cost?
+Q3: Who is the Masterclass workshop for?
+Q4: What casting styles are covered?
+Q5: What is the cancellation and payment policy?
+
+/smoky-mountain-weekend-schools/
+Q1: What do the Smoky Mountain weekend fly fishing schools cover?
+Q2: How much do the weekend fly fishing schools cost?
+Q3: How long are the weekend fly fishing schools?
+Q4: What skill level do I need for a weekend school?
+Q5: What is the cancellation and payment policy?
+
+/river-navigation-academy/
+Q1: What is the River Navigation Academy?
+Q2: How much does the River Navigation Academy cost?
+Q3: Who should attend the River Navigation Academy?
+Q4: What does the rowing curriculum cover?
+Q5: What is the cancellation and payment policy?
+
+/advanced-2-day-fly-casting-school/
+Q1: What does the Advanced 2-Day Fly Casting School cover?
+Q2: How much does the Advanced Fly Casting School cost?
+Q3: What skill level is required?
+Q4: Is gear provided for the casting school?
+Q5: What is the cancellation and payment policy?
+
+/spey-elite-casting-clinic/
+Q1: What is the Spey Elite Casting Clinic?
+Q2: How much does the Spey Elite Casting Clinic cost?
+Q3: Do I need prior Spey casting experience?
+Q4: Is two-handed rod gear provided?
+Q5: What is the cancellation and payment policy?
+
+/saltwater-fly-casting-elite-masterclass-workshop/
+Q1: What is the Saltwater Fly Casting Elite Masterclass?
+Q2: How much does the Saltwater Masterclass cost?
+Q3: Who should attend the Saltwater Masterclass?
+Q4: What saltwater species does this prepare you for?
+Q5: What is the cancellation and payment policy?
+
+/online-fly-casting-lessons/
+Q1: How do online fly casting lessons work?
+Q2: How much do online fly casting lessons cost?
+Q3: What platform is used for online casting lessons?
+Q4: What skill levels are online lessons suitable for?
+Q5: What is the cancellation and payment policy?
+
+/dry-fly-clinic/
+Q1: What does the Dry Fly Clinic cover?
+Q2: How much does the Dry Fly Clinic cost?
+Q3: What skill level do I need for the Dry Fly Clinic?
+Q4: Where does the Dry Fly Clinic fish?
+Q5: What is the cancellation and payment policy?
+
+/wet-fly-clinic/
+Q1: What does the Wet Fly Clinic cover?
+Q2: How much does the Wet Fly Clinic cost?
+Q3: Why should I learn wet fly fishing?
+Q4: Where does the Wet Fly Clinic fish?
+Q5: What is the cancellation and payment policy?
+
+/nymph-fishing-clinic/
+Q1: What does the Nymph Fishing Clinic cover?
+Q2: How much does the Nymph Fishing Clinic cost?
+Q3: What nymphing methods are taught?
+Q4: Where does the Nymph Fishing Clinic fish?
+Q5: What is the cancellation and payment policy?
+
+/streamer-clinic/
+Q1: What does the Streamer Clinic cover?
+Q2: How much does the Streamer Clinic cost?
+Q3: Who is the Streamer Clinic for?
+Q4: Where does the Streamer Clinic fish?
+Q5: What is the cancellation and payment policy?
+
+/fly-fishing-seminars/
+Q1: What topics does Mac Brown cover in fly fishing seminars?
+Q2: How do I book Mac Brown for a fly fishing club presentation?
+Q3: How long has Mac Brown been presenting nationally?
+Q4: Can presentations be customized for my group?
+Q5: What size groups do seminars accommodate?
+
+/group-corporate-fly-fishing/
+Q1: What types of corporate fly fishing events are available?
+Q2: How long has Mac Brown hosted corporate groups?
+Q3: Do participants need fly fishing experience?
+Q4: What is included in a corporate fly fishing program?
+Q5: How do I book a corporate or group fly fishing event?
+
+/bryson-city-fly-fishing/
+Q1: What fly fishing is available in Bryson City NC?
+Q2: What rivers are near Bryson City for fly fishing?
+Q3: What is the best time of year to fly fish in Bryson City?
+Q4: Do I need experience or gear to book a trip?
+Q5: How far is Bryson City from major cities?
+
+/great-smoky-mountains-fly-fishing/
+Q1: What fish species are in the Great Smoky Mountains?
+Q2: What rivers are best for fly fishing in the Smoky Mountains?
+Q3: Do you need a license to fish in Great Smoky Mountains National Park?
+Q4: What is the best season for fly fishing the Smoky Mountains?
+Q5: Are guided fly fishing trips available in the Smoky Mountains?
+
+/bio-mac-brown/
+Q1: Who is Mac Brown?
+Q2: What credentials does Mac Brown hold?
+Q3: How long has Mac Brown been guiding in Bryson City NC?
+Q4: Has Mac Brown written any books?
+Q5: Where does Mac Brown present nationally?
+
+/casting-angles/
+Q1: What is the book Casting Angles about?
+Q2: Who wrote Casting Angles?
+Q3: How much does Casting Angles cost?
+Q4: Who has endorsed Casting Angles?
+Q5: How do I purchase a signed copy of Casting Angles?
+
+/fly-fishing-certifications/
+Q1: What is the FFI Master Casting Instructor certification?
+Q2: What awards has Mac Brown received from Fly Fishers International?
+Q3: Is Mac Brown the only Master Casting Instructor in North Carolina?
+Q4: What other credentials does Mac Brown hold?
+Q5: What is the FFI Lifetime Achievement Award?
+
+/mcleods-highland-fly-fishing/
+Q1: What was McLeod's Highland Fly Fishing?
+Q2: When did McLeod's Highland Fly Fishing become Mac Brown Fly Fish?
+Q3: Who founded McLeod's Highland Fly Fishing?
+Q4: Is the guide service still operating under Mac Brown?
+Q5: Where is Mac Brown Fly Fish located today?
+
+/trout-fishing-nc/
+Q1: Where is the best trout fishing in North Carolina?
+Q2: What trout species are in North Carolina streams?
+Q3: Do you need a license to fish for trout in NC?
+Q4: What rivers have the best trout fishing in Western NC?
+Q5: Are guided trout fishing trips available in North Carolina?
+
+/learn-to-fly-fish-bryson-city/
+Q1: How do I learn to fly fish in Bryson City NC?
+Q2: Do I need any gear or experience to learn fly fishing?
+Q3: How long does it take to learn fly fishing?
+Q4: Who teaches the fly fishing lessons in Bryson City?
+Q5: What does a beginner fly fishing lesson cover?
+
+/wnc-fly-fishing-trail/
+Q1: What is the Western North Carolina Fly Fishing Trail?
+Q2: What rivers are on the WNC Fly Fishing Trail?
+Q3: Are guided trips available on the WNC Fly Fishing Trail?
+Q4: What fish species are on the WNC Fly Fishing Trail?
+Q5: What is the best time of year to fish the WNC Fly Fishing Trail?
+
+For ALL cancellation and payment policy answers 
+use the following text exactly:
+
+CANCELLATION: Weather and emergencies — we will 
+always work with you. Dates are rarely cancelled 
+due to weather — come prepared and plan to be on 
+the water. Rescheduling is subject to availability: 
+30+ days out we can assist; within 30 days, full 
+charge applies. We strongly recommend trip 
+cancellation insurance at the time of reservation. 
+We have operated on the Golden Rule since 1987 — 
+if something comes up, reach out and we will do 
+everything we can to work with you.
+
+PAYMENT: Payment in full is required at the time 
+of booking to hold your date. Online bookings via 
+Swipe carry a small processing fee. To avoid fees 
+entirely, we accept Zelle, Venmo, and personal 
+check at no additional cost — just use the contact 
+form and let us know your preferred method.
+
+Generate all FAQPage JSON-LD blocks for each page 
+matching the questions and answers above.
+
+Confirm all FAQ sections and JSON-LD are saved.
+Do not run bash push.sh yet.

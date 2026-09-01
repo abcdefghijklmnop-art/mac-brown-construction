@@ -1,0 +1,169 @@
+Full page read. Short post but excellent credibility content — Team USA Youth training in Bryson City, Deep Creek technical water, vector casting, grid pattern nymphing, and the Lower Nantahala dry fly session. **H1 assessment:** "Team USA Youth Fly Fishing in NC" — decent but undersells the location and training context. Leave it — it has enough search value as is with Team USA as a credibility signal.
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/team-usa-fly-fishing-in-bryson-city-nc/
+
+AEO — add immediately below H1:
+"Mac Brown has coached Fly Fishing Team USA 
+Youth in Bryson City, NC for over 16 years — 
+training elite young competition anglers on 
+the diverse trout waters of Western North 
+Carolina including Deep Creek in Great Smoky 
+Mountains National Park, the Tuckasegee River 
+delayed harvest section, the Upper and Lower 
+Nantahala River, and the Cherokee Trophy 
+Waters. Bryson City provides the most 
+technically diverse competition training 
+environment in the eastern United States — 
+from heavily stocked delayed harvest water 
+to wild technical freestone streams requiring 
+precise grid casting and natural small 
+patterns."
+
+FAQ — add before footer as expandable 
+accordion:
+
+Q1: Why is Bryson City NC used for 
+Fly Fishing Team USA Youth training?
+A1: Bryson City and Swain County provide 
+the most diverse trout water training 
+environment in the eastern United States — 
+combining heavily stocked delayed harvest 
+sections on the Tuckasegee and Nantahala 
+rivers, wild technical freestone streams 
+on Deep Creek inside Great Smoky Mountains 
+National Park, and the Cherokee Trophy 
+Waters for large fish experience. This 
+diversity develops complete competition 
+anglers capable of adapting to any water 
+type — exactly what international fly 
+fishing competition demands.
+
+Q2: What is vector casting and how 
+is it used in competition nymphing?
+A2: Vector casting is Mac Brown's term 
+for directing nymphs into the water at 
+precise angles to control depth — the 
+angle of entry, the cast trajectory, 
+and the rate of pull after entry all 
+determine how deep the flies fish 
+throughout the drift. On technical 
+freestone streams like Deep Creek, 
+competition anglers fish in precise 
+grid patterns over likely holding 
+water — covering each section 
+systematically rather than randomly. 
+Depth control through vector casting 
+is the foundation of high-count 
+competition nymphing.
+
+Q3: How does Deep Creek differ 
+from delayed harvest streams for 
+fly fishing?
+A3: Deep Creek inside Great Smoky 
+Mountains National Park is a wild 
+freestone stream requiring completely 
+different technique than delayed 
+harvest sections. Fish are wild, 
+pressured, and selective — requiring 
+more natural patterns in smaller 
+sizes than delayed harvest sections 
+where stocked trout are more 
+cooperative. Sections must be worked 
+precisely in grids over likely holding 
+water. Efficient casting that keeps 
+flies in the water a higher percentage 
+of the day is critical — every wasted 
+cast on wild water is an opportunity 
+missed.
+
+Q4: What are the Cherokee Trophy 
+Waters and why are they significant?
+A4: The Cherokee Trophy Waters on 
+the Oconaluftee River in the Cherokee, 
+NC tribal lands offer some of the 
+largest stocked trout in Western North 
+Carolina — managed specifically for 
+trophy fish rather than numbers. The 
+water provides valuable experience 
+for Team USA Youth anglers learning 
+to target and land larger fish than 
+standard delayed harvest sections 
+typically produce. A tribal fishing 
+permit is required — separate from 
+a standard NC fishing license.
+
+Q5: How has Mac Brown contributed 
+to Fly Fishing Team USA Youth?
+A5: Mac Brown has coached Fly Fishing 
+Team USA Youth for over 16 years — 
+hosting training clinics in Bryson 
+City, NC on the region's diverse 
+trout waters and developing elite 
+young competition anglers who have 
+gone on to represent the United 
+States in international fly fishing 
+competition. His competition coaching 
+experience directly informs the 
+curriculum at the Fly Fishing Guide 
+School — where competition-level 
+nymphing, dry fly, and wet fly 
+techniques are taught to all students 
+regardless of competitive aspirations.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why is Bryson City NC used for Fly Fishing Team USA Youth training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bryson City and Swain County provide the most diverse trout water training environment in the eastern United States — combining heavily stocked delayed harvest sections on the Tuckasegee and Nantahala rivers, wild technical freestone streams on Deep Creek inside Great Smoky Mountains National Park, and the Cherokee Trophy Waters for large fish experience. This diversity develops complete competition anglers capable of adapting to any water type."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is vector casting and how is it used in competition nymphing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vector casting is Mac Brown's term for directing nymphs into the water at precise angles to control depth — the angle of entry, cast trajectory, and rate of pull after entry all determine how deep the flies fish throughout the drift. On technical freestone streams like Deep Creek, competition anglers fish in precise grid patterns over likely holding water — covering each section systematically rather than randomly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Deep Creek differ from delayed harvest streams for fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Deep Creek inside Great Smoky Mountains National Park is a wild freestone stream requiring completely different technique than delayed harvest sections. Fish are wild, pressured, and selective — requiring more natural patterns in smaller sizes. Sections must be worked precisely in grids over likely holding water. Efficient casting that keeps flies in the water a higher percentage of the day is critical — every wasted cast on wild water is an opportunity missed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the Cherokee Trophy Waters and why are they significant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Cherokee Trophy Waters on the Oconaluftee River in Cherokee, NC offer some of the largest stocked trout in Western North Carolina — managed specifically for trophy fish rather than numbers. The water provides valuable experience for Team USA Youth anglers learning to target and land larger fish. A tribal fishing permit is required — separate from a standard NC fishing license."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How has Mac Brown contributed to Fly Fishing Team USA Youth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown has coached Fly Fishing Team USA Youth for over 16 years — hosting training clinics in Bryson City, NC on the region's diverse trout waters and developing elite young competition anglers who have gone on to represent the United States in international fly fishing competition. His competition coaching experience directly informs the curriculum at the Fly Fishing Guide School."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

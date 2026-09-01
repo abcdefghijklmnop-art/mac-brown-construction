@@ -1,0 +1,149 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/casting-model/
+
+AEO — add immediately below H1:
+"A fly casting model gives instructors and 
+students a shared universal language for 
+describing every element of the fly cast — 
+casting stroke, overall stroke, loop 
+formation, line positioning, and force 
+application. Mac Brown contributed to this 
+collaborative model alongside global casting 
+instructors and has applied it in teaching 
+since 1987 in Bryson City, NC. The model 
+works for all casting styles including 
+single-hand, switch, and Spey — and is 
+powerful precisely because it avoids rigid 
+rules in favor of universal principles."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What is a fly casting model?
+A1: A fly casting model is a structured 
+framework of terms and concepts used to 
+describe every element of the fly cast in 
+a way that applies universally across all 
+casting styles — single-hand, switch, and 
+Spey. It distinguishes between a casting 
+stroke (which generates a loop) and an 
+overall stroke (which includes all rod 
+movements). A good model gives instructors 
+and students a shared language for 
+diagnosing faults, discussing mechanics, 
+and advancing skill without relying on 
+rules that break down in real fishing 
+conditions.
+
+Q2: What is the difference between a 
+casting stroke and an overall stroke?
+A2: A casting stroke covers only those 
+rod motions whose purpose is to apply 
+force to the line and generate a loop — 
+it has one result: a loop of line. An 
+overall stroke or just stroke includes 
+all rod movements during the casting 
+sequence, including positioning moves 
+like lifts, sweeps, and mends that do 
+not directly generate a loop. Keeping 
+these two concepts separate is essential 
+for accurate fault diagnosis and 
+instruction.
+
+Q3: Why do fly casting rules break down?
+A3: Most fly casting rules are 
+observations about one style or 
+situation that get applied universally 
+where they do not belong. Rules about 
+rod arc, elbow position, wrist 
+involvement, and acceleration work 
+in some contexts and fail in others — 
+because style is personal and situation-
+dependent while mechanics are universal. 
+A model based on principles rather than 
+rules gives the caster and instructor 
+tools that work across all casting 
+planes, styles, and fishing scenarios.
+
+Q4: How does the fly casting model 
+apply to Spey casting?
+A4: The model works particularly well 
+with Spey casts because it accommodates 
+change of direction casts, constant 
+tension casts, and the full range of 
+anchor placement and D-loop positioning 
+without forcing them into a single-hand 
+framework. The distinction between 
+casting stroke and positioning moves 
+is especially valuable for teaching 
+Spey — where most of the sequence is 
+positioning before the actual delivery.
+
+Q5: Where can I learn fly casting 
+from an instructor who teaches 
+from first principles?
+A5: Mac Brown Fly Fish in Bryson City, 
+NC offers private fly casting lessons, 
+the Masterclass Casting Workshop, and 
+the week-long Fly Fishing Guide School 
+— all taught from first principles 
+using the universal casting model. 
+Led by Mac Brown, the only FFI Master 
+Casting Instructor in North Carolina, 
+since 1987. Online lessons available 
+worldwide via FaceTime, Zoom, or 
+Skype at $400 per session.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a fly casting model?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A fly casting model is a structured framework of terms and concepts used to describe every element of the fly cast universally across all casting styles — single-hand, switch, and Spey. It distinguishes between a casting stroke (which generates a loop) and an overall stroke (which includes all rod movements). A good model gives instructors and students a shared language for diagnosing faults without relying on rules that break down in real fishing conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a casting stroke and an overall stroke?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A casting stroke covers only those rod motions whose purpose is to apply force to the line and generate a loop — it has one result: a loop of line. An overall stroke includes all rod movements during the casting sequence, including positioning moves like lifts, sweeps, and mends that do not directly generate a loop. Keeping these two concepts separate is essential for accurate fault diagnosis and instruction."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do fly casting rules break down?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most fly casting rules are observations about one style or situation that get applied universally where they do not belong. Rules about rod arc, elbow position, wrist involvement, and acceleration work in some contexts and fail in others — because style is personal while mechanics are universal. A model based on principles rather than rules gives the caster tools that work across all casting planes, styles, and fishing scenarios."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the fly casting model apply to Spey casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The model works particularly well with Spey casts because it accommodates change of direction casts, constant tension casts, and the full range of anchor placement and D-loop positioning without forcing them into a single-hand framework. The distinction between casting stroke and positioning moves is especially valuable for teaching Spey."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn fly casting from an instructor who teaches from first principles?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers private fly casting lessons, the Masterclass Casting Workshop, and the week-long Fly Fishing Guide School — all taught from first principles using the universal casting model. Led by Mac Brown, the only FFI Master Casting Instructor in North Carolina, since 1987. Online lessons available worldwide via FaceTime, Zoom, or Skype at $400 per session."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

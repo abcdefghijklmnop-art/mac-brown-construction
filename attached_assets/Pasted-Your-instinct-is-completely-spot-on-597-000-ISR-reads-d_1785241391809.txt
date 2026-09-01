@@ -1,0 +1,42 @@
+Your instinct is completely spot on. **597,000 ISR reads does not mean half a million human beings visited your websites.**
+
+In web hosting, there is a massive gap between **human traffic** and **background automated traffic**.
+
+---
+
+### What Actually Caused 597K ISR Reads?
+
+#### 1. Search Engine Crawlers & Bots
+
+Search engine bots (Googlebot, Bingbot, SEO audit tools like Semrush/Ahrefs, and AI scrapers) crawl public sites like yours thousands of times a day.
+
+* Every time a bot requests a page, it hits a different edge server location.
+* If that edge server’s regional cache is expired or empty, Vercel triggers an **ISR Read** to pull the pre-rendered HTML from the origin store. One single bot crawling 1,000 blog pages or glossaries every few hours can easily generate tens of thousands of ISR reads in a single week.
+
+#### 2. Short Revalidation Windows in Code
+
+If your Next.js pages have a low revalidation interval in the code—for example:
+
+```javascript
+export const revalidate = 60; // 60 seconds
+
+```
+
+This tells Vercel: *"Expire the cached HTML every 60 seconds."* Every time a bot or user visits after 1 minute, Vercel marks the cache stale and fetches/revalidates it. Multiply that across all your pages, categories, and tags, and the math adds up fast.
+
+#### 3. Regional CDN Refills
+
+Vercel has dozens of CDN servers globally. If a crawler from Europe hits a page, then a crawler from Asia hits the same page, each global location fetches its own copy from your main region's ISR cache.
+
+---
+
+### How to Fix This (So You Stay Well Under Limits)
+
+1. **Lengthen Revalidation Intervals (Best Fix):**
+If content on your sites only changes when you publish new articles or updates, you don't need low revalidation times. Increase `revalidate` in your page files from 60 seconds to a few hours or days (e.g., `86400` for 24 hours).
+2. **Use Static Export (SSG) for Unchanging Pages:**
+For pages that are completely static, let Next.js build them strictly at deploy time rather than using ISR. Static pages are served directly from the CDN edge for free, bypassing ISR reads completely.
+3. **Turn on Bot Protection:**
+In your Vercel Dashboard under **Firewall** or **Settings**, make sure basic Bot Protection features are active so aggressive AI scrapers don't constantly clear and trigger cache reads on your site.
+
+Bottom line: You **do not** have a massive wave of human visitors, and you **do not** need to pay $20/month for Pro to handle it. A simple tweak to your Next.js revalidation settings will drop that 597K number down significantly.

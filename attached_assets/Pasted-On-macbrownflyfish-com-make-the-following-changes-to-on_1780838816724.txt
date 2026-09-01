@@ -1,0 +1,159 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/understanding-fly-rod-actions-modulus-rod-feel-dampening/
+
+AEO — add immediately below H1:
+"Fly rod action, modulus, dampening, and 
+feel are four distinct and interdependent 
+attributes that determine how a fly rod 
+performs — and none of them is fully 
+captured by the terms fast, medium, or 
+slow action alone. Mac Brown's 1996 Western 
+Carolina University study evaluated 54 
+five-weight rods in a controlled lab 
+environment and a blind study of 20 
+accomplished casters — finding that rods 
+rated highest in feel also dampened most 
+quickly, and that medium action rods 
+consistently offered the greatest control 
+for the widest range of trout angling 
+scenarios."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What is fly rod modulus?
+A1: Modulus is a material's resistance to 
+elastic deformation under load — in fly 
+casting it refers to the rod's stiffness 
+relative to its weight. Higher modulus 
+graphite is stiffer and lighter for the 
+same diameter blank. The evolution from 
+fiberglass to graphite-3 to graphite-4 
+has increased the stiffness-to-mass ratio 
+with each generation — allowing rods to 
+become lighter while maintaining similar 
+stiffness. Higher modulus generally means 
+smaller rod diameter and higher frequency.
+
+Q2: What is fly rod dampening and why 
+does it matter?
+A2: Dampening is how quickly a fly rod 
+returns to rest after being deflected — 
+measured in seconds from maximum flex 
+to stillness. A lower dampening number 
+is better. All rods that rated highest 
+in Mac Brown's WCU blind study also 
+dampened most quickly. Poor dampening 
+introduces oscillation into the cast 
+after the stop, creating unwanted waves 
+in the fly line that reduce accuracy 
+and loop quality. Dampening data can 
+also reveal continuity problems in 
+rod taper when compared with frequency 
+and deflection results.
+
+Q3: What is rod spline and does it 
+matter for fly casting?
+A3: The spline is the stiffer side of 
+the rod blank — ideally the guides 
+should be aligned with the spine so 
+the rod bends consistently in the 
+same plane during casting. The WCU 
+study found that only 34% of rods 
+tested had guides splined exactly 
+up or down. Rods with guides correctly 
+aligned tracked straight during the 
+dampening test — non-splined rods 
+tracked in an elliptical pattern, 
+indicating energy loss and reduced 
+casting efficiency.
+
+Q4: What fly rod action does Mac Brown 
+recommend for trout fishing?
+A4: Medium action — based on the WCU 
+study findings. The panel of 20 
+experienced casters with 470 combined 
+years of experience consistently rated 
+medium action rods highest for feel, 
+control, and versatility across trout 
+angling scenarios. Medium actions are 
+easier for casting curves in either 
+direction, allow the caster to feel 
+the tip during the cast, and offer 
+the greatest flexibility for the 
+widest range of distances and 
+presentation types. Avoid extreme 
+fast actions unless distance casting 
+is the primary goal.
+
+Q5: How do I evaluate a fly rod 
+before buying?
+A5: Cast it at multiple distances — 
+close, medium, and far — and pay 
+attention to feel, not just loop shape. 
+The rods that rated lowest in the WCU 
+study lost their feel aspect at 
+certain distances even though casters 
+could compensate with technique. No 
+caster would purchase a rod where the 
+feel aspect was compromised regardless 
+of performance data. Test dampening 
+by flexing the tip and observing how 
+quickly it settles. Balance the rod 
+on a finger near the cork to evaluate 
+swing weight. Then cast it on water 
+before committing.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is fly rod modulus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Modulus is a material's resistance to elastic deformation under load — in fly casting it refers to the rod's stiffness relative to its weight. Higher modulus graphite is stiffer and lighter for the same diameter blank. The evolution from fiberglass to graphite-3 to graphite-4 has increased the stiffness-to-mass ratio with each generation. Higher modulus generally means smaller rod diameter and higher frequency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is fly rod dampening and why does it matter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dampening is how quickly a fly rod returns to rest after being deflected — measured in seconds from maximum flex to stillness. A lower dampening number is better. All rods that rated highest in Mac Brown's WCU blind study also dampened most quickly. Poor dampening introduces oscillation into the cast after the stop, creating unwanted waves in the fly line that reduce accuracy and loop quality."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is rod spline and does it matter for fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The spline is the stiffer side of the rod blank — guides should be aligned with the spine so the rod bends consistently in the same plane during casting. The WCU study found that only 34% of rods tested had guides splined exactly up or down. Rods with guides correctly aligned tracked straight during the dampening test — non-splined rods tracked in an elliptical pattern, indicating energy loss and reduced casting efficiency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What fly rod action does Mac Brown recommend for trout fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Medium action — based on the WCU study findings. The panel of 20 experienced casters with 470 combined years of experience consistently rated medium action rods highest for feel, control, and versatility across trout angling scenarios. Medium actions are easier for casting curves, allow the caster to feel the tip during the cast, and offer the greatest flexibility for the widest range of presentations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I evaluate a fly rod before buying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cast it at multiple distances and pay attention to feel, not just loop shape. The rods that rated lowest in the WCU study lost their feel aspect at certain distances even though casters could compensate with technique. Test dampening by flexing the tip and observing how quickly it settles. Balance the rod on a finger near the cork to evaluate swing weight. Then cast it on water before committing."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

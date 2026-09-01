@@ -1,0 +1,92 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+then run bash push.sh to deploy all changes 
+so far. Stand by for Paste 11 with remaining 
+definitions. No other changes.
+
+    {
+      "@type": "Question",
+      "name": "What is a spring creek in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A spring creek gets its water from an underground aquifer or spring sources rather than glacier melt, snow melt, or surface runoff. Water temperatures in spring creeks remain more stable than traditional creeks and rivers because they are fed by underground water sources."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is stalking in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stalking is the action of creeping up on a fish so as not to surprise or disturb it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is steelhead in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Steelhead is a migratory rainbow trout — sea-run."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a stonefly in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stoneflies are a very important aquatic food source for trout at all stages of their life cycle. Stonefly nymphs live for one to three years depending on species. Most species hatch by crawling to the shoreline and emerging from their nymphal case above the surface. Stoneflies require a rocky stream bed with very good water quality."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a streamer fly in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A streamer is a fly tied to imitate various species of baitfish upon which both freshwater and saltwater game fish feed. Streamers are large often heavily weighted flies that sink fast and have a natural swimming motion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a strip-set in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The strip-set is the act of stripping the line with the line hand to set the hook on a strike."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is stripping in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stripping is bringing in fly line with a series of short or varied pulls to simulate a living insect or baitfish — often involving movements of the rod tip. The key to successful fishing is having the ability to vary all types of retrievals for different speeds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a surgeon's knot in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A surgeon's knot is an excellent knot used to tie two lengths of monofilament of dissimilar diameters together."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a tailing rise in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "When feeding in shallow water you will often see a fish's caudal fin exposed. Tailing fish are an exciting discovery and generally signal the possibility of getting strikes with the proper presentation of the right fly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a tailwater in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The tailwater is the downstream section of a river or stream found below a large man-made dam. The most famous and productive tailwaters are from bottom-discharge dams which make the water relatively cold and consistent in temperature."
+      }
+    }
+
+Then run bash push.sh to deploy all changes 
+so far. Stand by for Paste 11. 
+No other changes.

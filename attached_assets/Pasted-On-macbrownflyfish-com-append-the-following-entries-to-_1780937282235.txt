@@ -1,0 +1,50 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/roll-cast-efficiency/
+then run bash push.sh to deploy. 
+No other changes.
+
+    {
+      "@type": "Question",
+      "name": "What common mistakes do self-taught casters make with the roll cast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most compelling issue is too much power — attempting to force things rather than letting them flow. In fly casting the concept of less is more takes practice to appreciate. Minimal rod loading also occurs because the student has not grasped that hand timing and rod timing are two very different things. Limited understanding of loops is the third common issue — the efficiency of varying loop size is entirely up to the caster to control."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the fly line load the rod in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — the caster loads the rod and the rod moves the line. The claim that the line loads the rod is one of the most common and incorrect statements in fly casting instruction."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What fly line is recommended for practicing roll casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In general use a long-bellied weight forward line or a double taper for practice. The Scientific Anglers Mastery Series Expert Distance 120-foot line in orange is perfect for practice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does a loop form in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The forward stroke begins slowly and goes faster to an abrupt stop of the rod. The oncoming line overtakes the rod tip and a new loop of line is folded over on itself. The fly leg is turning over faster throughout the whole process as the rod leg section of the loop grows longer. The narrower the loop the faster it turns over."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do roll casts cause problems on CI and MCI certification tests?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Roll casts in America tend to be the problematic part of most CI and MCI tests for candidates — due to a lack of leadership from experts in the casting arena. Problems during the loading move will most certainly show up in the static roll cast at greater distances."
+      }
+    }
+
+Then run bash push.sh to deploy. 
+No other changes.

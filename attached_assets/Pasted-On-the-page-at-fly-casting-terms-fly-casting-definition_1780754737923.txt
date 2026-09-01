@@ -1,0 +1,24 @@
+On the page at /fly-casting-terms/fly-casting-definitions-glossary-terminology, make two changes only. Do not delete, edit, or move any existing content anywhere on this page.
+CHANGE 1 — Add a new first paragraph ABOVE the existing opening.
+The existing opening currently begins with: "Fly casting definitions, glossary & terminology has lagged well behind since the inception of the sport..."
+Insert this new paragraph directly above that existing text:
+Fly casting has its own language, and learning the terms is one of the fastest ways to accelerate your casting and your fishing. This glossary covers the essential fly casting definitions, from basic concepts like loop, stroke, and haul, to advanced mechanics like translatory motion, rod planes, and tailing loop diagnosis. I've been compiling and refining these terms since the 1990s for my book Casting Angles, and many have since been adopted by leading casting organizations worldwide. Whether you're a beginner trying to understand what your instructor is saying or an advanced angler looking to sharpen your technical vocabulary, you'll find what you need here.
+
+CHANGE 2 — Add a FAQ section at the bottom of the page.
+Place it above the tags section. Display it as a visible FAQ section on the page and include JSON-LD FAQ schema in the page head so Google can read it.
+Q: What is a tailing loop in fly casting?
+A: A tailing loop happens when the fly leg of your loop crosses the rod leg, usually caused by applying force too abruptly or too early in the casting stroke. It's one of the most misunderstood faults in fly casting — most people blame rod tip concavity, but a transverse wave is usually the real culprit. Fix your acceleration timing and the tails disappear.
+Q: What does double haul mean in fly fishing?
+A: The double haul is a line acceleration technique where you pull the fly line with your line hand on both the backcast and the forward cast. It increases rod load, tip speed, and line speed — making longer casts easier and keeping your loops tighter in wind. It's one of the most valuable skills an intermediate caster can develop.
+Q: What is the difference between rod action and rod flex in fly casting?
+A: Rod action describes where and how a rod bends under load — fast, medium, or slow — and includes characteristics like frequency, stiffness, and dampening. Rod flex refers to how deeply the rod bends during the actual casting stroke. A fast-action rod bends near the tip; a slow-action rod loads deeper into the blank. Matching rod action to your casting style and fishing situation makes a significant difference in presentation.
+Q: What is a D-loop in fly casting?
+A: The D-loop is the loop of line that forms behind the rod tip before the delivery cast, most commonly used in Spey casting and roll casts. It can be dynamic or static. A properly formed D-loop loads the rod efficiently for the forward delivery — the shape and size of your D-loop directly affects how much power you can generate.
+Q: What does mending mean in fly fishing?
+A: Mending is repositioning your fly line on the water — or in the air — to control drag on the fly. An upstream mend slows the fly down to match the current; a downstream mend speeds it up. Getting your mends right is often the difference between a fish that eats and one that ignores your presentation entirely.
+Q: What is a shooting head in fly casting?
+A: A shooting head is a short, heavy section of fly line that isn't attached to a conventional running line. The running section is typically thin braided monofilament. Shooting heads are used for distance casting, Spey setups, and specialty presentations where maximum line speed with minimal effort is the goal.
+Q: What causes wind knots in a fly fishing leader?
+A: Wind knots are actually tailing loops — caused by a flaw in your casting stroke, not the wind. The fly leg crosses the rod leg and ties itself into an overhand knot. Too much force too early in the stroke is the most common cause. Smoother acceleration fixes them faster than any other adjustment.
+
+Match the FAQ section styling to the existing site design. No other changes anywhere on this page.

@@ -1,0 +1,251 @@
+<Route path="/about"><Redirect to="/bio-mac-brown" /></Route>
+<Route path="/about-mac-brown"><Redirect to="/bio-mac-brown" /></Route>
+<Route path="/about-mac-brown-fly-fish"><Redirect to="/mission-statement" /></Route>
+<Route path="/waiver-form"><Redirect to="/waiver" /></Route>
+<Route path="/testimonials-kudos"><Redirect to="/testimonials" /></Route>
+<Route path="/casting-angles"><Redirect to="/book" /></Route>
+<Route path="/meet-our-guides"><Redirect to="/bio-mac-brown" /></Route>
+<Route path="/meet-our-fly-fishing-guide-school-instructors"><Redirect to="/meet-our-guides" /></Route>
+<Route path="/mcleods-highland-fly-fishing"><Redirect to="/bio-mac-brown" /></Route>
+<Route path="/float-trips"><Redirect to="/instructional-float-trips" /></Route>
+<Route path="/guided-float-trips"><Redirect to="/instructional-float-trips" /></Route>
+<Route path="/wade-trips"><Redirect to="/instructional-wade-trips" /></Route>
+<Route path="/guided-wade-trips"><Redirect to="/instructional-wade-trips" /></Route>
+<Route path="/guided-trips"><Redirect to="/instructional-guided-trips" /></Route>
+<Route path="/fly-fishing-guide-trips"><Redirect to="/instructional-guided-trips" /></Route>
+<Route path="/fly-fishing-guide-trips-north-carolina"><Redirect to="/instructional-guided-trips" /></Route>
+<Route path="/smoky-mountains-trout-fishing-guide-trips"><Redirect to="/instructional-guided-trips" /></Route>
+<Route path="/bryson-city-nc-guided-fly-fishing"><Redirect to="/instructional-guided-trips" /></Route>
+<Route path="/trout-fishing-nc"><Redirect to="/instructional-guided-trips" /></Route>
+<Route path="/fly-fishing-guided-trips"><Redirect to="/instructional-guided-trips" /></Route>
+<Route path="/western-north-carolinas-best-fly-fishing-trips"><Redirect to="/instructional-guided-trips" /></Route>
+<Route path="/fly-fishing-trips-north-carolina"><Redirect to="/instructional-guided-trips" /></Route>
+<Route path="/asheville-nc-guided-trout-fishing-trips"><Redirect to="/asheville-nc-guided-trout-fishing" /></Route>
+<Route path="/highlands-nc-fly-fishing-trips"><Redirect to="/highlands-nc-fly-fishing" /></Route>
+<Route path="/franklin-nc-fly-fishing-guide-trips"><Redirect to="/franklin-nc-fly-fishing" /></Route>
+<Route path="/cashiers-nc-guided-trout-fishing"><Redirect to="/cashiers-nc-guided-trout-fishing" /></Route>
+<Route path="/wnc-fly-fishing-trail"><Redirect to="/instructional-wade-trips" /></Route>
+<Route path="/cherokee-trophy-water-fly-fishing-guided-wade-trips"><Redirect to="/cherokee-trophy-water" /></Route>
+<Route path="/tuckasegee-river-fly-fishing-guided-float-wade-trips-delayed-harvest"><Redirect to="/tuckasegee-river-fly-fishing" /></Route>
+<Route path="/nantahala-river-fly-fishing-guided-float-fishing-wade-trips"><Redirect to="/nantahala-river-fly-fishing" /></Route>
+<Route path="/fly-fishing-lakes"><Redirect to="/lake-trips" /></Route>
+<Route path="/smoky-mountain-lakes"><Redirect to="/lake-trips" /></Route>
+<Route path="/lake-fishing"><Redirect to="/lake-trips" /></Route>
+<Route path="/fly-fishing-lake-trips"><Redirect to="/lake-trips" /></Route>
+<Route path="/lake-guided-fly-fishing-trips"><Redirect to="/lake-trips" /></Route>
+<Route path="/fly-fishing-guide-trips-north-carolina/fly-fishing-lake-trips"><Redirect to="/lake-trips" /></Route>
+<Route path="/fly-fishing-guide-trips-north-carolina/lake-fishing-trout"><Redirect to="/lake-trips" /></Route>
+<Route path="/fly-fishing-schools"><Redirect to="/smoky-mountain-weekend-schools" /></Route>
+<Route path="/fly-fishing-school"><Redirect to="/smoky-mountain-weekend-schools" /></Route>
+<Route path="/guide-school"><Redirect to="/smoky-mountain-weekend-schools" /></Route>
+<Route path="/fly-fishing-guide-school"><Redirect to="/smoky-mountain-weekend-schools" /></Route>
+<Route path="/smoky-mountain-weekend-fly-fishing-schools"><Redirect to="/smoky-mountain-weekend-schools" /></Route>
+<Route path="/fly-fishing-specialty-classes-show-itinerary"><Redirect to="/events" /></Route>
+<Route path="/fly-fishing-specialty-classes-show-itinerary-2020"><Redirect to="/events" /></Route>
+<Route path="/kids-trout-fishing-trips"><Redirect to="/kids-trout-fishing" /></Route>
+<Route path="/learn-to-fly-fish"><Redirect to="/fly-fishing-instruction" /></Route>
+<Route path="/beginner-fly-fishing-lessons-courses-school-instruction-trout-fishing-bryson-city-nc"><Redirect to="/fly-fishing-instruction" /></Route>
+<Route path="/fly-casting-school"><Redirect to="/advanced-2-day-fly-casting-school" /></Route>
+<Route path="/casting-school"><Redirect to="/advanced-2-day-fly-casting-school" /></Route>
+<Route path="/fly-casting-instruction"><Redirect to="/fly-fishing-instruction" /></Route>
+<Route path="/casting-instruction"><Redirect to="/fly-fishing-instruction" /></Route>
+<Route path="/fly-fishing-guide-trips-north-carolina/fly-casting-instruction"><Redirect to="/fly-fishing-instruction" /></Route>
+<Route path="/masterclass"><Redirect to="/masterclass-casting-workshop" /></Route>
+<Route path="/fly-casting-training-course"><Redirect to="/masterclass-casting-workshop" /></Route>
+<Route path="/certified-instructor-training"><Redirect to="/masterclass-casting-workshop" /></Route>
+<Route path="/certified-fly-casting-instructor-training-schools"><Redirect to="/masterclass-casting-workshop" /></Route>
+<Route path="/nymph-fishing"><Redirect to="/nymph-fishing-clinic" /></Route>
+<Route path="/advanced-nymph-clinic"><Redirect to="/nymph-fishing-clinic" /></Route>
+<Route path="/dry-fly"><Redirect to="/dry-fly-clinic" /></Route>
+<Route path="/advanced-dry-fly-clinic"><Redirect to="/dry-fly-clinic" /></Route>
+<Route path="/streamer-fishing"><Redirect to="/streamer-clinic" /></Route>
+<Route path="/advanced-streamer-clinic"><Redirect to="/streamer-clinic" /></Route>
+<Route path="/wet-fly"><Redirect to="/wet-fly-clinic" /></Route>
+<Route path="/advanced-wet-fly-clinic"><Redirect to="/wet-fly-clinic" /></Route>
+<Route path="/spey-casting"><Redirect to="/spey-elite-casting-clinic" /></Route>
+<Route path="/spey-clinic"><Redirect to="/spey-elite-casting-clinic" /></Route>
+<Route path="/two-handed-casting"><Redirect to="/spey-elite-casting-clinic" /></Route>
+<Route path="/switch-spey-casting"><Redirect to="/spey-elite-casting-clinic" /></Route>
+<Route path="/saltwater"><Redirect to="/saltwater-fly-casting-elite-masterclass" /></Route>
+<Route path="/saltwater-fly-fishing-school"><Redirect to="/saltwater-fly-casting-elite-masterclass" /></Route>
+<Route path="/saltwater-casting"><Redirect to="/saltwater-fly-casting-elite-masterclass" /></Route>
+<Route path="/rowing-school"><Redirect to="/river-navigation-academy" /></Route>
+<Route path="/oar-frame-rowing"><Redirect to="/river-navigation-academy" /></Route>
+<Route path="/rowing-clinic"><Redirect to="/river-navigation-academy" /></Route>
+<Route path="/nc-oar-frame-rowing-school-smokies"><Redirect to="/river-navigation-academy" /></Route>
+<Route path="/hatch-report"><Redirect to="/bryson-city-river-conditions-hatch-report" /></Route>
+<Route path="/hatch-chart"><Redirect to="/bryson-city-river-conditions-hatch-report" /></Route>
+<Route path="/bryson-city-hatches"><Redirect to="/bryson-city-river-conditions-hatch-report" /></Route>
+<Route path="/bryson-city-fly-fishing-report-hatch-chart"><Redirect to="/bryson-city-river-conditions-hatch-report" /></Route>
+<Route path="/bryson-city-area-hatch-report"><Redirect to="/bryson-city-river-conditions-hatch-report" /></Route>
+<Route path="/bryson-city-area-hatch-report/"><Redirect to="/bryson-city-river-conditions-hatch-report" /></Route>
+<Route path="/services"><Redirect to="/programs-overview" /></Route>
+<Route path="/programs"><Redirect to="/programs-overview" /></Route>
+<Route path="/services/destination-trips"><Redirect to="/instructional-guided-trips" /></Route>
+<Route path="/fly-fishing-guided-trips/destination-trips"><Redirect to="/instructional-guided-trips" /></Route>
+<Route path="/gallery"><Redirect to="/photo-gallery" /></Route>
+<Route path="/photos"><Redirect to="/photo-gallery" /></Route>
+<Route path="/shop"><Redirect to="/store" /></Route>
+<Route path="/mac-brown-fly-fish-trucker-hats"><Redirect to="/store" /></Route>
+<Route path="/blog-post"><Redirect to="/blog" /></Route>
+<Route path="/release-waiver"><Redirect to="/waiver" /></Route>
+<Route path="/reviews"><Redirect to="/testimonials" /></Route>
+<Route path="/kudos"><Redirect to="/testimonials" /></Route>
+<Route path="/category/kudos"><Redirect to="/testimonials" /></Route>
+<Route path="/testimonials"><Redirect to="/testimonials" /></Route>
+<Route path="/newsletter"><Redirect to="/contact" /></Route>
+<Route path="/reservation-form"><Redirect to="/contact" /></Route>
+<Route path="/contact-fly-fishing-guided-trips-bryson-city-nc"><Redirect to="/contact" /></Route>
+<Route path="/elite-angler-boot-camp"><Redirect to="/fly-fishers-complete-a-z-boot-camp" /></Route>
+<Route path="/group-corporate-fly-fishing-trips"><Redirect to="/group-corporate-fly-fishing" /></Route>
+<Route path="/fly-fishing-guide-trips-north-carolina/group-corporate-fly-fishing-trips"><Redirect to="/group-corporate-fly-fishing" /></Route>
+<Route path="/trout-fishing-back-country-trips"><Redirect to="/backcountry-trout-fishing" /></Route>
+<Route path="/fly-fishing-guide-trips-north-carolina/trout-fishing-back-country-trips"><Redirect to="/backcountry-trout-fishing" /></Route>
+<Route path="/fishing-reports"><Redirect to="/bryson-city-river-conditions-hatch-report" /></Route>
+<Route path="/about-mb/bio"><Redirect to="/bio-mac-brown" /></Route>
+<Route path="/services/mcleods-highland-fly-fishing"><Redirect to="/bio-mac-brown" /></Route>
+<Route path="/casting-terms"><Redirect to="/fly-fishing-glossary" /></Route>
+<Route path="/fly-casting-definitions"><Redirect to="/fly-fishing-glossary" /></Route>
+<Route path="/fly-casting-terms/fly-casting-definitions"><Redirect to="/fly-fishing-glossary" /></Route>
+<Route path="/fly-fishing-definitions"><Redirect to="/fly-fishing-glossary" /></Route>
+<Route path="/fly-fishing-definitions/fly-fishing-terms-glossary-definitions"><Redirect to="/fly-fishing-glossary" /></Route>
+<Route path="/fly-casting-terms/fly-casting-definitions-glossary-terminology"><Redirect to="/fly-fishing-glossary" /></Route>
+
+{/* Blog Posts — Casting Mechanics */}
+<Route path="/fly-casting-model/casting-model"><Redirect to="/blog/fly-casting-model" /></Route>
+<Route path="/fly-fishers-international-conclave/fly-casting-instruction"><Redirect to="/blog/learn-to-fly-cast-local-waters" /></Route>
+<Route path="/fly-casting/improve-tracking-fly-casting-accuracy"><Redirect to="/blog/improve-tracking-fly-casting" /></Route>
+<Route path="/teaching-fly-casting/memoirs-teaching-fly-casting"><Redirect to="/blog/memoirs-teaching-fly-casting" /></Route>
+<Route path="/learn-leader-construction/learn-leader-construction"><Redirect to="/blog/leader-construction-fly-fishing" /></Route>
+<Route path="/fly-casting/5-essentials-fly-casting"><Redirect to="/blog/5-essentials-fly-casting" /></Route>
+<Route path="/fly-casting/5-essentials-of-fly-casting"><Redirect to="/blog/5-essentials-fly-casting" /></Route>
+<Route path="/fly-casting/learn-curve-casts"><Redirect to="/blog/learn-curve-casts" /></Route>
+<Route path="/fly-casting/understanding-loop-plane"><Redirect to="/blog/understanding-loop-plane" /></Route>
+<Route path="/understanding-loop-shape-morphing/fly-line-loops-accuracy"><Redirect to="/blog/fly-line-loops-accuracy" /></Route>
+<Route path="/understanding-loop-shape-morphing/learn-loop-control-morphing-shapes-created-fly-casting"><Redirect to="/blog/loop-control-morphing" /></Route>
+<Route path="/fly-casting/roll-cast-efficiency"><Redirect to="/blog/roll-cast-efficiency" /></Route>
+<Route path="/fly-casting/learn-to-make-a-roll-cast-fly-fishing"><Redirect to="/blog/roll-cast-fly-fishing" /></Route>
+<Route path="/fly-casting/successful-training"><Redirect to="/blog/successful-training-fly-fishing" /></Route>
+<Route path="/fly-casting/synergy-and-fly-casting"><Redirect to="/blog/synergy-fly-casting" /></Route>
+<Route path="/fly-casting/forced-turnover-versus-pulling-the-rod-through-in-fly-casting"><Redirect to="/blog/forced-turnover-fly-casting" /></Route>
+<Route path="/dry-fly-fishing/forced-turnover-versus-pulling-the-rod-through-in-fly-casting"><Redirect to="/blog/forced-turnover-fly-casting" /></Route>
+<Route path="/fly-rod-attributes/considerations-choosing-fly-rod"><Redirect to="/blog/choosing-fly-rod" /></Route>
+<Route path="/fly-casting/standardization-fly-casting"><Redirect to="/blog/standardization-fly-casting" /></Route>
+<Route path="/fly-casting/standardization-in-fly-casting-today"><Redirect to="/blog/standardization-fly-casting" /></Route>
+<Route path="/fly-casting/understand-rod-acceleration"><Redirect to="/blog/understand-rod-acceleration" /></Route>
+<Route path="/teaching-fly-casting/understanding-fly-fishers-triad"><Redirect to="/blog/fly-fishers-triad" /></Route>
+<Route path="/fly-casting/learn-to-cast-a-switch-rod"><Redirect to="/blog/learn-cast-switch-rod" /></Route>
+<Route path="/teaching-fly-casting/observations-instruct-teach-fly-casting-lessons"><Redirect to="/blog/instruct-teach-fly-casting" /></Route>
+<Route path="/fly-casting/just-do-it-commit-to-your-fly-fishing-journey"><Redirect to="/blog/commit-to-fly-fishing-journey" /></Route>
+<Route path="/fly-casting/understand-rod-loading"><Redirect to="/blog/understand-rod-loading" /></Route>
+
+{/* Blog Posts — Rod & Gear */}
+<Route path="/fly-rod-attributes/understanding-fly-rod-actions-modulus-rod-feel-dampening"><Redirect to="/blog/understanding-fly-rod-actions" /></Route>
+<Route path="/fly-rod-attributes/understanding-fly-rod-balance-swing-weight-deflection-continuity-frequency"><Redirect to="/blog/fly-rod-balance-swing-weight" /></Route>
+<Route path="/fly-fishing-techniques/myths-on-rods-and-tippet-for-fly-fishing"><Redirect to="/blog/myths-rods-tippet" /></Route>
+
+{/* Blog Posts — Nymph Fishing */}
+<Route path="/nymph-fishing/learning-to-nymph-fish"><Redirect to="/blog/learning-to-nymph-fish" /></Route>
+<Route path="/nymph-fishing/learn-tight-line-techniques-euro-nymphing"><Redirect to="/blog/tight-line-euro-nymphing" /></Route>
+<Route path="/learn-fly-fishing/learn-crack-code-trout-fishing"><Redirect to="/blog/crack-code-trout-fishing" /></Route>
+
+{/* Blog Posts — Streamer Fishing */}
+<Route path="/streamer-fishing/nantahala-river-streamer-fishing"><Redirect to="/blog/nantahala-river-streamer-fishing" /></Route>
+<Route path="/streamer-fishing/articulated-sculpin"><Redirect to="/blog/articulated-sculpin-patterns" /></Route>
+<Route path="/streamer-fishing/a-few-thoughts-on-streamer-fishing"><Redirect to="/blog/thoughts-streamer-fishing" /></Route>
+
+{/* Blog Posts — Dry Fly */}
+<Route path="/dry-fly-fishing/thoughts-on-dry-fly-fishing"><Redirect to="/blog/thoughts-dry-fly-fishing" /></Route>
+<Route path="/dry-fly-fishing/learn-to-hammer-trout-with-dry-fly-techniques"><Redirect to="/blog/hammer-trout-dry-fly" /></Route>
+<Route path="/dry-fly-fishing/figure-out-matching-hatches-fly-fishing"><Redirect to="/blog/matching-hatches-fly-fishing" /></Route>
+<Route path="/dry-fly-fishing/instructional-methods-art-dry-fly-fishing"><Redirect to="/blog/instructional-methods-dry-fly" /></Route>
+
+{/* Blog Posts — Fly Tying */}
+<Route path="/fly-tying/pheasant-tail-droppers"><Redirect to="/blog/pheasant-tail-droppers" /></Route>
+<Route path="/fly-tying/history-mop-fly-mania"><Redirect to="/blog/mop-fly-history" /></Route>
+<Route path="/fly-tying/christmas-season-fly-tying"><Redirect to="/blog/christmas-season-fly-tying" /></Route>
+
+{/* Blog Posts — Seasonal */}
+<Route path="/tuckasegee-river-fly-fishing/best-winter-fly-fishing"><Redirect to="/blog/best-winter-fly-fishing" /></Route>
+<Route path="/fly-fishing-smokies/fly-fishing-tips-catch-more-winter-trout"><Redirect to="/blog/winter-trout-fishing-tips" /></Route>
+<Route path="/learn-fly-fishing/fall-fly-fishing-invasion-north-carolina"><Redirect to="/blog/fall-fly-fishing-north-carolina" /></Route>
+<Route path="/learning-to-fly-fish/fall-fly-fishing-invasion-north-carolina"><Redirect to="/blog/fall-fly-fishing-north-carolina" /></Route>
+<Route path="/trout-fishing-nc-destinations/best-trout-fishing-seasons-smokies"><Redirect to="/blog/best-trout-fishing-seasons-smokies" /></Route>
+
+{/* Blog Posts — Technique */}
+<Route path="/fly-fishing-techniques/get-drag-free-drift-fly-fishing"><Redirect to="/blog/drag-free-drift-fly-fishing" /></Route>
+<Route path="/learn-hooksets/barbless-hooks-increase-your-catch"><Redirect to="/blog/barbless-hooks" /></Route>
+<Route path="/learn-hooksets/learn-to-set-the-hook-fly-fishing-trout"><Redirect to="/blog/set-hook-fly-fishing" /></Route>
+<Route path="/fly-fishing-techniques/cross-over-techniques-fly-fishing-for-trout"><Redirect to="/blog/cross-over-techniques-fly-fishing" /></Route>
+<Route path="/line-retrieval-methods/fly-fishing-line-retrieval-techniques"><Redirect to="/blog/line-retrieval-techniques" /></Route>
+<Route path="/fly-line-double-haul/learning-the-double-haul"><Redirect to="/blog/learning-double-haul" /></Route>
+<Route path="/hauling-the-fly-line/learning-the-double-haul"><Redirect to="/blog/learning-double-haul" /></Route>
+<Route path="/fly-line-study/learning-the-double-haul"><Redirect to="/blog/learning-double-haul" /></Route>
+<Route path="/smoky-mountain-trout-fishing/fly-fishers-it-is-not-about-your-fly"><Redirect to="/blog/not-about-your-fly" /></Route>
+<Route path="/fly-fishing-smokies/how-to-choose-a-fly-fishing-guided-trip-in-nc"><Redirect to="/blog/how-to-choose-fly-fishing-guide" /></Route>
+<Route path="/fly-fishing-smokies/making-fly-fishing-memories-one-guided-trout-fishing-trip"><Redirect to="/blog/fly-fishing-memories" /></Route>
+<Route path="/fly-casting-terms/instructor-observation-on-substance-style"><Redirect to="/blog/substance-style-fly-casting" /></Route>
+<Route path="/smoky-mountain-trout-fishing/stewards-of-the-river-or-pillagers"><Redirect to="/blog/stewards-of-the-river" /></Route>
+
+{/* Blog Posts — River Reports */}
+<Route path="/deep-creek-trout-fishing-report/deep-creek-fishing-report"><Redirect to="/blog/deep-creek-fishing-report" /></Route>
+<Route path="/tuckasegee-river-fly-fishing/tuckasegee-fly-fishing-report-2016"><Redirect to="/blog/tuckasegee-fly-fishing-report" /></Route>
+<Route path="/north-carolina-trout-fishing-trips/tuckasegee-river-delayed-harvest-trout-fishing"><Redirect to="/blog/tuckasegee-delayed-harvest-report" /></Route>
+<Route path="/trout-fishing-report-bryson-city-nc/fly-fishing-report-bryson-city-nc"><Redirect to="/blog/fly-fishing-report-bryson-city" /></Route>
+<Route path="/trout-fishing-report-bryson-city-nc/epic-trout-fishing-may-bryson-city-nc"><Redirect to="/blog/epic-trout-fishing-may-bryson-city" /></Route>
+<Route path="/fly-fishing-nantahala-river/nantahala-river-fly-fishing-report"><Redirect to="/blog/nantahala-river-fly-fishing-report" /></Route>
+<Route path="/upper-nantahala-river-fly-fishing-report/upper-nantahala-river-fly-fishing-report"><Redirect to="/blog/upper-nantahala-fly-fishing-report" /></Route>
+<Route path="/tuckasegee-river-fly-fishing/learn-fly-fish-black-caddis-hatch-tuckasegee-river"><Redirect to="/blog/black-caddis-hatch-tuckasegee" /></Route>
+
+{/* Blog Posts — Regional */}
+<Route path="/trout-fishing-nc-destinations/highlands-nc-fly-fishing-guide"><Redirect to="/blog/highlands-nc-fly-fishing-guide" /></Route>
+<Route path="/fly-fishing-shows/fly-fishing-instruction-lessons-casting-raleigh-nc"><Redirect to="/blog/fly-fishing-raleigh-nc" /></Route>
+<Route path="/fly-fishers-international-conclave/northwest-expo-albany-oregon"><Redirect to="/blog" /></Route>
+<Route path="/learn-fly-fishing/learn-fly-fish-nc-poem"><Redirect to="/blog/learn-fly-fish-nc-poem" /></Route>
+<Route path="/learning-to-fly-fish/learn-fly-fish-nc-poem"><Redirect to="/blog/learn-fly-fish-nc-poem" /></Route>
+<Route path="/learning-to-fly-fish/learn-to-fly-fish-from-a-poem"><Redirect to="/blog/learn-fly-fish-nc-poem" /></Route>
+
+{/* Blog Posts — Scientific Research */}
+<Route path="/tippet-study/comprehensive-university-tippet-study"><Redirect to="/blog/university-tippet-study" /></Route>
+<Route path="/fly-line-study/comprehensive-university-fly-line-study"><Redirect to="/blog/university-tippet-study" /></Route>
+<Route path="/creel-study-for-upper-nantahala-river-1996"><Redirect to="/blog/creel-study-nantahala-1996" /></Route>
+<Route path="/fly-fishing-nantahala-river/creel-study-for-upper-nantahala-river-1996"><Redirect to="/blog/creel-study-nantahala-1996" /></Route>
+
+{/* Blog Posts — Beginner & Learn */}
+<Route path="/trout-fishing-nc-destinations/fly-fishing-lessons-beginners"><Redirect to="/blog/fly-fishing-lessons-beginners" /></Route>
+<Route path="/smoky-mountain-lakes/learn-catch-trout-fly-fishing-lakes-stillwaters-ponds-lochs"><Redirect to="/blog/catch-trout-fly-fishing-lakes" /></Route>
+<Route path="/fly-fishing-techniques/cross-over-techniques-fly-fishing-for-trout"><Redirect to="/blog/cross-over-techniques-fly-fishing" /></Route>
+
+{/* Blog Posts — Alternate Paths */}
+<Route path="/setting-the-hook/improve-tracking-fly-casting-accuracy"><Redirect to="/blog/improve-tracking-fly-casting" /></Route>
+<Route path="/setting-the-hook/tuckasegee-fly-fishing-report"><Redirect to="/blog/tuckasegee-fly-fishing-report" /></Route>
+<Route path="/setting-the-hook/barbless-hooks-increase-your-catch"><Redirect to="/blog/barbless-hooks" /></Route>
+<Route path="/setting-the-hook/learn-to-set-the-hook-fly-fishing-trout"><Redirect to="/blog/set-hook-fly-fishing" /></Route>
+<Route path="/fly-casting/learn-leader-construction"><Redirect to="/blog/leader-construction-fly-fishing" /></Route>
+<Route path="/deep-creek-trout-fishing-report/highlands-nc-fly-fishing-guide"><Redirect to="/blog/highlands-nc-fly-fishing-guide" /></Route>
+<Route path="/learning-to-fly-fish/nantahala-river-fly-fishing-report"><Redirect to="/blog/nantahala-river-fly-fishing-report" /></Route>
+<Route path="/learning-to-fly-fish/upper-nantahala-river-fly-fishing-report"><Redirect to="/blog/upper-nantahala-fly-fishing-report" /></Route>
+
+{/* Blog Posts — Additional Discoveries */}
+<Route path="/fly-fishing-smokies/making-fly-fishing-memories-one-guided-trout-fishing-trip"><Redirect to="/blog/fly-fishing-memories" /></Route>
+<Route path="/smoky-mountain-lakes/learn-catch-trout-fly-fishing-lakes-stillwaters-ponds-lochs"><Redirect to="/blog/catch-trout-fly-fishing-lakes" /></Route>
+<Route path="/fly-casting-terms/instructor-observation-on-substance-style"><Redirect to="/blog/substance-style-fly-casting" /></Route>
+
+{/* PDF Downloads */}
+<Route path="/wp-content/uploads/2018/06/ci_test_2015_web.pdf"><Redirect to="/downloads/ci-test-2015.pdf" /></Route>
+<Route path="/wp-content/uploads/2010/12/leader-formulas.pdf"><Redirect to="/downloads/leader-formulas.pdf" /></Route>
+<Route path="/wp-content/uploads/2018/01/fly-rod-study-results-wcu-1996.ods"><Redirect to="/downloads/fly-rod-study-wcu-1996.ods" /></Route>
+
+{/* WordPress System Cleanup */}
+<Route path="/wp-content/:anything"><Redirect to="/" /></Route>
+<Route path="/wp-admin/:anything"><Redirect to="/" /></Route>
+
+{/* Catch All Tags and Categories */}
+<Route path="/tag/:anything"><Redirect to="/blog" /></Route>
+<Route path="/category/:anything"><Redirect to="/blog" /></Route>
+
+{/* Blog Pagination */}
+<Route path="/blog-post/page/:num"><Redirect to="/blog" /></Route>
+
+{/* Fly Fishing Guide Trips Nested Pages Wildcard */}
+<Route path="/fly-fishing-guide-trips-north-carolina/:anything"><Redirect to="/instructional-guided-trips" /></Route>

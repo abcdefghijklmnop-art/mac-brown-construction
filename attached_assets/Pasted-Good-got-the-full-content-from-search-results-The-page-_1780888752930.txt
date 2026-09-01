@@ -1,0 +1,173 @@
+Good — got the full content from search results. The page URL appears to be `/blog/how-choose-fly-fishing-guide/` — a shorter version of the similar post we already did at `/blog/how-to-choose-a-fly-fishing-guided-trip-in-nc/`. Let me check if these are actually two different pages with different content before writing duplicate FAQs.
+
+The search results show this page has unique content focused specifically on Al Troth as the independent guide example and the Golden Arches analogy. Different enough to warrant its own AEO and FAQs. **H1 assessment:** Likely "How to Choose a Fly Fishing Guide" — strong search intent. Leave it.
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/how-choose-fly-fishing-guide/
+
+AEO — add immediately below H1:
+"Choosing a fly fishing guide depends on 
+your goals and expectations — not the 
+lowest price available. Some anglers search 
+for guided trips like booking on Travelocity, 
+trying to save money on their day on the 
+water. These deals rarely ensure the best 
+value. Independent guides consistently offer 
+greater value than brick-and-mortar fly shop 
+guides — Al Troth, who guided the Big Hole 
+and Beaverhead Rivers from 1973 until his 
+death in 2012 and invented the Elk Hair 
+Caddis, is the gold standard of what an 
+independent guide looks like. Mac Brown 
+Fly Fish in Bryson City, NC has been the 
+original independent guide service in 
+Western North Carolina since 1987."
+
+FAQ — add before footer as expandable 
+accordion:
+
+Q1: How do I choose the best fly 
+fishing guide?
+A1: Look for independent guides who 
+have invested in professional credentials 
+— FFI casting instructor certification, 
+ACA whitewater training, and first aid 
+qualifications. These guides take extra 
+steps to improve their craft because they 
+own their businesses outright — no one 
+works harder for quality when their 
+livelihood depends on it. Most brick-
+and-mortar fly shops offer average 
+experiences with less experienced guides 
+who spend the day lobbing indicator rigs 
+with little casting instruction or advice. 
+The difference in what you learn and 
+experience is significant.
+
+Q2: Are independent fly fishing 
+guides better than fly shop guides?
+A2: In the vast majority of cases — 
+yes. Al Troth, who guided the Big Hole 
+and Beaverhead Rivers in Montana from 
+1973 until his death in 2012, invented 
+the Elk Hair Caddis and reinvented the 
+Pheasant Tail Nymph from Frank Sawyer 
+using modern materials. He is the gold 
+standard of what an independent guide 
+looks like — decades of home water 
+knowledge, professional investment, 
+and genuine teaching ability. 
+Independent guides from Mac Brown's 
+network consistently set the standard 
+on their home waters because they are 
+invested in the outcome of every trip.
+
+Q3: What credentials should a fly 
+fishing guide have?
+A3: At minimum look for a valid state 
+guide license and current first aid 
+and CPR certification. Beyond the 
+minimum, the best guides hold FFI 
+casting instructor certification — 
+which requires demonstrated casting 
+proficiency and teaching ability — 
+and ACA whitewater rowing certification 
+for float trips. Mac Brown Fly Fish 
+faculty includes 4 FFI Master Casting 
+Instructors, 5 ACA certified whitewater 
+rowing instructors, 3 Fly Fishing Team 
+USA members, and 2 Hall of Fame 
+inductees — the most credentialed 
+guide team in Western North Carolina.
+
+Q4: Why do fly fishing guide prices 
+vary so much in North Carolina?
+A4: Fly fishing guides in Western 
+North Carolina range from $75 to 
+$550 for what appears to be the same 
+service — a day on the water. The 
+difference is entirely in the quality 
+of instruction, the depth of water 
+knowledge, the teaching philosophy, 
+and the credentials of the guide. 
+The Golden Arches principle applies: 
+you get what you pay for. Beware of 
+heavily discounted trips — the 
+economics of professional guiding 
+mean that below-market rates are 
+cutting corners somewhere.
+
+Q5: What should I expect from 
+Mac Brown Fly Fish guided trips?
+A5: Every Mac Brown Fly Fish guided 
+trip teaches the Big Four — fly 
+casting and direction change, line 
+control, hook setting, and pressuring 
+and playing fish to the net. These 
+four skills build on each other and 
+transfer to every future trip you 
+take on any water. Mac Brown has 
+been guiding independently in Bryson 
+City, NC since 1987 — the original 
+fly fishing guide service in Western 
+North Carolina — led by the only FFI 
+Master Casting Instructor in the state. 
+All gear provided, all skill levels 
+welcome.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I choose the best fly fishing guide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for independent guides who have invested in professional credentials — FFI casting instructor certification, ACA whitewater training, and first aid qualifications. These guides own their businesses outright — no one works harder for quality when their livelihood depends on it. Most brick-and-mortar fly shops offer average experiences with less experienced guides who spend the day lobbing indicator rigs with little casting instruction or advice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are independent fly fishing guides better than fly shop guides?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the vast majority of cases — yes. Al Troth, who guided the Big Hole and Beaverhead Rivers in Montana from 1973 until his death in 2012, invented the Elk Hair Caddis and reinvented the Pheasant Tail Nymph. He is the gold standard of what an independent guide looks like — decades of home water knowledge, professional investment, and genuine teaching ability. Independent guides consistently set the standard on their home waters because they are invested in the outcome of every trip."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What credentials should a fly fishing guide have?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At minimum look for a valid state guide license and current first aid and CPR certification. Beyond the minimum, the best guides hold FFI casting instructor certification and ACA whitewater rowing certification for float trips. Mac Brown Fly Fish faculty includes 4 FFI Master Casting Instructors, 5 ACA certified whitewater rowing instructors, 3 Fly Fishing Team USA members, and 2 Hall of Fame inductees — the most credentialed guide team in Western North Carolina."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do fly fishing guide prices vary so much in North Carolina?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fly fishing guides in Western North Carolina range from $75 to $550 for what appears to be the same service. The difference is entirely in the quality of instruction, depth of water knowledge, teaching philosophy, and credentials of the guide. Beware of heavily discounted trips — below-market rates are cutting corners somewhere. You get what you pay for."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I expect from Mac Brown Fly Fish guided trips?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every Mac Brown Fly Fish guided trip teaches the Big Four — fly casting and direction change, line control, hook setting, and pressuring and playing fish to the net. Mac Brown has been guiding independently in Bryson City, NC since 1987 — the original fly fishing guide service in Western North Carolina — led by the only FFI Master Casting Instructor in the state. All gear provided, all skill levels welcome."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

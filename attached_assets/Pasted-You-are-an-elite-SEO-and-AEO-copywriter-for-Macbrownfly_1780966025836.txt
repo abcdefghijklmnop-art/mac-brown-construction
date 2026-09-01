@@ -1,0 +1,57 @@
+You are an elite SEO and AEO copywriter for Macbrownflyfish.com and Flyfishingguideschool.com.
+
+ACCURACY RULES (CRITICAL):
+- Never invent facts, specs, or details not in the source text
+- No swimming certificates, no ACA mentions, no PR/First Aid mentions on any posts or pages
+- If data is missing, say "Information not available in current documentation" or ask
+- Factual accuracy over creative writing, always
+
+FORMATTING RULES:
+- No filler openers. Start with the data
+- Every FAQ = ### H3 markdown question header
+- First sentence directly answers the question (40–60 words max)
+- Bold critical terms, use bullets or tables for lists/specs/steps
+- 8th-grade reading level — clear, punchy, professional
+- No keyword stuffing
+- Each FAQ block stands alone, schema-ready
+- First sentence self-contained for voice search — no reliance on header
+- Consistent terminology throughout
+- No orphan claims — all stats/regs from source material only
+- One question = one answer, no topic pivoting
+- Active voice by default
+
+---
+
+PAGE: https://macbrownflyfish.com/blog/learning-the-double-haul/
+
+ACTION: Keep the 5 existing FAQs already on this page. Add these 5 NEW FAQs directly after them.
+
+---
+
+### What is a single haul in fly casting?
+
+A **single haul** is a pull on the fly line with the line hand on only one casting stroke — either the back cast or the forward cast, but not both. Most anglers apply it on the **forward cast** because that is typically the delivery stroke and the direction requiring the most line speed for shooting additional line toward the target.
+
+---
+
+### What is the rubber band drill for learning the double haul?
+
+The **rubber band drill** attaches a large rubber band to both index fingers to practice the double haul motion without a rod. As the hands pull apart during the haul, the rubber band creates resistance — and on the return, it reminds the line hand to come back to the ready position. The most common double haul error is failing to return the line hand to the starting position after the haul, and this drill corrects it automatically.
+
+---
+
+### How do I test whether I have mastered the double haul?
+
+Cast using a **horizontal rod plane** just inches above the ground and try to keep the fly line from touching the grass. If the line hits the ground repeatedly, the timing or haul length is off — return to the pantomime drill and rebuild the motion slowly. This horizontal plane test exposes timing errors that a standard vertical cast can hide, making it one of the most effective self-diagnostic tools in fly casting.
+
+---
+
+### What is shooting line in fly casting and when does it happen?
+
+**Shooting line** is the release of additional fly line through the guides after the haul — allowing the unrolling loop to carry extra line toward the target and dramatically increasing distance. It occurs either at the completion of the rod stop or just before, depending on the caster. Mastering the shoot eliminates the need for multiple false casts and allows a single back cast followed by one delivery cast for most presentations.
+
+---
+
+### Can shooting line timing affect the shape of a presentation cast?
+
+Yes — **shooting line early or late changes the layout of the cast.** Shooting line late during a positive curve cast produces a question mark layout in the line rather than the standard 90-degree curve. This level of control over shooting line timing is an advanced skill that expands the range of presentation casts available on the water, particularly for reaching fish behind obstacles or in complex currents.

@@ -1,0 +1,59 @@
+// Run this manually after marking multiple rows paid at once
+// It sends confirmation emails for any Paid rows that haven't been emailed yet
+// Requires a "Confirmation Sent" column (V = column 22) to track what's been done
+function sendMissedConfirmations() {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Bookings");
+  var lastRow = sheet.getLastRow();
+  if (lastRow < 2) return;
+
+  var data = sheet.getRange(2, 1, lastRow - 1, 22).getValues();
+
+  for (var i = 0; i < data.length; i++) {
+    var paid    = String(data[i][20] || "").trim(); // col U
+    var sent    = String(data[i][21] || "").trim(); // col V — "Confirmation Sent"
+    var email   = String(data[i][2]  || "").trim(); // col C
+
+    if (!paid || sent || !email) continue; // skip if not paid, already sent, or no email
+
+    var confirmedDateRaw = data[i][15]; // col P
+    var confirmedDate = "";
+    if (confirmedDateRaw instanceof Date) {
+      confirmedDate = Utilities.formatDate(confirmedDateRaw, "America/New_York", "MMMM d, yyyy");
+    } else if (confirmedDateRaw) {
+      confirmedDate = String(confirmedDateRaw);
+    }
+
+    var totalRaw = data[i][19]; // col T
+    var totalDue = totalRaw ? "$" + Number(totalRaw).toLocaleString() : "";
+
+    var payload = {
+      fullName:      String(data[i][1]  || ""),
+      email:         email,
+      phone:         String(data[i][3]  || ""),
+      program:       String(data[i][6]  || ""),
+      anglerCount:   String(data[i][8]  || ""),
+      confirmedDate: confirmedDate,
+      paymentMethod: String(data[i][17] || ""),
+      totalDue:      totalDue,
+      notes:         String(data[i][23] || "")
+    };
+
+    try {
+      var r = UrlFetchApp.fetch(WEBHOOK_URL, {
+        method: "post",
+        contentType: "application/json",
+        payload: JSON.stringify(payload),
+        muteHttpExceptions: true
+      });
+      var code = r.getResponseCode();
+      Logger.log("Row " + (i+2) + " (" + payload.fullName + " — " + payload.program + "): " + code);
+      if (code === 200) {
+        // Stamp col V so we never double-send
+        sheet.getRange(i + 2, 22).setValue("Sent " + new Date().toLocaleDateString());
+      }
+    } catch (err) {
+      Logger.log("Error row " + (i+2) + ": " + err);
+    }
+  }
+  Logger.log("Done.");
+}

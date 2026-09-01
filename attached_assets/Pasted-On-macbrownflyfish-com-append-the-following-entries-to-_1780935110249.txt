@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 3.
+
+    {
+      "@type": "Question",
+      "name": "What is a blood knot in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A blood knot is a widely used knot for tying two pieces of monofilament with similar diameters together. Also called a barrel knot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a braided loop connector in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The braided loop connector works like the so-called Chinese finger torture for joining fly lines — it is a way of putting an in-line loop at the end of your fly line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a butt section in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The butt section refers to two things — the thicker end of a tapered leader that is tied to the fly line, and the last section of a rod at the cork handle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is caddis in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Caddis are one of the three most important aquatic insects imitated by fly fishers — the other two being mayflies and midges. Caddis are found worldwide in all freshwater habitats. While at rest the adult has wings folded in a tent shape down the back. The pupa is the most important aquatic state — it is the emerging stage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is casting arc in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Casting arc refers to the angular starting and stopping points of the fly rod when making a cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is catch and release in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Catch and release is a conservation technique in fly fishing — the recycling of fish for all anglers to enjoy the sport. Fish are landed quickly and kept in the water to be released back into the wild."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is CDC in fly tying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "CDC is the fluffy webbing from the preen gland of usually a mallard duck that has excellent floating characteristics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a chironomid in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chironomid is the scientific name for members of the Diptera family of insects commonly known as midges. In the pupae stage they typically appear as small aquatic worms. They occur throughout the year but are most common in the winter months for the fly angler."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a click drag or click and pawl reel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A click drag is a mechanical system on a fly reel used to slow down or resist the pulling efforts of a fish. The audible noise of clicks is beneficial for knowing when a large fish slows down during the fight."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a current seam in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A current seam is formed where differing high and low pressures of water flows meet. Water travels in all directions on a river of fast and slow currents depending on the bottom structure and general flow patterns. Water hydrology is always dynamic and changing depending on water levels."
+      }
+    }
+
+Confirm saved. Stand by for Paste 3.

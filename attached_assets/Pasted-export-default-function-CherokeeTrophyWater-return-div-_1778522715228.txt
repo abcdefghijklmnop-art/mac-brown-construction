@@ -1,0 +1,150 @@
+export default function CherokeeTrophyWater() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            Fly Fishing Near Cherokee, NC · Western North Carolina · Since 1987
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Cherokee Trophy Water & Fly Fishing Near Cherokee, NC
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed">
+            Cherokee sits at the eastern gateway to the Great Smoky Mountains — and within minutes of some of the finest wild and trophy trout water in the eastern United States.
+          </p>
+          
+            href="/contact"
+            className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors inline-block"
+          >
+            Book Your Trip
+          </a>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Trophy Trout Water — Right Next Door to Bryson City
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Cherokee, NC is just a 10-minute drive from Bryson City — and the trout fishing surrounding it is extraordinary. Whether you are staying in Cherokee, visiting the national park, or simply looking for the finest guided fly fishing experience within reach of the eastern entrance to the Smokies, you have found the right place.
+            </p>
+            <p>
+              Mac Brown Fly Fish has been guiding and teaching on the waters of Western North Carolina since 1987 — longer than any other outfitter in the region. The water within easy reach of Cherokee includes some of the most productive and most beautiful trout fishing in the eastern United States.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Cherokee Trophy Water Info */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            About the Cherokee Trophy Water
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              The Cherokee Trophy Water on Ravens Fork Creek is one of the most unique fisheries in the Southeast. Beginning at the Blue Ridge Parkway bridge and running upstream approximately 2.2 miles, this fly fishing only section is stocked weekly throughout the year with trophy-sized trout ranging from 20 to 28 inches. It is among the most heavily stocked trophy fisheries in all of North America — and it holds a healthy population of wild fish alongside the hatchery fish.
+            </p>
+            <p>
+              The Cherokee Nation maintains its own hatchery up Straight Fork to supply the volume of fish required to keep this extraordinary fishery producing year-round. The fish behavior follows a predictable pattern familiar to anyone who has fished Delayed Harvest waters — newly stocked fish are aggressive and will eat nearly anything, while fishing pressure over time produces increasingly selective trout that reward precise presentation and good technique.
+            </p>
+            <div className="bg-[#FFF8E1] border border-[#F0C040] rounded-xl p-6 mt-4">
+              <h3 className="text-lg font-bold text-[#7A5C00] mb-3">
+                ⚠️ Important — Cherokee Reservation Fishing Regulations
+              </h3>
+              <p className="text-[#5A4000] leading-relaxed">
+                Current regulations require that anyone fishing Cherokee Tribal waters must hire a guide who is a citizen of the Cherokee Nation. Mac Brown Fly Fish is not able to guide the reservation waters under these regulations. A special tribal license is also required to fish all Cherokee waters and is available at stores throughout Cherokee, NC.
+              </p>
+              <p className="text-[#5A4000] leading-relaxed mt-3">
+                The outstanding news is that the wild trout water immediately surrounding Cherokee — the Great Smoky Mountains National Park streams, the Tuckasegee River, the Nantahala River, and the broader network of Western NC tailwaters — is fully accessible and just minutes away. That is where we come in.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Public Water Near Cherokee */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            World-Class Public Water — Minutes from Cherokee
+          </h2>
+          <p className="text-gray-600 italic mb-8">
+            The water within easy reach of Cherokee is genuinely extraordinary. Here is what is available for a guided trip:
+          </p>
+
+          <div className="space-y-6">
+            {[
+              {
+                name: "Great Smoky Mountains National Park Streams",
+                distance: "Minutes from Cherokee",
+                description: "The Oconaluftee River flows right through Cherokee and into the national park — one of the most accessible and productive wild trout streams in the region. Deep Creek, Noland Creek, Raven Fork above the trophy section, and dozens of other park streams offer outstanding wild rainbow and brown trout fishing in a pristine protected setting. Native brook trout in the high-elevation streams. No license required — just a NC or TN fishing license.",
+                highlight: "Best for: Wild trout, accessible water, all seasons",
+              },
+              {
+                name: "Tuckasegee River — Delayed Harvest",
+                distance: "~15 minutes from Cherokee",
+                description: "From October through May the Delayed Harvest section of the Tuckasegee in Webster, NC loads up with exceptional numbers of trout. A short drive from Cherokee and one of the most productive guided destinations in the region. Float trips and wade trips both available.",
+                highlight: "Best for: Float trips, wade trips, October through May",
+              },
+              {
+                name: "Nantahala River",
+                distance: "~30 minutes from Cherokee",
+                description: "The premier tailwater in the state of North Carolina. Cold, clear, and productive year-round, the Nantahala holds outstanding wild brown and rainbow trout in one of the most beautiful mountain river corridors in the eastern United States. A short drive from Cherokee and absolutely worth every mile.",
+                highlight: "Best for: Wild trout, technical fishing, year-round",
+              },
+              {
+                name: "Deep Creek — Bryson City",
+                distance: "~15 minutes from Cherokee",
+                description: "A beautiful walk-in stream flowing through the national park just outside Bryson City. Wild rainbow and brown trout in crystal-clear mountain water. One of the finest small stream dry fly fisheries in the Smokies during the spring hatch season.",
+                highlight: "Best for: Small stream fishing, dry fly, spring hatches",
+              },
+              {
+                name: "Smoky Mountains Lakes",
+                distance: "~20 minutes from Cherokee",
+                description: "Fontana Lake sits just beyond Bryson City and offers exceptional stillwater fly fishing for trout — especially from late fall through early spring when the fish run large and the lake is quiet. A completely different experience from river fishing and one of the best-kept secrets near Cherokee.",
+                highlight: "Best for: Trophy trout, stillwater fishing, fall through spring",
+              },
+            ].map((water, index) => (
+              <div key={index} className="bg-gray-50 rounded-xl p-8 shadow-sm border border-gray-200">
+                <div className="flex flex-wrap items-start justify-between gap-4 mb-3">
+                  <h3 className="text-xl font-bold text-[#1a3a5c]">{water.name}</h3>
+                  <span className="text-sm font-bold text-[#1D9E75] bg-green-50 px-3 py-1 rounded-full">
+                    📍 {water.distance}
+                  </span>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-3">{water.description}</p>
+                <p className="text-sm font-semibold text-[#2E6DA4] italic">{water.highlight}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What We Offer */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Every Way to Experience the Water Near Cherokee
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              { title: "Guided Wade Trips", desc: "Get in the river on the Oconaluftee, Deep Creek, or any of the park streams right outside Cherokee.", link: "/instructional-wade-trips" },
+              { title: "Guided Float Trips", desc: "Drift the Tuckasegee or Nantahala in a drift boat. Cover water and learn the river from the best seat in the house.", link: "/instructional-float-trips" },
+              { title: "Guided Lake Trips", desc: "Trophy trout on Fontana Lake and the other Smoky Mountain stillwaters near Cherokee.", link: "/instructional-lake-trips" },
+              { title: "Fly Casting Instruction", desc: "Private casting lessons for all skill levels from NC's only Master Casting Instructor.", link: "/fly-fishing-instruction" },
+              { title: "Backcountry Trips", desc: "Remote streams deep in the Great Smoky Mountains National Park — wild fish, pristine water, unforgettable wilderness.", link: "/backcountry-trout-fishing" },
+              { title: "Fly Fishing Schools", desc: "Weekend immersion programs covering the full craft at our Bryson City base — just 10 minutes from Cherokee.", link: "/smoky-mountain-weekend-schools" },
+            ].map((item, i) => (
+              
+                key={i}
+                href={item.link}
+                className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-md transition-shadow block"
+              >
+                <h3 className="text-lg font-bold text-[#1a3a5c] mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>

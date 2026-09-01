@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 13.
+
+    {
+      "@type": "Question",
+      "name": "What is a wet fly in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A wet fly is any fly fished below the surface of the water — the forerunner of the nymph and streamer. A traditional style of fly tied with soft swept-back hackle and a backward-sweeping wing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a wet fly swing in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The wet fly swing is a typical presentation method in which flies swing across the water using all types of methods such as streamers, nymphs, wets, and even dries. It may imitate swimming mayflies, emerging caddis, and small fish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a wind knot in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A wind knot is an overhand knot put in the leader by poor casting — a tailing loop. The term is a polite way to reassure new casters with the excuse of wind but wind has nothing to do with it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Whitlock connection in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Whitlock connection is a method and tools for attaching a leader to fly line, repairing fly line, or making custom lines. It creates the smoothest connection overall — making nail knots and loop-to-loop connections obsolete for standard setups."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the X system for tippets in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Used in conjunction with a number the letter X is a measurement designating the diameter of leader material. It refers to the diameter of a material rather than breaking strength. Subtract the X number from .011 inches to find the size — for example 4X is .007 inches in diameter. The smaller the X number the greater the diameter and the higher the breaking strength."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a zinger in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A zinger is a retractable device used to hang necessary items off your fly vest — such as nippers — to keep them out of the way when not in use."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a drift in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drift describes how the imitation rides in the water currents. In general there are four types of drifts — straight upstream from you, upstream and across from you, downstream and across from you, and straight downstream from you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a fly in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A fly is a hand-tied artificial lure imitating natural insects or baitfish to entice fish. Flies incorporate different natural and synthetic materials wound onto or otherwise secured on hooks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is fly tying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fly tying is the process of building fishing flies by hand using thread and various natural and synthetic materials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a fly pattern in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A fly pattern — also called a recipe — is the fixed design of materials and positioning of parts that make up an artificial fly."
+      }
+    }
+
+Confirm saved. Stand by for Paste 13.

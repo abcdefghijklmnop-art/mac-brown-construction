@@ -1,0 +1,99 @@
+On macbrownflyfish.com add the following 
+FAQPage JSON-LD to the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. If existing FAQPage 
+JSON-LD is already in the head append 
+these entries to the existing mainEntity 
+array. Confirm when saved. Stand by for 
+Paste 2.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the 180 degree principle in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 180 degree principle means the aerial back cast or D-loop is made in a straight line exactly 180 degrees opposite from the target. Essential for straight-line casts for distance and accuracy — the back cast and forward cast must travel in exactly opposite directions for maximum efficiency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is acceleration in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Acceleration in fly casting is the rate of increase or decrease in velocity, magnitude, or direction applied to the rod during the casting stroke. Smooth progressive acceleration to a stop produces tighter loops and greater line speed than abrupt or uniform force application."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an active presentation in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An active presentation is when the fly moves at a different rate from the current in which it travels — imitating the food organism's behavior through erratic changes of direction, magnitude, and velocity. Caddis skittering on the surface and nymphs being lifted at the end of a drift are classic examples."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an anchor in Spey casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The anchor in Spey casting is typically the fly, leader, and a tip section of line positioned close to the caster — often a rod length away and in line with the D loop and forward cast — prior to delivery. Shorter casts use less anchor and longer casts use more line for the anchor. Proper anchor placement is critical for loading the rod on the delivery cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is casting arc in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Casting arc is the angle of rotational change of the rod when making the casting stroke — also called casting angle. The casting arc must vary with line length — more line requires a wider arc, less line requires a narrower arc. This is one of the five essentials of fly casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a casting stroke in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The casting stroke is when the angler applies force to the rod to form a loop of line — it includes the hand path and casting arc. The casting stroke is the only rod motion whose purpose is to generate a loop. All other rod movements are positioning moves that do not directly create a loop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a closed loop or tailing loop in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A closed loop occurs when the fly leg crosses the rod leg during the cast — also called a tailing loop. It is the most common cause of wind knots in the leader. The most frequent cause is abrupt or early application of force creating a concave rod tip path or a transverse wave parallel with the fly and rod legs of the loop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a concave rod tip path in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A concave rod tip path is a U-shaped rod tip path where the rod tip falls below then rises above the effective straight-line path during the casting stroke. It increases the chance of tailing loops. The most common cause is applying force to the rod too abruptly or too early in the casting stroke."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is counterflex in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Counterflex is when the rod springs down at the completion of the casting stroke toward the direction of the unrolling loop. It is a natural by-product of the stop and rebound. Reducing counterflex through proper stop technique improves loop quality and line speed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is creep in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Creep is an ill-timed forward drift movement with little power in the direction of the next casting stroke — it reduces the available casting arc and casting stroke length. Creep is usually unintentional and shortens the casting stroke, reducing the power available for the next delivery."
+      }
+    }
+  ]
+}
+</script>
+
+Confirm saved. Stand by for Paste 2.

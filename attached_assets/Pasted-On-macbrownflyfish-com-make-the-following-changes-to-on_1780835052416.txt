@@ -1,0 +1,114 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/fly-fishing-terms-glossary-definitions/
+
+AEO — add immediately below H1:
+"The complete fly fishing glossary — 200+ fly 
+fishing terms defined for beginners and 
+experienced anglers alike, covering equipment, 
+casting, entomology, knots, tactics, and reading 
+water. Written by Mac Brown, FFI Master Casting 
+Instructor and author of Casting Angles, based 
+in Bryson City, NC. From tippet to tailwater, 
+drag-free drift to double haul — every term you 
+need to understand the language of fly fishing."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What are the most important fly fishing 
+terms for beginners?
+A1: Start with these five: Leader — the clear 
+monofilament connecting fly line to fly. Tippet 
+— the thin end of the leader where the fly 
+attaches. Mend — repositioning fly line to 
+achieve drag-free drift. Hatch — when large 
+numbers of aquatic insects emerge simultaneously. 
+Dead drift — when the fly moves at the same 
+speed as the current, imitating a natural insect.
+
+Q2: What is drag-free drift in fly fishing?
+A2: Drag-free drift is when the fly moves at 
+exactly the same speed as the current — 
+imitating a natural insect. Achieving it requires 
+proper mending, leader design, and presentation 
+angle. It is the single most important skill in 
+dry fly and nymph fishing and the most common 
+reason fish refuse a fly.
+
+Q3: What is matching the hatch?
+A3: Matching the hatch means selecting an 
+artificial fly that closely imitates the color, 
+size, shape, and behavior of the natural insects 
+fish are actively feeding on. When a hatch is 
+occurring, trout become selective and often 
+refuse flies that don't closely match the 
+predominant species present.
+
+Q4: What is the difference between a dry fly, 
+nymph, and streamer?
+A4: A dry fly is fished on the surface imitating 
+adult aquatic insects. A nymph is fished 
+subsurface imitating the immature stage — the 
+most productive technique on most days since 
+trout feed subsurface 80-90% of the time. A 
+streamer imitates baitfish and is the most 
+effective method for targeting the largest 
+trout in any river system.
+
+Q5: Where can I learn fly fishing in the 
+Smoky Mountains?
+A5: Mac Brown Fly Fish in Bryson City, NC offers 
+guided fly fishing trips, private casting lessons, 
+and weekend fly fishing schools on the Tuckasegee 
+River, Nantahala River, and wild streams of Great 
+Smoky Mountains National Park — led by Mac Brown, 
+the only FFI Master Casting Instructor in North 
+Carolina, since 1987. All gear provided, all 
+skill levels welcome.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the most important fly fishing terms for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with these five: Leader — the clear monofilament connecting fly line to fly. Tippet — the thin end of the leader where the fly attaches. Mend — repositioning fly line to achieve drag-free drift. Hatch — when large numbers of aquatic insects emerge simultaneously. Dead drift — when the fly moves at the same speed as the current, imitating a natural insect."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is drag-free drift in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drag-free drift is when the fly moves at exactly the same speed as the current — imitating a natural insect. Achieving it requires proper mending, leader design, and presentation angle. It is the single most important skill in dry fly and nymph fishing and the most common reason fish refuse a fly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is matching the hatch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Matching the hatch means selecting an artificial fly that closely imitates the color, size, shape, and behavior of the natural insects fish are actively feeding on. When a hatch is occurring, trout become selective and often refuse flies that don't closely match the predominant species present."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a dry fly, nymph, and streamer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A dry fly is fished on the surface imitating adult aquatic insects. A nymph is fished subsurface imitating the immature stage — the most productive technique on most days since trout feed subsurface 80-90% of the time. A streamer imitates baitfish and is the most effective method for targeting the largest trout in any river system."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn fly fishing in the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers guided fly fishing trips, private casting lessons, and weekend fly fishing schools on the Tuckasegee River, Nantahala River, and wild streams of Great Smoky Mountains National Park — led by Mac Bro

@@ -1,0 +1,56 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does fly fishing guide school cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tuition for the Fly Fishing Guide School in Bryson City, NC is $3,950 for the full week. The program includes CPR and First Aid certification through American Red Cross, access to 100+ fly rods, a complete fly tying setup, double-handed rod instruction, and a worldwide job placement directory."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does the Fly Fishing Guide School week cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The five-day program runs Wednesday through Sunday and covers fly casting physics, dry fly and nymph fishing, drift boat rowing, stream entomology, streamer and wet fly tactics, switch rod and Spey casting, fly casting diagnostics, client communication, and the business of guiding — including licensing, permitting, social media, and job placement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is included in the Fly Fishing Guide School tuition?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tuition includes access to 100+ high-end fly rods, multiple fly line tapers, a complete fly tying setup, double-handed rod instruction, CPR and First Aid certification through American Red Cross, Mac Brown's personal library of 300+ fly fishing books and DVDs, a worldwide job placement directory, and the graduation celebration on the final evening."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I enroll in the Fly Fishing Guide School?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Enrollment begins with the reservation form at flyfishingguideschool.com. Sessions run March through November in Bryson City, NC and fill months in advance. Contact the school directly at (828) 736-1469 or flyfishingguideschool@gmail.com to check availability for specific dates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much do fly fishing guides make?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Entry-level fly fishing guides working for an outfitter or lodge typically earn between $2,400 and $3,000 per month. Experienced independent guides working their home water earn significantly more, often supplementing income with casting instruction, schools, and clinics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When does the Fly Fishing Guide School run?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Fly Fishing Guide School runs March through November in Bryson City, North Carolina. Bryson City's milder winters allow longer seasons than any other guide school in the country. Sessions fill months in advance — early reservation is strongly recommended."
+      }
+    }
+  ]
+}
+</script>

@@ -1,0 +1,50 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-line-retrieval-techniques/
+then run bash push.sh to deploy. 
+No other changes.
+
+    {
+      "@type": "Question",
+      "name": "What is the strip retrieve in fly fishing and when should I use it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Strip retrievals are used mainly for active presentations — large streamers are typically more productive when teased through the water column at varying rates. Strip the line slowly from below the rod hand and end the last few inches with a quick short strip. This imparts a lifelike undulating motion to materials used in the fly's construction such as marabou or fur strips. The strip retrieve is not an ideal method for passive presentations such as drag-free drifts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does line retrieval method affect fly casting efficiency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The retrieval method is a line storage mechanism — and the method you choose plays an integral part in your overall casting abilities. The fly line should not be stored in numerous coils or left in the water because both require increased false casting. The fly line and the surface of the water have a strong attraction due to surface tension which hinders shooting the fly line from the water. Most anglers could stand to reduce their false casts to one back cast and the final delivery cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the vector pull method help when a fish swims toward the angler?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The vector pull method can match the speed of a large fish swimming directly toward the angler — which sometimes happens on heavily pressured waters. The fish often gets off when slack is created due to the fish swimming toward you. The vector pull can match the speed in the majority of these situations when other methods fail."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the low rod strike and why does it improve hook-up percentage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Striking low and implementing the vector pull is the key to rarely missing a strike. Striking low uses the surface tension of the water to aid in setting the hook. The classic high rod position is one of the surest methods for poor hook-up ratios during the strike."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where was the vector pull method first published?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The vector pull technique appeared in Fly Fisherman magazine in February 1996. The technique is thoroughly illustrated in the book Casting Angles. It is Mac Brown's standard retrieval method for working water with dries and nymphs — and is the only retrieval method that can keep all casting on the stream to one back cast and a delivery cast."
+      }
+    }
+
+Then run bash push.sh to deploy. 
+No other changes.

@@ -1,0 +1,78 @@
+You're right — WordPress handled this automatically with featured images. In Next.js you have to set **Open Graph (OG) meta tags** manually. That's what Facebook, Instagram, X, etc. all read to generate the preview card with image, title, and description.
+
+Here's exactly what you need.
+
+## The Fix: Open Graph Meta Tags
+
+Every page needs these tags in its `<head>`:
+
+```html
+<meta property="og:title" content="River Conditions & Hatch Chart — Bryson City NC Fly Fishing Report" />
+<meta property="og:description" content="Current river flows, water temps, and what's hatching on the Tuckasegee and Nantahala." />
+<meta property="og:image" content="https://macbrownflyfish.com/images/bryson-city-hatch-chart-og.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:url" content="https://macbrownflyfish.com/bryson-city-fly-fishing-report-hatch-chart" />
+<meta property="og:type" content="article" />
+```
+
+## In Next.js App Router (your setup)
+
+In each page's `page.tsx` or `page.js`, export a `metadata` object:
+
+```js
+export const metadata = {
+  title: "River Conditions & Hatch Chart — Bryson City NC Fly Fishing Report",
+  description: "Current river flows, water temps, and what's hatching on the Tuckasegee and Nantahala.",
+  openGraph: {
+    title: "River Conditions & Hatch Chart — Bryson City NC Fly Fishing Report",
+    description: "Current river flows, water temps, and what's hatching on the Tuckasegee and Nantahala.",
+    url: "https://macbrownflyfish.com/bryson-city-fly-fishing-report-hatch-chart",
+    images: [
+      {
+        url: "https://macbrownflyfish.com/images/bryson-city-hatch-chart-og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Bryson City NC fly fishing hatch chart and river report",
+      },
+    ],
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "River Conditions & Hatch Chart — Bryson City NC",
+    description: "Current flows, temps, and hatches on the Tuckasegee and Nantahala.",
+    images: ["https://macbrownflyfish.com/images/bryson-city-hatch-chart-og.jpg"],
+  },
+};
+```
+
+## The OG Image Itself
+
+The image is the critical piece Facebook actually shows. Requirements:
+
+- **Size:** 1200 × 630px (required — Facebook will reject or crop anything else)
+- **Format:** JPG preferred, under 1MB
+- **Content:** A compelling photo of the river, a fish, or someone casting — not a logo on white
+- **File location:** Put it in your `/public/images/` folder in Replit so it's served as a static asset
+
+## For a Sitewide Default
+
+In your root `layout.tsx`, set a fallback OG image that fires on any page that doesn't have its own:
+
+```js
+export const metadata = {
+  metadataBase: new URL("https://macbrownflyfish.com"),
+  openGraph: {
+    images: ["/images/macbrownflyfish-og-default.jpg"],
+  },
+};
+```
+
+The `metadataBase` line is important — without it, Next.js won't convert relative image paths to full URLs, and Facebook won't find the image.
+
+## After You Deploy
+
+Test it at **developers.facebook.com/tools/debug** — paste the URL and it shows exactly what Facebook sees and lets you force a cache refresh. Do this every time you update an OG image.
+
+Want me to write the metadata blocks for your high-traffic pages as a batch?

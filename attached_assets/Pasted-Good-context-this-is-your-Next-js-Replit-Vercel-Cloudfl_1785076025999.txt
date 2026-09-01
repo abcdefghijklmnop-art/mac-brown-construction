@@ -1,0 +1,21 @@
+Good context — this is your Next.js/Replit/Vercel/Cloudflare stack, so the stale content is almost certainly a caching or ISR (Incremental Static Regeneration) issue where the CDN or build cache is serving an old version. Here's a prompt you can paste into Replit:
+
+---
+
+**Prompt for Replit:**
+
+> I have a content mismatch on the events-calendar page at `/events-calendar` (Next.js App Router, deployed via Vercel, Cloudflare in front). The live page correctly shows "4-Day Fly Fishing Guide School" for the March 25–29, April 22–26, May, June, October 15–18, and November 12–15 sessions when I view it in my browser. But external fetchers (web crawlers, AI search tools, and API-based page fetches) are pulling old cached content that says "Week-Long Fly Fishing Guide School" and describes it as a "five-day immersion" — outdated copy that should have been replaced with the 4-day language.
+>
+> Please investigate and fix:
+>
+> 1. **Search the codebase** for every instance of "Week-Long Fly Fishing Guide School" and "five-day immersion" (or similar "5-day"/"five day" phrasing) across all pages, components, and any CMS/content JSON/MDX files feeding the events-calendar page. Confirm whether these strings still exist in source, or whether they were already updated in source but something else is serving old output.
+> 2. **Check for stale static generation**: if this page uses `generateStaticParams`, ISR (`revalidate`), or `force-static`, confirm the revalidation window and whether a rebuild/redeploy actually went out after the content was changed to "4-Day."
+> 3. **Check Cloudflare caching**: look at Cache Rules / Page Rules for `macbrownflyfish.com/events-calendar` — specifically whether cache is being served differently based on request headers (e.g., User-Agent, Accept, or lack of cookies) such that bots/fetchers get a different cached edge copy than real browsers. Check the `Cache-Control` and `CDN-Cache-Control` response headers currently being sent for this route.
+> 4. **Purge the Cloudflare cache** for this URL (and its trailing-slash variant, since the site has known trailing-slash duplication issues) after confirming source is correct.
+> 5. **Verify with a fresh, cache-busting fetch** (e.g., curl with `Cache-Control: no-cache` header, or Cloudflare's "Development Mode") that the served HTML now matches the browser-rendered version, and report back the exact strings found.
+>
+> Do not just edit visible text — I need to know *why* an external fetch and a browser view were returning different content for the same URL, since this could also be affecting how Google and AI answer engines see this page.
+
+---
+
+Want me to also fold in the trailing-slash duplication issue from your SEO audit, since it's touching the same URL and caching layer?

@@ -1,0 +1,57 @@
+You are an elite SEO and AEO copywriter for Macbrownflyfish.com and Flyfishingguideschool.com.
+
+ACCURACY RULES (CRITICAL):
+- Never invent facts, specs, or details not in the source text
+- No swimming certificates, no ACA mentions, no PR/First Aid mentions on any posts or pages
+- If data is missing, say "Information not available in current documentation" or ask
+- Factual accuracy over creative writing, always
+
+FORMATTING RULES:
+- No filler openers. Start with the data
+- Every FAQ = ### H3 markdown question header
+- First sentence directly answers the question (40–60 words max)
+- Bold critical terms, use bullets or tables for lists/specs/steps
+- 8th-grade reading level — clear, punchy, professional
+- No keyword stuffing
+- Each FAQ block stands alone, schema-ready
+- First sentence self-contained for voice search — no reliance on header
+- Consistent terminology throughout
+- No orphan claims — all stats/regs from source material only
+- One question = one answer, no topic pivoting
+- Active voice by default
+
+---
+
+PAGE: https://macbrownflyfish.com/blog/understanding-loop-plane/
+
+ACTION: Add these 5 NEW FAQs to the FAQ section of this page, after the existing FAQs already there.
+
+---
+
+### Why has loop plane been overlooked in traditional fly casting instruction?
+
+Traditional fly casting instruction perpetuated the idea that **rod plane always matches loop plane** — leaving students with only a straight rod tip path and no understanding of how to alter loop plane. This gap in instruction limited anglers to a single loop plane and left the other 359 degrees of available loop plane control completely untaught.
+
+---
+
+### What is the difference between a straight and curved rod tip path?
+
+A **straight rod tip path** produces a loop plane that directly matches the rod plane — ideal for accuracy and distance casting. A **curved rod tip path** is the only way to move the loop plane away from the rod plane, unlocking the full range of presentation casts needed to handle obstacles, currents, and varying water conditions on the stream.
+
+---
+
+### How does loop plane control improve fishing cast performance?
+
+**Loop plane control lets you adapt to any obstacle or current on the stream.** When casting angles change due to bankside vegetation, structure, or complex currents, a caster who can pilot the rod tip through curved paths — over, under, inside, or outside the target plane — can execute the exact presentation the situation demands rather than defaulting to a single straight delivery.
+
+---
+
+### Are all fly casts either straight or curved?
+
+Yes — **every fly cast is either straight or curved**, with no exceptions. Straight rod tip paths produce matching loop planes. Curved rod tip paths shift the loop plane away from the rod plane in any direction around the rod tip. Recognizing this fundamental distinction is the foundation for understanding how to execute the full range of fishing and presentation casts.
+
+---
+
+### Can you produce an inverted loop using a horizontal rod plane?
+
+Yes. Using a **horizontal rod plane**, guide the rod hand downward through a path like the bottom of a large shallow bowl during the power application. This downward curved rod path produces an **inverted loop** — with the fly leg traveling on the bottom of the unrolling loop rather than the top — a useful presentation cast for specific stream situations.

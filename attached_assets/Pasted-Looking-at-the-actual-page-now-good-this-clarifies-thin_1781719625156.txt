@@ -1,0 +1,22 @@
+Looking at the actual page now — good, this clarifies things a lot. A few observations before I get to the recommendation:
+
+**This page is already winning the career-path keyword fight.** The domain registers as `flyfishingguideschool.com`, the URL slug is `/fly-fishing-guide-school/`, the title tag, the H1 ("Fly Fishing Guide School"), and your backlink anchor text all point at the same exact-match phrase — and per our history, FFGS already ranks #1 for "fly fishing guide school." That alignment between domain → URL → title → H1 is exactly what Google uses to confirm topical relevance. It's not an accident that you rank #1; it's *because* everything matches.
+
+**So no — I wouldn't swap the H1 to "Professional Fly Fishing Guide Certificate."** Here's why that's risky rather than just a style choice:
+
+1. It breaks the URL/H1/title alignment you've already built equity on. "Certificate" doesn't match the slug, doesn't match the domain, doesn't match the anchor text pointing at this page from elsewhere on your site.
+2. You'd be trading a phrase you already rank #1 for, for a phrase with unknown (probably much lower) search volume and zero established ranking signal.
+3. "Certificate" as the lead noun also slightly undersells it — the actual content of this page (rowing certification, licensing, job placement, business basics) reads as full *career training*, not just a piece of paper at the end.
+
+**Where "Professional Fly Fishing Guide Certificate" *does* work well:** as a supporting H2 or body phrase, not the H1. Something like an H2 reading "Earn Your Professional Fly Fishing Guide Certificate in Five Days" captures that long-tail phrase and the credentialing angle, while the H1 keeps doing its job owning the head term.
+
+**The bigger structural issue, building on what we found on the homepage:** this page already reads almost entirely as career-track content (drift boat rowing, NC guide licensing, business basics, job placement directory) — but the "Who This Is For" section deliberately blends in recreational language ("serious anglers ready to fish at a level they've never reached," "lifelong learners") to rope in the Skills Track audience too. That's the homepage's "two paths, one school" problem showing up here — both audiences get funneled into one page that's structurally built for one of them.
+
+**Best practice for going after both intents without diluting either:**
+
+- **Keep this URL as the dedicated career-path page.** It already has the keyword equity and the content (rowing, licensing, business) backs it up. Tighten the "Who This Is For" list to skew career-coded rather than mixed.
+- **Build a separate URL for the recreational/skills track** using one of the H1s from earlier (e.g. "Smoky Mountain Fly Fishing School for Recreational Anglers"). Give it its own meta title, FAQ, and AEO paragraph targeting that distinct intent.
+- **Cross-link the two explicitly** — a line near the top of each page like "Looking to guide professionally instead? →" / "Just want to fish better, not guide for a living? →" — so both Google and humans can self-sort instead of one page trying to be everything.
+- Fix the homepage so the Skills Track button stops pointing at this same career URL and routes to the new page instead.
+
+One URL, one dominant search intent — that's the rule of thumb. Want me to draft the recreational-track page content now that we've confirmed this one stays career-focused?

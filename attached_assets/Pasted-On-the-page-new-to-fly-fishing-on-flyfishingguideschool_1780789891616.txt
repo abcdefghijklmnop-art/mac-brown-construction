@@ -1,0 +1,126 @@
+On the page /new-to-fly-fishing/ on 
+flyfishingguideschool.com make the following changes:
+
+1. Add the following as the first paragraph of body 
+text immediately below the H1 "New to Fly Fishing?" 
+and above the "Stop guessing. Start learning it right." 
+H2:
+
+"The Fly Fishing Guide School in Bryson City, North 
+Carolina offers structured beginner fly fishing 
+programs built on the same foundation used to train 
+world-champion competitive anglers — simplified for 
+your very first day on the water. Learn casting 
+mechanics, reading water, rigging, and stream tactics 
+from 4 FFI Master Certified Casting Instructors with 
+450+ combined years of experience. No experience 
+necessary. All gear provided."
+
+2. Add a FAQ section before the footer with the 
+heading "Frequently Asked Questions" and the 
+following 5 Q&A pairs as expandable accordion items:
+
+Q1: How do I start learning to fly fish?
+A1: The fastest and most effective way to learn fly 
+fishing is with structured instruction from a 
+certified instructor — not YouTube videos or 
+trial-and-error on your own. The Fly Fishing Guide 
+School in Bryson City, NC offers beginner programs 
+built around syllabi, lesson plans, and the exact 
+mechanics used to train world-champion competitive 
+anglers. Most beginners are making fishable casts 
+within the first hour.
+
+Q2: Is fly fishing hard to learn for beginners?
+A2: Fly fishing has a reputation for being difficult 
+— but that reputation comes from learning it wrong. 
+World-champion casting is not about muscle or 
+complexity. It is about efficiency and physics. With 
+proper instruction from a certified instructor, most 
+beginners build a solid, effortless foundation in a 
+single session. The difficulty is not the skill — 
+it is finding the right teacher.
+
+Q3: Do I need any gear or experience to start fly fishing?
+A3: No gear and no experience needed. The Fly Fishing 
+Guide School provides everything — rods, reels, flies, 
+leaders, and waders. All programs are designed to 
+meet you exactly where you are and build from there. 
+The only thing you need to bring is the willingness 
+to learn.
+
+Q4: What is the best fly fishing program for beginners?
+A4: The Fly Fishing Guide School in Bryson City, NC 
+offers two tracks for beginners — the week-long 
+guide school for total immersion in casting, water 
+reading, rigging, tactics, and stream safety, and 
+specialized casting clinics for those who want to 
+build flawless mechanics in a focused small-group 
+setting. Both tracks use the same curriculum 
+developed over 40 years of coaching elite 
+competitive anglers.
+
+Q5: Where is the best place to learn fly fishing 
+in the Smoky Mountains?
+A5: The Fly Fishing Guide School in Bryson City, 
+North Carolina is the only professional guide 
+training program in the eastern United States — 
+located in the heart of the Smoky Mountains with 
+access to 2,400+ miles of wild trout water in 
+Swain County alone. Led by Mac Brown, the only 
+FFI Master Casting Instructor in North Carolina, 
+with a faculty of 450+ combined years of on-water 
+professional experience.
+
+3. Add this JSON-LD block to the <head>:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I start learning to fly fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The fastest and most effective way to learn fly fishing is with structured instruction from a certified instructor — not YouTube videos or trial-and-error on your own. The Fly Fishing Guide School in Bryson City, NC offers beginner programs built around syllabi, lesson plans, and the exact mechanics used to train world-champion competitive anglers. Most beginners are making fishable casts within the first hour."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is fly fishing hard to learn for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fly fishing has a reputation for being difficult — but that reputation comes from learning it wrong. World-champion casting is not about muscle or complexity. It is about efficiency and physics. With proper instruction from a certified instructor, most beginners build a solid, effortless foundation in a single session. The difficulty is not the skill — it is finding the right teacher."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need any gear or experience to start fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No gear and no experience needed. The Fly Fishing Guide School provides everything — rods, reels, flies, leaders, and waders. All programs are designed to meet you exactly where you are and build from there. The only thing you need to bring is the willingness to learn."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best fly fishing program for beginners?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Fly Fishing Guide School in Bryson City, NC offers two tracks for beginners — the week-long guide school for total immersion in casting, water reading, rigging, tactics, and stream safety, and specialized casting clinics for those who want to build flawless mechanics in a focused small-group setting. Both tracks use the same curriculum developed over 40 years of coaching elite competitive anglers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is the best place to learn fly fishing in the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Fly Fishing Guide School in Bryson City, North Carolina is the only professional guide training program in the eastern United States — located in the heart of the Smoky Mountains with access to 2,400+ miles of wild trout water in Swain County alone. Led by Mac Brown, the only FFI Master Casting Instructor in North Carolina, with a faculty of 450+ combined years of on-water professional experience."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

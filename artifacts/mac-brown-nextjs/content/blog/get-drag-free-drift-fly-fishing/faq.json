@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What causes drag in fly fishing?",
+    "answer": "Drag occurs when fly line, leader, or tippet sits in a current that moves at a different speed than the current carrying the fly — the faster current pulls the line and drags the fly unnaturally. Major drag is obvious — the fly skates rapidly across the surface. Micro drag is subtle — the fly appears to float naturally but is under slight tension that trout detect and refuse. Both result in refusals. The solution is mending — repositioning the fly line upstream of the fly immediately after the cast lands."
+  },
+  {
+    "question": "How do I mend fly line to get a drag-free drift?",
+    "answer": "Mend immediately after the cast lands — before the current has a chance to load tension into the line. Flip the rod tip upstream to reposition the fly line above the fly without moving the fly itself. In complex currents with multiple speed lanes between you and the fish, stack mends — multiple small upstream flips throughout the drift. The goal is to keep the fly line consistently upstream of the fly for the entire drift length."
+  },
+  {
+    "question": "How long should my leader be for drag-free drift?",
+    "answer": "Much longer than most anglers use. Store-bought 7 and 9-foot leaders are inadequate for achieving serious drag-free drift at distance — they require significantly more line control and produce shorter effective drifts. Mac Brown uses leaders of 12-30 feet depending on conditions. A longer leader keeps more fly line off the conflicting currents between the angler and the fish — dramatically increasing effective drift length with less effort."
+  },
+  {
+    "question": "Does drag affect nymph fishing as well as dry fly fishing?",
+    "answer": "Yes — drag affects every method including wet flies, nymphs, and streamers when a dead drift is the goal. Micro drag on a nymph is harder to detect than on a dry fly but equally damaging to the presentation. Strike indicators help detect subtle drag — if the indicator moves faster or slower than the surrounding surface currents, the nymph is dragging. Mend immediately when this occurs."
+  },
+  {
+    "question": "What is the fastest way to improve my drag-free drift?",
+    "answer": "Two things — lengthen your leader and improve your water reading. A longer leader immediately reduces the amount of line in conflicting currents. Better water reading tells you which currents will load tension into the line before it happens — allowing you to mend proactively rather than reactively. Mac Brown Fly Fish offers private wade trips in Bryson City, NC specifically focused on presentation — the fastest way to develop drag-free drift in real fishing conditions."
+  },
+  {
+    "question": "What is the drag and drop technique in fly fishing?",
+    "answer": "Drag and drop moves the fly to the target zone by repositioning the rod — without casting again. After the fly lands short or wide of the target, drag the pattern into position using rod movement and continue mending. This keeps the fly in the water longer throughout the day and is especially useful for beginners who frequently miss their target by a few feet."
+  },
+  {
+    "question": "What is the lift and reset technique for covering water?",
+    "answer": "Lift and reset grids off downstream water methodically without recasting. Lift the rod high or point it upstream, then lower it back downstream — advancing the fly one foot at a time across the width of the target zone. Mac Brown uses this to cover 24 feet of width in 24 incremental steps, keeping the fly fishing through every foot of the run without disturbing the water with additional casts."
+  },
+  {
+    "question": "What is a stack mend and when should I use it?",
+    "answer": "A stack mend is an underpowered roll cast that repositions the fly line upstream of the fly during a drift — particularly useful for distance presentations where a standard upstream flip mend would move the fly. Use stack mends when fishing at 30 feet or more, when a single mend is not enough to maintain upstream line position throughout a long drift in complex currents."
+  },
+  {
+    "question": "What is a wiggle mend in fly fishing?",
+    "answer": "A wiggle mend lifts the rod high and shakes the tip rapidly to introduce slack into the line — eliminating tension caused by competing currents between the angler and the fly. It is most effective when fish are holding directly downstream in faster conflicting water where a standard upstream mend would drag the fly sideways rather than extend the drift."
+  },
+  {
+    "question": "What is a reach mend and how is it different from a standard mend?",
+    "answer": "A reach mend moves the rod out to the side — upstream — either during the cast while the line is still in the air or immediately after it lands on the water. A standard mend repositions line already on the water with a flip of the rod tip. The reach mend is more precise and less disruptive to the fly because it places the line in the correct upstream position before it ever touches the water."
+  }
+]

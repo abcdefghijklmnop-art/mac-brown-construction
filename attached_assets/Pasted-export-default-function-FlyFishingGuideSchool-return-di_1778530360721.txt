@@ -1,0 +1,231 @@
+export default function FlyFishingGuideSchool() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            Bryson City, North Carolina · The Only Guide School in the East
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Fly Fishing Guide School
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed">
+            One week. The most credentialed instructors in North America. A career — or the skills of one — waiting on the other side.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+              href="https://flyfishingguideschool.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Visit the Official Guide School Site
+            </a>
+            
+              href="tel:8287361469"
+              className="bg-white hover:bg-gray-100 text-[#1a3a5c] font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Call 828-736-1469
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Only Fly Fishing Guide School in the Eastern United States
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              There is a difference between learning to fly fish and learning to guide it. One is a personal journey. The other is a professional one — and it demands a completely different level of instruction, preparation, and practical experience. The Fly Fishing Guide School at Bryson City, North Carolina is built around that distinction.
+            </p>
+            <p>
+              Located in the heart of what serious anglers call the Trout Mecca of the South, this week-long intensive program is the only guide school of its kind in the eastern United States. Bryson City's milder winters allow longer seasons than any other guide school in the country — and the water surrounding it provides the most diverse and demanding classroom available anywhere in the region.
+            </p>
+            <p>
+              Whether you are pursuing fly fishing guiding as a career, seeking a lifestyle change that puts you on the water every day, or simply wanting to deepen your skills to a professional level — this school delivers an all-encompassing week that changes the way you understand and experience the sport permanently.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Instructor Team */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Instructor Team — Unmatched Anywhere in North America
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-8">
+            The quality of a guide school is only as good as the people teaching it. Mac Brown has assembled what he genuinely believes — and the credentials support — is the finest team of fly fishing educators ever brought together for a single program in North America.
+          </p>
+
+          <div className="grid sm:grid-cols-2 gap-4 mb-8">
+            {[
+              { stat: "5", label: "FFI Master Casting Instructors" },
+              { stat: "3", label: "ACA Certified Whitewater Rowing Instructors" },
+              { stat: "3", label: "Fly Fishing Team USA Members" },
+              { stat: "4", label: "Fly Fishing Team USA Coaches" },
+              { stat: "4", label: "Book & National Magazine Authors" },
+              { stat: "2", label: "Hall of Fame Inductees" },
+              { stat: "1", label: "Field & Stream Angler of the Year" },
+              { stat: "240+", label: "Combined Years of Field Experience" },
+            ].map((item, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 border border-gray-200 flex items-center gap-4">
+                <span className="text-4xl font-bold text-[#1D9E75]">{item.stat}</span>
+                <span className="text-gray-700 font-semibold">{item.label}</span>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-gray-600 italic text-lg text-center">
+            "I am just humbly stating the facts so you know the level of professionalism you are walking into."
+            <br />
+            <span className="text-[#1a3a5c] font-bold not-italic">— Mac Brown</span>
+          </p>
+        </div>
+      </section>
+
+      {/* What the Week Covers */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What the Week Covers
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-8">
+            The school is built around what Mac Brown calls the triad — strategies, tactics, and mechanics. Every topic covered during the week connects back to this foundation and to the practical reality of guiding clients on moving water in real conditions. The curriculum covers:
+          </p>
+
+          <div className="grid sm:grid-cols-2 gap-3">
+            {[
+              "People skills — staying a positive and effective guide in all circumstances",
+              "Reading water for both boating routes and fishing lies",
+              "Oar frame and drift boat skills for guided float trips",
+              "Guiding wade trips on mountain streams and tailwaters",
+              "Line control and rod angles for all techniques and conditions",
+              "Nymph, wet fly, dry fly, and streamer fishing — when and how",
+              "Stream entomology — major insect hatches for North America",
+              "Fly tying — developing confidence patterns for your fishery",
+              "Single and double-handed fly casting from Master Casting Instructors",
+              "Fly casting diagnostics — teaching casting to others",
+              "Switch rod and Spey casting fundamentals",
+              "CPR and First Aid certification through American Red Cross",
+              "Stream craft — reading and adjusting to changing feeding behavior",
+              "Hook sets, fish playing, and landing fish cleanly",
+              "Knots and rigging for fresh and saltwater applications",
+              "Effective client communication — knowing when enough is enough",
+              "Safety and legal considerations for professional guiding",
+              "Basic photography for your clients",
+              "Social media and online presence for your guiding business",
+              "Client database management and repeat booking strategy",
+              "Cover letters, references, and landing your first guide job",
+              "Insurance and permit requirements for professional guides",
+              "FFI casting certification pathways for career advancement",
+            ].map((topic, i) => (
+              <div key={i} className="flex items-start gap-3 bg-gray-50 rounded-lg p-4 border border-gray-200">
+                <span className="text-[#1D9E75] font-bold mt-0.5 flex-shrink-0">✓</span>
+                <span className="text-gray-700 text-sm">{topic}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What's Included */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What Is Included
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-8">
+            The guide school is a fully immersive week — structured to maximize learning from the moment you arrive to the celebration on the final evening.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              { title: "Access to 300+ Fly Fishing Books & DVDs", desc: "Mac Brown's personal library of resources from the finest mentors in the sport — available every evening for research and independent study." },
+              { title: "100+ High-End Fly Rods", desc: "A vast selection of rods with different actions available to cast and compare throughout the week. Understanding equipment from the inside out." },
+              { title: "Multiple Fly Line Tapers", desc: "Full access to a wide range of fly line configurations — understanding how different tapers perform and what each one is designed to do." },
+              { title: "Complete Fly Tying Setup", desc: "All materials and equipment for fly tying provided. Learn to develop the confidence patterns that will serve you on your home water." },
+              { title: "Double Handed Rod Introduction", desc: "Switch rod and Spey casting instruction included — an increasingly essential skill set for the modern professional guide." },
+              { title: "CPR & First Aid Certification", desc: "Certified through American Red Cross during the week. A required credential for professional guiding — completed before you leave." },
+              { title: "Job Placement Directory", desc: "One of the largest directories of top lodges and outfitters worldwide — provided at graduation to support your job search immediately." },
+              { title: "Graduation Celebration", desc: "The final evening of the school is a celebration of the week's work and the community built around it." },
+            ].map((item, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 border border-gray-200">
+                <h3 className="text-lg font-bold text-[#1a3a5c] mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Who This Is For */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Who This School Is For
+          </h2>
+          <div className="grid sm:grid-cols-3 gap-6">
+            {[
+              {
+                icon: "🎯",
+                title: "Career Changers",
+                desc: "You have always wanted to work outdoors doing what you love. The guide school provides the credentials, the skills, the job placement resources, and the professional network to make that transition real.",
+              },
+              {
+                icon: "📈",
+                title: "Skill Builders",
+                desc: "You are already an accomplished angler but want to elevate your understanding to a professional level. The depth of instruction available this week accelerates your development more than years of self-directed practice.",
+              },
+              {
+                icon: "🎓",
+                title: "Aspiring Instructors",
+                desc: "You want to teach the sport — whether privately, through a fly shop, or as part of a guide operation. This school covers the casting diagnostics, communication skills, and teaching methodology that professional instruction demands.",
+              },
+            ].map((item, i) => (
+              <div key={i} className="bg-gray-50 rounded-xl p-6 border border-gray-200 text-center">
+                <div className="text-4xl mb-4">{item.icon}</div>
+                <h3 className="text-lg font-bold text-[#1a3a5c] mb-3">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Location */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Location — Bryson City, NC
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Bryson City is not just a convenient location for a guide school — it is the ideal one. The Trout Mecca of the South sits at the center of over 2,400 miles of wild trout water in Swain County alone. The Great Smoky Mountains National Park and the Nantahala National Forest together protect over 85% of the county's land area, ensuring the classroom never runs out of diverse, demanding, and genuinely wild water to fish and learn on.
+            </p>
+            <p>
+              The milder winters of Western North Carolina mean the guide school runs longer seasons than any other program in the country — from March through November annually. The water fishes year-round. The learning never stops.
+            </p>
+            <p>
+              In the evenings, Bryson City offers everything a week-long school needs — comfortable lodging, good food, the community of the Nantahala Brewing Company, and the kind of small mountain town atmosphere that makes a week away from home genuinely enjoyable.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Wages & Career */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What Guiding Pays — and What It Offers Beyond Money
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Landing your first job as a fly fishing guide working for an outfitter or lodge typically pays between $2,400 and $3,000 per month — with significantly higher earning potential for experienced independent guides working their home water. Many guides supplement their income with fly casting instruction, schools, and clinics — which is exactly what this school prepares you for.
+            </p>
+            <p>
+              But the numbers tell only part of the story. Guiding fly fishing for a living means daily access to some of the finest water in the world, the privilege o

@@ -1,0 +1,364 @@
+export default function TroutFishingNC() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            Western North Carolina · Smoky Mountains · Since 1987
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Mountain Trout Fishing in North Carolina
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed">
+            North Carolina holds some of the finest and most diverse trout fishing in the eastern United States. Swain County alone offers more quality wild trout water than anywhere else in the state — and Mac Brown Fly Fish has been guiding every mile of it since 1987.
+          </p>
+          
+            href="/contact"
+            className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors inline-block"
+          >
+            Book Your NC Trout Trip
+          </a>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Trout Mecca of the South
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Trout fishing in North Carolina offers an extraordinary range of opportunities for the fly fisher — from tiny native brook trout streams tucked deep in the national park backcountry to world-class tailwaters that produce wild fish year-round, from Delayed Harvest sections loaded with trout through the cooler months to large freestone rivers that offer multiple species and overnight float adventures.
+            </p>
+            <p>
+              The mountainous region of Swain County at the center of it all offers the greatest trout fishing potential of anywhere in the entire state. Over 85% of the county is protected public land — the Great Smoky Mountains National Park and the Nantahala National Forest — which means the water stays cold, the fish stay wild, and the experience stays genuinely exceptional regardless of the season.
+            </p>
+            <p>
+              The first decision any visiting angler faces is what kind of fishing and what kind of environment they are looking for. Solitude on an isolated backcountry stream. Company on a popular tailwater. A drift boat covering miles of big river. A wade trip on a technical mountain creek. Each has its season, its character, and its rewards — and knowing which water to fish on any given day is the knowledge that comes from nearly four decades of daily guiding in this specific region.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Water Types */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Waters of Western North Carolina
+          </h2>
+          <p className="text-gray-600 italic mb-8">
+            No two days on the water here look the same. Here is the full range of what Western NC offers the fly fisher:
+          </p>
+
+          <div className="space-y-6">
+            {[
+              {
+                name: "Nantahala River — The Premier NC Tailwater",
+                type: "Tailwater",
+                description: "The finest tailwater in North Carolina and one of the great trout rivers in the eastern United States. Cold, clear, and producing wild brown and rainbow trout every month of the year. The Delayed Harvest section holds exceptional numbers of fish through the cooler months, and the seven-mile tailwater below Nantahala Lake is the crown jewel — technical, beautiful, and deeply rewarding for anglers at every skill level.",
+                species: "Wild Brown & Rainbow Trout",
+                best: "Year-round · All skill levels",
+              },
+              {
+                name: "Tuckasegee River — The Most Popular Float in the Region",
+                type: "Tailwater / Delayed Harvest",
+                description: "The Tuckasegee flows through the heart of Jackson and Swain County and offers outstanding trout fishing from both drift boats and on foot. The Delayed Harvest section in Webster, NC loads up with exceptional numbers of fish from October through May — making it the most popular guided destination in the region. Float trips and wade trips both available throughout the season.",
+                species: "Rainbow & Brown Trout",
+                best: "October–May · All skill levels",
+              },
+              {
+                name: "Great Smoky Mountains National Park Streams",
+                type: "Wild Mountain Streams",
+                description: "The crown jewels of Southern Appalachian trout fishing. Hazel Creek, Deep Creek, Forney Creek, Cataloochee Creek, the Oconaluftee River, and dozens of other mountain streams flowing through the most visited national park in America. Larger wild brown and rainbow trout in the major drainages. Native brook trout in the high-elevation headwaters. Pristine, protected, and genuinely wild — the fishing that defines what Western NC is all about.",
+                species: "Wild Brook, Rainbow & Brown Trout",
+                best: "Spring & Fall · Intermediate to advanced",
+              },
+              {
+                name: "Delayed Harvest Streams Throughout NC",
+                type: "Delayed Harvest",
+                description: "North Carolina's Delayed Harvest program creates outstanding fishing opportunities on multiple rivers and streams throughout the state from October through May. In addition to the Tuckasegee and Nantahala, the Delayed Harvest sections of the Laurel River near Hot Springs, the Snowbird Creek in Graham County, and the French Broad near Rosman all offer excellent seasonal fishing within reach of Western NC.",
+                species: "Rainbow & Brown Trout",
+                best: "October–May · All skill levels",
+              },
+              {
+                name: "Small Wild Streams — Native Brook Trout Country",
+                type: "Wild Backcountry Streams",
+                description: "The technical small streams of Western NC average smaller fish but offer a completely different and deeply rewarding fly fishing experience. Diverse currents, dense overhead canopy, and fish that demand precise presentations in tight quarters. Some of the finest fly casters Mac Brown has ever encountered learned their craft on these streams — because piloting a fly rod in every casting plane is exactly what they demand.",
+                species: "Wild Brook & Rainbow Trout",
+                best: "Spring & Summer · Technical anglers",
+              },
+              {
+                name: "Davidson River — Brevard, NC",
+                type: "Freestone River",
+                description: "One of the finest free-flowing rivers in the state and a personal favorite — especially during the offseason from December through March when pressure drops and the wild trout fishing is exceptional. The Davidson runs through Pisgah National Forest with great waterfalls and hiking trails nearby, holding a healthy population of wild trout in a beautiful mountain setting. Summer brings heavy pressure but the winter fishing is worth the cold.",
+                species: "Wild Brown & Rainbow Trout",
+                best: "December–March · All skill levels",
+              },
+            ].map((water, index) => (
+              <div key={index} className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+                <div className="flex flex-wrap items-start justify-between gap-4 mb-2">
+                  <h3 className="text-xl font-bold text-[#1a3a5c]">{water.name}</h3>
+                  <span className="text-sm font-bold text-[#2E6DA4] bg-blue-50 px-3 py-1 rounded-full">
+                    {water.type}
+                  </span>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-4">{water.description}</p>
+                <div className="flex flex-wrap gap-4">
+                  <span className="text-sm font-semibold text-[#1D9E75]">🐟 {water.species}</span>
+                  <span className="text-sm font-semibold text-[#2E6DA4] italic">⭐ {water.best}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Larger Rivers */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Larger Rivers & Multi-Species Opportunities
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Western North Carolina offers far more than trout. The larger river systems of the region provide outstanding multi-species fly fishing — smallmouth bass, walleye, muskie, and many others — particularly during the warmer summer months when trout fishing slows on the smaller streams.
+            </p>
+          </div>
+
+          <div className="mt-8 space-y-4">
+            {[
+              {
+                name: "Little Tennessee River",
+                desc: "One of the most biologically diverse rivers in North America — holding an extraordinary variety of freshwater fish species. Excellent smallmouth bass fishing during summer months when trout slow down. Overnight float opportunities for walleye, bass, muskie, and trout. A big-water experience with western river character.",
+              },
+              {
+                name: "French Broad River",
+                desc: "A major river system offering outstanding muskie fishing during winter months — float trips upstream from Arden, NC provide excellent opportunities for these impressive fish. The French Broad also has a Delayed Harvest section near Rosman, NC that fishes well through the cooler months.",
+              },
+              {
+                name: "Nolichucky River",
+                desc: "A powerful freestone river offering excellent multi-species float fishing in a spectacular gorge setting. Smallmouth bass, trout, and other species available depending on the season.",
+              },
+              {
+                name: "Hiwassee River",
+                desc: "A quality tailwater river offering good trout fishing in a beautiful setting. A solid option when the primary tailwaters are running high or off-color.",
+              },
+            ].map((river, i) => (
+              <div key={i} className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                <h3 className="font-bold text-[#1a3a5c] text-lg mb-2">{river.name}</h3>
+                <p className="text-gray-600 leading-relaxed text-sm">{river.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Regional Waters */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Regional Waters Worth Knowing
+          </h2>
+
+          <div className="grid sm:grid-cols-2 gap-6">
+            {[
+              {
+                region: "Graham County",
+                waters: "Slickrock Creek, Twenty Mile Creek, Snowbird Creek, Santeetlah Creek, and the Delayed Harvest of Snowbird Creek. Also excellent lake opportunities at Cheoah, Calderwood, and Santeetlah Reservoirs — productive for trout throughout the year.",
+              },
+              {
+                region: "Cashiers & Highlands Area",
+                waters: "The Whitewater River and the Chattooga River both offer excellent wild brown and rainbow trout fishing. The Cullasaja River and surrounding mountain creeks provide quality local options for anglers based in the resort communities.",
+              },
+              {
+                region: "Sylva & Jackson County",
+                waters: "Bear Lake, Wolf Lake, and Tanasee Lake are all high-demand stillwater options near Sylva, NC. Scotts Creek, Panthertown Creek, and Caney Fork Creek offer outstanding wild trout stream fishing on the WNC Fly Fishing Trail.",
+              },
+              {
+                region: "Brevard & Transylvania County",
+                waters: "The Davidson River near Brevard is among the finest freestone rivers in the state. Best in the December through March offseason when pressure drops and wild fish become the primary quarry.",
+              },
+              {
+                region: "Nantahala Lake",
+                waters: "The highest elevation lake in North Carolina — home to the state's Kokanee Salmon run and exceptional trout fishing throughout the year. The lake feeds the Nantahala River tailwater below and stays cold year-round.",
+              },
+              {
+                region: "Northern NC — Watauga & Wilson Creek",
+                waters: "Notable streams north of the Bryson City area include the Watauga River and the Wilson Creek drainage — both offering quality wild trout fishing in beautiful mountain settings worth the drive for the dedicated angler.",
+              },
+            ].map((item, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 border border-gray-200">
+                <h3 className="font-bold text-[#1a3a5c] text-lg mb-3">{item.region}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.waters}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Cherokee */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Cherokee Trophy Waters
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              The Cherokee Trophy Waters on Ravens Fork Creek in Cherokee, NC offer some of the most heavily stocked trophy trout fishing in North America — fish ranging from 20 to 28 inches stocked weekly throughout the year. Many enjoy the added experience of elk wandering the streamside while fishing the Ravens Fork.
+            </p>
+            <p>
+              A note on timing — July and August bring heavy vacation crowds and the warmest water temperatures of the year. These are among the most challenging months for trout fishing throughout Western NC. A thermometer is an essential tool during hot weather — and starting very early in the morning gives you the best window for productive fishing before temperatures rise. Smallmouth bass on the larger rivers is an excellent alternative during the warmest weeks of summer.
+            </p>
+            <p>
+              Current regulations require that anglers fishing Cherokee Tribal waters hire a guide who is a citizen of the Cherokee Nation. The exceptional public water surrounding Cherokee — the national park streams, the Tuckasegee, and the Nantahala — is fully accessible and just minutes away.
+            </p>
+          </div>
+          <div className="mt-6">
+            
+              href="/cherokee-trophy-water"
+              className="text-[#1D9E75] font-bold hover:text-[#0F6E56] transition-colors"
+            >
+              Learn more about fly fishing near Cherokee, NC →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Seasonal Guide */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Seasonal Guide to NC Trout Fishing
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-6">
+            {[
+              {
+                season: "Spring",
+                icon: "🌿",
+                desc: "Peak season. Hatches align with warming water temperatures and fish become aggressive across all water types. Dry fly fishing on the national park streams is outstanding. The Delayed Harvest sections are still loaded with fish. Book early — spring dates fill quickly.",
+              },
+              {
+                season: "Summer",
+                icon: "☀️",
+                desc: "Focus shifts to higher elevation streams, cold tailwaters, and multi-species options on larger rivers. Early mornings and evening hours produce best on lower-elevation waters. Smallmouth bass on the Little Tennessee and French Broad becomes the go-to warm-weather alternative.",
+              },
+              {
+                season: "Fall",
+                icon: "🍂",
+                desc: "Delayed Harvest season opens in October loading the Tuckasegee and other DH streams with exceptional numbers of trout. Cooling water temperatures wake fish up across all water types. Fall foliage on the mountain rivers makes every day on the water a visual experience.",
+              },
+              {
+                season: "Winter",
+                icon: "❄️",
+                desc: "The Nantahala tailwater and Tuckasegee Delayed Harvest fish well throughout winter. Fewer anglers, concentrated fish, and the quiet beauty of mountain rivers in the cold months. Often the most productive time for experienced anglers who embrace the conditions.",
+              },
+            ].map((item, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 border border-gray-200">
+                <h3 className="text-xl font-bold text-[#1a3a5c] mb-3">
+                  {item.icon} {item.season}
+                </h3>
+                <p className="text-gray-700 leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What We Offer */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Every Way to Experience NC Trout Fishing
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              { title: "Guided Float Trips", desc: "Drift the Tuckasegee or Nantahala in a drift boat. Cover water, catch fish, learn the river.", link: "/instructional-float-trips" },
+              { title: "Guided Wade Trips", desc: "Get in the water on the national park streams, the tailwaters, or the mountain creeks.", link: "/instructional-wade-trips" },
+              { title: "Guided Lake Trips", desc: "Trophy trout and Kokanee salmon on the mountain lakes of Western NC.", link: "/instructional-lake-trips" },
+              { title: "Backcountry Trips", desc: "Remote streams deep in the national park — wild fish, pristine wilderness.", link: "/backcountry-trout-fishing" },
+              { title: "Fly Casting Instruction", desc: "Private lessons from NC's only Master Casting Instructor. Guaranteed or free.", link: "/fly-fishing-instruction" },
+              { title: "Fly Fishing Schools", desc: "Weekend immersion programs covering the full craft of NC mountain trout fishing.", link: "/smoky-mountain-weekend-schools" },
+              { title: "WNC Fly Fishing Trail", desc: "Guided trips on the official Jackson County fly fishing trail waters.", link: "/wnc-fly-fishing-trail" },
+              { title: "Group & Corporate Trips", desc: "Customized NC trout fishing experiences for groups of any size.", link: "/group-corporate-fly-fishing" },
+            ].map((item, i) => (
+              
+                key={i}
+                href={item.link}
+                className="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-md transition-shadow block"
+              >
+                <h3 className="text-lg font-bold text-[#1a3a5c] mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+                <p className="text-[#1D9E75] font-bold text-sm mt-3">Learn more →</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What to Bring */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What to Bring
+          </h2>
+          <p className="text-gray-700 text-lg mb-6">
+            All rods, reels, flies, and leaders are provided. Just show up ready to fish. Here is what to bring:
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              "Rain gear — mountain weather changes fast",
+              "Warm layers — mornings on the water can be cool year-round",
+              "Polarized sunglasses — essential for spotting fish and reading water",
+              "A hat with a brim — sun and glare protection",
+              "Sunscreen and lip balm",
+              "Clothing in earth tones — blend into your surroundings",
+              "A thermometer — essential during warm weather months",
+              "Valid NC fishing license if over 16 — ncwildlife.org or 1-888-248-6834",
+            ].map((item, i) => (
+              <div key={i} className="flex items-start gap-3 bg-white rounded-lg p-4 border border-gray-200">
+                <span className="text-[#1D9E75] font-bold mt-0.5">✓</span>
+                <span className="text-gray-700">{item}</span>
+              </div>
+            ))}
+          </div>
+          <p className="text-gray-500 text-sm mt-6 italic">
+            A NC or TN fishing license is required for waters within the Great Smoky Mountains National Park. A tribal license is required for Cherokee Tribal waters — available at stores in Cherokee, NC.
+          </p>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-[#1a3a5c] text-white py-16 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6">
+            The Finest Trout Fishing in North Carolina — Guided by the Best
+          </h2>
+          <p className="text-lg text-[#a0c4e0] mb-8 leading-relaxed">
+            From the wild mountain streams of the national park to the world-class tailwaters of the Nantahala and Tuckasegee — North Carolina trout fishing is extraordinary. Mac Brown has been guiding and teaching on every piece of it since 1987. Come experience what your home state — or your next destination — has been keeping in the mountains.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+              href="/contact"
+              className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Book Your NC Trout Trip
+            </a>
+            
+              href="tel:8287361469"
+              className="bg-white hover:bg-gray-100 text-[#1a3a5c] font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Call 828-736-1469
+            </a>
+          </div>
+          <p className="text-[#a0c4e0] mt-6 text-sm">
+            macbrownflyfish@gmail.com · flyfishingguideschool.com · Bryson City, NC · Since 1987
+          </p>
+        </div>
+      </section>
+
+    </div>
+  );
+}

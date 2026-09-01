@@ -1,0 +1,235 @@
+uploads = []
+
+[[generated]]
+id = "H2ngPvA3_qPw7r4uwNuQH"
+uri = "file://attached_assets/chat-logo-flyfish.png"
+type = "image"
+title = "fly fish chat logo icon"
+
+[[outputs]]
+id = "GaPZbfKWMImtVpdU5r26V"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/guide-trip-1.webp"
+type = "image"
+title = "guide-trip-1"
+
+[[outputs]]
+id = "qlcTnItd0KyIRpRJVqGEW"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/guide-trip-2.webp"
+type = "image"
+title = "guide-trip-2"
+
+[[outputs]]
+id = "4y_TIUoXq9t2Povzf-zJ2"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/guide-trip-3.webp"
+type = "image"
+title = "guide-trip-3"
+
+[[outputs]]
+id = "Tk67Da5LNr0hsAR_AkWRk"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/client-brown-1.webp"
+type = "image"
+title = "client-brown-1"
+
+[[outputs]]
+id = "znmoVsg420PtPBl4enHT9"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/client-brown-2.webp"
+type = "image"
+title = "client-brown-2"
+
+[[outputs]]
+id = "vaKAbtYDSshBxsWMfA9Tm"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/client-brown-3.webp"
+type = "image"
+title = "client-brown-3 (current)"
+
+[[outputs]]
+id = "GC-QdpwepbtXLCO49Vfoe"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/client-rainbow-1.webp"
+type = "image"
+title = "client-rainbow-1"
+
+[[outputs]]
+id = "RnOAySfUcU_AYv47ktOqy"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/client-rainbow-2.webp"
+type = "image"
+title = "client-rainbow-2"
+
+[[outputs]]
+id = "owZEDR_Vx5ZUstMrJ_kwp"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/client-wading-1.webp"
+type = "image"
+title = "client-wading-1"
+
+[[outputs]]
+id = "WBeIyPKTo61Kc7blwbkT9"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/client-fall-brown.webp"
+type = "image"
+title = "client-fall-brown"
+
+[[outputs]]
+id = "xD5qcjWy3aUzzHjNaXIr4"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/client-spring-brown.webp"
+type = "image"
+title = "client-spring-brown"
+
+[[outputs]]
+id = "ZkVZnljccZhfQxbboGxu5"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/client-nantahala-brown.webp"
+type = "image"
+title = "client-nantahala-brown"
+
+[[outputs]]
+id = "kBj5NHJApdxSh3lyso5oX"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/client-drift-brown.webp"
+type = "image"
+title = "client-drift-brown"
+
+[[outputs]]
+id = "CERhO3Uag0WK3GHE-fnxx"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/tuckasegee-summer.webp"
+type = "image"
+title = "tuckasegee-summer"
+
+[[outputs]]
+id = "g07OOGCtgetbJ2adWuZFv"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/guide-fish-1.webp"
+type = "image"
+title = "guide-fish-1"
+
+[[outputs]]
+id = "TQQZP2YMLj3FmTc7Jw24d"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/guide-fish-2.webp"
+type = "image"
+title = "guide-fish-2"
+
+[[outputs]]
+id = "CI-pvXKJCd_vaRRx2ScjK"
+uri = "file://artifacts/mac-brown-fly-fish/public/images/guide-fish-3.webp"
+type = "image"
+title = "guide-fish-3"
+
+[[outputs]]
+id = "qauG0img5HvoG3_U0XzjI"
+uri = "file://mac-brown-gallery.zip"
+type = "unspecified"
+title = "Mac Brown Gallery Photos (86 images)"
+
+[[outputs]]
+id = "7PBZZ_qjGjaAnpjYybR7G"
+uri = "file://artifacts/mac-brown-nextjs/public/images/guide-fish-2-1280.webp"
+type = "image"
+title = "guide-fish-2 — what renders on the page (desktop)"
+
+[[outputs]]
+id = "jSblmluL1ktZqcZSjsgRi"
+uri = "file://assessment-forms-updated.zip"
+type = "unspecified"
+title = "Updated assessment forms (Streamer School + Wet Fly)"
+
+[[outputs]]
+id = "BfkFVU3x28psMCxv6VCH0"
+uri = "file://assessment-forms.zip"
+type = "unspecified"
+title = "Assessment Forms (8 forms, latest versions)"
+
+[[outputs]]
+id = "szV-Z0U_2YBy1Ag6vfE7G"
+uri = "file://artifacts/mac-brown-nextjs/public/opengraph.jpg"
+type = "image"
+title = "Current opengraph.jpg (shared link preview image)"
+
+[[outputs]]
+id = "GIS9GQ0gIloKvlaOpAvyd"
+uri = "file://artifacts/api-server/static/pdfs/Dry_Fly_2.5Hour_Foundations_Clinic.pdf"
+type = "pdf"
+title = "Dry Fly 2.5-Hour Foundations Clinic"
+
+[[outputs]]
+id = "mItOTWWxxOMNlP4_x2Yf9"
+uri = "file://artifacts/api-server/static/pdfs/Nymph_2.5Hour_Foundations_Clinic.pdf"
+type = "pdf"
+title = "Nymph 2.5-Hour Foundations Clinic"
+
+[[outputs]]
+id = "4rzT2t22-LWoq5i8PJM1Y"
+uri = "file://artifacts/api-server/static/pdfs/StreamerSchool_2.5Hour_Foundations_Clinic.pdf"
+type = "pdf"
+title = "Streamer School 2.5-Hour Foundations Clinic"
+
+[[outputs]]
+id = "MTx7ebEPOSauQvdYcUClv"
+uri = "file://artifacts/api-server/static/pdfs/Wet_Fly_2.5Hour_Foundations_Clinic.pdf"
+type = "pdf"
+title = "Wet Fly 2.5-Hour Foundations Clinic"
+
+[[outputs]]
+id = "MZoAqbvAJKlQJFe1mnveO"
+uri = "file://artifacts/api-server/static/pdfs/OarFrameRowingSchool_1Day_Intensive_Handout.pdf"
+type = "pdf"
+title = "Oar Frame Rowing School 1-Day Intensive"
+
+[[outputs]]
+id = "QOlphwpz769118N0emkPx"
+uri = "file://artifacts/api-server/static/pdfs/FlyCastingMasteryWorkshop_1Day_Handout.pdf"
+type = "pdf"
+title = "Fly Casting Mastery Workshop 1-Day"
+
+[[outputs]]
+id = "pcPefudPVjEIrDho9qZFp"
+uri = "file://artifacts/api-server/static/pdfs/Advanced_Casting_MB_GB.pdf"
+type = "pdf"
+title = "Advanced Casting MB+GB"
+
+[[outputs]]
+id = "qQoDgPb7WFVBb75AkoOz1"
+uri = "file://attached_assets/Dry_Fly_2_Day_Student_Handout_1782698102553.pdf"
+type = "pdf"
+title = "Dry Fly 2-Day Student Handout"
+
+[[outputs]]
+id = "xIAe6FEoOAZHroB7hM8ZJ"
+uri = "file://attached_assets/Nymph_2_Day_Student_Handout_1782698102553.pdf"
+type = "pdf"
+title = "Nymph 2-Day Student Handout"
+
+[[outputs]]
+id = "IeUPVc0jCqCSix3-CoqfS"
+uri = "file://attached_assets/StreamerSchool_2Day_Curriculum_Handout_1782698102553.pdf"
+type = "pdf"
+title = "Streamer School 2-Day Curriculum Handout"
+
+[[outputs]]
+id = "XkQGUnK90YZ4TlW_c0A6G"
+uri = "file://attached_assets/Wet_Fly_2Day_Student_Handout_1782698102553.pdf"
+type = "pdf"
+title = "Wet Fly 2-Day Student Handout"
+
+[[outputs]]
+id = "lUy4hmnFz-y4nMTIujXo2"
+uri = "file://attached_assets/OarFrameRowingSchool_2Day_Student_Lesson_Plan_1782698102553.pdf"
+type = "pdf"
+title = "Oar Frame Rowing School 2-Day Lesson Plan"
+
+[[outputs]]
+id = "ks2r4OZ1bngjEDbXtKr3P"
+uri = "file://attached_assets/FlyCastingMasteryWorkshop_2Day_Handout_1782698033717.pdf"
+type = "pdf"
+title = "Fly Casting Mastery Workshop 2-Day Handout"
+
+[[outputs]]
+id = "lWrRBVPzpbuDDxQBfpb5p"
+uri = "file://attached_assets/Spey_Elite_StudentLesson_14Hour_1782698033717.pdf"
+type = "pdf"
+title = "Spey Elite 14-Hour Student Lesson"
+
+[[outputs]]
+id = "YYjXep6MvOrtrTG_uDh8F"
+uri = "file://attached_assets/Saltwater_Masterclass_StudentLesson_14Hour_1782698033717.pdf"
+type = "pdf"
+title = "Saltwater Masterclass 14-Hour Student Lesson"
+
+[[outputs]]
+id = "OEjs4Vmqx9B8Bvu2I0-d8"
+uri = "file://attached_assets/Advanced_Casting_MB___GB__1782698075612.pdf"
+type = "pdf"
+title = "Advanced Casting MB+GB"

@@ -1,0 +1,82 @@
+On the page /bryson-city-fly-fishing-report-hatch-chart 
+on macbrownflyfish.com build an automated fishing 
+conditions widget that does the following:
+
+1. Fetches real-time data from the USGS Water 
+Services API for the following gauge stations:
+- Tuckasegee River at Bryson City: site 03460000
+- Nantahala River: site 03503000
+
+Pull CFS flow and water temperature for each.
+
+2. Fetches current air temperature and forecast 
+for Bryson City NC from the National Weather 
+Service API (no key required):
+https://api.weather.gov/points/35.4265,-83.4473
+
+3. Displays the following conditions for each river:
+
+TUCKASEGEE RIVER:
+CFS Flow Conditions:
+- Below 500 CFS: Too low to float — fish the 
+  freestone streams in the Smokies instead
+- 500–2,000 CFS: Float trip recommended — 
+  ideal conditions
+- 2,000–4,000 CFS: Float trips still fine — 
+  experienced conditions
+- Above 4,000 CFS: No floating — bank fishing 
+  only from safe access points
+
+NANTAHALA RIVER:
+CFS Flow Conditions:
+- Generation off (low CFS): Excellent wading — 
+  stay river-left on the road side, be aware 
+  of release schedules
+- Generation on (higher CFS): Float trips 
+  recommended — check TVA release schedule 
+  before wading
+
+BOTH RIVERS — Water Temperature Rating:
+- Below 45°F: Midges and BWOs — nymphing and 
+  wet flies most productive
+- 45–55°F: Early hatches beginning — Quill 
+  Gordons, Blue Quills, Black Stones — dry 
+  fly fishing becomes viable
+- 55–65°F: PRIME CONDITIONS — all techniques 
+  firing, best dry fly fishing of the year
+- 65°F and above: Stop fishing trout — switch 
+  to warm water species (smallmouth bass). 
+  Fish early morning only before temps rise.
+- Above 72°F: Rest the water entirely
+
+4. Display a fishing condition summary card 
+for each river showing:
+- Current CFS
+- Current water temperature °F
+- Current air temperature °F
+- Float or Wade recommendation
+- Technique recommendation
+- Condition rating (Prime / Good / Fair / 
+  Poor / Rest the Water)
+- Safety note when applicable (high water 
+  bank fishing only, Nantahala release 
+  schedule warning)
+
+5. Add a "Last Updated" timestamp.
+
+6. Add a safety disclaimer below the widget:
+"Always check TVA and Duke Energy generation 
+schedules before wading the Nantahala River. 
+When in doubt, stay on the road side of the 
+river for safe exit. Above 4,000 CFS on the 
+Tuckasegee — float trips are off. Bank fishing 
+only from safe access points."
+
+7. Data refreshes automatically every 15 minutes.
+
+8. Style the widget to match the existing page 
+design — clean cards, color coded by condition 
+rating (green = Prime, yellow = Good, orange = 
+Fair, red = Poor/Rest), mobile friendly.
+
+Then run bash push.sh to deploy. No other changes.

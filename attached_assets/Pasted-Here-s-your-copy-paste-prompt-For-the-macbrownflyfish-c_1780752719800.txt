@@ -1,0 +1,54 @@
+Here's your copy-paste prompt:
+
+---
+
+For the `macbrownflyfish.com` blog post at `/blog/learn-leader-construction`, implement a FAQ section using the following three steps:
+
+**Step 1 — Create the FAQ data file**
+Create a new file at `/content/blog/learn-leader-construction/faq.json` with the following content:
+
+```json
+[
+  {
+    "question": "How long should a fly fishing leader be?",
+    "answer": "Most fly shops will sell you a 9-foot leader and call it a day. In my opinion that's too short for most dry fly situations. I recommend starting with a minimum of 12 to 16 feet of Maxima Chameleon for dry fly and dry-dropper fishing on smaller Smoky Mountain streams. On tailwaters with spooky trout I regularly fish 32 feet or more. Longer leaders give you better stealth, cleaner mends, and more accurate presentations. The 9-foot store-bought leader is a starting point, not an endpoint."
+  },
+  {
+    "question": "Can I use the same leader for dry flies and nymphs?",
+    "answer": "No — and this is one of the most common mistakes I see on the water. A dry fly leader is designed to dissipate energy and create slack for a drag-free drift. A nymph leader needs to sink fast and transfer energy efficiently. They are completely different tools for completely different jobs. Using the same leader for both is like using a hammer to do a screwdriver's work — you can make it sort of work but you're fighting the physics the whole time."
+  },
+  {
+    "question": "What is the difference between a knotted and knotless leader?",
+    "answer": "A knotless leader is extruded from a single piece of material — convenient, tangle-resistant, and fine for beginners. A knotted leader is built section by section from different diameters of material, which gives you far more control over stiffness, taper, and energy transfer. Once you understand what you want your leader to do, building your own knotted leader lets you dial it in precisely for the water you are fishing. That's a level of control a store-bought knotless leader simply cannot give you."
+  },
+  {
+    "question": "What causes my leader not to turn over properly?",
+    "answer": "Usually one of three things — the tippet section is too long, the material is too supple, or there is too big a diameter jump between sections. The fix is straightforward: use stiffer or larger-diameter mono, shorten the tippet, or lengthen the graduation sections between diameters. Also check that your leader butt matches the stiffness of your fly line — hold them together for about 5 inches and watch how they sag. When they bend similarly you have a good match."
+  },
+  {
+    "question": "Do I need to build my own leader or can I just buy one?",
+    "answer": "You can absolutely buy one and it is a perfectly reasonable place to start. But understanding how to build your own is what separates anglers who adapt on the stream from anglers who are stuck with whatever they brought in their vest. When conditions change — water clarity, wind, fly size, technique — a custom-built leader lets you respond immediately. That knowledge is worth developing over time even if you don't build leaders every day."
+  },
+  {
+    "question": "What tippet size should I use?",
+    "answer": "Your tippet is the critical link between you and the fish and deserves serious attention. The right size depends on your fly size, water clarity, and target species. As a starting point I recommend checking my full tippet study — we tested tippet strength, diameter, and knot performance at Western Carolina University and the results changed how I rig up permanently. The link is in the post above."
+  },
+  {
+    "question": "What is a furled leader and is it worth making yourself?",
+    "answer": "A furled leader is made by twisting together multiple strands of material — Dyneema, Kevlar, or Spectra — into a tapered, braided structure that offers incredibly smooth energy transfer. I have had one on my two-weight rod for over three seasons and it still performs beautifully. Yes it takes more upfront investment — about 125 yards of material to make two 12-foot leaders — but the durability and performance more than justify it."
+  }
+]
+```
+
+**Step 2 — Build the FAQ component into the shared blog post layout**
+In the shared `BlogPostLayout` component, add a FAQ section that:
+- Accepts a `faqs` prop — an array of objects each with `question` and `answer` strings
+- Renders only when the `faqs` prop is present and not empty — posts without a faq.json file simply show no FAQ section
+- Displays as an accordion or clean stacked list with the question bold and the answer below it
+- Renders after the body content and tags, before the related posts section
+- Automatically generates a JSON-LD `FAQPage` schema block in the page head from the same `faqs` prop data so Google and AI tools can read it
+
+**Step 3 — Wire the FAQ data to the leader construction post**
+Import `/content/blog/learn-leader-construction/faq.json` in the leader construction blog post page and pass it as the `faqs` prop to the `BlogPostLayout` component.
+
+---

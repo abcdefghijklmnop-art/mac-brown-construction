@@ -1,0 +1,17 @@
+On the page flyfishingguideschool.com/blog/learn-how-to-become-a-fly-fishing-guide-and-instructor/, add three new H2 sections and one new FAQ entry. Do not alter, shorten, or remove any existing content, headings, or the FAQ questions already on the page.
+
+1. Insert this new H2 section directly after the existing "Becoming a Fly Fishing Guide and Instructor" intro paragraph, before "What the Four Days Cover":
+
+H2: What It Actually Takes to Become a Guide
+
+Body copy:
+"Catching fish is only a small part of the job. A working fly fishing guide needs to master casting well enough to diagnose and correct a client's fault on the spot, read water quickly enough to put a client on fish within minutes rather than hours, handle a boat safely in real current, and communicate clearly with someone who may have never held a fly rod before. Safety judgment, client management, and basic business skills round out what separates a strong caster from a hireable guide. The Fly Fishing Guide School curriculum is built around these exact competencies — the same ones outfitters and lodges actually screen for when hiring."
+
+2. Insert this new H2 section directly after "What the Four Days Cover," before "Career Placement":
+
+H2: Do You Need a License or Certification to Guide?
+
+Body copy:
+"Requirements vary by state, so it's worth checking your specific state's guiding and boating regulations directly. Many states require a guide license, and some require additional certifications for guiding from a boat. Beyond state licensing, FFI (Fly Fishers International) casting certification is widely recognized across the industry and is one of the clearest ways to demonstrate real casting competency to an outfitter or lodge. The Fly Fishing Guide School curriculum is built around FFI Master Instructor-level casting standards, giving graduates a strong foundation for pursuing FFI certification if they choose to."
+
+3. Insert this new H2 section directly after "Career Placement," before "Bryson City as a Training Ground":

@@ -1,0 +1,227 @@
+<!-- ===== NEW TO FLY FISHING — flyfishingguideschool.com/new-to-fly-fishing ===== -->
+<style>
+:root{--blue:#185FA5;--blue-dk:#0C447C;--blue-lt:#E6F1FB;--blue-md:#B5D4F4;--tx:#1a1a1a;--txm:#555;--txl:#888;--bg:#fff;--bgs:#f7f9fc;--bgr:#eef4fa;--bd:#dde5ef}
+.pg{font-family:Georgia,serif;color:var(--tx);background:var(--bg);font-size:17px;line-height:1.75;max-width:960px;margin:0 auto;padding:0 2rem}
+.pg section{padding:4rem 0}
+.pg section+section{border-top:1px solid var(--bd)}
+.eyebrow{font-family:system-ui,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--blue);margin-bottom:1rem}
+.pg h1{font-size:clamp(2rem,4vw,2.8rem);font-weight:700;line-height:1.15;margin-bottom:1.25rem}
+.pg h1 em{font-style:italic;color:var(--blue)}
+.pg h2{font-size:clamp(1.5rem,3vw,2rem);font-weight:700;line-height:1.2;margin-bottom:1.1rem}
+.hero-sub{font-size:1.05rem;color:var(--txm);line-height:1.8;margin-bottom:2rem}
+.btn-row{display:flex;gap:1rem;flex-wrap:wrap}
+.btn-p{font-family:system-ui,sans-serif;font-size:.9rem;font-weight:600;background:var(--blue);color:#fff;padding:.8rem 1.75rem;border-radius:6px;text-decoration:none;display:inline-block}
+.btn-p:hover{background:var(--blue-dk)}
+.btn-s{font-family:system-ui,sans-serif;font-size:.9rem;background:transparent;color:var(--txm);border:1px solid var(--bd);padding:.8rem 1.75rem;border-radius:6px;text-decoration:none;display:inline-block}
+.btn-s:hover{border-color:var(--blue);color:var(--blue)}
+.hero-inner{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+.stat-panel{background:var(--bgs);border:1px solid var(--bd);border-radius:16px;padding:2rem;display:flex;flex-direction:column;gap:1.25rem}
+.stat-num{font-size:3.5rem;font-weight:700;line-height:1;color:var(--blue)}
+.stat-lbl{font-family:system-ui,sans-serif;font-size:.78rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--blue-dk)}
+.stat-desc{font-style:italic;font-size:1rem;color:var(--tx);line-height:1.6}
+.stat-sub{font-family:system-ui,sans-serif;font-size:.82rem;color:var(--txl);line-height:1.6}
+.hooks-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+.hook-card{background:var(--bgr);border:1px solid var(--bd);border-radius:12px;padding:1.25rem}
+.hook-lbl{font-family:system-ui,sans-serif;font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--txl);margin-bottom:.5rem}
+.hook-txt{font-style:italic;font-size:1rem;line-height:1.5;color:var(--blue-dk)}
+.hook-center{background:var(--bgs);border-left:4px solid var(--blue);border-radius:0 12px 12px 0;padding:1.5rem 2rem;margin:1rem 0}
+.hook-center p{font-style:italic;font-size:1.25rem;line-height:1.5}
+.stat-banner{background:var(--blue);border-radius:16px;display:flex;align-items:stretch;overflow:hidden;margin:2rem 0}
+.sbn{background:var(--blue-dk);padding:1.75rem 2rem;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:130px;flex-shrink:0}
+.sbn-big{font-size:3rem;font-weight:700;color:#fff;line-height:1}
+.sbn-lbl{font-family:system-ui,sans-serif;font-size:.62rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--blue-md);margin-top:.35rem}
+.sbb{padding:1.75rem 2rem;display:flex;flex-direction:column;justify-content:center;gap:.5rem}
+.sbb p:first-child{font-style:italic;font-size:1.1rem;color:#fff;line-height:1.5}
+.sbb p:last-child{font-family:system-ui,sans-serif;font-size:.83rem;color:var(--blue-md);line-height:1.6}
+.bp-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--bd);border:1px solid var(--bd);border-radius:12px;overflow:hidden;margin:1.5rem 0}
+.bp-step{background:var(--bgr);padding:1.5rem 1.1rem}
+.bp-num{font-size:2.25rem;font-weight:700;color:var(--blue);line-height:1;margin-bottom:.5rem}
+.bp-title{font-family:system-ui,sans-serif;font-size:.83rem;font-weight:600;color:var(--blue-dk);margin-bottom:.35rem}
+.bp-desc{font-family:system-ui,sans-serif;font-size:.78rem;color:var(--txm);line-height:1.5}
+.body-txt{font-size:1rem;color:var(--txm);line-height:1.8;margin-bottom:1.25rem}
+.check-list{list-style:none;display:flex;flex-direction:column;gap:.75rem;margin:1.25rem 0;padding:0}
+.check-list li{display:flex;gap:.75rem;align-items:flex-start;font-size:.98rem;color:var(--txm)}
+.check-list li::before{content:"→";color:var(--blue);font-family:system-ui,sans-serif;font-weight:700;flex-shrink:0}
+.cmp-wrap{border:1px solid var(--bd);border-radius:12px;overflow:hidden;margin:1.5rem 0}
+.cmp{width:100%;border-collapse:collapse;font-family:system-ui,sans-serif;font-size:.88rem}
+.cmp thead th{padding:.9rem 1.1rem;text-align:left;font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.cmp thead th.bad{background:var(--bgs);color:var(--txl)}
+.cmp thead th.good{background:var(--blue);color:var(--blue-lt)}
+.cmp tbody tr{border-top:1px solid var(--bd)}
+.cmp tbody td{padding:.8rem 1.1rem;vertical-align:top;line-height:1.5}
+.cmp tbody td.bad{color:var(--txm);background:#fff}
+.cmp tbody td.good{color:var(--blue-dk);background:#f0f6fc;font-weight:500}
+.prog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.1rem;margin-top:1.5rem}
+.prog-card{border:1px solid var(--bd);border-radius:12px;padding:1.5rem;display:flex;flex-direction:column;gap:.65rem}
+.prog-goal{font-family:system-ui,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--blue)}
+.prog-title{font-family:system-ui,sans-serif;font-size:.93rem;font-weight:600;color:var(--tx)}
+.prog-desc{font-family:system-ui,sans-serif;font-size:.82rem;color:var(--txm);line-height:1.6;flex:1}
+.prog-link{font-family:system-ui,sans-serif;font-size:.82rem;font-weight:600;color:var(--blue);text-decoration:none}
+.cta-band{background:var(--bgs);border-radius:16px;padding:3.5rem 3rem;text-align:center;margin-top:2rem}
+.cta-band h2{max-width:560px;margin:0 auto 1rem}
+.cta-band .body-txt{max-width:500px;margin:0 auto 1.75rem}
+.cta-band .btn-row{justify-content:center}
+.popup-bg{display:none;position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.55);align-items:center;justify-content:center}
+.popup-bg.open{display:flex}
+.popup{background:#fff;border-radius:16px;padding:2.25rem;max-width:460px;width:90%;position:relative}
+.popup-x{position:absolute;top:.9rem;right:1.1rem;background:none;border:none;font-size:1.5rem;cursor:pointer;color:var(--txl);line-height:1}
+.popup h3{font-size:1.5rem;font-weight:700;line-height:1.25;margin-bottom:.4rem}
+.popup .psub{font-family:system-ui,sans-serif;font-size:.88rem;color:var(--blue);font-weight:500;margin-bottom:.9rem}
+.popup p{font-family:system-ui,sans-serif;font-size:.86rem;color:var(--txm);line-height:1.7;margin-bottom:1.25rem}
+.popup input{width:100%;padding:.7rem 1rem;border:1px solid var(--bd);border-radius:6px;font-family:system-ui,sans-serif;font-size:.9rem;margin-bottom:.65rem;outline:none;box-sizing:border-box}
+.popup input:focus{border-color:var(--blue)}
+@media(max-width:768px){
+  .hero-inner,.hooks-grid,.prog-grid{grid-template-columns:1fr}
+  .bp-grid{grid-template-columns:1fr 1fr}
+  .stat-banner{flex-direction:column}
+  .pg{padding:0 1.1rem}
+  .cta-band{padding:2rem 1.25rem}
+}
+@media(max-width:480px){.bp-grid{grid-template-columns:1fr}}
+</style>
+
+<div class="pg">
+
+<section>
+  <div class="hero-inner">
+    <div>
+      <p class="eyebrow">New to fly fishing?</p>
+      <h1>Stop guessing.<br><em>Start learning it right.</em></h1>
+      <p class="hero-sub">Most beginners spend years untangling bad habits they didn't know they were building. Our school gives you the exact foundation used by world-champion anglers — simplified for your very first day on the water.</p>
+      <div class="btn-row">
+        <a href="/contact" class="btn-p">Reserve your spot</a>
+        <a href="/programs" class="btn-s">See all programs</a>
+      </div>
+    </div>
+    <div class="stat-panel">
+      <div>
+        <div class="stat-num">85%</div>
+        <div class="stat-lbl">of beginner mistakes</div>
+      </div>
+      <p class="stat-desc">"Eliminate 85% of mistakes before they happen — with a structured school that gives you syllabi, lesson plans, and a lifetime blueprint from day one."</p>
+      <p class="stat-sub">Most errors aren't talent problems. They're structure problems. A clear path fixes that before bad habits ever form.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">Why beginners need this</p>
+  <h2>Six things you need to hear before you pick up a rod.</h2>
+  <div class="hooks-grid">
+    <div class="hook-card"><p class="hook-lbl">The hidden cost</p><p class="hook-txt">"Most people spend five years struggling to unteach themselves what they learned wrong in the first five minutes."</p></div>
+    <div class="hook-card"><p class="hook-lbl">The myth</p><p class="hook-txt">"World-champion casting isn't complicated. It's just efficient. And efficient is actually easier on your body."</p></div>
+    <div class="hook-card"><p class="hook-lbl">The blueprint</p><p class="hook-txt">"You won't leave with a fish story. You'll leave with a lifetime blueprint — the same handouts used to train competitive champions."</p></div>
+    <div class="hook-card"><p class="hook-lbl">The shortcut</p><p class="hook-txt">"A weekend with us is worth ten years of YouTube. We've already done the trial and error — for 40 years."</p></div>
+    <div class="hook-card"><p class="hook-lbl">The arm test</p><p class="hook-txt">"If your arm is sore after an hour on the water, you're fighting the rod. We'll show you how to let physics do the work."</p></div>
+    <div class="hook-card"><p class="hook-lbl">The credential</p><p class="hook-txt">"Less than 10% of instructors worldwide hold FFI Master Certification. You'll learn from one of them — in the Smokies."</p></div>
+  </div>
+  <div class="hook-center"><p>"You don't know what you don't know yet. That's exactly the right place to start."</p></div>
+</section>
+
+<section>
+  <p class="eyebrow">A structured path forward</p>
+  <h2>Eliminate 85% of mistakes before they happen.</h2>
+  <p class="body-txt">Most beginner mistakes aren't talent problems — they're structure problems. Without a clear learning path, you're guessing. You cast wrong, build a habit, and spend the next decade trying to unlearn it.</p>
+  <p class="body-txt">A structured school with syllabi and lesson plans eliminates that entirely. You don't wander — you progress. Every session builds on the last. Every concept connects to the next.</p>
+  <div class="stat-banner">
+    <div class="sbn"><span class="sbn-big">85%</span><span class="sbn-lbl">of mistakes</span></div>
+    <div class="sbb">
+      <p>"Eliminate 85% of mistakes before they happen — with a structured school that hands you syllabi, lesson plans, and a lifetime blueprint from day one."</p>
+      <p>Most errors aren't talent problems. They're structure problems. A clear path fixes that before bad habits form.</p>
+    </div>
+  </div>
+  <p class="eyebrow" style="margin-top:2rem">Your lifetime blueprint</p>
+  <p class="body-txt">These aren't generic brochures. They're engineered from 40 years of coaching elite competitive anglers — distilled into clear, visual steps you can practice anywhere.</p>
+  <div class="bp-grid">
+    <div class="bp-step"><div class="bp-num">01</div><div class="bp-title">Student handouts</div><div class="bp-desc">Proprietary casting mechanics — visual, precise, yours to keep forever.</div></div>
+    <div class="bp-step"><div class="bp-num">02</div><div class="bp-title">Lesson plans</div><div class="bp-desc">Practice sessions built around where you are, for your home water.</div></div>
+    <div class="bp-step"><div class="bp-num">03</div><div class="bp-title">Continued syllabus</div><div class="bp-desc">A sequenced curriculum for growing well past your first cast.</div></div>
+    <div class="bp-step"><div class="bp-num">04</div><div class="bp-title">Lifetime reference</div><div class="bp-desc">Return to your materials any time — on any river, anywhere in the world.</div></div>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">You belong here</p>
+  <h2>Every master was once a beginner. You're in the right place.</h2>
+  <p class="body-txt">Right now you might not even know what questions to ask — and that's exactly where you want to be.</p>
+  <p class="body-txt">Many beginners spend their first five years building bad physical habits, untangling messy lines, and feeling frustrated on the water. By starting with us, you bypass years of trial and error and build a flawless, effortless foundation from day one.</p>
+  <ul class="check-list">
+    <li>Education over entertainment — we don't just take you out to catch a fish; we give you the skills to catch fish for the rest of your life.</li>
+    <li>Effortless mechanics — world-champion casting isn't about muscle or complexity. It's about efficiency, physics, and ease.</li>
+    <li>Zero intimidation — our school is a welcoming, high-support environment built to turn curiosity into absolute confidence.</li>
+  </ul>
+</section>
+
+<section>
+  <p class="eyebrow">Education over entertainment</p>
+  <h2>Why our method is different.</h2>
+  <p class="body-txt">Not all fly fishing instruction is created equal. Here's the honest difference between a day with us and spending money elsewhere.</p>
+  <div class="cmp-wrap">
+    <table class="cmp">
+      <thead><tr><th class="bad">What most shops offer</th><th class="good">What you get here</th></tr></thead>
+      <tbody>
+        <tr><td class="bad">Untangle your line for you — you leave knowing nothing new</td><td class="good">Learn why tangles happen — and prevent them forever</td></tr>
+        <tr><td class="bad">Hook the fish, hand you the rod, take the photo</td><td class="good">Understand water reading, drift, and presentation</td></tr>
+        <tr><td class="bad">Generic brochure forgotten by Monday</td><td class="good">World-champion curriculum handouts you keep for life</td></tr>
+        <tr><td class="bad">No path forward once the trip ends</td><td class="good">Syllabi and lesson plans for a lifetime of continued growth</td></tr>
+        <tr><td class="bad">Anyone with a boat calls themselves a guide</td><td class="good">FFI Master Certified Instructor with 40 years of teaching</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <p class="eyebrow">Find your track</p>
+  <h2>Choose the program that fits where you are.</h2>
+  <p class="body-txt">Whether you're brand new to the sport or looking to lock in your foundation, we have a program built for you.</p>
+  <div class="prog-grid">
+    <div class="prog-card">
+      <div class="prog-goal">Total immersion</div>
+      <div class="prog-title">Fly Fishing Guide School</div>
+      <div class="prog-desc">Best for beginners who want to completely skip the learning curve and master river reading, safety, rigging, and advanced tactics in one intensive program.</div>
+      <a href="/guide-school" class="prog-link">Learn more →</a>
+    </div>
+    <div class="prog-card">
+      <div class="prog-goal">Flawless mechanics</div>
+      <div class="prog-title">Specialized Casting Clinics</div>
+      <div class="prog-desc">Master the rod without muscle strain. Learn the physics of Casting Angles directly from an FFI Master Certified Instructor in a small-group setting.</div>
+      <a href="/clinics" class="prog-link">Learn more →</a>
+    </div>
+    <div class="prog-card">
+      <div class="prog-goal">On-water success</div>
+      <div class="prog-title">Guided Schools & NC Trips</div>
+      <div class="prog-desc">Experience the beautiful waters of Bryson City and the Smokies while receiving real-time, patient coaching tailored to your skill level.</div>
+      <a href="/trips" class="prog-link">Learn more →</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="cta-band">
+    <p class="eyebrow">Ready to begin?</p>
+    <h2>Step onto the water with total confidence.</h2>
+    <p class="body-txt">Space is strictly limited to ensure high-level, personalized attention for every student. You don't need to be an expert to train like one.</p>
+    <div class="btn-row">
+      <a href="#" class="btn-p" onclick="document.getElementById('popup').classList.add('open');return false;">Get the free 2-page excerpt</a>
+      <a href="/contact" class="btn-s">Talk to us directly</a>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<div class="popup-bg" id="popup">
+  <div class="popup">
+    <button class="popup-x" onclick="document.getElementById('popup').classList.remove('open')">×</button>
+    <h3>Skip 5 years of frustration in 5 minutes.</h3>
+    <p class="psub">Free 2-page excerpt — World-Champion Casting Handbook</p>
+    <p>Learn the exact physics-based foundation used to train competitive champions — distilled into a simple, visual guide you can use today.</p>
+    <input type="email" placeholder="Your email address"/>
+    <a href="#" class="btn-p" style="display:block;text-align:center">Send me the free excerpt!</a>
+  </div>
+</div>
+
+<script>
+document.getElementById('popup').addEventListener('click',function(e){if(e.target===this)this.classList.remove('open')});
+</script>
+<!-- ===== END NEW TO FLY FISHING PAGE ===== -->

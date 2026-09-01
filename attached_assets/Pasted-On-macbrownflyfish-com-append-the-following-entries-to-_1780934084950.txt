@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 18.
+
+    {
+      "@type": "Question",
+      "name": "What is the fly line in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The fly line is one of the most important pieces of equipment in fly fishing — the weight or connection used for making fly casts. Unlike conventional fishing where the lure provides casting weight, the fly line itself provides the mass. The distribution of weight in the fly line coating creates the many taper profiles used for different casting and presentation applications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a fly rod in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A fly rod is a long flexible lever used in fly fishing and fly casting for applying force to the fly line to generate a loop. Mac Brown's definition: an antenna that transmits peace, tranquility, excitement, fellowship, sharing techniques, and most of all an awareness and appreciation for the outdoors. Rod action, modulus, dampening, swing weight, and spline all affect how a fly rod performs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the dory in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A dory is a fishing boat that has been around for centuries with simple lines and easy to build — usually 16 to 24 feet in length using oars with oarlocks to row. Mac Brown uses a crafted wooden dory for loch-style lake fly fishing on the high mountain impoundments near Bryson City, NC. The dory's flat bottom and high sides make it ideal for drifting and rowing on lake surfaces."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the vector haul in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The vector haul is a line haul method that manipulates two strands of fly line producing a two-to-one ratio for achieving greater line speed, increased tension, and deeper rod load. It differs from a standard haul which manipulates only one strand. The vector haul produces significantly greater rod loading than a standard haul of the same distance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are vector quantities in fly casting mechanics?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vector quantities in fly casting mechanics describe direction and magnitude that rely heavily on mathematical relationships for solving the resultant. Velocity, acceleration, force, and momentum are all vector quantities — they have both a size and a direction. Understanding vector quantities helps casting analysts and instructors describe the three-dimensional forces involved in fly casting with precision."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is video capture in fly casting instruction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Video capture in fly casting instruction is using a camera for tweaking your own casting and diagnosing others. Slow motion video reveals rod tip path, tracking, loop shape, haul timing, and rotation timing that the naked eye cannot detect in real time. Mac Brown uses video analysis in online fly casting lessons worldwide — the camera provides instant feedback equivalent to standing next to the caster."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is wave speed of line in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wave speed of line refers to the slight waveforms in the fly line during travel — which is less efficient than straight-line travel. These waves propagate quicker when tension remains high. Transverse waves introduced by tracking faults or abrupt acceleration travel down the fly line and cause tailing loops, wide loops, and inaccurate presentations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the casting analyzer used for in fly casting research?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The casting analyzer invented by Noel Perkins and Bruce Richards measures the smoothness of applied force during the casting stroke and the symmetry of the back and forward casts. It contains data from elite casters for comparison. Mac Brown used casting analyzer data in his collaborative loop morphing research with Noel Perkins published in The Loop journal of Fly Fishers International in Spring 2014."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the six step diagnostic method in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The six step diagnostic method originated by Bruce Richards observes faults in this order: line, rod, body — then corrects in reverse order: body, rod, line. This approach was used by high-level swimming coaches from Australia in the 1960s. The real art in teaching is solving a couple of things that solve many — often subtle suggestions lead to faster progress than addressing every fault simultaneously."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the concept of normal force in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Normal force in fly casting is the minimal amount of net forces required for performing the cast which attains a complete turnover of the loop through infinite casting planes — the fly line should have a straight layout. Normal force casts are the baseline from which positive force adds power for distance and tuck casts, and negative force reduces power for pile and slack-leader presentations."
+      }
+    }
+
+Confirm saved. Stand by for Paste 18.

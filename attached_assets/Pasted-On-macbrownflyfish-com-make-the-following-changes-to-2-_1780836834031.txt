@@ -1,0 +1,268 @@
+On macbrownflyfish.com make the following 
+changes to 2 pages then run bash push.sh 
+to deploy. No other changes.
+
+---
+
+PAGE 1: /blog/understand-rod-acceleration/
+
+AEO — add immediately below H1:
+"Rod acceleration in fly casting exists in 
+three forms — negative, constant, and positive 
+— and mastering all three is what separates 
+presentation casters from casters who can 
+only get the fly out there. Mac Brown covers 
+all three rates in Casting Angles and teaches 
+them in every advanced casting program at Mac 
+Brown Fly Fish in Bryson City, NC. Most casters 
+use too much acceleration. Back off, think 
+smooth application, and the light bulb moment 
+follows quickly."
+
+FAQ — add before footer as expandable accordion:
+Q1: What is rod acceleration in fly casting?
+A1: Rod acceleration is the rate of change 
+in velocity applied to the rod during the 
+casting stroke. It exists in three forms — 
+negative (decelerating), constant (steady), 
+and positive (accelerating). Most instruction 
+addresses only constant acceleration, which 
+is inadequate for controlling line and fly 
+layout in real fishing conditions. Mastering 
+all three gives the caster full control over 
+every presentation cast on the water.
+
+Q2: What is the difference between negative, 
+constant, and positive rod acceleration?
+A2: Constant acceleration maintains steady 
+rod speed throughout the stroke — useful for 
+standard distance casts. Positive acceleration 
+increases speed progressively through the 
+stroke, loading the rod deeper for tight 
+loops and distance. Negative acceleration 
+decreases speed — used deliberately for 
+pile casts, slack leader presentations, 
+and certain curve casts where the fly needs 
+to land with controlled slack.
+
+Q3: Why do most fly casters use too much 
+acceleration?
+A3: Most casters default to maximum effort 
+because early instruction emphasizes getting 
+the fly line out there rather than controlling 
+where and how it lands. Overpowering the 
+stroke produces tailing loops, poor layout, 
+and loss of presentation control. The remedy 
+is practicing at the slowest possible speeds 
+to develop sensitivity to rod load — then 
+building back up with intention.
+
+Q4: What is jerk in fly casting?
+A4: Jerk is a change in the rate of 
+acceleration over time — the abrupt increase 
+in speed that elite casters use near the stop 
+to achieve maximum line speed and distance. 
+The key is remaining smooth throughout the 
+stroke while building to the jerk — a 
+crescendo of speed that synchronizes with 
+the haul, the stop, and the rod unbend 
+simultaneously. The whole is greater than 
+the sum of its parts.
+
+Q5: Where can I learn advanced rod 
+acceleration techniques?
+A5: Mac Brown Fly Fish in Bryson City, NC 
+offers private fly casting lessons and the 
+Masterclass Casting Workshop — covering 
+negative, constant, and positive acceleration, 
+loop control, and advanced presentation casts. 
+Led by Mac Brown, the only FFI Master Casting 
+Instructor in North Carolina, and co-author 
+with Gary Borger of the All-Day Advanced 
+Casting Class at The Fly Fishing Show.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is rod acceleration in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rod acceleration is the rate of change in velocity applied to the rod during the casting stroke. It exists in three forms — negative, constant, and positive. Most instruction addresses only constant acceleration, which is inadequate for controlling line and fly layout in real fishing conditions. Mastering all three gives the caster full control over every presentation cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between negative, constant, and positive rod acceleration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Constant acceleration maintains steady rod speed throughout the stroke. Positive acceleration increases speed progressively, loading the rod deeper for tight loops and distance. Negative acceleration decreases speed — used for pile casts, slack leader presentations, and curve casts where the fly needs to land with controlled slack."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do most fly casters use too much acceleration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most casters default to maximum effort because early instruction emphasizes getting the fly line out there rather than controlling where and how it lands. Overpowering the stroke produces tailing loops, poor layout, and loss of presentation control. The remedy is practicing at the slowest possible speeds to develop sensitivity to rod load."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is jerk in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Jerk is a change in the rate of acceleration over time — the abrupt increase in speed that elite casters use near the stop to achieve maximum line speed and distance. The key is remaining smooth throughout the stroke while building to the jerk — a crescendo of speed that synchronizes with the haul, the stop, and the rod unbend simultaneously."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn advanced rod acceleration techniques?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers private fly casting lessons and the Masterclass Casting Workshop — covering negative, constant, and positive acceleration, loop control, and advanced presentation casts. Led by Mac Brown, the only FFI Master Casting Instructor in North Carolina."
+      }
+    }
+  ]
+}
+</script>
+
+---
+
+PAGE 2: /blog/learning-the-double-haul/
+
+AEO — add immediately below H1:
+"The double haul is the single most important 
+distance and line speed technique in fly 
+casting — a pull on the fly line with the 
+line hand on both the back cast and the 
+forward cast. First introduced to the world 
+by Marvin Hedge in St. Louis in 1934, when 
+he broke the world fly casting distance 
+record by 22 feet. Mac Brown has taught the 
+double haul for 38+ years using the pantomime 
+method originated by Mel Krieger in the 
+mid-1970s — most students achieve the timing 
+in under 10 minutes of practice."
+
+FAQ — add before footer as expandable accordion:
+Q1: What is the double haul in fly casting?
+A1: The double haul is a line acceleration 
+technique where the line hand pulls the fly 
+line on both the back cast and the forward 
+cast — distributing the workload between 
+both hands and dramatically increasing line 
+speed. It was introduced to the world by 
+Marvin Hedge in 1934 when he broke the fly 
+casting distance record by 22 feet. It is 
+not just a distance technique — a properly 
+timed double haul improves accuracy, loop 
+control, and efficiency on every cast.
+
+Q2: How do I learn the timing of the 
+double haul?
+A2: The fastest method is pantomime — 
+practicing the haul motion with no rod or 
+line in hand. Mel Krieger originated this 
+approach in the mid-1970s teaching the 
+Fenwick Fly Casting Schools, achieving 
+results in under 10 minutes. Practice the 
+down-up motion of the line hand repeatedly 
+until the timing becomes automatic before 
+adding the rod. Mac Brown's animated GIF 
+on the double haul page at macbrownflyfish.com 
+illustrates the correct sequence.
+
+Q3: When should the haul begin during 
+the casting stroke?
+A3: The haul should begin around the halfway 
+point through the casting stroke. Starting 
+too early reduces the rod load benefit. 
+Starting too late creates a jerky, 
+disconnected cast. Think of the haul, the 
+rod stop, and the rod unbend occurring 
+simultaneously at the completion of the 
+stroke — the synchronicity of all three 
+is what produces maximum line speed with 
+minimum effort.
+
+Q4: Does the double haul help with 
+short casts or just distance?
+A4: Both — and most anglers underestimate 
+how much the double haul improves short 
+game casting. A properly timed haul 
+produces tighter loops, better accuracy, 
+and reduced false casting at any distance. 
+It also protects fine tippets by allowing 
+the same line speed with significantly 
+less rod hand force. Every fly caster 
+benefits from learning the double haul 
+regardless of the distances they fish.
+
+Q5: Where can I learn the double haul 
+from a certified instructor?
+A5: Mac Brown Fly Fish in Bryson City, NC 
+offers private fly casting lessons covering 
+the double haul, single haul, and advanced 
+line speed techniques — led by Mac Brown, 
+the only FFI Master Casting Instructor in 
+North Carolina, who has taught the double 
+haul for 38+ years. Online lessons via 
+FaceTime, Zoom, or Skype are also available 
+worldwide at $400 per session.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the double haul in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The double haul is a line acceleration technique where the line hand pulls the fly line on both the back cast and the forward cast — distributing the workload between both hands and dramatically increasing line speed. It was introduced by Marvin Hedge in 1934 when he broke the fly casting distance record by 22 feet. It improves accuracy, loop control, and efficiency on every cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I learn the timing of the double haul?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The fastest method is pantomime — practicing the haul motion with no rod or line in hand. Mel Krieger originated this approach in the mid-1970s, achieving results in under 10 minutes. Practice the down-up motion of the line hand repeatedly until the timing becomes automatic before adding the rod."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should the haul begin during the casting stroke?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The haul should begin around the halfway point through the casting stroke. Think of the haul, the rod stop, and the rod unbend occurring simultaneously at the completion of the stroke — the synchronicity of all three is what produces maximum line speed with minimum effort."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the double haul help with short casts or just distance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Both — a properly timed haul produces tighter loops, better accuracy, and reduced false casting at any distance. It also protects fine tippets by allowing the same line speed with significantly less rod hand force. Every fly caster benefits from learning the double haul regardless of the distances they fish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn the double haul from a certified instructor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers private fly casting lessons covering the double haul and advanced line speed techniques — led by Mac Brown, the only FFI Master Casting Instructor in North Carolina, who has taught the double haul for 38+ years. Online lessons via FaceTime, Zoom, or Skype are available worldwide at $400 per session."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

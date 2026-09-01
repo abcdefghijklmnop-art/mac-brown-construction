@@ -1,0 +1,225 @@
+var BOOKINGS_TAB = "Bookings";
+var EMAIL_COL    = 3;
+var WAIVER_COL   = 23;
+
+function doGet(e) {
+  try {
+    var rawPayload = e.parameter.payload;
+    if (!rawPayload) {
+      return respond({ ok: false, error: "No payload" });
+    }
+    var payload = JSON.parse(rawPayload);
+    if (payload.action === "updateWaiver") {
+      return handleUpdateWaiver(payload);
+    }
+    return handleAppendRow(payload);
+  } catch (err) {
+    Logger.log("Webhook error: " + err);
+    return respond({ ok: false, error: String(err) });
+  }
+}
+
+function handleAppendRow(payload) {
+  var values = payload.values;
+  if (!values || !values[0]) {
+    return respond({ ok: false, error: "No values to append" });
+  }
+  var ss    = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getSheetByName(BOOKINGS_TAB);
+  if (!sheet) {
+    return respond({ ok: false, error: "Bookings tab not found" });
+  }
+  sheet.appendRow(values[0]);
+  Logger.log("Booking row appended");
+  return respond({ ok: true });
+}
+
+function handleUpdateWaiver(payload) {
+  var email    = String(payload.email    || "").toLowerCase().trim();
+  var signedAt = String(payload.signedAt || new Date().toLocaleString());
+  if (!email) {
+    return respond({ ok: false, error: "No email provided" });
+  }
+  var ss    = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getSheetByName(BOOKINGS_TAB);
+  if (!sheet) {
+    return respond({ ok: false, error: "Bookings tab not found" });
+  }
+  var lastRow    = sheet.getLastRow();
+  var emailRange = sheet.getRange(1, EMAIL_COL, lastRow, 1).getValues();
+  var matchRow   = -1;
+  for (var i = emailRange.length - 1; i >= 1; i--) {
+    var cellEmail = String(emailRange[i][0] || "").toLowerCase().trim();
+    if (cellEmail === email) {
+      matchRow = i + 1;
+      break;
+    }
+  }
+  if (matchRow === -1) {
+    Logger.log("No booking row found for email: " + email);
+    return respond({ ok: false, error: "No matching booking for " + email });
+  }
+  sheet.getRange(matchRow, WAIVER_COL).setValue("Yes -- " + signedAt);
+  Logger.log("Waiver updated for " + email + " at row " + matchRow);
+  return respond({ ok: true, row: matchRow });
+}
+
+function respond(data) {
+  return ContentService
+    .createTextOutput(JSON.stringify(data))
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+function checkPaymentComplete(e) {
+  var range = e ? e.range : null;
+  if (!range) return;
+
+  if (range.getColumn() !== 21) return;
+
+  var value = String(range.getValue()).trim().toUpperCase();
+  if (!value.includes("PAID")) return;
+
+  var sheet = range.getSheet();
+  if (sheet.getName() !== BOOKINGS_TAB) return;
+
+  var row           = range.getRow();
+  var fullName      = sheet.getRange(row, 2).getValue();
+  var email         = sheet.getRange(row, 3).getValue();
+  var phone         = sheet.getRange(row, 4).getValue();
+  var program       = sheet.getRange(row, 7).getValue();
+  var anglerCount   = sheet.getRange(row, 9).getValue();
+  var confirmedDate = sheet.getRange(row, 16).getValue();
+  var paymentMethod = sheet.getRange(row, 18).getValue();
+  var totalDue      = sheet.getRange(row, 20).getValue();
+  var notes         = sheet.getRange(row, 24).getValue();
+
+  if (!email) return;
+
+  var payload = JSON.stringify({
+    fullName:      fullName,
+    email:         email,
+    phone:         phone,
+    program:       program,
+    anglerCount:   anglerCount,
+    confirmedDate: confirmedDate,
+    paymentMethod: paymentMethod,
+    totalDue:      totalDue,
+    notes:         notes
+  });
+
+  var options = {
+    method: "post",
+    contentType: "application/json",
+    payload: payload,
+    muteHttpExceptions: true
+  };
+
+  var response = UrlFetchApp.fetch("https://macbrownflyfish.com/api/payment-confirmed", options);
+  Logger.log("payment-confirmed response: " + response.getResponseCode() + " " + response.getContentText());
+}
+const MBFF_API_BASE = "https://macbrownflyfish.com/api";
+
+// ─── MBFF REVIEW EMAIL — runs daily at 5pm ────────────────────────────────────
+function sendMBFFReviewEmails() {
+  const ss    = SpreadsheetApp.getActiveSpreadsheet();
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const bookingsTab = ss.getSheetByName("MBFF Bookings");
+  if (!bookingsTab) { Logger.log("MBFF Bookings tab not found"); return; }
+
+  const headers = bookingsTab.getRange(1, 1, 1, bookingsTab.getLastColumn()).getValues()[0];
+
+  // Find columns by header name
+  const colEmail       = findCol(headers, ["email", "e-mail"]);
+  const colFirstName   = findCol(headers, ["first name", "firstname", "first"]);
+  const colProgram     = findCol(headers, ["program", "school", "service", "type"]);
+  const colEndDate     = findCol(headers, ["end date", "enddate", "last day", "finish date"]);
+  const colDate        = colEndDate !== -1 ? colEndDate : findCol(headers, ["date", "trip date", "program date", "session date"]);
+  const colPaid        = findCol(headers, ["paid", "payment", "payment status"]);
+
+  if (colEmail === -1) {
+    Logger.log("ERROR: Cannot find Email column in MBFF Bookings");
+    return;
+  }
+  if (colDate === -1) {
+    Logger.log("ERROR: Cannot find Date/End Date column in MBFF Bookings");
+    return;
+  }
+
+  // Add "Review Email Sent" column if missing
+  let colReviewSent = findCol(headers, ["review email sent", "review sent"]);
+  if (colReviewSent === -1) {
+    colReviewSent = headers.length;
+    bookingsTab.getRange(1, colReviewSent + 1).setValue("Review Email Sent");
+  }
+
+  const lastRow = bookingsTab.getLastRow();
+  if (lastRow < 2) return;
+
+  const data = bookingsTab.getRange(2, 1, lastRow - 1, colReviewSent + 1).getValues();
+  let sent = 0;
+
+  for (let i = 0; i < data.length; i++) {
+    const row   = data[i];
+    const email = String(row[colEmail] || "").trim();
+    if (!email) continue;
+
+    // Check program date matches today
+    const rawDate = row[colDate];
+    if (!rawDate) continue;
+    const programDate = new Date(rawDate);
+    programDate.setHours(0, 0, 0, 0);
+    if (programDate.getTime() !== today.getTime()) continue;
+
+    // Must be paid (if column exists)
+    if (colPaid !== -1) {
+      const paidVal = String(row[colPaid] || "").toLowerCase().trim();
+      const isPaid  = paidVal && paidVal !== "no" && paidVal !== "false" && paidVal !== "0" && paidVal !== "unpaid" && paidVal !== "pending";
+      if (!isPaid) continue;
+    }
+
+    // Skip if already sent
+    if (String(row[colReviewSent] || "").trim()) continue;
+
+    const firstName   = colFirstName !== -1 ? String(row[colFirstName] || "").trim() : "";
+    const programName = colProgram   !== -1 ? String(row[colProgram]   || "").trim() : "";
+
+    try {
+      const resp = UrlFetchApp.fetch(MBFF_API_BASE + "/mbff-review-request", {
+        method: "post",
+        contentType: "application/json",
+        payload: JSON.stringify({ firstName, email, programName: programName || undefined }),
+        muteHttpExceptions: true,
+      });
+
+      if (resp.getResponseCode() === 200) {
+        bookingsTab.getRange(i + 2, colReviewSent + 1).setValue(new Date().toISOString());
+        sent++;
+        Logger.log("Sent to: " + email + " (" + programName + ")");
+      } else {
+        Logger.log("Failed for " + email + ": " + resp.getResponseCode() + " — " + resp.getContentText());
+      }
+    } catch (e) {
+      Logger.log("Error for " + email + ": " + e);
+    }
+
+    Utilities.sleep(500);
+  }
+
+  Logger.log("Done. Sent " + sent + " MBFF review emails.");
+}
+
+// Run this ONCE to add MBFF to the daily trigger
+function addMBFFReviewTrigger() {
+  // Removes old MBFF trigger if it exists, then re-creates
+  ScriptApp.getProjectTriggers().forEach(t => {
+    if (t.getHandlerFunction() === "sendMBFFReviewEmails") ScriptApp.deleteTrigger(t);
+  });
+  ScriptApp.newTrigger("sendMBFFReviewEmails")
+    .timeBased()
+    .everyDays(1)
+    .atHour(17)
+    .create();
+  Logger.log("Trigger set: sendMBFFReviewEmails runs daily at 5pm.");
+}

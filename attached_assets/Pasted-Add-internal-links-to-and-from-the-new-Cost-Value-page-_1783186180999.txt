@@ -1,0 +1,27 @@
+Add internal links to and from the new "Cost & Value" page on flyfishingguideschool.com (the "Is Fly Fishing Guide School Worth It?" page). Only add hyperlinks to existing words/phrases already in the text — do not alter any wording, and only link to URLs that already exist on the site. Do not create new pages.
+
+OUTBOUND (from the Cost & Value page to other existing pages):
+
+1. In the "Who This Is Actually Worth It For" section, under "If you want to become a professional guide," link the phrase "the curriculum" or "Fly Fishing Guide School" to /fly-fishing-guide-school/
+
+2. In the same section, under "If you just want to become a genuinely better angler," link a natural phrase referencing the recreational path to /smoky-mountain-fly-fishing-school/
+
+3. Where the page discusses "how to become a professional guide" or similar, link that phrase to /blog/learn-how-to-become-a-fly-fishing-guide-and-instructor/
+
+4. In "The Real Return on Investment" section, link the word "testimonial pages" (or similar existing phrase referencing testimonials) to the site's Testimonials & Kudos page.
+
+5. At the bottom of the page, add a clear call-to-action linking to the Reservation/Enroll page.
+
+INBOUND (from other existing pages to the Cost & Value page):
+
+6. On the homepage, add a link to the Cost & Value page from existing copy near where cost, tuition, or value is mentioned. Do not force a link into an unrelated section.
+
+7. On /fly-fishing-guide-school/, link the existing tuition/$4,850 mention to the Cost & Value page.
+
+8. On /smoky-mountain-fly-fishing-school/, link its existing tuition mention to the Cost & Value page as well.
+
+9. On /blog/learn-how-to-become-a-fly-fishing-guide-and-instructor/, link the existing "How much do fly fishing guides make?" FAQ answer to the Cost & Value page for the full cost breakdown.
+
+For every link added, report back: which page, which exact existing text was turned into a link, and which URL it now points to.
+
+After making changes, run bash push.sh to deploy, no other changes.

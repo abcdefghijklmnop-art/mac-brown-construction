@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 15.
+
+    {
+      "@type": "Question",
+      "name": "What is a vise in fly tying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A vise is a tool with locking jaws for holding a hook when fly tying."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a variant fly pattern?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A variant is a dry fly with hackles much larger than recommended — tied on conventional fly patterns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a pool tail out in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The tail out is the lower end of a pool where it becomes shallow."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a run in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A run is a place where water flows between a bank and a rock or between two rocks. A run can have fast or slow current. If the run has several large rocks on one side trout can hold against the side of these rocks — and the same applies to bank areas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a roly-poly retrieve in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The roly-poly is a line retrieval method where your hands work in a small circle — alternately grabbing fly line at different rates. It is used on both still water and rivers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is rod flex in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rod flex is the manner in which the rod bends during the acceleration phases of the cast — whether forward or back. Tip-flex rods bend primarily through the tip section. Mid-flex rods bend down into the middle section. Full-flex rods bend throughout the entire rod during the cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a retrieve in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The retrieve is bringing the fly back toward the caster after the cast is made. Retrieves can be done in a variety of ways — the most important point is to keep the rod tip low and pointed straight down the line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a reel seat on a fly rod?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The reel seat is the mechanism that holds the reel to the rod — usually using locking metal rings or sliding bands."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a raft in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A raft is a whitewater inflatable usually outfitted with a frame and oars — used for fishing rivers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is dapping in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dapping is a relatively ancient technique of presenting a fly on the surface of the water where the fly is bounced up and down to entice a strike."
+      }
+    }
+
+Confirm saved. Stand by for Paste 15.

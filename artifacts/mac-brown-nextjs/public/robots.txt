@@ -1,0 +1,74 @@
+# macbrownflyfish.com — robots.txt
+
+# -------------------------------------------------------
+# Default: allow all crawlers, block thin/duplicate routes
+# -------------------------------------------------------
+User-agent: *
+Allow: /
+Disallow: /category/
+Disallow: /author/
+Disallow: /blog/tuckasegee-fly-fishing-report-2016/
+Disallow: /blog/tuckasegee-river-delayed-harvest-trout-fishing/
+Disallow: /blog/epic-trout-fishing-may-bryson-city-nc/
+Disallow: /blog/deep-creek-fishing-report/
+Disallow: /blog/fly-fishing-report-bryson-city-nc/
+Disallow: /blog/nantahala-river-fly-fishing-report/
+Disallow: /blog/upper-nantahala-river-fly-fishing-report/
+Disallow: /blog/fall-delayed-harvest-trout-fishing-season-nc/
+
+# -------------------------------------------------------
+# AI search & AEO crawlers — explicitly allowed
+# Powers AI Overviews, Perplexity, ChatGPT search, etc.
+# -------------------------------------------------------
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# -------------------------------------------------------
+# AI training scrapers — blocked
+# -------------------------------------------------------
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: DiffBot
+Disallow: /
+
+Sitemap: https://macbrownflyfish.com/sitemap.xml

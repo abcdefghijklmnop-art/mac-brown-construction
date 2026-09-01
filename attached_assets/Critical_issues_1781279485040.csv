@@ -1,0 +1,10 @@
+Reason,Source,Validation,Pages
+Page with redirect,Website,Failed,256
+Alternate page with proper canonical tag,Website,Failed,122
+Crawled - currently not indexed,Google systems,Failed,416
+Blocked due to access forbidden (403),Website,Not Started,3
+"Duplicate, Google chose different canonical than user",Google systems,Not Started,11
+Not found (404),Website,Started,35
+Redirect error,Website,Started,18
+Excluded by ‘noindex’ tag,Website,Started,5
+Discovered - currently not indexed,Google systems,Started,17

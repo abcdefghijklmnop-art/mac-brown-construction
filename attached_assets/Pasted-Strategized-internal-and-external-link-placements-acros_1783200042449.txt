@@ -1,0 +1,14 @@
+Strategized internal and external link placements across certification platformsStrategized internal and external link placements across certification platformsGood question — let's split this into internal (site-to-site) and external (authoritative outside sources), since they serve different purposes here.
+Internal links:
+
+/fly-fishing-guide-school/ (FFGS) — the curriculum-alignment section already references it directly
+/is-fly-fishing-guide-school-worth-it/ — natural cross-link, since cost and certification are adjacent questions in someone's head
+macbrownflyfish.com/fly-casting-instruction/ — wherever "our Fly Casting Mastery Workshop weekend clinic" lives should link there directly, since that's the actual product behind that claim
+MBFF's /fly-fishing-guide-school referral page — reciprocal with the "prepped more folks in the SE" credibility angle we discussed
+Your Testimonials & Kudos page — natural fit for "several talented folks come through... hired straight out of the school"
+The "how to become a fly fishing guide" blog post — reciprocal link back
+
+External links — and I think this one's actually valuable beyond just SEO:
+
+FFI's official certification page (Fly Fishers International) — linking to the actual sanctioning body is a legitimate authority signal (Google treats outbound links to genuinely authoritative, non-competing sources as a trust signal, not a leak), and it's directly relevant since the whole page is about their certification system
+The actual state guide-licensing pages for Maine, Montana, and North Carolina — this is the one I'd push hardest for. Since the page makes specific regulatory claims about each state, linking directly to each state's official licensing authority does two things at once: gives the reader a way to verify current requirements themselves, and meaningfully reduces your liability exposure on those specific claims, since you're pointing to the source of truth rather than being the last word on law that changes over time

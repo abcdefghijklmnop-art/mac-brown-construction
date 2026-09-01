@@ -1,0 +1,147 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/pheasant-tail-droppers/
+
+AEO — add immediately below H1:
+"Weighted pheasant tail dropper nymphs are 
+one of the most productive fly fishing 
+rigs on big water in the Smoky Mountains 
+— particularly on the Tuckasegee and 
+Nantahala rivers on bright sunny days with 
+clear water. Mac Brown's preferred tie uses 
+heavy lead wraps mashed flat behind a 3.5mm 
+tungsten bead on a #12 Mustad 3399, with 
+partridge tail and legs, pheasant tail 
+abdomen, prism dub mixed with hare's ear 
+thorax, and peacock wingcase. At 9.4 grains 
+this fly sinks fast and produces consistently 
+as both a point fly and a dropper."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What is a pheasant tail dropper 
+nymph in fly fishing?
+A1: A pheasant tail dropper nymph is 
+a weighted subsurface fly tied to 
+imitate clinger mayfly nymphs — fished 
+as a secondary fly below a dry fly, 
+indicator, or heavier point fly. The 
+dropper position places the fly in 
+the middle of the water column where 
+trout are often actively feeding. 
+Tungsten bead versions with lead 
+wraps sink quickly and hold depth 
+effectively in faster water.
+
+Q2: How do you rig a pheasant tail 
+dropper for fly fishing?
+A2: Tie the dropper tippet off the 
+bend of the point fly or off a 
+tippet ring — using 8-16 inches of 
+tippet depending on water depth and 
+current speed. The dry fly, yarn, 
+foam indicator, or thingamabobber 
+must be sensitive enough to register 
+the subtle takes that weighted dropper 
+nymphs often produce. Balance between 
+the flies is critical — if the dropper 
+is too heavy it will sink the dry fly 
+and kill strike detection.
+
+Q3: What makes the pheasant tail 
+pattern so effective for trout?
+A3: The pheasant tail fiber creates 
+a segmented, lifelike profile that 
+closely matches clinger mayfly nymphs 
+found in Smoky Mountain streams. The 
+combination of natural material 
+movement, tungsten bead flash, and 
+correct body profile triggers strikes 
+from both actively feeding and 
+lockjawed trout. The pattern is most 
+productive on bright sunny days in 
+clear water — when trout can see 
+the fly from a greater distance and 
+have more time to commit.
+
+Q4: Should I use a jig hook for 
+pheasant tail nymphs?
+A4: Yes — jig hooks cause the fly 
+to ride hook point up, significantly 
+reducing bottom snags in rocky Smoky 
+Mountain stream beds and producing 
+a more natural tumbling action during 
+the drift. Mac Brown also uses clam 
+shot added to the top side of a 
+standard hook shank to achieve the 
+same inverted riding position. Both 
+methods increase hook-up percentages 
+by keeping the point in the optimal 
+strike position throughout the drift.
+
+Q5: Where can I learn nymph fishing 
+dropper techniques in the Smokies?
+A5: Mac Brown Fly Fish in Bryson City, 
+NC offers guided wade trips and the 
+Comprehensive Nymph Fishing Clinic 
+— covering dropper rigs, indicator 
+placement, three-fly systems, tight 
+line nymphing, and depth management 
+on the Tuckasegee River, Nantahala 
+River, and wild streams of the Great 
+Smoky Mountains. All gear and flies 
+provided. Led by Mac Brown since 1987.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a pheasant tail dropper nymph in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A pheasant tail dropper nymph is a weighted subsurface fly tied to imitate clinger mayfly nymphs — fished as a secondary fly below a dry fly, indicator, or heavier point fly. The dropper position places the fly in the middle of the water column where trout are often actively feeding. Tungsten bead versions with lead wraps sink quickly and hold depth effectively in faster water."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you rig a pheasant tail dropper for fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tie the dropper tippet off the bend of the point fly or off a tippet ring — using 8-16 inches of tippet depending on water depth and current speed. The indicator must be sensitive enough to register subtle takes. Balance between the flies is critical — if the dropper is too heavy it will sink the dry fly and kill strike detection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes the pheasant tail pattern so effective for trout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The pheasant tail fiber creates a segmented, lifelike profile that closely matches clinger mayfly nymphs found in Smoky Mountain streams. The combination of natural material movement, tungsten bead flash, and correct body profile triggers strikes from both actively feeding and lockjawed trout. The pattern is most productive on bright sunny days in clear water."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use a jig hook for pheasant tail nymphs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — jig hooks cause the fly to ride hook point up, significantly reducing bottom snags in rocky Smoky Mountain stream beds and producing a more natural tumbling action. Mac Brown also uses clam shot added to the top side of a standard hook shank to achieve the same inverted riding position. Both methods increase hook-up percentages."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn nymph fishing dropper techniques in the Smokies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers guided wade trips and the Comprehensive Nymph Fishing Clinic — covering dropper rigs, indicator placement, three-fly systems, tight line nymphing, and depth management on the Tuckasegee River, Nantahala River, and wild streams of the Great Smoky Mountains. All gear and flies provided."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

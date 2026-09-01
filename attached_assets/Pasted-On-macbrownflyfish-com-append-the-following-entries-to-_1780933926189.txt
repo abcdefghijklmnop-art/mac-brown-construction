@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 12.
+
+    {
+      "@type": "Question",
+      "name": "What is angular thrust in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Angular thrust describes the casting stroke as a combination of the whole body involved in applying force to the rod. All casts involve using one or more combinations of six different wrist positions — angular linear thrust, angular perpendicular thrust, and angular rotational thrust. Understanding angular thrust helps instructors diagnose which body parts are contributing correctly and which are introducing faults."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is angular linear thrust in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Angular linear thrust describes the rod hand always remaining parallel with the forearm. The basic vertical foundation cast most commonly taught is an example of angular linear thrust. The motion usually includes either wrist abduction or adduction — the most fundamental wrist motion used in standard overhead casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is angular perpendicular thrust in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Angular perpendicular thrust describes the rod hand's perpendicular relationship to the forearm — encompassing both wrist extension and flexion. This is often performed toward the completion of the casting stroke and line manipulation. It is the wrist motion that delivers the final acceleration and stop in many casting styles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is angular rotational thrust in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Angular rotational thrust is the circular motion applied from the forearm during the cast or mend — performed by varying the thrust force in which the forearm rotates clockwise or counterclockwise through pronation or supination. It is used for elliptical casting strokes, oval casts, and many specialty mending techniques."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is anatomical position in fly casting instruction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Anatomical position in fly casting instruction is the position of your body when standing upright with your arms at your sides while your palms face toward the same direction as your body. It is the reference position from which all wrist movements — abduction, adduction, extension, flexion, pronation, supination — are measured and described."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are anatomical advantages in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Anatomical advantages in fly casting refers to diagnosing the weaknesses and strengths of body parts and how they apply to the mechanics of the casting stroke. Many casting styles make use of various individual physiques — it is for this reason that no two casters will ever fly cast identically. Understanding anatomical advantages helps instructors tailor instruction to each student's physical capabilities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the casting cycle in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The casting cycle is the complete motion of implementing two casting strokes — usually a back and forward cast, but it could also mean two back or two forward casts. The casting cycle varies according to tempo for dealing with obstacles. Understanding the casting cycle as a complete unit rather than two separate strokes improves timing and loop consistency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are casting planes in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Casting planes include all of the various airspaces the rod and line are worked through in a three-dimensional space around the caster's body. They include rod planes, loop planes, and line planes. Understanding three-dimensional casting planes is essential for executing presentation casts — you cannot use two-dimensional terms and models and apply them to the real world of fishing casts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is body plane in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The body plane refers to the positioning of where the rod and line are used while performing casts — measured in degrees always in a clockwise direction with zero degrees directly in front of the caster. Understanding body plane positioning helps casters and instructors communicate about where casts are being directed relative to the caster's body."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is on-side and off-side in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "On-side is the side of the body where the hand pilots the rod — for a right-handed caster all casting planes from the caster's center axis to ground level on the right. Off-side is the side of the body where the hand holds the line — everything from the ground to the caster's center axis on the left for a right-handed caster. Understanding on-side and off-side helps with teaching body plane positioning for specialty casts."
+      }
+    }
+
+Confirm saved. Stand by for Paste 12.

@@ -1,0 +1,57 @@
+You are an elite SEO and AEO copywriter for Macbrownflyfish.com and Flyfishingguideschool.com.
+
+ACCURACY RULES (CRITICAL):
+- Never invent facts, specs, or details not in the source text
+- No swimming certificates, no ACA mentions, no PR/First Aid mentions on any posts or pages
+- If data is missing, say "Information not available in current documentation" or ask
+- Factual accuracy over creative writing, always
+
+FORMATTING RULES:
+- No filler openers. Start with the data
+- Every FAQ = ### H3 markdown question header
+- First sentence directly answers the question (40–60 words max)
+- Bold critical terms, use bullets or tables for lists/specs/steps
+- 8th-grade reading level — clear, punchy, professional
+- No keyword stuffing
+- Each FAQ block stands alone, schema-ready
+- First sentence self-contained for voice search — no reliance on header
+- Consistent terminology throughout
+- No orphan claims — all stats/regs from source material only
+- One question = one answer, no topic pivoting
+- Active voice by default
+
+---
+
+PAGE: https://macbrownflyfish.com/blog/learn-leader-construction/
+
+ACTION: Keep the 7 existing FAQs already on this page. Add these 5 NEW FAQs directly after them.
+
+---
+
+### What are the three key attributes to understand when building a fly fishing leader?
+
+The three key attributes are **stiffness, weight, and diameter.** Stiffness determines energy transfer — stiffer material with a longer butt section produces more efficient turnover. Weight affects how quickly the leader sinks or floats. Diameter controls stealth, sink rate, and how much the tippet is affected by surface currents. Adjusting all three in combination is how experienced anglers tune leaders for specific techniques and water conditions.
+
+---
+
+### What is Maxima Chameleon and why does Mac Brown use it for Smoky Mountain leaders?
+
+**Maxima Chameleon** is a stiff monofilament material Mac Brown relies on for trout leaders in Western NC pocket water. Its stiffness produces precise accuracy in tight situations — critical on small mountain streams. His standard setup starts with a **.017 butt section of approximately 12 feet of Maxima Chameleon**, tapered through a sighter from .015 to .011, then finished with straight fluorocarbon tippet to the fly.
+
+---
+
+### What is the Dave Whitlock connection and why does it matter for leader-to-fly-line attachment?
+
+The **Dave Whitlock connection** is a knotless splice method for joining the leader butt directly to the fly line — eliminating the bump created by a traditional nail knot or loop-to-loop connection. The result is a smoother transition that shoots through the guides without interruption. Mac Brown recommends it specifically when using long Maxima Chameleon leaders on Smoky Mountain streams for cleaner presentations at distance.
+
+---
+
+### What is the difference between a slack and non-slack leader design?
+
+A **slack leader** is designed to land with built-in curve and slack — ideal for drag-free dry fly drifts in complex currents where a tight straight layout would drag immediately. A **non-slack leader** transfers energy efficiently for a straight, positive turnover — used when executing positive curve casts or when precise fly placement into a tight lie requires the leader and fly to turn the corner together with control.
+
+---
+
+### What superline materials work best for building furled leaders?
+
+**Power Pro** and **Spiderwire Fusion** both perform excellently for furled leaders. Mac Brown has used a Dyneema furled leader on his two-weight rod for over three seasons with consistent performance. These superline materials require approximately **125 yards of material to produce two 12-foot leaders** — a significant upfront investment, but the durability across multiple seasons makes them more cost-effective than mono-based leaders over time.

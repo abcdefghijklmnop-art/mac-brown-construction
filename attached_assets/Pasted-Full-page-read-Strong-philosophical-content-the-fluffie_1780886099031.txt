@@ -1,0 +1,192 @@
+Full page read. Strong philosophical content — the fluffies concept, fly fishing fallacies, and the commitment framework are genuinely useful. One note: the "Just Do It" H1 is a Nike trademark phrase — worth changing for both SEO and trademark reasons.
+
+**H1 assessment:** Change it. "Just Do It: Commit to Your Fly Fishing!" — weak for SEO, no search intent, Nike trademark risk.
+
+**Suggested H1:** "Commit to Your Fly Fishing Journey — Mechanics, Truth, and Moving Beyond the Good Enough Mentality"
+
+Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/just-do-it-commit-to-your-fly-fishing-journey/
+
+1. Change the H1 from:
+"Just Do It: Commit to Your Fly Fishing!"
+to:
+"Commit to Your Fly Fishing Journey — 
+Mechanics, Truth, and Moving Beyond 
+Good Enough"
+
+2. Add the following AEO paragraph 
+immediately below the H1:
+"Committing to genuine improvement in 
+fly fishing requires establishing intent, 
+seeking mechanical truth over popular 
+fallacies, and moving beyond the good 
+enough mentality that keeps 95% of 
+anglers at the same skill level their 
+entire lives. Mac Brown has been teaching 
+fly casting and fly fishing in Bryson City, 
+NC since 1987 — and the single biggest 
+obstacle he witnesses is not lack of 
+talent but lack of commitment to learning 
+the mechanics behind the sport. Phrases 
+accepted by the majority have nothing to 
+do with the truth. Question everything 
+before believing. Seek mechanical truth 
+because it will always prevail."
+
+3. Add FAQ section before footer as 
+expandable accordion:
+
+Q1: What are common fly fishing 
+fallacies to avoid?
+A1: Mac Brown identifies several 
+widely repeated fly fishing fallacies 
+that have persisted for decades — 
+phrases accepted by the majority that 
+have nothing to do with mechanical 
+truth: 'let the rod do the work' 
+implies the caster is passive — the 
+caster loads the rod, not the other 
+way around. 'The fly line loads the 
+rod' is incorrect — the caster loads 
+the rod and the rod moves the line. 
+'The anchor loads the rod' in Spey 
+casting is similarly misleading. 
+'Shorter rods cast further than 
+longer ones' contradicts basic 
+physics. Question everything before 
+believing. Mechanical truth prevails 
+over popular phrases every time.
+
+Q2: What is the good enough mentality 
+in fly fishing and how do you overcome it?
+A2: The good enough mentality describes 
+the 95% of anglers who fish the same 
+way their entire lives with little to 
+no improvement — content with occasional 
+fish, basic technique, and no drive to 
+push further. The NCWRC creel study on 
+the Upper Nantahala confirms it — the 
+top 2.6% of anglers catch over a third 
+of all fish landed. Moving beyond good 
+enough requires establishing clear 
+intent and goals, seeking mechanical 
+instruction from certified professionals, 
+practicing deliberately rather than 
+repeatedly, and maintaining the humility 
+to remain a student regardless of 
+experience level.
+
+Q3: What are fluffies in fly fishing?
+A3: Fluffies is Mac Brown's term for 
+self-promoting anglers and instructors 
+who project authority without substance 
+— teaching simplified principles from 
+a shallow understanding while ranking 
+themselves above peers who are living 
+legends. The fluffy trend has accelerated 
+with social media — hashtags, tweets, 
+and follower counts substituting for 
+genuine knowledge. Fluffies teach 
+phrases instead of mechanics. The 
+antidote is seeking instructors who 
+can explain why a cast works — not 
+just what to do — and who can connect 
+every correction back to a verifiable 
+mechanical principle.
+
+Q4: What is intent in fly fishing 
+instruction?
+A4: Intent is the student's clearly 
+defined goal before the lesson begins 
+— what they want to achieve and why. 
+Without established intent, the lesson 
+drifts and the instructor cannot tailor 
+the approach to what will produce the 
+greatest improvement in the available 
+time. Mac Brown's approach to every 
+lesson begins with understanding the 
+student's intent — whether the goal 
+is catching more fish, passing FFI 
+certification, improving distance, or 
+developing specific presentation casts. 
+Intent determines everything that 
+follows.
+
+Q5: How do I find a fly fishing 
+instructor who teaches mechanical 
+truth?
+A5: Look for FFI certified casting 
+instructors — particularly Certified 
+Casting Instructors and Master Casting 
+Instructors — who can explain why a 
+cast works in plain mechanical terms. 
+An instructor teaching mechanical truth 
+can connect every correction back to 
+rod tip path, loop formation, force 
+application, and timing. Mac Brown 
+Fly Fish in Bryson City, NC offers 
+private casting lessons, the Masterclass 
+Casting Workshop, and the Fly Fishing 
+Guide School — all taught from 
+first principles by the only FFI 
+Master Casting Instructor in North 
+Carolina since 1987.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are common fly fishing fallacies to avoid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown identifies several widely repeated fly fishing fallacies: 'let the rod do the work' implies the caster is passive — the caster loads the rod, not the other way around. 'The fly line loads the rod' is incorrect — the caster loads the rod and the rod moves the line. 'Shorter rods cast further than longer ones' contradicts basic physics. Question everything before believing. Mechanical truth prevails over popular phrases every time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the good enough mentality in fly fishing and how do you overcome it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The good enough mentality describes the 95% of anglers who fish the same way their entire lives with little to no improvement. The NCWRC creel study confirms it — the top 2.6% of anglers catch over a third of all fish landed. Moving beyond good enough requires establishing clear intent, seeking mechanical instruction from certified professionals, practicing deliberately, and maintaining the humility to remain a student regardless of experience level."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are fluffies in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fluffies is Mac Brown's term for self-promoting anglers and instructors who project authority without substance — teaching simplified principles from a shallow understanding while ranking themselves above peers who are living legends. The fluffy trend has accelerated with social media. The antidote is seeking instructors who can explain why a cast works — not just what to do — and who can connect every correction back to a verifiable mechanical principle."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is intent in fly fishing instruction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Intent is the student's clearly defined goal before the lesson begins — what they want to achieve and why. Without established intent, the lesson drifts and the instructor cannot tailor the approach to produce the greatest improvement. Mac Brown's approach to every lesson begins with understanding the student's intent — whether the goal is catching more fish, FFI certification, improving distance, or developing specific presentation casts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find a fly fishing instructor who teaches mechanical truth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for FFI certified casting instructors who can explain why a cast works in plain mechanical terms. An instructor teaching mechanical truth can connect every correction back to rod tip path, loop formation, force application, and timing. Mac Brown Fly Fish in Bryson City, NC offers private casting lessons, the Masterclass Casting Workshop, and the Fly Fishing Guide School — all taught from first principles by the only FFI Master Casting Instructor in North Carolina since 1987."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

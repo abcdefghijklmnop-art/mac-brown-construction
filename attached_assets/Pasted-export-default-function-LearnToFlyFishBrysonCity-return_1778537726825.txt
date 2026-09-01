@@ -1,0 +1,92 @@
+export default function LearnToFlyFishBrysonCity() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            Bryson City, NC · Great Smoky Mountains · Since 1987
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Learn to Fly Fish in Bryson City, NC
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed">
+            Beginner fly fishing lessons, courses, schools, and guided instruction for trout fishing in the Smoky Mountains — from the only Master Casting Instructor in North Carolina.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+              href="/contact"
+              className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Book a Lesson or Trip
+            </a>
+            
+              href="tel:8287361469"
+              className="bg-white hover:bg-gray-100 text-[#1a3a5c] font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Call 828-736-1469
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* The Stat That Changes Everything */}
+      <section className="bg-[#1D9E75] py-10 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-white text-xl font-semibold leading-relaxed">
+            A NCWRC creel study reveals that only <span className="font-black text-3xl">2%</span> of anglers catch over{" "}
+            <span className="font-black text-3xl">90%</span> of the trout.
+          </p>
+          <p className="text-green-100 mt-3 text-lg">
+            A fly fishing lesson is the fastest way to move from the 98% to the 2%.
+          </p>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Anyone Can Learn to Fly Fish — And Learn It the Right Way
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Fly fishing looks complicated from the outside. The casting, the insects, the reading of water, the rigging — it can feel like an enormous amount to absorb before you ever catch a fish. The truth is simpler than it appears. With the right instruction in the right setting, most beginners are casting confidently, reading the river, and catching trout on their own presentations within a single day.
+            </p>
+            <p>
+              Mac Brown Fly Fish has been teaching fly fishing for trout in the Smoky Mountains town of Bryson City, NC since 1987 — longer than any other outfitter in the region. Mac is the only FFI Master Certified Instructor in the state of North Carolina, and teaching fly fishing has been his full-time occupation for nearly four decades. The knowledge, the patience, and the water are all here. The only thing missing is you.
+            </p>
+            <p>
+              Beginners through advanced anglers all gain a stronger foundation through proper instruction. The goal is always the same — to increase your skill level to the point where you can go to the water on your own and succeed. That independence, built on a genuine understanding of what to do and when to do it, is the most valuable thing any fly fishing lesson can deliver.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Options */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            How You Can Learn — Every Option Available
+          </h2>
+          <div className="space-y-6">
+            {[
+              {
+                icon: "🎣",
+                title: "Private Fly Casting Lessons",
+                desc: "The fastest path to improvement. One-on-one instruction tailored entirely to your current skill level and specific goals. Mac diagnoses exactly what needs to change and gives you the tools to change it — permanently. Guaranteed to improve your casting or the lesson is free. $400 per hour.",
+                link: "/fly-fishing-instruction",
+                cta: "Learn about casting lessons",
+              },
+              {
+                icon: "🚶",
+                title: "Guided Wade Trips",
+                desc: "The most immersive learning experience available. You are in the water — reading it, moving through it, fishing it with a guide beside you providing real-time instruction on every cast, every presentation, and every fish. The day covers fly casting, water reading, tactics, hooksets, and playing fish. All gear provided.",
+                link: "/instructional-wade-trips",
+                cta: "Learn about wade trips",
+              },
+              {
+                icon: "🚣",
+                title: "Guided Float Trips",
+                desc: "Fish the Tuckasegee River from a drift boat — covering miles of productive water while receiving instruction on every technique the day calls for. Nymphing, w

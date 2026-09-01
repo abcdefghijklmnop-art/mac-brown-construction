@@ -1,0 +1,71 @@
+var BOOKINGS_TAB = "Bookings";
+var EMAIL_COL    = 3;
+var WAIVER_COL   = 23;
+
+function doGet(e) {
+  try {
+    var rawPayload = e.parameter.payload;
+    if (!rawPayload) {
+      return respond({ ok: false, error: "No payload" });
+    }
+    var payload = JSON.parse(rawPayload);
+    if (payload.action === "updateWaiver") {
+      return handleUpdateWaiver(payload);
+    }
+    return handleAppendRow(payload);
+  } catch (err) {
+    Logger.log("Webhook error: " + err);
+    return respond({ ok: false, error: String(err) });
+  }
+}
+
+function handleAppendRow(payload) {
+  var values = payload.values;
+  if (!values || !values[0]) {
+    return respond({ ok: false, error: "No values to append" });
+  }
+  var ss    = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getSheetByName(BOOKINGS_TAB);
+  if (!sheet) {
+    return respond({ ok: false, error: "Bookings tab not found" });
+  }
+  sheet.appendRow(values[0]);
+  Logger.log("Booking row appended");
+  return respond({ ok: true });
+}
+
+function handleUpdateWaiver(payload) {
+  var email    = String(payload.email    || "").toLowerCase().trim();
+  var signedAt = String(payload.signedAt || new Date().toLocaleString());
+  if (!email) {
+    return respond({ ok: false, error: "No email provided" });
+  }
+  var ss    = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getSheetByName(BOOKINGS_TAB);
+  if (!sheet) {
+    return respond({ ok: false, error: "Bookings tab not found" });
+  }
+  var lastRow    = sheet.getLastRow();
+  var emailRange = sheet.getRange(1, EMAIL_COL, lastRow, 1).getValues();
+  var matchRow   = -1;
+  for (var i = emailRange.length - 1; i >= 1; i--) {
+    var cellEmail = String(emailRange[i][0] || "").toLowerCase().trim();
+    if (cellEmail === email) {
+      matchRow = i + 1;
+      break;
+    }
+  }
+  if (matchRow === -1) {
+    Logger.log("No booking row found for email: " + email);
+    return respond({ ok: false, error: "No matching booking for " + email });
+  }
+  sheet.getRange(matchRow, WAIVER_COL).setValue("Yes -- " + signedAt);
+  Logger.log("Waiver updated for " + email + " at row " + matchRow);
+  return respond({ ok: true, row: matchRow });
+}
+
+function respond(data) {
+  return ContentService
+    .createTextOutput(JSON.stringify(data))
+    .setMimeType(ContentService.MimeType.JSON);
+}

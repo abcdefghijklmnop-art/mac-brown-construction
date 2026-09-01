@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 8.
+
+    {
+      "@type": "Question",
+      "name": "What is a mayfly in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mayflies are the most commonly imitated aquatic insects worldwide. Most dry fly and nymph patterns imitate these insects. The nymph stage of the mayfly lasts approximately one year while adult stages last one to three days. The adult has one pair of upright wings making it resemble a small sailboat. They vary in size from the 3mm Trico to the 30mm Hexagenia."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is mending line in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mending line is the method used after the line is in the water to achieve a drag-free float. It consists of a flip, a stacked roll, or a series of flips with the rod tip that positions excess line in the proper current — helping the fly match the currents in which it rides."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a midge in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A midge is a very small two-winged insect in the Diptera family — useful to imitate during the winter months or when fishing lakes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is monofilament in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monofilament is the clear supple nylon filament used in all types of fishing — available in many breaking strengths and diameters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a nail knot in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A nail knot is used to attach a leader or butt section of monofilament to the fly line and to attach the backing to the fly line. It is most commonly tied using a small-diameter tube such as a section of a plastic coffee stirrer rather than an actual nail."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a nymph in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A nymph is the immature form of insects. As fly fishers we are concerned only with the nymphs of aquatic insects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an open loop in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An open loop is a very large loop that is arch-shaped in appearance as it travels through the air. An open loop is caused by a very wide casting arc and or too much power."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a parachute fly pattern?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A parachute is a dry fly style with hackle wrapped horizontally at the base of the wings. This enables the fly pattern's abdomen to rest in the film and provides better flight characteristics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is palming a fly reel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Palming is gently applying the palm of your hand against the spool edge of a fly reel — an effective method for slowing the release of line when fighting large fish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a pause in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The pause is the hesitation used with all types of fly casts for redirecting the cast to a new direction. The pause varies in timing depending on the cast and the intent of the fly caster."
+      }
+    }
+
+Confirm saved. Stand by for Paste 8.

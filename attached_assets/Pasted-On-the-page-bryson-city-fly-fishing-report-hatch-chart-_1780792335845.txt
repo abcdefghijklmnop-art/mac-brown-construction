@@ -1,0 +1,71 @@
+On the page /bryson-city-fly-fishing-report-hatch-chart 
+on macbrownflyfish.com add a FAQ section before 
+the footer with the following 5 Q&A pairs as 
+expandable accordion items and matching FAQPage 
+JSON-LD in the <head>:
+
+Q1: What insects are hatching in the Smoky 
+Mountains right now?
+A1: Water temperature is the most reliable 
+trigger for hatch activity. Below 45°F expect 
+midges and small Blue Winged Olives. From 
+45-55°F Quill Gordons, Blue Quills, and Black 
+Stones begin. From 55-65°F the most diverse 
+and prolific hatches of the year occur. Above 
+65°F sulphurs, cahills, Isonychia, and 
+terrestrials dominate. Check the automated 
+conditions widget above for current water 
+temperatures on the Tuckasegee and Nantahala.
+
+Q2: What is the best fly for trout fishing 
+in the Smoky Mountains?
+A2: Caddisflies are the most abundant insect 
+family in the Smoky Mountains region — over 
+330 species identified in the surrounding 
+watershed. Carry larval, pupal, and adult 
+caddis patterns year-round in a range of 
+sizes and colors. Patterns with hot spots, 
+colored triggers, and rubber legs consistently 
+outperform traditional drab patterns on these 
+streams. In summer, never leave home without 
+ants, beetles, and small hoppers.
+
+Q3: What is the best water temperature for 
+trout fishing in the Smokies?
+A3: Mid-50s Fahrenheit is the ideal water 
+temperature for trout fishing in the Smoky 
+Mountains. At 55-65°F trout are most active 
+and the best hatches of the year are 
+occurring. Stop fishing for trout when water 
+temperatures reach 65°F — switch to warm 
+water species or target higher elevation 
+streams where temperatures remain cooler.
+
+Q4: What CFS is good for fly fishing the 
+Tuckasegee River?
+A4: The Tuckasegee River fishes well on float 
+trips from 500 to 4,000 CFS. Below 500 CFS 
+focus on the freestone streams in Great Smoky 
+Mountains National Park instead. Above 4,000 
+CFS float trips are off — bank fishing only 
+from safe access points. The automated 
+conditions widget above shows current CFS 
+updated every 15 minutes.
+
+Q5: When is the best time to fly fish the 
+Nantahala River?
+A5: The Nantahala fishes best when TVA 
+generation is off — typically until noon. 
+Wading is excellent during off-generation 
+periods but always check the TVA release 
+schedule before wading and stay on the 
+road side of the river for safe exit when 
+generation resumes. Float trips are 
+recommended when generation is running. 
+Check the automated conditions widget 
+above for current Nantahala CFS.
+
+Add FAQPage JSON-LD to the <head> matching 
+the 5 questions and answers above.
+
+Then run bash push.sh to deploy. No other changes.

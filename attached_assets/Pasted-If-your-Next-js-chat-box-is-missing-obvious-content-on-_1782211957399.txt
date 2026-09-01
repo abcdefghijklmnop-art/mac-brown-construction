@@ -1,0 +1,33 @@
+If your Next.js chat box is missing obvious content on your own pages, it usually means your **crawling strategy** is treating a modern dynamic web app like an old-fashioned static HTML site.
+
+Next.js handles page routing and content loading using client-side JavaScript. If your Replit code is just using a simple HTML fetch/parser (like `axios` + `cheerio`), it will completely miss text that renders after the page loads. It might also be failing to follow your internal Next.js links properly.
+
+To fix this, you need Replit to rewrite the scraper script to handle dynamic applications, execute JavaScript, or leverage a sitemap. Here is a prompt you can copy, paste, and tweak directly into Replit to fix it.
+
+---
+
+### The Replit Prompt
+
+```text
+My Next.js chat box is missing a lot of content on my pages when it crawls my site. Because it's a Next.js application, simple HTML parsing isn't catching dynamically rendered text or handling the internal routing properly. 
+
+Please update the web crawler/scraper code in this project to do the following:
+
+1. Dynamic Rendering Support: Switch the scraping logic to use a headless browser like Puppeteer or Playwright (or a lightweight dynamic alternative suitable for this Replit environment) so that JavaScript fully executes and renders all text before parsing the page content.
+2. Smart Content Extraction: Ensure it extracts clean main text content (headings, paragraphs, lists, FAQs) while ignoring noisy global elements like navigation menus, footers, and cookie banners.
+3. Sitemap/Internal Link Discovery: Program it to look for a sitemap.xml first to discover all valid internal URLs. If a sitemap isn't found, implement a recursive internal link crawler that safely handles relative Next.js paths without getting stuck in infinite loops.
+4. Error Handling & Logs: Add clean console logs showing which URLs were successfully indexed and which ones failed or returned empty text.
+
+Show me the updated code structure and explain how it integrates with the existing chat database/vector store.
+
+```
+
+---
+
+### Why This Fixes the Problem
+
+* **Puppeteer/Playwright vs. Basic Scrapers:** Standard scrapers see a blank skeleton page before Next.js fully "hydrates" the content with JavaScript. A headless browser waits for the actual text to hit the screen before saving it.
+* **Sitemap Priority:** Next.js sites usually generate a clean `sitemap.xml` automatically. Pointing your Replit scraper at the sitemap ensures it hits *every* page perfectly without having to blindly guess or click links.
+* **Noise Filtering:** If your chat box is pulling in header navigation text over and over again, it dilutes the actual answer quality. Filtering out the junk keeps the AI focused on the core page content.
+
+What library is your Replit project currently using to fetch your page data?

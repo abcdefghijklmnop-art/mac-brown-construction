@@ -1,0 +1,65 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/successful-training/
+
+AEO — add immediately below H1:
+"The four stages of successful training 
+apply to fly fishing exactly as they apply 
+to any skilled pursuit — unconscious 
+incompetence, conscious incompetence, 
+conscious competence, and unconscious 
+competence. Every fly fisher starts at 
+stage one not knowing what they do not 
+know. The journey to stage four — where 
+casting, water reading, and presentation 
+happen instinctively without conscious 
+thought — is the same journey in fly 
+fishing as in any discipline requiring 
+genuine mastery. Mac Brown has taught 
+this framework at the Fly Fishing Guide 
+School and in college programs since 1987."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What are the four stages of 
+successful training in fly fishing?
+A1: Stage 1 — Unconscious Incompetence: 
+you don't know what you don't know. 
+You think you're ready to fish after 
+watching YouTube. Stage 2 — Conscious 
+Incompetence: the light comes on and 
+you realize how much there is to learn. 
+This is the most important stage — 
+humility opens the door to real 
+improvement. Stage 3 — Conscious 
+Competence: you know what to do but 
+must think about it deliberately. 
+Stage 4 — Unconscious Competence: 
+the cast, the mend, the read — all 
+happen instinctively in flow state.
+
+Q2: How long does it take to reach 
+unconscious competence in fly fishing?
+A2: It varies widely — but the single 
+biggest accelerator is quality 
+instruction early. A fly fisher who 
+receives certified casting instruction 
+at the beginning builds correct 
+fundamentals from day one and reaches 
+conscious competence far faster than 
+one who self-teaches and spends years 
+reinforcing faults. Mac Brown's guided 
+trips and instruction programs are 
+designed to move anglers through 
+stages two and three as efficiently 
+as possible.
+
+Q3: Why do most fly fishers stay 
+stuck in stage two?
+A3: Because stage two requires humility 
+— and most fly fishers resist admitting 
+what they don't know. The fly fishing 
+industry makes it easier to buy a new 
+rod than to take a less

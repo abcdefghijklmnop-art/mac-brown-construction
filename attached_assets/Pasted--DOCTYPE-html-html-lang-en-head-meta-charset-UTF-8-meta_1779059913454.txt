@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Start Here: Beginner Fly Fishing School | Mac Brown Fly Fish | Bryson City, NC</title>
+  <meta name="description" content="New to fly fishing? Learn the right foundation from an FFI Master Certified Instructor. Handouts, lesson plans & syllabi included. Bryson City, NC." />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400;1,600&family=Source+Serif+4:wght@300;400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blue: #185FA5;
+      --blue-dark: #0C447C;
+      --blue-light: #E6F1FB;
+      --blue-mid: #B5D4F4;
+      --text: #1a1a1a;
+      --text-muted: #555;
+      --text-light: #888;
+      --bg: #ffffff;
+      --bg-soft: #f7f9fc;
+      --bg-rule: #eef4fa;
+      --border: #dde5ef;
+      --serif: 'Playfair Display', Georgia, serif;
+      --body-serif: 'Source Serif 4', Georgia, serif;
+      --sans: 'Inter', system-ui, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--body-serif);
+      color: var(--text);
+      background: var(--bg);
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 64px;
+    }
+    .nav-logo { font-family: var(--serif); font-size: 1.1rem; font-weight: 600; color: var(--blue-dark); text-decoration: none; }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { font-family: var(--sans); font-size: 0.85rem; font-weight: 500; color: var(--text-muted); text-decoration: none; letter-spacing: 0.03em; }
+    .nav-links a:hover { color: var(--blue); }
+    .nav-cta { font-family: var(--sans); font-size: 0.85rem; font-weight: 600; background: var(--blue); color: #fff; padding: 0.5rem 1.25rem; border-radius: 6px; text-decoration: none; }
+    .nav-cta:hover { background: var(--blue-dark); }
+
+    /* ── LAYOUT ── */
+    .container { max-width: 960px; margin: 0 auto; padding: 0 2rem; }
+    section { padding: 5rem 0; }
+    section + section { border-top: 1px solid var(--border); }
+
+    /* ── EYEBROW ── */
+    .eyebrow {
+      font-family: var(--sans); font-size: 0.72rem; font-weight: 600;
+      letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--blue); margin-bottom: 1rem;
+    }
+
+    /* ── HERO ── */
+    .hero { padding: 6rem 0 5rem; background: var(--bg); }
+    .hero-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+    .hero-headline {
+      font-family: var(--serif); font-size: clamp(2.2rem, 4vw, 3rem);
+      font-weight: 600; line-height: 1.15; margin-bottom: 1.5rem; color: var(--text);
+    }
+    .hero-headline em { font-style: italic; color: var(--blue); }
+    .hero-sub { font-size: 1.05rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 2rem; }
+    .btn-row { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn-primary {
+      font-family: var(--sans); font-size: 0.9rem; font-weight: 600;
+      background: var(--blue); color: #fff;
+      padding: 0.8rem 1.75rem; border-radius: 6px; text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-primary:hover { background: var(--blue-dark); }
+    .btn-secondary {
+      font-family: var(--sans); font-size: 0.9rem; font-weight: 500;
+      background: transparent; color: var(--text-muted);
+      border: 1px solid var(--border);
+      padding: 0.8rem 1.75rem; border-radius: 6px; text-decoration: none;
+      transition: border-color 0.2s, color 0.2s;
+    }
+    .btn-secondary:hover { border-color: var(--blue); color: var(--blue); }
+
+    /* Hero stat panel */
+    .hero-stat-panel {
+      background: var(--bg-soft); border: 1px solid var(--border);
+      border-radius: 16px; padding: 2.5rem 2rem;
+      display: flex; flex-direction: column; gap: 1.5rem;
+    }
+    .stat-big { display: flex; align-items: baseline; gap: 0.25rem; }
+    .stat-num { font-family: var(--serif); font-size: 4rem; font-weight: 600; line-height: 1; color: var(--blue); }
+    .stat-label { font-family: var(--sans); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--blue-dark); }
+    .stat-desc { font-family: var(--body-serif); font-style: italic; font-size: 1.05rem; color: var(--text); line-height: 1.6; }
+    .stat-sub { font-family: var(--sans); font-size: 0.82rem; color: var(--text-light); line-height: 1.6; }
+
+    /* ── HOOKS SECTION ── */
+    .hooks-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+    .hook-card {
+      background: var(--bg-rule); border: 1px solid var(--border);
+      border-radius: 12px; padding: 1.5rem;
+    }
+    .hook-card-label {
+      font-family: var(--sans); font-size: 0.68rem; font-weight: 600;
+      letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-light);
+      margin-bottom: 0.6rem;
+    }
+    .hook-card-text {
+      font-family: var(--serif); font-style: italic; font-size: 1.05rem;
+      line-height: 1.5; color: var(--blue-dark);
+    }
+    .hook-centerpiece {
+      background: var(--bg-soft); border-left: 4px solid var(--blue);
+      padding: 1.75rem 2rem; border-radius: 0 12px 12px 0;
+      margin: 1rem 0;
+    }
+    .hook-centerpiece p {
+      font-family: var(--serif); font-style: italic; font-size: 1.35rem;
+      line-height: 1.5; color: var(--text);
+    }
+
+    /* ── STAT BANNER ── */
+    .stat-banner {
+      background: var(--blue); border-radius: 16px;
+      display: flex; align-items: stretch; overflow: hidden;
+      margin: 2.5rem 0;
+    }
+    .stat-banner-num {
+      background: var(--blue-dark); padding: 2rem 2.5rem;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      min-width: 140px; flex-shrink: 0;
+    }
+    .stat-banner-num span:first-child { font-family: var(--serif); font-size: 3.5rem; font-weight: 600; color: #fff; line-height: 1; }
+    .stat-banner-num span:last-child { font-family: var(--sans); font-size: 0.65rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--blue-mid); margin-top: 0.4rem; }
+    .stat-banner-body { padding: 2rem 2.5rem; display: flex; flex-direction: column; justify-content: center; gap: 0.6rem; }
+    .stat-banner-body p:first-child { font-family: var(--serif); font-style: italic; font-size: 1.15rem; color: #fff; line-height: 1.5; }
+    .stat-banner-body p:last-child { font-family: var(--sans); font-size: 0.85rem; color: var(--blue-mid); line-height: 1.6; }
+
+    /* ── SECTION HEADINGS ── */
+    .section-title {
+      font-family: var(--serif); font-size: clamp(1.6rem, 3vw, 2.1rem);
+      font-weight: 600; line-height: 1.2; margin-bottom: 1.25rem; color: var(--text);
+    }
+    .section-body { font-size: 1rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 1.5rem; }
+
+    /* ── BLUEPRINT STEPS ── */
+    .blueprint-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin: 2rem 0; }
+    .blueprint-step { background: var(--bg-rule); padding: 1.75rem 1.25rem; }
+    .blueprint-step-num { font-family: var(--serif); font-size: 2.5rem; font-weight: 600; color: var(--blue); line-height: 1; margin-bottom: 0.6rem; }
+    .blueprint-step-title { font-family: var(--sans); font-size: 0.85rem; font-weight: 600; color: var(--blue-dark); margin-bottom: 0.4rem; }
+    .blueprint-step-desc { font-family: var(--sans); font-size: 0.8rem; color: var(--text-muted); line-height: 1.5; }
+
+    /* ── BULLET LIST ── */
+    .check-list { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; margin: 1.5rem 0; }
+    .check-list li { display: flex; gap: 0.75rem; align-items: flex-start; font-size: 0.98rem; color: var(--text-muted); }
+    .check-list li::before { content: "→"; color: var(--blue); font-family: var(--sans); font-weight: 600; flex-shrink: 0; margin-top: 0.05rem; }
+
+    /* ── COMPARE TABLE ── */
+    .compare-wrap { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin: 2rem 0; }
+    .compare-table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.9rem; }
+    .compare-table thead th { padding: 1rem 1.25rem; text-align: left; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+    .compare-table thead th.col-bad { background: var(--bg-soft); color: var(--text-light); }
+    .compare-table thead th.col-good { background: var(--blue); color: var(--blue-light); }
+    .compare-table tbody tr { border-top: 1px solid var(--border); }
+    .compare-table tbody td { padding: 0.85rem 1.25rem; vertical-align: top; line-height: 1.5; }
+    .compare-table tbody td.col-bad { color: var(--text-muted); background: #fff; }
+    .compare-table tbody td.col-good { color: var(--blue-dark); background: #f0f6fc; font-weight: 500; }
+
+    /* ── PROGRAMS ── */
+    .programs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 2rem; }
+    .program-card {
+      border: 1px solid var(--border); border-radius: 12px; padding: 1.75rem;
+      display: flex; flex-direction: column; gap: 0.75rem;
+    }
+    .program-card-icon { font-size: 1.5rem; color: var(--blue); }
+    .program-card-title { font-family: var(--sans); font-size: 0.95rem; font-weight: 600; color: var(--text); }
+    .program-card-goal { font-family: var(--sans); font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--blue); }
+    .program-card-desc { font-family: var(--sans); font-size: 0.83rem; color: var(--text-muted); line-height: 1.6; flex: 1; }
+    .program-card-link { font-family: var(--sans); font-size: 0.83rem; font-weight: 600; color: var(--blue); text-decoration: none; }
+    .program-card-link:hover { color: var(--blue-dark); }
+
+    /* ── CLOSING CTA ── */
+    .cta-band {
+      background: var(--bg-soft); border-radius: 16px;
+      padding: 4rem 3rem; text-align: center; margin: 3rem 0 0;
+    }
+    .cta-band .section-title { max-width: 600px; margin: 0 auto 1rem; }
+    .cta-band .section-body { max-width: 520px; margin: 0 auto 2rem; }
+    .cta-band .btn-row { justify-content: center; }
+
+    /* ── POPUP OVERLAY ── */
+    .popup-overlay {
+      display: none; position: fixed; inset: 0; z-index: 200;
+      background: rgba(0,0,0,0.55); align-items: center; justify-content: center;
+    }
+    .popup-overlay.active { display: flex; }
+    .popup {
+      background: #fff; border-radius: 16px; padding: 2.5rem;
+      max-width: 480px; width: 90%; position: relative;
+    }
+    .popup-close {
+      position: absolute; top: 1rem; right: 1.25rem;
+      background: none; border: none; font-size: 1.4rem; cursor: pointer;
+      color: var(--text-light); line-height: 1;
+    }
+    .popup h2 { font-family: var(--serif); font-size: 1.6rem; font-weight: 600; line-height: 1.25; margin-bottom: 0.5rem; }
+    .popup .popup-sub { font-family: var(--sans); font-size: 0.9rem; color: var(--blue); font-weight: 500; margin-bottom: 1rem; }
+    .popup p { font-family: var(--sans); font-size: 0.88rem; color: var(--text-muted); line-height: 1.7; margin-bottom: 1.5rem; }
+    .popup input[type="email"] {
+      width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--border);
+      border-radius: 6px; font-family: var(--sans); font-size: 0.9rem;
+      margin-bottom: 0.75rem; outline: none;
+    }
+    .popup input[type="email"]:focus { border-color: var(--blue); }
+    .popup .btn-primary { width: 100%; text-align: center; display: block; }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border); padding: 2.5rem 0;
+      font-family: var(--sans); font-size: 0.82rem; color: var(--text-light);
+    }
+    footer .container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    footer a { color: var(--text-light); text-decoration: none; }
+    footer a:hover { color: var(--blue); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      .hero-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+      .hooks-grid { grid-template-columns: 1fr; }
+      .blueprint-grid { grid-template-columns: 1fr 1fr; }
+      .programs-grid { grid-template-columns: 1fr; }
+      .stat-banner { flex-direction: column; }
+      .stat-banner-num { flex-direction: row; gap: 0.75rem; padding: 1.5rem; min-width: unset; }
+      nav { padding: 0 1rem; }
+      .nav-links { display: none; }
+      .container { padding: 0 1.25rem; }
+      section { padding: 3.5rem 0; }
+      .cta-band { padding: 2.5rem 1.5rem; }
+    }
+    @media (max-width: 480px) {
+      .blueprint-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <a href="/" class="nav-logo">Mac Brown Fly Fish</a>
+  <ul class="nav-links">
+    <li><a href="/programs">Programs</a></li>
+    <li><a href="/about">About Mac</a></li>
+    <li><a href="/testimonials">Testimonials</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+  <a href="#reserve" class="nav-cta">Reserve your spot</a>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <div>
+        <p class="eyebrow">New to fly fishing?</p>
+        <h1 class="hero-headline">
+          Stop guessing.<br><em>Start learning it right.</em>
+        </h1>
+        <p class="hero-sub">
+          Most beginners spend years untangling bad habits they didn't know they were building. Our school gives you the exact foundation used by world-champion anglers — simplified for your very first day on the water.
+        </p>
+        <div class="btn-row">
+          <a href="#reserve" class="btn-primary">Reserve your spot</a>
+          <a href="/programs" class="btn-secondary">See all programs</a>
+        </div>
+      </div>
+      <div class="hero-stat-panel">
+        <div>
+          <div class="stat-big">
+            <span class="stat-num">85%</span>
+          </div>
+          <span class="stat-label">of beginner mistakes</span>
+        </div>
+        <p class="stat-desc">
+          "Eliminate 85% of mistakes before they happen — with a structured school that gives you syllabi, lesson plans, and a lifetime blueprint from day one."
+        </p>
+        <p class="stat-sub">
+          Most errors aren't talent problems. They're structure problems. A clear path fixes that before bad habits ever form.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── HOOKS ── -->
+<section>
+  <div class="container">
+    <p class="eyebrow">Why beginners need this</p>
+    <h2 class="section-title">Six things you need to hear before you pick up a rod.</h2>
+
+    <div class="hooks-grid">
+      <div class="hook-card">
+        <p class="hook-card-label">The hidden cost</p>
+        <p class="hook-card-text">"Most people spend five years struggling to unteach themselves what they learned wrong in the first five minutes."</p>
+      </div>
+      <div class="hook-card">
+        <p class="hook-card-label">The myth</p>
+        <p class="hook-card-text">"World-champion casting isn't complicated. It's just efficient. And efficient is actually easier on your body."</p>
+      </div>
+      <div class="hook-card">
+        <p class="hook-card-label">The blueprint</p>
+        <p class="hook-card-text">"You won't leave with a fish story. You'll leave with a lifetime blueprint — the same handouts used to train competitive champions."</p>
+      </div>
+      <div class="hook-card">
+        <p class="hook-card-label">The shortcut</p>
+        <p class="hook-card-text">"A weekend with us is worth ten years of YouTube. We've already done the trial and error — for 40 years."</p>
+      </div>
+      <div class="hook-card">
+        <p class="hook-card-label">The arm test</p>
+        <p class="hook-card-text">"If your arm is sore after an hour on the water, you're fighting the rod. We'll show you how to let physics do the work."</p>
+      </div>
+      <div class="hook-card">
+        <p class="hook-card-label">The credential</p>
+        <p class="hook-card-text">"Less than 10% of instructors worldwide hold FFI Master Certification. You'll learn from one of them — in the Smokies."</p>
+      </div>
+    </div>
+
+    <div class="hook-centerpiece">
+      <p>"You don't know what you don't know yet. That's exactly the right place to start."</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── STRUCTURED PATH ── -->
+<section>
+  <div class="container">
+    <p class="eyebrow">A structured path forward</p>
+    <h2 class="section-title">Eliminate 85% of mistakes before they happen.</h2>
+    <p class="section-body">
+      Most beginner mistakes aren't talent problems — they're structure problems. Without a clear learning path, you're guessing. You cast wrong, build a habit, and spend the next decade trying to unlearn it.
+    </p>
+    <p class="section-body">
+      A structured school with syllabi and lesson plans eliminates that entirely. You don't wander — you progress. Every session builds on the last. Every concept connects to the next.
+    </p>
+
+    <div class="stat-banner">
+      <div class="stat-banner-num">
+        <span>85%</span>
+        <span>of mistakes</span>
+      </div>
+      <div class="stat-banner-body">
+        <p>"Eliminate 85% of mistakes before they happen — with a structured school that hands you syllabi, lesson plans, and a lifetime blueprint from day one."</p>
+        <p>Most errors aren't talent problems. They're structure problems. A clear path fixes that before bad habits form.</p>
+      </div>
+    </div>
+
+    <h3 style="font-family: var(--sans); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--blue); margin-bottom: 0.75rem;">Your lifetime blueprint</h3>
+    <p class="section-body">These aren't generic brochures. They're engineered from 40 years of coaching elite competitive anglers — distilled into clear, visual steps you can practice anywhere.</p>
+
+    <div class="blueprint-grid">
+      <div class="blueprint-step">
+        <div class="blueprint-step-num">01</div>
+        <div class="blueprint-step-title">Student handouts</div>
+        <div class="blueprint-step-desc">Proprietary casting mechanics — visual, precise, yours to keep forever.</div>
+      </div>
+      <div class="blueprint-step">
+        <div class="blueprint-step-num">02</div>
+        <div class="blueprint-step-title">Lesson plans</div>
+        <div class="blueprint-step-desc">Practice sessions built around where you are, for your home water.</div>
+      </div>
+      <div class="blueprint-step">
+        <div class="blueprint-step-num">03</div>
+        <div class="blueprint-step-title">Continued syllabus</div>
+        <div class="blueprint-step-desc">A sequenced curriculum for growing well past your first cast.</div>
+      </div>
+      <div class="blueprint-step">
+        <div class="blueprint-step-num">04</div>
+        <div class="blueprint-step-title">Lifetime reference</div>
+        <div class="blueprint-step-desc">Return to your materials any time — on any river, anywhere in the world.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── WELCOMING BEGINNERS ── -->
+<section>
+  <div class="container">
+    <p class="eyebrow">You belong here</p>
+    <h2 class="section-title">Every master was once a beginner. You're in the right place.</h2>
+    <p class="section-body">
+      Right now you might not even know what questions to ask — and that's exactly where you want to be.
+    </p>
+    <p class="section-body">
+      Many beginners spend their first five years building bad physical habits, untangling messy lines, and feeling frustrated on the water. By starting your journey with us, you bypass years of trial and error. You'll build a flawless, effortless foundation from day one.
+    </p>
+    <ul class="check-list">
+      <li>Education over entertainment — we don't just take you out to catch a fish; we give you the skills to catch fish for the rest of your life.</li>
+      <li>Effortless mechanics — world-champion casting isn't about muscle or complexity. It's about efficiency, physics, and ease.</li>
+      <li>Zero intimidation — our school is a welcoming, high-support environment built to turn curiosity into absolute confidence.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ── COMPARE ── -->
+<section>
+  <div class="container">
+    <p class="eyebrow">Education over entertainment</p>
+    <h2 class="section-title">Why our method is different.</h2>
+    <p class="section-body">
+      Not all fly fishing instruction is created equal. Here's the honest difference between spending a day with us and spending money elsewhere.
+    </p>
+    <div class="compare-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th class="col-bad">What most shops offer</th>
+            <th class="col-good">What you get here</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="col-bad">Untangle your line for you — you leave knowing nothing new</td>
+            <td class="col-good">Learn why tangles happen — and prevent them forever</td>
+          </tr>
+          <tr>
+            <td class="col-bad">Hook the fish, hand you the rod, take the photo</td>
+            <td class="col-good">Understand water reading, drift, and presentation</td>
+          </tr>
+          <tr>
+            <td class="col-bad">Generic brochure forgotten by Monday</td>
+            <td class="col-good">World-champion curriculum handouts you keep for life</td>
+          </tr>
+          <tr>
+            <td class="col-bad">No path forward once the trip ends</td>
+            <td class="col-good">Syllabi and lesson plans for a lifetime of continued growth</td>
+          </tr>
+          <tr>
+            <td class="col-bad">Anyone with a boat calls themselves a guide</td>
+            <td class="col-good">FFI Master Certified Instructor with 40 years of teaching</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROGRAMS ── -->
+<section>
+  <div class="container">
+    <p class="eyebrow">Find your track</p>
+    <h2 class="section-title">Choose the program that fits where you are.</h2>
+    <p class="section-body">Whether you're brand new to the sport or looking to lock in your foundation, we have a program built for you.</p>
+    <div class="programs-grid">
+      <div class="program-card">
+        <div class="program-card-icon">&#127946;</div>
+        <div class="program-card-goal">Total immersion</div>
+        <div class="program-card-title">Fly Fishing Guide School</div>
+        <div class="program-card-desc">Best for beginners who want to completely skip the learning curve and master river reading, safety, rigging, and advanced tactics in one intensive program.</div>
+        <a href="https://flyfishingguideschool.com" class="program-card-link">Learn about Guide School →</a>
+      </div>
+      <div class="program-card">
+        <div class="program-card-icon">&#127993;</div>
+        <div class="program-card-goal">Flawless mechanics</div>
+        <div class="program-card-title">Specialized Casting Clinics</div>
+        <div class="program-card-desc">Master the rod without muscle strain. Learn the physics of Casting Angles directly from an FFI Master Certified Instructor in a small-group setting.</div>
+        <a href="https://macbrownflyfish.com" class="program-card-link">Explore Casting Clinics →</a>
+      </div>
+      <div class="program-card">
+        <div class="program-card-icon">&#127956;</div>
+        <div class="program-card-goal">On-water success</div>
+        <div class="program-card-title">Guided Schools &amp; NC Trips</div>
+        <div class="program-card-desc">Experience the beautiful waters of Bryson City and the Smokies while receiving real-time, patient coaching tailored to your skill level.</div>
+        <a href="https://macbrownflyfish.com" class="program-card-link">Book your school trip →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CLOSING CTA ── -->
+<section id="reserve">
+  <div class="container">
+    <div class="cta-band">
+      <p class="eyebrow">Ready to begin?</p>
+      <h2 class="section-title">Step onto the water with total confidence.</h2>
+      <p class="section-body">
+        Space in our specialized clinics and multi-day guide schools is strictly limited to ensure high-level, personalized attention for every single student. You don't need to be an expert to train like one.
+      </p>
+      <div class="btn-row">
+        <a href="#" class="btn-primary" onclick="document.getElementById('popup').classList.add('active'); return false;">Get the free 2-page excerpt</a>
+        <a href="/contact" class="btn-secondary">Talk to Mac directly</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EMAIL POPUP ── -->
+<div class="popup-overlay" id="popup">
+  <div class="popup">
+    <button class="popup-close" onclick="document.getElementById('popup').classList.remove('active')">&times;</button>
+    <h2>Skip 5 years of frustration in 5 minutes.</h2>
+    <p class="popup-sub">Free 2-page excerpt from the World-Champion Casting Handbook</p>
+    <p>
+      Most beginners struggle with tangled lines and tired arms because of bad mechanics. Learn the exact physics-based foundation Mac Brown uses to train competitive champions — distilled into a simple, visual guide you can use today.
+    </p>
+    <input type="email" placeholder="Your email address" />
+    <a href="#" class="btn-primary">Send me the free excerpt!</a>
+  </div>
+</div>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="container">
+    <span>&copy; 2026 Mac Brown Fly Fish &amp; Fly Fishing Guide School &mdash; Bryson City, NC</span>
+    <span>
+      <a href="/privacy">Privacy</a> &nbsp;&middot;&nbsp;
+      <a href="https://macbrownflyfish.com">macbrownflyfish.com</a> &nbsp;&middot;&nbsp;
+      <a href="https://flyfishingguideschool.com">flyfishingguideschool.com</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('popup').addEventListener('click', function(e) {
+    if (e.target === this) this.classList.remove('active');
+  });
+</script>
+
+</body>
+</html>

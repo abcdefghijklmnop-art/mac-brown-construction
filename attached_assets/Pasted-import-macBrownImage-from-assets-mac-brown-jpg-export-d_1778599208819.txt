@@ -1,0 +1,146 @@
+import macBrownImage from "@/assets/mac-brown.jpg";
+
+export default function FlyFishingSeminars() {
+  return (
+    <div style={{ fontFamily: "Georgia, 'Times New Roman', serif", background: "#faf8f3", color: "#1c1c1c", lineHeight: 1.7, minHeight: "100vh" }}>
+
+      {/* HEADER */}
+      <div style={{ background: "#1a4a2e", padding: "10px 28px", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "0.5rem" }}>
+        <div>
+          <div style={{ color: "#fff", fontSize: "15px", fontWeight: "bold" }}>Mac Brown Fly Fish</div>
+          <div style={{ color: "#c8a84b", fontSize: "10px", fontStyle: "italic" }}>Bryson City, NC · Est. 1987</div>
+        </div>
+        <div style={{ color: "rgba(255,255,255,0.75)", fontSize: "10px", textAlign: "right" }}>
+          779 West Deep Cr Rd, Bryson City, NC 28713 · 828-736-1469
+        </div>
+      </div>
+
+      <div style={{ maxWidth: "960px", margin: "0 auto", padding: "36px 28px 48px" }}>
+
+        {/* HERO */}
+        <div style={{ borderBottom: "1px solid #e0ddd5", paddingBottom: "24px", marginBottom: "24px" }}>
+          <p style={{ fontSize: "9px", letterSpacing: "0.14em", textTransform: "uppercase", color: "#c8a84b", marginBottom: "8px" }}>National Fly Fishing Presentations</p>
+          <h1 style={{ fontSize: "2.2rem", fontWeight: "bold", lineHeight: 1.2, color: "#1a4a2e", marginBottom: "12px" }}>
+            Mac Brown — <em style={{ fontStyle: "italic", fontWeight: "normal", color: "#333" }}>On the Lecture Circuit</em>
+          </h1>
+          <p style={{ fontSize: "13px", color: "#444", maxWidth: "640px", marginBottom: "20px", lineHeight: 1.8 }}>
+            Since 1987, Mac Brown has brought his honest, no-frills approach to fly fishing education to clubs and shows across the country. A fixture at the national Fly Fishing Shows each winter, Mac delivers over 50 presentations annually — drawing from 55+ years of hands-on experience on the water and at the vise.
+          </p>
+          <div style={{ display: "flex", gap: "2.5rem", flexWrap: "wrap" }}>
+            {[["55+","Years on the water"],["50+","Presentations per year"],["1987","On the lecture circuit since"],["16+","Years coaching Team USA Youth"]].map(([num, label]) => (
+              <div key={label}>
+                <span style={{ fontSize: "1.9rem", fontWeight: "bold", color: "#1a4a2e", display: "block", lineHeight: 1 }}>{num}</span>
+                <div style={{ width: "24px", height: "2px", background: "#c8a84b", margin: "5px 0 4px" }} />
+                <span style={{ fontSize: "9px", color: "#888" }}>{label}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* PULL QUOTE */}
+        <blockquote style={{ borderLeft: "3px solid #c8a84b", padding: "4px 0 4px 18px", margin: "0 0 32px" }}>
+          <p style={{ fontStyle: "italic", fontSize: "14px", lineHeight: 1.65, color: "#222" }}>
+            "Mac brings an honest, humorous, and highly motivational zest to every presentation — approachable for the first-time fly fisher, and still eye-opening for the most experienced angler."
+          </p>
+          <cite style={{ display: "block", fontSize: "9px", color: "#888", marginTop: "6px", letterSpacing: "0.07em", textTransform: "uppercase", fontStyle: "normal" }}>
+            Mac Brown Fly Fish · Est. 1987 · Bryson City, NC
+          </cite>
+        </blockquote>
+
+        {/* THREE PROGRAM TRACKS */}
+        <div style={{ marginBottom: "32px" }}>
+          <p style={{ fontSize: "8.5px", letterSpacing: "0.12em", textTransform: "uppercase", color: "#888", borderBottom: "1px solid #e0ddd5", paddingBottom: "5px", marginBottom: "12px" }}>For Your Fly Fishing Club or Show</p>
+          <p style={{ fontSize: "12px", color: "#444", marginBottom: "20px", lineHeight: 1.8, maxWidth: "700px" }}>
+            Mac offers three distinct program tracks — casting clinics on the water, classroom seminars, and fly tying demos at the vise. Mix and match to build a full day, an evening program, or a multi-session club event tailored to your group's interests and skill levels.
+          </p>
+
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1.5rem" }}>
+
+            {/* Casting Demos */}
+            <div>
+              <p style={{ fontSize: "8.5px", letterSpacing: "0.1em", textTransform: "uppercase", color: "#2e6b44", borderBottom: "1px solid #e0ddd5", paddingBottom: "5px", marginBottom: "10px" }}>Casting Demos · Pond or Open Water</p>
+              {["Back to Basics 101 for New Fly Fishers","Rod Craft Efficiency","Increase Your Distance","Perfecting Drift & Presentation w/ Aerial Mends","Loop Control for More Efficient Casts","Roll Casts for Change of Direction","Line Hand Duties for Fishing & Casting"].map(item => (
+                <div key={item} style={{ display: "flex", gap: "8px", alignItems: "flex-start", padding: "6px 10px", background: "#fff", border: "1px solid #e8e4da", borderRadius: "6px", marginBottom: "5px", fontSize: "11px", lineHeight: 1.4 }}>
+                  <div style={{ width: "5px", height: "5px", borderRadius: "50%", background: "#c8a84b", marginTop: "5px", flexShrink: 0 }} />
+                  {item}
+                </div>
+              ))}
+            </div>
+
+            {/* Classroom Seminars */}
+            <div>
+              <p style={{ fontSize: "8.5px", letterSpacing: "0.1em", textTransform: "uppercase", color: "#2e6b44", borderBottom: "1px solid #e0ddd5", paddingBottom: "5px", marginBottom: "10px" }}>Classroom Seminars · 45–50 Min</p>
+              {["Streamer Methods for Better Quality Fish","Art of the Dry Fly & Line Control","Master Nymph Fishing Tactics","Understanding Fish Behavior","The Wonder & Magic of Wet Fly Fishing","The 5 Core Components of Fly Fishing","What Conditions & Observations Tell Us","Strategies for Matching Equipment to Conditions","Improve Your Presentations"].map(item => (
+                <div key={item} style={{ display: "flex", gap: "8px", alignItems: "flex-start", padding: "6px 10px", background: "#fff", border: "1px solid #e8e4da", borderRadius: "6px", marginBottom: "5px", fontSize: "11px", lineHeight: 1.4 }}>
+                  <div style={{ width: "5px", height: "5px", borderRadius: "50%", background: "#c8a84b", marginTop: "5px", flexShrink: 0 }} />
+                  {item}
+                </div>
+              ))}
+            </div>
+
+            {/* Fly Tying */}
+            <div>
+              <p style={{ fontSize: "8.5px", letterSpacing: "0.1em", textTransform: "uppercase", color: "#2e6b44", borderBottom: "1px solid #e0ddd5", paddingBottom: "5px", marginBottom: "10px" }}>Fly Tying Demos · At the Vise</p>
+              {["Creating Simple Wet Fly Flies","Speed Patterns & Fly Tying"].map(item => (
+                <div key={item} style={{ display: "flex", gap: "8px", alignItems: "flex-start", padding: "6px 10px", background: "#fff", border: "1px solid #e8e4da", borderRadius: "6px", marginBottom: "5px", fontSize: "11px", lineHeight: 1.4 }}>
+                  <div style={{ width: "5px", height: "5px", borderRadius: "50%", background: "#c8a84b", marginTop: "5px", flexShrink: 0 }} />
+                  {item}
+                </div>
+              ))}
+              <div style={{ marginTop: "10px", background: "#1a4a2e", borderRadius: "8px", padding: "12px 14px" }}>
+                <p style={{ fontSize: "8px", letterSpacing: "0.1em", textTransform: "uppercase", color: "#c8a84b", marginBottom: "5px" }}>About the Demos</p>
+                <p style={{ fontSize: "11px", color: "rgba(255,255,255,0.82)", lineHeight: 1.65 }}>
+                  Mac's fly tying demos are a mainstay on the national show circuit — fast, practical, and fishable. Learn to tie effective wet fly patterns and impressionistic speed ties covering a broad range of aquatic insects. These patterns work throughout the water column and travel well in any fly box.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        {/* PAID CLASSES */}
+        <div style={{ marginBottom: "32px" }}>
+          <p style={{ fontSize: "8.5px", letterSpacing: "0.12em", textTransform: "uppercase", color: "#888", borderBottom: "1px solid #e0ddd5", paddingBottom: "5px", marginBottom: "16px" }}>2.5-Hour Paid Classes · Most Popular Offerings</p>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "10px" }}>
+            {[
+              ["↗","Increase Your Distance","Loop control, leverage & grip, double haul, shooting line, and trajectory. All skill levels."],
+              ["◆","Euro-Nymphing Evolution","Competition techniques, rigging, water-type strategies, and line control from World Champions."],
+              ["~","Drift & Presentation w/ Aerial Mends","Curves, piles, tuck casts — four components for longer drifts and better presentations."],
+              ["↺","Roll Casts for Direction Change","Multiple methods, tight-cover techniques, and the roll cast as a cornerstone skill."],
+              ["◇","Lines, Leaders & Rigging","Knots, leader formulas, dropper rigs, and gear choices that save time and money on the water."],
+              ["◎","Reading Water for Finding Fish","Hydrodynamics, observation skills, and where fish move hourly, daily, and seasonally."],
+              ["∞","Loop Control for Efficient Casts","Gear, trajectory, pause, power, and path — understand \"less is more\" for smoother deliveries."],
+              ["▷","Presentation Fly Casting for Fishing","Curve casts, tuck casts, slack-line casts, and a casting game plan. All levels."],
+            ].map(([icon, title, desc]) => (
+              <div key={title} style={{ background: "#fff", border: "1px solid #e8e4da", borderRadius: "10px", padding: "12px 14px" }}>
+                <span style={{ fontSize: "14px", color: "#2e6b44", display: "block", marginBottom: "6px" }}>{icon}</span>
+                <p style={{ fontSize: "12px", fontWeight: "bold", color: "#1a4a2e", marginBottom: "4px", lineHeight: 1.3 }}>{title}</p>
+                <p style={{ fontSize: "10.5px", color: "#777", lineHeight: 1.55 }}>{desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* CTA */}
+        <div style={{ background: "#1a4a2e", borderRadius: "10px", padding: "20px 24px", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "1rem" }}>
+          <div>
+            <p style={{ fontSize: "15px", fontWeight: "bold", color: "#fff", marginBottom: "4px" }}>Book Mac for your club or show</p>
+            <p style={{ fontSize: "11px", color: "rgba(255,255,255,0.7)" }}>Use the Presentation Speaking Contract to structure your event and confirm all details.</p>
+          </div>
+          <div style={{ textAlign: "right", fontSize: "12px", color: "rgba(255,255,255,0.85)", lineHeight: 1.8 }}>
+            Mac Brown Fly Fish<br />
+            <a href="tel:8287361469" style={{ color: "#c8a84b", textDecoration: "none" }}>828-736-1469</a><br />
+            Bryson City, NC
+          </div>
+        </div>
+
+      </div>
+
+      {/* FOOTER */}
+      <div style={{ background: "#1a4a2e", color: "rgba(255,255,255,0.55)", textAlign: "center", padding: "14px 20px", fontSize: "9px", fontStyle: "italic" }}>
+        <strong style={{ color: "rgba(255,255,255,0.8)", fontStyle: "normal" }}>Mac Brown Fly Fish</strong> · 779 West Deep Cr Rd, Bryson City, NC 28713 · 828-736-1469 · Est. 1987
+      </div>
+
+    </div>
+  );
+}

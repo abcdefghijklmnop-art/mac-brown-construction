@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mac Brown — About</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --forest: #1E3D2F;
+    --moss:   #2E5E44;
+    --fern:   #4A8C63;
+    --water:  #5B8FA8;
+    --stone:  #F2EDE6;
+    --bark:   #3D2B1F;
+    --mist:   #E8F0EC;
+    --cream:  #FDFAF6;
+    --gold:   #B8892A;
+  }
+
+  body {
+    font-family: 'Barlow', sans-serif;
+    background: var(--cream);
+    color: var(--bark);
+    min-height: 100vh;
+  }
+
+  /* ── HERO BAND ─────────────────────────────── */
+  .hero {
+    background: var(--forest);
+    padding: 5rem 2rem 4rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: repeating-linear-gradient(
+      90deg, transparent, transparent 60px,
+      rgba(255,255,255,0.015) 60px, rgba(255,255,255,0.015) 61px
+    );
+  }
+
+  .hero-eyebrow {
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--fern);
+    margin-bottom: 1rem;
+    opacity: 0;
+    animation: fadeUp 0.6s ease 0.1s forwards;
+  }
+
+  .hero-name {
+    font-family: 'Lora', serif;
+    font-size: clamp(2.8rem, 6vw, 4.5rem);
+    font-weight: 400;
+    color: #F5F0E8;
+    line-height: 1.1;
+    opacity: 0;
+    animation: fadeUp 0.6s ease 0.25s forwards;
+  }
+
+  .hero-sub {
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 300;
+    color: rgba(255,255,255,0.5);
+    margin-top: 0.75rem;
+    letter-spacing: 0.05em;
+    opacity: 0;
+    animation: fadeUp 0.6s ease 0.4s forwards;
+  }
+
+  .hero-rule {
+    width: 48px;
+    height: 2px;
+    background: var(--fern);
+    margin: 2rem auto 0;
+    opacity: 0;
+    animation: fadeUp 0.6s ease 0.55s forwards;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── CONTENT ───────────────────────────────── */
+  .content {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 4rem 2rem 5rem;
+  }
+
+  /* Bio paragraphs */
+  .bio-text {
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    line-height: 1.85;
+    color: var(--bark);
+    margin-bottom: 1.6rem;
+    opacity: 0;
+    animation: fadeUp 0.7s ease 0.2s forwards;
+  }
+
+  .bio-text:nth-child(2) { animation-delay: 0.35s; }
+  .bio-text:nth-child(3) { animation-delay: 0.5s; }
+
+  /* Grateful closing quote */
+  .closing {
+    font-family: 'Lora', serif;
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--moss);
+    line-height: 1.8;
+    border-left: 3px solid var(--fern);
+    padding-left: 1.5rem;
+    margin: 2.5rem 0;
+    opacity: 0;
+    animation: fadeUp 0.7s ease 0.65s forwards;
+  }
+
+  /* ── AWARDS STRIP ──────────────────────────── */
+  .awards-wrap {
+    background: var(--mist);
+    border-top: 1px solid rgba(46,94,68,0.12);
+    border-bottom: 1px solid rgba(46,94,68,0.12);
+    padding: 3rem 2rem;
+  }
+
+  .awards-inner {
+    max-width: 780px;
+    margin: 0 auto;
+  }
+
+  .awards-label {
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--fern);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .awards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .award {
+    background: white;
+    border: 1px solid rgba(46,94,68,0.1);
+    border-radius: 8px;
+    padding: 1.1rem 1.25rem;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    opacity: 0;
+    animation: fadeUp 0.5s ease forwards;
+  }
+
+  .award:nth-child(1) { animation-delay: 0.1s; }
+  .award:nth-child(2) { animation-delay: 0.2s; }
+  .award:nth-child(3) { animation-delay: 0.3s; }
+  .award:nth-child(4) { animation-delay: 0.4s; }
+  .award:nth-child(5) { animation-delay: 0.5s; }
+  .award:nth-child(6) { animation-delay: 0.6s; }
+
+  .award-year {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: var(--gold);
+    background: rgba(184,137,42,0.08);
+    padding: 3px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .award-text {
+    font-size: 0.88rem;
+    font-weight: 400;
+    color: var(--bark);
+    line-height: 1.45;
+  }
+
+  .award-org {
+    font-size: 0.75rem;
+    color: #7A8C80;
+    margin-top: 2px;
+  }
+
+  /* ── FOOTER CTA ────────────────────────────── */
+  .cta {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: var(--forest);
+  }
+
+  .cta p {
+    font-family: 'Lora', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 1.5rem;
+  }
+
+  .cta a {
+    display: inline-block;
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--cream);
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 0.75rem 2rem;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: background 0.2s, border-color 0.2s;
+  }
+
+  .cta a:hover {
+    background: var(--moss);
+    border-color: var(--moss);
+  }
+</style>
+</head>
+<body>
+
+<!-- Hero -->
+<div class="hero">
+  <p class="hero-eyebrow">Bryson City, North Carolina · Est. 1987</p>
+  <h1 class="hero-name">Mac Brown</h1>
+  <p class="hero-sub">Guide · Instructor · Master Casting Instructor · Author</p>
+  <div class="hero-rule"></div>
+</div>
+
+<!-- Bio -->
+<div class="content">
+
+  <p class="bio-text">
+    Mac Brown has been on these rivers since 1987 — long enough to know that the water always has something new to teach. He founded the first full-time fly fishing guide service in Western North Carolina and helped establish the first Delayed Harvest on the Upper Nantahala River in 1993, two things he's proud of mostly because they opened the sport up to more people.
+  </p>
+
+  <p class="bio-text">
+    As a former Associate Professor at Western Carolina University, Mac built one of the only collegiate fly fishing programs in the country. He is a Master Casting Instructor through Fly Fishers International, author of <em>Casting Angles</em>, and has been a presenter at the Fly Fishing Show since 1995. Over nearly four decades he has guided and taught tens of thousands of anglers — and counts every one of them as the real reward.
+  </p>
+
+  <blockquote class="closing">
+    "None of this happened alone. I've been shaped by great rivers, great mentors, and more generous people than I can name. I'm just grateful to still be out here doing what I love."
+  </blockquote>
+
+</div>
+
+<!-- Awards -->
+<div class="awards-wrap">
+  <div class="awards-inner">
+    <p class="awards-label">A few kind recognitions along the way</p>
+    <div class="awards-grid">
+
+      <div class="award">
+        <span class="award-year">2023</span>
+        <div>
+          <div class="award-text">FFI Lifetime Achievement Award</div>
+          <div class="award-org">Fly Fishers International</div>
+        </div>
+      </div>
+
+      <div class="award">
+        <span class="award-year">2021</span>
+        <div>
+          <div class="award-text">Mel Krieger Casting Instructor Award</div>
+          <div class="award-org">Fly Fishers International</div>
+        </div>
+      </div>
+
+      <div class="award">
+        <span class="award-year">2017</span>
+        <div>
+          <div class="award-text">Southern Fly Fishing Hall of Fame</div>
+          <div class="award-org">Recreation inductee</div>
+        </div>
+      </div>
+
+      <div class="award">
+        <span class="award-year">2016–22</span>
+        <div>
+          <div class="award-text">Best Outfitter Award</div>
+          <div class="award-org">Fly Fishers United</div>
+        </div>
+      </div>
+
+      <div class="award">
+        <span class="award-year">1999</span>
+        <div>
+          <div class="award-text">Angler of the Year</div>
+          <div class="award-org">Field &amp; Stream</div>
+        </div>
+      </div>
+
+      <div class="award">
+        <span class="award-year">2022–23</span>
+        <div>
+          <div class="award-text">Casting Board of Governors</div>
+          <div class="award-org">Fly Fishers International</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="cta">
+  <p>Come fish with us. The river's always worth it.</p>
+  <a href="https://macbrownflyfish.com/contact-fly-fishing-guided-trips-bryson-city-nc/">Book a trip</a>
+</div>
+
+</body>
+</html>

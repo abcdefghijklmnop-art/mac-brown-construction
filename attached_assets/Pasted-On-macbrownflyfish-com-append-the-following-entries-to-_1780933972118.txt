@@ -1,0 +1,66 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 15.
+
+    {
+      "@type": "Question",
+      "name": "What is optimal reach in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Optimal reach is a measurement of distance for the path in which the rod hand may travel during the casting stroke. To find your optimal reach distance mark a dot on an object to the rear and another far in front. Maximizing optimal reach within the available casting arc produces the longest possible loading move and the most deeply bent rod at the stop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the perpendicular rod position in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The perpendicular rod position at the completion of the casting stroke means the rod remains close to ninety degrees in relationship to the target. This position enables the rod to become involved in altering tension throughout the line due to rebound — common with positive force casts. The perpendicular rod position maximizes the spring effect of the rod unbend for tuck casts and positive curve casts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the pop and stop in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pop and stop describes the amount of force applied to the rod and when it stops during the casting stroke — like paint being flicked from a brush. This concept has also been called speed up and stop, power snap, speed move, power stroke, flicking motion, and positive stop through various casting circles. The key is smooth acceleration building to the pop followed by an abrupt stop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the pickup in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The pickup in fly casting is a form of drift to slowly lift the line from the water before starting the casting stroke. A proper pickup builds tension gradually and removes slack before the casting stroke begins. Ripping the line off the water — yank syndrome — is the most common pickup fault and spooks fish in the immediate area."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the retrieve in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The retrieve is any method that pulls the fly line in through the guides while fishing to control the amount of line outside and away from the tip-top. The three primary retrieve methods are the vector pull for nymphing and dry fly fishing, the hand twist for slow water nymphing, and the strip retrieve for streamers and wet flies. Varying retrieve speed and cadence triggers strikes from fish that refuse a steady retrieve."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is initial rod velocity in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Initial rod velocity refers to the velocity at which the rod begins the casting stroke — the first movement that starts to overcome fly line inertia. Starting the casting stroke too fast creates abrupt acceleration and increases tailing loop risk. Starting too slowly wastes casting arc before the line begins to move. A smooth controlled initial velocity builds efficiently into progressive acceleration."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the in sync concept in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In sync in fly casting describes a state in which two things move or happen at the same time and speed — for example the hauling hand matched perfectly with the rod hand. When the haul, the rod stop, and the rod unbend occur simultaneously at the same instant maximum line speed is achieved with minimum effort. This synchronization is what Mac Brown calls casting synergy."
+      }
+    },
+    {
+      "@type": "Question",
+      "na

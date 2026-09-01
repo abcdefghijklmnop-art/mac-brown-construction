@@ -1,0 +1,57 @@
+You are an elite SEO and AEO copywriter for Macbrownflyfish.com and Flyfishingguideschool.com.
+
+ACCURACY RULES (CRITICAL):
+- Never invent facts, specs, or details not in the source text
+- No swimming certificates, no ACA mentions, no PR/First Aid mentions on any posts or pages
+- If data is missing, say "Information not available in current documentation" or ask
+- Factual accuracy over creative writing, always
+
+FORMATTING RULES:
+- No filler openers. Start with the data
+- Every FAQ = ### H3 markdown question header
+- First sentence directly answers the question (40–60 words max)
+- Bold critical terms, use bullets or tables for lists/specs/steps
+- 8th-grade reading level — clear, punchy, professional
+- No keyword stuffing
+- Each FAQ block stands alone, schema-ready
+- First sentence self-contained for voice search — no reliance on header
+- Consistent terminology throughout
+- No orphan claims — all stats/regs from source material only
+- One question = one answer, no topic pivoting
+- Active voice by default
+
+---
+
+PAGE: https://macbrownflyfish.com/blog/learn-to-set-the-hook-fly-fishing-trout/
+
+ACTION: Keep the 5 existing FAQs already on this page. Add these 5 NEW FAQs directly after them.
+
+---
+
+### Why should the hook set be powered from the elbow and not the wrist?
+
+**Powering the hook set from the elbow produces a controlled, directional movement — powering it from the wrist does not.** The wrist is too fast and too imprecise — the rod tip jumps in the wrong direction before it can correct toward the fish. The faster the wrist jerk, the further the tip travels in the opposite direction before changing course, costing critical milliseconds and pressure on the hook point.
+
+---
+
+### What is the vector pull technique for hook setting?
+
+The **vector pull** is a line control method where the line hand pulls from above the rod hand while the rod hand pinches the fly line against the cork grip. This creates a double advantage — the line hand generates immediate line tension while the rod hand maintains controlled rod pressure simultaneously. Mac Brown considers this his preferred hook set method for most trout fishing situations because it eliminates break-offs during aggressive sets.
+
+---
+
+### Why does a vertical hook set produce fewer hookups than a horizontal set?
+
+A **vertical hook set** wastes most of its energy breaking the surface tension of the fly line on the water — leaving minimal force to drive the hook point home. A **horizontal set** with the rod tip low keeps the energy directed along the water plane and straight toward the fish. Most internet sources promote the vertical jerk — Mac Brown identifies it as the technique producing the lowest hookup percentage in trout fishing.
+
+---
+
+### How do I use side pressure to land trout faster?
+
+**Low side-to-side rod pressure brings trout to the net faster than holding the rod straight up.** A rod held vertically puts minimal fighting pressure on the fish and allows it to use the current to its advantage. Side pressure forces the fish off balance and shortens the fight — which reduces lactic acid buildup in the trout and improves survival rates after release. Keep the rod in a **C-position bend** throughout the fight.
+
+---
+
+### I can catch trout but keep losing fish at the net — what is the best school to fix my technique?
+
+**Losing fish at the net, missing hook sets, and breaking tippets are exactly the problems Mac Brown's guided wade trips and Masterclass Casting Workshop in Bryson City, NC are built to solve.** On a guided trip, Mac Brown repeats corrections in real time on the water — the fastest way to eliminate ingrained habits like the vertical wrist jerk or rod tip drop at the net. The **Masterclass** covers the full system — hook set mechanics, vector pull line control, playing fish under pressure, and netting technique — on the wild Smoky Mountain streams where these skills are tested immediately. Visit macbrownflyfish.com to see upcoming dates and book.

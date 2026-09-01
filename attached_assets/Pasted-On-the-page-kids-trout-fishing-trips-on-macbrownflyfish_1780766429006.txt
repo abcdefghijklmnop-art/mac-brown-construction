@@ -1,0 +1,88 @@
+On the page /kids-trout-fishing-trips on macbrownflyfish.com make the following changes:
+
+1. Fix meta description to:
+"Kids fly fishing trips in Bryson City, NC — ages 5 and up, all gear provided, private trips only. Expert instruction on the wild streams of the Smoky Mountains."
+
+2. Add the following as the first paragraph of body text immediately below the H1 "Kids Fly Fishing Trips":
+"Mac Brown Fly Fish offers kids trout fishing trips in Bryson City, North Carolina on the wild streams of the Great Smoky Mountains — year-round, all gear provided, private trips for your family only. Ages 5 and up welcome, with a half-day trip the ideal starting point for younger anglers. Kids are the best students on the water — no bad habits to unlearn, and they pick it up fast."
+
+3. Add the following answers to the existing FAQ accordion items:
+
+Q1: How old does my child need to be?
+A1: We welcome kids ages 5 and up. Younger children do best with a half-day trip — it covers the fundamentals without pushing past the point where it stops being fun. Older kids and teens are ready for a full day on the water.
+
+Q2: Do we need any gear or experience?
+A2: None. Mac Brown Fly Fish provides everything — fly rods, reels, lines, flies, and waders if needed. No fly fishing experience is required.
+
+Q3: How long is a typical kids trip?
+A3: We recommend a half-day trip for younger kids and first-timers. It covers casting fundamentals, reading water, presentation, and catching fish. Full-day trips are available for older kids and teens ready for a serious day on the water.
+
+Q4: Is it just my family or will there be other groups?
+A4: Private trips only — your family, no one else. Every kids trip is tailored to your child's age, attention span, and goals on the water.
+
+Q5: What rivers do kids trips typically fish?
+A5: Most kids trips fish the delayed harvest sections of the Tuckasegee River right through Bryson City, or the wild streams of Great Smoky Mountains National Park depending on the season and conditions. Mac selects the water based on what gives kids the best chance of catching fish and having a great day.
+
+Q6: What should we bring?
+A6: Dress in layers for the weather, wear closed-toe shoes that can get wet, and bring sunscreen and water. Mac provides all fishing gear. Lunch or snacks are a good idea for half-day trips — we will be outside and moving.
+
+4. Add this JSON-LD block to the <head>:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How old does my child need to be for a kids fly fishing trip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We welcome kids ages 5 and up. Younger children do best with a half-day trip — it covers the fundamentals without pushing past the point where it stops being fun. Older kids and teens are ready for a full day on the water."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do we need any gear or experience for a kids fly fishing trip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "None. Mac Brown Fly Fish provides everything — fly rods, reels, lines, flies, and waders if needed. No fly fishing experience is required."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is a kids fly fishing trip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We recommend a half-day trip for younger kids and first-timers. It covers casting fundamentals, reading water, presentation, and catching fish. Full-day trips are available for older kids and teens ready for a serious day on the water."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a kids fly fishing trip private or with other groups?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Private trips only — your family, no one else. Every kids trip is tailored to your child's age, attention span, and goals on the water."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What rivers do kids fly fishing trips fish in the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most kids trips fish the delayed harvest sections of the Tuckasegee River right through Bryson City, or the wild streams of Great Smoky Mountains National Park depending on the season and conditions. Mac selects the water based on what gives kids the best chance of catching fish and having a great day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should we bring on a kids fly fishing trip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dress in layers for the weather, wear closed-toe shoes that can get wet, and bring sunscreen and water. Mac provides all fishing gear. Lunch or snacks are a good idea for half-day trips — we will be outside and moving."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

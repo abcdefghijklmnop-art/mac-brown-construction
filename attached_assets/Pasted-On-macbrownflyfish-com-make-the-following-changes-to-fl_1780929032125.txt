@@ -1,0 +1,90 @@
+On macbrownflyfish.com make the following 
+changes to /fly-fishing-guide-school/ then 
+run bash push.sh to deploy. No other changes.
+
+Replace the entire "Who This School Is For" 
+section with the following three columns:
+
+COLUMN 1 — Career Changers:
+"You have always wanted to work outdoors 
+doing what you love — and the idea of 
+spending your days on world-class trout 
+water, sharing your passion with others, 
+beats sitting behind a desk in an office 
+that has nothing to do with who you really 
+are. The guide school provides the 
+credentials, the skills, the job placement 
+resources, and the professional network to 
+make that transition real.
+
+Fly fishing guides work in some of the most 
+beautiful places on earth. They spend their 
+days doing something that most people only 
+dream about — and they get paid for it. The 
+path from where you are now to a first 
+guiding position at a premier lodge or 
+outfitter starts here. Many of our graduates 
+are on the water professionally within one 
+season of completing the program."
+
+COLUMN 2 — Growth-Minded Skill Builders:
+"You have been fly fishing for years — maybe 
+decades. You catch fish. But something is 
+missing. You see a hatch come off and freeze 
+— unsure what the fish are taking or what 
+your plan of attack should be. You tie on a 
+three-fly rig and end up with a bird's nest 
+before the first cast. You watch a rising 
+fish work a seam for twenty minutes and never 
+figure out the angle or the presentation that 
+would have fooled it. You have been self-
+teaching and guessing, filling gaps with gear 
+purchases instead of knowledge.
+
+The guide school eliminates all of that in 
+one week. You leave understanding why fish 
+do what they do, what the water is telling 
+you, and how to execute the cast and the 
+drift that the situation demands — every 
+time. Not because you memorized rules. 
+Because you finally understand the mechanics 
+and strategies underneath the sport.
+
+Most of our students are in this track. They 
+are not here to become guides. They are here 
+because they are serious about the sport and 
+they want to fly fish at a level that most 
+anglers never reach — and they are smart 
+enough to know that one week with the right 
+teachers gets them there faster than another 
+decade of self-teaching."
+
+COLUMN 3 — Aspiring Instructors:
+"You want to teach the sport — and the people 
+you want to teach matter deeply to you. Maybe 
+you lead a fly fishing club and want to bring 
+real instructional depth to your members. 
+Maybe you work with a Scout troop, a high 
+school outdoor program, or a university 
+recreation department and want to give young 
+people a genuine foundation in the sport — 
+not just a fun afternoon with a rod. Maybe 
+you are a parent who wants to share the 
+fascination of fly fishing and fly casting 
+with your family in a way that actually 
+sticks.
+
+The guide school covers the casting 
+diagnostics, communication skills, and 
+teaching methodology that professional 
+instruction demands — giving you the tools 
+to teach effectively in any setting, at any 
+skill level, to any audience. Whether you 
+want to instruct privately, through a fly 
+shop, as part of a guide operation, or 
+simply within your own community — this 
+week gives you the foundation to do it 
+right."
+
+Then run bash push.sh to deploy. 
+No other changes.

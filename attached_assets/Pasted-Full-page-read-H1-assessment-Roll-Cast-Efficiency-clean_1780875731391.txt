@@ -1,0 +1,163 @@
+Full page read. **H1 assessment:** "Roll Cast Efficiency" — clean and search-relevant. Leave it. Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/roll-cast-efficiency/
+
+AEO — add immediately below H1:
+"The roll cast is the most versatile and 
+underutilized tool in fly fishing — essential 
+for tight spaces, changing direction, 
+eliminating slack, recovering snagged flies, 
+raising sink tips, assisting hook sets, and 
+forming the foundation of all Spey casting 
+through anchor placement. Mac Brown teaches 
+the static roll cast as the foundation of 
+rod loading awareness — if it fails at 
+distance, problems in the loading move are 
+exposed immediately. The most common fault 
+is too much power. In fly casting, less is 
+more — and the roll cast proves it faster 
+than any other technique."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What is a roll cast in fly fishing?
+A1: A roll cast delivers the fly line 
+and fly forward without a back cast — 
+using the surface tension of the water 
+to load the rod through a single 
+forward stroke. It is the most 
+practical cast in actual fishing 
+conditions, where overhead obstacles, 
+bank vegetation, and tight stream 
+corridors make a full aerial cast 
+impossible. The roll cast also forms 
+the foundation of all Spey casting — 
+every Spey cast begins with a form 
+of roll cast anchor placement.
+
+Q2: What is a static roll cast?
+A2: A static roll cast is performed 
+from a stationary line position — 
+the fly line is laid on the water 
+and the cast is made without a 
+pickup or repositioning move. It 
+is the purest test of rod loading 
+mechanics in fly casting. Problems 
+during the loading move show up 
+immediately in the static roll cast 
+at distance — making it one of the 
+most valuable diagnostic tools for 
+casting instructors and one of the 
+most tested elements on FFI Certified 
+Instructor and Master Casting 
+Instructor exams.
+
+Q3: Why do most fly casters 
+struggle with the roll cast?
+A3: Too much power — the most common 
+fault in fly casting across all casts 
+and all skill levels. In projectile 
+sports, throwing harder produces more 
+distance. In fly casting, forcing 
+the stroke produces wide open loops, 
+poor rod loading, and collapsed roll 
+casts at distance. The concept of 
+less is more is central to efficient 
+roll casting — a smooth controlled 
+loading move followed by a decisive 
+stop produces a tighter, farther 
+loop than maximum effort every time.
+
+Q4: When should you use a roll 
+cast while fly fishing?
+A4: Any time a full overhead cast 
+is not possible or not efficient — 
+tight streamside canopy, limited 
+wading space, wind from behind, 
+or picking up a slack line for 
+the next drift. The roll cast also 
+helps in recovering snagged flies, 
+raising sink tips and heavy nymphs 
+back to the surface, clearing slack 
+from the drift before the hook set, 
+and initiating efficient pickup 
+moves before aerial casts. On 
+small Smoky Mountain streams it 
+is used more than any other cast.
+
+Q5: Where can I learn roll casting 
+from a certified instructor?
+A5: Mac Brown Fly Fish in Bryson 
+City, NC offers private fly casting 
+lessons and the Masterclass Casting 
+Workshop covering static and dynamic 
+roll casts, Spey fundamentals, anchor 
+placement, and the full range of 
+water casts — led by Mac Brown, 
+the only FFI Master Casting 
+Instructor in North Carolina. The 
+Scientific Anglers Mastery Expert 
+Distance line in orange is Mac's 
+recommended practice line for 
+developing efficient roll cast 
+mechanics. Online lessons available 
+worldwide via FaceTime, Zoom, or 
+Skype at $400 per session.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a roll cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A roll cast delivers the fly line and fly forward without a back cast — using the surface tension of the water to load the rod through a single forward stroke. It is the most practical cast in actual fishing conditions where overhead obstacles and tight stream corridors make a full aerial cast impossible. The roll cast also forms the foundation of all Spey casting — every Spey cast begins with a form of roll cast anchor placement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a static roll cast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A static roll cast is performed from a stationary line position — the fly line is laid on the water and the cast is made without a pickup or repositioning move. It is the purest test of rod loading mechanics in fly casting. Problems during the loading move show up immediately in the static roll cast at distance — making it one of the most valuable diagnostic tools for casting instructors and one of the most tested elements on FFI certification exams."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do most fly casters struggle with the roll cast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Too much power — the most common fault in fly casting across all casts and skill levels. In projectile sports, throwing harder produces more distance. In fly casting, forcing the stroke produces wide open loops and collapsed roll casts at distance. Less is more — a smooth controlled loading move followed by a decisive stop produces a tighter, farther loop than maximum effort every time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should you use a roll cast while fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Any time a full overhead cast is not possible — tight streamside canopy, limited wading space, wind from behind, or picking up a slack line for the next drift. The roll cast also helps in recovering snagged flies, raising sink tips and heavy nymphs back to the surface, clearing slack before the hook set, and initiating efficient pickup moves before aerial casts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn roll casting from a certified instructor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers private fly casting lessons and the Masterclass Casting Workshop covering static and dynamic roll casts, Spey fundamentals, anchor placement, and the full range of water casts — led by Mac Brown, the only FFI Master Casting Instructor in North Carolina. Online lessons available worldwide via FaceTime, Zoom, or Skype at $400 per session."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

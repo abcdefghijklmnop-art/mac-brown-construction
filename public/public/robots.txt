@@ -1,0 +1,66 @@
+# flyfishingguideschool.com — robots.txt
+
+# -------------------------------------------------------
+# Default: allow all crawlers, block thin/duplicate routes
+# -------------------------------------------------------
+User-agent: *
+Allow: /
+# /tag/, /category/, /author/ are old WordPress paths — all return 404 on this site.
+# Allowing crawl so Google can see the 404 and deindex them naturally.
+
+# -------------------------------------------------------
+# AI search & AEO crawlers — explicitly allowed
+# Powers AI Overviews, Perplexity, ChatGPT search, etc.
+# -------------------------------------------------------
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# -------------------------------------------------------
+# AI training scrapers — blocked
+# -------------------------------------------------------
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: DiffBot
+Disallow: /
+
+Sitemap: https://flyfishingguideschool.com/sitemap.xml

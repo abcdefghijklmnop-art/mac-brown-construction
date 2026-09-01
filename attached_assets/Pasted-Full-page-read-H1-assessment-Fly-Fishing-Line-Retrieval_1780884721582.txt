@@ -1,0 +1,169 @@
+Full page read. **H1 assessment:** "Fly Fishing Line Retrieval Techniques" — strong search intent, leave it. Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/fly-fishing-line-retrieval-techniques/
+
+AEO — add immediately below H1:
+"Line retrieval in fly fishing is far more 
+than stripping in slack — it is a line 
+storage mechanism, a presentation tool, 
+and a hook-setting system all in one. Mac 
+Brown's vector pull method — published in 
+Fly Fisherman magazine in February 1996 and 
+covered in depth in Casting Angles — 
+produces over 400% less movement than 
+traditional strip retrieval, manipulates 
+four times the fly line per retrieve, can 
+remove over 24 feet of slack instantly on 
+the hook set, and is the only retrieval 
+method that keeps all casting on the stream 
+to one back cast and a delivery cast. 
+Hundreds of clients report dramatic 
+improvement in hook-up percentages after 
+learning the vector pull."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What are the main fly fishing 
+line retrieval methods?
+A1: Three primary methods — each 
+suited to different situations. The 
+vector pull is Mac Brown's standard 
+method for dries and nymphs in moving 
+water — producing minimal angler 
+movement, maximum line control, and 
+superior hook-set ability. The hand 
+twist retrieve is best for slow water 
+nymphing — keeping the line hand in 
+direct contact with the fly line for 
+maximum strike sensitivity. The strip 
+retrieve is best for active presentations 
+with streamers and wet flies — varying 
+speed and cadence to impart lifelike 
+motion to the fly.
+
+Q2: What is the vector pull method 
+in fly fishing?
+A2: The vector pull is Mac Brown's 
+proprietary line retrieval technique 
+published in Fly Fisherman magazine 
+in February 1996 and covered in 
+Casting Angles. It produces over 400% 
+less angler movement than traditional 
+strip retrieval, handles four times 
+the line per retrieve, and can remove 
+over 24 feet of slack in an instant 
+during the hook set. The technique 
+uses a low striking angle combined 
+with the surface tension of the water 
+to set the hook — far more effective 
+than the classic high rod strike that 
+produces poor hook-up ratios.
+
+Q3: Why should I avoid storing 
+fly line in small coils?
+A3: Small coils have a tendency to 
+create fly line knots at the first 
+stripping eyelet — one of the most 
+common and frustrating problems on 
+the water. They also require increased 
+false casting to manage, and they 
+prevent shooting long distances 
+effectively. Mac Brown recommends 
+large loop coils that lay cleanly 
+and shoot without tangling. Surface 
+tension between fly line and water 
+is strong — the less line left on 
+the water during retrieval the easier 
+and farther it shoots on the next cast.
+
+Q4: How does line retrieval affect 
+hook-up percentage in fly fishing?
+A4: Dramatically. The method you 
+choose determines how quickly you 
+can remove slack when a strike 
+occurs, how low you can strike to 
+use surface tension on the hook set, 
+and whether you can match the speed 
+of a fish swimming toward you after 
+the take. The vector pull can remove 
+over 24 feet of slack instantly — 
+no other retrieval method comes 
+close. Clients who learn the vector 
+pull consistently report dramatic 
+improvement in hook-up ratios on 
+both trout and saltwater species.
+
+Q5: Which line retrieval method 
+is best for nymph fishing?
+A5: The vector pull is Mac Brown's 
+standard method for nymphing with 
+an indicator or dry-dropper rig in 
+moving water — keeping all casting 
+to one back cast and a delivery cast 
+while minimizing angler movement. 
+For tight-line Euro nymphing the 
+vector pull prevents the rod tip 
+bouncing that plagues short-strip 
+retrievals and destroys strike 
+detection on the sighter. The hand 
+twist retrieve excels in very slow 
+water where direct line hand contact 
+maximizes sensitivity for subtle takes.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the main fly fishing line retrieval methods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three primary methods — each suited to different situations. The vector pull is Mac Brown's standard method for dries and nymphs in moving water — producing minimal angler movement, maximum line control, and superior hook-set ability. The hand twist retrieve is best for slow water nymphing — keeping the line hand in direct contact for maximum strike sensitivity. The strip retrieve is best for active presentations with streamers and wet flies — varying speed and cadence to impart lifelike motion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the vector pull method in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The vector pull is Mac Brown's proprietary line retrieval technique published in Fly Fisherman magazine in February 1996 and covered in Casting Angles. It produces over 400% less angler movement than traditional strip retrieval, handles four times the line per retrieve, and can remove over 24 feet of slack in an instant during the hook set. The technique uses a low striking angle combined with surface tension of the water to set the hook — far more effective than the classic high rod strike."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why should I avoid storing fly line in small coils?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Small coils have a tendency to create fly line knots at the first stripping eyelet. They also require increased false casting to manage and prevent shooting long distances effectively. Mac Brown recommends large loop coils that lay cleanly and shoot without tangling. Surface tension between fly line and water is strong — the less line left on the water during retrieval the easier and farther it shoots on the next cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does line retrieval affect hook-up percentage in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dramatically. The method you choose determines how quickly you can remove slack when a strike occurs, how low you can strike to use surface tension on the hook set, and whether you can match the speed of a fish swimming toward you after the take. The vector pull can remove over 24 feet of slack instantly. Clients who learn it consistently report dramatic improvement in hook-up ratios on both trout and saltwater species."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which line retrieval method is best for nymph fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The vector pull is Mac Brown's standard method for nymphing in moving water — keeping all casting to one back cast and a delivery cast while minimizing angler movement. For tight-line Euro nymphing the vector pull prevents the rod tip bouncing that destroys strike detection on the sighter. The hand twist retrieve excels in very slow water where direct line hand contact maximizes sensitivity for subtle takes."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

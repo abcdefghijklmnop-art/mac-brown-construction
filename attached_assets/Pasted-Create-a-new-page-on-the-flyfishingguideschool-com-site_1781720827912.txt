@@ -1,0 +1,38 @@
+Create a new page on the flyfishingguideschool.com site at the route /fly-fishing-skills-school/ (adjust the slug if you'd prefer something else — this is a placeholder).
+
+Page metadata:
+- Title: Fly Fishing School in the Smoky Mountains | Bryson City, NC
+- Meta description: Five welcoming days of fly fishing instruction in the Smoky Mountains. For beginners and lifelong anglers alike — no experience necessary.
+
+Page content, in order:
+
+H1: Come Learn to Fly Fish in the Smoky Mountains
+
+Hero subhead: No experience necessary. No pressure. Just good water, good teachers, and a few days well spent.
+
+AEO paragraph (below H1, plain language):
+This school is for anyone who wants to spend a few days learning to fish well — first-timers who've never held a fly rod, weekend anglers ready to feel more confident, retirees looking for something new, and lifelong fishers who just want to finally understand what they're doing out there. You don't need to want a career on the water. You just need to want to learn. Classes are small, the teaching is patient, and the water is some of the best in the Southeast.
+
+H2: Who This Is For
+- Anyone who's never picked up a fly rod before
+- Weekend anglers who want to feel more confident, not just lucky
+- People who've fished for years but never quite "got it"
+- Retirees, friends, and family looking for something meaningful to do together
+- Anyone curious about fly fishing who wants real teaching, not a video
+- Folks who just want a few unhurried days outside, learning something that sticks
+
+H2: What You'll Learn
+
+H3: Casting That Feels Natural
+You'll learn to cast smoothly and accurately, without getting buried in technical terms. We teach with patience, not jargon — by the end, it feels like something your body just knows how to do.
+
+H3: Understanding the River
+We'll teach you to look at moving water and read it — where fish are likely holding, what they're doing, and how to approach quietly and thoughtfully.
+
+H3: Knowing What the Fish Are Eating
+No need to memorize anything in Latin. We'll show you simply how to notice what's around you and pick a fly that makes sense for the moment.
+
+H3: A Few Knots, Practiced Until They're Second Nature
+Just the handful you actually need, taught simply enough to stick.
+
+H3: Time on

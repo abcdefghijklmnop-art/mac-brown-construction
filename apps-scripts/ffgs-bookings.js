@@ -1,0 +1,198 @@
+var FFGS_CONFIRMED_URL = "https://flyfishingguideschool.com/api/ffgs-payment-confirmed";
+var PAYMENT_STATUS_COL = 28; // column AB
+
+function authorizeMe() {
+  Logger.log(Session.getActiveUser().getEmail());
+}
+
+function onEditFFGSPayment(e) {
+  if (!e) { Logger.log("EXIT: no event object"); return; }
+
+  var range   = e.range;
+  var sheet   = range.getSheet();
+  var col     = range.getColumn();
+  var tabName = sheet.getName();
+
+  Logger.log("FIRED — sheet: '" + tabName + "', col: " + col + ", row: " + range.getRow() + ", value: '" + range.getValue() + "'");
+
+  if (tabName !== "Reservations") { Logger.log("EXIT: wrong sheet — got '" + tabName + "'"); return; }
+  if (col !== PAYMENT_STATUS_COL) { Logger.log("EXIT: wrong column — got " + col + ", expected " + PAYMENT_STATUS_COL); return; }
+
+  var newValue = range.getValue();
+  if (!newValue || String(newValue).trim() === "") { Logger.log("EXIT: empty value"); return; }
+
+  var row = range.getRow();
+  if (row < 2) { Logger.log("EXIT: header row"); return; }
+
+  var rowData       = sheet.getRange(row, 1, 1, 28).getValues()[0];
+  var email         = rowData[3];   // D
+  var firstName     = rowData[1];   // B
+  var lastName      = rowData[2];   // C
+  var phone         = rowData[4];   // E
+  var schoolMonth   = rowData[7];   // H
+  var attendingFor  = rowData[8];   // I
+  var depositType   = rowData[26];  // AA
+  var paymentStatus = rowData[27];  // AB
+
+  Logger.log("Row data — email: '" + email + "', name: '" + firstName + " " + lastName + "'");
+
+  if (!email) { Logger.log("EXIT: no email in column D for row " + row); return; }
+
+  var payload = {
+    firstName: String(firstName || ""), lastName: String(lastName || ""),
+    email: String(email || ""), phone: String(phone || ""),
+    schoolMonth: String(schoolMonth || ""), attendingFor: String(attendingFor || ""),
+    depositType: String(depositType || ""), paymentStatus: String(paymentStatus || newValue),
+  };
+
+  Logger.log("Sending to API: " + JSON.stringify(payload));
+
+  try {
+    var response = UrlFetchApp.fetch(FFGS_CONFIRMED_URL, {
+      method: "post", contentType: "application/json",
+      payload: JSON.stringify(payload), muteHttpExceptions: true,
+    });
+    Logger.log("API response: " + response.getResponseCode() + " — " + response.getContentText());
+  } catch (err) {
+    Logger.log("API fetch error: " + err);
+  }
+}
+
+const API_BASE    = "https://flyfishingguideschool.com/api";
+const SCHOOL_NAME = "Fly Fishing Guide School";
+
+// ═════════════════════════════════════════════════════════════════════════════
+// Review + TFO coupon email — runs daily at 5 PM.
+// Checks "Guide School" tab for a session ending today, then emails all
+// matching paid rows on "Reservations" without a "Review Email Sent" stamp.
+// TO BLOCK: type anything in the "Review Email Sent" column before 5 PM.
+// ═════════════════════════════════════════════════════════════════════════════
+
+function sendFFGSReviewEmails() {
+  const ss    = SpreadsheetApp.getActiveSpreadsheet();
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const schoolTab = ss.getSheetByName("Guide School");
+  if (!schoolTab) { Logger.log("Guide School tab not found"); return; }
+
+  let sessionMonth = "";
+  const schoolRows = schoolTab.getRange("A2:D20").getValues();
+
+  for (const row of schoolRows) {
+    const dates = String(row[0]).trim(); // e.g. "Oct 15-18"
+    const month = String(row[1]).trim(); // e.g. "October"
+    const year  = String(row[3]).trim(); // e.g. "2026"
+    if (!dates || !month || !year) continue;
+
+    const endMatch = dates.match(/(\d+)\s*$/);
+    if (!endMatch) continue;
+
+    const endDate = new Date(`${month} ${parseInt(endMatch[1])}, ${year}`);
+    endDate.setHours(0, 0, 0, 0);
+
+    if (endDate.getTime() === today.getTime()) {
+      sessionMonth = month;
+      Logger.log("Session ending today: " + month + " " + year);
+      break;
+    }
+  }
+
+  if (!sessionMonth) {
+    Logger.log("No Guide School session ending today — nothing to send.");
+    return;
+  }
+
+  const resTab = ss.getSheetByName("Reservations");
+  if (!resTab) { Logger.log("Reservations tab not found"); return; }
+
+  const headers = resTab.getRange(1, 1, 1, resTab.getLastColumn()).getValues()[0];
+
+  const colEmail       = findCol(headers, ["email", "e-mail"]);
+  const colFirstName   = findCol(headers, ["first name", "firstname", "first"]);
+  const colSchoolMonth = findCol(headers, ["school month", "schoolmonth", "month"]);
+  const colPaid        = 19; // Column T (0-based)
+
+  if (colEmail === -1) {
+    Logger.log("ERROR: Cannot find Email column in Reservations");
+    return;
+  }
+
+  let colReviewSent = findCol(headers, ["review email sent", "review sent", "enrolled email sent"]);
+  if (colReviewSent === -1) {
+    colReviewSent = headers.length;
+    resTab.getRange(1, colReviewSent + 1).setValue("Review Email Sent");
+  }
+
+  const lastRow = resTab.getLastRow();
+  if (lastRow < 2) return;
+
+  const data = resTab.getRange(2, 1, lastRow - 1, colReviewSent + 1).getValues();
+  let sent = 0;
+
+  for (let i = 0; i < data.length; i++) {
+    const row   = data[i];
+    const email = String(row[colEmail] || "").trim();
+    if (!email) continue;
+
+    const paidVal = String(row[colPaid] || "").toLowerCase().trim();
+    const isPaid  = paidVal && paidVal !== "no" && paidVal !== "false" && paidVal !== "0";
+    if (!isPaid) continue;
+
+    if (colSchoolMonth !== -1) {
+      const rowMonth = String(row[colSchoolMonth] || "").toLowerCase();
+      if (rowMonth && !rowMonth.includes(sessionMonth.toLowerCase().slice(0, 3))) continue;
+    }
+
+    if (String(row[colReviewSent] || "").trim()) continue;
+
+    const firstName = colFirstName !== -1 ? String(row[colFirstName] || "").trim() : "";
+
+    try {
+      const resp = UrlFetchApp.fetch(API_BASE + "/ffgs-review-request", {
+        method: "post",
+        contentType: "application/json",
+        payload: JSON.stringify({ firstName, email, schoolName: SCHOOL_NAME }),
+        muteHttpExceptions: true,
+      });
+
+      if (resp.getResponseCode() === 200) {
+        resTab.getRange(i + 2, colReviewSent + 1).setValue(new Date().toISOString());
+        sent++;
+        Logger.log("Sent to: " + email);
+      } else {
+        Logger.log("Failed for " + email + ": " + resp.getResponseCode() + " — " + resp.getContentText());
+      }
+    } catch (e) {
+      Logger.log("Error for " + email + ": " + e);
+    }
+
+    Utilities.sleep(500);
+  }
+
+  Logger.log("Done. Sent " + sent + " review emails for the " + sessionMonth + " session.");
+}
+
+function findCol(headers, names) {
+  for (let i = 0; i < headers.length; i++) {
+    const h = String(headers[i]).toLowerCase().trim();
+    for (const name of names) {
+      if (h.includes(name)) return i;
+    }
+  }
+  return -1;
+}
+
+// Run this ONCE manually after pasting to set up the daily 5 PM trigger
+function createReviewTrigger() {
+  ScriptApp.getProjectTriggers().forEach(t => {
+    if (t.getHandlerFunction() === "sendFFGSReviewEmails") ScriptApp.deleteTrigger(t);
+  });
+  ScriptApp.newTrigger("sendFFGSReviewEmails")
+    .timeBased()
+    .everyDays(1)
+    .atHour(20)
+    .nearMinute(36)
+    .create();
+  Logger.log("Trigger set: sendFFGSReviewEmails runs daily at ~8:36pm.");
+}

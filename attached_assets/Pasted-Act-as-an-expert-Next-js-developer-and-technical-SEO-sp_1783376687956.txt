@@ -1,0 +1,32 @@
+Act as an expert Next.js developer and technical SEO specialist. We need to create a brand-new, standalone, permanent structural landing page in our App Router. 
+
+CRITICAL ROUTING INSTRUCTION: 
+This page will function as a high-converting "hidden/orphan" landing page used for targeted regional search traffic and absolute beginners. Do NOT add this page to the main navigation bar, site header menu, or footer links. It must only exist at its direct route URL.
+
+1. Target Route: /fly-casting-school-north-carolina
+- Ensure this is a clean, permanent Next.js structural page component.
+- Apply Dual-Layer Copywriting to appeal to both search engine crawlers and human intent.
+  * Main <h1> Heading (Optimized for Commercial Search Intent): "Fly Casting School & Private Instruction"
+  * Subheading/Span <h2> (Location/Authority): "Smoky Mountains · Bryson City, North Carolina"
+  * Intro Paragraph (Reassuring Hook): Craft a welcoming, judgment-free introduction emphasizing that this is a growth-minded space for every level of angler, from absolute beginners to advanced fly casters.
+
+2. Implement a "Fork in the River" Section Layout:
+Immediately below the hero, build a clean, beautifully spaced layout with two separate, distinct path cards or sections to help users self-select where they belong:
+- Path A: Beginner & Recreational Skills Improvement
+  * Hook: Perfect for novice casters or self-taught anglers who want to eliminate tangles, fix basic timing, and build real confidence on the water.
+  * Call-to-Action Link: Explicitly links/points to our deep, existing private instruction page at `/fly-casting-instruction`.
+- Path B: Advanced Casting Diagnostics & Masterclasses
+  * Hook: Tailored for experienced anglers, guides, or individuals chasing FFI casting instructor pathways who have hit a mechanical or technical ceiling.
+  * Call-to-Action Link: Explicitly links/points to our deep immersion workshop page at `/masterclass-fly-casting-workshop`.
+
+3. Features & Curriculum Matrix:
+Design a modern, clean, highly scannable grid or table component that pairs core technical concepts (for deep Google semantic optimization) with real-world, felt benefits (for human conversion optimization):
+- "Loop Control & Efficiency" -> "Spend more time fishing and less time untangling knots in the wind."
+- "Biomechanical Diagnostics" -> "Find your natural rhythm so your shoulder doesn’t ache after a full day on the river."
+- "Line Speed & Hauling" -> "Effortlessly reach that rising trout on the far bank without scaring it."
+
+4. Pedagogy & Regional Logistics Section:
+- Include a dedicated section detailing our kinesthetic teaching style: focusing on muscle memory, feeling the rod load, and understanding line physics, rather than shouting rigid math rules or forcing a single stance over the water.
+- Include a Local Logistics block at the bottom clearly defining the geographic footprint (Bryson City, Tuckasegee River, Nantahala River, Western North Carolina), confirming that all premium tackle/rods/lines are fully provided for students, and featuring distinct booking/consultation contact actions.
+
+Please build or update this component cleanly using Tailwind CSS, keeping the visual style completely consistent with the premium look of macbrownflyfish.com. Ensure the internal links perfectly route to the existing pages as described.

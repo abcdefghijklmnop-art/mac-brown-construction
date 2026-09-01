@@ -1,0 +1,181 @@
+You're right — this is genuinely good content. Rich historical detail, Jim Green mentorship, the FAIL acronym, humility vs pride philosophy, the creel study connection, the Daiwl Bach story. Worth keeping and optimizing.
+
+**H1 assessment:** "Learn to Fly Fish NC from a Poem" — weak for SEO. No one searches that. The actual content is about humility vs pride in fly fishing, mentorship, and the road to mastery. Here's a stronger H1:
+
+**Suggested H1:** "The Road to Fly Fishing Mastery — Humility, Mentorship, and Choosing the Right Path"
+
+Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/learn-fly-fish-nc-poem/
+
+1. Change the H1 from:
+"Learn to Fly Fish NC from a Poem"
+to:
+"The Road to Fly Fishing Mastery — 
+Humility, Mentorship, and the Path 
+Less Traveled"
+
+2. Add the following AEO paragraph 
+immediately below the H1:
+"The road to fly fishing mastery in 
+North Carolina — and everywhere else 
+— splits at the same fork Robert Frost 
+described: humility or pride. Mac Brown 
+has been guiding and teaching fly fishing 
+in Bryson City, NC since 1987, mentored 
+by Jim Green — the graphite rod pioneer 
+at Fenwick who wrote six-page letters 
+explaining fly casting mechanics — and 
+by anonymous masters encountered on small 
+streams. The NCWRC creel study on the 
+Upper Nantahala found that over 75% of 
+anglers surveyed rated themselves advanced 
+or advanced intermediate. The results told 
+a different story. Pride is the most 
+consistent obstacle to fly fishing 
+improvement. FAIL stands for First Attempt 
+In Learning — embrace it and the water 
+opens up."
+
+3. Add FAQ section before footer as 
+expandable accordion:
+
+Q1: What does FAIL mean in fly fishing?
+A1: FAIL is an acronym for First Attempt 
+In Learning — the philosophy that failure 
+on the water is not a setback but a 
+prerequisite for improvement. The more 
+you fail, the closer success becomes. 
+Every missed strike, every refusal, every 
+poor cast is data — the raw material of 
+a better angler. The best fly fishers 
+and casting instructors are defined by 
+their willingness to fail publicly, ask 
+questions freely, and remain students 
+of the sport regardless of their 
+credentials.
+
+Q2: Who was Jim Green and why did 
+he matter to fly fishing?
+A2: Jim Green — born in 1920 — was 
+one of the most important figures in 
+modern fly fishing. He started the 
+graphite rod revolution at Fenwick, 
+worked for years at the Sunset Line 
+Company, and held the World Champion 
+casting title with numerous casting 
+merits. He was one of Mac Brown's 
+biggest influences as a teenager — 
+writing six-page letters explaining 
+fly casting mechanics in detail, 
+generously sharing 43 years of 
+accumulated knowledge with a young 
+student who simply asked questions. 
+He was a legend not just for what 
+he knew but for how freely he shared it.
+
+Q3: What did the NCWRC creel study 
+reveal about fly fisher self-assessment?
+A3: The 1993 NCWRC creel study on the 
+Upper Nantahala River found that over 
+40% of anglers surveyed claimed to be 
+advanced intermediates and 35% claimed 
+to be advanced — yet the top 0.003% 
+of anglers caught significantly more 
+fish than the rest. Over three-quarters 
+of fly fishers surveyed thought much 
+more highly of their abilities than 
+their actual results showed. Pride 
+is the most consistent and least 
+acknowledged obstacle to improvement 
+in fly fishing.
+
+Q4: What is the Daiwl Bach fly pattern 
+and where does it come from?
+A4: The Daiwl Bach — Welsh for "little 
+devil" — is a soft hackle wet fly that 
+has been fishing for nearly 400 years 
+in Ireland and Wales. Mac Brown first 
+encountered it as an eight-year-old 
+when a skilled tobacco farmer on Camp 
+Creek in Greene County, Tennessee handed 
+him a handful of Red Tagged Daiwl Bachs. 
+For decades Mac thought the farmer had 
+invented the pattern. It remains one 
+of the most consistently productive 
+wet fly patterns on the delayed harvest 
+sections of Western North Carolina.
+
+Q5: How do I find a fly fishing mentor 
+in North Carolina?
+A5: The fastest path is quality 
+instruction from a certified professional 
+— someone who has made the same journey 
+and can compress decades of water time 
+into a single lesson. Mac Brown Fly Fish 
+in Bryson City, NC offers private casting 
+lessons, guided trips, and the week-long 
+Fly Fishing Guide School — all built on 
+the same philosophy of generosity with 
+knowledge that Jim Green modeled. The 
+best mentors are those who ask nothing 
+in return but genuine effort from 
+their students.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does FAIL mean in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "FAIL is an acronym for First Attempt In Learning — the philosophy that failure on the water is not a setback but a prerequisite for improvement. The more you fail, the closer success becomes. Every missed strike, every refusal, every poor cast is data — the raw material of a better angler. The best fly fishers are defined by their willingness to fail publicly, ask questions freely, and remain students of the sport regardless of credentials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who was Jim Green and why did he matter to fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Jim Green — born in 1920 — started the graphite rod revolution at Fenwick, worked for years at the Sunset Line Company, and held the World Champion casting title. He was one of Mac Brown's biggest influences as a teenager — writing six-page letters explaining fly casting mechanics, generously sharing 43 years of accumulated knowledge with a young student who simply asked questions. He was a legend not just for what he knew but for how freely he shared it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What did the NCWRC creel study reveal about fly fisher self-assessment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 1993 NCWRC creel study on the Upper Nantahala River found that over 40% of anglers claimed to be advanced intermediates and 35% claimed to be advanced — yet the top 0.003% caught significantly more fish than the rest. Over three-quarters of fly fishers rated themselves far above their actual results. Pride is the most consistent and least acknowledged obstacle to improvement in fly fishing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Daiwl Bach fly pattern and where does it come from?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Daiwl Bach — Welsh for little devil — is a soft hackle wet fly that has been fishing for nearly 400 years in Ireland and Wales. Mac Brown first encountered it as an eight-year-old when a skilled tobacco farmer on Camp Creek in Greene County, Tennessee handed him a handful of Red Tagged Daiwl Bachs. It remains one of the most consistently productive wet fly patterns on the delayed harvest sections of Western North Carolina."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I find a fly fishing mentor in North Carolina?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The fastest path is quality instruction from a certified professional. Mac Brown Fly Fish in Bryson City, NC offers private casting lessons, guided trips, and the week-long Fly Fishing Guide School — all built on the same philosophy of generosity with knowledge that Jim Green modeled. The best mentors ask nothing in return but genuine effort from their students."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

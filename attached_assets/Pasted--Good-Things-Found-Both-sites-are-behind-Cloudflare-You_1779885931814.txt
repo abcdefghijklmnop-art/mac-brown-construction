@@ -1,0 +1,49 @@
+✅ Good Things Found
+Both sites are behind Cloudflare — Your IPs resolve to Cloudflare's proxy network (172.67.x.x / 104.21.x.x), meaning your real server IP is hidden. This also explains why my crawler was blocked — Cloudflare's WAF is doing its job.
+TLS 1.3 is active — Both sites are using the latest, most secure version of TLS encryption.
+
+⚠️ Issues Found
+1. No SPF Record (Both Sites) — HIGH PRIORITY
+Neither domain has an SPF (Sender Policy Framework) DNS record. This means anyone can send spoofed emails that appear to come from @macbrownflyfish.com or @flyfishingguideschool.com. Phishing scams targeting your clients are a real risk.
+Fix: Add a TXT record to each domain's DNS:
+v=spf1 include:_spf.google.com ~all
+(adjust the include: based on who sends your email — Google, Outlook, etc.)
+2. No DMARC Record (Both Sites) — HIGH PRIORITY
+DMARC tells email providers what to do when SPF/DKIM fails. Without it, spoofed emails from your domain sail right through.
+Fix: Add a TXT record at _dmarc.yourdomain.com:
+v=DMARC1; p=quarantine; rua=mailto:you@yourdomain.com
+3. No CAA Record (Both Sites) — MEDIUM
+CAA (Certificate Authority Authorization) records restrict which CAs can issue SSL certs for your domain. Without one, any certificate authority in the world could issue a cert for your site (a potential attack vector).
+Fix: Add a CAA DNS record allowing only your CA (likely Let's Encrypt or Cloudflare):
+0 issue "letsencrypt.org"
+0 issue "cloudflare.com"
+
+🔍 Things to Check Manually (I Was Blocked From Crawling)
+Since Cloudflare blocked my crawler, here are the most important things to verify yourself or have a developer check:
+WordPress-specific (if applicable):
+
+Is /wp-admin/ and /wp-json/ restricted to logged-in users only?
+Are plugins and themes up to date?
+Is XML-RPC disabled? (/xmlrpc.php should return 403)
+Are user enumeration routes blocked? (/?author=1 should not reveal usernames)
+
+API Keys:
+
+Open browser DevTools → Network tab → reload the page — look for any API calls with keys visible in URLs or headers (Google Maps, booking systems, payment processors, etc.)
+View page source and search for strings like key=, api_key=, token=, secret=
+
+Booking/Payment Forms:
+
+Confirm any booking forms use HTTPS throughout
+Ensure payment processing goes through Stripe, Square, or similar (never handle raw card data yourself)
+
+Cloudflare Settings to Verify:
+
+SSL/TLS mode set to Full (Strict) — not just "Flexible"
+"Always Use HTTPS" is ON
+Bot Fight Mode is ON (this is what blocked me — good!)
+
+
+Summary Table
+Checkmacbrownflyfish.comflyfishingguideschool.comCloudflare WAF✅ Active✅ ActiveTLS 1.3✅✅Origin IP Hidden✅✅SPF Record❌ Missing❌ MissingDMARC Record❌ Missing❌ MissingCAA Record❌ Missing❌ MissingDKIM⚠️ Not checked (need access)⚠️ Not checked
+The SPF and DMARC fixes are the most urgent — they take about 5 minutes to add in Cloudflare's DNS panel and protect your clients from email spoofing. Want step-by-step instructions for adding those in Cloudflare?Sonnet 4.6

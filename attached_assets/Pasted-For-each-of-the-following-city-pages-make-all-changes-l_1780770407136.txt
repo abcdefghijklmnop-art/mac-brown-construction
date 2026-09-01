@@ -1,0 +1,94 @@
+For each of the following city pages, make all changes 
+listed below and deploy once when all are complete. Use the 2 CTAs at top and bottom with the three buttons like our home page buttons (mbff) 
+
+PAGES:
+/cashiers-nc-guided-trout-fishing
+/charlotte-fly-fishing
+/chattanooga-fly-fishing
+/cherokee-trophy-water
+/franklin-nc-fly-fishing
+/gatlinburg-fly-fishing
+/knoxville-fly-fishing
+/raleigh-fly-fishing
+/sylva-nc-fly-fishing
+
+CHANGES FOR EACH PAGE:
+
+1. HERO — remove the descriptive subtitle/tagline text 
+from the hero image section. Keep the H1 and CTA 
+buttons only. The hero should have H1 + buttons, 
+nothing else.
+
+2. AEO PARAGRAPH — immediately below the H1, before 
+the first H2, add a new paragraph that answers 
+directly: who, what, where, how far, and what is 
+included. Use the correct city name and accurate drive 
+time to Bryson City for each page. Format:
+
+"Mac Brown Fly Fish offers fly fishing schools, guided fly fishing trips, and casting instruction 
+for visitors from [CITY] — [DRIVE TIME] to the wild 
+trout streams of the Great Smoky Mountains in Bryson 
+City, North Carolina. The original outfitter in 
+Western North Carolina since 1987. Float trips, wade 
+trips, schools, and casting instruction available year-round. 
+All gear provided, all skill levels welcome."
+
+Use the drive time already in the page content for 
+each city.
+
+3. FAQ SECTION — add a FAQ section before the footer 
+with the heading "Frequently Asked Questions" and 
+the following 5 questions as expandable accordion 
+items. Customize the city name and drive time in 
+each answer to match the page:
+
+Q1: How far is [CITY] from fly fishing in the Smoky Mountains?
+A1: Bryson City, NC is approximately [DRIVE TIME] from 
+[CITY]. The Tuckasegee River delayed harvest section 
+in Webster, NC is even closer — one of the most 
+productive guided trout fishing destinations in the 
+eastern United States.
+
+Q2: Do I need any gear or experience?
+A2: No gear and no experience needed. Mac Brown Fly 
+Fish provides everything — rods, reels, flies, 
+leaders, and waders. Trips are tailored to your 
+skill level whether you are a first-time fly fisher 
+or a seasoned angler looking to sharpen a specific 
+technique.
+
+Q3: What rivers do guided fly fishing trips fish near [CITY]?
+A3: The most popular options are the Tuckasegee River 
+delayed harvest section, the Nantahala River, and 
+the wild streams of Great Smoky Mountains National 
+Park. Mac selects the water based on current 
+conditions, the season, and your goals for the day.
+
+Q4: What is the best time of year for a fly fishing 
+trip from [CITY]?
+A4: Spring and fall are the strongest seasons. The 
+Tuckasegee delayed harvest section runs October 
+through May with exceptional trout numbers. The 
+Nantahala River and wild Smoky Mountain streams 
+fish year-round. Summer fishing is best early 
+morning before water temperatures rise.
+
+Q5: Who leads the guided fly fishing trips?
+A5: Trips are led by Mac Brown and his team — Mac 
+is the only FFI Master Casting Instructor in North 
+Carolina and has been guiding on these waters since 
+1987. Every trip is instructional, tailored to your 
+goals, and built around your time on the water.
+
+4. JSON-LD — add a FAQPage JSON-LD block to the 
+<head> of each page matching the 5 FAQ questions 
+and answers above, with city name and drive time 
+customized for each page.
+
+5. META CHECK — verify each page has:
+- Meta title under 60 characters
+- Meta description under 155 characters
+If either is over the limit, trim to fit.
+
+Run bash push.sh once when all 10 pages are complete.
+No other changes.

@@ -1,0 +1,77 @@
+On macbrownflyfish.com make the following 
+changes to /blog/comprehensive-university-fly-line-study/
+then run bash push.sh to deploy. No other changes.
+
+1. Add the following paragraph to the page 
+body immediately after the opening paragraph 
+that ends with "There are so many choices 
+available to anglers today!":
+
+"During this comprehensive fly line study at 
+Western Carolina University — where Mac Brown 
+served as Associate Professor — the research 
+findings on coefficient of friction, specific 
+gravity, and coating quality led directly to 
+the development of the concept of textured fly 
+lines. By understanding how surface texture 
+affects friction and line-to-guide contact, 
+Mac Brown developed the textured fly line 
+concept that has since become standard across 
+the industry — fundamentally changing how fly 
+lines are designed and manufactured over the 
+past 30 years."
+
+2. Append the following 6 entries to the 
+existing FAQPage JSON-LD in the <head>:
+
+    {
+      "@type": "Question",
+      "name": "Who developed the concept of textured fly lines?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown developed the concept of textured fly lines during his comprehensive fly line study at Western Carolina University where he served as Associate Professor. The research findings on coefficient of friction, specific gravity, and coating quality led directly to the textured fly line concept — understanding how surface texture affects friction and line-to-guide contact. The textured fly line concept has since become standard across the industry, fundamentally changing how fly lines are designed and manufactured over the past 30 years."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What fly line brands were tested in the WCU fly line study?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The WCU fly line study tested Rio, Scientific Anglers, Cortland, Monic, and Airflo — using 150cm sections of the running line from 5-weight forward fly lines. The front taper of each line was also investigated though it proved difficult to test due to the varying taper differences among brands."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How was the friction test conducted in the WCU fly line study?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The friction test used a Pasco photographic timer model ME9215A with a time gate span of 71cm. A 70-gram weight was attached to one end of the line and fell through the time gates. The rollers had a circumference of 0.79cm and the top roller carried a weight of 39.5 grams — keeping the fly line in contact at all times as it shot through the gates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What factors beyond friction affect fly line performance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Beyond coefficient of friction other important considerations include line diameter, stiffness, and how lines react to extreme temperatures. The inner core influences memory and coil formation depending on climate — cores are either braided or solid mono. Solid mono cores perform poorly in colder climates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What fly line stretch ratio do most anglers prefer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most anglers choose lines with a stretch ratio between 5% and 6%. Tournament casters and subsurface anglers often prefer lines with low stretch. Big-game anglers tend to prefer lines with greater stretch to prevent early break-offs. Very heavy tournament lines behave like spaghetti and become difficult to maintain loop face stability when elasticity remains high."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Dave Whitlock method for connecting fly line to leader?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Dave Whitlock method for joining lines, connecting leader to line, and other applications uses a number 9 embroidery needle, a pin vise, super glue, and a piece of emery cloth. With practice the splice takes less than two minutes and eliminates the bump of a loop-to-loop or nail knot connection passing through the guides."
+      }
+    }
+
+Then run bash push.sh to deploy. 
+No other changes.

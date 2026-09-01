@@ -1,0 +1,49 @@
+one last thing, when the iphone is turned sideways to look at the new hero shot the text overlaps with other text and the screen looses most of the picture (to busy) is there a coding fix for that? 
+Yes, there is a very common coding fix for this. What you are experiencing is the classic landscape orientation bug on mobile devices.
+
+When an iPhone is turned sideways, the screen height shrinks dramatically (often to less than 400 pixels vertical space), but the browser tries to fit your massive desktop-sized text, titles, sub-lines, and buttons all into that tiny window. Everything collides, text overlaps, and the background image gets completely choked out.
+
+Since you are building with Tailwind CSS in Next.js, you can fix this cleanly using CSS media queries or Tailwind's aspect-ratio and orientation modifiers.
+
+Here are the best coding fixes to clean up the landscape view:
+
+Fix 1: Hide Less Critical Text on Mobile Landscape
+The fastest way to clean up the "busy" feeling and rescue your background photo is to hide the sub-headlines or decorative phrases only when the phone is sideways.
+
+You can use the Tailwind landscape: modifier (or a custom max-height media query) to hide elements when vertical space is tight:
+
+JavaScript
+{/* Hide the poetic phrase completely on short landscape screens */}
+<p className="hidden short:hidden md:block italic text-white">
+  Peak Season. Peak Waters.
+</p>
+(Note: If you haven't configured a custom short screen in Tailwind, you can use raw CSS or a utility class like @media (max-height: 500px) { .hide-on-landscape { display: none; } }).
+
+Fix 2: Switch the Hero Layout from "Full Screen" to "Auto Height"
+Right now, your hero container is likely hardcoded to h-screen (100vh), forcing it to fit the screen perfectly. On mobile landscape, 100vh is way too short for all that text.
+
+Change the height constraints so the container expands naturally if the text needs more room, which stops elements from crashing into each other:
+
+JavaScript
+// Change from this:
+<section className="h-screen w-full flex flex-col justify-center">
+
+// To this:
+<section className="min-h-screen h-auto md:h-screen w-full flex flex-col justify-center py-12 md:py-0">
+Why this works: min-h-screen h-auto tells the phone: "Be at least the size of the screen, but if the user turns sideways and the text wraps, grow longer vertically so nothing overlaps." The user can then cleanly scroll down to see your buttons rather than seeing them mashed over your headline.
+
+Fix 3: Reduce Font Sizes Specially for Landscape
+You can use a specific media query in your global CSS file (globals.css) to scale down the text sizes only when the screen height is short. This guarantees your fonts shrink down to a balanced size when the phone rotates:
+
+CSS
+@media (max-device-width: 932px) and (orientation: landscape) {
+  h1 {
+    font-size: 1.75rem !important; /* Shrinks the massive H1 so it takes less lines */
+    line-height: 1.2 !important;
+  }
+  .branding-header {
+    font-size: 1.1rem !important; /* Scales down Mac Brown Fly Fish slightly */
+  }
+}
+Which should you apply?
+I highly recommend a combination of Fix 1 and Fix 2. Dropping the decorative "Peak Season" line on landscape view clears up immediate real estate, and switching to h-auto on small screens prevents the text from ever overlapping again.

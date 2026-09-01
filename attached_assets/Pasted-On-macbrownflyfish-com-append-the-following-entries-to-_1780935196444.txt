@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 9.
+
+    {
+      "@type": "Question",
+      "name": "What is a perfection loop knot in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A perfection loop is a knot often used to create a loop in a piece of monofilament — frequently at the butt end of a leader for loop-to-loop connections."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is polarized sunglasses in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Polarized sunglasses have polarized lenses that block incident light and allow anglers to better see beneath the water's surface. They help eliminate glare and make spotting fish much easier — an ideal accessory for any fly angler."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a pool in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A pool is a segment of a river or stream featuring slower currents and increased depths that helps protect fish from predatory birds and animals. Pools also give fish a rest from swimming against heavier currents. When fish become stressed by rising water temperatures they migrate into pools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is presentation in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Presentation is the act of casting the fly onto the water and offering it to the fish — with the objective of presenting the fly in a manner similar to the natural insect or food form being imitated. The variety of presentations is infinite and changes with each fishing situation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a pupa in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The pupa is the transition stage between the larva and the adult in insects. To fly fishers caddis pupa are very important and are the most significant of the aquatic insects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a reach cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A reach cast is used for adding extra slack in the line or when fishing downstream to provide a more natural float."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a redd in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A redd is a hollow scooped in the sand or gravel of a riverbed by breeding trout or salmon as a spawning area."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a riffle in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A riffle is a quickened flow of water over smaller rocks or gravel at the head or tail of a pool — often a foot or less deep in late season. Riffles can be very productive when fished with a two-fly rig, often nymphs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a rise in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rise forms are the patterns a trout makes as it takes a fly. There are several distinctive rise forms including sipping rises, jumping rises, and tailing rises."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is rod action in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rod action is an important characteristic of fly rods that helps you feel the cast better. Rod actions are typically fast, medium, or slow. Fast-action rods bend primarily at the tip enabling higher line speeds. Medium-action rods are ideal for overall freshwater fly fishing. Slow-action rods flex along their entire length and better protect lighter tippets."
+      }
+    }
+
+Confirm saved. Stand by for Paste 9.

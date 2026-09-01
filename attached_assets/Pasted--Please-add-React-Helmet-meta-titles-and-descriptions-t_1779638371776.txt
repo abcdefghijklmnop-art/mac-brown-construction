@@ -1,0 +1,285 @@
+"Please add React Helmet meta titles and descriptions to every page component listed below. If react-helmet is not already installed, install it and import { Helmet } at the top of each page component. Add the Helmet block at the top of each page's return statement.
+Here are all the pages and their meta content:
+Home — /
+jsx<Helmet>
+  <title>Fly Fishing Guide Trips & Schools in the Smoky Mountains | Mac Brown Fly Fish</title>
+  <meta name="description" content="Book guided fly fishing trips, casting schools, and clinics on the Tuckasegee River and throughout Western North Carolina. Expert instruction since 1987." />
+</Helmet>
+Bio / About — /bio-mac-brown
+jsx<Helmet>
+  <title>Meet Mac Brown — Master Fly Casting Instructor & Guide | Mac Brown Fly Fish</title>
+  <meta name="description" content="Mac Brown is one of America's most decorated fly casting instructors, with decades of guiding and teaching experience in the Smoky Mountains of Western North Carolina." />
+</Helmet>
+Programs Overview — /programs-overview
+jsx<Helmet>
+  <title>Fly Fishing Guided Trips, Schools & Clinics in WNC | Mac Brown Fly Fish</title>
+  <meta name="description" content="Explore guided wade trips, float trips, fly casting schools, and specialty clinics in the Smoky Mountains. Something for every skill level — beginner to advanced." />
+</Helmet>
+Contact — /contact
+jsx<Helmet>
+  <title>Contact Mac Brown Fly Fish — Book a Trip or Ask a Question</title>
+  <meta name="description" content="Ready to fish the Smokies? Contact Mac Brown Fly Fish to book a guided trip, casting school, or clinic in Western North Carolina." />
+</Helmet>
+Blog — /blog
+jsx<Helmet>
+  <title>From the River — Fly Fishing Tips, Reports & Techniques | Mac Brown Fly Fish</title>
+  <meta name="description" content="Hatch reports, casting tips, gear guides, and fly fishing techniques from Mac Brown and the team. Updated regularly from the rivers of Western North Carolina." />
+</Helmet>
+Testimonials — /testimonials-kudos
+jsx<Helmet>
+  <title>What Clients Say — Reviews & Testimonials | Mac Brown Fly Fish</title>
+  <meta name="description" content="Hear from anglers who have fished and studied with Mac Brown. Guided trips, casting schools, and clinics in the Smoky Mountains." />
+</Helmet>
+Events Calendar — /events-calendar
+jsx<Helmet>
+  <title>2026 Fly Fishing Shows, Events & School Schedule | Mac Brown Fly Fish</title>
+  <meta name="description" content="Find Mac Brown at fly fishing shows, expos, and events throughout 2026. View the full schedule and book your school or guided trip today." />
+</Helmet>
+Photo Gallery — /photo-gallery
+jsx<Helmet>
+  <title>Fly Fishing Photo Gallery — Smoky Mountains & WNC | Mac Brown Fly Fish</title>
+  <meta name="description" content="Browse photos from guided trips, casting schools, and fly fishing adventures throughout Western North Carolina and the Great Smoky Mountains." />
+</Helmet>
+Mission Statement — /mission-statement
+jsx<Helmet>
+  <title>Our Mission — Fly Fishing Education & Conservation | Mac Brown Fly Fish</title>
+  <meta name="description" content="Mac Brown Fly Fish is committed to world-class fly fishing instruction, conservation of wild trout waters, and sharing the joy of fly fishing with every angler." />
+</Helmet>
+Certifications — /fly-fishing-certifications
+jsx<Helmet>
+  <title>Fly Fishing & Casting Certifications — Mac Brown's Credentials | Mac Brown Fly Fish</title>
+  <meta name="description" content="Mac Brown holds some of the highest fly casting certifications in the world. Learn about his credentials, affiliations, and teaching qualifications." />
+</Helmet>
+Gift Certificates — /gift-certificates
+jsx<Helmet>
+  <title>Fly Fishing Gift Certificates — The Perfect Angler's Gift | Mac Brown Fly Fish</title>
+  <meta name="description" content="Give the gift of fly fishing. Mac Brown Fly Fish gift certificates are redeemable for guided trips, casting schools, and clinics in the Smoky Mountains." />
+</Helmet>
+Sponsors — /sponsors
+jsx<Helmet>
+  <title>Our Sponsors & Partners | Mac Brown Fly Fish</title>
+  <meta name="description" content="Mac Brown Fly Fish is proud to partner with leading fly fishing brands and conservation organizations. Meet our sponsors." />
+</Helmet>
+Waiver — /waiver-release
+jsx<Helmet>
+  <title>Liability Waiver & Release Form | Mac Brown Fly Fish</title>
+  <meta name="description" content="Complete your liability waiver and release form before your guided trip or fly fishing school with Mac Brown Fly Fish." />
+</Helmet>
+Podcasts — /podcasts
+jsx<Helmet>
+  <title>Fly Fishing Podcasts & Interviews | Mac Brown Fly Fish</title>
+  <meta name="description" content="Listen to Mac Brown on fly fishing podcasts covering casting technique, guide life, trout fishing in the Smokies, and more." />
+</Helmet>
+Fly Casting Instruction — /fly-casting-instruction
+jsx<Helmet>
+  <title>Fly Casting Instruction & Lessons in the Smoky Mountains | Mac Brown Fly Fish</title>
+  <meta name="description" content="Learn to cast from one of America's top certified fly casting instructors. Private and group lessons available on the rivers of Western North Carolina." />
+</Helmet>
+Online Lessons — /online-fly-casting-lessons
+jsx<Helmet>
+  <title>Online Fly Casting Lessons — Learn From Home | Mac Brown Fly Fish</title>
+  <meta name="description" content="Can't make it to the Smokies? Book an online fly casting lesson with Mac Brown and improve your cast from anywhere in the world." />
+</Helmet>
+Guide School — /fly-fishing-guide-school
+jsx<Helmet>
+  <title>Fly Fishing Guide School — Professional Guide Training | Mac Brown Fly Fish</title>
+  <meta name="description" content="Launch your guiding career with professional fly fishing guide school training in Western North Carolina. Curriculum covers casting, entomology, rowing, and business." />
+</Helmet>
+Weekend Schools — /smoky-mountain-weekend-schools
+jsx<Helmet>
+  <title>Smoky Mountain Weekend Fly Fishing Schools | Mac Brown Fly Fish</title>
+  <meta name="description" content="Immersive weekend fly fishing schools on the rivers of the Great Smoky Mountains. All skill levels welcome. Book your spot today." />
+</Helmet>
+Dry Fly Clinic — /dry-fly-clinic
+jsx<Helmet>
+  <title>Dry Fly Fishing Clinic — Smokies Trout on Top | Mac Brown Fly Fish</title>
+  <meta name="description" content="Master dry fly fishing for wild trout in the Smoky Mountains. Learn presentation, drift, and fly selection in a hands-on clinic setting." />
+</Helmet>
+Wet Fly Clinic — /wet-fly-clinic
+jsx<Helmet>
+  <title>Wet Fly Fishing Clinic — Classic Techniques for Smoky Mountain Trout | Mac Brown Fly Fish</title>
+  <meta name="description" content="Learn traditional and modern wet fly techniques for trout in Western North Carolina. Small group clinic with expert instruction." />
+</Helmet>
+Nymph Clinic — /nymph-fishing-clinic
+jsx<Helmet>
+  <title>Nymph Fishing Clinic — Euro & Traditional Nymphing | Mac Brown Fly Fish</title>
+  <meta name="description" content="Take your nymph fishing to the next level. Mac Brown's nymph clinic covers Euro nymphing, indicator fishing, and reading the water in the Smoky Mountains." />
+</Helmet>
+Streamer Clinic — /streamer-clinic
+jsx<Helmet>
+  <title>Streamer Fishing Clinic — Big Flies, Big Trout | Mac Brown Fly Fish</title>
+  <meta name="description" content="Hunt trophy trout with streamers on the rivers of Western North Carolina. Mac Brown's streamer clinic covers fly selection, retrieves, and reading water." />
+</Helmet>
+Masterclass — /masterclass-fly-casting-workshop
+jsx<Helmet>
+  <title>Master Fly Casting Workshop — Elite Instruction | Mac Brown Fly Fish</title>
+  <meta name="description" content="An intensive fly casting masterclass for serious anglers. Improve accuracy, distance, and presentation with one of America's top certified casting instructors." />
+</Helmet>
+2-Day Casting School — /advanced-2-day-fly-casting-school
+jsx<Helmet>
+  <title>Advanced 2-Day Fly Casting School | Mac Brown Fly Fish</title>
+  <meta name="description" content="Two full days of advanced fly casting instruction in the Smoky Mountains. Perfect for experienced anglers ready to sharpen their technique." />
+</Helmet>
+Spey Clinic — /spey-elite-casting-clinic
+jsx<Helmet>
+  <title>Spey Casting Clinic — Two-Handed Fly Casting | Mac Brown Fly Fish</title>
+  <meta name="description" content="Learn Spey and switch rod casting techniques with expert instruction in Western North Carolina. Clinic covers anchors, D-loops, and river application." />
+</Helmet>
+Saltwater Masterclass — /saltwater-fly-casting-elite-masterclass-workshop
+jsx<Helmet>
+  <title>Saltwater Fly Casting Masterclass — Distance & Accuracy | Mac Brown Fly Fish</title>
+  <meta name="description" content="Prepare for saltwater fly fishing with elite casting instruction. Mac Brown's saltwater masterclass covers wind casting, distance, and accuracy under pressure." />
+</Helmet>
+River Navigation Academy — /river-navigation-academy
+jsx<Helmet>
+  <title>River Navigation & Rowing Academy — Drift Boat Skills | Mac Brown Fly Fish</title>
+  <meta name="description" content="Learn to safely navigate and row a drift boat on moving water. Mac Brown's river navigation academy covers oar technique, reading currents, and boat positioning." />
+</Helmet>
+All Guided Trips — /instructional-guided-trips
+jsx<Helmet>
+  <title>Instructional Guided Fly Fishing Trips in the Smoky Mountains | Mac Brown Fly Fish</title>
+  <meta name="description" content="Every guided trip is a learning experience. Book an instructional guided fly fishing trip in Western North Carolina — wade, float, or lake. All skill levels welcome." />
+</Helmet>
+Float Trips — /instructional-float-trips
+jsx<Helmet>
+  <title>Guided Fly Fishing Float Trips — Drift Boat on WNC Rivers | Mac Brown Fly Fish</title>
+  <meta name="description" content="Float the Tuckasegee, Nantahala, and other Western North Carolina rivers with an expert guide. Instructional drift boat trips for all skill levels." />
+</Helmet>
+Wade Trips — /instructional-wade-trips
+jsx<Helmet>
+  <title>Guided Wade Fly Fishing Trips in the Smoky Mountains | Mac Brown Fly Fish</title>
+  <meta name="description" content="Wade fish the wild trout streams of Western North Carolina with an expert guide. Instructional wade trips tailored to your skill level and goals." />
+</Helmet>
+Lake Trips — /instructional-lake-trips
+jsx<Helmet>
+  <title>Guided Lake Fly Fishing Trips — Smoky Mountain Lakes | Mac Brown Fly Fish</title>
+  <meta name="description" content="Fly fish the lakes of the Smoky Mountains for bass, trout, and more. Guided instructional lake trips with Mac Brown Fly Fish." />
+</Helmet>
+NC Trout Fishing — /trout-fishing-nc
+jsx<Helmet>
+  <title>North Carolina Trout Fishing — Wild & Stocked Streams | Mac Brown Fly Fish</title>
+  <meta name="description" content="North Carolina is home to some of the best trout fishing in the Eastern US. Explore wild brook, brown, and rainbow trout waters with Mac Brown Fly Fish." />
+</Helmet>
+Group & Corporate — /group-corporate-fly-fishing
+jsx<Helmet>
+  <title>Group & Corporate Fly Fishing Trips in the Smokies | Mac Brown Fly Fish</title>
+  <meta name="description" content="Plan a corporate outing or group fly fishing experience in Western North Carolina. Custom packages for teams, clients, and special events." />
+</Helmet>
+Seminars — /fly-fishing-seminars
+jsx<Helmet>
+  <title>Fly Fishing Seminars & Presentations | Mac Brown Fly Fish</title>
+  <meta name="description" content="Book Mac Brown for a fly fishing seminar, club presentation, or educational event. Topics include casting, entomology, tactics, and guide school preparation." />
+</Helmet>
+Asheville — /asheville-nc-guided-trout-fishing-trips
+jsx<Helmet>
+  <title>Asheville NC Guided Fly Fishing Trips — Smoky Mountain Trout | Mac Brown Fly Fish</title>
+  <meta name="description" content="Fly fishing guide trips near Asheville, NC. Fish wild trout streams in the Blue Ridge Mountains with an expert guide from Mac Brown Fly Fish." />
+</Helmet>
+Highlands NC — /highlands-nc-fly-fishing
+jsx<Helmet>
+  <title>Highlands NC Fly Fishing Guide Trips — Wild Trout Waters | Mac Brown Fly Fish</title>
+  <meta name="description" content="Guided fly fishing trips near Highlands, NC. Fish gin-clear mountain streams for wild trout with Mac Brown Fly Fish in the Southern Appalachians." />
+</Helmet>
+Cashiers NC — /cashiers-nc-guided-trout-fishing
+jsx<Helmet>
+  <title>Cashiers NC Guided Fly Fishing Trips — Trout Streams | Mac Brown Fly Fish</title>
+  <meta name="description" content="Book a guided fly fishing trip near Cashiers, NC. Expert instruction and access to some of the best wild trout water in Western North Carolina." />
+</Helmet>
+Franklin NC — /franklin-nc-fly-fishing
+jsx<Helmet>
+  <title>Franklin NC Fly Fishing Guide Trips — Nantahala & Beyond | Mac Brown Fly Fish</title>
+  <meta name="description" content="Guided fly fishing trips near Franklin, NC on the Nantahala River and surrounding mountain streams. Book with Mac Brown Fly Fish today." />
+</Helmet>
+Cherokee Trophy Water — /cherokee-trophy-water
+jsx<Helmet>
+  <title>Cherokee Trophy Trout Water — Guided Fly Fishing | Mac Brown Fly Fish</title>
+  <meta name="description" content="Fish the world-famous Cherokee Trophy Water with an expert guide. Some of the largest trout in the Eastern US live in these tailwater fisheries." />
+</Helmet>
+Sylva NC — /sylva-nc-fly-fishing
+jsx<Helmet>
+  <title>Sylva NC Fly Fishing — Tuckasegee River Guide Trips | Mac Brown Fly Fish</title>
+  <meta name="description" content="Guided fly fishing trips near Sylva, NC on the Tuckasegee River and surrounding waters. Expert instruction with Mac Brown Fly Fish." />
+</Helmet>
+Bryson City Beginners — /learn-to-fly-fish-bryson-city
+jsx<Helmet>
+  <title>Learn to Fly Fish in Bryson City NC — Beginner Lessons | Mac Brown Fly Fish</title>
+  <meta name="description" content="Never fly fished before? Start here. Beginner fly fishing lessons in Bryson City, NC with patient, expert instruction from Mac Brown Fly Fish." />
+</Helmet>
+Atlanta — /atlanta-fly-fishing
+jsx<Helmet>
+  <title>Fly Fishing Trips Near Atlanta — Smoky Mountain Guide | Mac Brown Fly Fish</title>
+  <meta name="description" content="Atlanta anglers — the Smoky Mountains are just 2 hours away. Book a guided fly fishing trip with Mac Brown Fly Fish in Western North Carolina." />
+</Helmet>
+Knoxville — /knoxville-fly-fishing
+jsx<Helmet>
+  <title>Fly Fishing Trips Near Knoxville — Smoky Mountain Guide | Mac Brown Fly Fish</title>
+  <meta name="description" content="Knoxville anglers are minutes from world-class trout water. Book a guided fly fishing trip with Mac Brown Fly Fish in the Great Smoky Mountains." />
+</Helmet>
+Gatlinburg — /gatlinburg-fly-fishing
+jsx<Helmet>
+  <title>Gatlinburg Fly Fishing Guide Trips — Smoky Mountain Trout | Mac Brown Fly Fish</title>
+  <meta name="description" content="Guided fly fishing trips in and around Gatlinburg, TN. Fish the wild streams of the Great Smoky Mountains with Mac Brown Fly Fish." />
+</Helmet>
+Raleigh — /raleigh-fly-fishing
+jsx<Helmet>
+  <title>Fly Fishing Trips Near Raleigh NC — Smoky Mountain Guide | Mac Brown Fly Fish</title>
+  <meta name="description" content="Raleigh anglers — escape to the mountains. Book a guided fly fishing trip with Mac Brown Fly Fish in Western North Carolina." />
+</Helmet>
+Charlotte — /charlotte-fly-fishing
+jsx<Helmet>
+  <title>Fly Fishing Trips Near Charlotte NC — Smoky Mountain Guide | Mac Brown Fly Fish</title>
+  <meta name="description" content="Charlotte is just 3 hours from the best trout fishing in the East. Book a guided fly fishing trip with Mac Brown Fly Fish in the Smoky Mountains." />
+</Helmet>
+Chattanooga — /chattanooga-fly-fishing
+jsx<Helmet>
+  <title>Fly Fishing Trips Near Chattanooga — Smoky Mountain Guide | Mac Brown Fly Fish</title>
+  <meta name="description" content="Chattanooga anglers — the Smoky Mountains are right next door. Book a guided fly fishing trip with Mac Brown Fly Fish in Western North Carolina." />
+</Helmet>
+WNC Fly Fishing Trail — /wnc-fly-fishing-trail
+jsx<Helmet>
+  <title>Western NC Fly Fishing Trail — Rivers, Streams & Access | Mac Brown Fly Fish</title>
+  <meta name="description" content="Explore the Western North Carolina Fly Fishing Trail. Find rivers, public access points, and guided trip options with Mac Brown Fly Fish." />
+</Helmet>
+McLeod's — /mcleods-highland-fly-fishing
+jsx<Helmet>
+  <title>McLeod's Highland Fly Fishing — Private Water Experience | Mac Brown Fly Fish</title>
+  <meta name="description" content="Fish McLeod's exclusive highland waters with Mac Brown Fly Fish. A unique private water fly fishing experience in the Southern Appalachians." />
+</Helmet>
+Hatch Chart — /bryson-city-fly-fishing-report-hatch-chart
+jsx<Helmet>
+  <title>Bryson City Fly Fishing Report & Hatch Chart | Mac Brown Fly Fish</title>
+  <meta name="description" content="Current fly fishing conditions, hatch activity, and fly recommendations for Bryson City and Western North Carolina. Updated regularly by Mac Brown Fly Fish." />
+</Helmet>
+Casting Angles — /casting-angles
+jsx<Helmet>
+  <title>Fly Casting Angles — Understanding Trajectory & Presentation | Mac Brown Fly Fish</title>
+  <meta name="description" content="Learn how casting angles affect your fly presentation and drift. Expert instruction from Mac Brown on one of fly casting's most misunderstood fundamentals." />
+</Helmet>
+Fly Casting Glossary — /blog/fly-casting-definitions-glossary-terminology
+jsx<Helmet>
+  <title>Fly Casting Terms & Definitions — Complete Glossary | Mac Brown Fly Fish</title>
+  <meta name="description" content="Every fly casting term explained clearly. From loop shape to hauling, this complete glossary covers the language of fly casting for beginners and advanced anglers alike." />
+</Helmet>
+Fly Fishing Glossary — /blog/fly-fishing-terms-glossary-definitions
+jsx<Helmet>
+  <title>Fly Fishing Terms & Definitions — Complete Glossary | Mac Brown Fly Fish</title>
+  <meta name="description" content="New to fly fishing? This complete glossary covers every term you need to know — from tippet to tailwater, hatch to mend. Learn the language of fly fishing." />
+</Helmet>
+How to Set the Hook — /blog/learn-to-set-the-hook-fly-fishing-trout
+jsx<Helmet>
+  <title>How to Set the Hook Fly Fishing for Trout (And Why Most Anglers Miss) | Mac Brown Fly Fish</title>
+  <meta name="description" content="Missing strikes? Learn exactly how to set the hook fly fishing for trout — timing, rod angle, and the most common mistakes. Expert tips from Mac Brown." />
+</Helmet>
+Leader Construction — /blog/learn-leader-construction
+jsx<Helmet>
+  <title>How to Build a Fly Fishing Leader — Formulas & Step-by-Step | Mac Brown Fly Fish</title>
+  <meta name="description" content="Learn how to tie and build your own fly fishing leaders from scratch. Includes Mac Brown's proven leader formulas for trout streams in the Smoky Mountains." />
+</Helmet>
+Barbless Hooks — /blog/barbless-hooks-increase-your-catch
+jsx<Helmet>
+  <title>Do Barbless Hooks Really Increase Your Catch Rate? | Mac Brown Fly Fish</title>
+  <meta name="description" content="The truth about barbless hooks — do they actually improve catch rates? Mac Brown breaks down the science, the myths, and when to go barbless in the Smokies." />
+</Helmet>
+Please add the correct Helmet block to each matching page component."
+
+That's everything. One paste, Replit does all the work. After that your launch checklist is down to just three things — redirects, the PDF in /public, and submitting the sitemap to Google Search Console.You said: do i really have to do all of these one at a time?

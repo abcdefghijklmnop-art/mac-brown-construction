@@ -1,0 +1,162 @@
+You're right — the page is at `/blog/instructional-methods-art-dry-fly-fishing/` not the nested WordPress URL. Here's the corrected command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/instructional-methods-art-dry-fly-fishing/
+
+AEO — add immediately below H1:
+"Instructional methods for dry fly fishing 
+are becoming increasingly rare as nymphing 
+and tight-line techniques dominate the sport 
+— but dry fly fishing remains the pinnacle 
+of the fly fishing experience. Mac Brown 
+has been teaching dry fly presentation in 
+Bryson City, NC since the mid-1980s using 
+curve casts, pile casts, and reach mends 
+as the foundation of every dry fly lesson. 
+The three delivery methods for dry fly 
+fishing are curve cast right, curve cast 
+left, and pile cast — a straight cast to 
+a rising fish is the least common and least 
+effective of all presentations. Most casting 
+strokes on the stream should be a setup 
+move followed immediately by a delivery 
+cast. Look more and cast less."
+
+FAQ — add before footer as expandable 
+accordion:
+
+Q1: What are the most important 
+skills for dry fly fishing?
+A1: Three casting skills form the 
+foundation of dry fly fishing — curve 
+cast right, curve cast left, and pile 
+cast. These three delivery methods 
+solve the majority of presentation 
+problems on any stream. A straight 
+cast to a rising fish is the least 
+common and least effective approach. 
+Add reach mends for dealing with 
+conflicting currents and single-handed 
+Spey casts for changing direction in 
+tight cover without back casts. Master 
+these and the dry fly game opens 
+completely.
+
+Q2: Why is dry fly fishing declining 
+in popularity?
+A2: At some point in the mid-1990s 
+interest in dry fly fishing began to 
+wane — driven by generation differences, 
+heavily stocked waters that reward 
+nymphing over surface presentations, 
+and the instant gratification appeal 
+of tight-line nymphing that produces 
+fish at close range with minimal casting 
+skill. Dry fly fishing rewards patience, 
+precision, and developed casting skills 
+— attributes that take time to develop 
+and are increasingly rare in the sport.
+
+Q3: How do you achieve a drag-free 
+drift with a dry fly?
+A3: Very few fly fishers have truly 
+mastered drag-free drift — it requires 
+correct leader length (minimum 15 feet), 
+proper casting angle, immediate upstream 
+mend before drag sets in, and the ability 
+to execute curve and pile casts that build 
+slack into the presentation before the 
+fly lands. Slow down your approach. Look 
+more and cast less. Identify the fish and 
+the current seams between you and the fish 
+before making a single cast. Most casting 
+strokes on the stream should be a setup 
+move followed by a single delivery cast.
+
+Q4: How do you dry a fly quickly 
+between presentations?
+A4: Initiate each dry fly pickup using 
+small up-and-down motions, side-to-side 
+movements, or small circles before the 
+back cast — this flings water out of 
+the fly instantly and dramatically 
+improves floatation on the next 
+presentation. Treat flies with Frogs 
+Fanny or Dry Magic before fishing and 
+reapply after each fish. CDC patterns 
+and CDC-treated flies are the most 
+naturally water-resistant dry fly 
+materials available.
+
+Q5: Where can I learn dry fly fishing 
+techniques in the Smoky Mountains?
+A5: Mac Brown Fly Fish in Bryson City, 
+NC offers the Comprehensive Dry Fly 
+Clinic — a two-day program on the 
+Tuckasegee River covering drag-free 
+drift, curve and pile casts, reach 
+mends, leader design, hatch matching, 
+and the full range of dry fly 
+presentation techniques. Private wade 
+trips focused specifically on dry fly 
+presentation are also available 
+year-round — one of the fastest ways 
+to improve your dry fly game in real 
+fishing conditions on real trout water.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the most important skills for dry fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three casting skills form the foundation of dry fly fishing — curve cast right, curve cast left, and pile cast. These three delivery methods solve the majority of presentation problems on any stream. A straight cast to a rising fish is the least common and least effective approach. Add reach mends for conflicting currents and single-handed Spey casts for changing direction in tight cover without back casts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is dry fly fishing declining in popularity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At some point in the mid-1990s interest in dry fly fishing began to wane — driven by generation differences, heavily stocked waters that reward nymphing, and the instant gratification appeal of tight-line nymphing. Dry fly fishing rewards patience, precision, and developed casting skills — attributes that take time to develop and are increasingly rare in the sport."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you achieve a drag-free drift with a dry fly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Very few fly fishers have truly mastered drag-free drift — it requires correct leader length (minimum 15 feet), proper casting angle, immediate upstream mend before drag sets in, and the ability to execute curve and pile casts that build slack into the presentation before the fly lands. Slow down your approach. Look more and cast less. Most casting strokes on the stream should be a setup move followed by a single delivery cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you dry a fly quickly between presentations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Initiate each dry fly pickup using small up-and-down motions, side-to-side movements, or small circles before the back cast — this flings water out of the fly instantly and dramatically improves floatation on the next presentation. Treat flies with Frogs Fanny or Dry Magic before fishing and reapply after each fish. CDC patterns are the most naturally water-resistant dry fly materials available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn dry fly fishing techniques in the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers the Comprehensive Dry Fly Clinic — a two-day program on the Tuckasegee River covering drag-free drift, curve and pile casts, reach mends, leader design, hatch matching, and the full range of dry fly presentation techniques. Private wade trips focused specifically on dry fly presentation are also available year-round."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

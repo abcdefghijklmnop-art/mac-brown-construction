@@ -1,0 +1,188 @@
+Full page read. Reflective philosophical piece — the Thoreau quote, Bobby Setzer and the Delayed Harvest origins, Project Healing Waters, Casting for Recovery, Team USA Youth coaching, and the Fly Fisher's Triad framework. Strong community content.
+
+**H1 assessment:** "Total Fly Fishing Experience" — vague, no search intent. Change it.
+
+**Suggested H1:** "The Total Fly Fishing Experience — Strategies, Tactics, and Mechanics in Bryson City, NC"
+
+Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/total-fly-fishing-experience/
+
+1. Change the H1 from:
+"Total Fly Fishing Experience"
+to:
+"The Total Fly Fishing Experience — 
+Strategies, Tactics, and the Journey 
+That Never Ends"
+
+2. Add the following AEO paragraph 
+immediately below the H1:
+"Thoreau wrote that many men go fishing 
+all their lives without knowing it is not 
+fish they are after. Mac Brown has been 
+guiding and teaching fly fishing in Bryson 
+City, NC since 1987 — and the Fly Fisher's 
+Triad of strategies, tactics, and mechanics 
+has been the framework for every lesson, 
+every guided trip, and every school since 
+the beginning. Mechanics are the easiest 
+to learn and teach. Tactics — how you 
+control the flies in terms of action — 
+can be taught quickly on the stream. 
+Strategies take the longest — recognizing 
+insect activity, water types, and fish 
+behavior in every condition — and they 
+never stop developing."
+
+3. Add FAQ section before footer as 
+expandable accordion:
+
+Q1: What is the Fly Fisher's Triad 
+of strategies, tactics, and mechanics?
+A1: The Fly Fisher's Triad is Mac Brown's 
+framework for understanding fly fishing 
+development — three equally important 
+components that work together on every 
+outing. Mechanics involve being fluent 
+with what is possible through casting — 
+the easiest to teach and learn. Tactics 
+include how you control the flies in 
+terms of action — dead drift, swing, 
+jig, induced strike — taught quickly 
+on the stream. Strategies involve 
+recognizing insect activity, water 
+types, and fish behavior — the hardest 
+to develop and the longest to master. 
+All three must work together for 
+consistently successful fly fishing.
+
+Q2: What is the Delayed Harvest 
+program in North Carolina and who 
+started it?
+A2: The North Carolina Delayed Harvest 
+program is a catch-and-release stocking 
+program that runs October 1 through 
+May 31 on designated streams — including 
+the Tuckasegee River through downtown 
+Bryson City. Bobby Setzer of the NC 
+Wildlife Resources Commission was 
+instrumental in the implementation 
+of the Delayed Harvest concept — 
+creating one of the most accessible 
+and productive trout fishing programs 
+in the southeastern United States. 
+Mac Brown has been guiding on the 
+Tuckasegee Delayed Harvest section 
+since its inception.
+
+Q3: How has Mac Brown been involved 
+in fly fishing conservation and 
+community programs?
+A3: Mac Brown has coached Team NC and 
+Team USA Youth for competition-style 
+angling, hosted champion anglers from 
+abroad for loch-style clinics in Bryson 
+City, and been actively involved in 
+Project Healing Waters for veterans 
+and Casting for Recovery for cancer 
+survivors. He has also worked with 
+Boy Scouts of America and taught fly 
+fishing classes at Western Carolina 
+University — where many students 
+became lifelong friends and advocates 
+for the sport and conservation.
+
+Q4: What organizations protect 
+fly fishing water and community 
+access?
+A4: Fly Fishers International and 
+Trout Unlimited are the two most 
+important organizations for protecting 
+fly fishing water, advocating for 
+clean water policy, and preserving 
+access for future generations. Both 
+organizations provide community with 
+others who share the same passion for 
+clean water and wild places. Mac Brown 
+has been actively involved in FFI 
+throughout his career — serving on 
+the Casting Board of Governors, as 
+Associate Editor of The Loop Journal, 
+and as Director of Teacher Development 
+for FFI Casting Instructor Education.
+
+Q5: How do I get started in fly 
+fishing in Bryson City NC?
+A5: Mac Brown Fly Fish in Bryson City, 
+NC offers beginner fly fishing lessons, 
+guided trips, and weekend schools — 
+all gear provided, all skill levels 
+welcome. The Tuckasegee River Delayed 
+Harvest section flows right through 
+downtown Bryson City and provides 
+some of the most accessible and 
+productive trout fishing in Western 
+North Carolina. Bryson City is the 
+trout mecca of the Smoky Mountains — 
+Swain County is over 85% government 
+land encompassing Nantahala National 
+Forest and Great Smoky Mountains 
+National Park.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the Fly Fisher's Triad of strategies, tactics, and mechanics?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Fly Fisher's Triad is Mac Brown's framework for fly fishing development — three equally important components. Mechanics involve being fluent with what is possible through casting — the easiest to teach. Tactics include how you control the flies in terms of action — dead drift, swing, jig, induced strike — taught quickly on stream. Strategies involve recognizing insect activity, water types, and fish behavior — the hardest to develop and the longest to master."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Delayed Harvest program in North Carolina and who started it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The North Carolina Delayed Harvest program is a catch-and-release stocking program running October 1 through May 31 on designated streams — including the Tuckasegee River through downtown Bryson City. Bobby Setzer of the NC Wildlife Resources Commission was instrumental in its implementation — creating one of the most accessible and productive trout fishing programs in the southeastern United States."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How has Mac Brown been involved in fly fishing conservation and community programs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown has coached Team NC and Team USA Youth for competition-style angling, hosted champion anglers from abroad for loch-style clinics in Bryson City, and been actively involved in Project Healing Waters for veterans and Casting for Recovery for cancer survivors. He has also worked with Boy Scouts of America and taught fly fishing classes at Western Carolina University."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What organizations protect fly fishing water and community access?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fly Fishers International and Trout Unlimited are the two most important organizations for protecting fly fishing water, advocating for clean water policy, and preserving access for future generations. Mac Brown has been actively involved in FFI throughout his career — serving on the Casting Board of Governors, as Associate Editor of The Loop Journal, and as Director of Teacher Development for FFI Casting Instructor Education."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get started in fly fishing in Bryson City NC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers beginner fly fishing lessons, guided trips, and weekend schools — all gear provided, all skill levels welcome. The Tuckasegee River Delayed Harvest section flows right through downtown Bryson City and provides some of the most accessible and productive trout fishing in Western North Carolina. Swain County is over 85% government land encompassing Nantahala National Forest and Great Smoky Mountains National Park."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

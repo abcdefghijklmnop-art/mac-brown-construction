@@ -1,0 +1,66 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 5.
+
+    {
+      "@type": "Question",
+      "name": "What is a mend in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A mend is a form of sweep used for manipulating the fly line in air or water to create or remove slack in order to achieve the desired result with line layout. An upstream mend slows the fly down to match the current. A downstream mend speeds it up. Mending immediately after the cast lands — before drag sets in — is the most critical timing element in dry fly and nymph fishing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is micro drag in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Micro drag is subtle drag where the tippet has increased tension causing the fly to move at a minutely different speed and direction from the current. Fish detect micro drag and refuse flies that appear natural to the naked eye. Achieving truly drag-free drift requires leader length, proper mending, and casting angles that minimize line in conflicting currents."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is modulus in fly rod construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Modulus measures the resistance of a material to elastic deformation under load — in fly casting it refers to the rod's stiffness relative to its weight. Higher modulus graphite is stiffer and lighter for the same diameter blank. Higher modulus generally means smaller rod diameter, higher frequency, and faster action. The evolution from fiberglass to graphite-3 to graphite-4 has increased modulus with each generation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a narrow loop in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A narrow loop typically has a distance between the fly and rod leg of fewer than two feet — since the loop is always changing this is a rough average. Narrow loops are more aerodynamically efficient, cut through wind better, and deliver more energy to the leader at turnover. They are produced by a straighter rod tip path and smoother acceleration."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is negative force in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Negative force is a reduction of the net forces applied throughout the stroke — either by releasing slack into the system or decreasing force toward the end of the casting stroke. The loop never fully turns over — characteristic of negative force casts used for pile casts, slack leader presentations, and certain curve casts where the fly needs to land with controlled slack."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an open loop in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An open loop has a large displacement between the fly and rod legs of the loop — also called a curved line or non-parallel loop. It is a casting fault if the caster attempts a straight hand-rod path. It is normal for rotary hand-rod paths using negative force casts. Open loops are used deliberately for certain presentation casts and curve casts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is optimal line length in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Optimal line length is the distance of fly line at which the caster has the ability and skill level to control when making the cast. To find your optimal line limit, perform several false casts and find the line distance you can control with confidence. Beginners benefit from marking this point with a nail knot for reference during practice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is overhang in fly casting?",

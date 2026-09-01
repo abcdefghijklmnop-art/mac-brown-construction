@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 6.
+
+    {
+      "@type": "Question",
+      "name": "What is a freestone stream in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A freestone stream has a significant gradient resulting in medium to fast-moving water. Although the upper reaches may be spring-fed the vast majority of its flow comes from run-off or tributaries. The fast-moving water inhibits the growth of weeds resulting in a free stone bottom. Less fertile than spring creeks, freestone streams have smaller and less diverse aquatic insect populations — fewer bugs in faster water usually result in fewer but more opportunistic trout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is gel-spun polyethylene in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gel-spun polyethylene is a synthetic fiber that is extremely thin, supple, slippery, abrasion-resistant, and strong — stronger than steel for its size. It is often used as braided fly line backing where large amounts of backing are needed and space on the reel is limited."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is graphite in fly rod construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Graphite is the most popular rod-building material in use today — offering the best weight, strength, and flex ratio of any rod building material currently available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the grid method in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The grid is the method of sectioning off likely fish-holding lies and working all of them methodically — regardless of tactics including streamers, dries, wets, and nymphs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a hackle in fly tying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hackle refers to feathers from the neck or back of a bird such as a chicken, starling, or partridge that are wrapped around the hook."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a hand retrieve in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A hand retrieve involves the line hand working a figure-eight pattern to retrieve the fly line. It is used for a slow retrieve and to manage the line in many fishing situations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a hatch in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A hatch is a large number of flies of the same species emerging at one time."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a haul in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A haul is a pull on the fly line with the non-casting hand to increase line speed and gain greater distance — done effectively during line pickup."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a hemostat in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A hemostat is a clamp or forceps used by fly fishermen to remove flies from the mouths of trout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an indicator in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An indicator is a floating object placed on the leader or end of the fly line to indicate the take of the fly by a fish or to mark the path of the fly's drift. Made from materials such as floating putty, poly yarn, foam, rubber, colored mono, knots with tags, and dry flies. Strike indicators are very effective when nymph fishing at greater distances than can be reached with control."
+      }
+    }
+
+Confirm saved. Stand by for Paste 6.

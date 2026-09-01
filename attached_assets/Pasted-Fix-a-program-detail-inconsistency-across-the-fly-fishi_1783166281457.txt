@@ -1,0 +1,27 @@
+Fix a program-detail inconsistency across the fly fishing guide school pages on both macbrownflyfish.com and flyfishingguideschool.com.
+
+The correct, final details for the Fly Fishing Guide School program are:
+Duration: 4-day / four-day
+Tuition: dynamic, pulled from the Google Sheets pricing source already wired into the site — currently displaying as $4,850. Do NOT hardcode a static price anywhere; any hardcoded price found should be replaced with the existing dynamic pricing component/binding used elsewhere on the site, not a plain string.
+
+Search the entire codebase for every instance of incorrect or hardcoded duration/price values currently live for this program, including but not limited to:
+- "5-day" / "five-day" / "five days" paired with the guide school program
+- "one week" / "1 week" / "7-day" paired with the guide school program
+- any hardcoded "$3,550" or any other static dollar amount tied to this specific program (including "$4,850" if it is hardcoded as plain text rather than pulled dynamically)
+- any hardcoded day-count that doesn't match "4-day"
+
+Check every location these could appear, including:
+- Homepage program/card sections on both sites
+- The dedicated /fly-fishing-guide-school/ page on flyfishingguideschool.com
+- The dedicated /fly-fishing-guide-school page on macbrownflyfish.com
+- The /smoky-mountain-fly-fishing-school/ recreational track page, if it references the guide school program's length or price for comparison
+- Any FAQ accordion content, testimonial captions, or CTA button/card text
+- Any JSON-LD structured data (Course, Event, Product, or FAQPage schema) that encodes duration or price — update these to reference the dynamic price source where the schema supports it, or note where it can't and defaults to a static fallback
+- Any meta descriptions or title tags that mention duration or price
+- Any sitemap, alt text, or image captions referencing duration or price
+
+Replace every incorrect static instance with "4-day" for duration, and connect every price reference to the existing dynamic Google Sheets pricing source rather than a hardcoded number. Do not change any other program's duration or pricing information. Do not alter any other copy, structure, or styling on these pages.
+
+Report back a list of every file changed and what was changed in each, before deploying.
+
+After making changes, run bash push.sh to deploy, no other changes.

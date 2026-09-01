@@ -1,0 +1,161 @@
+Got it — I have the full content. Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/understanding-loop-plane/
+
+AEO — add immediately below H1:
+"Understanding loop plane in fly casting 
+breaks one of the sport's most persistent 
+myths — that rod plane always matches loop 
+plane. It does not. A curved rod tip path 
+is the only rod path that enables you to 
+change the loop plane. A straight rod tip 
+path produces a loop plane that matches 
+the rod plane. A crescent moon-shaped curved 
+path lets the caster direct the loop over, 
+under, inside, or outside the rod plane — 
+opening up all 360 degrees of available 
+loop plane for presentation casts. Every 
+fly cast is either straight or a curve. 
+Controlling loop plane is the gateway to 
+executing any presentation cast in any 
+condition on any water."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What is loop plane in fly casting?
+A1: Loop plane is the plane in which 
+the fly line loop travels after leaving 
+the rod tip — determined by the rod tip 
+path during the casting stroke. A straight 
+rod tip path produces a loop plane that 
+matches the rod plane. A curved rod tip 
+path — like a crescent moon shape — 
+enables the caster to direct the loop 
+anywhere around that path through 360 
+degrees of available plane. Understanding 
+loop plane is essential for executing 
+presentation casts that go beyond 
+simple accuracy and distance casting.
+
+Q2: Does rod plane always match 
+loop plane in fly casting?
+A2: No — and this is one of the most 
+widely misunderstood concepts in fly 
+casting instruction. Traditional teaching 
+holds that a vertical rod plane produces 
+a vertical loop plane. This is only true 
+when the rod tip path is straight. When 
+you make a vertical stroke with a curved 
+crescent moon-shaped rod path, the loop 
+plane can be directed directly vertical, 
+inverted, or anywhere in between — 
+regardless of the rod plane. A curved 
+path is the only rod path that enables 
+you to change the loop plane.
+
+Q3: What is the loop plane exercise 
+for learning presentation casts?
+A3: Start with a horizontal rod plane 
+and a straight rod tip path — the loop 
+travels directly out and away. Now curve 
+the rod path upward during the power 
+application using a shallow crescent 
+moon shape — the loop plane rotates 
+to vertical. Then guide the rod hand 
+downward following a shallow salad bowl 
+shape — the loop plane inverts with the 
+fly leg traveling on the bottom. This 
+exercise demonstrates that loop plane 
+is entirely controlled by the shape of 
+the rod tip path — not the rod plane itself.
+
+Q4: What is the moon concept for 
+teaching loop plane?
+A4: The moon concept uses the image 
+of the moon as a reference point for 
+the rod tip path. Scribing the rod tip 
+straight through the moon produces a 
+traditional straight cast. Moving the 
+rod tip path over the moon, under the 
+moon, outside the moon, or inside the 
+moon produces different loop planes 
+and different presentations. Think of 
+the cardinal points on a compass — 
+there are many degrees of variation 
+available between each position. Mac 
+Brown used this as a warm-up exercise 
+with his children during casting practice.
+
+Q5: Where can I learn loop plane 
+control from a certified instructor?
+A5: Mac Brown Fly Fish in Bryson City, 
+NC offers private fly casting lessons 
+and the Masterclass Casting Workshop 
+covering loop plane control, curve 
+casts, tuck casts, pile casts, and 
+the full range of presentation casts 
+— led by Mac Brown, the only FFI 
+Master Casting Instructor in North 
+Carolina. Loop plane is a core 
+component of the Fly Fishing Guide 
+School curriculum. Online lessons 
+available worldwide via FaceTime, 
+Zoom, or Skype at $400 per session.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is loop plane in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Loop plane is the plane in which the fly line loop travels after leaving the rod tip — determined by the rod tip path during the casting stroke. A straight rod tip path produces a loop plane that matches the rod plane. A curved rod tip path enables the caster to direct the loop anywhere around that path through 360 degrees of available plane. Understanding loop plane is essential for executing presentation casts beyond simple accuracy and distance casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does rod plane always match loop plane in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — this is one of the most widely misunderstood concepts in fly casting instruction. Traditional teaching holds that a vertical rod plane produces a vertical loop plane. This is only true when the rod tip path is straight. When you make a vertical stroke with a curved crescent moon-shaped rod path, the loop plane can be directed vertical, inverted, or anywhere in between regardless of the rod plane. A curved path is the only rod path that enables you to change the loop plane."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the loop plane exercise for learning presentation casts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with a horizontal rod plane and a straight rod tip path — the loop travels directly out and away. Curve the rod path upward using a shallow crescent moon shape — the loop plane rotates to vertical. Guide the rod hand downward following a shallow salad bowl shape — the loop plane inverts with the fly leg traveling on the bottom. This exercise demonstrates that loop plane is entirely controlled by the shape of the rod tip path, not the rod plane itself."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the moon concept for teaching loop plane?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The moon concept uses the image of the moon as a reference point for the rod tip path. Scribing the rod tip straight through the moon produces a traditional straight cast. Moving the rod tip path over the moon, under the moon, outside, or inside produces different loop planes and different presentations. Think of the cardinal points on a compass — there are many degrees of variation available between each position."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn loop plane control from a certified instructor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers private fly casting lessons and the Masterclass Casting Workshop covering loop plane control, curve casts, tuck casts, pile casts, and the full range of presentation casts — led by Mac Brown, the only FFI Master Casting Instructor in North Carolina. Online lessons available worldwide via FaceTime, Zoom, or Skype at $400 per session."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

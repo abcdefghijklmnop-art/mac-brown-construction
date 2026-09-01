@@ -1,0 +1,135 @@
+Here's what jumps out:
+1. AEO paragraph still missing — the body opens with narrative copy. We wrote the AEO sentence earlier today but it never got confirmed as pushed. This is the most important fix on the whole FFGS site.
+2. H1 is weak for SEO:
+Current: "Fly Fishing Guide School & Skills Development — Smoky Mtns."
+"Smoky Mtns." is abbreviated — Google prefers full words. And "Skills Development" is vague.
+Better: "Fly Fishing Guide School — Bryson City, NC"
+3. Meta title is 46 chars ✓ and meta description is 90 chars ✓ — both fine.
+4. "Five days" vs "one week" — page says "Five days that change the way you fish forever" in the H2 but elsewhere says "one week." Pick one and be consistent. Five days is more accurate and more specific — use that everywhere.
+5. No FAQ section on the homepage — this is the money site homepage. It needs conversion FAQs matching what we wrote earlier.
+6. Both career track and skills track CTAs link to the same URL — /fly-fishing-guide-school/. They should link to different anchors or sections on that page if possible.
+Here's the single Replit command:
+On the flyfishingguideschool.com homepage make 
+the following changes:
+
+1. Replace the H1 "Fly Fishing Guide School & 
+Skills Development — Smoky Mtns." with:
+"Fly Fishing Guide School — Bryson City, NC"
+
+2. Add the following as the first paragraph of 
+body text immediately below the H1 and above 
+the "Five days that change the way you fish 
+forever" H2:
+
+"The Fly Fishing Guide School trains aspiring 
+professional guides and serious skill-builders 
+in Bryson City, North Carolina — one week, the 
+only program of its kind in the eastern United 
+States, taught by 4 FFI Master Casting 
+Instructors with 450+ combined years of field 
+experience. Sessions run March through November. 
+Tuition is $3,950."
+
+3. Replace every instance of "one week" on the 
+page with "five days" for consistency with the 
+curriculum section.
+
+4. Add a FAQ section before the footer with the 
+heading "Frequently Asked Questions" and the 
+following 5 Q&A pairs as expandable accordion 
+items:
+
+Q1: How much does fly fishing guide school cost?
+A1: Tuition for the Fly Fishing Guide School in 
+Bryson City, NC is $3,950 for the full five-day 
+program. Included: CPR and First Aid certification 
+through American Red Cross, access to 100+ fly 
+rods, complete fly tying setup, double-handed rod 
+instruction, and a worldwide job placement 
+directory.
+
+Q2: How long is the Fly Fishing Guide School?
+A2: Five days — Wednesday through Sunday in 
+Bryson City, North Carolina. Every day is fully 
+structured with on-water instruction, evening 
+library access, and purpose behind every hour 
+from arrival to graduation.
+
+Q3: Who should attend the Fly Fishing Guide School?
+A3: The school serves two tracks — career changers 
+who want to guide professionally and earn a living 
+on the water, and serious skill-builders who want 
+to understand fly fishing at a professional level 
+without necessarily pursuing guiding as a career. 
+Both tracks receive the same world-class 
+instruction.
+
+Q4: When does the Fly Fishing Guide School run?
+A4: Sessions run March through November in Bryson 
+City, North Carolina. Schools fill months in 
+advance — early reservation is strongly 
+recommended. Contact the school directly at 
+(828) 736-1469 to check availability.
+
+Q5: Who teaches at the Fly Fishing Guide School?
+A5: The school is led by Mac Brown — the only FFI 
+Master Casting Instructor in North Carolina and 
+recipient of the FFI Lifetime Achievement Award. 
+The full faculty includes 4 FFI Master Casting 
+Instructors, 5 certified whitewater rowing 
+instructors, 3 Fly Fishing Team USA members, 
+4 Team USA coaches, and 2 Hall of Fame inductees 
+with 450+ combined years of field experience.
+
+5. Add this JSON-LD block to the <head>:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does fly fishing guide school cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tuition for the Fly Fishing Guide School in Bryson City, NC is $3,950 for the full five-day program. Included: CPR and First Aid certification through American Red Cross, access to 100+ fly rods, complete fly tying setup, double-handed rod instruction, and a worldwide job placement directory."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is the Fly Fishing Guide School?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Five days — Wednesday through Sunday in Bryson City, North Carolina. Every day is fully structured with on-water instruction, evening library access, and purpose behind every hour from arrival to graduation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who should attend the Fly Fishing Guide School?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The school serves two tracks — career changers who want to guide professionally and earn a living on the water, and serious skill-builders who want to understand fly fishing at a professional level without necessarily pursuing guiding as a career. Both tracks receive the same world-class instruction."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When does the Fly Fishing Guide School run?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sessions run March through November in Bryson City, North Carolina. Schools fill months in advance — early reservation is strongly recommended. Contact the school directly at (828) 736-1469 to check availability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who teaches at the Fly Fishing Guide School?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The school is led by Mac Brown — the only FFI Master Casting Instructor in North Carolina and recipient of the FFI Lifetime Achievement Award. The full faculty includes 4 FFI Master Casting Instructors, 5 certified whitewater rowing instructors, 3 Fly Fishing Team USA members, 4 Team USA coaches, and 2 Hall of Fame inductees with 450+ combined years of field experience."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.Sonnet 4.6 Low

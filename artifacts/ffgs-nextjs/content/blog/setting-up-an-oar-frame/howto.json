@@ -1,0 +1,42 @@
+{
+  "name": "How to Set Up an Oar Frame for Fly Fishing",
+  "description": "Step-by-step oar frame setup for an NRS Otter raft — frame placement, oar balance, oar length and spacing, oarlock positioning, and weight distribution for a day on the river. Taught on day one of the Fly Fishing Guide School in Bryson City, NC.",
+  "totalTime": "PT1H",
+  "supply": [
+    { "name": "NRS Otter raft (or equivalent commercial-grade raft)" },
+    { "name": "Four 2-foot webbing straps" },
+    { "name": "Oars (9.5, 10, or 10.5 ft with blades)" },
+    { "name": "HD40 wear-patch material" },
+    { "name": "Lead tire weights (for oar balancing)" }
+  ],
+  "steps": [
+    {
+      "name": "Attach the Frame to the Raft",
+      "text": "Strap the fishing frame to the D-rings on both sides of the raft tubes using four 2-foot webbing straps. Catch the frame ends on both the outside and inside of the tubes to lock the frame in place and prevent it from shifting forward or backward during the float."
+    },
+    {
+      "name": "Balance the Oars",
+      "text": "With the oars resting in the oarlocks, add weight to the handle end until the blade lifts off the water. Weigh the required amount on a scale. Drill a 3/8-inch hole in the oar handle, melt lead tire weights, and pour the lead into the handle. Alternatively, purchase pre-balanced oars from NRS. Balanced oars dramatically reduce triceps fatigue on long days and multi-day trips."
+    },
+    {
+      "name": "Choose Oar Length and Set Spacing",
+      "text": "Select oar length — 9.5, 10, or 10.5 feet. Longer oars give greater leverage and control but are heavier. Smaller rowers benefit from shorter oars to prevent fatigue. Set spacing so the oars meet with a thumb's width of space when both are in the middle position. Rope-wrapped oar shafts are preferable to plastic sleeves for durability and feel."
+    },
+    {
+      "name": "Align the Frame and Apply Wear Patches",
+      "text": "Mount the front seat all the way forward on the frame, within a couple of inches of the end of the side rails. Glue an HD40 wear patch approximately 8 by 22 inches where the rear seat rests, and a 9 by 14 inch patch where the anchor swings against the back of the boat to prevent wear-through."
+    },
+    {
+      "name": "Center the Oarlocks",
+      "text": "Mount the oarlocks near the center of the raft using the middle thwart as reference. This placement optimizes boat balance and control. Adjust seat distance from the oarlocks to match your reach — rowers come in all shapes and sizes so this is personal preference."
+    },
+    {
+      "name": "Avoid Fixed-Angle Oar Sleeves",
+      "text": "Do not use 'Oar Right' plastic sleeves that lock the blades at a fixed angle. They prevent feathering — the ability to change the blade angle to a comfortable position. When the loaded boat exceeds a thousand pounds, varying currents can lift you out of the rower's seat when you cannot feather the blades."
+    },
+    {
+      "name": "Load the Boat for Proper Weight Distribution",
+      "text": "Place the greatest weight toward the front of the boat. A back-heavy boat becomes difficult to control and track in current. Distribute gear forward of the rowing seat whenever possible to maintain clean boat control throughout the float."
+    }
+  ]
+}

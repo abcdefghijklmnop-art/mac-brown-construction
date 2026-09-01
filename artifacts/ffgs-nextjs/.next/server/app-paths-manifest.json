@@ -1,0 +1,7 @@
+{
+  "/icon.png/route": "app/icon.png/route.js",
+  "/meet-rowing-fly-casting-fly-fishing-instructors/page": "app/meet-rowing-fly-casting-fly-fishing-instructors/page.js",
+  "/instructors/[slug]/page": "app/instructors/[slug]/page.js",
+  "/page": "app/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
+}

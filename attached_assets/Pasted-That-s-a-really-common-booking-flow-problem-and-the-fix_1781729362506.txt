@@ -1,0 +1,27 @@
+That's a really common booking-flow problem — and the fix isn't really about adding a "clause," it's about removing the moment of doubt before it ever gets a chance to happen. He didn't bail because he didn't want to pay — he bailed because he'd already invested time (filled the form, signed a waiver) and *still* had no confidence the date was actually his to take. That's a trust gap, and it's fixable a couple of different ways.
+
+**Option 1 — Show live availability before he ever gets to payment (the strongest fix)**
+
+Since you already track capacity per date/program in the BookingTracker sheet, the real opportunity is to have the reservation page *read from that sheet* when displaying dates, so:
+- Open dates show normally
+- Nearly-full dates show "Only 2 spots left"
+- Full dates are greyed out / unselectable entirely
+
+If a date can't even be selected once it's full, the "is this actually open?" anxiety disappears — because the page already proved it before he got near the payment step. This is the cleanest fix because it solves the problem at the source instead of patching around it later.
+
+**Option 2 — Decouple "submit" from "charge" (simpler to implement, no real-time lookup needed)**
+
+Instead of (or in addition to) live availability, change what happens when someone hits "pay":
+- The form submits as a *request to hold* a spot, not an immediate charge
+- You (or an automated check against the sheet) confirm the date is genuinely open
+- Only then does a payment link go out / the card actually gets charged
+
+Pair this with a single reassuring line near the payment button: *"Your date will be confirmed before any payment is processed — you won't be charged for a session that's full."* That sentence alone probably would've prevented his phone call.
+
+**On Calendar vs. Sheets — use the Sheet as the source of truth**
+
+Your BookingTracker sheet already does the capacity math (Bookings/Dates/Programs/Dashboard tabs), so I'd keep that as the single authoritative place that decides "open vs. full" rather than introducing Google Calendar as a second system to keep in sync. Calendar can still be useful as a *visual* reference for you personally — you could have Apps Script auto-color-code calendar events (green/yellow/red) based on the sheet's counts whenever it updates — but the actual gating logic (what shows on the booking page, whether payment is allowed to proceed) should pull from the sheet directly, so there's only one number that matters instead of two systems that could drift out of sync.
+
+**Backstop for the race-condition case** (two people booking the last spot at the same moment): even with live display, you'll want a server-side recheck right before finalizing payment — if the spot got taken in the few minutes between page load and submit, it should bounce back with "this date just filled, please pick another" instead of charging him for a session that's already full.
+
+One thing I'd need to know before sketching the actual implementation: how does payment currently happen on the form — is it a Stripe checkout embedded in the page, a manual invoice you send after, or something else? That changes whether the "block before charge" logic lives in the form itself or in a step after submission.

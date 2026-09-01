@@ -1,0 +1,19 @@
+{
+  "name": "@workspace/scripts",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "hello": "tsx ./src/hello.ts",
+    "create-ffgs-sheet": "tsx ./src/create-ffgs-sheet.ts",
+    "update-ffgs-sheet-headers": "tsx ./src/update-ffgs-sheet-headers.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@replit/connectors-sdk": "^0.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "tsx": "catalog:"
+  }
+}

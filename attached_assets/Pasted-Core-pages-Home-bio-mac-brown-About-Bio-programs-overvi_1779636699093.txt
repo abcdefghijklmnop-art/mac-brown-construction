@@ -1,0 +1,68 @@
+Core pages
+
+/ — Home
+/bio-mac-brown — About / Bio
+/programs-overview — Services / Programs
+/store — Store
+/blog — Blog index
+/blog/:slug — Blog post
+/contact — Contact
+/podcasts — Podcasts
+/waiver-release — Waiver
+/reserve — Reservation form
+/payment — Payment
+/book — Book a trip
+/photo-gallery — Photo gallery
+/events-calendar — Events calendar
+/mission-statement — Mission statement
+/fly-fishing-certifications — Credentials
+Schools & instruction
+
+/fly-casting-instruction — Fly casting instruction
+/online-fly-casting-lessons — Online lessons
+/fly-fishing-guide-school — Guide school
+/smoky-mountain-weekend-schools — Weekend schools
+/dry-fly-clinic — Dry fly clinic
+/wet-fly-clinic — Wet fly clinic
+/nymph-fishing-clinic — Nymph clinic
+/streamer-clinic — Streamer clinic
+/masterclass-fly-casting-workshop — Masterclass
+/advanced-2-day-fly-casting-school — 2-day casting school
+/spey-elite-casting-clinic — Spey clinic
+/saltwater-fly-casting-elite-masterclass-workshop — Saltwater masterclass
+/river-navigation-academy — Rowing / River nav
+Guided trips
+
+/instructional-guided-trips — All guided trips
+/instructional-float-trips — Float trips
+/instructional-wade-trips — Wade trips
+/instructional-lake-trips / /lake-trips — Lake trips
+/trout-fishing-nc — NC trout fishing
+/group-corporate-fly-fishing — Group / corporate
+/fly-fishing-seminars — Seminars
+Location pages
+
+/asheville-nc-guided-trout-fishing-trips — Asheville
+/highlands-nc-fly-fishing — Highlands NC
+/cashiers-nc-guided-trout-fishing — Cashiers NC
+/franklin-nc-fly-fishing — Franklin NC
+/cherokee-trophy-water — Cherokee trophy water
+/sylva-nc-fly-fishing — Sylva NC
+/learn-to-fly-fish-bryson-city — Bryson City beginners
+/atlanta-fly-fishing — Atlanta
+/knoxville-fly-fishing — Knoxville
+/gatlinburg-fly-fishing — Gatlinburg
+/raleigh-fly-fishing — Raleigh
+/charlotte-fly-fishing — Charlotte
+/chattanooga-fly-fishing — Chattanooga
+/wnc-fly-fishing-trail — WNC trail
+/mcleods-highland-fly-fishing — McLeod's
+/bryson-city-fly-fishing-report-hatch-chart — Hatch chart
+Other
+
+/testimonials-kudos — Testimonials
+/sponsors — Sponsors
+/gift-certificates — Gift certificates
+/casting-angles — Casting angles
+/fly-fishing-guide-school (MBFF page redirects to guide school site)
+That's 515 lines total — roughly 70 canonical pages plus ~150 redirect aliases. Is there something specific you're looking to add, change, or cross-reference?

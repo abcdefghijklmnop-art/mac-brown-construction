@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 8.
+
+    {
+      "@type": "Question",
+      "name": "What is substance in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Substance in fly casting includes the fundamentals of timing, mechanics, specialty fishing cast nuances, and key concepts that make any cast work regardless of style. Substance is universal — style is personal. Mel Krieger said: if you are very fortunate you will understand that the profound path towards teaching mastery gets two miles farther away for every mile you travel."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is surface tension in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Surface tension in fly fishing is the intermolecular force at the surface of the water that resists the pickup of the fly line. It acts heavily on the relationship of line on the water and the emergence or egg-laying stages of insects. In roll casting and Spey casting, surface tension provides the resistance needed to load the rod for the delivery cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a sweep in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A sweep is a rod movement to position the line for the following casting stroke. In Spey casting the sweep moves the line from the dangle position across the water to form the D loop and anchor before the delivery cast. The sweep is a positioning move — not a casting stroke — and should not generate a loop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is syncopation in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Syncopation in fly casting is stressing a force in a normally unstressed location or a lack of force when it is normally accented during rod movements. It comes into play for elliptical figure-eights, snap casts, and oval casting. Syncopation is a key concept for any fly casting model when teaching advanced casts and line manipulations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a tailing loop in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A tailing loop occurs when the fly leg crosses the rod leg creating a closed loop — the most common cause of wind knots. Most tailing loops stem from too early or abrupt application of force, line planes less than 180 degrees, improper haul timing, and transverse waves. Most literature blames rod tip concavity but a straight rod tip path creating a transverse wave is equally a cause. Tailing loops can also be used deliberately for presentation casts and curve casts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is tempo in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tempo in fly casting is the pace of the overall cast from start to finish — often thought of as time under tension. Practicing changes in tempo is beneficial for fishing scenarios. For example a slow underpowered back cast with a static D loop followed by a normal forward cast for missing obstacles. For distance casting increase the tempo for the amount of line carried before the delivery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is tension in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tension in fly casting refers to opposing forces that act on pulling the line apart. Understanding how your actions increase or decrease tension is one of the most beneficial concepts in fly casting. Constant tension, increasing tension, and decreasing tension give the caster control over every specialty cast — from pile casts that build slack to tight-line nymphing that eliminates all slack."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is tip travel in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tip travel is the total distance the rod tip moves when making a cast — the by-product of casting stroke and casting arc. Longer tip travel produces more line speed when applied smoothly. Abrupt force application over short tip travel produces wide loops. The goal is maximizing smooth tip travel within the available casting arc for any given line length."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is tracking in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tracking in fly casting has two meanings. Straight tracking describes the rod tip traveling in a straight line without side-to-side wobble — essential for accuracy and distance casting. Route tracking describes the deliberate course the rod tip travels for more advanced casts that deviate from straight — used for curve casts, pile casts, S-turns, and aerial mends."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is translatory motion in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Translatory motion in fly casting is motion occurring in a straight line — the rod hand moving forward or backward without rotation. Most casts combine translatory motion during the loading move and rotary motion at the stop. Pure translatory casting strokes produce the straightest rod tip paths and tightest loops."
+      }
+    }
+
+Confirm saved. Stand by for Paste 8.
