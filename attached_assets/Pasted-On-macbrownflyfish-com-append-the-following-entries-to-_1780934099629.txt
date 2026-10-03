@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 19.
+
+    {
+      "@type": "Question",
+      "name": "What is a narrow loop versus an open loop in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A narrow loop has a distance between the fly and rod leg of fewer than two feet — efficient for distance, wind penetration, and accuracy. An open loop has a large displacement between fly and rod legs — a fault in straight-line casting but intentional in negative force casts and certain presentation casts. Loop width is determined by the straightness of the rod tip path during the casting stroke."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the concept of control in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Control in fly casting is the intended application or lack of force to achieve the desired line layout. A full range of control includes negative force, normal force, and positive force combined with all rod and loop planes. A higher understanding of line tension is necessary for true control. Most casters only use a fraction of the available control spectrum — limiting their presentation options on the water."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the concept of mechanics in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Casting mechanics is a study of force and motion during and after the casting stroke. Force and motion are so completely interrelated — like braids of a rope — that neither can be defined independently from the other. Teaching casting mechanics rather than casting style produces students who can self-correct on any water in any condition for the rest of their lives."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is rod arc versus casting arc in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rod arc and casting arc are synonymous terms describing the angle of change when making the casting stroke. They describe the rotational component of the casting stroke — how much the rod tip moves through an arc from start to stop. The arc must vary with line length — more line requires more arc, less line requires less. This variability is one of the five essentials of fly casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the concept of rhythm and tempo in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rhythm and tempo in fly casting work together — rhythm is the regular recurrence and natural flow of related objects in the system while tempo is the overall pace from start to finish. Practicing with varied tempo is one of the most effective ways to develop casting versatility — slow tempo for obstacle avoidance and tight spaces, fast tempo for distance casting with more line in the air."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the concept of timing in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Timing in fly casting is the execution of movements in the proper sequence — the time period for each movement during the overall casting sequence. The most common timing dysfunction is using the arm before the weight transfer of the body. Haul timing, stop timing, and rotation timing all affect loop quality. The synchronization of all elements at the stop is what produces maximum line speed with minimum effort."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between style and substance in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Style in fly casting is how the body moves — stance, grip, elbow position, body rotation, wrist involvement. No two expert casters look exactly the same. Substance is the underlying mechanics that make any cast work regardless of style — rod tip path, loop formation, timing of the stop and haul, application of force. Style is personal. Substance is universal. Teaching style as if it were substance is the most common and consequential error in fly casting instruction."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between drift and creep in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drift is an intentional supplementary motion during the pause for repositioning the rod in an advantageous position for the next casting stroke. Creep is an unintentional forward movement during the pause that reduces the available casting arc. Both look similar from a distance but produce opposite results — drift adds to the casting stroke while creep subtracts from it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a static and dynamic D-loop?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A static D-loop is a stationary loop of line formed behind the rod tip used in standard roll casts — the line is at rest on the water before the delivery. A dynamic D-loop involves the line moving backward in a V or D shape before the delivery — used in Spey casting for greater line speed and distance. Dynamic D-loops require more precise timing but produce significantly more efficient rod loading."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between major drag and micro drag in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Major drag is obvious — the fly skates rapidly across the surface at a clearly different speed from the current. Micro drag is subtle — the tippet has increased tension causing the fly to move at a minutely different speed and direction that the human eye cannot detect but trout can. Micro drag is the most common reason experienced fly fishers have refusals on otherwise perfect presentations."
+      }
+    }
+
+Confirm saved. Stand by for Paste 19.

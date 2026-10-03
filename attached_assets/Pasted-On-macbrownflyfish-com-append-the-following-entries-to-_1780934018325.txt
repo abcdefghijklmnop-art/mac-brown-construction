@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 16.
+
+    {
+      "@type": "Question",
+      "name": "What are enlightenment casts in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Enlightenment casts are creative and imaginative uses of various actions when performing the casting stroke to gain a full understanding of the problems involved and their solutions on the stream. They include experimental casting explorations — casting in circles, figure eights, horizontal planes, and other non-standard motions that expand the caster's understanding of loop plane, tension, and transverse wave control."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are external system forces in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "External system forces are forces exerted on the objects of the fly casting system from outside. Examples include gravity, surface friction of water, wind, diverse currents, and obstacles surrounding the caster. Understanding external system forces helps casters adapt their stroke, timing, and loop plane to changing conditions rather than applying the same technique regardless of environment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are internal system forces in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Internal system forces are the interaction of the mechanics of the objects within the fly casting system and the relationships they exert on one another. The internal system includes all components of the caster and the equipment — rod, line, leader, and fly — and how they interact during the casting stroke. Optimizing internal system forces means making all components work together efficiently."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are complete system forces in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Complete system forces is a concept for viewing all internal and external systems in unison — the big picture — and the relationship of the interaction of all forces present on the objects of the system. This holistic view allows casting instructors and analysts to understand how changes in one variable affect every other variable in the casting system simultaneously."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a direction altered cast in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A direction altered cast is a casting stroke in which the forward or backward cast does not end up in the same plane from which it started. Direction altered casts allow the caster to change presentation angle without multiple false casts — single-handed Spey casts, reach casts, and curve casts all involve direction alteration to place the fly in positions a straight cast cannot reach."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the system response curve in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The system response curve is a concept used to understand the relationship between force and control for varying rod planes. It can be used to measure system efficiency for different casts and to identify the optimal application of force for a given rod, line, and casting situation. Understanding the system response curve helps advanced casters and instructors optimize power application for maximum efficiency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are three-dimensional casting planes in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three-dimensional casting planes describe all of the airspace around the caster's body in which the fly line and rod may be used when performing casts. Most instruction focuses on two-dimensional straight-line casting — but real fishing requires casts in three-dimensional space around the caster's body. Understanding 3D casting planes unlocks the full range of presentation casts that two-dimensional instruction cannot teach."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the tip-top of a fly rod?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The tip-top is the final guide at the tip of the fly rod — the smallest guide through which the fly line passes last before becoming aerial. The tip-top path describes the arc the rod tip scribes through the air during the casting stroke. Observing the tip-top path is the most direct way to diagnose rod tip path faults in fly casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is tip-top velocity in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tip-top velocity is the velocity of the rod tip during the casting stroke. Maximum tip-top velocity occurs at the moment of the stop — when the rod is most deeply loaded and all applied force is transferred to the fly line. Higher tip-top velocity at the stop produces greater line speed. The double haul increases tip-top velocity by adding line hand acceleration to rod hand acceleration simultaneously."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is wrist abduction in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wrist abduction in fly casting is drawing the wrist away from the body from the anatomical position. It is one of the six wrist movements used in fly casting and is part of angular linear thrust. Understanding wrist abduction helps casting instructors identify and correct wrist positioning faults that affect rod tip path and loop shape."
+      }
+    }
+
+Confirm saved. Stand by for Paste 16.

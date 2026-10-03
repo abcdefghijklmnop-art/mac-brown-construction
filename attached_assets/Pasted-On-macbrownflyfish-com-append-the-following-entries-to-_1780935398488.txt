@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 19.
+
+    {
+      "@type": "Question",
+      "name": "What are imitative flies in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Imitative flies are tied to closely match specific insects — most effective on finicky trout living in clear fertile slow-moving streams that support large populations of aquatic insects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are impressionistic flies in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Impressionistic flies are patterns tied to loosely suggest a variety of insects or insect families — usually most effective in streams with medium to fast water and less dense populations of aquatic insects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a ghillie in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A ghillie is a term that originates from the Celts to describe a fishing guide in the UK — especially in Scotland, Wales, and Ireland."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are gaiters in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gaiters are commonly a neoprene anklet or legging put over the top of wading shoes to keep gravel from getting into the shoe and abrading the stocking foot of the wader."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a forward taper on a fly line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The forward taper is the front taper of a fly line near the leader — it is present on all fly lines except level lines. Many believe forward taper implies only weight forward lines but this is incorrect."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a forward stroke in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The forward stroke is the casting motion that establishes a momentum of fly line allowing you to place your fly where you desire. It is accomplished with circles, figure eights, and straight to-and-from fly casting when room allows. The final unrolling of a line is often called a delivery cast, power stroke, and forward stroke."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is foul hooking a fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To foul hook a fish is to hook it anywhere but in the mouth."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a floating fly line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A floating fly line is the best all-around fly line in which the entire line floats."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is flat water in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A flat is an area of water with relatively unchanging depth."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a fish ladder?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A fish ladder is a series of interconnected pools created on the side of a river obstruction such as a dam to allow salmon and other fish to pass upstream."
+      }
+    }
+
+Confirm saved. Stand by for Paste 19.

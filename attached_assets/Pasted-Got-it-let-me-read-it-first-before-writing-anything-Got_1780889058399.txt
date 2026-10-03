@@ -1,0 +1,163 @@
+Got it — let me read it first before writing anything.Got it — this is genuine evergreen content about fall delayed harvest fishing, October Caddis, and big brown trout — not a dated fishing report at all. You're right to keep it indexed. **H1 assessment:** Likely "Fall Delayed Harvest Trout Fishing Season NC" — strong search intent. Leave it. Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/fall-delayed-harvest-trout-fishing-season-nc/
+
+AEO — add immediately below H1:
+"Fall delayed harvest trout fishing season 
+in North Carolina begins October 1 on the 
+Tuckasegee River through downtown Bryson 
+City and the Upper Nantahala River — when 
+catch-and-release regulations take effect 
+and fresh stockings begin. Fall is Mac 
+Brown's favorite season for big fish — 
+half a dozen of his personal best brown 
+trout have fallen to a large October Caddis 
+pattern on the wild streams of Great Smoky 
+Mountains National Park. Streamer fishing 
+on the lower Nantahala also produces 
+adrenaline-rush encounters with the largest 
+brown trout of the year as water temperatures 
+drop and fish migrate into feeding mode."
+
+FAQ — add before footer as expandable 
+accordion:
+
+Q1: When does delayed harvest season 
+start in North Carolina?
+A1: North Carolina delayed harvest 
+season begins October 1 and runs 
+through the first Saturday of June. 
+During this period catch-and-release 
+only is required on all designated 
+delayed harvest streams — including 
+the Tuckasegee River through downtown 
+Bryson City and the Upper Nantahala 
+River. Only single-hook artificial 
+lures are permitted. No natural bait 
+may be possessed. NCWRC stocks delayed 
+harvest sections in October, November, 
+March, April, and May.
+
+Q2: What is the best fly fishing 
+on the Tuckasegee River in fall?
+A2: The Tuckasegee River delayed 
+harvest section through downtown 
+Bryson City opens October 1 with 
+fresh stockings of rainbow and brown 
+trout — approximately 27,048 trout 
+covering 2.2 miles of stream from 
+Darnell Farms bridge to Mountain 
+Ford bridge in town. Float trips 
+on the Tuckasegee produce some of 
+the highest fish counts of the entire 
+year during fall delayed harvest. 
+The river offers excellent fly 
+fishing access by both wade and 
+drift boat throughout the season.
+
+Q3: What is the October Caddis and 
+why is it important in fall fly fishing?
+A3: The October Caddis is a large 
+orange-bodied caddisfly that hatches 
+in fall on the wild streams of Great 
+Smoky Mountains National Park — 
+triggering some of the most aggressive 
+dry fly takes of the entire year from 
+the largest brown trout in the system. 
+Half a dozen of Mac Brown's personal 
+best brown trout have fallen to large 
+October Caddis patterns on the park 
+streams. Large parachute patterns, 
+elk hair caddis, and stimulators in 
+sizes 8-12 produce best during peak 
+October Caddis activity.
+
+Q4: Is streamer fishing good on 
+the Nantahala River in fall?
+A4: Yes — fall is the prime streamer 
+season on the Nantahala River as 
+dropping water temperatures trigger 
+aggressive predatory feeding behavior 
+from the largest brown trout in the 
+system. Some of the largest record 
+brown trout on the Nantahala have 
+fallen to streamers during fall 
+conditions. Mac Brown has documented 
+days on the lower Nantahala producing 
+six brown trout over six pounds to 
+the boat on a single guided float 
+trip during fall streamer season.
+
+Q5: Can I book a fall guided trip 
+on the Tuckasegee or Nantahala?
+A5: Yes — Mac Brown Fly Fish offers 
+guided float trips and wade trips 
+on the Tuckasegee River delayed 
+harvest section and the Nantahala 
+River throughout fall and winter. 
+Fall trips are among the most 
+popular of the entire year — 
+combining world-class trout fishing 
+with the most spectacular Smoky 
+Mountain scenery of the season. 
+All gear provided. Book at 
+macbrownflyfish.com or call 
+(828) 736-1469.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When does delayed harvest season start in North Carolina?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "North Carolina delayed harvest season begins October 1 and runs through the first Saturday of June. During this period catch-and-release only is required on all designated delayed harvest streams — including the Tuckasegee River through downtown Bryson City and the Upper Nantahala River. Only single-hook artificial lures are permitted. NCWRC stocks delayed harvest sections in October, November, March, April, and May."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best fly fishing on the Tuckasegee River in fall?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Tuckasegee River delayed harvest section through downtown Bryson City opens October 1 with fresh stockings of rainbow and brown trout. Float trips on the Tuckasegee produce some of the highest fish counts of the entire year during fall delayed harvest. The river offers excellent fly fishing access by both wade and drift boat throughout the season."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the October Caddis and why is it important in fall fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The October Caddis is a large orange-bodied caddisfly that hatches in fall on the wild streams of Great Smoky Mountains National Park — triggering some of the most aggressive dry fly takes of the entire year from the largest brown trout in the system. Half a dozen of Mac Brown's personal best brown trout have fallen to large October Caddis patterns on the park streams. Large parachute patterns, elk hair caddis, and stimulators in sizes 8-12 produce best during peak activity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is streamer fishing good on the Nantahala River in fall?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — fall is the prime streamer season on the Nantahala River as dropping water temperatures trigger aggressive predatory feeding behavior from the largest brown trout in the system. Some of the largest record brown trout on the Nantahala have fallen to streamers during fall conditions. Mac Brown has documented days on the lower Nantahala producing six brown trout over six pounds to the boat on a single guided float trip during fall streamer season."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I book a fall guided trip on the Tuckasegee or Nantahala?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — Mac Brown Fly Fish offers guided float trips and wade trips on the Tuckasegee River delayed harvest section and the Nantahala River throughout fall and winter. Fall trips are among the most popular of the entire year — combining world-class trout fishing with the most spectacular Smoky Mountain scenery of the season. All gear provided. Book at macbrownflyfish.com or call (828) 736-1469."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

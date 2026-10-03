@@ -1,0 +1,165 @@
+Pulling it now.Full page read. **H1 assessment:** "Cracking the Code in Trout Fishing" — strong, search-relevant, leave it. Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/learn-crack-code-trout-fishing/
+
+AEO — add immediately below H1:
+"Cracking the code in trout fishing requires 
+observation, adaptability, and a willingness 
+to embrace failure as the foundation of 
+learning — FAIL stands for First Attempt In 
+Learning. Presentation and technique always 
+trump fly pattern. Trout feed opportunistically 
+throughout the day on most Western North 
+Carolina waters — carry nymphs in varying 
+weights, dry flies, wet flies, and streamers, 
+and adjust by weight before worrying about 
+what is hatching. Mac Brown has been cracking 
+the code on the Tuckasegee River, Deep Creek, 
+and the wild streams of Great Smoky Mountains 
+National Park since 1987."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: How do you crack the code in 
+trout fishing?
+A1: Observation is the foundation. 
+Read where fish are holding relative 
+to water type, depth, and current 
+speed — then adjust approach, 
+technique, and rigging based on what 
+the fish tell you, not what the fly 
+shop tells you. Trout feeding behavior 
+changes throughout the day and season. 
+Angling pressure moves fish from prime 
+water to secondary water over time. 
+The anglers who crack the code most 
+consistently keep an open mind and 
+change tactics the moment observation 
+suggests something isn't working.
+
+Q2: Does fly pattern really matter 
+for catching trout?
+A2: Less than most anglers believe. 
+Presentation and technique always 
+trump fly pattern — the masses believe 
+success is directly related to fly 
+selection, but nothing could be further 
+from the truth in most situations. 
+On Western North Carolina waters, 
+adjust fly weight first before 
+worrying about matching the hatch. 
+Trout feed opportunistically and 
+sample the drift — carry nymphs 
+in varying weights, dry flies, wet 
+flies, and streamers, and let fish 
+behavior dictate the adjustment.
+
+Q3: What are A, B, C, and D 
+waters in trout fishing?
+A3: A, B, C, and D waters are a 
+coaching framework for reading how 
+angling pressure redistributes trout 
+through a river system. A water is 
+the most productive holding water 
+on a given day — but repeated pressure 
+causes fish to disperse into B, C, 
+and D waters as they become more 
+selective. Over time C and D waters 
+become the new A and B waters as 
+pressure accumulates. The angler who 
+recognizes this shift and moves with 
+the fish catches far more trout than 
+the one who keeps flogging the same 
+water.
+
+Q4: Why do beginners sometimes 
+outfish experienced fly fishers?
+A4: Experienced self-taught fly 
+fishers often carry years of 
+reinforced bad habits — in casting, 
+presentation, and approach — that 
+override what the water is telling 
+them. Beginners with proper 
+foundational instruction have no 
+bad habits yet and respond more 
+readily to coaching in the moment. 
+The top-level elite fly fishers are 
+different — they have observation 
+skills and fish behavior awareness 
+that beginner luck cannot match 
+over a full day on the water.
+
+Q5: How do I learn to read water 
+and crack the code on Smoky Mountain 
+trout streams?
+A5: A guided instructional trip 
+with Mac Brown Fly Fish in Bryson 
+City, NC is the fastest path — 
+covering water reading, fish 
+behavior, rigging adjustments, 
+approach and stealth, and on-stream 
+problem solving on the Tuckasegee 
+River, Deep Creek, and wild streams 
+of Great Smoky Mountains National 
+Park. Mac Brown has been teaching 
+anglers to crack the code since 1987. 
+All gear provided, all skill levels 
+welcome.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do you crack the code in trout fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Observation is the foundation. Read where fish are holding relative to water type, depth, and current speed — then adjust approach, technique, and rigging based on what the fish tell you, not what the fly shop tells you. Trout feeding behavior changes throughout the day and season. Angling pressure moves fish from prime water to secondary water over time. Keep an open mind and change tactics the moment observation suggests something isn't working."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does fly pattern really matter for catching trout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Less than most anglers believe. Presentation and technique always trump fly pattern. On Western North Carolina waters, adjust fly weight first before worrying about matching the hatch. Trout feed opportunistically and sample the drift — carry nymphs in varying weights, dry flies, wet flies, and streamers, and let fish behavior dictate the adjustment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are A, B, C, and D waters in trout fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A, B, C, and D waters are a coaching framework for reading how angling pressure redistributes trout through a river. A water is the most productive holding water on a given day — but repeated pressure causes fish to disperse into B, C, and D waters as they become more selective. Over time C and D waters become the new A and B waters. The angler who recognizes this shift and moves with the fish catches far more trout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do beginners sometimes outfish experienced fly fishers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Experienced self-taught fly fishers often carry years of reinforced bad habits in casting, presentation, and approach that override what the water is telling them. Beginners with proper foundational instruction have no bad habits yet and respond more readily to coaching in the moment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I learn to read water and crack the code on Smoky Mountain trout streams?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A guided instructional trip with Mac Brown Fly Fish in Bryson City, NC is the fastest path — covering water reading, fish behavior, rigging adjustments, approach and stealth, and on-stream problem solving on the Tuckasegee River, Deep Creek, and wild streams of Great Smoky Mountains National Park. Mac Brown has been teaching anglers to crack the code since 1987. All gear provided, all skill levels welcome."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

@@ -1,0 +1,41 @@
+Act as an expert Next.js developer and technical SEO specialist. We need to create a brand-new, standalone, permanent structural landing page in our App Router. 
+
+CRITICAL ROUTING INSTRUCTION: 
+This page will function as a high-converting "hidden/orphan" landing page used for targeted regional search traffic and beginners/transitioning casters. Do NOT add this page to the main navigation bar, site header menu, or footer links. It must only exist at its direct route URL.
+
+1. Target Route: /spey-casting-clinics-nc
+- Ensure this is a clean, permanent Next.js structural page component.
+- Apply Dual-Layer Copywriting: keep headings hyper-focused on specific search volume, but write the body copy using highly accessible, "dumbass-friendly" language that removes intimidation.
+  * Main <h1> Heading (Optimized for Niche Search Intent): "Spey Casting Clinics & Two-Handed Instruction"
+  * Subheading/Span <h2> (Location/Authority): "Smoky Mountains · Bryson City, North Carolina"
+  * Intro Paragraph (The Welcoming Hook): Write a simple, zero-jargon introduction explaining that Spey casting is simply a style that lets you cast huge distances without needing any room for a backcast. Emphasize that it is an absolute judgment-free zone.
+
+2. Implement a 2-Way "Fork in the River" Section Layout:
+Immediately below the hero, build a clean layout with two distinct path cards to help users figure out exactly where they fit based on their goals:
+- Card 1: Private Hourly Spey & Casting Lessons (Path A)
+  * Hook: Ideal if you want to try a two-handed rod for the first time, get a quick 1-on-1 mechanical tune-up, or learn the basics before committing to a full weekend.
+  * Call-to-Action Link: Explicitly links/points directly to our hourly instruction page at `/fly-casting-instruction`.
+- Card 2: Immersive 2-Day Spey Elite Casting Clinic Weekend (Path B)
+  * Hook: Built for anglers ready to dive deep into elite loop control, advanced diagnostics, and mastering the ultimate two-handed systems on wild water over a full weekend clinic.
+  * Call-to-Action Link: Explicitly links/points directly to our dedicated premium clinic page at `/spey-elite-casting-clinic`.
+
+3. Dumbass-Friendly "No-Shame" FAQ Section:
+Build a highly readable Accordion component containing the exact questions a newer angler is secretly too embarrassed to ask:
+- Q: "I’ve only ever casted a normal fly rod. Will I be totally lost here?"
+  --> A: Not at all. In fact, it’s actually easier to learn Spey casting if you start fresh because you won't bring over old single-hand muscle habits. We start from absolute zero.
+- Q: "Do I need to buy a giant Spey rod and reel before I show up?"
+  --> A: Absolutely not. Don't waste your money buying the wrong gear. We provide premium, perfectly matched rods, reels, and specialized lines for you to use all weekend so you can learn what you actually like before you spend a dime.
+- Q: "What is the actual point of a two-handed rod? Why can't I just use my regular rod?"
+  --> A: It lets you cast massive distances with zero backcast room. If you’ve ever been frustrated because bushes and trees behind you keep catching your fly, Spey casting completely solves that problem.
+
+4. Features & Curriculum Matrix (Translating Jargon to Felt Benefits):
+Design a modern, clean, highly scannable grid component that pairs core technical terms (for Google) with real-world, obvious benefits (for humans):
+- "Anchor Placement & D-Loop Alignment" -> "Keep your fly out of the bushes and trees behind you permanently."
+- "Biomechanical Lever Efficiency" -> "Let the rod do 90% of the heavy lifting so your shoulder and arms don't ache by lunchtime."
+- "Change of Direction Tactics" -> "Effortlessly pivot and change the angle of your cast without stripping line or wasting time."
+
+5. Pedagogy & Regional Logistics Section:
+- Include a section detailing our kinesthetic teaching style: focusing on muscle memory and the physical feel of the line weight loading the rod, rather than shouting complex math rules or forcing a single stance.
+- Include a Local Logistics block at the bottom clearly defining the geographic footprint (Bryson City, Tuckasegee River, Nantahala River, Western North Carolina), confirming that all premium tackle/rods/lines are fully provided for students, and featuring distinct booking/consultation contact actions.
+
+Please build or update this component cleanly using Tailwind CSS, keeping the visual style completely consistent with the premium, clean look of macbrownflyfish.com. Ensure all routes link correctly.

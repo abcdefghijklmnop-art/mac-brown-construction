@@ -1,0 +1,275 @@
+import { useState } from "react";
+
+const s = {
+  blue: "#185FA5", blueDk: "#0C447C", blueLt: "#E6F1FB", blueMd: "#B5D4F4",
+  tx: "#1a1a1a", txm: "#555", txl: "#888", bg: "#fff", bgs: "#f7f9fc",
+  bgr: "#eef4fa", bd: "#dde5ef",
+};
+
+const styles = `
+  .pg { font-family: Georgia, serif; color: ${s.tx}; background: ${s.bg}; font-size: 17px; line-height: 1.75; max-width: 960px; margin: 0 auto; padding: 0 2rem; }
+  .pg section { padding: 4rem 0; }
+  .pg section + section { border-top: 1px solid ${s.bd}; }
+  .eyebrow { font-family: system-ui, sans-serif; font-size: .72rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: ${s.blue}; margin-bottom: 1rem; }
+  .pg h1 { font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 700; line-height: 1.15; margin: 0 0 1.25rem; }
+  .pg h1 em { font-style: italic; color: ${s.blue}; }
+  .pg h2 { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 700; line-height: 1.2; margin: 0 0 1.1rem; }
+  .hero-sub { font-size: 1.05rem; color: ${s.txm}; line-height: 1.8; margin-bottom: 2rem; }
+  .btn-row { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .btn-p { font-family: system-ui, sans-serif; font-size: .9rem; font-weight: 600; background: ${s.blue}; color: #fff; padding: .8rem 1.75rem; border-radius: 6px; text-decoration: none; cursor: pointer; border: none; display: inline-block; }
+  .btn-p:hover { background: ${s.blueDk}; }
+  .btn-s { font-family: system-ui, sans-serif; font-size: .9rem; background: transparent; color: ${s.txm}; border: 1px solid ${s.bd}; padding: .8rem 1.75rem; border-radius: 6px; text-decoration: none; display: inline-block; }
+  .btn-s:hover { border-color: ${s.blue}; color: ${s.blue}; }
+  .hero-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; }
+  .stat-panel { background: ${s.bgs}; border: 1px solid ${s.bd}; border-radius: 16px; padding: 2rem; display: flex; flex-direction: column; gap: 1.25rem; }
+  .stat-num { font-size: 3.5rem; font-weight: 700; line-height: 1; color: ${s.blue}; }
+  .stat-lbl { font-family: system-ui, sans-serif; font-size: .78rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: ${s.blueDk}; }
+  .stat-desc { font-style: italic; font-size: 1rem; color: ${s.tx}; line-height: 1.6; }
+  .stat-sub { font-family: system-ui, sans-serif; font-size: .82rem; color: ${s.txl}; line-height: 1.6; }
+  .hooks-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+  .hook-card { background: ${s.bgr}; border: 1px solid ${s.bd}; border-radius: 12px; padding: 1.25rem; }
+  .hook-lbl { font-family: system-ui, sans-serif; font-size: .68rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: ${s.txl}; margin-bottom: .5rem; }
+  .hook-txt { font-style: italic; font-size: 1rem; line-height: 1.5; color: ${s.blueDk}; }
+  .hook-center { background: ${s.bgs}; border-left: 4px solid ${s.blue}; border-radius: 0 12px 12px 0; padding: 1.5rem 2rem; margin: 1rem 0; }
+  .hook-center p { font-style: italic; font-size: 1.25rem; line-height: 1.5; margin: 0; }
+  .stat-banner { background: ${s.blue}; border-radius: 16px; display: flex; align-items: stretch; overflow: hidden; margin: 2rem 0; }
+  .sbn { background: ${s.blueDk}; padding: 1.75rem 2rem; display: flex; flex-direction: column; align-items: center; justify-content: center; min-width: 130px; flex-shrink: 0; }
+  .sbn-big { font-size: 3rem; font-weight: 700; color: #fff; line-height: 1; }
+  .sbn-lbl { font-family: system-ui, sans-serif; font-size: .62rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: ${s.blueMd}; margin-top: .35rem; }
+  .sbb { padding: 1.75rem 2rem; display: flex; flex-direction: column; justify-content: center; gap: .5rem; }
+  .sbb-q { font-style: italic; font-size: 1.1rem; color: #fff; line-height: 1.5; margin: 0; }
+  .sbb-s { font-family: system-ui, sans-serif; font-size: .83rem; color: ${s.blueMd}; line-height: 1.6; margin: 0; }
+  .bp-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: ${s.bd}; border: 1px solid ${s.bd}; border-radius: 12px; overflow: hidden; margin: 1.5rem 0; }
+  .bp-step { background: ${s.bgr}; padding: 1.5rem 1.1rem; }
+  .bp-num { font-size: 2.25rem; font-weight: 700; color: ${s.blue}; line-height: 1; margin-bottom: .5rem; }
+  .bp-title { font-family: system-ui, sans-serif; font-size: .83rem; font-weight: 600; color: ${s.blueDk}; margin-bottom: .35rem; }
+  .bp-desc { font-family: system-ui, sans-serif; font-size: .78rem; color: ${s.txm}; line-height: 1.5; }
+  .body-txt { font-size: 1rem; color: ${s.txm}; line-height: 1.8; margin-bottom: 1.25rem; }
+  .check-list { list-style: none; display: flex; flex-direction: column; gap: .75rem; margin: 1.25rem 0; padding: 0; }
+  .check-list li { display: flex; gap: .75rem; align-items: flex-start; font-size: .98rem; color: ${s.txm}; }
+  .check-arrow { color: ${s.blue}; font-family: system-ui, sans-serif; font-weight: 700; flex-shrink: 0; }
+  .cmp-wrap { border: 1px solid ${s.bd}; border-radius: 12px; overflow: hidden; margin: 1.5rem 0; }
+  .cmp { width: 100%; border-collapse: collapse; font-family: system-ui, sans-serif; font-size: .88rem; }
+  .cmp th { padding: .9rem 1.1rem; text-align: left; font-size: .72rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+  .th-bad { background: ${s.bgs}; color: ${s.txl}; }
+  .th-good { background: ${s.blue}; color: ${s.blueLt}; }
+  .cmp td { padding: .8rem 1.1rem; vertical-align: top; line-height: 1.5; border-top: 1px solid ${s.bd}; }
+  .td-bad { color: ${s.txm}; background: #fff; }
+  .td-good { color: ${s.blueDk}; background: #f0f6fc; font-weight: 500; }
+  .prog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.1rem; margin-top: 1.5rem; }
+  .prog-card { border: 1px solid ${s.bd}; border-radius: 12px; padding: 1.5rem; display: flex; flex-direction: column; gap: .65rem; }
+  .prog-goal { font-family: system-ui, sans-serif; font-size: .72rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: ${s.blue}; }
+  .prog-title { font-family: system-ui, sans-serif; font-size: .93rem; font-weight: 600; color: ${s.tx}; }
+  .prog-desc { font-family: system-ui, sans-serif; font-size: .82rem; color: ${s.txm}; line-height: 1.6; flex: 1; }
+  .prog-link { font-family: system-ui, sans-serif; font-size: .82rem; font-weight: 600; color: ${s.blue}; text-decoration: none; }
+  .cta-band { background: ${s.bgs}; border-radius: 16px; padding: 3.5rem 3rem; text-align: center; margin-top: 2rem; }
+  .cta-band h2 { max-width: 560px; margin: 0 auto 1rem; }
+  .cta-center { max-width: 500px; margin: 0 auto 1.75rem; }
+  .cta-btns { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; }
+  .popup-bg { display: none; position: fixed; inset: 0; z-index: 200; background: rgba(0,0,0,.55); align-items: center; justify-content: center; }
+  .popup-bg.open { display: flex; }
+  .popup { background: #fff; border-radius: 16px; padding: 2.25rem; max-width: 460px; width: 90%; position: relative; }
+  .popup-x { position: absolute; top: .9rem; right: 1.1rem; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: ${s.txl}; line-height: 1; }
+  .popup h3 { font-size: 1.5rem; font-weight: 700; line-height: 1.25; margin: 0 0 .4rem; }
+  .popup-sub { font-family: system-ui, sans-serif; font-size: .88rem; color: ${s.blue}; font-weight: 500; margin-bottom: .9rem; }
+  .popup p { font-family: system-ui, sans-serif; font-size: .86rem; color: ${s.txm}; line-height: 1.7; margin-bottom: 1.25rem; }
+  .popup input { width: 100%; padding: .7rem 1rem; border: 1px solid ${s.bd}; border-radius: 6px; font-family: system-ui, sans-serif; font-size: .9rem; margin-bottom: .65rem; outline: none; box-sizing: border-box; }
+  .popup input:focus { border-color: ${s.blue}; }
+  @media(max-width:768px) {
+    .hero-inner, .hooks-grid, .prog-grid { grid-template-columns: 1fr; }
+    .bp-grid { grid-template-columns: 1fr 1fr; }
+    .stat-banner { flex-direction: column; }
+    .pg { padding: 0 1.1rem; }
+    .cta-band { padding: 2rem 1.25rem; }
+  }
+  @media(max-width:480px) { .bp-grid { grid-template-columns: 1fr; } }
+`;
+
+export default function NewToFlyFishing() {
+  const [popupOpen, setPopupOpen] = useState(false);
+  const [email, setEmail] = useState("");
+
+  return (
+    <>
+      <style>{styles}</style>
+      <div className="pg">
+
+        {/* HERO */}
+        <section>
+          <div className="hero-inner">
+            <div>
+              <p className="eyebrow">New to fly fishing?</p>
+              <h1>Stop guessing.<br /><em>Start learning it right.</em></h1>
+              <p className="hero-sub">Most beginners spend years untangling bad habits they didn't know they were building. Our school gives you the exact foundation used by world-champion anglers — simplified for your very first day on the water.</p>
+              <div className="btn-row">
+                <a href="/contact" className="btn-p">Reserve your spot</a>
+                <a href="/programs" className="btn-s">See all programs</a>
+              </div>
+            </div>
+            <div className="stat-panel">
+              <div>
+                <div className="stat-num">85%</div>
+                <div className="stat-lbl">of beginner mistakes</div>
+              </div>
+              <p className="stat-desc">"Eliminate 85% of mistakes before they happen — with a structured school that gives you syllabi, lesson plans, and a lifetime blueprint from day one."</p>
+              <p className="stat-sub">Most errors aren't talent problems. They're structure problems. A clear path fixes that before bad habits ever form.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* HOOKS */}
+        <section>
+          <p className="eyebrow">Why beginners need this</p>
+          <h2>Six things you need to hear before you pick up a rod.</h2>
+          <div className="hooks-grid">
+            {[
+              { lbl: "The hidden cost", txt: "\"Most people spend five years struggling to unteach themselves what they learned wrong in the first five minutes.\"" },
+              { lbl: "The myth", txt: "\"World-champion casting isn't complicated. It's just efficient. And efficient is actually easier on your body.\"" },
+              { lbl: "The blueprint", txt: "\"You won't leave with a fish story. You'll leave with a lifetime blueprint — the same handouts used to train competitive champions.\"" },
+              { lbl: "The shortcut", txt: "\"A weekend with us is worth ten years of YouTube. We've already done the trial and error — for 40 years.\"" },
+              { lbl: "The arm test", txt: "\"If your arm is sore after an hour on the water, you're fighting the rod. We'll show you how to let physics do the work.\"" },
+              { lbl: "The credential", txt: "\"Less than 10% of instructors worldwide hold FFI Master Certification. You'll learn from one of them — in the Smokies.\"" },
+            ].map((h, i) => (
+              <div className="hook-card" key={i}>
+                <p className="hook-lbl">{h.lbl}</p>
+                <p className="hook-txt">{h.txt}</p>
+              </div>
+            ))}
+          </div>
+          <div className="hook-center">
+            <p>"You don't know what you don't know yet. That's exactly the right place to start."</p>
+          </div>
+        </section>
+
+        {/* 85% / BLUEPRINT */}
+        <section>
+          <p className="eyebrow">A structured path forward</p>
+          <h2>Eliminate 85% of mistakes before they happen.</h2>
+          <p className="body-txt">Most beginner mistakes aren't talent problems — they're structure problems. Without a clear learning path, you're guessing. You cast wrong, build a habit, and spend the next decade trying to unlearn it.</p>
+          <p className="body-txt">A structured school with syllabi and lesson plans eliminates that entirely. You don't wander — you progress. Every session builds on the last. Every concept connects to the next.</p>
+          <div className="stat-banner">
+            <div className="sbn">
+              <span className="sbn-big">85%</span>
+              <span className="sbn-lbl">of mistakes</span>
+            </div>
+            <div className="sbb">
+              <p className="sbb-q">"Eliminate 85% of mistakes before they happen — with a structured school that hands you syllabi, lesson plans, and a lifetime blueprint from day one."</p>
+              <p className="sbb-s">Most errors aren't talent problems. They're structure problems. A clear path fixes that before bad habits form.</p>
+            </div>
+          </div>
+          <p className="eyebrow" style={{ marginTop: "2rem" }}>Your lifetime blueprint</p>
+          <p className="body-txt">These aren't generic brochures. They're engineered from 40 years of coaching elite competitive anglers — distilled into clear, visual steps you can practice anywhere.</p>
+          <div className="bp-grid">
+            {[
+              { n: "01", t: "Student handouts", d: "Proprietary casting mechanics — visual, precise, yours to keep forever." },
+              { n: "02", t: "Lesson plans", d: "Practice sessions built around where you are, for your home water." },
+              { n: "03", t: "Continued syllabus", d: "A sequenced curriculum for growing well past your first cast." },
+              { n: "04", t: "Lifetime reference", d: "Return to your materials any time — on any river, anywhere in the world." },
+            ].map((b, i) => (
+              <div className="bp-step" key={i}>
+                <div className="bp-num">{b.n}</div>
+                <div className="bp-title">{b.t}</div>
+                <div className="bp-desc">{b.d}</div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* WELCOME */}
+        <section>
+          <p className="eyebrow">You belong here</p>
+          <h2>Every master was once a beginner. You're in the right place.</h2>
+          <p className="body-txt">Right now you might not even know what questions to ask — and that's exactly where you want to be.</p>
+          <p className="body-txt">Many beginners spend their first five years building bad physical habits, untangling messy lines, and feeling frustrated on the water. By starting with us, you bypass years of trial and error and build a flawless, effortless foundation from day one.</p>
+          <ul className="check-list">
+            {[
+              "Education over entertainment — we don't just take you out to catch a fish; we give you the skills to catch fish for the rest of your life.",
+              "Effortless mechanics — world-champion casting isn't about muscle or complexity. It's about efficiency, physics, and ease.",
+              "Zero intimidation — our school is a welcoming, high-support environment built to turn curiosity into absolute confidence.",
+            ].map((item, i) => (
+              <li key={i}><span className="check-arrow">→</span><span>{item}</span></li>
+            ))}
+          </ul>
+        </section>
+
+        {/* COMPARE */}
+        <section>
+          <p className="eyebrow">Education over entertainment</p>
+          <h2>Why our method is different.</h2>
+          <p className="body-txt">Not all fly fishing instruction is created equal. Here's the honest difference between a day with us and spending money elsewhere.</p>
+          <div className="cmp-wrap">
+            <table className="cmp">
+              <thead>
+                <tr>
+                  <th className="th-bad">What most shops offer</th>
+                  <th className="th-good">What you get here</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["Untangle your line for you — you leave knowing nothing new", "Learn why tangles happen — and prevent them forever"],
+                  ["Hook the fish, hand you the rod, take the photo", "Understand water reading, drift, and presentation"],
+                  ["Generic brochure forgotten by Monday", "World-champion curriculum handouts you keep for life"],
+                  ["No path forward once the trip ends", "Syllabi and lesson plans for a lifetime of continued growth"],
+                  ["Anyone with a boat calls themselves a guide", "FFI Master Certified Instructor with 40 years of teaching"],
+                ].map(([bad, good], i) => (
+                  <tr key={i}>
+                    <td className="td-bad">{bad}</td>
+                    <td className="td-good">{good}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        {/* PROGRAMS */}
+        <section>
+          <p className="eyebrow">Find your track</p>
+          <h2>Choose the program that fits where you are.</h2>
+          <p className="body-txt">Whether you're brand new to the sport or looking to lock in your foundation, we have a program built for you.</p>
+          <div className="prog-grid">
+            {[
+              { goal: "Total immersion", title: "Fly Fishing Guide School", desc: "Best for beginners who want to completely skip the learning curve and master river reading, safety, rigging, and advanced tactics in one intensive program.", href: "/guide-school" },
+              { goal: "Flawless mechanics", title: "Specialized Casting Clinics", desc: "Master the rod without muscle strain. Learn the physics of Casting Angles directly from an FFI Master Certified Instructor in a small-group setting.", href: "/clinics" },
+              { goal: "On-water success", title: "Guided Schools & NC Trips", desc: "Experience the beautiful waters of Bryson City and the Smokies while receiving real-time, patient coaching tailored to your skill level.", href: "/trips" },
+            ].map((p, i) => (
+              <div className="prog-card" key={i}>
+                <div className="prog-goal">{p.goal}</div>
+                <div className="prog-title">{p.title}</div>
+                <div className="prog-desc">{p.desc}</div>
+                <a href={p.href} className="prog-link">Learn more →</a>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section>
+          <div className="cta-band">
+            <p className="eyebrow">Ready to begin?</p>
+            <h2>Step onto the water with total confidence.</h2>
+            <p className="body-txt cta-center">Space is strictly limited to ensure high-level, personalized attention for every student. You don't need to be an expert to train like one.</p>
+            <div className="cta-btns">
+              <button className="btn-p" onClick={() => setPopupOpen(true)}>Get the free 2-page excerpt</button>
+              <a href="/contact" className="btn-s">Talk to us directly</a>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      {/* POPUP */}
+      <div className={`popup-bg${popupOpen ? " open" : ""}`} onClick={(e) => e.target === e.currentTarget && setPopupOpen(false)}>
+        <div className="popup">
+          <button className="popup-x" onClick={() => setPopupOpen(false)}>×</button>
+          <h3>Skip 5 years of frustration in 5 minutes.</h3>
+          <p className="popup-sub">Free 2-page excerpt — World-Champion Casting Handbook</p>
+          <p>Learn the exact physics-based foundation used to train competitive champions — distilled into a simple, visual guide you can use today.</p>
+          <input type="email" placeholder="Your email address" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <button className="btn-p" style={{ width: "100%", textAlign: "center" }}>Send me the free excerpt!</button>
+        </div>
+      </div>
+    </>
+  );
+}

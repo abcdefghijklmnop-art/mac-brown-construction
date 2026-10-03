@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Tony Brooks a certified fly casting instructor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Tony Brooks is a Certified Casting Instructor through Fly Fishers International (FFI), a credential reflecting both his technical mastery of fly casting and his dedication to teaching."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long has Tony Brooks been guiding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tony has been guiding professionally since 2009 and has been fly fishing for over 50 years."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What rivers and streams does Tony Brooks guide and specialize in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tony specializes in Western North Carolina mountain streams, including the Davidson River and Pisgah National Forest, and Big Santeetlah Creek, with a focus on dry fly and nymph technique for beginner and intermediate anglers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Has Tony Brooks competed in national fly fishing competitions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Tony competed in the 2016 U.S. National Fly Fishing Championship in Lake Placid, NY, and served as a sector judge at the 2024 championship in Cherokee, NC. He is also a member of the competitive fly fishing team, Team Stonefly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What organizations is Tony Brooks affiliated with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tony is President and a member of the French Broad Fly Fishers and a member of Team Stonefly, a competitive fly fishing team."
+      }
+    }
+  ]
+}

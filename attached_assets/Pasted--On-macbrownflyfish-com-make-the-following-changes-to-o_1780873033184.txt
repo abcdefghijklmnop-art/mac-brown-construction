@@ -1,0 +1,150 @@
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/fly-fishing-instruction-lessons-casting-raleigh-nc/
+
+AEO — add immediately below H1:
+"Mac Brown presents fly fishing instruction, 
+casting lessons, and casting demonstrations 
+annually at The Fly Fishing Show in Raleigh, 
+NC — one of the largest fly fishing shows 
+on the East Coast. The Raleigh show brings 
+together guides, instructors, rod builders, 
+and passionate fly fishers from across the 
+Southeast. Mac Brown's casting sessions at 
+the show cover tension in fly casting — the 
+understanding that control over constant, 
+increasing, and decreasing tension during 
+the stroke is the key to mastering all 
+specialty casts from small Smoky Mountain 
+streams to 30-knot saltwater flats."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: Does Mac Brown teach fly casting 
+at fly fishing shows?
+A1: Yes — Mac Brown has been a national 
+presenter at The Fly Fishing Show since 
+1994 — appearing annually at major show 
+cities across the country including 
+Raleigh, Somerset, Atlanta, Denver, 
+and Pleasanton. Shows provide an 
+opportunity to work with students from 
+all skill levels in an intensive half-day 
+or full-day format and to collaborate 
+with other elite instructors and guides 
+from around the world.
+
+Q2: What is tension in fly casting 
+and why does it matter?
+A2: Tension in fly casting refers to 
+the degree of tautness maintained in 
+the fly line throughout the cast and 
+the drift. Understanding constant 
+tension, increasing tension, and 
+decreasing tension gives the caster 
+control over every specialty cast — 
+from pile casts that build slack into 
+the presentation to tight line Euro 
+nymphing that eliminates all slack. 
+The same principle applies equally 
+on small Smoky Mountain streams and 
+30-knot saltwater flats.
+
+Q3: Can I take a fly casting lesson 
+at The Fly Fishing Show?
+A3: Yes — Mac Brown offers group 
+casting clinics and individual casting 
+sessions at The Fly Fishing Show in 
+Raleigh and other show cities. Check 
+the Events Calendar at macbrownflyfish.com 
+for upcoming show appearances and 
+class schedules. Private casting 
+lessons are also available year-round 
+in Bryson City, NC and online via 
+FaceTime, Zoom, or Skype.
+
+Q4: What fly fishing shows does 
+Mac Brown attend?
+A4: Mac Brown has been a national 
+presenter at The Fly Fishing Show 
+since 1994 — appearing in Raleigh NC, 
+Somerset NJ, Atlanta GA, Denver CO, 
+Pleasanton CA, and other major show 
+cities. He teaches the all-day advanced 
+fly casting class with Gary Borger at 
+multiple show locations each winter 
+season. Check macbrownflyfish.com/
+events-calendar for current show 
+dates and locations.
+
+Q5: Where can I take a fly casting 
+lesson with Mac Brown near Raleigh NC?
+A5: Mac Brown Fly Fish is based in 
+Bryson City, NC — approximately 
+4.5 hours from Raleigh. Private 
+casting lessons, guided trips, and 
+weekend clinics are available 
+year-round on the Tuckasegee River, 
+Nantahala River, and wild streams 
+of Great Smoky Mountains National 
+Park. Online casting lessons via 
+FaceTime, Zoom, or Skype are 
+available at $400 per session for 
+Raleigh-area anglers who cannot 
+make the drive.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Mac Brown teach fly casting at fly fishing shows?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — Mac Brown has been a national presenter at The Fly Fishing Show since 1994 — appearing annually at major show cities including Raleigh, Somerset, Atlanta, Denver, and Pleasanton. Shows provide an opportunity to work with students from all skill levels in an intensive format and to collaborate with other elite instructors and guides from around the world."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is tension in fly casting and why does it matter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tension in fly casting refers to the degree of tautness maintained in the fly line throughout the cast and the drift. Understanding constant tension, increasing tension, and decreasing tension gives the caster control over every specialty cast — from pile casts that build slack to tight line Euro nymphing that eliminates all slack. The same principle applies equally on small Smoky Mountain streams and 30-knot saltwater flats."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I take a fly casting lesson at The Fly Fishing Show?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — Mac Brown offers group casting clinics and individual casting sessions at The Fly Fishing Show in Raleigh and other show cities. Check the Events Calendar at macbrownflyfish.com for upcoming show appearances and class schedules. Private casting lessons are also available year-round in Bryson City, NC and online via FaceTime, Zoom, or Skype."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What fly fishing shows does Mac Brown attend?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown has been a national presenter at The Fly Fishing Show since 1994 — appearing in Raleigh NC, Somerset NJ, Atlanta GA, Denver CO, Pleasanton CA, and other major show cities. He teaches the all-day advanced fly casting class with Gary Borger at multiple show locations each winter season."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I take a fly casting lesson with Mac Brown near Raleigh NC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish is based in Bryson City, NC — approximately 4.5 hours from Raleigh. Private casting lessons, guided trips, and weekend clinics are available year-round on the Tuckasegee River, Nantahala River, and wild streams of Great Smoky Mountains National Park. Online casting lessons via FaceTime, Zoom, or Skype are available at $400 per session."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

@@ -1,0 +1,34 @@
+{
+  "name": "How to Get Your Nymph Down — Depth, Indicator, and Strike Detection",
+  "description": "A step-by-step guide to nymph fishing depth, indicator placement, mend technique, and cold-water strike detection. Fundamentals taught at the Fly Fishing Guide School in Bryson City, NC.",
+  "totalTime": "PT30M",
+  "supply": [
+    { "name": "Fly rod (9 ft or longer for tight line methods)" },
+    { "name": "Split shot in multiple sizes" },
+    { "name": "Strike indicator" },
+    { "name": "Light tippet (appropriate to season and pattern size)" },
+    { "name": "Nymph patterns (bright visible practice pattern recommended)" }
+  ],
+  "steps": [
+    {
+      "name": "Select Sufficient Weight",
+      "text": "Use enough split shot so you occasionally tick the bottom. If you are never touching bottom you are almost certainly fishing too high in the water column and missing the productive zone. Add weight in small increments and err heavy rather than light, especially in faster pocket water. Lighter tippet also sinks faster — use finer tippet in winter when patterns are small."
+    },
+    {
+      "name": "Set Indicator Depth",
+      "text": "Place the strike indicator at approximately 1.5 times the depth of the water you are fishing. If the water is 4 feet deep, position the indicator 6 feet above the fly. Adjust up in slower, shallower water and down in faster, deeper runs. A bright-colored visible practice pattern (egg or chartreuse mop) helps you observe how indicator placement changes fly depth."
+    },
+    {
+      "name": "Make the Tuck Cast",
+      "text": "Learn and use the tuck cast for upstream nymphing. The tuck cast drives the fly downward at the end of the stroke so it enters the water ahead of the leader and begins sinking immediately, maximizing depth before drag can set in. This is an invaluable tool — its benefits enable you to successfully fish short to medium distances upstream with superior depth control."
+    },
+    {
+      "name": "Mend Immediately After the Cast",
+      "text": "Mend upstream right after the cast lands — before any drag begins. Many beginners mend too late, after the fly has already started skating in the current. An immediate upstream mend allows the nymph its maximum sink time during the first feet of the drift, which is when most takes occur."
+    },
+    {
+      "name": "Detect and Set the Strike",
+      "text": "Watch the indicator for any movement that does not match the current — a subtle pause, slight upstream twitch, or hesitation is likely a take. In cold water when fish are lethargic the take is often barely more than a pause in the drift. Set the hook with a short, firm strip-set rather than a large rod sweep. When in doubt, set — you can re-cast, but you cannot un-miss a fish."
+    }
+  ]
+}

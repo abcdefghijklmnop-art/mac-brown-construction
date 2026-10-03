@@ -1,0 +1,41 @@
+Act as an expert Next.js developer and technical SEO specialist. We need to create a brand-new, standalone, permanent structural landing page in our App Router. 
+
+CRITICAL ROUTING INSTRUCTION: 
+This page will function as a high-converting "hidden/orphan" landing page used for targeted regional search traffic and anglers preparing for destination trips. Do NOT add this page to the main navigation bar, site header menu, or footer links. It must only exist at its direct route URL.
+
+1. Target Route: /saltwater-fly-casting-school-nc
+- Ensure this is a clean, permanent Next.js structural page component.
+- Apply Dual-Layer Copywriting: keep headings hyper-focused on specific regional search volume, but write the body copy using highly accessible, "dumbass-friendly" language that removes the intense intimidation of saltwater flats angling.
+  * Main <h1> Heading (Optimized for Niche Search Intent): "Saltwater Fly Casting Schools & Instruction in North Carolina"
+  * Subheading/Span <h2> (Location/Authority): "Smoky Mountains · Bryson City, North Carolina"
+  * Intro Paragraph (The Welcoming Hook): Write an inviting introduction addressing the anxiety of blowing an expensive destination trip because of heavy wind or slow casting delivery. Emphasize that this is a completely judgment-free preparation ground.
+
+2. Implement a 2-Way "Fork in the River" Section Layout:
+Immediately below the hero, build a clean layout with two distinct path cards to help users choose their training format without confusion:
+- Card 1: Private Hourly Saltwater Casting Lessons (Path A)
+  * Hook: Ideal if you want a fast, focused 1-on-1 tune-up to build your double haul, fix your tracking, or practice casting in heavy wind before your trip.
+  * Call-to-Action Link: Explicitly links/points directly to our hourly instruction page at `/fly-casting-instruction`.
+- Card 2: Immersive 2-Day Saltwater Fly Casting Elite Masterclass Weekend (Path B)
+  * Hook: Built for anglers ready to completely master heavy-line mechanics, quick-delivery presentations, and intense accuracy required to handle flats, bonefish, tarpon, or permit over an intensive weekend clinic.
+  * Call-to-Action Link: Explicitly links/points directly to our dedicated premium weekend program page at `/saltwater-fly-casting-elite-masterclass-workshop`.
+
+3. Dumbass-Friendly "No-Shame" FAQ Section:
+Build a highly readable Accordion component containing the exact practical anxieties a newer saltwater angler is secretly too embarrassed to ask:
+- Q: "I have a trip booked for the flats in 3 months. Is it too late to fix my cast?"
+  --> A: This clinic is exactly what saves your trip investment. We specialize in fast-track muscle memory. A session here ensures that when a guide screams 'Tarpon at 11 o'clock!' you drop the fly instantly instead of tangling your line around your feet.
+- Q: "What if I can't cast 80 feet? Am I going to fail on my trip?"
+  --> A: Accuracy and speed matter way more than raw distance in saltwater. We focus on getting a clean, heavy-wind delivery at 40 to 50 feet in under three seconds. Distance comes naturally once your mechanics are clean.
+- Q: "Is casting a heavy 10-weight rod going to destroy my shoulder?"
+  --> A: Only if you are doing it wrong. If you try to muscle a heavy saltwater rod with brute strength, you’ll be sore by lunchtime. We teach you how to let the rod lever do 90% of the work so you can cast heavy lines all day effortlessly.
+
+4. Features & Curriculum Matrix (Translating Jargon to Felt Benefits):
+Design a modern, clean, highly scannable grid component that pairs core technical terms (for Google) with real-world, obvious benefits (for humans):
+- "Double Haul Optimization & Line Speed" -> "Cut right through stiff ocean winds without collapsing your loop."
+- "Quick-Delivery Presentation Drill" -> "Unroll your fly accurately in under three seconds when a predatory fish appears out of nowhere."
+- "Biomechanical Lever Physics" -> "Learn to cast heavy 8 to 11-weight rods all day long without straining your arm or shoulder."
+
+5. Pedagogy & Regional Logistics Section:
+- Include a section detailing our kinesthetic teaching style: focusing on muscle memory and the physical feel of the line weight loading the rod, rather than shouting complex math rules or forcing a single rigid stance.
+- Include a Local Logistics block at the bottom clearly defining the geographic footprint (Bryson City, NC), confirming that all heavy saltwater tackle, rods, and specialized lines are fully provided for students, and featuring distinct booking/consultation contact actions.
+
+Please build or update this component cleanly using Tailwind CSS, keeping the visual style completely consistent with the premium, clean look of macbrownflyfish.com. Ensure all routes link correctly.

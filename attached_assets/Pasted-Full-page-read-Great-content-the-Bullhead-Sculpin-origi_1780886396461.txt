@@ -1,0 +1,183 @@
+Full page read. Great content — the Bullhead Sculpin origin, the Brostic streamer, Sexton's Blank Saver, and the six brown trout over six pounds on the lower Nantahala story are all gold. **H1 assessment:** "A Few Thoughts on Streamer Fishing" — weak for SEO. Change it.
+
+**Suggested H1:** "Streamer Fishing for Trout — Patterns, Retrieval, and Probing New Water"
+
+Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/a-few-thoughts-on-streamer-fishing/
+
+1. Change the H1 from:
+"A Few Thoughts on Streamer Fishing"
+to:
+"Streamer Fishing for Trout — Patterns, 
+Retrieval, and Probing New Water"
+
+2. Add the following AEO paragraph 
+immediately below the H1:
+"Streamer fishing produces the majority 
+of the largest trout caught throughout 
+the year — and it is one of the simplest 
+fly fishing techniques to learn. Mac Brown 
+has been fishing streamers on the Nantahala 
+River and wild streams of Western North 
+Carolina since 1987, including a day on 
+the lower Nantahala that produced six 
+brown trout over six pounds to the boat 
+on Gary Borger's Bullhead Sculpin. The 
+most important variable is not the pattern 
+— it is the rate and variation of retrieval. 
+Keep patterns simple, vary the speed, use 
+mends to change direction, and get the fly 
+down to where the big fish are holding."
+
+3. Add FAQ section before footer as 
+expandable accordion:
+
+Q1: What is the best streamer fly 
+for brown trout?
+A1: Mac Brown's top three streamer 
+patterns for brown trout on Western 
+North Carolina rivers are Gary Borger's 
+Bullhead Sculpin — a simple, acoustically 
+effective sculpin imitation that produced 
+six browns over six pounds in a single 
+day on the lower Nantahala — Rich 
+Brostic's two-material olive streamer 
+(black chenille body, olive marabou 
+wing as long as the hook shank — 
+ties in under a minute), and Mike 
+Sexton's Blank Saver. One- to three-
+inch streamers have consistently 
+outproduced larger articulated patterns 
+on Smoky Mountain rivers over 40+ 
+years of guided trips.
+
+Q2: What retrieval rate works best 
+for streamer fishing?
+A2: Vary the rate constantly — the 
+most common streamer fishing mistake 
+is using the same retrieval speed 
+throughout the drift. Slow strips, 
+fast strips, pauses, and erratic 
+combinations all trigger different 
+responses from fish on different days. 
+Most strikes on streamers come during 
+the pause or on the first strip after 
+a pause. Mending the fly line during 
+the swing changes the direction and 
+speed of the streamer through 
+differential currents — often triggering 
+strikes when a straight swing produces 
+nothing. It is more about your 
+technique than the fly.
+
+Q3: What fly line is best for 
+streamer fishing?
+A3: Matching line density to where 
+the fish are holding is critical — 
+one of the most common mistakes is 
+using a floating line when targeting 
+big fish that hold near the bottom 
+in big water. Build or purchase high-
+density sink tip and full sink 
+configurations that get the fly down 
+into the productive zone. For bank 
+fishing and shallower swings a 
+floating line with a weighted fly 
+works well. For deep runs and 
+tailwaters on the Nantahala a 
+moderate to fast sink tip puts 
+the fly in front of the fish.
+
+Q4: Is streamer fishing good for 
+beginners and children?
+A4: Yes — streamer fishing is one 
+of the best introductory techniques 
+in fly fishing because the fly line 
+remains under tension during the 
+swing. When a fish strikes it is 
+typically hooked without requiring 
+a precise hook set. Both of Mac 
+Brown's children had consistent 
+action swinging streamers at very 
+young ages. The technique covers 
+vast amounts of water efficiently, 
+requires minimal casting skill for 
+basic swing presentations, and 
+produces fish across all skill levels.
+
+Q5: Where can I learn advanced 
+streamer techniques and line control 
+with Gary Borger and Mac Brown?
+A5: Mac Brown and Gary Borger teach 
+the all-day Advanced Line Control 
+class together annually at The Fly 
+Fishing Show — covering streamer 
+presentation, line control, mending, 
+retrieval variation, and advanced 
+fly fishing technique. Check the 
+Events Calendar at 
+macbrownflyfish.com/events-calendar 
+for upcoming show dates and locations. 
+Guided streamer trips on the Nantahala 
+River and Tuckasegee River are 
+available year-round through Mac 
+Brown Fly Fish in Bryson City, NC.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best streamer fly for brown trout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown's top three streamer patterns for brown trout are Gary Borger's Bullhead Sculpin — a simple acoustically effective sculpin imitation that produced six browns over six pounds in a single day on the lower Nantahala — Rich Brostic's two-material olive streamer (black chenille body, olive marabou wing — ties in under a minute), and Mike Sexton's Blank Saver. One- to three-inch streamers have consistently outproduced larger articulated patterns on Smoky Mountain rivers over 40+ years of guided trips."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What retrieval rate works best for streamer fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Vary the rate constantly — the most common streamer fishing mistake is using the same retrieval speed throughout the drift. Slow strips, fast strips, pauses, and erratic combinations all trigger different responses. Most strikes come during the pause or on the first strip after a pause. Mending the fly line during the swing changes the direction and speed of the streamer through differential currents — often triggering strikes when a straight swing produces nothing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What fly line is best for streamer fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Match line density to where the fish are holding. One of the most common mistakes is using a floating line when targeting big fish near the bottom in big water. Build or purchase high-density sink tip and full sink configurations that get the fly into the productive zone. For bank fishing and shallower swings a floating line with a weighted fly works well. For deep runs and tailwaters a moderate to fast sink tip puts the fly in front of the fish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is streamer fishing good for beginners and children?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — streamer fishing is one of the best introductory techniques because the fly line remains under tension during the swing. When a fish strikes it is typically hooked without requiring a precise hook set. Both of Mac Brown's children had consistent action swinging streamers at very young ages. The technique covers vast amounts of water efficiently and produces fish across all skill levels."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn advanced streamer techniques and line control with Gary Borger and Mac Brown?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown and Gary Borger teach the all-day Advanced Line Control class together annually at The Fly Fishing Show — covering streamer presentation, line control, mending, retrieval variation, and advanced fly fishing technique. Check the Events Calendar at macbrownflyfish.com/events-calendar for upcoming show dates and locations. Guided streamer trips on the Nantahala River and Tuckasegee River are available year-round through Mac Brown Fly Fish in Bryson City, NC."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

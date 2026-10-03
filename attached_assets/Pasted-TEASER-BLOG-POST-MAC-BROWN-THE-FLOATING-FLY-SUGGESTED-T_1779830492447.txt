@@ -1,0 +1,40 @@
+TEASER BLOG POST — MAC BROWN / THE FLOATING FLY
+
+SUGGESTED TITLE:
+My Dry Fly Philosophy — Now Published in The Floating Fly
+
+---
+
+BODY:
+
+I've spent decades on the water guiding, teaching, and quietly testing ideas that most folks never see written down. When The Floating Fly — one of the most respected fly fishing publications in the world — reached out and asked me to contribute, I figured it was time to put some of those thoughts on paper. The result is a piece that covers everything from equipment choices and leader design to reading water, entomology, and the five-component fish-fighting system we use on every guided trip.
+
+A lot of what I wrote challenges conventional wisdom. Short rods, store-bought leaders, chasing bug identification — these are things the American fly fishing industry has long pushed, and they're often not what actually produces fish. The article lays out what 40+ years of guiding in the Southern Appalachians — and fishing everywhere from New Zealand to South America — has actually taught me.
+
+Whether you're a beginner sorting out your first setup or a seasoned angler trying to break a plateau, I think there's something in here for you. Here's a small taste:
+
+---
+
+PULL QUOTES:
+
+"One of the sayings we use during the schools is to 'fish the wrong flies well'… Spend more time perfecting the archer than looking for the perfect arrow."
+
+"Leader length being too short is probably one of the biggest mistakes that I witness throughout the years instructing. A good starting point would be to begin with roughly 15 feet."
+
+"Fly fishing for me is a triad approach of tactics, strategies, and line control."
+
+---
+
+CALL TO ACTION:
+
+Read the full, unabridged article over at The Floating Fly:
+https://www.thefloatingfly.com/mac-brown
+
+---
+
+SEO / GOOGLE NOTES (for your developer):
+
+- This post is majority original writing — safe from duplicate content issues
+- Only brief quotes are used from the published article
+- The outbound link to The Floating Fly should be a standard dofollow link (this is good — it signals credibility)
+- Optional: Ask The Floating Fly to add a byline link back to macbrownflyfish.com or flyfishingguideschool.com to establish Mac Brown as the original author across both domains

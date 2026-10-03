@@ -1,0 +1,57 @@
+You are an elite SEO and AEO copywriter for Macbrownflyfish.com and Flyfishingguideschool.com.
+
+ACCURACY RULES (CRITICAL):
+- Never invent facts, specs, or details not in the source text
+- No swimming certificates, no ACA mentions, no PR/First Aid mentions on any posts or pages
+- If data is missing, say "Information not available in current documentation" or ask
+- Factual accuracy over creative writing, always
+
+FORMATTING RULES:
+- No filler openers. Start with the data
+- Every FAQ = ### H3 markdown question header
+- First sentence directly answers the question (40–60 words max)
+- Bold critical terms, use bullets or tables for lists/specs/steps
+- 8th-grade reading level — clear, punchy, professional
+- No keyword stuffing
+- Each FAQ block stands alone, schema-ready
+- First sentence self-contained for voice search — no reliance on header
+- Consistent terminology throughout
+- No orphan claims — all stats/regs from source material only
+- One question = one answer, no topic pivoting
+- Active voice by default
+
+---
+
+PAGE: https://macbrownflyfish.com/blog/learn-to-make-a-roll-cast-fly-fishing
+
+ACTION: Add these 5 FAQs to the FAQ section of this page, after the existing 5 FAQs already there.
+
+---
+
+### Why does pulling the rod butt straight produce a narrower loop than pushing?
+
+Pulling the rod butt straight downward begins rotation from the start of the stroke, keeping the traveling loop legs non-parallel and conserving energy. Pushing — or forced turnover — rotates everything at the end of the stroke, sending wasted residual energy in waves down the rod leg and producing wide loops that land like an upside-down arch.
+
+---
+
+### What grip does Mac Brown recommend for achieving a better pullback in the roll cast?
+
+The **three-point grip** promotes a relaxed hand position that makes it easier to pull primarily through the **pinky and ring finger** — creating a longer lever and greater pullback. The classic thumb-on-top grip can be used, but it makes relying on the small fingers more of a struggle and harder to achieve a great pullback during a lesson.
+
+---
+
+### What is the "tension goggles" concept in fly casting?
+
+**Tension goggles** is a diagnostic concept developed by Mac Brown and Lee Cummings that maps tension across an unrolling loop using a color scale — **red** for highest tension down through orange, yellow, and **blue** for the least. The concept is designed to help fly casters visually diagnose loop morphing and understand how tension behaves across the traveling fly line.
+
+---
+
+### What does "less is more" mean in the context of the roll cast?
+
+**Less power produces greater distance** in a well-executed roll cast. Most anglers come from a background of throwing objects — the instinct is to throw harder for more distance. A traveling loop of fly line actually accelerates throughout its flight on its own. Minimal power with a precise positive stop and pullback consistently outperforms a forced, high-effort stroke.
+
+---
+
+### How does mastering the static roll cast improve your overall fly casting?
+
+The **static roll cast** is the purest test of rod loading mechanics — lift slowly, pause, then deliver. Mastering it builds the muscle memory and rod-loading understanding that carries directly into dynamic roll casts, Spey casts, and aerial distance casts. As Leslie Holmes puts it: less is more — and the static roll cast is where that lesson is learned first.

@@ -1,0 +1,51 @@
+Based on the text and visual content provided for this page, it is not possible to inspect the underlying source code (HTML) to verify if the technical schema markup (like JSON-LD or Microdata) is implemented correctly.
+
+However, looking closely at the page layout and content structure, it is highly optimized for several specific schema types. If the school hasn't implemented them yet, adding them would significantly boost their SEO performance.
+
+Here is an analysis of the schema opportunities this page presents:
+
+### 1. Course Schema (`Course`)
+
+The page heavily highlights structured tracks, syllabi, lesson plans, and specific educational tracks:
+
+* **Total Immersion:** Fly Fishing Guide School
+* **Flawless Mechanics:** Specialized Casting Clinics
+* **On-Water Success:** Guided Schools & NC Trips
+
+**Recommendation:** Implementing `Course` schema for each of these programs would allow Google to display rich snippets in search results, showing details like course length, the provider ([Fly Fishing Guide School](https://flyfishingguideschool.com/)), and a clear description of what students will learn.
+
+### 2. Local Business / School Schema (`School` or `EducationalOrganization`)
+
+The footer and body text provide excellent local citations:
+
+* **Physical Address:** 779 West Deep Creek Rd, Bryson City, NC 28713
+* **Phone Number:** (828) 736-1469
+* **Email:** flyfishingguideschool@gmail.com
+* **Geographic Context:** Mentions Swain County and Great Smoky Mountains.
+
+**Recommendation:** Wrapping this data in `School` or `LocalBusiness` schema establishes a rock-solid local SEO foundation, linking the physical location to the brand identity in Google's Knowledge Graph.
+
+### 3. FAQ Schema (`FAQPage`)
+
+The page has a beautifully structured, explicit FAQ section covering key questions like:
+
+* *"How do I start learning to fly fish?"*
+* *"Is fly fishing hard to learn for beginners?"*
+* *"Do I need any gear or experience to start fly fishing?"*
+
+**Recommendation:** If wrapped in `FAQPage` JSON-LD schema, these questions and answers can trigger rich, expandable FAQ dropdowns directly on Google's search engine results pages (SERPs), dramatically increasing real estate and click-through rates.
+
+### 4. Product / Price Schema (`Product`)
+
+The page includes a direct comparison table comparing *"What most shops offer"* versus *"What you get here,"* alongside enrollment calls-to-action.
+
+**Recommendation:** If these specific tracks have fixed pricing on their final checkout pages, tying `Product` or `Offer` schema to the enrollment links can pull pricing and availability directly into search results.
+
+---
+
+### How to Verify for Sure
+
+Since the raw HTML code isn't visible in this view, you can check if they have properly injected the schema by copying the page URL (`https://flyfishingguideschool.com/new-to-fly-fishing/`) and pasting it into:
+
+* **[Google's Rich Results Test](https://search.google.com/test/rich-results)** (This will tell you exactly which schemas are active and if they have any validation errors).
+* **Schema.org Sandbox / Validator** (For a broader look at all structured data types present).

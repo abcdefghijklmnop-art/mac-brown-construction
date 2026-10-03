@@ -1,0 +1,331 @@
+export default function GroupCorporateFlyFishing() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            Corporate & Group Events · Bryson City, NC · Since 1988
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Corporate & Group Fly Fishing Events
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed">
+            Custom-built fly fishing experiences for corporate teams, groups, and organizations — in the most beautiful outdoor setting in the eastern United States.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+              href="tel:8287361469"
+              className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Call to Plan Your Event — 828-736-1469
+            </a>
+            
+              href="/contact"
+              className="bg-white hover:bg-gray-100 text-[#1a3a5c] font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Send Us a Message
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Original Corporate Fly Fishing Experience in Western NC
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Mac Brown Fly Fish has been running group and corporate fly fishing events in the Bryson City, NC region since 1988 — longer than any other operation in Western North Carolina. In that time we have worked with Fortune 500 companies including Coca-Cola, BMW America, Georgia Power and Light, and many others — customizing every program to meet the specific goals, size, and culture of each group.
+            </p>
+            <p>
+              What makes fly fishing uniquely powerful as a corporate experience is what it demands from participants — patience, focus, communication, reading the environment, and adjusting in real time to conditions beyond your control. These are not just fly fishing skills. They are leadership skills. And the mountain rivers of the Great Smoky Mountains provide a setting that no conference room, no ropes course, and no retreat center can replicate.
+            </p>
+            <p>
+              We have seen these same participants on the water many years later — people who discovered a genuine passion for fly fishing through a corporate event and never looked back. That kind of lasting impact is the measure of an experience worth having. It is always a special moment to recognize a face from a group event of many years ago — now a dedicated angler who credits that day with changing the way they spend their time outdoors.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Fortune 500 Logos/Stats */}
+      <section className="bg-[#1D9E75] py-12 px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="grid sm:grid-cols-4 gap-6 text-center text-white">
+            {[
+              { stat: "35+", label: "Years of corporate events" },
+              { stat: "Fortune 500", label: "Companies served" },
+              { stat: "100%", label: "Custom-built programs" },
+              { stat: "All sizes", label: "Small groups to large" },
+            ].map((item, i) => (
+              <div key={i}>
+                <p className="text-3xl font-bold mb-1">{item.stat}</p>
+                <p className="text-green-100 text-sm">{item.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What We Offer */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What Your Group Experience Includes
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed mb-8">
+            <p>
+              Every corporate and group program is custom-built from the ground up — tailored specifically to your organization's goals, group size, skill levels, and schedule. No two programs are identical because no two groups are identical. The outline varies for each event with a combination of team building structure and genuine fly fishing immersion that creates lasting memories and real skills.
+            </p>
+            <p>
+              We have had top professionals in psychology create team building frameworks for these programs — setting up an environment and learning structure that is second to none in the nation. The result is an experience that works both as genuine outdoor recreation and as a meaningful professional development activity.
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              {
+                icon: "🎣",
+                title: "Fly Casting Instruction",
+                desc: "Professional casting instruction from NC's only Master Casting Instructor. Every participant learns the fundamentals — regardless of prior experience. Most people are making fishable casts within the first hour.",
+              },
+              {
+                icon: "🚶",
+                title: "Guided Wade Trips",
+                desc: "Get in the water on the finest trout streams in the eastern United States. Groups wade together with professional guides providing real-time instruction and support for every participant.",
+              },
+              {
+                icon: "🚣",
+                title: "Guided Float Trips",
+                desc: "Drift the Tuckasegee River in drift boats — comfortable, scenic, and deeply productive. An excellent option for groups that include participants who prefer not to wade.",
+              },
+              {
+                icon: "🎯",
+                title: "Hookset & Fish Playing",
+                desc: "The moment a fish takes the fly is when everything comes together. Groups learn proper hookset technique, playing fish under pressure, and landing fish cleanly — skills that require focus and finesse.",
+              },
+              {
+                icon: "🏫",
+                title: "School Atmosphere Option",
+                desc: "For groups wanting deeper instruction the program can be structured as a school — covering casting mechanics, water reading, entomology, tactics, and techniques in a focused educational format.",
+              },
+              {
+                icon: "🤝",
+                title: "Team Building Framework",
+                desc: "Psychology-designed team building components can be integrated throughout the day — using the fly fishing environment as the backdrop for exercises in communication, problem-solving, and collaborative achievement.",
+              },
+            ].map((item, i) => (
+              <div key={i} className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                <div className="text-3xl mb-3">{item.icon}</div>
+                <h3 className="font-bold text-[#1a3a5c] text-lg mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Who This Is For */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Perfect For Any Group
+          </h2>
+          <div className="grid sm:grid-cols-3 gap-6">
+            {[
+              {
+                icon: "💼",
+                title: "Corporate Teams",
+                desc: "Sales teams, leadership retreats, department outings, new employee onboarding, client entertainment. Fortune 500 companies have trusted us since 1988 to deliver an experience that reflects well on their brand.",
+              },
+              {
+                icon: "🎉",
+                title: "Special Groups",
+                desc: "Bachelor and bachelorette parties, family reunions, birthday celebrations, anniversary trips, scout troops, church groups, and any gathering looking for a genuinely memorable outdoor experience.",
+              },
+              {
+                icon: "🏫",
+                title: "Educational Groups",
+                desc: "Schools, universities, youth organizations, and continuing education programs. Fly fishing provides a rich platform for teaching ecology, entomology, conservation, and outdoor skills.",
+              },
+            ].map((item, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 border border-gray-200 text-center">
+                <div className="text-3xl mb-3">{item.icon}</div>
+                <h3 className="font-bold text-[#1a3a5c] mb-3">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Waters Served */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Waters & Areas Served
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-8">
+            Group programs are available on every major piece of water in the Western NC region — and we serve groups traveling from cities throughout the Southeast. Here is the full range of water and locations we work with:
+          </p>
+
+          <div className="grid sm:grid-cols-2 gap-6">
+            <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+              <h3 className="font-bold text-[#1a3a5c] text-lg mb-4">Rivers & Streams</h3>
+              <div className="space-y-2">
+                {[
+                  "Tuckasegee River",
+                  "Tuckasegee River Delayed Harvest",
+                  "Nantahala River",
+                  "Upper Nantahala Delayed Harvest",
+                  "Snowbird Creek Delayed Harvest",
+                  "Little Tennessee River",
+                  "Pigeon River",
+                  "Deep Creek, Forney Creek, Hazel Creek",
+                  "Noland Creek, Cataloochee Creek",
+                  "Little River & others in Great Smoky Mountains National Park",
+                  "Cherokee Fly Fishing Only Section",
+                  "WNC Fly Fishing Trail Waters",
+                ].map((item, i) => (
+                  <div key={i} className="flex items-center gap-2">
+                    <span className="text-[#1D9E75] font-bold">·</span>
+                    <span className="text-gray-700 text-sm">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+              <h3 className="font-bold text-[#1a3a5c] text-lg mb-4">Cities & Regions Served</h3>
+              <div className="space-y-2">
+                {[
+                  "Bryson City, Cherokee, Sylva, NC",
+                  "Maggie Valley, Waynesville, NC",
+                  "Highlands, Cashiers, Franklin, NC",
+                  "Murphy, Andrews, Robbinsville, NC",
+                  "Charlotte & Raleigh, NC",
+                  "Asheville, NC",
+                  "Gatlinburg, Pigeon Forge, TN",
+                  "Knoxville & Sevierville, TN",
+                  "Atlanta, GA",
+                  "Greenville & Spartanburg, SC",
+                  "Great Smoky Mountains National Park",
+                  "Blue Ridge Parkway",
+                ].map((item, i) => (
+                  <div key={i} className="flex items-center gap-2">
+                    <span className="text-[#1D9E75] font-bold">·</span>
+                    <span className="text-gray-700 text-sm">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Mac Brown */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Why Mac Brown Fly Fish for Your Group Event
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              { title: "Original & Most Experienced", desc: "Running corporate and group fly fishing events since 1988 — longer than any other operation in Western North Carolina. Fortune 500 companies have trusted us for over three decades." },
+              { title: "NC's Only Master Casting Instructor", desc: "Mac Brown holds the highest casting certification in fly fishing — held by fewer than a few hundred people worldwide. Your group gets the finest instruction available anywhere in the region." },
+              { title: "Fully Custom Programs", desc: "Every program is built specifically for your group — size, goals, skill levels, and schedule all considered. Nothing is off the shelf. Nothing is one-size-fits-all." },
+              { title: "All Gear Provided", desc: "Every rod, reel, fly, and leader is provided for every participant. Your group shows up and we handle everything else." },
+              { title: "Professional Guide Team", desc: "ACA certified guides, FFI certified casting instructors, and experienced professionals who know how to teach, encourage, and inspire participants of every background and skill level." },
+              { title: "The Finest Setting Available", desc: "The Great Smoky Mountains National Park and the rivers of Western North Carolina provide an outdoor setting that no conference room or manufactured team building venue can come close to matching." },
+            ].map((item, i) => (
+              <div key={i} className="bg-white rounded-xl p-6 border border-gray-200">
+                <h3 className="font-bold text-[#1a3a5c] mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Note */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-[#1a3a5c] text-white rounded-xl p-8 text-center">
+            <h2 className="text-2xl font-bold mb-4">Pricing & Planning</h2>
+            <p className="text-[#a0c4e0] text-lg leading-relaxed mb-6">
+              Pricing varies based on group size, program length, water selection, and the specific components included. All programs must be planned well in advance to ensure guide availability, water access, and the custom preparation your group deserves.
+            </p>
+            <p className="text-white font-semibold text-lg mb-6">
+              The earlier you reach out the better — popular dates fill quickly and custom programs require lead time to build properly.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              
+                href="tel:8287361469"
+                className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+              >
+                Call 828-736-1469
+              </a>
+              
+                href="/contact"
+                className="bg-white hover:bg-gray-100 text-[#1a3a5c] font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+              >
+                Send Us a Message
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Teaser */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-6">
+            The Experience Speaks for Itself
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-8 max-w-3xl mx-auto">
+            The true measure of a corporate fly fishing event is not what happens on the day — it is what happens in the years that follow. We regularly see participants from group events of many years ago still on the water, still improving, still passionate about a sport they discovered through a company outing. That is the lasting impact of an experience done right.
+          </p>
+          
+            href="/testimonials"
+            className="text-[#1D9E75] font-bold hover:text-[#0F6E56] transition-colors text-lg"
+          >
+            Read what past clients are saying →
+          </a>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-[#1a3a5c] text-white py-16 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6">
+            Bring Your Group to the River
+          </h2>
+          <p className="text-lg text-[#a0c4e0] mb-8 leading-relaxed">
+            Fortune 500 companies have trusted Mac Brown Fly Fish to deliver unforgettable corporate fly fishing experiences since 1988. Your group deserves the same — a fully custom program, world-class instruction, and the most beautiful outdoor setting in the eastern United States.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+              href="tel:8287361469"
+              className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Call 828-736-1469
+            </a>
+            
+              href="/contact"
+              className="bg-white hover:bg-gray-100 text-[#1a3a5c] font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Send Us a Message
+            </a>
+          </div>
+          <p className="text-[#a0c4e0] mt-6 text-sm">
+            macbrownflyfish@gmail.com · flyfishingguideschool.com · Bryson City, NC · Since 1987
+          </p>
+        </div>
+      </section>
+
+    </div>
+  );
+}

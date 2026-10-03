@@ -1,0 +1,68 @@
+On the page /bryson-city-fly-fishing-report-hatch-chart 
+on macbrownflyfish.com replace the existing FAQ section 
+and JSON-LD with the following updated version that 
+reflects the page as a live daily conditions resource:
+
+Q1: What are the current water temperatures on the 
+Tuckasegee and Nantahala rivers?
+A1: Current water temperatures on the Tuckasegee 
+and Nantahala rivers are updated every 15 minutes 
+from USGS gauge data at the top of this page. The 
+Nantahala runs year-round between 45-52°F as a 
+dam-controlled tailwater pulling cold water from 
+the bottom of Lake Nantahala. The Tuckasegee 
+varies seasonally — mid-50s is prime trout fishing 
+temperature. Stop fishing for trout at 65°F and 
+switch to warm water species.
+
+Q2: Is the Tuckasegee River good for fly fishing today?
+A2: Check the live conditions widget at the top of 
+this page for today's Tuckasegee CFS and water 
+temperature. The Tuckasegee fishes best for trout 
+when water temps are between 45-65°F. Float trips 
+run well from 500 to 4,000 CFS. Below 500 CFS 
+focus on the freestone streams in Great Smoky 
+Mountains National Park. Above 4,000 CFS bank 
+fishing only.
+
+Q3: What is the Nantahala River flow today and 
+is it good for fly fishing?
+A3: Current Nantahala CFS is updated every 15 
+minutes in the conditions widget above. The 
+Nantahala fishes best for trout when TVA 
+generation is off — typically until noon. Wading 
+is excellent during off-generation periods. Always 
+check the TVA release schedule before wading and 
+stay on the road side of the river for safe exit 
+when generation resumes. Float trips are 
+recommended when generation is running.
+
+Q4: What flies are working in the Smoky Mountains 
+right now?
+A4: The AI fishing forecast at the top of this 
+page generates daily fly recommendations based on 
+current water temperature, CFS, air temperature, 
+and 40 years of historical on-stream data from 
+Mac Brown Fly Fish. As a general rule — caddis 
+patterns work year-round on these streams in 
+larval, pupal, and adult forms. In spring key on 
+Quill Gordons, Blue Quills, and Hendricksons. 
+Summer brings terrestrials — ants, beetles, and 
+hoppers. Fall means October Caddis and big browns.
+
+Q5: Should I go fly fishing in Bryson City today?
+A5: Check the AI Daily Fishing Forecast at the 
+top of this page — generated every morning at 
+6am from current USGS flow data, NWS air 
+temperatures, and 40 years of historical 
+on-stream reports from Mac Brown Fly Fish. 
+If water temps are between 45-65°F and the 
+Tuckasegee is running 500-4,000 CFS — get 
+on the water. Spring and fall are the strongest 
+seasons. Call Mac Brown directly at 
+(828) 736-1469 for a same-day conditions report.
+
+Update the FAQPage JSON-LD in the <head> to 
+match these 5 updated questions and answers.
+
+Then run bash push.sh to deploy. No other changes.

@@ -1,0 +1,61 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 6.
+
+    {
+      "@type": "Question",
+      "name": "What is positive force in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Positive force is an increase of the net forces applied throughout the stroke where the loop always travels back around to the opposite direction of the loop plane in which it was created. Positive force casts use greater force than needed for a normal force cast and are characterized by a narrow loop that travels fast — used for tuck casts, positive curve casts, and distance casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is pulling the rod through in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pulling the rod through is a teaching concept from the Golden Gate Casting Club implying that the rod butt rotates very late in the casting stroke — maintaining a straight-line rod tip path for longer before the stop. This produces tighter loops, greater line speed, and more accurate presentations than early rotation. Most high-level casters use pulling through for standard distance and accuracy casts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is rebound in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rebound is the rod bouncing back after counterflex at the completion of adding force to the rod. It occurs after the casting stroke, sweep, mend, and similar movements. The spring of the rebounding rod transfers additional energy into the line — squeezing the grip at the stop maximizes rebound and increases line speed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is reverse thrust in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reverse thrust is any force that is straight away and in the opposite direction of the fly line's travel upon completion of the stroke. Examples include pulling the line, backing the rod up, or perpendicular rod positioning as soon as the abrupt stop occurs. Reverse thrust increases tension in the rod leg and causes the fly leg to turn over quicker."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is rhythm in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rhythm in fly casting is the movement or fluctuation marked by regular recurrence or natural flow of related objects within the system — the pace of singular movements during the cast including line positioning, sweep, and casting stroke. Rhythm encompasses syncopation, timing, and tempo and is a very important concept for advanced casts and line manipulations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is rod action in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rod action describes the features of the rod pertaining to where and how it bends when put into motion under load. Characteristics of rod action include frequency, stiffness, sensitivity, distribution of mass, and dampening. Fast action rods bend near the tip. Slow action rods bend throughout the blank. Medium action rods offer the greatest control for the widest range of trout angling scenarios."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is rod fade in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rod fade is a downward movement of the rod toward the water or ground at the completion of the c

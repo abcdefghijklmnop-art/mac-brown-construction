@@ -1,0 +1,57 @@
+You are an elite SEO and AEO copywriter for Macbrownflyfish.com and Flyfishingguideschool.com.
+
+ACCURACY RULES (CRITICAL):
+- Never invent facts, specs, or details not in the source text
+- No swimming certificates, no ACA mentions, no PR/First Aid mentions on any posts or pages
+- If data is missing, say "Information not available in current documentation" or ask
+- Factual accuracy over creative writing, always
+
+FORMATTING RULES:
+- No filler openers. Start with the data
+- Every FAQ = ### H3 markdown question header
+- First sentence directly answers the question (40–60 words max)
+- Bold critical terms, use bullets or tables for lists/specs/steps
+- 8th-grade reading level — clear, punchy, professional
+- No keyword stuffing
+- Each FAQ block stands alone, schema-ready
+- First sentence self-contained for voice search — no reliance on header
+- Consistent terminology throughout
+- No orphan claims — all stats/regs from source material only
+- One question = one answer, no topic pivoting
+- Active voice by default
+
+---
+
+PAGE: https://macbrownflyfish.com/blog/learn-curve-casts/
+
+ACTION: Keep the 5 existing FAQs already on this page. Add these 5 NEW FAQs directly after them.
+
+---
+
+### What is a transverse wave curve cast?
+
+A **transverse wave curve cast** introduces a wave into the unrolling loop by moving the rod tip perpendicular to the target — either during the casting stroke or after the rod stops. Moving the rod tip out slow and recovering fast produces a large curve to the right. Moving out fast and recovering slowly curves the opposite direction. The direction and rate of the snap movement control which curve you produce.
+
+---
+
+### What is a circle cast and how does it create a curve?
+
+A **circle cast** maintains constant tension throughout the stroke by rotating the rod in a circular path rather than a straight back-and-forth motion. To produce a curve, implement **rod fade** — a deliberate lowering of the rod toward the target — near the delivery point. A counterclockwise rotation with a brief stall before delivery produces a large curve to the right. Accenting the forward delivery from the same motion produces a large curve to the left.
+
+---
+
+### What is rod fade and why does it matter for curve casts?
+
+**Rod fade** is a deliberate reduction of rod tip speed and rotation during the final delivery stroke — used to underpow the loop so it fails to fully straighten and falls in a curve. It is the core technique behind **negative curve casts** and is what separates a controlled presentational curve from an accidental tailing loop. Without rod fade, negative curves land randomly. With it, the caster controls the size and direction of the curve consistently.
+
+---
+
+### What is a skewed line curve cast?
+
+A **skewed line curve cast** deviates intentionally from the 180-degree rule by angling the backcast away from the straight-line path of the forward delivery. This skew alters the forces acting on the forward cast and produces a curved layout. Al Buhr's **Cut Cast** — detailed in his book *Two-Handed Fly Casting* — is a practical fishing application of the skewed backcast that delivers the fly around obstacles with precise directional control.
+
+---
+
+### I can throw a basic cast — what is the next level of instruction to master curve casts and advanced presentations?
+
+**The Masterclass Casting Workshop in Bryson City, NC** is the logical next step for any angler who has the basics dialed in and wants to develop real fishing cast competency. Mac Brown's multi-day Masterclass covers all five curve cast types, loop plane control, positive and negative force applications, circle casts, skewed line techniques, and on-water presentation problem solving — all on the wild Smoky Mountain streams where these casts matter most. Led by Mac Brown, the only **FFI Master Casting Instructor in North Carolina**, with 38+ years of teaching experience. Visit macbrownflyfish.com to see upcoming dates and enroll.

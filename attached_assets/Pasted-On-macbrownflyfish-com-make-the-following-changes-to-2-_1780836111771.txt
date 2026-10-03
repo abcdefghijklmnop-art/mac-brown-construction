@@ -1,0 +1,256 @@
+On macbrownflyfish.com make the following changes 
+to 2 pages. Do not deploy until confirmed. 
+Stand by for Paste 2.
+
+---
+
+PAGE 1: /blog/barbless-hooks-increase-your-catch/
+
+AEO — add immediately below H1:
+"Barbless hooks increase catch rates in fly 
+fishing because they penetrate faster with 
+less effort than barbed hooks — a spear versus 
+a wedge. Mac Brown has guided exclusively with 
+barbless hooks in Bryson City, NC since 1987, 
+finding they lead to higher fish numbers, 
+reduced handling time, and significantly lower 
+fish mortality on delayed harvest water. The 
+cardboard test proves it: compare the effort 
+required to push a barbed hook versus a 
+barbless hook through cardboard — the 
+difference is immediate and obvious."
+
+FAQ — add before footer as expandable accordion:
+Q1: Do barbless hooks really increase your 
+catch rate?
+A1: Yes — barbless hooks penetrate faster 
+with less effort than barbed hooks because 
+the point is not fighting against a barb to 
+drive home. Think of it as the difference 
+between a spear and a wedge. The masses of 
+fly fishers believe a barbed hook keeps fish 
+on better — but a better hookset technique 
+is what actually keeps fish on, not the barb.
+
+Q2: Do fish come off more easily on barbless 
+hooks?
+A2: Fish come off barbless hooks when the 
+angler creates slack — not because of the 
+hook design. Maintain a tight line and proper 
+rod angle and the fish stays on. As a guide, 
+Mac Brown finds it much easier to simply give 
+a bit of slack and have the barbless hook fall 
+out cleanly at the net — leading to faster 
+releases and more fish landed throughout the 
+day with far less handling.
+
+Q3: What are the best barbless hooks for 
+fly tying?
+A3: Hanak, Fulling Mill, Dohiku, and Maturo 
+produce excellent quality barbless wire that 
+was not available to fly tiers years ago. 
+These hooks ride inverted — hook up — and 
+consistently take fish in the upper part of 
+the mouth for a solid hook set. The quality 
+of wire in modern barbless hooks is 
+significantly better than older barbed hooks 
+from traditional manufacturers.
+
+Q4: Are barbless hooks required in Great 
+Smoky Mountains National Park?
+A4: Yes — artificial lures with single 
+barbless hooks are required in Great Smoky 
+Mountains National Park. The park's wild 
+trout water is catch and release only with 
+artificial flies and lures. Barbless hooks 
+are not just an ethical choice on this water 
+— they are the law.
+
+Q5: How do I make a barbed hook barbless?
+A5: Use hemostats or pliers to flatten the 
+barb down toward the hook point — you do not 
+need to remove it entirely, just get it flat 
+enough that it no longer grips. Japanese 
+chemically sharpened hooks with micro barbs 
+are the easiest to crimp. Work slowly from 
+the rear of the barb forward. Test with your 
+thumbnail — if it catches, keep crimping.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do barbless hooks really increase your catch rate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — barbless hooks penetrate faster with less effort than barbed hooks because the point is not fighting against a barb to drive home. The masses of fly fishers believe a barbed hook keeps fish on better — but a better hookset technique is what actually keeps fish on, not the barb."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do fish come off more easily on barbless hooks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fish come off barbless hooks when the angler creates slack — not because of the hook design. Maintain a tight line and proper rod angle and the fish stays on. Mac Brown finds it much easier to give a bit of slack and have the barbless hook fall out cleanly at the net — leading to faster releases and more fish landed with far less handling."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best barbless hooks for fly tying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hanak, Fulling Mill, Dohiku, and Maturo produce excellent quality barbless wire. These hooks ride inverted — hook up — and consistently take fish in the upper part of the mouth for a solid hook set. The quality of wire in modern barbless hooks is significantly better than older barbed hooks from traditional manufacturers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are barbless hooks required in Great Smoky Mountains National Park?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — artificial lures with single barbless hooks are required in Great Smoky Mountains National Park. The park's wild trout water is catch and release only with artificial flies and lures. Barbless hooks are not just an ethical choice on this water — they are the law."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I make a barbed hook barbless?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use hemostats or pliers to flatten the barb down toward the hook point — you do not need to remove it entirely, just get it flat enough that it no longer grips. Japanese chemically sharpened hooks with micro barbs are the easiest to crimp. Work slowly from the rear of the barb forward."
+      }
+    }
+  ]
+}
+</script>
+
+---
+
+PAGE 2: /blog/learn-to-set-the-hook-fly-fishing-trout/
+
+AEO — add immediately below H1:
+"The vertical wrist-jerk hook set is the most 
+common mistake in fly fishing trout — and the 
+technique most likely to result in missed fish 
+and broken tippets. Mac Brown has guided on 
+the Tuckasegee and Nantahala rivers since 1987 
+and teaches a horizontal strip-set as the 
+highest percentage hook set for trout in all 
+conditions. Both the rod hand and line hand 
+have specific duties — and most anglers are 
+only using one of them."
+
+FAQ — add before footer as expandable accordion:
+Q1: What is the best way to set the hook 
+when fly fishing for trout?
+A1: The highest percentage hook set for trout 
+is a controlled horizontal strip-set — not 
+the vertical wrist jerk most anglers use. 
+Keep the rod tip low and strip the line firmly 
+with the line hand while the rod hand 
+maintains controlled pressure. The vertical 
+jerk is difficult to control, hard on fine 
+tippets, and produces the lowest hookup 
+percentage of any technique.
+
+Q2: Why do I keep missing strikes when 
+fly fishing?
+A2: Missing strikes is almost always a timing 
+or technique issue — not hook size or pattern. 
+The most common causes are setting too early 
+before the fish has turned, setting vertically 
+instead of horizontally, and failing to use 
+the line hand in the set. On dry flies wait 
+until you see the fish turn back down before 
+setting. On nymphs set at any hesitation in 
+the indicator or drift.
+
+Q3: How do I set the hook on a dry fly 
+without breaking the tippet?
+A3: Use a controlled, short horizontal set 
+rather than a hard vertical sweep. Fine 
+tippets break on vertical sets because the 
+wrist jerk is difficult to modulate — you 
+either don't set hard enough or you snap the 
+tippet. A horizontal strip-set gives you far 
+more control over the amount of force applied 
+and protects tippet down to 7X consistently.
+
+Q4: How do I avoid dropping the rod tip 
+when netting a fish?
+A4: The most common way to drop a fish at 
+the net is letting the rod straighten when 
+reaching for the net. The shoulder naturally 
+dips when the arm extends for the net — which 
+drops the rod tip and creates slack. Keep the 
+rod high and the line tight until the fish 
+is fully in the net. Practice this motion 
+before you need it.
+
+Q5: Is the hook set different for nymphs, 
+dry flies, and streamers?
+A5: Yes — each requires a different approach. 
+Dry flies need a short controlled set after 
+the fish turns down. Nymphs require an 
+immediate set at any pause or movement in 
+the indicator — the takes are subtle and the 
+window is very short in cold water. Streamers 
+use a strip-set — strip through the grab, 
+feel the hard connection, then lift the rod. 
+Lifting on a streamer take before the fish 
+is fully on is the most common streamer 
+mistake.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best way to set the hook when fly fishing for trout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The highest percentage hook set for trout is a controlled horizontal strip-set — not the vertical wrist jerk most anglers use. Keep the rod tip low and strip the line firmly with the line hand while the rod hand maintains controlled pressure. The vertical jerk is difficult to control, hard on fine tippets, and produces the lowest hookup percentage of any technique."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why do I keep missing strikes when fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Missing strikes is almost always a timing or technique issue — not hook size or pattern. The most common causes are setting too early before the fish has turned, setting vertically instead of horizontally, and failing to use the line hand in the set. On dry flies wait until you see the fish turn back down before setting. On nymphs set at any hesitation in the indicator or drift."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I set the hook on a dry fly without breaking the tippet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use a controlled, short horizontal set rather than a hard vertical sweep. Fine tippets break on vertical sets because the wrist jerk is difficult to modulate. A horizontal strip-set gives you far more control over the amount of force applied and protects tippet down to 7X consistently."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I avoid dropping the rod tip when netting a fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most common way to drop a fish at the net is letting the rod straighten when reaching for the net. The shoulder naturally dips when the arm extends — which drops the rod tip and creates slack. Keep the rod high and the line tight until the fish is fully in the net."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the hook set different for nymphs, dry flies, and streamers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — each requires a different approach. Dry flies need a short controlled set after the fish turns down. Nymphs require an immediate set at any pause in the indicator — the takes are subtle and the window is short in cold water. Streamers use a strip-set — strip through the grab, feel the hard connection, then lift the rod."
+      }
+    }
+  ]
+}
+</script>
+
+Confirm both pages saved. Stand by for Paste 2.

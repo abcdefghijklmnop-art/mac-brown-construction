@@ -1,0 +1,37 @@
+import { Router, type IRouter } from "express";
+import healthRouter from "./health";
+import contactRouter from "./contact";
+import ffgsContactRouter from "./ffgs-contact";
+import ffgsReservationRouter from "./ffgs-reservation";
+import waiverRouter from "./waiver";
+import podcastsRouter from "./podcasts";
+import reserveRouter from "./reserve";
+import paymentNotifyRouter from "./payment-notify";
+import paymentConfirmedRouter from "./payment-confirmed";
+import ffgsPaymentConfirmedRouter from "./ffgs-payment-confirmed";
+import ffgsReviewRequestRouter from "./ffgs-review-request";
+import mbffReviewRequestRouter from "./mbff-review-request";
+import scheduleRouter from "./schedule";
+import assessmentRouter from "./assessment";
+import waiverStatusRouter from "./waiver-status";
+import paymentMethodIntentRouter from "./payment-method-intent";
+const router: IRouter = Router();
+
+router.use(healthRouter);
+router.use(contactRouter);
+router.use(ffgsContactRouter);
+router.use(ffgsReservationRouter);
+router.use(waiverRouter);
+router.use(podcastsRouter);
+router.use(reserveRouter);
+router.use(paymentNotifyRouter);
+router.use(paymentConfirmedRouter);
+router.use(ffgsPaymentConfirmedRouter);
+router.use(ffgsReviewRequestRouter);
+router.use(mbffReviewRequestRouter);
+router.use(scheduleRouter);
+router.use(assessmentRouter);
+router.use(waiverStatusRouter);
+router.use(paymentMethodIntentRouter);
+
+export default router;

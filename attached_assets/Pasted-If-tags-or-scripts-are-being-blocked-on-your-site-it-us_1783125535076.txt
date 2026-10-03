@@ -1,0 +1,36 @@
+If tags or scripts are being blocked on your site, it usually comes down to security policies, framework handling, or proxy configurations. Because I can't see the exact code or error message you're looking at, here are the three most common culprits and how to fix them:
+
+### 1. Content Security Policy (CSP) Restrictions
+
+If you are deploying on **Vercel**, the platform sets strict, secure defaults. If the tags you are trying to inject are inline scripts or pull from third-party domains that aren't explicitly approved, the browser will block them to prevent Cross-Site Scripting (XSS).
+
+* **The Fix:** You need to configure your CSP headers in your configuration (`next.config.js` or via your hosting panel) to allowlist the specific source domains or use a `nonce` for inline scripts.
+
+### 2. Next.js `<Script>` Component Sequencing
+
+If you are writing custom HTML `<script>` tags inside a standard React component or wrapping them inside a legacy `<Head>` tag, Next.js will often strip them or block their execution to prevent hydration errors and main-thread blocking.
+
+* **The Fix:** Use the official `next/script` component instead of standard HTML tags.
+```javascript
+import Script from 'next/script'
+
+// Use the appropriate strategy: 'afterInteractive' (default) or 'lazyOnload'
+<Script 
+  src="https://example.com/widget.js" 
+  strategy="afterInteractive" 
+/>
+
+```
+
+
+
+### 3. Edge Provider / WAF Blocks
+
+If your domain is routed through **Cloudflare** (or a similar Web Application Firewall), its security rules might flag the injection of tags as a false positive for an HTML/XSS injection attack. This is incredibly common if you are trying to save settings containing scripts via an admin panel.
+
+* **The Fix:** Check your Cloudflare Security/WAF logs. If you see a blocked event (often accompanied by a "Ray ID"), you will need to create a custom WAF Exception Rule for your IP or the specific endpoint you are updating.
+
+---
+
+**Want to narrow it down?**
+If you can paste the exact error message from your browser's Developer Console (F12 -> Console) or show me how the tags are currently formatted in your file, I can tell you exactly which one is causing the lock.

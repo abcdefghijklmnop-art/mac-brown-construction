@@ -1,0 +1,178 @@
+Full page read. Excellent content — the David Woody jigging technique, the induced strike countdown method, the six-cast rule, and the wet fly line control technique are all unique and valuable. **H1 assessment:** "Learning to Nymph Fish" — clean and search-relevant. Leave it. Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/learning-to-nymph-fish/
+
+AEO — add immediately below H1:
+"Learning to nymph fish is the single 
+fastest way to increase your trout catch 
+— trout feed subsurface 80-90% of the 
+time, making nymph fishing the most 
+consistently productive technique in fly 
+fishing. Mac Brown has been nymph fishing 
+the Nantahala River and wild streams of 
+the Smoky Mountains since 1987, developing 
+proactive approaches including the induced 
+strike countdown method, David Woody's 
+jigging technique, wet fly line control 
+at distance, and the six-cast rule for 
+quickly solving the puzzle on any stream. 
+The biggest determining factor for success 
+is how quickly you adjust to fish behavior 
+on any given day — not which fly you are 
+using."
+
+FAQ — add before footer as expandable 
+accordion:
+
+Q1: What is the most effective nymph 
+fishing technique for trout?
+A1: The most effective nymph fishing 
+technique depends on the conditions — 
+which is why the best nymph fishers carry 
+a full tactics quiver. Dead drift nymphing 
+with an indicator covers water at distance 
+beyond 35 feet. Tight line and Euro 
+nymphing excels at close range in fast 
+water. The induced strike — a countdown 
+of one to five seconds followed by an 
+immediate hook set or backcast — produces 
+fish that are feeding heavily and taking 
+flies on the descent. David Woody's 
+jigging technique — moving the rod tip 
+in small circles as flies straighten below — 
+imparts erratic movement that triggers 
+strikes from lockjawed fish.
+
+Q2: What is the induced strike in 
+nymph fishing?
+A2: The induced strike is Mac Brown's 
+countdown method for setting the hook 
+before the fish rejects the fly — 
+developed on the Nantahala River in 
+the early 1990s during heavy feeding 
+sessions. When large numbers of fish 
+are in a run, the flash of the fish 
+heading away after feeling the hook 
+means the set came too late. Using 
+a countdown of one to five seconds 
+and going immediately into a hook 
+set — before the fish has a chance 
+to reject — dramatically increases 
+hook-up percentage when fish are 
+feeding heavily on the descent.
+
+Q3: What is the six-cast rule in 
+nymph fishing?
+A3: The six-cast rule is Mac Brown's 
+on-stream adjustment guideline — if 
+your current rigging and presentation 
+is correct you should have plenty of 
+strikes within six casts to any given 
+piece of water. If six casts produce 
+nothing, move on through your tactics 
+quiver — adjust weight, indicator 
+depth, fly pattern, or presentation 
+method. The puzzle on most Smoky 
+Mountain streams changes throughout 
+the day based on light conditions, 
+water temperature, barometric pressure, 
+and fish mood. The six-cast rule keeps 
+you moving and adjusting rather than 
+flogging unproductive water.
+
+Q4: What are the different European 
+nymphing styles and when should 
+I use them?
+A4: Czech, French, Polish, and Spanish 
+nymphing are all variations of tight 
+line nymphing using colored mono 
+sighters instead of traditional 
+indicators. Czech nymphing uses heavy 
+beaded nymphs and very close range 
+presentation in fast pocket water. 
+French nymphing uses lighter flies 
+and longer leaders for deeper slower 
+water. Polish and Spanish styles 
+sit between these extremes. All use 
+the same principle — direct contact 
+with the fly eliminates indicator 
+lag and dramatically improves strike 
+detection. The rod angle and retrieval 
+rate during the drift allows fishing 
+varying depths with the same flies.
+
+Q5: Where can I learn nymph fishing 
+in the Smoky Mountains?
+A5: Mac Brown Fly Fish in Bryson City, 
+NC offers the Comprehensive Nymph 
+Fishing Clinic — a weekend program 
+covering indicator nymphing, tight 
+line and Euro nymphing, induced 
+strike technique, wet fly line 
+control, jigging methods, and the 
+six-cast rule — all applied on the 
+Nantahala River and wild streams of 
+Great Smoky Mountains National Park. 
+All gear provided, all skill levels 
+welcome. Guided nymph fishing trips 
+are also available year-round on the 
+Tuckasegee River delayed harvest 
+section and the Nantahala River.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the most effective nymph fishing technique for trout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most effective nymph fishing technique depends on the conditions. Dead drift nymphing with an indicator covers water at distance beyond 35 feet. Tight line and Euro nymphing excels at close range in fast water. The induced strike — a countdown followed by an immediate hook set — produces fish feeding heavily and taking flies on the descent. David Woody's jigging technique — moving the rod tip in small circles as flies straighten below — triggers strikes from lockjawed fish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the induced strike in nymph fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The induced strike is Mac Brown's countdown method for setting the hook before the fish rejects the fly — developed on the Nantahala River in the early 1990s. When large numbers of fish are in a run, the flash of the fish heading away means the set came too late. Using a countdown of one to five seconds and going immediately into a hook set — before the fish has a chance to reject — dramatically increases hook-up percentage when fish are feeding heavily on the descent."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the six-cast rule in nymph fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The six-cast rule is Mac Brown's on-stream adjustment guideline — if your current rigging and presentation is correct you should have plenty of strikes within six casts to any given piece of water. If six casts produce nothing, move on through your tactics quiver — adjust weight, indicator depth, fly pattern, or presentation method. The six-cast rule keeps you moving and adjusting rather than flogging unproductive water."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the different European nymphing styles and when should I use them?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Czech, French, Polish, and Spanish nymphing are all variations of tight line nymphing using colored mono sighters. Czech nymphing uses heavy beaded nymphs at very close range in fast pocket water. French nymphing uses lighter flies and longer leaders for deeper slower water. All use direct contact with the fly — eliminating indicator lag and dramatically improving strike detection. Rod angle and retrieval rate during the drift allows fishing varying depths with the same flies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn nymph fishing in the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers the Comprehensive Nymph Fishing Clinic — a weekend program covering indicator nymphing, tight line and Euro nymphing, induced strike technique, wet fly line control, jigging methods, and the six-cast rule — all applied on the Nantahala River and wild streams of Great Smoky Mountains National Park. All gear provided, all skill levels welcome."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

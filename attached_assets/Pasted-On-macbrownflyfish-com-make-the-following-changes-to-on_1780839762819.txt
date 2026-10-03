@@ -1,0 +1,155 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/learn-tight-line-techniques-euro-nymphing/
+
+AEO — add immediately below H1:
+"Tight line nymphing — commonly called Euro 
+nymphing — is not a new technique. It has 
+been practiced for decades by anglers in 
+Bryson City, NC and around the world long 
+before European competition teams made it 
+famous. Mac Brown's mentor Jim Green was 
+using Amnesia colored mono for tight line 
+presentations before most current Euro 
+nymphing advocates were born. Jim Estes 
+of Bryson City and Joe Humphreys of Penn 
+State were doing the same. The technique 
+produces fish because it eliminates 
+indicator lag, keeps the fly in the 
+productive zone longer, and provides 
+direct contact for instant strike detection."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What is Euro nymphing in fly fishing?
+A1: Euro nymphing is a tight line nymphing 
+technique that eliminates the indicator 
+and maintains direct contact between the 
+angler and the fly throughout the drift. 
+Using long lightweight leaders, weighted 
+flies, and a sighter section for strike 
+detection, the angler holds the line off 
+the water and leads the fly through the 
+drift at close to the same speed as the 
+current. It produces superior strike 
+detection and depth control compared to 
+indicator nymphing — particularly in 
+faster water and at close to medium range.
+
+Q2: Is Euro nymphing actually new?
+A2: No — tight line nymphing has ancient 
+roots and was widely practiced in the 
+United States decades before European 
+competition teams popularized the term. 
+Jim Green — Mac Brown's mentor and the 
+line designer for Sunset Line Company — 
+used Amnesia colored mono for tight 
+line presentations for decades. Jim 
+Estes of Bryson City, NC and Joe 
+Humphreys of Penn State were both 
+accomplished tight line nymphers long 
+before Euro nymphing became a trend. 
+The European competition scene refined 
+the technique and brought it mainstream 
+— but the fundamentals are not new.
+
+Q3: What is the difference between 
+Euro nymphing and indicator nymphing?
+A3: Indicator nymphing uses a floating 
+strike indicator to detect takes and 
+suspend the fly at a set depth — 
+effective at longer distances and in 
+slower water where direct contact is 
+difficult. Euro nymphing eliminates 
+the indicator and uses direct line 
+contact and a sighter for strike 
+detection — producing superior 
+sensitivity in faster water at close 
+to medium range. Euro nymphing 
+requires the angler to be closer to 
+the fish but rewards that proximity 
+with dramatically better depth control 
+and strike detection.
+
+Q4: What rod and line setup works 
+best for Euro nymphing?
+A4: Longer rods — 10 to 11 feet — 
+in lighter weights (2-4 weight) with 
+specialized Euro nymphing lines or 
+long leaders built from level mono 
+sections with a colored sighter. The 
+longer rod keeps more line off the 
+water for a cleaner drift and provides 
+additional reach for high-sticking 
+in close quarters. Weighted flies — 
+tungsten bead jig nymphs — are the 
+most effective for maintaining depth 
+and consistent bottom contact.
+
+Q5: Where can I learn Euro nymphing 
+in the Smoky Mountains?
+A5: Mac Brown Fly Fish in Bryson City, 
+NC offers the Comprehensive Nymph 
+Fishing Clinic — a weekend school 
+covering indicator nymphing, tight 
+line and Euro nymphing methods, depth 
+control, rigging, and strike detection 
+timing. All taught on the wild streams 
+of the Smoky Mountains by instructors 
+with decades of competitive and 
+professional nymphing experience. 
+All gear provided.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Euro nymphing in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Euro nymphing is a tight line nymphing technique that eliminates the indicator and maintains direct contact between the angler and the fly throughout the drift. Using long lightweight leaders, weighted flies, and a sighter section for strike detection, the angler holds the line off the water and leads the fly through the drift. It produces superior strike detection and depth control compared to indicator nymphing — particularly in faster water at close to medium range."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Euro nymphing actually new?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — tight line nymphing has ancient roots and was widely practiced in the United States decades before European competition teams popularized the term. Jim Green — Mac Brown's mentor and the line designer for Sunset Line Company — used Amnesia colored mono for tight line presentations for decades. Jim Estes of Bryson City, NC and Joe Humphreys of Penn State were accomplished tight line nymphers long before Euro nymphing became a trend."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between Euro nymphing and indicator nymphing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Indicator nymphing uses a floating strike indicator to detect takes and suspend the fly at a set depth — effective at longer distances and in slower water. Euro nymphing eliminates the indicator and uses direct line contact and a sighter for strike detection — producing superior sensitivity in faster water at close to medium range. Euro nymphing requires the angler to be closer to the fish but rewards that proximity with dramatically better depth control and strike detection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What rod and line setup works best for Euro nymphing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Longer rods — 10 to 11 feet — in lighter weights (2-4 weight) with specialized Euro nymphing lines or long leaders built from level mono sections with a colored sighter. The longer rod keeps more line off the water for a cleaner drift. Weighted tungsten bead jig nymphs are the most effective for maintaining depth and consistent bottom contact."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn Euro nymphing in the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers the Comprehensive Nymph Fishing Clinic — a weekend school covering indicator nymphing, tight line and Euro nymphing methods, depth control, rigging, and strike detection timing. All taught on the wild streams of the Smoky Mountains by instructors with decades of competitive and professional nymphing experience. All gear provided."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

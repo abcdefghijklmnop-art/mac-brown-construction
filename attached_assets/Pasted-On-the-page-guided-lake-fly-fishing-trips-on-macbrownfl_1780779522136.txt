@@ -1,0 +1,117 @@
+On the page /guided-lake-fly-fishing-trips/ on 
+macbrownflyfish.com make the following changes:
+
+1. Replace the H1 "Fly Fishing Lakes" with:
+"Guided Lake Fly Fishing Trips — Smoky Mountains, NC"
+
+2. Add the following as the first paragraph of body 
+text immediately below the H1 and above the hero 
+subhead "Stillwater Fly Fishing in the Smoky Mountains":
+
+"Mac Brown Fly Fish offers guided lake fly fishing 
+trips on Fontana, Cheoah, and the mountain lakes of 
+the Smoky Mountains near Bryson City, NC — $875 for 
+a full day, 1-2 anglers, all gear provided. Lake 
+trout run larger than river fish and the prime season 
+is late fall through early spring. The only FFI Master 
+Casting Instructor in North Carolina, guiding these 
+waters since 1987."
+
+3. Add the following answers to the existing FAQ 
+accordion items:
+
+Q1: Do I need prior experience?
+A1: No experience needed. Guided lake trips are 
+instructional — Mac Brown reads your skill level 
+and builds from there. River anglers looking to add 
+stillwater skills to their game are especially well 
+served by a lake trip. All gear is provided and 
+matched to the species and conditions of the day.
+
+Q2: What should I bring?
+A2: Rain gear — mountain weather changes fast. Warm 
+layers — lake mornings are cold, especially in fall 
+and winter. Polarized sunglasses for spotting fish. 
+A hat with a brim. Sunscreen and lip balm. Clothing 
+in earth tones. We provide all rods, reels, flies, 
+and lines including multiple sink rate options for 
+fishing different depths.
+
+Q3: Is a fishing license required?
+A3: Yes — a valid North Carolina fishing license is 
+required for all anglers 16 and older. Purchase 
+online at ncwildlife.org or by calling 
+1-888-248-6834.
+
+Q4: What is your cancellation policy?
+A4: Weather and emergencies — we will always work 
+with you. Dates are rarely cancelled due to weather 
+— come prepared and plan to be on the water. 
+Rescheduling is subject to availability: 30+ days 
+out we can assist; within 30 days, full charge 
+applies. We strongly recommend trip cancellation 
+insurance at the time of reservation. We have 
+operated on the Golden Rule since 1987 — if 
+something comes up, reach out and we will do 
+everything we can to work with you.
+
+Q5: What is the payment policy?
+A5: Payment in full is required at the time of 
+booking to hold your date. Online bookings via 
+Swipe carry a small processing fee. To avoid fees 
+entirely, we accept Zelle, Venmo, and personal 
+check at no additional cost — just use the contact 
+form and let us know your preferred method.
+
+4. Add this JSON-LD block to the <head>:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need prior experience for a guided lake fly fishing trip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No experience needed. Guided lake trips are instructional — Mac Brown reads your skill level and builds from there. River anglers looking to add stillwater skills to their game are especially well served by a lake trip. All gear is provided and matched to the species and conditions of the day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I bring on a guided lake fly fishing trip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rain gear — mountain weather changes fast. Warm layers — lake mornings are cold, especially in fall and winter. Polarized sunglasses for spotting fish. A hat with a brim. Sunscreen and lip balm. Clothing in earth tones. We provide all rods, reels, flies, and lines including multiple sink rate options for fishing different depths."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a fishing license required for a guided lake fly fishing trip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — a valid North Carolina fishing license is required for all anglers 16 and older. Purchase online at ncwildlife.org or by calling 1-888-248-6834."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the cancellation policy for guided lake fly fishing trips?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Weather and emergencies — we will always work with you. Dates are rarely cancelled due to weather — come prepared and plan to be on the water. Rescheduling is subject to availability: 30+ days out we can assist; within 30 days, full charge applies. We strongly recommend trip cancellation insurance at the time of reservation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the payment policy for guided lake fly fishing trips?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Payment in full is required at the time of booking to hold your date. Online bookings via Swipe carry a small processing fee. To avoid fees entirely, we accept Zelle, Venmo, and personal check at no additional cost — just use the contact form and let us know your preferred method."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

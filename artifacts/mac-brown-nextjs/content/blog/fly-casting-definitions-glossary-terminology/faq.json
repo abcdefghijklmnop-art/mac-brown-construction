@@ -1,0 +1,734 @@
+[
+  {
+    "question": "What is the 180 degree principle in fly casting?",
+    "answer": "The 180 degree principle means the aerial back cast or D-loop is made in a straight line exactly 180 degrees opposite from the target. Essential for straight-line casts for distance and accuracy — the back cast and forward cast must travel in exactly opposite directions for maximum efficiency."
+  },
+  {
+    "question": "What is acceleration in fly casting?",
+    "answer": "Acceleration in fly casting is the rate of increase or decrease in velocity, magnitude, or direction applied to the rod during the casting stroke. Smooth progressive acceleration to a stop produces tighter loops and greater line speed than abrupt or uniform force application."
+  },
+  {
+    "question": "What is an active presentation in fly fishing?",
+    "answer": "An active presentation is when the fly moves at a different rate from the current in which it travels — imitating the food organism's behavior through erratic changes of direction, magnitude, and velocity. Caddis skittering on the surface and nymphs being lifted at the end of a drift are classic examples."
+  },
+  {
+    "question": "What is an anchor in Spey casting?",
+    "answer": "The anchor in Spey casting is typically the fly, leader, and a tip section of line positioned close to the caster — often a rod length away and in line with the D loop and forward cast — prior to delivery. Shorter casts use less anchor and longer casts use more line for the anchor. Proper anchor placement is critical for loading the rod on the delivery cast."
+  },
+  {
+    "question": "What is casting arc in fly casting?",
+    "answer": "Casting arc is the angle of rotational change of the rod when making the casting stroke — also called casting angle. The casting arc must vary with line length — more line requires a wider arc, less line requires a narrower arc. This is one of the five essentials of fly casting."
+  },
+  {
+    "question": "What is a casting stroke in fly casting?",
+    "answer": "The casting stroke is when the angler applies force to the rod to form a loop of line — it includes the hand path and casting arc. The casting stroke is the only rod motion whose purpose is to generate a loop. All other rod movements are positioning moves that do not directly create a loop."
+  },
+  {
+    "question": "What is a closed loop or tailing loop in fly casting?",
+    "answer": "A closed loop occurs when the fly leg crosses the rod leg during the cast — also called a tailing loop. It is the most common cause of wind knots in the leader. The most frequent cause is abrupt or early application of force creating a concave rod tip path or a transverse wave parallel with the fly and rod legs of the loop."
+  },
+  {
+    "question": "What is a concave rod tip path in fly casting?",
+    "answer": "A concave rod tip path is a U-shaped rod tip path where the rod tip falls below then rises above the effective straight-line path during the casting stroke. It increases the chance of tailing loops. The most common cause is applying force to the rod too abruptly or too early in the casting stroke."
+  },
+  {
+    "question": "What is counterflex in fly casting?",
+    "answer": "Counterflex is when the rod springs down at the completion of the casting stroke toward the direction of the unrolling loop. It is a natural by-product of the stop and rebound. Reducing counterflex through proper stop technique improves loop quality and line speed."
+  },
+  {
+    "question": "What is creep in fly casting?",
+    "answer": "Creep is an ill-timed forward drift movement with little power in the direction of the next casting stroke — it reduces the available casting arc and casting stroke length. Creep is usually unintentional and shortens the casting stroke, reducing the power available for the next delivery."
+  },
+  {
+    "question": "What is a D loop in fly casting?",
+    "answer": "The D-loop is a loop of line that forms behind the rod tip before the delivery cast — it can be either dynamic or static. Spey casts use a dynamic D loop. A basic roll cast uses a static D loop. A properly formed D-loop loads the rod efficiently for the forward delivery cast."
+  },
+  {
+    "question": "What is damping in a fly rod?",
+    "answer": "Damping refers to how quickly a rod recovers to a resting position at the end of rod motion. Lower damping numbers are better — rods that dampen quickly produce less tip oscillation after the stop, resulting in cleaner loops and greater accuracy. Damping can also refer to relaxing the grip after the stop to minimize rod tip oscillations."
+  },
+  {
+    "question": "What is a delivery cast in fly fishing?",
+    "answer": "The delivery cast is the final cast that delivers the fly, leader, and line to a specific location on the water. Every casting sequence ends with a delivery cast — all prior strokes are setup moves to position the line for an efficient delivery."
+  },
+  {
+    "question": "What is the double haul in fly casting?",
+    "answer": "The double haul is a line acceleration technique where the line hand pulls the fly line on both the back cast and the forward cast. It increases rod load, tip speed, and line speed exponentially. It aids in keeping the rod tip straighter for longer, producing tighter loops at greater distances. Essential for distance casting, wind, and saltwater fly fishing."
+  },
+  {
+    "question": "What is drag in fly fishing?",
+    "answer": "Drag occurs when the fly moves at a speed other than the current's speed in which it is traveling. Major drag is obvious — the fly skates rapidly across the surface. Micro drag is subtle — the tippet has increased tension that fish detect and refuse. Achieving drag-free drift is the most important skill in dry fly and nymph fishing."
+  },
+  {
+    "question": "What is drift in fly casting?",
+    "answer": "Drift in fly casting is a supplementary motion that takes place during the pause of the stroke for repositioning the rod. Drift offers an advantageous position for shooting line at the completion of the casting stroke. An upward drift toward the unrolling line opens up the casting stroke and arc angle, making it easier to shoot line. Drift is different from creep — drift is intentional repositioning, creep is an unintentional fault."
+  },
+  {
+    "question": "What is effective rod length in fly casting?",
+    "answer": "Effective rod length refers to the distance from the tip of the rod to the butt when the rod is bent under load during the cast. This is useful for video analysis since the rod is bent when performing casts. The shorter the effective rod length, the greater the maximum load — a deeply bent rod has a shorter effective length and is working harder."
+  },
+  {
+    "question": "What are false casts in fly fishing?",
+    "answer": "False casts are multiple casting strokes implemented without allowing the line to fall to the water or ground. They are used to extend line, change direction, dry a fly, or time a presentation. Most experienced anglers minimize false casting — every false cast is a cast that is not fishing. One back cast and a delivery is the goal on most presentations."
+  },
+  {
+    "question": "What is haul timing in fly casting?",
+    "answer": "Haul timing refers to when the line hand pulls the fly line during the casting stroke. The haul should begin around the halfway point of the stroke and reach maximum speed simultaneously with the rod stop and rod unbend. Starting too early reduces the rod load benefit. Starting too late creates a jerky disconnected cast. Proper haul timing is the key to casting synergy."
+  },
+  {
+    "question": "What is inertia in fly casting?",
+    "answer": "Inertia in fly casting is a property of the fly line by which it remains at rest or in uniform motion in the same direction unless acted upon by an external force. Overcoming fly line inertia at the start of the casting stroke requires the initial rod velocity — the first movement of the rod that begins to get the line moving before the main casting stroke is applied."
+  },
+  {
+    "question": "What is jerk in fly casting mechanics?",
+    "answer": "Jerk in fly casting mechanics is the rate of change of acceleration — the abrupt increase in speed that elite casters use near the stop to achieve maximum line speed and distance. The key is remaining smooth throughout the stroke while building to the jerk — a crescendo of speed that synchronizes with the haul, the stop, and the rod unbend simultaneously."
+  },
+  {
+    "question": "What is kick in fly casting?",
+    "answer": "Kick is the abrupt rapid turnover of a fly, leader, or fly line at the end of the loop becoming straight. It can be caused by overpowering a cast, having too much weight at the leader end, or having no leader or a shortened leader. Positive casts deliberately use kick for driving a nymph down vertically into the water or when making positive curve casts."
+  },
+  {
+    "question": "What is a lift in fly casting?",
+    "answer": "A lift is a vertical form of sweep to lift the line from the water prior to the next line positioning move or casting stroke. A proper lift removes slack and begins building tension in the line before the casting stroke begins — one of the most overlooked fundamentals for efficient roll casting and Spey casting."
+  },
+  {
+    "question": "What is a loading move in fly casting?",
+    "answer": "The loading move is the progressive buildup of forces applied to the rod that takes place after the initial velocity and before the stop of the stroke. A smooth loading move builds rod flex progressively — creating more potential energy in the rod at the stop than an abrupt or jerky loading move of the same distance."
+  },
+  {
+    "question": "What is a loop in fly casting?",
+    "answer": "A loop is the moving length of line past the rod tip where there is a distinct rod leg and fly leg. It takes on a candy-cane appearance for the unrolling portion of the fly line. The fly leg of the loop is a mirror image of the rod tip path. Loop shape, speed, plane, and direction determine every outcome on the water — understanding the loop is the foundation of all fly casting."
+  },
+  {
+    "question": "What is loop morphing in fly casting?",
+    "answer": "Loop morphing is the continuous change in loop shape that occurs from the moment a loop forms until it straightens at turnover. The shape is influenced by line speed and rod tip path — not simply the rod stop. Common morphing shapes include the perfect symmetry shape, the dolphin shape, and the leading-edge-on-fly-leg shape. Each tells an instructor something specific about what happened during the casting stroke."
+  },
+  {
+    "question": "What is loop plane in fly casting?",
+    "answer": "Loop plane is the measurement of angles from the perspective of the caster used for determining the relative position of the fly leg in relation to the rod leg during loop travel. The loop plane is zero degrees at vertical and is measured clockwise 360 degrees. Controlling loop planes requires hand paths that deviate from straight — typically curved hand paths during the casting stroke. This enables curve casts, pile casts, and tuck casts for presentations."
+  },
+  {
+    "question": "What is a mend in fly fishing?",
+    "answer": "A mend is a form of sweep used for manipulating the fly line in air or water to create or remove slack in order to achieve the desired result with line layout. An upstream mend slows the fly down to match the current. A downstream mend speeds it up. Mending immediately after the cast lands — before drag sets in — is the most critical timing element in dry fly and nymph fishing."
+  },
+  {
+    "question": "What is micro drag in fly fishing?",
+    "answer": "Micro drag is subtle drag where the tippet has increased tension causing the fly to move at a minutely different speed and direction from the current. Fish detect micro drag and refuse flies that appear natural to the naked eye. Achieving truly drag-free drift requires leader length, proper mending, and casting angles that minimize line in conflicting currents."
+  },
+  {
+    "question": "What is modulus in fly rod construction?",
+    "answer": "Modulus measures the resistance of a material to elastic deformation under load — in fly casting it refers to the rod's stiffness relative to its weight. Higher modulus graphite is stiffer and lighter for the same diameter blank. Higher modulus generally means smaller rod diameter, higher frequency, and faster action. The evolution from fiberglass to graphite-3 to graphite-4 has increased modulus with each generation."
+  },
+  {
+    "question": "What is a narrow loop in fly casting?",
+    "answer": "A narrow loop typically has a distance between the fly and rod leg of fewer than two feet — since the loop is always changing this is a rough average. Narrow loops are more aerodynamically efficient, cut through wind better, and deliver more energy to the leader at turnover. They are produced by a straighter rod tip path and smoother acceleration."
+  },
+  {
+    "question": "What is negative force in fly casting?",
+    "answer": "Negative force is a reduction of the net forces applied throughout the stroke — either by releasing slack into the system or decreasing force toward the end of the casting stroke. The loop never fully turns over — characteristic of negative force casts used for pile casts, slack leader presentations, and certain curve casts where the fly needs to land with controlled slack."
+  },
+  {
+    "question": "What is an open loop in fly casting?",
+    "answer": "An open loop has a large displacement between the fly and rod legs of the loop — also called a curved line or non-parallel loop. It is a casting fault if the caster attempts a straight hand-rod path. It is normal for rotary hand-rod paths using negative force casts. Open loops are used deliberately for certain presentation casts and curve casts."
+  },
+  {
+    "question": "What is optimal line length in fly casting?",
+    "answer": "Optimal line length is the distance of fly line at which the caster has the ability and skill level to control when making the cast. To find your optimal line limit, perform several false casts and find the line distance you can control with confidence. Beginners benefit from marking this point with a nail knot for reference during practice."
+  },
+  {
+    "question": "What is positive force in fly casting?",
+    "answer": "Positive force is an increase of the net forces applied throughout the stroke where the loop always travels back around to the opposite direction of the loop plane in which it was created. Positive force casts use greater force than needed for a normal force cast and are characterized by a narrow loop that travels fast — used for tuck casts, positive curve casts, and distance casting."
+  },
+  {
+    "question": "What is pulling the rod through in fly casting?",
+    "answer": "Pulling the rod through is a teaching concept from the Golden Gate Casting Club implying that the rod butt rotates very late in the casting stroke — maintaining a straight-line rod tip path for longer before the stop. This produces tighter loops, greater line speed, and more accurate presentations than early rotation. Most high-level casters use pulling through for standard distance and accuracy casts."
+  },
+  {
+    "question": "What is rebound in fly casting?",
+    "answer": "Rebound is the rod bouncing back after counterflex at the completion of adding force to the rod. It occurs after the casting stroke, sweep, mend, and similar movements. The spring of the rebounding rod transfers additional energy into the line — squeezing the grip at the stop maximizes rebound and increases line speed."
+  },
+  {
+    "question": "What is reverse thrust in fly casting?",
+    "answer": "Reverse thrust is any force that is straight away and in the opposite direction of the fly line's travel upon completion of the stroke. Examples include pulling the line, backing the rod up, or perpendicular rod positioning as soon as the abrupt stop occurs. Reverse thrust increases tension in the rod leg and causes the fly leg to turn over quicker."
+  },
+  {
+    "question": "What is rhythm in fly casting?",
+    "answer": "Rhythm in fly casting is the movement or fluctuation marked by regular recurrence or natural flow of related objects within the system — the pace of singular movements during the cast including line positioning, sweep, and casting stroke. Rhythm encompasses syncopation, timing, and tempo and is a very important concept for advanced casts and line manipulations."
+  },
+  {
+    "question": "What is rod action in fly fishing?",
+    "answer": "Rod action describes the features of the rod pertaining to where and how it bends when put into motion under load. Characteristics of rod action include frequency, stiffness, sensitivity, distribution of mass, and dampening. Fast action rods bend near the tip. Slow action rods bend throughout the blank. Medium action rods offer the greatest control for the widest range of trout angling scenarios."
+  },
+  {
+    "question": "What is a roll cast in fly fishing?",
+    "answer": "A roll cast is a waterborne cast with the line resting on the water — divided into either static or dynamic and using either a shallow D loop or a massive V loop depending on intent. It delivers the fly forward without a back cast by using the surface tension of the water to load the rod. The roll cast is the foundation of all Spey casting and one of the most practical casts in real fishing conditions."
+  },
+  {
+    "question": "What is rotary motion in fly casting?",
+    "answer": "Rotary motion in fly casting occurs in a revolving manner around a fixed point. The wrist rotation at the end of the casting stroke is rotary motion — as opposed to translatory motion which is straight-line movement. Most fly casts combine both translatory motion during the loading move and rotary motion at the stop for maximum efficiency."
+  },
+  {
+    "question": "What is running line in fly fishing?",
+    "answer": "The running line is the long thin section of the fly line that extends from the rear taper of a weight-forward line to the back end of the line. It is the thinnest and lightest section — designed to shoot through the guides with minimal friction for maximum distance. Overhang is the amount of running line outside the tip-top during the cast."
+  },
+  {
+    "question": "What is a shooting head in fly casting?",
+    "answer": "A shooting head is a short heavy fly line that may be tapered or level and is not attached to a conventional running line. The running section is usually made from braided monofilament instead of thin fly line. Shooting heads are used for distance casting, Spey setups, and specialty presentations where maximum line speed with minimal effort is the goal."
+  },
+  {
+    "question": "What is shooting line in fly casting?",
+    "answer": "Shooting line is the release of additional line to be pulled through the guides by the unrolling loop after the rod has stopped. Shooting line relieves tension in the rod leg causing the fly leg to turn over slower. It dramatically increases casting distance with no additional effort — releasing line at the precise moment of the stop is the key to effective shooting."
+  },
+  {
+    "question": "What is substance in fly casting?",
+    "answer": "Substance in fly casting includes the fundamentals of timing, mechanics, specialty fishing cast nuances, and key concepts that make any cast work regardless of style. Substance is universal — style is personal. Mel Krieger said: if you are very fortunate you will understand that the profound path towards teaching mastery gets two miles farther away for every mile you travel."
+  },
+  {
+    "question": "What is surface tension in fly fishing?",
+    "answer": "Surface tension in fly fishing is the intermolecular force at the surface of the water that resists the pickup of the fly line. It acts heavily on the relationship of line on the water and the emergence or egg-laying stages of insects. In roll casting and Spey casting, surface tension provides the resistance needed to load the rod for the delivery cast."
+  },
+  {
+    "question": "What is a sweep in fly casting?",
+    "answer": "A sweep is a rod movement to position the line for the following casting stroke. In Spey casting the sweep moves the line from the dangle position across the water to form the D loop and anchor before the delivery cast. The sweep is a positioning move — not a casting stroke — and should not generate a loop."
+  },
+  {
+    "question": "What is syncopation in fly casting?",
+    "answer": "Syncopation in fly casting is stressing a force in a normally unstressed location or a lack of force when it is normally accented during rod movements. It comes into play for elliptical figure-eights, snap casts, and oval casting. Syncopation is a key concept for any fly casting model when teaching advanced casts and line manipulations."
+  },
+  {
+    "question": "What is a tailing loop in fly casting?",
+    "answer": "A tailing loop occurs when the fly leg crosses the rod leg creating a closed loop — the most common cause of wind knots. Most tailing loops stem from too early or abrupt application of force, line planes less than 180 degrees, improper haul timing, and transverse waves. Most literature blames rod tip concavity but a straight rod tip path creating a transverse wave is equally a cause. Tailing loops can also be used deliberately for presentation casts and curve casts."
+  },
+  {
+    "question": "What is tempo in fly casting?",
+    "answer": "Tempo in fly casting is the pace of the overall cast from start to finish — often thought of as time under tension. Practicing changes in tempo is beneficial for fishing scenarios. For example a slow underpowered back cast with a static D loop followed by a normal forward cast for missing obstacles. For distance casting increase the tempo for the amount of line carried before the delivery."
+  },
+  {
+    "question": "What is tension in fly casting?",
+    "answer": "Tension in fly casting refers to opposing forces that act on pulling the line apart. Understanding how your actions increase or decrease tension is one of the most beneficial concepts in fly casting. Constant tension, increasing tension, and decreasing tension give the caster control over every specialty cast — from pile casts that build slack to tight-line nymphing that eliminates all slack."
+  },
+  {
+    "question": "What is tip travel in fly casting?",
+    "answer": "Tip travel is the total distance the rod tip moves when making a cast — the by-product of casting stroke and casting arc. Longer tip travel produces more line speed when applied smoothly. Abrupt force application over short tip travel produces wide loops. The goal is maximizing smooth tip travel within the available casting arc for any given line length."
+  },
+  {
+    "question": "What is tracking in fly casting?",
+    "answer": "Tracking in fly casting has two meanings. Straight tracking describes the rod tip traveling in a straight line without side-to-side wobble — essential for accuracy and distance casting. Route tracking describes the deliberate course the rod tip travels for more advanced casts that deviate from straight — used for curve casts, pile casts, S-turns, and aerial mends."
+  },
+  {
+    "question": "What is translatory motion in fly casting?",
+    "answer": "Translatory motion in fly casting is motion occurring in a straight line — the rod hand moving forward or backward without rotation. Most casts combine translatory motion during the loading move and rotary motion at the stop. Pure translatory casting strokes produce the straightest rod tip paths and tightest loops."
+  },
+  {
+    "question": "What is a transverse wave in fly casting?",
+    "answer": "A transverse wave in fly casting is a moving wave consisting of oscillations occurring perpendicular to the direction of energy transfer. Transverse waves cause tailing loops, tracking errors, and inaccurate presentations when unintentional. They can also be used deliberately — as in S-cast mends, pile casts, curve casts, and aerial mends — making them one of the most powerful tools in advanced fly casting once understood and controlled."
+  },
+  {
+    "question": "What is a V-loop in fly casting?",
+    "answer": "A V-loop is a V-shaped back loop of line formed behind the rod tip — more efficient than a D loop in flight. It offers greater load to pull against when timed with a proper anchor. V-loops are used in Spey casting for longer casts where a larger mass of line is needed behind the rod for efficient loading on the delivery cast."
+  },
+  {
+    "question": "What is the vector pull retrieve in fly fishing?",
+    "answer": "The vector pull retrieve is a line retrieval method that manipulates two strands of fly line at all times — as opposed to traditional retrieval which pulls only one strand. One retrieval equals approximately twice your body height. It produces over 400% less angler movement than traditional strip retrieval, handles four times the line per retrieve, and can remove over 24 feet of slack instantly on the hook set."
+  },
+  {
+    "question": "What is a weight forward fly line?",
+    "answer": "A weight forward fly line has its casting weight concentrated toward the front of the line with the remainder being a long section of thin running line. It is the most common fly line taper for trout fishing — easier to cast than a double taper at distance and more versatile for shooting line and reaching longer distances."
+  },
+  {
+    "question": "What causes wind knots in fly fishing?",
+    "answer": "Wind knots are overhand knots in the line or leader caused by tailing loops during the casting stroke — not by the wind. The fly leg crosses the rod leg and ties itself into a knot. Too much force too early in the stroke is the most common cause. Smoother acceleration and proper timing fix wind knots faster than any other adjustment. Wind may make a tailing loop worse but it does not cause it."
+  },
+  {
+    "question": "What is yank syndrome in fly fishing?",
+    "answer": "Yank syndrome is ripping the fly line back off the water immediately after the line has settled — creating a loud splash. This habit is common with new fly fishers and should be avoided. It spooks fish in the immediate area and eliminates the fishing opportunity of the current drift. A slow smooth pickup that builds tension gradually before the casting stroke is the correct technique."
+  },
+  {
+    "question": "What is the waltz in fly casting?",
+    "answer": "The waltz in fly casting is the transfer of the caster's body weight from one foot to the other during the casting cycle — the shifting of the caster's center of axis throughout the stroke. Proper weight transfer adds power to the casting stroke and is particularly effective for distance casting and Spey casting where the whole body is involved in generating line speed."
+  },
+  {
+    "question": "What is a double taper fly line?",
+    "answer": "A double taper fly line is tapered on each end and uniform throughout the remaining length. It can be reversed when one end wears out, effectively doubling the life of the line. Double taper lines roll cast and mend more efficiently than weight forward lines and are preferred by many dry fly anglers for delicate presentations at short to medium distances."
+  },
+  {
+    "question": "What is stream awareness in fly fishing?",
+    "answer": "Stream awareness describes an angler's knowledge and understanding of the behavior, intricacies, and relationships of streamflow and aquatic organisms and how they relate to the ecosystem. It is best developed through empirical lessons learned on the stream over many seasons. Stream awareness is the strategy component of the Fly Fisher's Triad — the hardest to develop and the longest to master."
+  },
+  {
+    "question": "What is a static roll cast?",
+    "answer": "A static roll cast uses a stationary fly line resting on the surface of water or grass with the rod held high in the key position ready to implement the forward stroke. It is the purest test of rod loading mechanics in fly casting and one of the most tested elements on FFI certification exams. Problems in the loading move show up immediately in the static roll cast at distance."
+  },
+  {
+    "question": "What is a dynamic roll cast?",
+    "answer": "A dynamic roll cast makes use of the fly line moving backward in a D or V loop to have greater fly line distance off the surface of the water before the forward delivery. It requires keener timing compared to a static roll cast and produces greater line speed and distance. The dynamic roll cast is the foundation of all Spey casting."
+  },
+  {
+    "question": "What is optimal load placement in fly casting?",
+    "answer": "Optimal load placement is the positioning of the fly line on the back cast that distributes the line's weight most efficiently for bending the rod deep on the forward cast. This placement is critical for allowing the rod to perform more of the work during the cast. Incorrect load placement — line too high or too low — reduces the energy available for the forward delivery."
+  },
+  {
+    "question": "What is the casting analyzer in fly casting?",
+    "answer": "The casting analyzer is a tool invented by Noel Perkins and Bruce Richards used for examining the smoothness of applied force during the casting stroke. It measures the symmetry of the back and forward casts for translatory casts and contains data from elite casters to compare your application of power. Mac Brown used casting analyzer data in his loop morphing research published in The Loop journal of Fly Fishers International."
+  },
+  {
+    "question": "What is a closed stance in fly casting?",
+    "answer": "In a closed stance the foot, hip, and shoulder on the casting side are situated in front of the opposite foot. This position creates great torque if the hips and shoulders are rotated in conjunction with the back-and-forth casting motion. It also enables the caster to haul to the maximum distance in both directions — preferred by many distance casters and tournament competitors."
+  },
+  {
+    "question": "What is an open stance in fly casting?",
+    "answer": "In an open stance the casting side foot is in the back slightly closer to alignment than the front one. This makes visibility of the fly line easier in both directions and introduces greater hip rotation during the casting stroke. It may limit haul distance because the body blocks hauling length — a consideration for distance casters."
+  },
+  {
+    "question": "What is a square stance in fly casting?",
+    "answer": "In a square stance both feet are perpendicular to the direction of the intended forward cast — typically shoulder-width apart as if standing on a line. This stance takes advantage of using the abdomen for power from the core and is used mainly for short to medium distance casts where maximum power from body rotation is not required."
+  },
+  {
+    "question": "What is the straight line path SLP in fly casting?",
+    "answer": "The straight-line path SLP describes the brief period of time that the rod tip is traveling in a straight line during the casting stroke. Smooth acceleration and hauling the line help achieve a longer SLP — useful for straight-line casting for accuracy and distance. The longer the SLP the tighter and more efficient the resulting loop."
+  },
+  {
+    "question": "What is the hand rod path in fly casting?",
+    "answer": "The hand-rod path describes the path and distance the rod hand follows when performing the cast. These paths include simple geometric patterns such as straight lines, circular, elliptical, triangular, and smooth curves. The shape of the hand-rod path directly determines the loop plane and loop shape — straight paths produce straight loops, curved paths produce curves."
+  },
+  {
+    "question": "What is timing in fly casting?",
+    "answer": "Timing in fly casting is the time period for each movement during the overall casting sequence — the execution of swing movements in the proper sequence. For example using the arm before the weight transfer of the body would be a timing dysfunction. Timing also refers to when the haul begins and ends relative to the rod stroke — the synchronization of all elements at the stop is what produces maximum line speed."
+  },
+  {
+    "question": "What is a bob fly in fly fishing?",
+    "answer": "The bob fly is the top dropper of the leader — the fly positioned closest to the fly rod in a cast of multiple flies. In loch-style lake fishing the bob fly is worked across the surface on the retrieve to imitate emerging insects. The bob fly position is the most visible and most actively fished fly in a multi-fly rig."
+  },
+  {
+    "question": "What is a feed lane in fly fishing?",
+    "answer": "A feed lane is an area where food organisms are heavily concentrated in the water current — the most productive place to present a fly. Fish hold in positions that allow them to intercept food with minimal energy expenditure. Identifying feed lanes by reading surface currents, foam lines, and seams is one of the most important water reading skills in fly fishing."
+  },
+  {
+    "question": "What is a prime lie in fly fishing?",
+    "answer": "A prime lie is an area in the stream that offers fish both food and shelter from predators. Prime lies are where the largest and most dominant fish in any given section hold — combining easy access to food lanes with overhead cover or depth for protection. Identifying prime lies before making a cast is the strategy component that separates consistent anglers from occasional ones."
+  },
+  {
+    "question": "What is conservation of energy in fly casting?",
+    "answer": "Conservation of energy in fly casting states that the sum of potential and kinetic energy within the casting system remains constant. The gain of kinetic energy must equal the loss of potential energy in any process of the system. This principle explains why a rod bent deeply at the stop releases that stored energy back into the line — the potential energy of the bent rod converts to kinetic energy in the unrolling loop."
+  },
+  {
+    "question": "What is momentum in fly casting?",
+    "answer": "Momentum in fly casting is the measure of motion for a property of matter that relates the line's mass and its velocity. A heavier fly line carries more momentum at the same speed than a lighter one — requiring more force to accelerate but delivering more energy to the leader at turnover. Understanding momentum explains why line weight selection matters for presentation quality."
+  },
+  {
+    "question": "What is the roll cast pickup in fly casting?",
+    "answer": "The roll cast pickup is a method of beginning the casting stroke in which the fly line becomes aerial to load the line in front and break the surface tension bond of water. The pickup enables a more efficient casting cycle allowing you to shoot line on the pickup. The steps include a roll cast pickup followed by ONE back cast and a delivery cast — minimizing false casting and keeping the fly in the water longer."
+  },
+  {
+    "question": "What is a direction altered cast in fly casting?",
+    "answer": "A direction altered cast is a casting stroke in which the forward or backward cast does not end up in the same plane from which it started. Direction altered casts are used to change the presentation angle without multiple false casts — single-handed Spey casts, reach casts, and curve casts all involve direction alteration to place the fly in positions a straight cast cannot reach."
+  },
+  {
+    "question": "What is the fly leg of a loop in fly casting?",
+    "answer": "The fly leg is the part of the unrolling loop that contains the fly end to the center of the axis of the unrolling loop — the accelerating part of the loop. The fly leg is a mirror image of the rod tip path, which is why the rod tip path is the single most important thing a caster controls to determine loop shape and presentation outcome."
+  },
+  {
+    "question": "What is loop shape and what does it indicate in fly casting?",
+    "answer": "Loops have many different shapes that indicate what has happened during the casting stroke. The shapes themselves tell us many things about the overall tempo and size of the loop. In general, think of the fly leg of the loop as a mirror image of the rod tip path — a straight tip path produces a straight fly leg and a tight loop, while a curved or concave tip path produces a curved or tailing fly leg."
+  },
+  {
+    "question": "What is overhang in fly casting?",
+    "answer": "Overhang is the amount of running or shooting line between the tip-top and the rear taper of the shooting head or weight-forward line. More overhang allows greater line speed and distance when shooting line, but too much overhang makes the cast difficult to control. Finding the optimal overhang for your line and rod combination is a key variable in distance casting."
+  },
+  {
+    "question": "What is rod fade in fly casting?",
+    "answer": "Rod fade is a downward movement of the rod toward the water or ground at the completion of the casting stroke. It relieves tension in the rod leg and typically provides greater control over negative force casts — used deliberately for pile casts, negative curve casts, and other presentations where slack in the leader is the goal."
+  },
+  {
+    "question": "What is the six step method in fly casting instruction?",
+    "answer": "The six step method is a simple diagnostic concept originated by Bruce Richards for fly casting. It works by observing faults in this order: line, rod, body — then correcting in the reverse order: body, rod, line. The concept was used by high-level swimming coaches from Australia in the 1960s and is a brilliant teaching methodology. Once you gain teaching experience, you can use this tactic to make adjustments quickly. The real art in teaching is solving a couple of things that solve many — often, a few subtle suggestions lead to faster progress than addressing every fault at once."
+  },
+  {
+    "question": "What is a single haul in fly casting?",
+    "answer": "A single haul is a method of accelerating the rod tip and line speed using a haul on either the forward cast or the back cast but not both. It is usually an accident on the back cast for beginner casters discovering the double haul for the first time. Used deliberately, the single haul on the forward cast adds line speed for presentations into the wind or when extra turnover power is needed without a full double haul."
+  },
+  {
+    "question": "What is angular thrust in fly casting?",
+    "answer": "Angular thrust describes the casting stroke as a combination of the whole body involved in applying force to the rod. All casts involve using one or more combinations of six different wrist positions — angular linear thrust, angular perpendicular thrust, and angular rotational thrust. Understanding angular thrust helps instructors diagnose which body parts are contributing correctly and which are introducing faults."
+  },
+  {
+    "question": "What is angular linear thrust in fly casting?",
+    "answer": "Angular linear thrust describes the rod hand always remaining parallel with the forearm. The basic vertical foundation cast most commonly taught is an example of angular linear thrust. The motion usually includes either wrist abduction or adduction — the most fundamental wrist motion used in standard overhead casting."
+  },
+  {
+    "question": "What is angular perpendicular thrust in fly casting?",
+    "answer": "Angular perpendicular thrust describes the rod hand's perpendicular relationship to the forearm — encompassing both wrist extension and flexion. This is often performed toward the completion of the casting stroke and line manipulation. It is the wrist motion that delivers the final acceleration and stop in many casting styles."
+  },
+  {
+    "question": "What is angular rotational thrust in fly casting?",
+    "answer": "Angular rotational thrust is the circular motion applied from the forearm during the cast or mend — performed by varying the thrust force in which the forearm rotates clockwise or counterclockwise through pronation or supination. It is used for elliptical casting strokes, oval casts, and many specialty mending techniques."
+  },
+  {
+    "question": "What is anatomical position in fly casting instruction?",
+    "answer": "Anatomical position in fly casting instruction is the position of your body when standing upright with your arms at your sides while your palms face toward the same direction as your body. It is the reference position from which all wrist movements — abduction, adduction, extension, flexion, pronation, supination — are measured and described."
+  },
+  {
+    "question": "What are anatomical advantages in fly casting?",
+    "answer": "Anatomical advantages in fly casting refers to diagnosing the weaknesses and strengths of body parts and how they apply to the mechanics of the casting stroke. Many casting styles make use of various individual physiques — it is for this reason that no two casters will ever fly cast identically. Understanding anatomical advantages helps instructors tailor instruction to each student's physical capabilities."
+  },
+  {
+    "question": "What is the casting cycle in fly casting?",
+    "answer": "The casting cycle is the complete motion of implementing two casting strokes — usually a back and forward cast, but it could also mean two back or two forward casts. The casting cycle varies according to tempo for dealing with obstacles. Understanding the casting cycle as a complete unit rather than two separate strokes improves timing and loop consistency."
+  },
+  {
+    "question": "What are casting planes in fly casting?",
+    "answer": "Casting planes include all of the various airspaces the rod and line are worked through in a three-dimensional space around the caster's body. They include rod planes, loop planes, and line planes. Understanding three-dimensional casting planes is essential for executing presentation casts — you cannot use two-dimensional terms and models and apply them to the real world of fishing casts."
+  },
+  {
+    "question": "What is body plane in fly casting?",
+    "answer": "The body plane refers to the positioning of where the rod and line are used while performing casts — measured in degrees always in a clockwise direction with zero degrees directly in front of the caster. Understanding body plane positioning helps casters and instructors communicate about where casts are being directed relative to the caster's body."
+  },
+  {
+    "question": "What is on-side and off-side in fly casting?",
+    "answer": "On-side is the side of the body where the hand pilots the rod — for a right-handed caster all casting planes from the caster's center axis to ground level on the right. Off-side is the side of the body where the hand holds the line — everything from the ground to the caster's center axis on the left for a right-handed caster. Understanding on-side and off-side helps with teaching body plane positioning for specialty casts."
+  },
+  {
+    "question": "What is a convex rod tip path in fly casting?",
+    "answer": "A convex rod tip path is a domed or windshield-wiper-like rod tip path that may result in larger loops. Negative casts often use a convex rod tip path for controlling large fly loops for curve presentations. When a tight loop is the goal a convex path is a fault — when an open loop is needed deliberately it is a controlled technique."
+  },
+  {
+    "question": "What is coupled plane pendula in fly casting?",
+    "answer": "Coupled plane pendula describes a series of three or more hinges that perform a motion — useful for understanding how the body hinges of the caster apply force to the casting stroke for either translatory or rotary motion. It can also describe the fly line loop unrolling during the fly cast as a series of frictionless hinges cast through a specific plane."
+  },
+  {
+    "question": "What is the dangle in fly casting?",
+    "answer": "The dangle is the fly line's position prior to the cast — typically downstream of the caster on a river. The dangle position is the starting point for all Spey casts. A proper dangle allows the line to straighten below the caster before the lift and sweep begin — setting up the anchor and D loop for an efficient delivery cast."
+  },
+  {
+    "question": "What is line plane in fly casting?",
+    "answer": "Line plane is the angle created by the fly line in relation to the surface of water or ground during the cast. Optimal load placement requires the line to be positioned on the back cast at the angle that most efficiently loads the rod for the forward delivery. Line planes less than 180 degrees from the forward cast direction increase the risk of tailing loops."
+  },
+  {
+    "question": "What is line speed in fly casting?",
+    "answer": "Line speed is the average speed of the unrolling fly line — expressed as Ls equals one half of the sum of the rod leg and fly leg velocities. Greater line speed produces tighter loops, more wind penetration, and greater distance. Line speed is increased through smooth acceleration, hauling, late rotation, and the synchronization of all elements at the stop."
+  },
+  {
+    "question": "What is maximum rod load in fly casting?",
+    "answer": "Maximum rod load is when the rod is bent the deepest when performing the overall cast — usually close to equaling the maximum fly line acceleration. Longer hand-rod paths, hauling techniques, increased rod arc, body planes, and optimal load placement all influence the maximum rod flex. The deeper the rod loads at the stop the more energy is available for transfer into the fly line."
+  },
+  {
+    "question": "What is maximum rod flex in fly casting?",
+    "answer": "Maximum rod flex is the increased force the rod possesses when it is flexed to near its elastic limit. Longer hand-rod paths, hauling techniques, increased rod arc, rod planes, body planes, equipment, and optimal load placement all influence maximum rod flex. Achieving maximum rod flex consistently requires smooth progressive acceleration rather than abrupt force application."
+  },
+  {
+    "question": "What is the line hand in fly casting?",
+    "answer": "The line hand is the hand that controls the fly line between the reel and the stripping eyelet. For a right-handed caster the left hand is the line hand. The line hand performs the haul during the double haul, manages shooting line, controls retrieve speed, and sets the hook. Most casting faults involve only the rod hand — the line hand is frequently underutilized."
+  },
+  {
+    "question": "What is a line pull cast in fly casting?",
+    "answer": "A line pull cast is any cast that implements a haul after the rod stops for controlling the layout. This increases tension on the rod leg and causes the fly leg to turn over quicker. Line pull casts are used deliberately for tuck casts, positive curve casts, and distance casting where rapid turnover of the fly leg is the goal."
+  },
+  {
+    "question": "What is the stripping eyelet on a fly rod?",
+    "answer": "The stripping eyelet is the largest guide on the fly rod — the first one from the grip. It is typically oversized to allow fly line to pass through smoothly during shooting and reduces friction for maximum shooting distance. The stripping eyelet is also the point where fly line knots most commonly form when small coils of line are stored during the retrieve."
+  },
+  {
+    "question": "What is a follow through in fly casting?",
+    "answer": "Follow through in fly casting is moving the rod in the direction of the unrolling loop after the stop. It can accomplish easier line shoots and extend the overall distance of the haul. Follow-through may be either a form of drift or a casting stroke depending on whether force is applied. An upward follow-through toward the unrolling loop is particularly effective for distance casting."
+  },
+  {
+    "question": "What is forearm pronation in fly casting?",
+    "answer": "Forearm pronation in fly casting is the rotation of the forearm backward from the anatomical position — rotating the palm downward or away from the caster. Pronation is used in various casting styles to apply force in specific directions and is particularly relevant for off-side casts, horizontal casting strokes, and certain mending techniques."
+  },
+  {
+    "question": "What is forearm supination in fly casting?",
+    "answer": "Forearm supination in fly casting is the rotation of the forearm forward when the palm faces opposite the anatomical position — rotating the palm upward or toward the caster. Supination is used in various casting styles for applying force in specific directions and is particularly relevant for underhand casts, certain Spey casting styles, and specific mending techniques."
+  },
+  {
+    "question": "What is the grip on a fly rod?",
+    "answer": "The grip is the handle of the fly rod — usually made of cork — where the angler pilots the rod. Many various grips are used depending on what you are attempting to accomplish. The three-point grip promotes a relaxed hand that makes a positive stop and pullback easier to achieve than the classic thumb-on-top grip. Grip pressure should remain light until the moment of the stop."
+  },
+  {
+    "question": "What is the rod hand in fly casting?",
+    "answer": "The rod hand is the hand that pilots or grips the fly rod while performing the cast. For most anglers this is the dominant hand. The rod hand controls the casting stroke, casting arc, rod plane, stop timing, and rotation — while the line hand controls hauling, line management, and retrieve. Coordinating both hands simultaneously is the key to efficient fly casting."
+  },
+  {
+    "question": "What is latent rod force in fly casting?",
+    "answer": "Latent rod force is the slight potential energy or spring of the rod when casting — the stored energy in the rod blank that is available for transfer into the line at the stop. Understanding latent rod force explains why a relaxed grip before the stop followed by a decisive squeeze produces more line speed than gripping tightly throughout the stroke."
+  },
+  {
+    "question": "What is layout in fly casting?",
+    "answer": "Layout is a concept used for measuring the displacement or initial positioning of the imitation, the leader, and the fly line following the casting stroke. Good layout means the fly, leader, and line land in the correct relationship to each other and to the fish — the fly first with adequate slack in the leader for a drag-free drift."
+  },
+  {
+    "question": "What is a level fly line?",
+    "answer": "A level fly line is a line that is a consistent diameter throughout its length with no taper. Level lines are rarely used for standard fly fishing but are commonly used in tight-line Euro nymphing setups where the entire running line section outside the guides is part of the system. A level line used as a leader in Euro nymphing provides direct contact and superior strike detection."
+  },
+  {
+    "question": "What is the load in fly casting?",
+    "answer": "Load in fly casting is causing the rod to flex when moving the rod during the casting stroke — the resistance of the line weight and increasing momentum against the rod. Usually the rod is loaded most deeply when the line straightens or another similar tension is applied. A deeply loaded rod has more potential energy available for transfer into the fly line at the stop."
+  },
+  {
+    "question": "What are parallel loop legs in fly casting?",
+    "answer": "Parallel loop legs refers to the displacement of the fly and rod legs of the loop remaining parallel during the cast. This is the most aerodynamically efficient loop shape — useful for accuracy and distance casting. Parallel legs are produced by a straight rod tip path with smooth progressive acceleration. Any deviation from straight in the rod tip path produces non-parallel loop legs."
+  },
+  {
+    "question": "What is optimal reach in fly casting?",
+    "answer": "Optimal reach is a measurement of distance for the path in which the rod hand may travel during the casting stroke. To find your optimal reach distance mark a dot on an object to the rear and another far in front. Maximizing optimal reach within the available casting arc produces the longest possible loading move and the most deeply bent rod at the stop."
+  },
+  {
+    "question": "What is the perpendicular rod position in fly casting?",
+    "answer": "The perpendicular rod position at the completion of the casting stroke means the rod remains close to ninety degrees in relationship to the target. This position enables the rod to become involved in altering tension throughout the line due to rebound — common with positive force casts. The perpendicular rod position maximizes the spring effect of the rod unbend for tuck casts and positive curve casts."
+  },
+  {
+    "question": "What is the pop and stop in fly casting?",
+    "answer": "Pop and stop describes the amount of force applied to the rod and when it stops during the casting stroke — like paint being flicked from a brush. This concept has also been called speed up and stop, power snap, speed move, power stroke, flicking motion, and positive stop through various casting circles. The key is smooth acceleration building to the pop followed by an abrupt stop."
+  },
+  {
+    "question": "What is the pickup in fly casting?",
+    "answer": "The pickup in fly casting is a form of drift to slowly lift the line from the water before starting the casting stroke. A proper pickup builds tension gradually and removes slack before the casting stroke begins. Ripping the line off the water — yank syndrome — is the most common pickup fault and spooks fish in the immediate area."
+  },
+  {
+    "question": "What is the retrieve in fly fishing?",
+    "answer": "The retrieve is any method that pulls the fly line in through the guides while fishing to control the amount of line outside and away from the tip-top. The three primary retrieve methods are the vector pull for nymphing and dry fly fishing, the hand twist for slow water nymphing, and the strip retrieve for streamers and wet flies. Varying retrieve speed and cadence triggers strikes from fish that refuse a steady retrieve."
+  },
+  {
+    "question": "What is initial rod velocity in fly casting?",
+    "answer": "Initial rod velocity refers to the velocity at which the rod begins the casting stroke — the first movement that starts to overcome fly line inertia. Starting the casting stroke too fast creates abrupt acceleration and increases tailing loop risk. Starting too slowly wastes casting arc before the line begins to move. A smooth controlled initial velocity builds efficiently into progressive acceleration."
+  },
+  {
+    "question": "What is the in sync concept in fly casting?",
+    "answer": "In sync in fly casting describes a state in which two things move or happen at the same time and speed — for example the hauling hand matched perfectly with the rod hand. When the haul, the rod stop, and the rod unbend occur simultaneously at the same instant maximum line speed is achieved with minimum effort. This synchronization is what Mac Brown calls casting synergy."
+  },
+  {
+    "question": "What are enlightenment casts in fly casting?",
+    "answer": "Enlightenment casts are creative and imaginative uses of various actions when performing the casting stroke to gain a full understanding of the problems involved and their solutions on the stream. They include experimental casting explorations — casting in circles, figure eights, horizontal planes, and other non-standard motions that expand the caster's understanding of loop plane, tension, and transverse wave control."
+  },
+  {
+    "question": "What are external system forces in fly casting?",
+    "answer": "External system forces are forces exerted on the objects of the fly casting system from outside. Examples include gravity, surface friction of water, wind, diverse currents, and obstacles surrounding the caster. Understanding external system forces helps casters adapt their stroke, timing, and loop plane to changing conditions rather than applying the same technique regardless of environment."
+  },
+  {
+    "question": "What are internal system forces in fly casting?",
+    "answer": "Internal system forces are the interaction of the mechanics of the objects within the fly casting system and the relationships they exert on one another. The internal system includes all components of the caster and the equipment — rod, line, leader, and fly — and how they interact during the casting stroke. Optimizing internal system forces means making all components work together efficiently."
+  },
+  {
+    "question": "What are complete system forces in fly casting?",
+    "answer": "Complete system forces is a concept for viewing all internal and external systems in unison — the big picture — and the relationship of the interaction of all forces present on the objects of the system. This holistic view allows casting instructors and analysts to understand how changes in one variable affect every other variable in the casting system simultaneously."
+  },
+  {
+    "question": "What is a direction altered cast in fly casting?",
+    "answer": "A direction altered cast is a casting stroke in which the forward or backward cast does not end up in the same plane from which it started. Direction altered casts allow the caster to change presentation angle without multiple false casts — single-handed Spey casts, reach casts, and curve casts all involve direction alteration to place the fly in positions a straight cast cannot reach."
+  },
+  {
+    "question": "What is the system response curve in fly casting?",
+    "answer": "The system response curve is a concept used to understand the relationship between force and control for varying rod planes. It can be used to measure system efficiency for different casts and to identify the optimal application of force for a given rod, line, and casting situation. Understanding the system response curve helps advanced casters and instructors optimize power application for maximum efficiency."
+  },
+  {
+    "question": "What are three-dimensional casting planes in fly casting?",
+    "answer": "Three-dimensional casting planes describe all of the airspace around the caster's body in which the fly line and rod may be used when performing casts. Most instruction focuses on two-dimensional straight-line casting — but real fishing requires casts in three-dimensional space around the caster's body. Understanding 3D casting planes unlocks the full range of presentation casts that two-dimensional instruction cannot teach."
+  },
+  {
+    "question": "What is the tip-top of a fly rod?",
+    "answer": "The tip-top is the final guide at the tip of the fly rod — the smallest guide through which the fly line passes last before becoming aerial. The tip-top path describes the arc the rod tip scribes through the air during the casting stroke. Observing the tip-top path is the most direct way to diagnose rod tip path faults in fly casting."
+  },
+  {
+    "question": "What is tip-top velocity in fly casting?",
+    "answer": "Tip-top velocity is the velocity of the rod tip during the casting stroke. Maximum tip-top velocity occurs at the moment of the stop — when the rod is most deeply loaded and all applied force is transferred to the fly line. Higher tip-top velocity at the stop produces greater line speed. The double haul increases tip-top velocity by adding line hand acceleration to rod hand acceleration simultaneously."
+  },
+  {
+    "question": "What is wrist abduction in fly casting?",
+    "answer": "Wrist abduction in fly casting is drawing the wrist away from the body from the anatomical position. It is one of the six wrist movements used in fly casting and is part of angular linear thrust. Understanding wrist abduction helps casting instructors identify and correct wrist positioning faults that affect rod tip path and loop shape."
+  },
+  {
+    "question": "What is wrist adduction in fly casting?",
+    "answer": "Wrist adduction in fly casting is drawing the wrist toward the body from the anatomical position. It is one of the six wrist movements used in fly casting and contributes to angular linear thrust. Wrist adduction is commonly used at the completion of the casting stroke in standard overhead casting to apply the final acceleration and stop."
+  },
+  {
+    "question": "What is wrist extension in fly casting?",
+    "answer": "Wrist extension in fly casting is drawing the wrist away from the joint — increasing the angle of the joint. It is part of angular perpendicular thrust and is often performed toward the completion of the casting stroke. Excessive wrist extension at the stop is a common fault in beginners — reducing casting arc and producing wide open loops."
+  },
+  {
+    "question": "What is wrist flexion in fly casting?",
+    "answer": "Wrist flexion in fly casting is closing the joint — decreasing the angle. It is part of angular perpendicular thrust. Controlled wrist flexion at the completion of the forward casting stroke contributes to the stop and applies final acceleration. Excessive wrist flexion on the back cast is a common fault — dropping the rod tip too low and reducing casting arc."
+  },
+  {
+    "question": "What is river left and river right in fly fishing?",
+    "answer": "River left is the left bank of the river when facing downstream. River right is the right bank of the river when facing downstream. These boating definitions are used as word pictures for guiding clients on float trips and describing wade fishing positions. Understanding river left and river right prevents confusion when a guide is directing a client to cast to a specific target."
+  },
+  {
+    "question": "What is the bag of tricks in fly fishing?",
+    "answer": "The bag of tricks is the complete knowledge and ability to master several varieties of casts that aid the angler in challenging scenarios. It includes the full spectrum of control and force used for fishing casts — negative force, normal force, and positive force combined with all available loop and rod planes. Building a complete bag of tricks is what separates versatile presentation casters from one-dimensional distance casters."
+  },
+  {
+    "question": "What is a cast in fly fishing?",
+    "answer": "A cast in fly fishing is the projectile loop motion of the line created by varying the amount of force during the stroke that is applied to the rod by the caster. This dynamic motion propels the fly line, leader, and fly to a specific position on the water. Unlike other forms of fishing where the lure provides casting weight, in fly fishing the fly line itself provides the mass that carries the nearly weightless fly."
+  },
+  {
+    "question": "What is presentation in fly fishing?",
+    "answer": "Presentation in fly fishing is how you present yourself, your cast, the imitation, stealth tactics, and equipment choices — your cumulative knowledge of the complete system for deceiving fish. Presentation is the most important variable in fly fishing — a perfect fly presented poorly will be refused while an imperfect fly presented perfectly will be eaten. Everything in fly casting serves the goal of better presentation."
+  },
+  {
+    "question": "What is the back cast in fly fishing?",
+    "answer": "The back cast is the casting stroke made opposite the target area — usually behind the caster. The direction changes based on obstacles, wind, or change of direction setups. The back cast is the setup stroke for the forward delivery — most accuracy and distance problems originate in the back cast, not the forward cast. A poor back cast cannot produce a good forward cast."
+  },
+  {
+    "question": "What is the forward cast in fly fishing?",
+    "answer": "The forward cast is a casting stroke that usually travels in front of the caster — but the direction is often not limited to directly in front. The forward cast is the delivery stroke in most casting sequences. Loop shape, line speed, trajectory, and tracking on the forward cast are all direct products of what happened on the back cast."
+  },
+  {
+    "question": "What is the stroke in fly casting?",
+    "answer": "The stroke in fly casting is the complete casting motion performed by the rod hand — including only one backward or forward cast depending on the perspective. The pause is characteristic of the completion of all strokes. The stroke includes both the loading move and the stop — the two most important elements of loop formation."
+  },
+  {
+    "question": "What is the fly line in fly fishing?",
+    "answer": "The fly line is one of the most important pieces of equipment in fly fishing — the weight or connection used for making fly casts. Unlike conventional fishing where the lure provides casting weight, the fly line itself provides the mass. The distribution of weight in the fly line coating creates the many taper profiles used for different casting and presentation applications."
+  },
+  {
+    "question": "What is a fly rod in fly fishing?",
+    "answer": "A fly rod is a long flexible lever used in fly fishing and fly casting for applying force to the fly line to generate a loop. Mac Brown's definition: an antenna that transmits peace, tranquility, excitement, fellowship, sharing techniques, and most of all an awareness and appreciation for the outdoors. Rod action, modulus, dampening, swing weight, and spline all affect how a fly rod performs."
+  },
+  {
+    "question": "What is the dory in fly fishing?",
+    "answer": "A dory is a fishing boat that has been around for centuries with simple lines and easy to build — usually 16 to 24 feet in length using oars with oarlocks to row. Mac Brown uses a crafted wooden dory for loch-style lake fly fishing on the high mountain impoundments near Bryson City, NC. The dory's flat bottom and high sides make it ideal for drifting and rowing on lake surfaces."
+  },
+  {
+    "question": "What is the vector haul in fly casting?",
+    "answer": "The vector haul is a line haul method that manipulates two strands of fly line producing a two-to-one ratio for achieving greater line speed, increased tension, and deeper rod load. It differs from a standard haul which manipulates only one strand. The vector haul produces significantly greater rod loading than a standard haul of the same distance."
+  },
+  {
+    "question": "What are vector quantities in fly casting mechanics?",
+    "answer": "Vector quantities in fly casting mechanics describe direction and magnitude that rely heavily on mathematical relationships for solving the resultant. Velocity, acceleration, force, and momentum are all vector quantities — they have both a size and a direction. Understanding vector quantities helps casting analysts and instructors describe the three-dimensional forces involved in fly casting with precision."
+  },
+  {
+    "question": "What is video capture in fly casting instruction?",
+    "answer": "Video capture in fly casting instruction is using a camera for tweaking your own casting and diagnosing others. Slow motion video reveals rod tip path, tracking, loop shape, haul timing, and rotation timing that the naked eye cannot detect in real time. Mac Brown uses video analysis in online fly casting lessons worldwide — the camera provides instant feedback equivalent to standing next to the caster."
+  },
+  {
+    "question": "What is wave speed of line in fly casting?",
+    "answer": "Wave speed of line refers to the slight waveforms in the fly line during travel — which is less efficient than straight-line travel. These waves propagate quicker when tension remains high. Transverse waves introduced by tracking faults or abrupt acceleration travel down the fly line and cause tailing loops, wide loops, and inaccurate presentations."
+  },
+  {
+    "question": "What is the casting analyzer used for in fly casting research?",
+    "answer": "The casting analyzer invented by Noel Perkins and Bruce Richards measures the smoothness of applied force during the casting stroke and the symmetry of the back and forward casts. It contains data from elite casters for comparison. Mac Brown used casting analyzer data in his collaborative loop morphing research with Noel Perkins published in The Loop journal of Fly Fishers International in Spring 2014."
+  },
+  {
+    "question": "What is the six step diagnostic method in fly casting?",
+    "answer": "The six step diagnostic method originated by Bruce Richards observes faults in this order: line, rod, body — then corrects in reverse order: body, rod, line. This approach was used by high-level swimming coaches from Australia in the 1960s. The real art in teaching is solving a couple of things that solve many — often subtle suggestions lead to faster progress than addressing every fault simultaneously."
+  },
+  {
+    "question": "What is the concept of normal force in fly casting?",
+    "answer": "Normal force in fly casting is the minimal amount of net forces required for performing the cast which attains a complete turnover of the loop through infinite casting planes — the fly line should have a straight layout. Normal force casts are the baseline from which positive force adds power for distance and tuck casts, and negative force reduces power for pile and slack-leader presentations."
+  },
+  {
+    "question": "What is a narrow loop versus an open loop in fly casting?",
+    "answer": "A narrow loop has a distance between the fly and rod leg of fewer than two feet — efficient for distance, wind penetration, and accuracy. An open loop has a large displacement between fly and rod legs — a fault in straight-line casting but intentional in negative force casts and certain presentation casts. Loop width is determined by the straightness of the rod tip path during the casting stroke."
+  },
+  {
+    "question": "What is the concept of control in fly casting?",
+    "answer": "Control in fly casting is the intended application or lack of force to achieve the desired line layout. A full range of control includes negative force, normal force, and positive force combined with all rod and loop planes. A higher understanding of line tension is necessary for true control. Most casters only use a fraction of the available control spectrum — limiting their presentation options on the water."
+  },
+  {
+    "question": "What is the concept of mechanics in fly casting?",
+    "answer": "Casting mechanics is a study of force and motion during and after the casting stroke. Force and motion are so completely interrelated — like braids of a rope — that neither can be defined independently from the other. Teaching casting mechanics rather than casting style produces students who can self-correct on any water in any condition for the rest of their lives."
+  },
+  {
+    "question": "What is rod arc versus casting arc in fly casting?",
+    "answer": "Rod arc and casting arc are synonymous terms describing the angle of change when making the casting stroke. They describe the rotational component of the casting stroke — how much the rod tip moves through an arc from start to stop. The arc must vary with line length — more line requires more arc, less line requires less. This variability is one of the five essentials of fly casting."
+  },
+  {
+    "question": "What is the concept of rhythm and tempo in fly casting?",
+    "answer": "Rhythm and tempo in fly casting work together — rhythm is the regular recurrence and natural flow of related objects in the system while tempo is the overall pace from start to finish. Practicing with varied tempo is one of the most effective ways to develop casting versatility — slow tempo for obstacle avoidance and tight spaces, fast tempo for distance casting with more line in the air."
+  },
+  {
+    "question": "What is the concept of timing in fly casting?",
+    "answer": "Timing in fly casting is the execution of movements in the proper sequence — the time period for each movement during the overall casting sequence. The most common timing dysfunction is using the arm before the weight transfer of the body. Haul timing, stop timing, and rotation timing all affect loop quality. The synchronization of all elements at the stop is what produces maximum line speed with minimum effort."
+  },
+  {
+    "question": "What is the difference between style and substance in fly casting?",
+    "answer": "Style in fly casting is how the body moves — stance, grip, elbow position, body rotation, wrist involvement. No two expert casters look exactly the same. Substance is the underlying mechanics that make any cast work regardless of style — rod tip path, loop formation, timing of the stop and haul, application of force. Style is personal. Substance is universal. Teaching style as if it were substance is the most common and consequential error in fly casting instruction."
+  },
+  {
+    "question": "What is the difference between drift and creep in fly casting?",
+    "answer": "Drift is an intentional supplementary motion during the pause for repositioning the rod in an advantageous position for the next casting stroke. Creep is an unintentional forward movement during the pause that reduces the available casting arc. Both look similar from a distance but produce opposite results — drift adds to the casting stroke while creep subtracts from it."
+  },
+  {
+    "question": "What is the difference between a static and dynamic D-loop?",
+    "answer": "A static D-loop is a stationary loop of line formed behind the rod tip used in standard roll casts — the line is at rest on the water before the delivery. A dynamic D-loop involves the line moving backward in a V or D shape before the delivery — used in Spey casting for greater line speed and distance. Dynamic D-loops require more precise timing but produce significantly more efficient rod loading."
+  },
+  {
+    "question": "What is the difference between major drag and micro drag in fly fishing?",
+    "answer": "Major drag is obvious — the fly skates rapidly across the surface at a clearly different speed from the current. Micro drag is subtle — the tippet has increased tension causing the fly to move at a minutely different speed and direction that the human eye cannot detect but trout can. Micro drag is the most common reason experienced fly fishers have refusals on otherwise perfect presentations."
+  },
+  {
+    "question": "What is the difference between the rod leg and fly leg of a loop?",
+    "answer": "The rod leg runs from the center of the loop's axis to the rod tip — the decelerating part. The fly leg runs from the center of the loop's axis to the fly end — the accelerating part. The fly leg is a mirror image of the rod tip path during the casting stroke. Observing the fly leg shape is the fastest diagnostic tool for any fly casting instructor — it reveals exactly what the rod tip did during the stroke."
+  },
+  {
+    "question": "What is the difference between active and passive fly fishing presentations?",
+    "answer": "A passive presentation delivers the fly at the same speed as the current — imitating insects that drift naturally. A dead drift nymph or spent spinner on the surface are passive presentations. An active presentation imparts movement different from the current — imitating the erratic behavior of caddis, emerging nymphs, or baitfish. Reading what the fish are feeding on determines which presentation to use."
+  },
+  {
+    "question": "What is the difference between a prime lie and a feed lane in fly fishing?",
+    "answer": "A prime lie is a position that offers both food and shelter from predators — where the largest fish hold. A feed lane is the specific current thread where food organisms concentrate — fish may be in a feed lane without being in a prime lie. The most productive fishing targets combine both — a prime lie that intercepts a major feed lane. Reading water to find these intersections is the strategy component of the Fly Fisher's Triad."
+  },
+  {
+    "question": "What is the difference between translatory and rotary motion in fly casting?",
+    "answer": "Translatory motion is straight-line movement of the rod hand during the casting stroke — the loading move phase. Rotary motion is revolving movement around a fixed axis — the rotation of the wrist and forearm at the stop. Most efficient fly casts combine translatory motion during the loading move to build line speed and momentum, then rotary motion at the stop to apply the final acceleration and create the loop."
+  },
+  {
+    "question": "What is the difference between overhang and optimal line length in fly casting?",
+    "answer": "Overhang is the specific amount of running line outside the tip-top during the cast — a variable the caster controls for distance. Optimal line length is the total distance of fly line the caster can control with confidence during false casts — a measure of the caster's current ability level. Managing both simultaneously is essential for shooting head and Spey casting."
+  },
+  {
+    "question": "What is the difference between a D-loop and a V-loop in Spey casting?",
+    "answer": "A D-loop is a D-shaped loop of line formed behind the rod tip before the delivery cast. A V-loop is a more pointed V-shaped back loop — more efficient than a D-loop in flight because it offers greater load to pull against when timed with a proper anchor. V-loops are used in Spey casting for longer casts where maximum rod loading is required for the delivery."
+  },
+  {
+    "question": "What is the difference between a shooting head and a weight forward fly line?",
+    "answer": "A shooting head is a short heavy fly line section not attached to a conventional running line — using braided monofilament as the running section instead. A weight forward line has its casting weight concentrated at the front but is a single continuous line with the running section attached. Shooting heads produce greater distance and line speed for a given stroke but require more precise timing than standard weight forward lines."
+  },
+  {
+    "question": "What is the difference between momentum and energy in fly casting?",
+    "answer": "Momentum in fly casting is the measure of motion relating the line's mass and velocity — a heavier line carries more momentum at the same speed. Energy is the capacity to perform work — including both potential energy stored in the bent rod and kinetic energy in the moving line. Both concepts are essential for understanding why different line weights and rod actions behave differently under the same applied force."
+  },
+  {
+    "question": "What is the difference between a tailing loop and a wind knot?",
+    "answer": "A tailing loop is the casting fault — when the fly leg crosses the rod leg during the cast. A wind knot is the result — the overhand knot in the line or leader that forms when a tailing loop tightens. Despite the name, wind knots are caused by casting faults not wind. The wind may make a tailing loop more likely to tighten into a knot but it does not cause the tailing loop itself."
+  },
+  {
+    "question": "What is the difference between the casting stroke and the overall stroke in fly casting?",
+    "answer": "The casting stroke covers only those rod motions whose purpose is to apply force to the line and generate a loop — it has one result: a loop of line. The overall stroke includes all rod movements during the casting sequence including positioning moves like lifts, sweeps, and mends that do not directly generate a loop. Keeping these two concepts separate is essential for accurate fault diagnosis and instruction."
+  },
+  {
+    "question": "What is the difference between haul and retrieve in fly fishing?",
+    "answer": "A haul is a quick tug on the fly line during the casting stroke to increase rod load and line speed — performed during the last half of the casting stroke. A retrieve is any method that pulls the fly line in through the guides while fishing to control the amount of line outside. Hauls happen during casting. Retrieves happen during fishing. Confusing the two leads to poor haul timing and inefficient line management."
+  },
+  {
+    "question": "What is the 50% rule for tailing loops in fly casting?",
+    "answer": "The 50% rule for tailing loops states that a tailing loop should be observed past the halfway point in loop travel before being classified as a true tail. Many casts have crossover during the setup of roll casts, distance casts, and other positioning moves that are not tailing loops in the early stages. Since the traveling transverse wave propagates down the line to the end, a true tail will be visible past the 50% travel point."
+  },
+  {
+    "question": "What causes a tailing loop in fly casting?",
+    "answer": "Tailing loops most commonly stem from too early or abrupt application of force, line planes less than 180 degrees, rod tip jumping above the oncoming line path, improper haul timing, and transverse waves. Most literature blames concavity of the rod tip path but a straight rod tip path creating a transverse wave is equally a cause. The chaos of creating tailing loops is brought about by a jerk factor — an abrupt change in the rate of acceleration."
+  },
+  {
+    "question": "What is casting synergy in fly casting?",
+    "answer": "Casting synergy is the simultaneous convergence of the haul, the stop, and the rod unbend into one finite moment — where the whole is greater than the sum of its parts. When all variables align at the same instant maximum line speed is achieved with minimum effort. When they are slightly out of phase the result is a fraction of what was possible. Timing is everything in fly casting synergy."
+  },
+  {
+    "question": "What is the Fly Fisher's Triad in fly fishing instruction?",
+    "answer": "The Fly Fisher's Triad is Mac Brown's framework for fly fishing development built on three equal components — strategy, line control, and tactics. Strategy is knowledge and wisdom applied to reading and covering water. Line control is the kinesthetic act of repositioning the fly through every cast and mend. Tactics are the moment-to-moment decisions about how the fly behaves during the drift. All three must work together for consistently successful fly fishing."
+  },
+  {
+    "question": "What is the pantomime method in fly casting instruction?",
+    "answer": "The pantomime method is practicing the casting stroke without a rod — building the correct motor pattern in the brain before the complexity of rod and line is added. Mel Krieger developed the pantomime method for the Fenwick Fly Casting Schools in the mid-1970s. Most students achieve correct timing in under 10 minutes using pantomime. Once the motor pattern is established the cast follows naturally when the rod is introduced."
+  },
+  {
+    "question": "What is the five essentials framework in fly casting?",
+    "answer": "The five essentials of fly casting codified by Bill and Jay Gammel are: 1) There must be a taut line connection between rod tip and fly. 2) The rod must pause to allow the loop to unroll before the next stroke. 3) Stroke length and arc must vary with the amount of line being cast. 4) The rod tip must travel in a straight-line path. 5) Power must be applied in a smooth acceleration to a stop. Every casting fault can be traced to a violation of one or more of these five principles."
+  },
+  {
+    "question": "What is the double haul and who invented it?",
+    "answer": "The double haul is a line acceleration technique where the line hand pulls the fly line on both the back cast and the forward cast — distributing the workload between both hands and dramatically increasing line speed. It was introduced to the world by Marvin Hedge in St. Louis in 1934 when he broke the world fly casting distance record by 22 feet. It is not just a distance technique — a properly timed double haul improves accuracy, loop control, and efficiency on every cast."
+  },
+  {
+    "question": "Where can I learn fly casting from a certified instructor?",
+    "answer": "Mac Brown Fly Fish in Bryson City, NC offers private fly casting lessons, the Masterclass Casting Workshop, and the week-long Fly Fishing Guide School — all taught from first principles by Mac Brown, the only FFI Master Casting Instructor in North Carolina and recipient of the FFI Lifetime Achievement Award. Online lessons available worldwide via FaceTime, Zoom, or Skype at $400 per session. Every lesson is guaranteed — if you do not experience measurable improvement the lesson is free."
+  }
+]

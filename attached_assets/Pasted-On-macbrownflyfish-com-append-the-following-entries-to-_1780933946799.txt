@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 13.
+
+    {
+      "@type": "Question",
+      "name": "What is a convex rod tip path in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A convex rod tip path is a domed or windshield-wiper-like rod tip path that may result in larger loops. Negative casts often use a convex rod tip path for controlling large fly loops for curve presentations. When a tight loop is the goal a convex path is a fault — when an open loop is needed deliberately it is a controlled technique."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is coupled plane pendula in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Coupled plane pendula describes a series of three or more hinges that perform a motion — useful for understanding how the body hinges of the caster apply force to the casting stroke for either translatory or rotary motion. It can also describe the fly line loop unrolling during the fly cast as a series of frictionless hinges cast through a specific plane."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the dangle in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The dangle is the fly line's position prior to the cast — typically downstream of the caster on a river. The dangle position is the starting point for all Spey casts. A proper dangle allows the line to straighten below the caster before the lift and sweep begin — setting up the anchor and D loop for an efficient delivery cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is line plane in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Line plane is the angle created by the fly line in relation to the surface of water or ground during the cast. Optimal load placement requires the line to be positioned on the back cast at the angle that most efficiently loads the rod for the forward delivery. Line planes less than 180 degrees from the forward cast direction increase the risk of tailing loops."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is line speed in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Line speed is the average speed of the unrolling fly line — expressed as Ls equals one half of the sum of the rod leg and fly leg velocities. Greater line speed produces tighter loops, more wind penetration, and greater distance. Line speed is increased through smooth acceleration, hauling, late rotation, and the synchronization of all elements at the stop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is maximum rod load in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maximum rod load is when the rod is bent the deepest when performing the overall cast — usually close to equaling the maximum fly line acceleration. Longer hand-rod paths, hauling techniques, increased rod arc, body planes, and optimal load placement all influence the maximum rod flex. The deeper the rod loads at the stop the more energy is available for transfer into the fly line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is maximum rod flex in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maximum rod flex is the increased force the rod possesses when it is flexed to near its elastic limit. Longer hand-rod paths, hauling techniques, increased rod arc, rod planes, body planes, equipment, and optimal load placement all influence maximum rod flex. Achieving maximum rod flex consistently requires smooth progressive acceleration rather than abrupt force application."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the line hand in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The line hand is the hand that controls the fly line between the reel and the stripping eyelet. For a right-handed caster the left hand is the line hand. The line hand performs the haul during the double haul, manages shooting line, controls retrieve speed, and sets the hook. Most casting faults involve only the rod hand — the line hand is frequently underutilized."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a line pull cast in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A line pull cast is any cast that implements a haul after the rod stops for controlling the layout. This increases tension on the rod leg and causes the fly leg to turn over quicker. Line pull casts are used deliberately for tuck casts, positive curve casts, and distance casting where rapid turnover of the fly leg is the goal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the stripping eyelet on a fly rod?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The stripping eyelet is the largest guide on the fly rod — the first one from the grip. It is typically oversized to allow fly line to pass through smoothly during shooting and reduces friction for maximum shooting distance. The stripping eyelet is also the point where fly line knots most commonly form when small coils of line are stored during the retrieve."
+      }
+    }
+
+Confirm saved. Stand by for Paste 13.

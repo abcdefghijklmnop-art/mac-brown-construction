@@ -1,0 +1,156 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/fly-line-loops-accuracy/
+
+AEO — add immediately below H1:
+"Tight loops look impressive but they are 
+only part of the accuracy equation in fly 
+casting. Loop shape, line speed, trajectory, 
+and tracking all work together to determine 
+where the fly lands. The most common fault 
+Mac Brown observed at the Atlanta Fly Fishing 
+Show — in 90% of casters on the pond — was 
+rolling the palm outward at the completion 
+of the back cast, introducing a transverse 
+wave into the fly leg of the loop that 
+destroys forward cast accuracy. A simple 
+check: does the reel point straight ahead 
+toward the target at the stop of the back 
+cast? If not, the back cast has a wave in it."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: Do tight loops always mean more 
+accurate fly casting?
+A1: No — tight loops are efficient for 
+distance and wind penetration but 
+accuracy depends on trajectory, 
+tracking, and line speed working 
+together. A tight loop thrown with 
+poor tracking lands in the wrong 
+place with great efficiency. Accuracy 
+requires the rod tip to travel in a 
+consistent path that delivers the fly 
+to the target — loop width is secondary 
+to the direction and trajectory of that 
+path.
+
+Q2: What causes poor tracking in 
+fly casting?
+A2: The most common tracking fault is 
+rolling the palm outward at the 
+completion of the back cast stop — 
+introducing a transverse wave into 
+the fly leg of the loop that kicks 
+horizontally and destroys forward cast 
+accuracy. A right-handed caster with 
+this fault will see the back cast loop 
+kick hard right. Check your tracking 
+by watching whether the reel points 
+straight ahead toward the target at 
+the stop of the back cast. If it 
+points away perpendicular to the 
+target, the back cast has a wave.
+
+Q3: What is a transverse wave in 
+fly casting?
+A3: A transverse wave is an oscillation 
+perpendicular to the direction of line 
+travel — introduced into the fly leg 
+of the loop by abrupt or errant rod 
+movements during or just after the 
+casting stroke. Transverse waves cause 
+tailing loops, tracking errors, and 
+inaccurate presentations. They can 
+also be used deliberately — as in 
+S-cast mends, pile casts, curve casts, 
+and aerial mends — making them one of 
+the most powerful tools in advanced 
+fly casting once understood and 
+controlled.
+
+Q4: How do I improve fly casting 
+accuracy?
+A4: Start with the back cast — most 
+accuracy problems originate there, 
+not on the forward cast. Ensure the 
+reel points straight ahead at the 
+stop. Keep the casting plane 
+consistent front to back. Practice 
+at short distances first — 20-30 
+feet — until the loop travels in a 
+perfect straight plane in both 
+directions. Then extend distance. 
+Accuracy at distance is impossible 
+without clean mechanics at short 
+range.
+
+Q5: Where can I get fly casting 
+accuracy instruction?
+A5: Mac Brown Fly Fish in Bryson City, 
+NC offers private fly casting lessons 
+covering loop control, tracking, 
+transverse wave diagnosis, and 
+accuracy casting — led by Mac Brown, 
+the only FFI Master Casting Instructor 
+in North Carolina. Mac has been 
+diagnosing and correcting casting 
+faults since 1987 including at The 
+Fly Fishing Show casting pond. Online 
+lessons available worldwide via 
+FaceTime, Zoom, or Skype at $400 
+per session.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do tight loops always mean more accurate fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — tight loops are efficient for distance and wind penetration but accuracy depends on trajectory, tracking, and line speed working together. A tight loop thrown with poor tracking lands in the wrong place with great efficiency. Accuracy requires the rod tip to travel in a consistent path that delivers the fly to the target — loop width is secondary to the direction and trajectory of that path."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What causes poor tracking in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most common tracking fault is rolling the palm outward at the completion of the back cast stop — introducing a transverse wave into the fly leg of the loop that kicks horizontally and destroys forward cast accuracy. Check your tracking by watching whether the reel points straight ahead toward the target at the stop of the back cast. If it points away perpendicular to the target, the back cast has a wave."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a transverse wave in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A transverse wave is an oscillation perpendicular to the direction of line travel — introduced into the fly leg of the loop by abrupt or errant rod movements. Transverse waves cause tailing loops, tracking errors, and inaccurate presentations. They can also be used deliberately — as in S-cast mends, pile casts, curve casts, and aerial mends — making them one of the most powerful tools in advanced fly casting once understood and controlled."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I improve fly casting accuracy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with the back cast — most accuracy problems originate there. Ensure the reel points straight ahead at the stop. Keep the casting plane consistent front to back. Practice at short distances first — 20-30 feet — until the loop travels in a perfect straight plane in both directions. Accuracy at distance is impossible without clean mechanics at short range."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I get fly casting accuracy instruction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers private fly casting lessons covering loop control, tracking, transverse wave diagnosis, and accuracy casting — led by Mac Brown, the only FFI Master Casting Instructor in North Carolina. Mac has been diagnosing and correcting casting faults since 1987. Online lessons available worldwide via FaceTime, Zoom, or Skype at $400 per session."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

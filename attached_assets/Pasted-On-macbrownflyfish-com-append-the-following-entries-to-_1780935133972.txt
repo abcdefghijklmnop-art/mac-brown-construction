@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 4.
+
+    {
+      "@type": "Question",
+      "name": "What is dead drift in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dead drift is a perfect float in which the fly moves at the same pace as the current — used in both dry fly and nymph fishing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a disc drag fly reel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A disc drag is a mechanical system on more expensive fly reels designed to efficiently slow and tire a fish taking the line. Resistance is created between discs that apply pressure as the line is pulled from the reel. The disc drag is smoother and less likely to create a sudden stopping resistance that will break the line compared to a click drag."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a dorsal fin on a fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The dorsal fin is a large fin on the back of a fish toward the head."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the double haul in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The double haul is a casting technique where the fly fisher tugs and gives back the line in both directions. It creates great line speed and reduces fatigue when making long casts, casting low to the water, or specialty curve casts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a double taper fly line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The double taper is a standard fly line design in which both ends of the line are tapered while the greater portion or belly of the line is level. It is an excellent line for roll casting and elite distance casts because there is greater overall line weight than a weight forward line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is drag in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drag has two meanings in fly fishing. First, an unnatural motion of the fly caused by the effect of the current on the line and leader — usually detrimental though at times useful such as imitating the actions of the adult caddis. Second, resistance applied to the reel spool to prevent it from turning faster than the line leaving the spool — used in playing larger fish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is drag-free drift in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drag-free drift is accomplished when you minimize the effect of the current flow on the fly. Trout are more likely to take food moving at the same speed as naturals being carried by the current and may be spooked by flies moving too fast or too slow."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a dropper in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A dropper is the practice of fishing two flies at the same time — often one on the surface and a second underwater. A classic combo like the hopper-dropper features a dry fly grasshopper pattern with a small nymph or emerger tied off the bend of the hook. A dropper effectively doubles your chances of finding which type of insect the fish are keying on. The dropper fly is also the middle fly when fishing a cast of three flies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a dry fly in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A dry fly is any fly fished upon the surface of the water — usually constructed of non-water-absorbent materials. Dry flies are most commonly used to imitate the adult stage of aquatic insects."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a dun in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The dun is the first stage in the adult mayfly's life cycle — usually lasting one to 24 hours. This is the stage most often imitated by the dry fly. Dun also describes a darkish gray-blue color that is very desirable in some fly tying materials."
+      }
+    }
+
+Confirm saved. Stand by for Paste 4.

@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 17.
+
+    {
+      "@type": "Question",
+      "name": "What is wrist adduction in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wrist adduction in fly casting is drawing the wrist toward the body from the anatomical position. It is one of the six wrist movements used in fly casting and contributes to angular linear thrust. Wrist adduction is commonly used at the completion of the casting stroke in standard overhead casting to apply the final acceleration and stop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is wrist extension in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wrist extension in fly casting is drawing the wrist away from the joint — increasing the angle of the joint. It is part of angular perpendicular thrust and is often performed toward the completion of the casting stroke. Excessive wrist extension at the stop is a common fault in beginners — reducing casting arc and producing wide open loops."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is wrist flexion in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wrist flexion in fly casting is closing the joint — decreasing the angle. It is part of angular perpendicular thrust. Controlled wrist flexion at the completion of the forward casting stroke contributes to the stop and applies final acceleration. Excessive wrist flexion on the back cast is a common fault — dropping the rod tip too low and reducing casting arc."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is river left and river right in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "River left is the left bank of the river when facing downstream. River right is the right bank of the river when facing downstream. These boating definitions are used as word pictures for guiding clients on float trips and describing wade fishing positions. Understanding river left and river right prevents confusion when a guide is directing a client to cast to a specific target."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the bag of tricks in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The bag of tricks is the complete knowledge and ability to master several varieties of casts that aid the angler in challenging scenarios. It includes the full spectrum of control and force used for fishing casts — negative force, normal force, and positive force combined with all available loop and rod planes. Building a complete bag of tricks is what separates versatile presentation casters from one-dimensional distance casters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A cast in fly fishing is the projectile loop motion of the line created by varying the amount of force during the stroke that is applied to the rod by the caster. This dynamic motion propels the fly line, leader, and fly to a specific position on the water. Unlike other forms of fishing where the lure provides casting weight, in fly fishing the fly line itself provides the mass that carries the nearly weightless fly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is presentation in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Presentation in fly fishing is how you present yourself, your cast, the imitation, stealth tactics, and equipment choices — your cumulative knowledge of the complete system for deceiving fish. Presentation is the most important variable in fly fishing — a perfect fly presented poorly will be refused while an imperfect fly presented perfectly will be eaten. Everything in fly casting serves the goal of better presentation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the back cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The back cast is the casting stroke made opposite the target area — usually behind the caster. The direction changes based on obstacles, wind, or change of direction setups. The back cast is the setup stroke for the forward delivery — most accuracy and distance problems originate in the back cast, not the forward cast. A poor back cast cannot produce a good forward cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the forward cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The forward cast is a casting stroke that usually travels in front of the caster — but the direction is often not limited to directly in front. The forward cast is the delivery stroke in most casting sequences. Loop shape, line speed, trajectory, and tracking on the forward cast are all direct products of what happened on the back cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the stroke in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The stroke in fly casting is the complete casting motion performed by the rod hand — including only one backward or forward cast depending on the perspective. The pause is characteristic of the completion of all strokes. The stroke includes both the loading move and the stop — the two most important elements of loop formation."
+      }
+    }
+
+Confirm saved. Stand by for Paste 17.

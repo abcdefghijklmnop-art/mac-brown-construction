@@ -1,0 +1,82 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 4.
+
+    {
+      "@type": "Question",
+      "name": "What is haul timing in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Haul timing refers to when the line hand pulls the fly line during the casting stroke. The haul should begin around the halfway point of the stroke and reach maximum speed simultaneously with the rod stop and rod unbend. Starting too early reduces the rod load benefit. Starting too late creates a jerky disconnected cast. Proper haul timing is the key to casting synergy."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is inertia in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Inertia in fly casting is a property of the fly line by which it remains at rest or in uniform motion in the same direction unless acted upon by an external force. Overcoming fly line inertia at the start of the casting stroke requires the initial rod velocity — the first movement of the rod that begins to get the line moving before the main casting stroke is applied."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is jerk in fly casting mechanics?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Jerk in fly casting mechanics is the rate of change of acceleration — the abrupt increase in speed that elite casters use near the stop to achieve maximum line speed and distance. The key is remaining smooth throughout the stroke while building to the jerk — a crescendo of speed that synchronizes with the haul, the stop, and the rod unbend simultaneously."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is kick in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kick is the abrupt rapid turnover of a fly, leader, or fly line at the end of the loop becoming straight. It can be caused by overpowering a cast, having too much weight at the leader end, or having no leader or a shortened leader. Positive casts deliberately use kick for driving a nymph down vertically into the water or when making positive curve casts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a lift in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A lift is a vertical form of sweep to lift the line from the water prior to the next line positioning move or casting stroke. A proper lift removes slack and begins building tension in the line before the casting stroke begins — one of the most overlooked fundamentals for efficient roll casting and Spey casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a loading move in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The loading move is the progressive buildup of forces applied to the rod that takes place after the initial velocity and before the stop of the stroke. A smooth loading move builds rod flex progressively — creating more potential energy in the rod at the stop than an abrupt or jerky loading move of the same distance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a loop in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A loop is the moving length of line past the rod tip where there is a distinct rod leg and fly leg. It takes on a candy-cane appearance for the unrolling portion of the fly line. The fly leg of the loop is a mirror image of the rod tip path. Loop shape, speed, plane, and direction determine every outcome on the water — understanding the loop is the foundation of all fly casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is loop morphing in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Loop morphing is the continuous change in loop shape that occurs from the moment a loop forms until it straightens at turnover. The shape is influenced by line speed and rod tip path — not simply the rod stop. Common morphing shapes include the perfect symmetry shape, the dolphin shape, and the leading-edge-on-fly-leg shape. Each tells an instructor something specific about what happened during the casting stroke."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is loop plane in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Loop plane is the measurement of angles from the perspective of the caster used for determining the relative position of the fly leg in relation to the rod leg during loop travel. The loop plane is zero degrees at vertical and is measured clockwise 360 degrees. Controlling loop planes requires hand paths that deviate from straight — typically curved hand paths during the casting stroke. This enables curve casts, pile casts, and tuck casts for presentations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is loop shape and what does it indicate in fly casti

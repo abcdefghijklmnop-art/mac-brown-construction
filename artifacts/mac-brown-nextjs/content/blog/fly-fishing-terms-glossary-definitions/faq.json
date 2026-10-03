@@ -1,0 +1,802 @@
+[
+  {
+    "question": "What is an adipose fin?",
+    "answer": "The adipose fin is the small fin on the back of a fish behind the dorsal fin and in front of the caudal fin."
+  },
+  {
+    "question": "What is an anadromous fish?",
+    "answer": "Anadromous fish are born in freshwater, migrate to saltwater to grow, and return to freshwater to spawn — such as salmon and steelhead."
+  },
+  {
+    "question": "What is an anti-reverse fly reel?",
+    "answer": "Anti-reverse is a feature of fly reels where the spool handle does not turn as the line is pulled out from the reel — generally used in saltwater for big or fast species."
+  },
+  {
+    "question": "What is an attractor fly pattern?",
+    "answer": "An attractor is a style of fly effective in eliciting strikes with hot colors such as fluorescent orange, pink, and chartreuse, and mylar in silver, gold, and clear pearlescent — yet has few characteristics of a natural food item."
+  },
+  {
+    "question": "What is the arbor of a fly reel?",
+    "answer": "The arbor is the center part of a fly reel onto which backing is wound. Fly reels come in standard arbor, mid-arbor, and large arbor configurations."
+  },
+  {
+    "question": "What is an arbor knot in fly fishing?",
+    "answer": "An arbor knot is a knot used for tying backing to the arbor of the fly reel."
+  },
+  {
+    "question": "What is backing on a fly reel?",
+    "answer": "Backing is a braided line that connects the reel spool to the fly line. It serves two functions — filling out the spool so the angler makes fewer revolutions to wind the line back onto the reel, and providing additional length beyond the fly line."
+  },
+  {
+    "question": "What is a barb on a hook?",
+    "answer": "The barb is the backward-facing projection cut into a hook."
+  },
+  {
+    "question": "What is a barbless hook in fly fishing?",
+    "answer": "Barbless hooks are either manufactured without a barb or the barb is squeezed down using hemostats or pliers or filed down. The use of barbless hooks makes it easy to remove a hook and reduces damage to the fish. Barbless hooks are superior for penetration and hook-ups."
+  },
+  {
+    "question": "What is a beadhead fly?",
+    "answer": "A beadhead fly uses a bead immediately behind the hook eye — usually made of brass, lead, or tungsten — to assist in sinking the fly."
+  },
+  {
+    "question": "What is a blood knot in fly fishing?",
+    "answer": "A blood knot is a widely used knot for tying two pieces of monofilament with similar diameters together. Also called a barrel knot."
+  },
+  {
+    "question": "What is a braided loop connector in fly fishing?",
+    "answer": "The braided loop connector works like the so-called Chinese finger torture for joining fly lines — it is a way of putting an in-line loop at the end of your fly line."
+  },
+  {
+    "question": "What is a butt section in fly fishing?",
+    "answer": "The butt section refers to two things — the thicker end of a tapered leader that is tied to the fly line, and the last section of a rod at the cork handle."
+  },
+  {
+    "question": "What is caddis in fly fishing?",
+    "answer": "Caddis are one of the three most important aquatic insects imitated by fly fishers — the other two being mayflies and midges. Caddis are found worldwide in all freshwater habitats. While at rest the adult has wings folded in a tent shape down the back. The pupa is the most important aquatic state — it is the emerging stage."
+  },
+  {
+    "question": "What is casting arc in fly fishing?",
+    "answer": "Casting arc refers to the angular starting and stopping points of the fly rod when making a cast."
+  },
+  {
+    "question": "What is catch and release in fly fishing?",
+    "answer": "Catch and release is a conservation technique in fly fishing — the recycling of fish for all anglers to enjoy the sport. Fish are landed quickly and kept in the water to be released back into the wild."
+  },
+  {
+    "question": "What is CDC in fly tying?",
+    "answer": "CDC is the fluffy webbing from the preen gland of usually a mallard duck that has excellent floating characteristics."
+  },
+  {
+    "question": "What is a chironomid in fly fishing?",
+    "answer": "Chironomid is the scientific name for members of the Diptera family of insects commonly known as midges. In the pupae stage they typically appear as small aquatic worms. They occur throughout the year but are most common in the winter months for the fly angler."
+  },
+  {
+    "question": "What is a click drag or click and pawl reel?",
+    "answer": "A click drag is a mechanical system on a fly reel used to slow down or resist the pulling efforts of a fish. The audible noise of clicks is beneficial for knowing when a large fish slows down during the fight."
+  },
+  {
+    "question": "What is a current seam in fly fishing?",
+    "answer": "A current seam is formed where differing high and low pressures of water flows meet. Water travels in all directions on a river of fast and slow currents depending on the bottom structure and general flow patterns. Water hydrology is always dynamic and changing depending on water levels."
+  },
+  {
+    "question": "What is dead drift in fly fishing?",
+    "answer": "Dead drift is a perfect float in which the fly moves at the same pace as the current — used in both dry fly and nymph fishing."
+  },
+  {
+    "question": "What is a disc drag fly reel?",
+    "answer": "A disc drag is a mechanical system on more expensive fly reels designed to efficiently slow and tire a fish taking the line. Resistance is created between discs that apply pressure as the line is pulled from the reel. The disc drag is smoother and less likely to create a sudden stopping resistance that will break the line compared to a click drag."
+  },
+  {
+    "question": "What is a dorsal fin on a fish?",
+    "answer": "The dorsal fin is a large fin on the back of a fish toward the head."
+  },
+  {
+    "question": "What is the double haul in fly fishing?",
+    "answer": "The double haul is a casting technique where the fly fisher tugs and gives back the line in both directions. It creates great line speed and reduces fatigue when making long casts, casting low to the water, or specialty curve casts."
+  },
+  {
+    "question": "What is a double taper fly line?",
+    "answer": "The double taper is a standard fly line design in which both ends of the line are tapered while the greater portion or belly of the line is level. It is an excellent line for roll casting and elite distance casts because there is greater overall line weight than a weight forward line."
+  },
+  {
+    "question": "What is drag in fly fishing?",
+    "answer": "Drag has two meanings in fly fishing. First, an unnatural motion of the fly caused by the effect of the current on the line and leader — usually detrimental though at times useful such as imitating the actions of the adult caddis. Second, resistance applied to the reel spool to prevent it from turning faster than the line leaving the spool — used in playing larger fish."
+  },
+  {
+    "question": "What is drag-free drift in fly fishing?",
+    "answer": "Drag-free drift is accomplished when you minimize the effect of the current flow on the fly. Trout are more likely to take food moving at the same speed as naturals being carried by the current and may be spooked by flies moving too fast or too slow."
+  },
+  {
+    "question": "What is a dropper in fly fishing?",
+    "answer": "A dropper is the practice of fishing two flies at the same time — often one on the surface and a second underwater. A classic combo like the hopper-dropper features a dry fly grasshopper pattern with a small nymph or emerger tied off the bend of the hook. A dropper effectively doubles your chances of finding which type of insect the fish are keying on. The dropper fly is also the middle fly when fishing a cast of three flies."
+  },
+  {
+    "question": "What is a dry fly in fly fishing?",
+    "answer": "A dry fly is any fly fished upon the surface of the water — usually constructed of non-water-absorbent materials. Dry flies are most commonly used to imitate the adult stage of aquatic insects."
+  },
+  {
+    "question": "What is a dun in fly fishing?",
+    "answer": "The dun is the first stage in the adult mayfly's life cycle — usually lasting one to 24 hours. This is the stage most often imitated by the dry fly. Dun also describes a darkish gray-blue color that is very desirable in some fly tying materials."
+  },
+  {
+    "question": "What is an eddy in fly fishing?",
+    "answer": "An eddy is a section of water that is less disturbed than the surrounding water — often found on the edge of a current or where two streams converge."
+  },
+  {
+    "question": "What is elbow control in fly casting?",
+    "answer": "For a tight wind-cutting loop in a vertical accuracy cast have the rod hand higher than your head and simply drop from the shoulder to lower the elbow. This stroke generates lots of fly line speed, eliminates tailing tendency, and loads the rod deeper into the butt section. Elbow control keeps the elbow on the shelf — in the same plane — for horizontal casts."
+  },
+  {
+    "question": "What is an emerger in fly fishing?",
+    "answer": "Pertaining to aquatic insects, an emerger describes that time frame when the nymph reaches the surface and the adult hatches out. The emerging nymph may be the single most important nymph phase for the fly fisher to imitate."
+  },
+  {
+    "question": "What is a false cast in fly fishing?",
+    "answer": "A false cast is a standard fly fishing cast used to lengthen and shorten the line, change direction, and dry off the fly — frequently overused. In false casting the line is kept moving backward and forward without being allowed to touch the surface of the water or the ground."
+  },
+  {
+    "question": "What is a ferrule on a fly rod?",
+    "answer": "A ferrule is the collar found at the point where sections of a fly rod are joined. The end of one section fits inside the end of another in an overlapping fashion at the ferrule."
+  },
+  {
+    "question": "What is a fish ladder?",
+    "answer": "A fish ladder is a series of interconnected pools created on the side of a river obstruction such as a dam to allow salmon and other fish to pass upstream."
+  },
+  {
+    "question": "What is fishing the drift in fly fishing?",
+    "answer": "Fishing the drift is the process of fishing from your target point to where you will pick up the line for your next cast. If you chose your initial casting position carefully you can get a long drift — maximizing your chance of catching a fish."
+  },
+  {
+    "question": "What is a floatant in fly fishing?",
+    "answer": "A floatant is a water-proofing — usually oily — salve or cream used to help flies, leaders, and fly lines float."
+  },
+  {
+    "question": "What are fluffies in fly fishing?",
+    "answer": "Fluffies are those who reiterate principles and fundamentals from a very narrow view regurgitated from an antiquated past — typically remaining stuck in an unconscious incompetence stage because they are content with where they are. Fluffies stagnate the progression and evolution of the sport."
+  },
+  {
+    "question": "What is fluorocarbon tippet in fly fishing?",
+    "answer": "Fluorocarbon is tippet or leader material that is virtually invisible underwater, sinks quickly, and does not reflect light on the water surface."
+  },
+  {
+    "question": "What is a freestone stream in fly fishing?",
+    "answer": "A freestone stream has a significant gradient resulting in medium to fast-moving water. Although the upper reaches may be spring-fed the vast majority of its flow comes from run-off or tributaries. The fast-moving water inhibits the growth of weeds resulting in a free stone bottom. Less fertile than spring creeks, freestone streams have smaller and less diverse aquatic insect populations — fewer bugs in faster water usually result in fewer but more opportunistic trout."
+  },
+  {
+    "question": "What is gel-spun polyethylene in fly fishing?",
+    "answer": "Gel-spun polyethylene is a synthetic fiber that is extremely thin, supple, slippery, abrasion-resistant, and strong — stronger than steel for its size. It is often used as braided fly line backing where large amounts of backing are needed and space on the reel is limited."
+  },
+  {
+    "question": "What is graphite in fly rod construction?",
+    "answer": "Graphite is the most popular rod-building material in use today — offering the best weight, strength, and flex ratio of any rod building material currently available."
+  },
+  {
+    "question": "What is the greased line method in fly fishing?",
+    "answer": "A method of presenting an unweighted fly broadside to a fish by steering the pattern with mends and rod angles to achieve a dead drift."
+  },
+  {
+    "question": "What is the grid method in fly fishing?",
+    "answer": "The grid is the method of sectioning off likely fish-holding lies and working all of them methodically — regardless of tactics including streamers, dries, wets, and nymphs."
+  },
+  {
+    "question": "What is a hackle in fly tying?",
+    "answer": "Hackle refers to feathers from the neck or back of a bird such as a chicken, starling, or partridge that are wrapped around the hook."
+  },
+  {
+    "question": "What is a hand retrieve in fly fishing?",
+    "answer": "A hand retrieve involves the line hand working a figure-eight pattern to retrieve the fly line. It is used for a slow retrieve and to manage the line in many fishing situations."
+  },
+  {
+    "question": "What is a hatch in fly fishing?",
+    "answer": "A hatch is a large number of flies of the same species emerging at one time."
+  },
+  {
+    "question": "What is a haul in fly casting?",
+    "answer": "A haul is a pull on the fly line with the non-casting hand to increase line speed and gain greater distance — done effectively during line pickup."
+  },
+  {
+    "question": "What is a hemostat in fly fishing?",
+    "answer": "A hemostat is a clamp or forceps used by fly fishermen to remove flies from the mouths of trout."
+  },
+  {
+    "question": "What is an indicator in fly fishing?",
+    "answer": "An indicator is a floating object placed on the leader or end of the fly line to indicate the take of the fly by a fish or to mark the path of the fly's drift. Made from materials such as floating putty, poly yarn, foam, rubber, colored mono, knots with tags, and dry flies. Strike indicators are very effective when nymph fishing at greater distances than can be reached with control."
+  },
+  {
+    "question": "What is jigging in fly fishing?",
+    "answer": "Jigging is a technique used with subsurface patterns — especially nymph fishing — where the angler moves the fly up and down erratically through the water vertically."
+  },
+  {
+    "question": "What is a knotless tapered leader in fly fishing?",
+    "answer": "A knotless tapered leader is a fly fishing tapered leader manufactured from a single piece of monofilament."
+  },
+  {
+    "question": "What is a knotted leader in fly fishing?",
+    "answer": "A knotted leader is a fly fishing leader constructed by knotting sections of different-diameter leader material together to create a tapered leader."
+  },
+  {
+    "question": "What is a large arbor reel in fly fishing?",
+    "answer": "A large arbor reel is wider and larger in diameter than a standard reel. Advantages include an increased line retrieve rate and quick stripping of long lengths of line when casting."
+  },
+  {
+    "question": "What is a larva in fly fishing?",
+    "answer": "The larva is the aquatic growth stage of caddis and some other insects. Many caddis larva species build a protective covering of sticks, leaves, and fine gravel during this stage."
+  },
+  {
+    "question": "What is a leader in fly fishing?",
+    "answer": "The leader is the section of monofilament line between the fly line and the fly. It is usually tapered so that it will deliver the fly softly and away from the fly line."
+  },
+  {
+    "question": "What is a lie in fly fishing?",
+    "answer": "Lies are areas in a river or lake where fish hang out. Optimum or prime lies are typically out of the main current, provide cover from predators, or offer a good source of insects and other food."
+  },
+  {
+    "question": "What is line weight in fly fishing?",
+    "answer": "The weight of the first 30 feet of a fly line determines the line weight of a rod or reel. This measurement system is used to standardize fly lines when matching them to fly rods of differing stiffness."
+  },
+  {
+    "question": "What is loading the rod in fly casting?",
+    "answer": "When a forward or backward cast is made the weight of the line puts a bend in the rod — loading or storing the energy necessary for the ensuing forward or backward cast."
+  },
+  {
+    "question": "What is matching the hatch in fly fishing?",
+    "answer": "Matching the hatch is an attempt by a fly angler to select an artificial fly that imitates the color, size, shape, and behavior of natural insects that fish are actively feeding on. Often when a hatch is occurring fish become very selective and refuse insects that do not match the predominant species present."
+  },
+  {
+    "question": "What is a mayfly in fly fishing?",
+    "answer": "Mayflies are the most commonly imitated aquatic insects worldwide. Most dry fly and nymph patterns imitate these insects. The nymph stage of the mayfly lasts approximately one year while adult stages last one to three days. The adult has one pair of upright wings making it resemble a small sailboat. They vary in size from the 3mm Trico to the 30mm Hexagenia."
+  },
+  {
+    "question": "What is mending line in fly fishing?",
+    "answer": "Mending line is the method used after the line is in the water to achieve a drag-free float. It consists of a flip, a stacked roll, or a series of flips with the rod tip that positions excess line in the proper current — helping the fly match the currents in which it rides."
+  },
+  {
+    "question": "What is a midge in fly fishing?",
+    "answer": "A midge is a very small two-winged insect in the Diptera family — useful to imitate during the winter months or when fishing lakes."
+  },
+  {
+    "question": "What is monofilament in fly fishing?",
+    "answer": "Monofilament is the clear supple nylon filament used in all types of fishing — available in many breaking strengths and diameters."
+  },
+  {
+    "question": "What is a nail knot in fly fishing?",
+    "answer": "A nail knot is used to attach a leader or butt section of monofilament to the fly line and to attach the backing to the fly line. It is most commonly tied using a small-diameter tube such as a section of a plastic coffee stirrer rather than an actual nail."
+  },
+  {
+    "question": "What is a nymph in fly fishing?",
+    "answer": "A nymph is the immature form of insects. As fly fishers we are concerned only with the nymphs of aquatic insects."
+  },
+  {
+    "question": "What is an open loop in fly casting?",
+    "answer": "An open loop is a very large loop that is arch-shaped in appearance as it travels through the air. An open loop is caused by a very wide casting arc and or too much power."
+  },
+  {
+    "question": "What is a parachute fly pattern?",
+    "answer": "A parachute is a dry fly style with hackle wrapped horizontally at the base of the wings. This enables the fly pattern's abdomen to rest in the film and provides better flight characteristics."
+  },
+  {
+    "question": "What is palming a fly reel?",
+    "answer": "Palming is gently applying the palm of your hand against the spool edge of a fly reel — an effective method for slowing the release of line when fighting large fish."
+  },
+  {
+    "question": "What is a pause in fly casting?",
+    "answer": "The pause is the hesitation used with all types of fly casts for redirecting the cast to a new direction. The pause varies in timing depending on the cast and the intent of the fly caster."
+  },
+  {
+    "question": "What is a perfection loop knot in fly fishing?",
+    "answer": "A perfection loop is a knot often used to create a loop in a piece of monofilament — frequently at the butt end of a leader for loop-to-loop connections."
+  },
+  {
+    "question": "What is polarized sunglasses in fly fishing?",
+    "answer": "Polarized sunglasses have polarized lenses that block incident light and allow anglers to better see beneath the water's surface. They help eliminate glare and make spotting fish much easier — an ideal accessory for any fly angler."
+  },
+  {
+    "question": "What is a pool in fly fishing?",
+    "answer": "A pool is a segment of a river or stream featuring slower currents and increased depths that helps protect fish from predatory birds and animals. Pools also give fish a rest from swimming against heavier currents. When fish become stressed by rising water temperatures they migrate into pools."
+  },
+  {
+    "question": "What is presentation in fly fishing?",
+    "answer": "Presentation is the act of casting the fly onto the water and offering it to the fish — with the objective of presenting the fly in a manner similar to the natural insect or food form being imitated. The variety of presentations is infinite and changes with each fishing situation."
+  },
+  {
+    "question": "What is a pupa in fly fishing?",
+    "answer": "The pupa is the transition stage between the larva and the adult in insects. To fly fishers caddis pupa are very important and are the most significant of the aquatic insects."
+  },
+  {
+    "question": "What is a reach cast in fly fishing?",
+    "answer": "A reach cast is used for adding extra slack in the line or when fishing downstream to provide a more natural float."
+  },
+  {
+    "question": "What is a redd in fly fishing?",
+    "answer": "A redd is a hollow scooped in the sand or gravel of a riverbed by breeding trout or salmon as a spawning area."
+  },
+  {
+    "question": "What is a riffle in fly fishing?",
+    "answer": "A riffle is a quickened flow of water over smaller rocks or gravel at the head or tail of a pool — often a foot or less deep in late season. Riffles can be very productive when fished with a two-fly rig, often nymphs."
+  },
+  {
+    "question": "What is a rise in fly fishing?",
+    "answer": "Rise forms are the patterns a trout makes as it takes a fly. There are several distinctive rise forms including sipping rises, jumping rises, and tailing rises."
+  },
+  {
+    "question": "What is rod action in fly fishing?",
+    "answer": "Rod action is an important characteristic of fly rods that helps you feel the cast better. Rod actions are typically fast, medium, or slow. Fast-action rods bend primarily at the tip enabling higher line speeds. Medium-action rods are ideal for overall freshwater fly fishing. Slow-action rods flex along their entire length and better protect lighter tippets."
+  },
+  {
+    "question": "What is a roll cast in fly fishing?",
+    "answer": "The roll cast is ideal for changing directions while fly fishing and can also be used to pick up the line off the water when using sink tips or heavy nymphs. The roll cast pickup is more efficient than false casting because it eliminates wasted casts back and forth."
+  },
+  {
+    "question": "What is an S cast in fly fishing?",
+    "answer": "An S cast is used to put deliberate and controlled slack into your presentation — used for achieving a drag-free float and in conjunction with mending line."
+  },
+  {
+    "question": "What is a seam in fly fishing?",
+    "answer": "A seam is where two current flows meet — one slower and one faster — ideal for holding trout. Fish often hang out in the slower flow and dart into the faster flow to capture food. Locate seams where obstacles like islands and large rocks disrupt the flow and divert the main current."
+  },
+  {
+    "question": "What is setting the hook in fly fishing?",
+    "answer": "Setting the hook is the act of pulling the hook into the fish's mouth. The amount of effort needed varies with hook size, fish species, and leader breaking strength. The general rule is that most anglers strike too hard on trout and warm-water fish and not hard enough on salmon and saltwater fish."
+  },
+  {
+    "question": "What is shooting line in fly fishing?",
+    "answer": "Shooting line is the process of lengthening your fly cast by releasing extra fly line during the cast. This technique allows you to cast with greater efficiency."
+  },
+  {
+    "question": "What is a shooting taper or shooting head in fly fishing?",
+    "answer": "A shooting taper or shooting head is a short single-tapered fly line designed for longer casts with minimal effort. Shooting heads allow you to switch between different line types by quickly interchanging head sections. Most commonly used for salmon, steelhead, and saltwater species."
+  },
+  {
+    "question": "What is sink rate in fly fishing?",
+    "answer": "Sink rate is the speed at which a sinking fly line sinks. There are at least six different sink rates for fly lines ranging from very slow to extremely fast."
+  },
+  {
+    "question": "What is a sink-tip fly line?",
+    "answer": "A sink-tip fly line is a floating fly line with a sinking tip portion — available in 4-foot through 30-foot sinking tips. The 10-foot sink-tips are most commonly used. Sink-tip lines are especially effective for wet fly and streamer fishing."
+  },
+  {
+    "question": "What is a sipping rise in fly fishing?",
+    "answer": "A sipping rise is the quiet trout rise that produces a circular waveform much like a rock dropped in a pool of water. This rise form may indicate a large trout feeding — especially at dawn or dusk."
+  },
+  {
+    "question": "What is a spinner in fly fishing?",
+    "answer": "The spinner is the egg-laying stage of the mayfly life cycle — providing fast and furious angling. During this final stage the clear wings are held out horizontally. It is also the most overlooked occurrence on the water by many anglers."
+  },
+  {
+    "question": "What is a spring creek in fly fishing?",
+    "answer": "A spring creek gets its water from an underground aquifer or spring sources rather than glacier melt, snow melt, or surface runoff. Water temperatures in spring creeks remain more stable than traditional creeks and rivers because they are fed by underground water sources."
+  },
+  {
+    "question": "What is stalking in fly fishing?",
+    "answer": "Stalking is the action of creeping up on a fish so as not to surprise or disturb it."
+  },
+  {
+    "question": "What is steelhead in fly fishing?",
+    "answer": "Steelhead is a migratory rainbow trout — sea-run."
+  },
+  {
+    "question": "What is a stonefly in fly fishing?",
+    "answer": "Stoneflies are a very important aquatic food source for trout at all stages of their life cycle. Stonefly nymphs live for one to three years depending on species. Most species hatch by crawling to the shoreline and emerging from their nymphal case above the surface. Stoneflies require a rocky stream bed with very good water quality."
+  },
+  {
+    "question": "What is a streamer fly in fly fishing?",
+    "answer": "A streamer is a fly tied to imitate various species of baitfish upon which both freshwater and saltwater game fish feed. Streamers are large often heavily weighted flies that sink fast and have a natural swimming motion."
+  },
+  {
+    "question": "What is a strip-set in fly fishing?",
+    "answer": "The strip-set is the act of stripping the line with the line hand to set the hook on a strike."
+  },
+  {
+    "question": "What is stripping in fly fishing?",
+    "answer": "Stripping is bringing in fly line with a series of short or varied pulls to simulate a living insect or baitfish — often involving movements of the rod tip. The key to successful fishing is having the ability to vary all types of retrievals for different speeds."
+  },
+  {
+    "question": "What is a surgeon's knot in fly fishing?",
+    "answer": "A surgeon's knot is an excellent knot used to tie two lengths of monofilament of dissimilar diameters together."
+  },
+  {
+    "question": "What is a tailing rise in fly fishing?",
+    "answer": "When feeding in shallow water you will often see a fish's caudal fin exposed. Tailing fish are an exciting discovery and generally signal the possibility of getting strikes with the proper presentation of the right fly."
+  },
+  {
+    "question": "What is a tailwater in fly fishing?",
+    "answer": "The tailwater is the downstream section of a river or stream found below a large man-made dam. The most famous and productive tailwaters are from bottom-discharge dams which make the water relatively cold and consistent in temperature."
+  },
+  {
+    "question": "What is a tapered leader in fly fishing?",
+    "answer": "A tapered leader is made of monofilament and used for fly fishing. The back or butt section of the leader has a diameter nearly as large as the fly line — becoming progressively smaller toward the tip end."
+  },
+  {
+    "question": "What is a terrestrial fly pattern in fly fishing?",
+    "answer": "A terrestrial is a land-based insect that often serves as food for fish. Terrestrial activity is common during summer months. Late-summer grasshoppers, inchworms, beetles, and ants are all common examples of terrestrials."
+  },
+  {
+    "question": "What is tippet in fly fishing?",
+    "answer": "The tippet is the end section of a tapered leader away from the fly line where the fly is attached — the smallest diameter section of monofilament. Carry a number of spools of tippet in various diameters and breaking strengths to quickly match the situation."
+  },
+  {
+    "question": "What is a triangle taper fly line?",
+    "answer": "A triangle taper is a continuous 40-foot taper profile to a fly line with a thinner running line. Triangle tapers make excellent roll-casting lines but poor distance lines because they turn over too quickly."
+  },
+  {
+    "question": "What is Trout Unlimited?",
+    "answer": "Trout Unlimited is an organization dedicated to the protection and improvement of trout fisheries with an emphasis on wild trout."
+  },
+  {
+    "question": "What is turn over in fly fishing?",
+    "answer": "Turn over describes how the fly line and leader turn over at the completion of the cast — whether curved, slack, or straight."
+  },
+  {
+    "question": "What is unloading the rod in fly casting?",
+    "answer": "Unloading the rod is the unbending of the rod that transfers the casting energy from the rod back into the fly line."
+  },
+  {
+    "question": "What is warm water in fly fishing?",
+    "answer": "Warm water is water too warm to support salmonids such as trout, char, and salmon. Common warm-water fish include panfish, bass, and carp."
+  },
+  {
+    "question": "What is a water tension cast in fly fishing?",
+    "answer": "A water tension cast uses the tension of the water to assist in loading the rod while starting the casting stroke."
+  },
+  {
+    "question": "What is a weight forward fly line?",
+    "answer": "A weight forward fly line carries most of its weight in the forward section. Instead of a level middle section like a double taper it quickly tapers down to a fine diameter running line — allowing it to shoot through the guides with less resistance for added distance. It is the most versatile fly line style."
+  },
+  {
+    "question": "What is a wet fly in fly fishing?",
+    "answer": "A wet fly is any fly fished below the surface of the water — the forerunner of the nymph and streamer. A traditional style of fly tied with soft swept-back hackle and a backward-sweeping wing."
+  },
+  {
+    "question": "What is a wet fly swing in fly fishing?",
+    "answer": "The wet fly swing is a typical presentation method in which flies swing across the water using all types of methods such as streamers, nymphs, wets, and even dries. It may imitate swimming mayflies, emerging caddis, and small fish."
+  },
+  {
+    "question": "What is a wind knot in fly fishing?",
+    "answer": "A wind knot is an overhand knot put in the leader by poor casting — a tailing loop. The term is a polite way to reassure new casters with the excuse of wind but wind has nothing to do with it."
+  },
+  {
+    "question": "What is the Whitlock connection in fly fishing?",
+    "answer": "The Whitlock connection is a method and tools for attaching a leader to fly line, repairing fly line, or making custom lines. It creates the smoothest connection overall — making nail knots and loop-to-loop connections obsolete for standard setups."
+  },
+  {
+    "question": "What is the X system for tippets in fly fishing?",
+    "answer": "Used in conjunction with a number the letter X is a measurement designating the diameter of leader material. It refers to the diameter of a material rather than breaking strength. Subtract the X number from .011 inches to find the size — for example 4X is .007 inches in diameter. The smaller the X number the greater the diameter and the higher the breaking strength."
+  },
+  {
+    "question": "What is a zinger in fly fishing?",
+    "answer": "A zinger is a retractable device used to hang necessary items off your fly vest — such as nippers — to keep them out of the way when not in use."
+  },
+  {
+    "question": "What is a drift in fly fishing?",
+    "answer": "Drift describes how the imitation rides in the water currents. In general there are four types of drifts — straight upstream from you, upstream and across from you, downstream and across from you, and straight downstream from you."
+  },
+  {
+    "question": "What is a fly in fly fishing?",
+    "answer": "A fly is a hand-tied artificial lure imitating natural insects or baitfish to entice fish. Flies incorporate different natural and synthetic materials wound onto or otherwise secured on hooks."
+  },
+  {
+    "question": "What is fly tying?",
+    "answer": "Fly tying is the process of building fishing flies by hand using thread and various natural and synthetic materials."
+  },
+  {
+    "question": "What is a fly pattern in fly fishing?",
+    "answer": "A fly pattern — also called a recipe — is the fixed design of materials and positioning of parts that make up an artificial fly."
+  },
+  {
+    "question": "What is Fly Fishers International?",
+    "answer": "Fly Fishers International is the global organization dedicated to the legacy of fly fishing for all fish in all waters by focusing on conservation, education, and a sense of community."
+  },
+  {
+    "question": "What is a fly reel?",
+    "answer": "The fly reel is the fishing reel used in fly fishing to hold the fly line."
+  },
+  {
+    "question": "What is a fly rod?",
+    "answer": "A fly rod is a type of fishing rod designed to cast a fly line. The reel attaches at the butt of the rod with the rod handle always above the reel. Fly rods usually have more line guides than other types of rods of the same length. Common lengths are between 7 and 9 feet. Materials used in fly rod construction are bamboo, fiberglass, and graphite."
+  },
+  {
+    "question": "What is a fly line?",
+    "answer": "A fly line is a special line designed for fly fishing — made of a tapered plastic coating over a braided Dacron or nylon core. Available in several tapers and in floating, sinking, and sink-tip styles."
+  },
+  {
+    "question": "What is a hair bug in fly fishing?",
+    "answer": "A hair bug is a fly constructed using hair spinning whereby buoyant hollow winter-coat hair from deer, elk, antelope, or caribou is made to flare and form a solid shape. Hair bugs are commonly used for warm-water fish but a mouse imitation hair bug is excellent for big brown trout on certain waters."
+  },
+  {
+    "question": "What is a wading boot in fly fishing?",
+    "answer": "Wading boots are boots designed specifically to be worn over stocking-foot waders. Their soles are made of either felt or rubber and many are also stud-compatible."
+  },
+  {
+    "question": "What are waders in fly fishing?",
+    "answer": "Waders are available in many styles and made of different waterproof fabrics. They come in two main types — boot foot with built-in boots and stocking foot requiring separate wading shoes. Boot-foot waders have built-in boots enabling you to just pull them on. Stocking-foot waders require a separate pair of wading shoes that generally provide better support and traction."
+  },
+  {
+    "question": "What is a wader belt?",
+    "answer": "A wader belt is an adjustable belt cinched near the top of chest waders to keep out water — particularly recommended as a precaution in the event of a fall to prevent the waders from filling with water."
+  },
+  {
+    "question": "What is a wading staff in fly fishing?",
+    "answer": "A wading staff is a walking stick adapted to provide stability to a wading fly angler when moving through fast or deep water. Some wading staffs are foldable and can be kept in a fishing vest pocket until needed."
+  },
+  {
+    "question": "What is a vest in fly fishing?",
+    "answer": "A vest is a fly fisher's garment used to store gear such as fly boxes, tippet, and nippers while fly fishing."
+  },
+  {
+    "question": "What is a vise in fly tying?",
+    "answer": "A vise is a tool with locking jaws for holding a hook when fly tying."
+  },
+  {
+    "question": "What is a variant fly pattern?",
+    "answer": "A variant is a dry fly with hackles much larger than recommended — tied on conventional fly patterns."
+  },
+  {
+    "question": "What is a pool tail out in fly fishing?",
+    "answer": "The tail out is the lower end of a pool where it becomes shallow."
+  },
+  {
+    "question": "What is a run in fly fishing?",
+    "answer": "A run is a place where water flows between a bank and a rock or between two rocks. A run can have fast or slow current. If the run has several large rocks on one side trout can hold against the side of these rocks — and the same applies to bank areas."
+  },
+  {
+    "question": "What is a roly-poly retrieve in fly fishing?",
+    "answer": "The roly-poly is a line retrieval method where your hands work in a small circle — alternately grabbing fly line at different rates. It is used on both still water and rivers."
+  },
+  {
+    "question": "What is rod flex in fly fishing?",
+    "answer": "Rod flex is the manner in which the rod bends during the acceleration phases of the cast — whether forward or back. Tip-flex rods bend primarily through the tip section. Mid-flex rods bend down into the middle section. Full-flex rods bend throughout the entire rod during the cast."
+  },
+  {
+    "question": "What is a retrieve in fly fishing?",
+    "answer": "The retrieve is bringing the fly back toward the caster after the cast is made. Retrieves can be done in a variety of ways — the most important point is to keep the rod tip low and pointed straight down the line."
+  },
+  {
+    "question": "What is a reel seat on a fly rod?",
+    "answer": "The reel seat is the mechanism that holds the reel to the rod — usually using locking metal rings or sliding bands."
+  },
+  {
+    "question": "What is a raft in fly fishing?",
+    "answer": "A raft is a whitewater inflatable usually outfitted with a frame and oars — used for fishing rivers."
+  },
+  {
+    "question": "What is dapping in fly fishing?",
+    "answer": "Dapping is a relatively ancient technique of presenting a fly on the surface of the water where the fly is bounced up and down to entice a strike."
+  },
+  {
+    "question": "What is a damselfly in fly fishing?",
+    "answer": "A damselfly is an important still-water aquatic insect most commonly imitated in the nymphal form. Damselfly hatches are usually abundant in the summer months. The adult looks similar to a dragonfly but smaller and folds its wings along its back when at rest."
+  },
+  {
+    "question": "What is a curve cast in fly fishing?",
+    "answer": "A curve cast is a casting technique that allows the cast to land in an abrupt curve. Many fishing scenarios use curves for enhancing the presentation."
+  },
+  {
+    "question": "What is a cone head fly?",
+    "answer": "A cone head fly is the same as a beadhead but the bead is cone-shaped."
+  },
+  {
+    "question": "What is a clinch knot in fly fishing?",
+    "answer": "The clinch knot is the most common knot for attaching a hook or any other ring to the line."
+  },
+  {
+    "question": "What is a catadromous fish?",
+    "answer": "Catadromous describes fish that migrate from freshwater to the sea for spawning."
+  },
+  {
+    "question": "What is a caudal fin on a fish?",
+    "answer": "The caudal fin is a large tail fin on the very back of a fish that provides thrust when swimming."
+  },
+  {
+    "question": "What is a cast of flies in fly fishing?",
+    "answer": "The cast of flies refers to the rigging and placement of the droppers and point fly on the leader — common terminology in the United Kingdom. A cast of flies would include a bob fly, dropper, and point fly."
+  },
+  {
+    "question": "What is a bucktail fly pattern?",
+    "answer": "A bucktail is a streamer fly tied to imitate a fish. The fly usually features a long segment of hair from a deer's tail laid back from the eye to the bend of the hook."
+  },
+  {
+    "question": "What is a break-off in fly fishing?",
+    "answer": "A break-off occurs when a fish snaps the line — usually due to the angler applying too much pressure. It can also result from an undersized tippet, poor quality tippet material, or a poorly tied knot."
+  },
+  {
+    "question": "What is a bobbin in fly tying?",
+    "answer": "The bobbin is the fly tying tool that holds the tying thread."
+  },
+  {
+    "question": "What is a bodkin in fly tying?",
+    "answer": "A bodkin is a tool with a needle and a handle — easily made from a piece of wood or stag and a needle. It is used in fly tying to deposit lacquer on a fly or pick out materials."
+  },
+  {
+    "question": "What is a belly boat or float tube in fly fishing?",
+    "answer": "A belly boat is a one-person craft with a seat across the bottom on which the angler sits with feet in the water — using scuba fins to move around. This type of fishing boat is very popular with warm water fly fishers and those who fish high mountain lakes. Also called a kick boat."
+  },
+  {
+    "question": "What is the belly of a fly line?",
+    "answer": "The belly is the middle portion of a tapered fly line — the thicker central section between the front and rear tapers."
+  },
+  {
+    "question": "What is a Bimini twist knot in fly fishing?",
+    "answer": "The Bimini twist is a knot used in saltwater fly fishing that has a loop and a double line section — making it especially strong."
+  },
+  {
+    "question": "What is a fly rod blank?",
+    "answer": "A blank is a hollow rod with no guides, ferrules, or reel seat. Fly rods are produced by wrapping sheets of fiberglass and graphite material around a carefully tapered steel rod called a mandrel. Blank is also the term used when you fail to land a single fish on your fishing outing."
+  },
+  {
+    "question": "What is a bob fly in fly fishing?",
+    "answer": "The bob fly is the fly closest to the fly line when fishing multiple fly rigs — the top dropper of the leader."
+  },
+  {
+    "question": "What is a popper in fly fishing?",
+    "answer": "A popper is a topwater fly pattern made usually from spun deer hair with a flat face that creates a popping sound when retrieved."
+  },
+  {
+    "question": "What is a point fly in fly fishing?",
+    "answer": "The point fly is the fly at the end of the leader farthest from the fly line."
+  },
+  {
+    "question": "What are pectoral fins on a fish?",
+    "answer": "Pectoral fins are a pair of fins located just behind the head and on the bottom of a fish."
+  },
+  {
+    "question": "What are pelvic fins on a fish?",
+    "answer": "Pelvic fins are the pair of fins on the lower body of a fish near the abdomen — also called ventral fins."
+  },
+  {
+    "question": "What is nymphing in fly fishing?",
+    "answer": "Nymphing describes fish actively feeding on nymphs or the act of fly fishing with nymphs."
+  },
+  {
+    "question": "What are nippers in fly fishing?",
+    "answer": "Nippers are a tool for clipping off monofilament. The best nippers are an inexpensive pair of nail clippers because of the leverage difference which makes cutting easier."
+  },
+  {
+    "question": "What is marabou in fly tying?",
+    "answer": "Marabou refers to fluffy under feathers from chickens and turkeys used in fly tying."
+  },
+  {
+    "question": "What is a loop-to-loop connection in fly fishing?",
+    "answer": "A loop-to-loop connection joins a fly line and a leader by making a loop at the end of the leader using a perfection loop knot and joining it to a loop at the end of the fly line. Loop-to-loop connections are sometimes also made from a leader to a tippet."
+  },
+  {
+    "question": "What is a level fly line?",
+    "answer": "A level fly line is level throughout its length with no taper. These are great for building custom lines used as running line for shooting head or weight-forward systems. Level lines in small sizes are also excellent nymphing lines for pocket water scenarios."
+  },
+  {
+    "question": "What is a lay down cast in fly fishing?",
+    "answer": "A lay down cast uses only a single backcast. The line is lifted from the water, a backcast is made, and then a forward cast is allowed to straighten and fall into the water completing the cast."
+  },
+  {
+    "question": "What is a kype on a trout or salmon?",
+    "answer": "A kype is a hook-like protrusion that develops on the mandible of male spawning trout or salmon. The kype is particularly striking in salmon."
+  },
+  {
+    "question": "What is a kick boat in fly fishing?",
+    "answer": "A kick boat is a one-person fishing boat with a seat between two pontoons positioned at a level that allows the angler's feet to be in the water — propelled by swim fins, oars, or a motor."
+  },
+  {
+    "question": "What is a jumping rise in fly fishing?",
+    "answer": "A jumping rise is when a trout breaks through the water's surface to catch a rising or descending insect."
+  },
+  {
+    "question": "What is an improved clinch knot in fly fishing?",
+    "answer": "The improved clinch knot is one of the most widely used fishing knots — providing a good method for securing a fishing line to a hook, lure, or swivel."
+  },
+  {
+    "question": "What are imitative flies in fly fishing?",
+    "answer": "Imitative flies are tied to closely match specific insects — most effective on finicky trout living in clear fertile slow-moving streams that support large populations of aquatic insects."
+  },
+  {
+    "question": "What are impressionistic flies in fly fishing?",
+    "answer": "Impressionistic flies are patterns tied to loosely suggest a variety of insects or insect families — usually most effective in streams with medium to fast water and less dense populations of aquatic insects."
+  },
+  {
+    "question": "What is a ghillie in fly fishing?",
+    "answer": "A ghillie is a term that originates from the Celts to describe a fishing guide in the UK — especially in Scotland, Wales, and Ireland."
+  },
+  {
+    "question": "What are gaiters in fly fishing?",
+    "answer": "Gaiters are commonly a neoprene anklet or legging put over the top of wading shoes to keep gravel from getting into the shoe and abrading the stocking foot of the wader."
+  },
+  {
+    "question": "What is a forward taper on a fly line?",
+    "answer": "The forward taper is the front taper of a fly line near the leader — it is present on all fly lines except level lines. Many believe forward taper implies only weight forward lines but this is incorrect."
+  },
+  {
+    "question": "What is a forward stroke in fly casting?",
+    "answer": "The forward stroke is the casting motion that establishes a momentum of fly line allowing you to place your fly where you desire. It is accomplished with circles, figure eights, and straight to-and-from fly casting when room allows. The final unrolling of a line is often called a delivery cast, power stroke, and forward stroke."
+  },
+  {
+    "question": "What is foul hooking a fish?",
+    "answer": "To foul hook a fish is to hook it anywhere but in the mouth."
+  },
+  {
+    "question": "What is a floating fly line?",
+    "answer": "A floating fly line is the best all-around fly line in which the entire line floats."
+  },
+  {
+    "question": "What is flat water in fly fishing?",
+    "answer": "A flat is an area of water with relatively unchanging depth."
+  },
+  {
+    "question": "What is dubbing in fly tying?",
+    "answer": "Dubbing is fly tying material that includes fur, yarn, wool, or synthetic fibers wrapped onto a thread with either wax or a dubbing loop — then wrapped around the shank of the hook to imitate the abdomen and thorax of an artificial fly."
+  },
+  {
+    "question": "What is a drogue in fly fishing?",
+    "answer": "A drogue is a parachute device for slowing down the drift speed of a boat — essential equipment for lake fishing if there is wind present."
+  },
+  {
+    "question": "What is a dragonfly in fly fishing?",
+    "answer": "Dragonflies are large and ferocious insects in the underwater world — excellent insectivores found in rivers, streams, and lakes. The large sizes of dragonflies make them an important food source for fish."
+  },
+  {
+    "question": "What is a dory in fly fishing?",
+    "answer": "A dory is a fishing boat that has been around for centuries with simple lines and easy to build construction — usually 16-24 feet in length with high sides, an arched bottom, and sharp bows. Generally rowed using oars and oarlocks."
+  },
+  {
+    "question": "What is dry fly floatant?",
+    "answer": "Dry fly floatant is a chemical preparation applied to a dry fly to waterproof it immediately before use — available as a paste, liquid, or aerosol."
+  },
+  {
+    "question": "What is a Duncan loop knot in fly fishing?",
+    "answer": "The Duncan loop is a loop knot from the early 1960s invented by Norman Duncan for tying the fly with a loop that tightens under pressure. It has been renamed by many others — Uni-Knot, Grinner — in an attempt to take credit for his idea."
+  },
+  {
+    "question": "What is a headwater in fly fishing?",
+    "answer": "The headwaters are an upstream section of the river before the main tributaries join it — typically much smaller in width and flow than the main river section."
+  },
+  {
+    "question": "What are hero shots in fly fishing?",
+    "answer": "Hero shots refer to anglers posing with fish for photographs — a practice that has become increasingly common with social media and the internet. Keep your fish wet and partially in the water in their natural setting for really great pictures."
+  },
+  {
+    "question": "What is a hook in fly fishing?",
+    "answer": "The hook is the foundation upon which a fly is tied — made from steel wire and either bronzed, cadmium-coated, or stainless. Hook designs vary widely and the style used depends on the type of fly being tied."
+  },
+  {
+    "question": "What is hook size in fly fishing?",
+    "answer": "Hooks are standardized based on the gape. Smaller numbers refer to larger hooks — for example a very small number 24 with a gape of 2mm to a very large number 2 with a gape of 10mm. Styles vary with wire thickness, gape, shank length, and hook eyes."
+  },
+  {
+    "question": "What is a hook keeper on a fly rod?",
+    "answer": "A hook keeper is made from a loop of thin wire built into the rod shaft near the grip — it safely secures the fly while it remains attached to the line. This prevents losing the fly to streamside foliage and grasses on the walk to the next spot."
+  },
+  {
+    "question": "What is a hook shank in fly tying?",
+    "answer": "The hook shank is the length of wire measured from the eye to the bend of the hook."
+  },
+  {
+    "question": "What is a spinner fall in fly fishing?",
+    "answer": "The spinner fall is the egg-laying swarm of mayflies — usually identified by clouds of spinners bouncing up and down over the water as they prepare to lay eggs. It is one of the most overlooked occurrences on the water by many anglers."
+  },
+  {
+    "question": "What is a scud in fly fishing?",
+    "answer": "A scud is a small freshwater shrimp-like crustacean present in most trout waters that serves as an important food source for trout — very prevalent in spring creeks."
+  },
+  {
+    "question": "What is a riparian zone in fly fishing?",
+    "answer": "Riparian describes anything inhabiting or situated on a riverbank — often used in connection with ownership and fishing rights."
+  },
+  {
+    "question": "What is a river load or water tension cast in fly fishing?",
+    "answer": "A river load or water tension cast is one where the caster uses the river's current to load the rod. Let the line get straight and almost perpendicular to the rod tip. Point the rod toward the water and using a sidearm motion quickly move the rod toward the target. The force of the river's current combined with your motion against it will quickly load the fly rod."
+  },
+  {
+    "question": "What is a sea-run fish in fly fishing?",
+    "answer": "Sea-run trout and salmon hatch in freshwater, migrate to the sea to mature, and return to freshwater to spawn. Species include all types of salmon, brown trout, cutthroat, and rainbow trout. Rainbow trout in the Pacific Northwest and Great Lakes are the best-known sea-run trout — called steelhead."
+  },
+  {
+    "question": "What is a single action fly reel?",
+    "answer": "A single action fly reel is one in which a single turn of the handle causes one turn of the reel spool — differing from a multiplier reel where a single turn of the handle causes multiple turns of the spool."
+  },
+  {
+    "question": "What is a sow bug in fly fishing?",
+    "answer": "A sow bug is an aquatic crustacean found in lakes, rivers, and streams worldwide. There are over 130 species of sow bugs in North America."
+  },
+  {
+    "question": "What is split cane rod construction in fly fishing?",
+    "answer": "Split cane rods are fly rods constructed of six pieces of split cane bamboo — triangularly shaped, tapered, and glued together. Split cane rods originated in the US in the middle of the 19th century and many fine cane rods are still produced today."
+  }
+]

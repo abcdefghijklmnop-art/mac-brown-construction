@@ -1,0 +1,50 @@
+[
+  {
+    "question": "How long should a fly fishing leader be?",
+    "answer": "Most fly shops will sell you a 9-foot leader and call it a day. In my opinion that's too short for most dry fly situations. I recommend starting with a minimum of 12 to 16 feet of Maxima Chameleon for dry fly and dry-dropper fishing on smaller Smoky Mountain streams. On tailwaters with spooky trout I regularly fish 32 feet or more. Longer leaders give you better stealth, cleaner mends, and more accurate presentations. The 9-foot store-bought leader is a starting point, not an endpoint."
+  },
+  {
+    "question": "Can I use the same leader for dry flies and nymphs?",
+    "answer": "No — and this is one of the most common mistakes I see on the water. A dry fly leader is designed to dissipate energy and create slack for a drag-free drift. A nymph leader needs to sink fast and transfer energy efficiently. They are completely different tools for completely different jobs. Using the same leader for both is like using a hammer to do a screwdriver's work — you can make it sort of work but you're fighting the physics the whole time."
+  },
+  {
+    "question": "What is the difference between a knotted and knotless leader?",
+    "answer": "A knotless leader is extruded from a single piece of material — convenient, tangle-resistant, and fine for beginners. A knotted leader is built section by section from different diameters of material, which gives you far more control over stiffness, taper, and energy transfer. Once you understand what you want your leader to do, building your own knotted leader lets you dial it in precisely for the water you are fishing. That's a level of control a store-bought knotless leader simply cannot offer."
+  },
+  {
+    "question": "What causes my leader not to turn over properly?",
+    "answer": "Usually one of three things — the tippet section is too long, the material is too supple, or there is too big a diameter jump between sections. The fix is straightforward: use stiffer or larger-diameter mono, shorten the tippet, or lengthen the graduation sections between diameters. Also check that your leader butt matches the stiffness of your fly line — hold them together for about 5 inches and watch how they sag. When they bend similarly you have a good match."
+  },
+  {
+    "question": "Do I need to build my own leader or can I just buy one?",
+    "answer": "You can absolutely buy one and it is a perfectly reasonable place to start. But understanding how to build your own is what separates anglers who adapt on the stream from anglers who are stuck with whatever they brought in their vest. When conditions change — water clarity, wind, fly size, technique — a custom-built leader lets you respond immediately. That knowledge is worth developing over time even if you don't build leaders every day."
+  },
+  {
+    "question": "What tippet size should I use?",
+    "answer": "Your tippet is the critical link between you and the fish and deserves serious attention. The right size depends on your fly size, water clarity, and target species. As a starting point I recommend checking my full tippet study — we tested tippet strength, diameter, and knot performance at Western Carolina University and the results changed how I rig up permanently. The link is in the post above."
+  },
+  {
+    "question": "What is a furled leader and is it worth making yourself?",
+    "answer": "A furled leader is made by twisting together multiple strands of material — Dyneema, Kevlar, or Spectra — into a tapered, braided structure that offers incredibly smooth energy transfer. I have had one on my two-weight rod for over three seasons and it still performs beautifully. Yes it takes more upfront investment — about 125 yards of material to make two 12-foot leaders — but the durability and performance more than justify it."
+  },
+  {
+    "question": "What are the three key attributes to understand when building a fly fishing leader?",
+    "answer": "The three key attributes are stiffness, weight, and diameter. Stiffness determines energy transfer — stiffer material with a longer butt section produces more efficient turnover. Weight affects how quickly the leader sinks or floats. Diameter controls stealth, sink rate, and how much the tippet is affected by surface currents. Adjusting all three in combination is how experienced anglers tune leaders for specific techniques and water conditions."
+  },
+  {
+    "question": "What is Maxima Chameleon and why does Mac Brown use it for Smoky Mountain leaders?",
+    "answer": "Maxima Chameleon is a stiff monofilament material Mac Brown relies on for trout leaders in Western NC pocket water. Its stiffness produces precise accuracy in tight situations — critical on small mountain streams. His standard setup starts with a .017 butt section of approximately 12 feet of Maxima Chameleon, tapered through a sighter from .015 to .011, then finished with straight fluorocarbon tippet to the fly."
+  },
+  {
+    "question": "What is the Dave Whitlock connection and why does it matter for leader-to-fly-line attachment?",
+    "answer": "The Dave Whitlock connection is a knotless splice method for joining the leader butt directly to the fly line — eliminating the bump created by a traditional nail knot or loop-to-loop connection. The result is a smoother transition that shoots through the guides without interruption. Mac Brown recommends it specifically when using long Maxima Chameleon leaders on Smoky Mountain streams for cleaner presentations at distance."
+  },
+  {
+    "question": "What is the difference between a slack and non-slack leader design?",
+    "answer": "A slack leader is designed to land with built-in curve and slack — ideal for drag-free dry fly drifts in complex currents where a tight straight layout would drag immediately. A non-slack leader transfers energy efficiently for a straight, positive turnover — used when executing positive curve casts or when precise fly placement into a tight lie requires the leader and fly to turn the corner together with control."
+  },
+  {
+    "question": "What superline materials work best for building furled leaders?",
+    "answer": "Power Pro and Spiderwire Fusion both perform excellently for furled leaders. Mac Brown has used a Dyneema furled leader on his two-weight rod for over three seasons with consistent performance. These superline materials require approximately 125 yards of material to produce two 12-foot leaders — a significant upfront investment, but the durability across multiple seasons makes them more cost-effective than mono-based leaders over time."
+  }
+]

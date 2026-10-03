@@ -1,0 +1,53 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 7.
+
+    {
+      "@type": "Question",
+      "name": "What is a roll cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A roll cast is a waterborne cast with the line resting on the water — divided into either static or dynamic and using either a shallow D loop or a massive V loop depending on intent. It delivers the fly forward without a back cast by using the surface tension of the water to load the rod. The roll cast is the foundation of all Spey casting and one of the most practical casts in real fishing conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is rotary motion in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rotary motion in fly casting occurs in a revolving manner around a fixed point. The wrist rotation at the end of the casting stroke is rotary motion — as opposed to translatory motion which is straight-line movement. Most fly casts combine both translatory motion during the loading move and rotary motion at the stop for maximum efficiency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is running line in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The running line is the long thin section of the fly line that extends from the rear taper of a weight-forward line to the back end of the line. It is the thinnest and lightest section — designed to shoot through the guides with minimal friction for maximum distance. Overhang is the amount of running line outside the tip-top during the cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a shooting head in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A shooting head is a short heavy fly line that may be tapered or level and is not attached to a conventional running line. The running section is usually made from braided monofilament instead of thin fly line. Shooting heads are used for distance casting, Spey setups, and specialty presentations where maximum line speed with minimal effort is the goal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is shooting line in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shooting line is the release of additional line to be pulled through the guides by the unrolling loop after the rod has stopped. Shooting line relieves tension in the rod leg causing the fly leg to turn over slower. It dramatically increases casting distance with no additional effort — releasing line at the precise moment of the stop is the key to effective shooting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the six step method in fly casting instruction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The six step method is a diagnostic concept originated by Bruce Richards for fly casting — observing faults in this order: line, rod, body, then correcting in the reverse order: body, rod, line. It was used by high-level swimming coaches from Australia in the 1960s and is a brilliant te

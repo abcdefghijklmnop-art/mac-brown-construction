@@ -1,0 +1,171 @@
+export default function RaleighFlyFishing() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            Guided Fly Fishing · Western North Carolina · Since 1987
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Fly Fishing Trips from Raleigh, NC
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed">
+            Four hours west of Raleigh sits the finest wild trout water in the eastern United States. The mountains are calling — and the fishing is worth every mile of the drive.
+          </p>
+          <a href="/contact" className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+            Book Your Trip
+          </a>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Four Hours West — The Best Fly Fishing in North Carolina
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Raleigh anglers looking for world-class trout fishing do not need to leave the state. Four hours west on I-40 sits Bryson City — the county seat of Swain County and the undisputed Trout Mecca of the South. More miles of quality wild trout water than any other county in North Carolina. More protected public land than almost anywhere in the eastern United States. And the most experienced fly fishing guide operation in the region, in business since 1987.
+            </p>
+            <p>
+              The drive from Raleigh through Asheville and into the Smoky Mountains is one of the most scenic in the state — and it ends at water that most Raleigh anglers have never experienced. Wild trout on cold mountain streams. Tailwater fishing on the Nantahala River. Float trips on the Tuckasegee. Backcountry streams deep in the national park. Make it a weekend and you will wonder why you waited so long.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Waters */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Water — The Best in Your Home State
+          </h2>
+          <div className="space-y-6">
+            {[
+              {
+                name: "Tuckasegee River — Delayed Harvest",
+                distance: "~4 hours from Raleigh",
+                description: "The most popular guided water in Western NC. From October through May the Delayed Harvest section in Webster, NC loads up with exceptional trout numbers. Float trips and wade trips both available. The perfect introduction to Smoky Mountain fly fishing for Raleigh anglers making their first trip west.",
+                highlight: "Best for: Float trips, wade trips, all skill levels, October through May",
+              },
+              {
+                name: "Nantahala River",
+                distance: "~4 hours from Raleigh",
+                description: "The finest tailwater in North Carolina — and it is right here in your home state. Cold, clear, and productive every month of the year. Wild brown and rainbow trout in stunning mountain scenery. A fishery that serious NC anglers make the drive from Raleigh specifically to experience.",
+                highlight: "Best for: Wild trout, technical fishing, year-round",
+              },
+              {
+                name: "Great Smoky Mountains National Park Streams",
+                distance: "~4 hours from Raleigh",
+                description: "Wild mountain streams flowing through the most visited national park in America. Native brook trout in the high-elevation waters. Wild rainbow and brown trout throughout. Pristine and protected — everything that the put-and-take waters near Raleigh are not.",
+                highlight: "Best for: Wild trout, backcountry adventure, pristine water",
+              },
+              {
+                name: "Smoky Mountain Lakes",
+                distance: "~4 hours from Raleigh",
+                description: "Fontana Lake and the other mountain stillwaters offer exceptional fly fishing for large trout — especially from late fall through early spring. The fish run significantly larger than anything available on the rivers near Raleigh and fight with the strength of fish that have been swimming open water their entire lives.",
+                highlight: "Best for: Trophy trout, stillwater fishing, fall through spring",
+              },
+            ].map((water, index) => (
+              <div key={index} className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+                <div className="flex flex-wrap items-start justify-between gap-4 mb-3">
+                  <h3 className="text-xl font-bold text-[#1a3a5c]">{water.name}</h3>
+                  <span className="text-sm font-bold text-[#1D9E75] bg-green-50 px-3 py-1 rounded-full">
+                    📍 {water.distance}
+                  </span>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-3">{water.description}</p>
+                <p className="text-sm font-semibold text-[#2E6DA4] italic">{water.highlight}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What We Offer */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Every Way to Experience the Water
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              { title: "Guided Float Trips", desc: "Drift the Tuckasegee in a drift boat. The best way to experience the river.", link: "/instructional-float-trips" },
+              { title: "Guided Wade Trips", desc: "Get in the water on the park streams or the Nantahala tailwater.", link: "/instructional-wade-trips" },
+              { title: "Guided Lake Trips", desc: "Trophy trout on the Smoky Mountain stillwaters.", link: "/instructional-lake-trips" },
+              { title: "Fly Casting Instruction", desc: "Private lessons from NC's only Master Casting Instructor. Guaranteed or free.", link: "/fly-fishing-instruction" },
+              { title: "Fly Fishing Schools", desc: "Weekend immersion programs — perfect for a Raleigh weekend getaway.", link: "/smoky-mountain-weekend-schools" },
+              { title: "Group & Corporate Trips", desc: "Customized fly fishing experiences for Raleigh groups.", link: "/group-corporate-fly-fishing" },
+              { title: "Backcountry Trips", desc: "Remote national park streams — wild fish, pristine wilderness.", link: "/backcountry-trout-fishing" },
+              { title: "Online Casting Lessons", desc: "Get your casting ready in Raleigh before you make the drive.", link: "/fly-fishing-instruction" },
+            ].map((item, i) => (
+              <a key={i} href={item.link} className="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-md transition-shadow block">
+                <h3 className="text-lg font-bold text-[#1a3a5c] mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+                <p className="text-[#1D9E75] font-bold text-sm mt-3">Learn more →</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What to Bring */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What to Bring
+          </h2>
+          <p className="text-gray-700 text-lg mb-6">
+            All rods, reels, flies, and leaders provided. Just show up ready to fish.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              "Rain gear — mountain weather changes fast",
+              "Warm layers — mornings on the water can be cool",
+              "Polarized sunglasses — essential for spotting fish",
+              "A hat with a brim — sun and glare protection",
+              "Sunscreen and lip balm",
+              "Clothing in earth tones — blend into your surroundings",
+              "Valid NC fishing license if over 16 — ncwildlife.org or 1-888-248-6834",
+            ].map((item, i) => (
+              <div key={i} className="flex items-start gap-3 bg-white rounded-lg p-4 border border-gray-200">
+                <span className="text-[#1D9E75] font-bold mt-0.5">✓</span>
+                <span className="text-gray-700">{item}</span>
+              </div>
+            ))}
+          </div>
+          <p className="text-gray-500 text-sm mt-6 italic">
+            A NC or TN fishing license is required for waters within the Great Smoky Mountains National Park.
+          </p>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-[#1a3a5c] text-white py-16 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6">
+            The Finest Fly Fishing in North Carolina — Worth Every Mile
+          </h2>
+          <p className="text-lg text-[#a0c4e0] mb-8 leading-relaxed">
+            You live in North Carolina. The finest trout fishing in the state is four hours away. Mac Brown has been guiding it since 1987 — make the drive and find out what your home state has been keeping in the mountains.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/contact" className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors">
+              Book Your Raleigh Trip
+            </a>
+            <a href="tel:8287361469" className="bg-white hover:bg-gray-100 text-[#1a3a5c] font-bold px-10 py-4 rounded-lg text-lg transition-colors">
+              Call 828-736-1469
+            </a>
+          </div>
+          <p className="text-[#a0c4e0] mt-6 text-sm">
+            macbrownflyfish@gmail.com · flyfishingguideschool.com · Bryson City, NC · Since 1987
+          </p>
+        </div>
+      </section>
+
+    </div>
+  );
+}

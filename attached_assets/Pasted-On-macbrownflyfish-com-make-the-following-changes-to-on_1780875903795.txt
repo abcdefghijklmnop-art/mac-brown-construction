@@ -1,0 +1,164 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/learn-to-make-a-roll-cast-fly-fishing/
+
+AEO — add immediately below H1:
+"The key to making an efficient roll cast 
+in fly fishing is pulling the rod butt 
+straight downward — not pushing through 
+with forced turnover at the end of the 
+stroke. The pulling motion begins from 
+the shoulder, drops through the elbow, 
+and completes with a positive stop and 
+pullback from the pinky and ring finger — 
+similar to driving a large spike with a 
+hammer or throwing an ax. The result is 
+a flat fly leg with a narrow loop that 
+carries great distances with minimal 
+effort. Less is more. Mac Brown has been 
+teaching the static roll cast in Bryson 
+City, NC since 1987."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What is the difference between 
+pulling and pushing in a roll cast?
+A1: Pushing through the roll cast — 
+forced turnover — rotates everything 
+at the end of the stroke and produces 
+wasted residual energy in waves 
+traveling down the rod leg, wide 
+loops, and poor distance. Pulling 
+the rod butt straight downward begins 
+rotation from the start of the stroke 
+in a controlled downward fashion — 
+producing a flat fly leg, a narrow 
+loop, and far greater distance with 
+minimal effort. Al Buhr calls this 
+the forced turnover versus pulling 
+distinction — one of the most 
+important mechanical differences 
+in fly casting.
+
+Q2: What is a positive stop in 
+fly casting?
+A2: A positive stop is an abrupt, 
+decisive stop of the rod at the 
+completion of the casting stroke — 
+producing maximum rod rebound and 
+line speed. Jim Green described 
+this as the POSITIVE STOP. The 
+greater the squeeze during the stop, 
+the greater the pullback — a 
+natural by-product of the stop that 
+reduces counter flex and increases 
+line speed. The three-point grip 
+promotes a relaxed hand position 
+that makes greater pullback easier 
+to achieve than the classic 
+thumb-on-top grip.
+
+Q3: What is the flip the tip 
+drill for roll casting?
+A3: The flip the tip drill — 
+credited to Carol Green and used 
+by Hugh Falkus in the late 1960s 
+— sends a small wave down the line 
+using a tiny wrist flick combined 
+with squeeze, positive stop, and 
+pullback. Done slowly enough that 
+the wave only travels halfway down 
+the line at first, then progressively 
+further. A few inches of wrist flick 
+motion can send an extraordinary 
+amount of line forward — a 40-foot 
+roll cast becomes easy once the 
+flip the tip drill is mastered.
+
+Q4: What is the difference between 
+a static and dynamic roll cast?
+A4: A static roll cast lifts the 
+rod into position slowly, pauses, 
+then executes the forward stroke 
+from a stationary line position — 
+the purest test of rod loading 
+mechanics. A dynamic roll cast 
+sweeps a V loop or D loop behind 
+the rod before the forward delivery 
+— creating greater line speed and 
+forming the foundation of Spey 
+casting. Master the static roll 
+cast first — the better your 
+static roll cast becomes, the more 
+easily your dynamic roll cast and 
+aerial distance cast will develop.
+
+Q5: How do I learn the roll cast 
+from a certified fly casting instructor?
+A5: Mac Brown Fly Fish in Bryson 
+City, NC offers private fly casting 
+lessons and the Masterclass Casting 
+Workshop covering static and dynamic 
+roll casts, positive stop mechanics, 
+the flip the tip drill, pulling versus 
+pushing diagnosis, and the full range 
+of Spey and water casts — led by 
+Mac Brown, the only FFI Master Casting 
+Instructor in North Carolina. Online 
+lessons available worldwide via 
+FaceTime, Zoom, or Skype at $400 
+per session.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between pulling and pushing in a roll cast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pushing through the roll cast — forced turnover — rotates everything at the end of the stroke and produces wasted energy in waves traveling down the rod leg, wide loops, and poor distance. Pulling the rod butt straight downward begins rotation from the start of the stroke in a controlled downward fashion — producing a flat fly leg, a narrow loop, and far greater distance with minimal effort."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a positive stop in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A positive stop is an abrupt, decisive stop of the rod at the completion of the casting stroke — producing maximum rod rebound and line speed. The greater the squeeze during the stop, the greater the pullback — a natural by-product that reduces counter flex and increases line speed. The three-point grip promotes a relaxed hand position that makes greater pullback easier to achieve."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the flip the tip drill for roll casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The flip the tip drill sends a small wave down the line using a tiny wrist flick combined with squeeze, positive stop, and pullback. Done slowly enough that the wave only travels halfway down the line at first, then progressively further. A few inches of wrist flick motion can send an extraordinary amount of line forward — a 40-foot roll cast becomes easy once this drill is mastered."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a static and dynamic roll cast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A static roll cast lifts the rod into position slowly, pauses, then executes the forward stroke from a stationary line position — the purest test of rod loading mechanics. A dynamic roll cast sweeps a V loop or D loop behind the rod before delivery — forming the foundation of Spey casting. Master the static roll cast first — the better it becomes, the more easily the dynamic roll cast and aerial distance cast will develop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I learn the roll cast from a certified fly casting instructor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers private fly casting lessons and the Masterclass Casting Workshop covering static and dynamic roll casts, positive stop mechanics, the flip the tip drill, and the full range of Spey and water casts — led by Mac Brown, the only FFI Master Casting Instructor in North Carolina. Online lessons available worldwide via FaceTime, Zoom, or Skype at $400 per session."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

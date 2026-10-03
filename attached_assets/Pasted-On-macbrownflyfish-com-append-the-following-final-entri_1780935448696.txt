@@ -1,0 +1,90 @@
+On macbrownflyfish.com append the following 
+final entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+then run bash push.sh to deploy all changes.
+No other changes.
+
+    {
+      "@type": "Question",
+      "name": "What is a hook keeper on a fly rod?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A hook keeper is made from a loop of thin wire built into the rod shaft near the grip — it safely secures the fly while it remains attached to the line. This prevents losing the fly to streamside foliage and grasses on the walk to the next spot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a hook shank in fly tying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The hook shank is the length of wire measured from the eye to the bend of the hook."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a spinner fall in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The spinner fall is the egg-laying swarm of mayflies — usually identified by clouds of spinners bouncing up and down over the water as they prepare to lay eggs. It is one of the most overlooked occurrences on the water by many anglers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a scud in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A scud is a small freshwater shrimp-like crustacean present in most trout waters that serves as an important food source for trout — very prevalent in spring creeks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a riparian zone in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Riparian describes anything inhabiting or situated on a riverbank — often used in connection with ownership and fishing rights."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a river load or water tension cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A river load or water tension cast is one where the caster uses the river's current to load the rod. Let the line get straight and almost perpendicular to the rod tip. Point the rod toward the water and using a sidearm motion quickly move the rod toward the target. The force of the river's current combined with your motion against it will quickly load the fly rod."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a sea-run fish in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sea-run trout and salmon hatch in freshwater, migrate to the sea to mature, and return to freshwater to spawn. Species include all types of salmon, brown trout, cutthroat, and rainbow trout. Rainbow trout in the Pacific Northwest and Great Lakes are the best-known sea-run trout — called steelhead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a single action fly reel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A single action fly reel is one in which a single turn of the handle causes one turn of the reel spool — differing from a multiplier reel where a single turn of the handle causes multiple turns of the spool."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a sow bug in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A sow bug is an aquatic crustacean found in lakes, rivers, and streams worldwide. There are over 130 species of sow bugs in North America."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is split cane rod construction in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Split cane rods are fly rods constructed of six pieces of split cane bamboo — triangularly shaped, tapered, and glued together. Split cane rods originated in the US in the middle of the 19th century and many fine cane rods are still produced today."
+      }
+    }
+
+Then run bash push.sh to deploy all changes. 
+No other changes.

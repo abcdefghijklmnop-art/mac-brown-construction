@@ -1,0 +1,30 @@
+```
+Task: Decommission legacy WordPress content on macbrownflyfish.com and fix blog freshness signal. Mechanical execution only — do not generate or rewrite any copy, do not add commentary, do not touch pricing/credential content beyond removing the redirected pages themselves.
+
+1) 301 REDIRECTS — add these to the redirect map (next.config.js / middleware, whichever the project already uses for the existing WordPress→Next.js redirect map):
+
+/fly-fishing-guide-trips-north-carolina/ → /
+/fly-fishing-guide-trips-north-carolina/trout-fishing-back-country-trips/ → /fly-fishing-guide-trips-north-carolina/ (or closest current backcountry trip page — check current nav)
+/fly-fishing-guide-trips-north-carolina/fly-casting-instruction/learn-fly-cast-live-video-instructional-lesson/ → current online/video casting lesson page
+/trout-fishing-nc-destinations/ → /
+/trout-fishing-nc-destinations/highlands-nc-fly-fishing-guide/ → /best-fly-fishing-trips-trout-highlands-nc/ (current site version)
+/trout-fishing-nc-destinations/best-trout-fishing-seasons-smokies/ → matching current blog post on best trout seasons
+/trout-fishing-nc-destinations/fly-fishing-lessons-beginners/ → current beginners lessons page
+/trout-fishing-nc/ → /
+/smoky-mountain-lakes/learn-catch-trout-fly-fishing-lakes-stillwaters-ponds-lochs/ → current lake fishing page if one exists, else /
+/category/north-carolina-trout-fishing-trips/ → /blog/
+/smoky-mountains-trout-fishing-guide-trips/fly-fishing-reports/ → current fly fishing report / hatch report page
+
+Also add a wildcard rule catching any remaining URLs matching these legacy path prefixes and 301 them to /:
+/fly-fishing-guide-trips-north-carolina/*
+/trout-fishing-nc-destinations/*
+/trout-fishing-nc/*
+/smoky-mountain-lakes/*
+/category/*
+
+After adding redirects, confirm the old WordPress install itself (separate from this Next.js project) is fully taken offline — not just unlinked. If it's a separate hosting instance/subdomain/install, disable or delete it entirely so it can't still serve 200s.
+
+2) BLOG FRESHNESS — for every post under /blog/, add a "Reviewed/Updated" date field separate from the original publish date, defaulting to today's date for this pass. Display format on both the post page and any listing/card view: "Published [original date] · Updated [new date]" — do not overwrite or remove the original publish date. Confirm this reflects in any schema.org Article/BlogPosting markup (dateModified) if structured data is already present on these templates.
+
+Report back with: full list of redirects actually implemented, any legacy URLs found beyond the ones listed above, and confirmation the old WP instance is offline.
+```

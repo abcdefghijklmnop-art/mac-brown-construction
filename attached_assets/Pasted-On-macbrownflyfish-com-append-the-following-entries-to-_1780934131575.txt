@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 20.
+
+    {
+      "@type": "Question",
+      "name": "What is the difference between the rod leg and fly leg of a loop?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The rod leg runs from the center of the loop's axis to the rod tip — the decelerating part. The fly leg runs from the center of the loop's axis to the fly end — the accelerating part. The fly leg is a mirror image of the rod tip path during the casting stroke. Observing the fly leg shape is the fastest diagnostic tool for any fly casting instructor — it reveals exactly what the rod tip did during the stroke."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between active and passive fly fishing presentations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A passive presentation delivers the fly at the same speed as the current — imitating insects that drift naturally. A dead drift nymph or spent spinner on the surface are passive presentations. An active presentation imparts movement different from the current — imitating the erratic behavior of caddis, emerging nymphs, or baitfish. Reading what the fish are feeding on determines which presentation to use."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a prime lie and a feed lane in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A prime lie is a position that offers both food and shelter from predators — where the largest fish hold. A feed lane is the specific current thread where food organisms concentrate — fish may be in a feed lane without being in a prime lie. The most productive fishing targets combine both — a prime lie that intercepts a major feed lane. Reading water to find these intersections is the strategy component of the Fly Fisher's Triad."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between translatory and rotary motion in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Translatory motion is straight-line movement of the rod hand during the casting stroke — the loading move phase. Rotary motion is revolving movement around a fixed axis — the rotation of the wrist and forearm at the stop. Most efficient fly casts combine translatory motion during the loading move to build line speed and momentum, then rotary motion at the stop to apply the final acceleration and create the loop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between overhang and optimal line length in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Overhang is the specific amount of running line outside the tip-top during the cast — a variable the caster controls for distance. Optimal line length is the total distance of fly line the caster can control with confidence during false casts — a measure of the caster's current ability level. Managing both simultaneously is essential for shooting head and Spey casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a D-loop and a V-loop in Spey casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A D-loop is a D-shaped loop of line formed behind the rod tip before the delivery cast. A V-loop is a more pointed V-shaped back loop — more efficient than a D-loop in flight because it offers greater load to pull against when timed with a proper anchor. V-loops are used in Spey casting for longer casts where maximum rod loading is required for the delivery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a shooting head and a weight forward fly line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A shooting head is a short heavy fly line section not attached to a conventional running line — using braided monofilament as the running section instead. A weight forward line has its casting weight concentrated at the front but is a single continuous line with the running section attached. Shooting heads produce greater distance and line speed for a given stroke but require more precise timing than standard weight forward lines."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between momentum and energy in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Momentum in fly casting is the measure of motion relating the line's mass and velocity — a heavier line carries more momentum at the same speed. Energy is the capacity to perform work — including both potential energy stored in the bent rod and kinetic energy in the moving line. Both concepts are essential for understanding why different line weights and rod actions behave differently under the same applied force."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a tailing loop and a wind knot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A tailing loop is the casting fault — when the fly leg crosses the rod leg during the cast. A wind knot is the result — the overhand knot in the line or leader that forms when a tailing loop tightens. Despite the name, wind knots are caused by casting faults not wind. The wind may make a tailing loop more likely to tighten into a knot but it does not cause the tailing loop itself."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between the casting stroke and the overall stroke in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The casting stroke covers only those rod motions whose purpose is to apply force to the line and generate a loop — it has one result: a loop of line. The overall stroke includes all rod movements during the casting sequence including positioning moves like lifts, sweeps, and mends that do not directly generate a loop. Keeping these two concepts separate is essential for accurate fault diagnosis and instruction."
+      }
+    }
+
+Confirm saved. Stand by for Paste 20.

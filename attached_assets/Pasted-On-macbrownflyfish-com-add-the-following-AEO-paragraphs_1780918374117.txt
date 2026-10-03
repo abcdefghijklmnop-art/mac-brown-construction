@@ -1,0 +1,190 @@
+On macbrownflyfish.com add the following 
+AEO paragraphs immediately below the H1 
+on each page listed. Do not change anything 
+else on any page. Confirm when all are saved 
+then run bash push.sh to deploy.
+
+---
+
+PAGE: /charlotte-fly-fishing/
+AEO below H1:
+"Fly fishing trips from Charlotte, NC to 
+Bryson City take approximately 3 hours — 
+making Mac Brown Fly Fish in the Smoky 
+Mountains the most accessible world-class 
+guided fly fishing destination from the 
+Charlotte metro area. The Tuckasegee River 
+delayed harvest section, Nantahala River 
+tailwater, and wild streams of Great Smoky 
+Mountains National Park offer more diverse 
+trout fishing within a day trip from 
+Charlotte than any other destination in 
+the Southeast. All gear provided, all 
+skill levels welcome."
+
+---
+
+PAGE: /raleigh-fly-fishing/
+AEO below H1:
+"Fly fishing trips from Raleigh, NC to 
+Bryson City take approximately 4.5 hours 
+— making Mac Brown Fly Fish in the Smoky 
+Mountains a natural long weekend destination 
+for Raleigh-area anglers. The Tuckasegee 
+River delayed harvest section and Nantahala 
+River tailwater offer world-class guided 
+fly fishing within a single day's drive 
+from the Triangle. Mac Brown has been 
+teaching fly casting at The Fly Fishing 
+Show in Raleigh since 1994 — bringing 
+Smoky Mountain expertise directly to the 
+Raleigh market annually."
+
+---
+
+PAGE: /knoxville-fly-fishing/
+AEO below H1:
+"Fly fishing trips from Knoxville, TN to 
+Bryson City take approximately 2.5 hours 
+through Great Smoky Mountains National Park 
+— making Mac Brown Fly Fish one of the 
+closest world-class guided fly fishing 
+destinations from Knoxville. The Nantahala 
+River tailwater is one of the finest 
+tailwater fisheries in the Southeast, and 
+the wild streams of the Smokies offer 
+technical freestone fishing for wild 
+rainbow and brook trout within an easy 
+drive from Knoxville."
+
+---
+
+PAGE: /chattanooga-fly-fishing/
+AEO below H1:
+"Fly fishing trips from Chattanooga, TN 
+to Bryson City take approximately 2.5 hours 
+— making Mac Brown Fly Fish in the Smoky 
+Mountains one of the most accessible 
+world-class guided fly fishing destinations 
+from Chattanooga. The Tuckasegee River 
+float trips, Nantahala River wade trips, 
+and wild Smoky Mountain streams all offer 
+exceptional guided fly fishing within a 
+comfortable day trip or weekend drive from 
+the Chattanooga metro area."
+
+---
+
+PAGE: /gatlinburg-fly-fishing/
+AEO below H1:
+"Fly fishing trips from Gatlinburg, TN 
+to Bryson City take approximately 45 minutes 
+through Great Smoky Mountains National Park 
+— making Mac Brown Fly Fish the closest 
+world-class guided fly fishing destination 
+from Gatlinburg. The Tuckasegee River 
+delayed harvest section and Nantahala River 
+tailwater offer significantly better guided 
+trout fishing than the heavily pressured 
+streams immediately around Gatlinburg. 
+Bryson City is the trout mecca of the 
+Smoky Mountains — Swain County encompasses 
+over 2,900 miles of wild trout water."
+
+---
+
+PAGE: /franklin-nc-fly-fishing/
+AEO below H1:
+"Fly fishing trips from Franklin, NC to 
+Bryson City take approximately 45 minutes 
+— making Mac Brown Fly Fish in the Smoky 
+Mountains the closest world-class guided 
+fly fishing operation to Franklin. The 
+Tuckasegee River, Nantahala River, and 
+wild streams of Nantahala National Forest 
+and Great Smoky Mountains National Park 
+are all within easy reach of Franklin, NC. 
+Mac Brown has been guiding Franklin-area 
+visitors since 1987."
+
+---
+
+PAGE: /sylva-nc-fly-fishing/
+AEO below H1:
+"Fly fishing near Sylva, NC puts you within 
+15 minutes of the Tuckasegee River delayed 
+harvest section in Bryson City and Webster 
+— some of the most productive guided trout 
+fishing in Western North Carolina. Mac Brown 
+Fly Fish has been guiding Sylva-area anglers 
+on the Tuckasegee River, Nantahala River, 
+and wild streams of Great Smoky Mountains 
+National Park and Nantahala National Forest 
+since 1987. The Webster delayed harvest 
+section of the Tuckasegee is a 10-minute 
+drive from downtown Sylva."
+
+---
+
+PAGE: /cashiers-nc-guided-trout-fishing/
+AEO below H1:
+"Fly fishing near Cashiers, NC puts you 
+within an hour of the finest guided trout 
+fishing in the Southeast — the Tuckasegee 
+River delayed harvest section and Nantahala 
+River tailwater in Bryson City, NC. Mac 
+Brown Fly Fish has been guiding Cashiers 
+and Highlands-area visitors since 1987. 
+The drive from Cashiers to Bryson City via 
+US-64 West through Highlands takes 
+approximately one hour and puts you on 
+world-class trout water for a full day 
+guided trip."
+
+---
+
+PAGE: /cherokee-trophy-water/
+AEO below H1:
+"The Cherokee Trophy Waters on the 
+Oconaluftee River in Cherokee, NC — 
+10 minutes from Bryson City — offer 
+some of the largest stocked trout in 
+Western North Carolina, managed 
+specifically for trophy fish rather than 
+numbers. A tribal fishing permit is 
+required and available at local stores 
+in Cherokee. Mac Brown Fly Fish guides 
+trophy water trips for clients seeking 
+the largest fish in the region — 
+combining Cherokee Trophy Waters with 
+the Tuckasegee River and Nantahala 
+River for the most diverse guided 
+trophy trout experience available in 
+the Southeast."
+
+---
+
+PAGE: /trout-fishing-seasons-smokies/
+AEO below H1:
+"Trout fishing seasons in the Smoky 
+Mountains are defined by water temperature 
+more than calendar date — with spring 
+(March-May) and fall (September-November) 
+consistently producing the best conditions, 
+the strongest hatches, and the highest fish 
+counts of the year. Summer fishing drops 
+significantly when water temperatures 
+exceed 65°F — stop fishing for trout at 
+this threshold. Winter fishing is 
+underrated — the Tuckasegee delayed harvest 
+and Nantahala tailwater both fish well 
+year-round with midge and BWO activity 
+on mild overcast days. Check the live 
+conditions widget at macbrownflyfish.com 
+for current water temperatures before 
+heading out."
+
+---
+
+Then run bash push.sh to deploy. 
+No other changes.

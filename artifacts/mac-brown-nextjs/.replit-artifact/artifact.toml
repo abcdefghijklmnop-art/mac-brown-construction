@@ -1,0 +1,28 @@
+kind = "web"
+  previewPath = "/mbff-next/"
+  title = "Mac Brown Fly Fish Next.js"
+  version = "1.0.0"
+  id = "artifacts/mac-brown-nextjs"
+  router = "path"
+
+  [[integratedSkills]]
+  name = "react-vite"
+  version = "1.0.0"
+
+  [[services]]
+  name = "web"
+  paths = [ "/mbff-next/" ]
+  localPort = 20544
+
+  [services.development]
+  run = "pnpm --filter @workspace/mac-brown-nextjs run dev"
+
+  [services.production]
+  build = [ "pnpm", "--filter", "@workspace/mac-brown-nextjs", "run", "build" ]
+  publicDir = "artifacts/mac-brown-nextjs/out"
+  serve = "static"
+
+  [services.env]
+  PORT = "20544"
+  BASE_PATH = "/mbff-next/"
+  

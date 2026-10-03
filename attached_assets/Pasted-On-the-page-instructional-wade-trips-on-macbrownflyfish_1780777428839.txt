@@ -1,0 +1,116 @@
+On the page /instructional-wade-trips on macbrownflyfish.com 
+make the following changes:
+
+1. Add the following as the first paragraph of body text 
+immediately below the H1 "Instructional Fly Fishing Wade 
+Trips" and above the hero subhead "Get in the River. 
+Learn Its Language.":
+
+"Guided wade trips on the wild streams of Great Smoky 
+Mountains National Park and the Tuckasegee River in 
+Bryson City, NC — $700 half day, $800 full day, 1-2 
+anglers at the same rate. Wade trips are the most 
+skill-building experience on the water — casting, 
+reading current, hook sets, and fish playing in real 
+conditions that mirror exactly how you will fish on 
+your own. All gear provided, FFI Certified Instructors 
+on every trip."
+
+2. Add the following answers to the existing FAQ 
+accordion items:
+
+Q1: Do I need prior experience?
+A1: No experience needed. Every wade trip is 
+instructional — we meet you exactly where you are 
+and build from there. Beginners leave with a genuine 
+foundation. Experienced anglers leave with sharper 
+skills. The day is always built around you.
+
+Q2: What should I bring?
+A2: Rain gear — mountain weather changes fast. Warm 
+layers for cool mornings on the water. Polarized 
+sunglasses for spotting fish. A hat with a brim for 
+sun and glare. Sunscreen and lip balm. Clothing in 
+earth tones. Wading shoes or boots if you have them 
+— we provide waders if needed. We provide all rods, 
+reels, flies, and leaders.
+
+Q3: Is a fishing license required?
+A3: Yes — a valid North Carolina fishing license is 
+required for all anglers 16 and older. Purchase online 
+at ncwildlife.org or by calling 1-888-248-6834. 
+Cherokee waters require a separate tribal license 
+available at stores in Cherokee, NC.
+
+Q4: What is your cancellation policy?
+A4: Weather and emergencies — we will always work 
+with you. Dates are rarely cancelled due to weather 
+— come prepared and plan to be on the water. 
+Rescheduling is subject to availability: 30+ days 
+out we can assist; within 30 days, full charge 
+applies. We strongly recommend trip cancellation 
+insurance at the time of reservation. We have 
+operated on the Golden Rule since 1987 — if something 
+comes up, reach out and we will do everything we can 
+to work with you.
+
+Q5: What is the payment policy?
+A5: Payment in full is required at the time of booking 
+to hold your date. Online bookings via Swipe carry a 
+small processing fee. To avoid fees entirely, we accept 
+Zelle, Venmo, and personal check at no additional cost 
+— just use the contact form and let us know your 
+preferred method.
+
+3. Add this JSON-LD block to the <head>:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do I need prior experience for a guided wade trip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No experience needed. Every wade trip is instructional — we meet you exactly where you are and build from there. Beginners leave with a genuine foundation. Experienced anglers leave with sharper skills. The day is always built around you."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I bring on a guided fly fishing wade trip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rain gear — mountain weather changes fast. Warm layers for cool mornings on the water. Polarized sunglasses for spotting fish. A hat with a brim for sun and glare. Sunscreen and lip balm. Clothing in earth tones. Wading shoes or boots if you have them — we provide waders if needed. We provide all rods, reels, flies, and leaders."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a fishing license required for a guided wade trip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — a valid North Carolina fishing license is required for all anglers 16 and older. Purchase online at ncwildlife.org or by calling 1-888-248-6834. Cherokee waters require a separate tribal license available at stores in Cherokee, NC."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the cancellation policy for guided fly fishing wade trips?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Weather and emergencies — we will always work with you. Dates are rarely cancelled due to weather — come prepared and plan to be on the water. Rescheduling is subject to availability: 30+ days out we can assist; within 30 days, full charge applies. We strongly recommend trip cancellation insurance at the time of reservation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the payment policy for guided fly fishing wade trips?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Payment in full is required at the time of booking to hold your date. Online bookings via Swipe carry a small processing fee. To avoid fees entirely, we accept Zelle, Venmo, and personal check at no additional cost — just use the contact form and let us know your preferred method."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

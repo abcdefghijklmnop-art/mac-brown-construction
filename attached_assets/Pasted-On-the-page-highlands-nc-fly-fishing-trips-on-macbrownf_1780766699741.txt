@@ -1,0 +1,113 @@
+On the page /highlands-nc-fly-fishing-trips on 
+macbrownflyfish.com make the following changes:
+
+1. Fix the canonical URL from /highlands-nc-fly-fishing/ 
+to /highlands-nc-fly-fishing-trips/ to match the 
+Search Console URL.
+
+2. Add the following as the first paragraph of body text 
+immediately below the H1 "Highlands NC Guided Fly Fishing":
+
+"Mac Brown Fly Fish offers guided fly fishing trips for 
+visitors from Highlands, NC — about an hour drive to 
+some of the finest wild trout water in the eastern United 
+States. We meet you in Bryson City or Dillsboro and put 
+you on the Tuckasegee, Nantahala, or wild Smoky Mountain 
+streams. The original outfitter in Western North Carolina 
+since 1987. All gear provided, all skill levels welcome."
+
+3. Add a FAQ section to the page body before the footer 
+with the heading "Frequently Asked Questions" and the 
+following 5 Q&A pairs as expandable accordion items:
+
+Q1: Where do fly fishing guides meet clients from Highlands NC?
+A1: We meet you in Bryson City or Dillsboro — about an 
+hour from Highlands. No need to haul gear over the 
+mountain. We provide everything you need for the day 
+including rods, reels, flies, and waders.
+
+Q2: How far is Highlands NC from the best trout fishing?
+A2: About an hour. The Tuckasegee River delayed harvest 
+section in Dillsboro, the Nantahala River, and the wild 
+streams of Great Smoky Mountains National Park are all 
+within an hour of Highlands — and they are among the 
+finest trout waters in the eastern United States.
+
+Q3: What rivers do guided fly fishing trips from Highlands NC fish?
+A3: The Tuckasegee River delayed harvest section in 
+Dillsboro is the most popular — loaded with trout from 
+October through May on both float and wade trips. The 
+Nantahala River is the top tailwater in the state and 
+fishes year-round. Wild streams of Great Smoky Mountains 
+National Park — Deep Creek, Noland Creek, Forney Creek, 
+and the Oconaluftee — are available for anglers wanting 
+a backcountry wild trout experience.
+
+Q4: What is the best time of year for fly fishing near Highlands NC?
+A4: April through November is the most popular window, 
+but December through March can be excellent on local 
+waters. The Tuckasegee delayed harvest section runs 
+October through May. The Nantahala and wild Smoky 
+Mountain streams fish year-round. Spring and fall are 
+the strongest seasons overall.
+
+Q5: Do I need any gear or experience for a guided fly fishing trip from Highlands?
+A5: No gear and no experience needed. Mac Brown Fly Fish 
+provides everything — rods, reels, flies, leaders, and 
+waders. Trips are tailored to your skill level whether 
+you are picking up a fly rod for the first time or 
+looking to sharpen a specific technique on a specific 
+piece of water.
+
+4. Add this JSON-LD block to the <head>:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Where do fly fishing guides meet clients from Highlands NC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We meet you in Bryson City or Dillsboro — about an hour from Highlands. No need to haul gear over the mountain. We provide everything you need for the day including rods, reels, flies, and waders."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far is Highlands NC from the best trout fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About an hour. The Tuckasegee River delayed harvest section in Dillsboro, the Nantahala River, and the wild streams of Great Smoky Mountains National Park are all within an hour of Highlands — and they are among the finest trout waters in the eastern United States."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What rivers do guided fly fishing trips from Highlands NC fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Tuckasegee River delayed harvest section in Dillsboro is the most popular — loaded with trout from October through May on both float and wade trips. The Nantahala River is the top tailwater in the state and fishes year-round. Wild streams of Great Smoky Mountains National Park — Deep Creek, Noland Creek, Forney Creek, and the Oconaluftee — are available for anglers wanting a backcountry wild trout experience."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best time of year for fly fishing near Highlands NC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "April through November is the most popular window, but December through March can be excellent on local waters. The Tuckasegee delayed harvest section runs October through May. The Nantahala and wild Smoky Mountain streams fish year-round. Spring and fall are the strongest seasons overall."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need any gear or experience for a guided fly fishing trip from Highlands?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No gear and no experience needed. Mac Brown Fly Fish provides everything — rods, reels, flies, leaders, and waders. Trips are tailored to your skill level whether you are picking up a fly rod for the first time or looking to sharpen a specific technique on a specific piece of water."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

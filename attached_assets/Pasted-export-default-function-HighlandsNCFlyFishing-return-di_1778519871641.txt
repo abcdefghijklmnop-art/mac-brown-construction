@@ -1,0 +1,242 @@
+export default function HighlandsNCFlyFishing() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            Guided Fly Fishing · Western North Carolina · Since 1987
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Highlands NC Guided Fly Fishing
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed">
+            The original outfitter in Western North Carolina. The finest trout water in the Southeast is about an hour from Highlands — and we have been guiding it longer than anyone else.
+          </p>
+          
+            href="/contact"
+            className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors inline-block"
+          >
+            Book Your Trip
+          </a>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Best Fly Fishing Day Trip from Highlands, NC
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Mac Brown Fly Fish is the original fly fishing instructor and outfitter in Western North Carolina — serving the Highlands area since 1987. In that time no other operation in the Southeast has assembled more choices, more water, or more experience for the visiting angler.
+            </p>
+            <p>
+              Bryson City sits about an hour from Highlands at the center of what serious anglers call the Trout Mecca of the South. Swain County holds more miles of quality wild trout water than any other county in North Carolina — rivers, tailwaters, mountain streams, and backcountry creeks flowing through the Great Smoky Mountains National Park and the Nantahala National Forest. The fishing available within reach of Highlands is genuinely extraordinary, and most visitors never find more than a fraction of it without a guide.
+            </p>
+            <p>
+              Every trip is tailored specifically to what you want to improve and experience. Whether you are picking up a fly rod for the first time or looking to sharpen a specific technique on a specific piece of water — the day is built around you.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Waters */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Water — More Options Than Anywhere in the Southeast
+          </h2>
+          <p className="text-gray-600 italic mb-8">
+            From tailwaters loaded with trout to remote backcountry streams that most anglers never reach — here is what is available from Highlands:
+          </p>
+
+          <div className="space-y-6">
+            {[
+              {
+                name: "Tuckasegee River — Delayed Harvest",
+                distance: "~1 hour from Highlands",
+                description: "The most popular guided water in the region and for good reason. From October through May the Delayed Harvest section of the Tuckasegee in Webster, NC is loaded with epic numbers of trout. Float trips and wade trips both available — this is where most first-time visitors from Highlands spend their day, and where many return year after year.",
+                highlight: "Best for: Float trips, all skill levels, October through May",
+              },
+              {
+                name: "Nantahala River",
+                distance: "~45 minutes from Highlands",
+                description: "The top tailwater in the state of North Carolina — cold, clear, and productive year-round. The Nantahala holds wild brown and rainbow trout in some of the most beautiful mountain scenery in the eastern United States. A favorite destination for anglers who want a genuine wild trout challenge.",
+                highlight: "Best for: Wild trout, technical fishing, year-round",
+              },
+              {
+                name: "Great Smoky Mountains National Park Streams",
+                distance: "~1 hour from Highlands",
+                description: "Wild, pristine, and largely unfished relative to their quality. Deep Creek, Noland Creek, Forney Creek, Luftee, and dozens of other mountain streams flowing through the national park offer exceptional wild trout fishing in an unmatched natural setting. Native brook trout in the high elevation streams. Wild rainbow and brown trout throughout.",
+                highlight: "Best for: Wild trout, backcountry adventure, pristine water",
+              },
+              {
+                name: "Local Highlands Area Streams",
+                distance: "Minutes from Highlands",
+                description: "The Highlands Plateau sits at over 4,000 feet elevation and is surrounded by its own network of quality mountain streams. The Cullasaja River and several private and public access streams in the immediate area offer excellent fishing options for days when you want to stay close to home.",
+                highlight: "Best for: Convenience, local knowledge, spontaneous fishing days",
+              },
+            ].map((water, index) => (
+              <div key={index} className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+                <div className="flex flex-wrap items-start justify-between gap-4 mb-3">
+                  <h3 className="text-xl font-bold text-[#1a3a5c]">{water.name}</h3>
+                  <span className="text-sm font-bold text-[#1D9E75] bg-green-50 px-3 py-1 rounded-full">
+                    📍 {water.distance}
+                  </span>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-3">{water.description}</p>
+                <p className="text-sm font-semibold text-[#2E6DA4] italic">{water.highlight}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Typical Day */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What a Typical Day Looks Like
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              No two days on the water are exactly alike — and that is intentional. Every guided trip is tailored specifically to what you want to improve and experience. The day begins with a conversation about your goals, your skill level, and what the water is doing that morning. From there everything flows from that starting point.
+            </p>
+            <p>
+              For beginners, the day covers the full foundation of fly fishing — fly casting basics, reading the water, fishing tactics, techniques, hooksets, and playing fish to the net. By the end of the day most first-timers are casting confidently, reading the river, and catching trout on their own presentations.
+            </p>
+            <p>
+              For experienced anglers the day goes deeper. Choose the area you most want to sharpen — and we go there. The four main technique areas available on the stream are:
+            </p>
+          </div>
+
+          <div className="mt-8 grid sm:grid-cols-2 gap-4">
+            {[
+              {
+                method: "Dry Fly Fishing",
+                desc: "The pinnacle of the sport. Casting to rising fish with surface presentations — reading the hatch, matching the fly, achieving a drag-free drift.",
+                style: "Passive — dead drift",
+              },
+              {
+                method: "Nymph Fishing",
+                desc: "The most productive technique on most days. Indicator and tight-line methods, rigging, depth control, and the hookset timing that most anglers never develop.",
+                style: "Passive — dead drift",
+              },
+              {
+                method: "Wet Fly Fishing",
+                desc: "The oldest and most underutilized technique in fly fishing. Fished throughout the water column at distance — consistently the most productive method overall when conditions align.",
+                style: "Active & passive",
+              },
+              {
+                method: "Streamer Fishing",
+                desc: "Moving big flies to move big fish. Retrieve techniques, depth control, presentation angles, and the reading skills to know where the largest trout are holding.",
+                style: "Active — strip retrieve",
+              },
+            ].map((item, i) => (
+              <div key={i} className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                <h3 className="text-lg font-bold text-[#1a3a5c] mb-2">{item.method}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed mb-3">{item.desc}</p>
+                <span className="text-xs font-bold text-[#1D9E75] uppercase tracking-wide">{item.style}</span>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-gray-600 italic mt-6 text-lg">
+            Each technique breaks down further into active retrieval versus passive dead drift presentations — and knowing when and where to reach for each one is the difference between a good day and a great one. That knowledge is what every guided trip delivers.
+          </p>
+        </div>
+      </section>
+
+      {/* Schools & Instruction */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            More Than a Guide Trip
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-8">
+            In addition to guided trips Mac Brown Fly Fish offers the full spectrum of fly fishing education for Highlands area visitors and residents — from private casting lessons to comprehensive weekend schools and multi-day immersion programs.
+          </p>
+          <div className="grid sm:grid-cols-3 gap-4">
+            {[
+              { title: "Fly Casting Instruction", desc: "Private lessons for all skill levels. Guaranteed or free.", link: "/fly-fishing-instruction" },
+              { title: "Fly Fishing Schools", desc: "Weekend immersion programs covering the full craft.", link: "/smoky-mountain-weekend-schools" },
+              { title: "Online Casting Lessons", desc: "Live video instruction from anywhere in the world.", link: "/fly-fishing-instruction" },
+            ].map((item, i) => (
+              
+                key={i}
+                href={item.link}
+                className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm hover:shadow-md transition-shadow block"
+              >
+                <h3 className="text-lg font-bold text-[#1a3a5c] mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+                <p className="text-[#1D9E75] font-bold text-sm mt-3">Learn more →</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What to Bring */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What to Bring
+          </h2>
+          <p className="text-gray-700 text-lg mb-6">
+            All gear is provided — rods, reels, flies, leaders, and waders. Just show up ready to fish. Here is what to bring from home:
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              "Rain gear — mountain weather changes fast",
+              "Warm layers — mornings on the water can be cool",
+              "Polarized sunglasses — essential for spotting fish",
+              "A hat with a brim — sun and glare protection",
+              "Sunscreen and lip balm",
+              "Clothing in earth tones — blend into your surroundings",
+              "Valid NC fishing license if over 16 — ncwildlife.org or 1-888-248-6834",
+              "Trout stamp — required outside GSMNP and Cherokee Tribal Waters",
+            ].map((item, i) => (
+              <div key={i} className="flex items-start gap-3 bg-gray-50 rounded-lg p-4 border border-gray-200">
+                <span className="text-[#1D9E75] font-bold mt-0.5">✓</span>
+                <span className="text-gray-700">{item}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-[#1a3a5c] text-white py-16 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6">
+            The Finest Trout Fishing in the Southeast — An Hour from Highlands
+          </h2>
+          <p className="text-lg text-[#a0c4e0] mb-8 leading-relaxed">
+            Mac Brown has been guiding and teaching on these waters since 1987 — longer than anyone else in Western North Carolina. The experience, the knowledge, and the water are all here waiting. The only thing missing is you.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+              href="/contact"
+              className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Book Your Highlands Trip
+            </a>
+            
+              href="tel:8287361469"
+              className="bg-white hover:bg-gray-100 text-[#1a3a5c] font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Call 828-736-1469
+            </a>
+          </div>
+          <p className="text-[#a0c4e0] mt-6 text-sm">
+            macbrownflyfish@gmail.com · flyfishingguideschool.com · Bryson City, NC · Since 1987
+          </p>
+        </div>
+      </section>
+
+    </div>
+  );
+}

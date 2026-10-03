@@ -1,0 +1,273 @@
+// ─── MBFF BOOKING SHEET — Apps Script ────────────────────────────────────────
+
+var BOOKINGS_TAB = "Bookings";
+var EMAIL_COL    = 3;   // C
+var WAIVER_COL   = 23;  // W
+
+// ─── BOOKING WEBHOOK ─────────────────────────────────────────────────────────
+
+function doGet(e) {
+  try {
+    var rawPayload = e.parameter.payload;
+    if (!rawPayload) return respond({ ok: false, error: "No payload" });
+    var payload = JSON.parse(rawPayload);
+    if (payload.action === "updateWaiver") return handleUpdateWaiver(payload);
+    return handleAppendRow(payload);
+  } catch (err) {
+    Logger.log("Webhook error: " + err);
+    return respond({ ok: false, error: String(err) });
+  }
+}
+
+function handleAppendRow(payload) {
+  var values = payload.values;
+  if (!values || !values[0]) return respond({ ok: false, error: "No values to append" });
+  var ss    = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getSheetByName(BOOKINGS_TAB);
+  if (!sheet) return respond({ ok: false, error: "Bookings tab not found" });
+  sheet.appendRow(values[0]);
+  Logger.log("Booking row appended");
+  return respond({ ok: true });
+}
+
+function handleUpdateWaiver(payload) {
+  var email    = String(payload.email    || "").toLowerCase().trim();
+  var signedAt = String(payload.signedAt || new Date().toLocaleString());
+  if (!email) return respond({ ok: false, error: "No email provided" });
+  var ss    = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getSheetByName(BOOKINGS_TAB);
+  if (!sheet) return respond({ ok: false, error: "Bookings tab not found" });
+  var lastRow    = sheet.getLastRow();
+  var emailRange = sheet.getRange(1, EMAIL_COL, lastRow, 1).getValues();
+  var matchRow   = -1;
+  for (var i = emailRange.length - 1; i >= 1; i--) {
+    var cellEmail = String(emailRange[i][0] || "").toLowerCase().trim();
+    if (cellEmail === email) { matchRow = i + 1; break; }
+  }
+  if (matchRow === -1) {
+    Logger.log("No booking row found for email: " + email);
+    return respond({ ok: false, error: "No matching booking for " + email });
+  }
+  sheet.getRange(matchRow, WAIVER_COL).setValue("Yes -- " + signedAt);
+  Logger.log("Waiver updated for " + email + " at row " + matchRow);
+  return respond({ ok: true, row: matchRow });
+}
+
+function respond(data) {
+  return ContentService
+    .createTextOutput(JSON.stringify(data))
+    .setMimeType(ContentService.MimeType.JSON);
+}
+
+// ─── PAYMENT CONFIRMED ───────────────────────────────────────────────────────
+
+function checkPaymentComplete(e) {
+  var range = e ? e.range : null;
+  if (!range) return;
+  if (range.getColumn() !== 21) return;
+  var value = String(range.getValue()).trim().toUpperCase();
+  if (!value.includes("PAID")) return;
+  var sheet = range.getSheet();
+  if (sheet.getName() !== BOOKINGS_TAB) return;
+  var row           = range.getRow();
+  var fullName      = sheet.getRange(row, 2).getValue();
+  var email         = sheet.getRange(row, 3).getValue();
+  var phone         = sheet.getRange(row, 4).getValue();
+  var program       = sheet.getRange(row, 7).getValue();
+  var anglerCount   = sheet.getRange(row, 9).getValue();
+  var confirmedDate = sheet.getRange(row, 16).getValue();
+  var paymentMethod = sheet.getRange(row, 18).getValue();
+  var totalDue      = sheet.getRange(row, 20).getValue();
+  var notes         = sheet.getRange(row, 24).getValue();
+  if (!email) return;
+  var payload = JSON.stringify({
+    fullName: fullName, email: email, phone: phone, program: program,
+    anglerCount: anglerCount, confirmedDate: confirmedDate,
+    paymentMethod: paymentMethod, totalDue: totalDue, notes: notes
+  });
+  var response = UrlFetchApp.fetch("https://macbrownflyfish.com/api/payment-confirmed", {
+    method: "post", contentType: "application/json",
+    payload: payload, muteHttpExceptions: true
+  });
+  Logger.log("payment-confirmed: " + response.getResponseCode() + " " + response.getContentText());
+}
+
+// ─── REVIEW + TFO EMAIL ──────────────────────────────────────────────────────
+// Runs daily at 5pm via time-driven trigger.
+// Schools → fires on the LAST day of the session (looked up from schedule tabs).
+// Guided trips / private lessons → fires on the Confirmed Date (col P) itself.
+
+var MBFF_API = "https://macbrownflyfish.com/api";
+
+// Bookings tab column indices (1-based)
+var COL_FULLNAME  = 2;   // B  Full Name
+var COL_EMAIL_C   = 3;   // C  Email
+var COL_PROGRAM   = 7;   // G  Program
+var COL_CONF_DATE = 16;  // P  Confirmed Date
+var COL_PAID      = 21;  // U  Payment Status
+
+function sendMBFFReviewEmails() {
+  var ss      = SpreadsheetApp.getActiveSpreadsheet();
+  var today   = new Date(); today.setHours(0, 0, 0, 0);
+  var sheet   = ss.getSheetByName(BOOKINGS_TAB);
+  if (!sheet) { Logger.log("Bookings tab not found"); return; }
+
+  var lastRow   = sheet.getLastRow();
+  if (lastRow < 2) return;
+
+  var reviewCol = getOrAddHeader(sheet, "Review Email Sent");
+  var data      = sheet.getRange(2, 1, lastRow - 1, reviewCol).getValues();
+  var sent      = 0;
+
+  for (var i = 0; i < data.length; i++) {
+    var row   = data[i];
+    var email = String(row[COL_EMAIL_C - 1] || "").trim();
+    if (!email) continue;
+
+    if (!String(row[COL_PAID - 1] || "").toUpperCase().includes("PAID")) continue;
+    if (String(row[reviewCol - 1] || "").trim()) continue;
+
+    var program  = String(row[COL_PROGRAM - 1] || "").trim();
+    var confRaw  = row[COL_CONF_DATE - 1];
+    if (!confRaw) continue;
+    var confDate = new Date(confRaw); confDate.setHours(0, 0, 0, 0);
+
+    var fireDate = getFireDate(ss, program, confDate);
+    if (!fireDate || fireDate.getTime() !== today.getTime()) continue;
+
+    var firstName = String(row[COL_FULLNAME - 1] || "").split(/\s+/)[0] || "";
+
+    try {
+      var r = UrlFetchApp.fetch(MBFF_API + "/mbff-review-request", {
+        method: "post", contentType: "application/json", muteHttpExceptions: true,
+        payload: JSON.stringify({
+          firstName:   firstName || undefined,
+          email:       email,
+          programName: program   || undefined
+        })
+      });
+      if (r.getResponseCode() === 200) {
+        sheet.getRange(i + 2, reviewCol).setValue(new Date().toISOString());
+        sent++;
+        Logger.log("Review sent: " + email + " / " + program);
+      } else {
+        Logger.log("Review FAILED: " + email + " / HTTP " + r.getResponseCode() + " " + r.getContentText());
+      }
+    } catch (err) {
+      Logger.log("Review error: " + email + " / " + err);
+    }
+
+    Utilities.sleep(500);
+  }
+  Logger.log("Done. Sent " + sent + " review emails.");
+}
+
+// Returns the date the review email should fire.
+// Multi-day schools → last day of the matching session from the schedule tab.
+// Everything else → the Confirmed Date itself.
+function getFireDate(ss, programName, confirmedDate) {
+  var p = programName.toLowerCase();
+
+  var tabName;
+  if (p.includes("masterclass") || p.includes("saltwater") ||
+      (p.includes("spey") && !p.includes("rowing") && !p.includes("oar"))) {
+    tabName = "Masterclass";
+  } else if (p.includes("smoky") || p.includes("weekend school") ||
+             p.includes("dry fly") || p.includes("wet fly") ||
+             p.includes("streamer") || p.includes("nymph")) {
+    tabName = "Weekend Schools";
+  } else if (p.includes("rowing") || p.includes("oar")) {
+    tabName = "Rowing";
+  } else {
+    return confirmedDate; // guided trips, private lessons, casting — fire same day
+  }
+
+  return lookupSessionEndDate(ss, tabName, confirmedDate);
+}
+
+// Finds the session whose date range contains confirmedDate and returns its last day.
+function lookupSessionEndDate(ss, tabName, confirmedDate) {
+  var tab = ss.getSheetByName(tabName);
+  if (!tab) { Logger.log("Schedule tab not found: " + tabName); return null; }
+
+  var rows      = tab.getRange("A2:E20").getValues();
+  var confYear  = confirmedDate.getFullYear();
+  var confMonth = confirmedDate.getMonth();
+
+  for (var r = 0; r < rows.length; r++) {
+    var dates = String(rows[r][0] || "").trim();
+    if (!dates) continue;
+
+    var yr = 0;
+    for (var c = rows[r].length - 1; c >= 0; c--) {
+      var n = parseInt(rows[r][c]);
+      if (!isNaN(n) && n > 2000) { yr = n; break; }
+    }
+    if (yr !== confYear) continue;
+
+    var m = dates.match(/^([A-Za-z]+)\s+(\d+)(?:\s*[-–]\s*(\d+))?/);
+    if (!m) continue;
+
+    var schedMonth = new Date(m[1] + " 1 " + confYear).getMonth();
+    if (schedMonth !== confMonth) continue;
+
+    var startDay  = parseInt(m[2]);
+    var endDay    = m[3] ? parseInt(m[3]) : startDay;
+    var startDate = new Date(confYear, schedMonth, startDay); startDate.setHours(0,0,0,0);
+    var endDate   = new Date(confYear, schedMonth, endDay);   endDate.setHours(0,0,0,0);
+
+    if (confirmedDate >= startDate && confirmedDate <= endDate) return endDate;
+  }
+
+  Logger.log("No schedule match: " + tabName + " / " + confirmedDate);
+  return null;
+}
+
+// ─── HELPER ──────────────────────────────────────────────────────────────────
+
+function getOrAddHeader(sheet, headerName) {
+  var lastCol = sheet.getLastColumn();
+  if (lastCol < 1) lastCol = 1;
+  var headers = sheet.getRange(1, 1, 1, lastCol).getValues()[0];
+  for (var i = 0; i < headers.length; i++) {
+    if (String(headers[i]).toLowerCase().trim() === headerName.toLowerCase()) return i + 1;
+  }
+  var newCol = lastCol + 1;
+  sheet.getRange(1, newCol).setValue(headerName);
+  return newCol;
+}
+
+// ─── TRIGGER SETUP ───────────────────────────────────────────────────────────
+// Run this ONCE manually after pasting.
+
+function createReviewTrigger() {
+  ScriptApp.getProjectTriggers().forEach(function(t) {
+    var fn = t.getHandlerFunction();
+    if (fn === "sendMBFFReviewEmails" || fn === "sendAllReviewEmails" ||
+        fn === "addMBFFReviewTrigger" || fn === "createReviewTrigger") {
+      ScriptApp.deleteTrigger(t);
+    }
+  });
+  ScriptApp.newTrigger("sendMBFFReviewEmails")
+    .timeBased()
+    .everyDays(1)
+    .atHour(17)
+    .create();
+  Logger.log("Trigger created: sendMBFFReviewEmails fires daily at 5pm.");
+}
+// ─── PAYMENT TRIGGER SETUP ───────────────────────────────────────────────────
+// Run this ONCE manually after pasting, just like createReviewTrigger.
+
+function createPaymentTrigger() {
+  ScriptApp.getProjectTriggers().forEach(function(t) {
+    var fn = t.getHandlerFunction();
+    if (fn === "checkPaymentComplete" || fn === "createPaymentTrigger") {
+      ScriptApp.deleteTrigger(t);
+    }
+  });
+  ScriptApp.newTrigger("checkPaymentComplete")
+    .forSpreadsheet(SpreadsheetApp.getActiveSpreadsheet())
+    .onEdit()
+    .create();
+  Logger.log("Trigger created: checkPaymentComplete fires on every edit to the Bookings sheet.");
+}

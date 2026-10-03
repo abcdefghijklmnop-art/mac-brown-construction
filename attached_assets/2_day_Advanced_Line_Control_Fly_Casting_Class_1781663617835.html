@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Assessment Form — Fly Casting Module One: The Foundational Stroke</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; font-size: 13px; color: #1a1a1a; background: #fff; padding: 10px; max-width: 820px; margin: 0 auto; }
+.hdr { background: #1B3A5C; color: #fff; padding: 8px 12px; display: flex; align-items: flex-start; justify-content: space-between; }
+.hdr .title { font-size: 14px; font-weight: bold; letter-spacing: .04em; }
+.hdr .sub { font-size: 11px; color: #A8D8E0; margin-top: 2px; }
+.hdr .copy { font-size: 10px; color: #D6EFF3; margin-top: 3px; }
+.hdr .brand { font-size: 12px; font-weight: bold; color: #D6EFF3; text-align: right; line-height: 1.4; }
+.info-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0; background: #2E7D8C; }
+.info-grid2 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 0; background: #F0EDE8; border-bottom: 2px solid #2E7D8C; }
+.info-cell { padding: 5px 8px; }
+.info-cell label { display: block; font-size: 10px; font-weight: bold; color: #fff; margin-bottom: 2px; }
+.info-grid2 .info-cell label { color: #1B3A5C; }
+.info-cell input, .info-cell select { width: 100%; padding: 3px 6px; border: 1px solid #A8D8E0; border-radius: 2px; font-size: 12px; background: #fff; }
+.info-grid2 .info-cell input, .info-grid2 .info-cell select { border-color: #ccc; }
+.fmt-bar { background: #E8F4FB; padding: 5px 10px; display: flex; gap: 16px; align-items: center; border-bottom: 1px solid #ccc; flex-wrap: wrap; }
+.fmt-bar label { font-size: 11px; font-weight: bold; color: #1B3A5C; margin-right: 6px; }
+.fmt-opt { display: flex; align-items: center; gap: 4px; font-size: 12px; }
+.fmt-opt input[type=radio] { accent-color: #2E7D8C; width: 13px; height: 13px; }
+.sec-hdr { color: #fff; padding: 4px 10px; font-size: 11px; font-weight: bold; letter-spacing: .06em; margin-top: 6px; }
+.sec-hdr.navy   { background: #1B3A5C; }
+.sec-hdr.river  { background: #2E7D8C; }
+.sec-hdr.green  { background: #3B6D11; }
+.sec-hdr.amber  { background: #C87A1A; }
+.sec-hdr.red    { background: #A32D2D; }
+.sec-hdr.teal   { background: #0F6E56; }
+.sec-hdr.purple { background: #534AB7; }
+.sec-hdr.slate  { background: #2C4A6E; }
+.sec-hdr.ocean  { background: #1A6B8A; }
+.sec-hdr.heather{ background: #5C3A6E; }
+.skills-tbl { width: 100%; border-collapse: collapse; font-size: 11px; }
+.skills-tbl th { background: #2E7D8C; color: #fff; padding: 4px 6px; font-size: 10px; font-weight: bold; border: 1px solid #ccc; text-align: center; }
+.skills-tbl th.sk { text-align: left; }
+.skills-tbl td { border: 1px solid #ccc; padding: 3px 6px; vertical-align: middle; }
+.skills-tbl tr:nth-child(even) td { background: #F5F0E8; }
+.skills-tbl tr:nth-child(odd)  td { background: #fff; }
+.skills-tbl td.c { text-align: center; }
+.skills-tbl input[type=radio] { accent-color: #2E7D8C; width: 14px; height: 14px; cursor: pointer; }
+.grp-hdr td { background: #D6EFF3 !important; color: #1B3A5C; font-weight: bold; font-size: 10px; letter-spacing: .04em; padding: 2px 8px; }
+.narr-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin-top: 4px; }
+.narr-box { border: 1px solid #ccc; border-radius: 2px; overflow: hidden; }
+.narr-box.full { grid-column: 1/-1; }
+.narr-box textarea { width: 100%; padding: 4px 6px; border: none; font-size: 12px; font-family: Arial; resize: vertical; min-height: 50px; outline: none; color: #333; background: #FAFAFA; }
+.plan-row { display: grid; grid-template-columns: 140px 1fr; border: 1px solid #ccc; margin-top: 2px; border-radius: 2px; overflow: hidden; }
+.plan-lbl { background: #1B3A5C; color: #fff; padding: 4px 8px; font-size: 10px; font-weight: bold; display: flex; align-items: center; line-height: 1.3; }
+.plan-row input { width: 100%; padding: 4px 8px; border: none; font-size: 12px; outline: none; background: #FAFAFA; }
+.res-box { background: #F5F0E8; border: 1px solid #ccc; padding: 4px 10px; margin-top: 4px; font-size: 11px; border-radius: 2px; line-height: 1.6; }
+.res-box input { border: none; border-bottom: 1px solid #ccc; background: transparent; font-size: 11px; outline: none; padding: 1px 4px; width: 220px; }
+.copy-row { display: flex; gap: 16px; align-items: center; padding: 4px 8px; background: #F0EDE8; border: 1px solid #ccc; border-radius: 2px; margin-top: 4px; }
+.copy-row label { font-size: 11px; font-weight: bold; color: #1B3A5C; margin-right: 4px; }
+.copy-opt { display: flex; align-items: center; gap: 4px; font-size: 11px; }
+.copy-opt input[type=radio] { accent-color: #2E7D8C; width: 13px; height: 13px; }
+.sig-row { display: grid; grid-template-columns: 1fr 160px; gap: 8px; margin-top: 4px; }
+.slbl { font-size: 10px; font-weight: bold; color: #1B3A5C; margin-bottom: 2px; }
+.sig-input { border: none; border-bottom: 2px solid #1B3A5C; width: 100%; font-size: 13px; padding: 2px 0; outline: none; background: transparent; font-family: Arial; }
+.date-input { border: 1px solid #ccc; border-radius: 2px; padding: 3px 6px; font-size: 12px; width: 100%; }
+.btn-row { display: flex; gap: 8px; margin-top: 8px; justify-content: center; flex-wrap: wrap; }
+.btn { padding: 7px 18px; border-radius: 3px; border: none; font-size: 12px; font-weight: bold; cursor: pointer; }
+.btn-print { background: #1B3A5C; color: #fff; }
+.btn-save  { background: #2E7D8C; color: #fff; }
+.btn-clear { background: #eee; color: #555; }
+.btn:hover { opacity: .85; }
+.ftr { margin-top: 6px; text-align: center; font-size: 10px; color: #aaa; border-top: 1px solid #eee; padding-top: 4px; }
+.fmt-section { display: none; }
+.fmt-section.visible { display: block; }
+@media print { .btn-row { display: none; } body { padding: 4px; } }
+@media (max-width: 600px) { .narr-grid { grid-template-columns: 1fr; } .info-grid { grid-template-columns: 1fr; } .info-grid2 { grid-template-columns: 1fr 1fr; } .sig-row { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<form id="assessment-form" onsubmit="submitAssessment(event)">
+<div class="hdr" style="background:#1B3A5C;">
+  <div>
+    <div class="title">STUDENT ASSESSMENT FORM — FLY CASTING MODULE ONE: THE FOUNDATIONAL STROKE</div>
+    <div class="sub">Interactive Instructor Assessment · © Mac Brown Fly Fish · © Fly Fishing Guide School</div>
+    <div class="copy">© Mac Brown Fly Fish · © Fly Fishing Guide School · © Gary Borger · macbrownflyfish.com · flyfishingguideschool.com</div>
+  </div>
+  <div class="brand">© MAC BROWN<br>FLY FISH</div>
+</div>
+<div class="info-grid">
+  <div class="info-cell"><label for="s_name">Student Name</label><input type="text" id="s_name" placeholder="Full name"></div>
+  <div class="info-cell"><label for="s_date">Date(s)</label><input type="text" id="s_date" placeholder="e.g. June 1, 2026"></div>
+  <div class="info-cell"><label for="s_instr">Lead Instructor</label><input type="text" id="s_instr" placeholder="Instructor name"></div>
+</div>
+<div class="info-grid2">
+  <div class="info-cell"><label for="s_loc">Location / Water</label><input type="text" id="s_loc" placeholder="e.g. Nantahala River"></div>
+  <div class="info-cell"><label for="s_weather">Weather & Conditions</label><input type="text" id="s_weather" placeholder="e.g. Clear, 68°F"></div>
+  <div class="info-cell"><label for="s_asst">Assisting Instructor</label><input type="text" id="s_asst" placeholder="If applicable"></div>
+  <div class="info-cell"><label for="s_bg">Student Background</label><input type="text" id="s_bg" placeholder="e.g. Intermediate"></div>
+</div>
+
+<div class="fmt-bar">
+  <label>Program Format:</label>
+  <div class="fmt-opt"><input type="radio" name="fmt" value="orig" id="fo" onchange="fmtChange('orig')"><label for="fo">Original (~2h 40m)</label></div>
+  <div class="fmt-opt"><input type="radio" name="fmt" value="7hr" id="f7" onchange="fmtChange('7hr')"><label for="f7">7-Hour</label></div>
+  <div class="fmt-opt"><input type="radio" name="fmt" value="14hr" id="f14" onchange="fmtChange('14hr')"><label for="f14">14-Hour (2-Day)</label></div>
+  <div class="fmt-opt"><input type="radio" name="fmt" value="all" id="fall" onchange="fmtChange('all')" checked><label for="fall">Show All</label></div>
+</div>
+<div class="sec-hdr navy">SKILLS OBSERVED — INSTRUCTOR ASSESSMENT</div>
+<table class="skills-tbl">
+  <thead><tr>
+    <th class="sk" style="width:52%">SKILL OBSERVED</th>
+    <th style="width:12%">Demonstrated</th>
+    <th style="width:12%">Developing</th>
+    <th style="width:12%">Needs more time</th>
+    <th style="width:12%">Not covered</th>
+  </tr></thead>
+  <tbody><tr class="grp-hdr"><td colspan="5">Foundational — All Formats</td></tr><tr>
+      <td>Two Rules recall — can state both without prompting</td>
+      <td class="c"><input type="radio" name="m1_0" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_0" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_0" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_0" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Fly Fisher's Triad — can describe all three sides</td>
+      <td class="c"><input type="radio" name="m1_1" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_1" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_1" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_1" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>A.L.E. — performs correctly in pantomime</td>
+      <td class="c"><input type="radio" name="m1_2" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_2" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_2" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_2" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Pause / Power / Path — diagnoses fault in each component</td>
+      <td class="c"><input type="radio" name="m1_3" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_3" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_3" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_3" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Three-Point Grip — forms without looking at hand</td>
+      <td class="c"><input type="radio" name="m1_4" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_4" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_4" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_4" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Grip switch — Three-Point → Thumb-on-Top → V-Grip ≤3 sec</td>
+      <td class="c"><input type="radio" name="m1_5" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_5" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_5" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_5" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>'C' Pickup — tensions line before every cast</td>
+      <td class="c"><input type="radio" name="m1_6" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_6" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_6" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_6" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Whole Arm sequence — shoulder, elbow, forearm, wrist engaged</td>
+      <td class="c"><input type="radio" name="m1_7" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_7" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_7" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_7" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Arm lift and wrist flick end simultaneously</td>
+      <td class="c"><input type="radio" name="m1_8" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_8" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_8" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_8" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Stop point — rod ends 30° behind vertical consistently</td>
+      <td class="c"><input type="radio" name="m1_9" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_9" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_9" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_9" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Mac's Pipe flick — abrupt stop is sharp and crisp</td>
+      <td class="c"><input type="radio" name="m1_10" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_10" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_10" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_10" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Casting Chart — uses it before rod in hand</td>
+      <td class="c"><input type="radio" name="m1_11" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_11" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_11" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_11" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Loop triangle — draws from memory, names rod/fly leg</td>
+      <td class="c"><input type="radio" name="m1_12" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_12" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_12" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_12" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Tailing loop — identifies cause using Rule 1</td>
+      <td class="c"><input type="radio" name="m1_13" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_13" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_13" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_13" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Loop dial — produces wide, medium, tight loop on command</td>
+      <td class="c"><input type="radio" name="m1_14" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_14" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_14" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_14" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Backcast trajectory — climbs above horizontal 8 of 10</td>
+      <td class="c"><input type="radio" name="m1_15" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_15" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_15" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_15" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>180 Rule — backcast opposite to target</td>
+      <td class="c"><input type="radio" name="m1_16" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_16" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_16" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_16" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Drift (not Creep) — during pause, rod drifts back and up</td>
+      <td class="c"><input type="radio" name="m1_17" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_17" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_17" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_17" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Forward cast timing — starts before line falls</td>
+      <td class="c"><input type="radio" name="m1_18" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_18" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_18" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_18" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>'O' Ring — used on every shoot</td>
+      <td class="c"><input type="radio" name="m1_19" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_19" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_19" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_19" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Lift and Point — reflexive after every shoot</td>
+      <td class="c"><input type="radio" name="m1_20" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_20" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_20" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_20" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Self-evaluation — scores each cast on Pause/Power/Path</td>
+      <td class="c"><input type="radio" name="m1_21" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_21" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_21" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_21" value="X" title="Not covered"></td>
+    </tr><tr class="grp-hdr"><td colspan="5">Intermediate — 7-Hour & 14-Hour Only</td></tr><tr>
+      <td>Elliptical Stroke — backcast sidearm, forward stroke upright</td>
+      <td class="c"><input type="radio" name="m1_22" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_22" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_22" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_22" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Elliptical Stroke — turns over a weighted fly rig cleanly</td>
+      <td class="c"><input type="radio" name="m1_23" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_23" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_23" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_23" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Sidearm casting — maintains 180 Rule in sidearm plane</td>
+      <td class="c"><input type="radio" name="m1_24" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_24" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_24" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_24" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Wind from line hand side — correct strategy applied</td>
+      <td class="c"><input type="radio" name="m1_25" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_25" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_25" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_25" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Wind from casting arm side — correct strategy applied</td>
+      <td class="c"><input type="radio" name="m1_26" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_26" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_26" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_26" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Wind from behind — correct strategy applied</td>
+      <td class="c"><input type="radio" name="m1_27" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_27" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_27" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_27" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Wind into face — correct strategy applied</td>
+      <td class="c"><input type="radio" name="m1_28" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_28" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_28" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_28" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Thrust Cast — flick and thrust simultaneous, V-Loop produced</td>
+      <td class="c"><input type="radio" name="m1_29" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_29" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_29" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_29" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Single Haul — correct 'Haul Late' timing on backcast</td>
+      <td class="c"><input type="radio" name="m1_30" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_30" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_30" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_30" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Single Haul — line hand returns immediately after haul</td>
+      <td class="c"><input type="radio" name="m1_31" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_31" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_31" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_31" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Reach Mend — executed in air, not after landing</td>
+      <td class="c"><input type="radio" name="m1_32" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_32" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_32" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_32" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Mend type — Curve, Puddle, Parachute executed on command</td>
+      <td class="c"><input type="radio" name="m1_33" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_33" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_33" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_33" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Written practice plan completed in session</td>
+      <td class="c"><input type="radio" name="m1_34" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_34" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_34" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_34" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Personal fault library — top 2 faults written in own words</td>
+      <td class="c"><input type="radio" name="m1_35" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_35" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_35" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_35" value="X" title="Not covered"></td>
+    </tr><tr class="grp-hdr"><td colspan="5">Advanced — 14-Hour Only</td></tr><tr>
+      <td>Cross-Body casting — accurate at 20 ft</td>
+      <td class="c"><input type="radio" name="m1_36" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_36" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_36" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_36" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Across the Head casting — executes correctly</td>
+      <td class="c"><input type="radio" name="m1_37" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_37" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_37" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_37" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Double Haul — combines both Single Hauls cleanly</td>
+      <td class="c"><input type="radio" name="m1_38" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_38" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_38" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_38" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Triple Haul — delayed third haul produces S-Curves</td>
+      <td class="c"><input type="radio" name="m1_39" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_39" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_39" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_39" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Curve Mend (all 5 types) — places curve at correct point</td>
+      <td class="c"><input type="radio" name="m1_40" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_40" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_40" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_40" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Roll Cast — D-Loop + Anchor set up correctly</td>
+      <td class="c"><input type="radio" name="m1_41" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_41" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_41" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_41" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Roll Cast — delivers fly cleanly without a backcast</td>
+      <td class="c"><input type="radio" name="m1_42" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_42" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_42" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_42" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Switch Cast — D-Loop forms behind caster before forward stroke</td>
+      <td class="c"><input type="radio" name="m1_43" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_43" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_43" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_43" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Accuracy — fly in 12-inch ring at 30 ft in 5 of 6</td>
+      <td class="c"><input type="radio" name="m1_44" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_44" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_44" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_44" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Before/After video — narrates improvement in course language</td>
+      <td class="c"><input type="radio" name="m1_45" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_45" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_45" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_45" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>8-week practice plan written and instructor-signed</td>
+      <td class="c"><input type="radio" name="m1_46" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_46" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_46" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_46" value="X" title="Not covered"></td>
+    </tr><tr>
+      <td>Personal fault library — top 3 faults, instructor countersigned</td>
+      <td class="c"><input type="radio" name="m1_47" value="D" title="Demonstrated"></td>
+      <td class="c"><input type="radio" name="m1_47" value="V" title="Developing"></td>
+      <td class="c"><input type="radio" name="m1_47" value="N" title="Needs more time"></td>
+      <td class="c"><input type="radio" name="m1_47" value="X" title="Not covered"></td>
+    </tr></tbody>
+</table>
+<div class="sec-hdr navy" style="margin-top:6px;">INSTRUCTOR OBSERVATIONS</div>
+<div class="narr-grid"><div class="narr-box"><div class="sec-hdr green">Technical Strength — what this student does well</div><textarea placeholder="Instructor notes..."></textarea></div><div class="narr-box"><div class="sec-hdr amber">Priority to Develop — single most impactful next skill</div><textarea placeholder="Instructor notes..."></textarea></div><div class="narr-box"><div class="sec-hdr river">Self-Evaluation Note — accuracy of student's self-scoring</div><textarea placeholder="Instructor notes..."></textarea></div><div class="narr-box"><div class="sec-hdr red">Fault Pattern — top recurring fault in Pause / Power / Path terms</div><textarea placeholder="Instructor notes..."></textarea></div></div>
+<div class="sec-hdr navy" style="margin-top:6px;">30-DAY PRACTICE PLAN</div><div class="plan-row"><div class="plan-lbl">Outing 1 — skill focus</div><input type="text" placeholder="Specific focus..."></div><div class="plan-row"><div class="plan-lbl">Outing 2 — skill focus</div><input type="text" placeholder="Specific focus..."></div><div class="plan-row"><div class="plan-lbl">Outing 3 — skill focus</div><input type="text" placeholder="Specific focus..."></div>
+<div class="res-box" style="margin-top:4px;"><strong>Recommended:</strong> Casting Angles by Mac Brown · Gary Borger — Presentation · Daniel Coyle — The Talent Code · <strong>Additional:</strong> <input type="text" placeholder="Specific recommendation"></div>
+
+<div class="copy-row" style="margin-top:6px;">
+  <label>Record copy:</label>
+  <div class="copy-opt"><input type="radio" name="copy" value="student" id="cp_s"><label for="cp_s">Student copy</label></div>
+  <div class="copy-opt"><input type="radio" name="copy" value="school" id="cp_sc"><label for="cp_sc">School copy</label></div>
+</div>
+<div class="sig-row" style="margin-top:4px;">
+  <div><div class="slbl">Instructor Signature</div><input class="sig-input" type="text" placeholder="Type name as signature"></div>
+  <div><div class="slbl">Date Issued</div><input class="date-input" type="date"></div>
+</div>
+<div style="margin-top:8px;">
+  <button id="submit-btn" type="submit" style="width:100%;padding:10px;background:#1B3A5C;color:#fff;border:none;border-radius:4px;font-size:14px;font-weight:bold;cursor:pointer;letter-spacing:.04em;">
+    📤 Submit &amp; Send Assessment to Student
+  </button>
+</div>
+<div class="btn-row">
+  <button class="btn btn-print" onclick="window.print()">🖨 Print / Save PDF</button>
+  <button class="btn btn-save" onclick="saveForm('Casting_Module1_Assessment')">💾 Save to Device</button>
+  <button class="btn btn-clear" onclick="clearForm()">↺ Clear Form</button>
+</div>
+<div class="ftr">© Mac Brown Fly Fish · © Fly Fishing Guide School · © Gary Borger · macbrownflyfish.com · flyfishingguideschool.com<br>Student Assessment Form — Fly Casting Module One: The Foundational Stroke</div>
+<script>
+function saveForm(prefix){
+  const html = document.documentElement.outerHTML;
+  const blob = new Blob([html],{type:'text/html'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  const name = document.querySelector('#s_name')?.value?.replace(/\s+/g,'_')||'Student';
+  const date = document.querySelector('#s_date')?.value||new Date().toISOString().slice(0,10);
+  a.download = `${prefix}_${name}_${date}.html`;
+  a.click();
+}
+function clearForm(){
+  if(!confirm('Clear all fields?')) return;
+  document.querySelectorAll('input[type=text],input[type=date],textarea').forEach(e=>e.value='');
+  document.querySelectorAll('input[type=radio],input[type=checkbox]').forEach(e=>e.checked=false);
+}
+function autoSave(key){
+  const data={};
+  document.querySelectorAll('input,textarea,select').forEach((el,i)=>{
+    if(el.type==='radio'||el.type==='checkbox'){if(el.checked)data[el.name||i]=el.value;}
+    else data[el.id||el.name||i]=el.value;
+  });
+  try{localStorage.setItem(key,JSON.stringify(data));}catch(e){}
+}
+function fmtChange(val){
+  document.querySelectorAll('.fmt-section').forEach(s=>s.classList.remove('visible'));
+  const sec = document.getElementById('fmt_'+val);
+  if(sec) sec.classList.add('visible');
+  else document.querySelectorAll('.fmt-section').forEach(s=>s.classList.add('visible'));
+}
+setInterval(()=>autoSave('casting_module1_autosave'), 15000);
+
+
+function buildEmailHtml() {
+  var styles = '';
+  var styleEl = document.head.querySelector('style');
+  if (styleEl) styles = styleEl.textContent || '';
+  var formEl = document.getElementById('assessment-form');
+  var clone = formEl.cloneNode(true);
+  clone.querySelectorAll('.btn-row').forEach(function(el) { el.remove(); });
+  var LABELS = { D:'Demonstrated', V:'Developing', N:'Needs more time', X:'Not covered' };
+  var COLORS  = { D:'#2d6a2d', V:'#7a5200', N:'#a00000', X:'#888888' };
+  clone.querySelectorAll('.skills-tbl tbody tr').forEach(function(row) {
+    var radios = row.querySelectorAll('input[type="radio"]');
+    if (!radios.length) return;
+    var rName = radios[0].getAttribute('name');
+    var live  = document.querySelector('input[name="' + rName + '"]:checked');
+    var v = live ? live.value : '';
+    var cCells = Array.from(row.querySelectorAll('td.c'));
+    if (!cCells.length) return;
+    cCells.forEach(function(td, i) {
+      if (i === 0) {
+        td.removeAttribute('class');
+        td.setAttribute('colspan','4');
+        td.style.textAlign = 'center';
+        td.style.padding   = '4px 8px';
+        td.innerHTML = v
+          ? '<strong style="color:'+(COLORS[v]||'#333')+';">'+(LABELS[v]||v)+'</strong>'
+          : '<span style="color:#ccc;">\u2014</span>';
+      } else { td.remove(); }
+    });
+  });
+  var fmtChecked = document.querySelector('input[name="fmt"]:checked');
+  var fmtLabel   = fmtChecked ? (fmtChecked.value==='2day'?'2-Day':'1-Day') : '\u2014';
+  clone.querySelectorAll('.fmt-bar').forEach(function(bar) {
+    bar.innerHTML = '<span style="font-size:11px;font-weight:bold;color:#1B3A5C;">Program Format: '+fmtLabel+'</span>';
+  });
+  clone.querySelectorAll('input[type="radio"]').forEach(function(r) {
+    var live = document.querySelector('input[name="'+r.getAttribute('name')+'"]:checked');
+    var isChk = live && live.value === r.getAttribute('value');
+    if (isChk) { var s=document.createElement('span'); s.textContent='\u2713'; r.replaceWith(s); }
+    else { r.remove(); }
+  });
+  var liveInps  = Array.from(document.querySelectorAll('input[type="text"],input:not([type])'));
+  var cloneInps = Array.from(clone.querySelectorAll('input[type="text"],input:not([type])'));
+  cloneInps.forEach(function(inp,i) {
+    var span=document.createElement('span');
+    span.textContent=liveInps[i]?(liveInps[i].value||''):'';
+    span.style.cssText='display:inline-block;width:100%;padding:2px 4px;font-size:12px;';
+    inp.replaceWith(span);
+  });
+  var liveTAs  = Array.from(document.querySelectorAll('textarea'));
+  var cloneTAs = Array.from(clone.querySelectorAll('textarea'));
+  cloneTAs.forEach(function(ta,i) {
+    var div=document.createElement('div');
+    div.style.cssText='padding:4px 6px;font-size:12px;font-family:Arial;color:#333;background:#FAFAFA;white-space:pre-wrap;min-height:40px;';
+    div.textContent=liveTAs[i]?(liveTAs[i].value||''):'';
+    ta.replaceWith(div);
+  });
+  clone.removeAttribute('onsubmit');
+  return '<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">'
+    +'<meta name="viewport" content="width=device-width,initial-scale=1.0">'
+    +'<style>'+styles+'\n.btn-row,.btn{display:none!important}</style>'
+    +'</head><body style="padding:10px;">'+clone.outerHTML+'</body></html>';
+}
+
+async function submitAssessment(event) {
+  event.preventDefault();
+  const formHtml = buildEmailHtml();
+  const btn = document.getElementById('submit-btn');
+  btn.disabled = true;
+  btn.textContent = 'Sending…';
+
+  // Collect skill radio buttons (skip format/copy/guide/safety selectors)
+  const skills = {};
+  const skipNames = new Set(['fmt','copy','guide']);
+  document.querySelectorAll('input[type="radio"]:checked').forEach(el => {
+    if (!el.name) return;
+    if (skipNames.has(el.name)) return;
+    if (el.name.startsWith('c_') || el.name.startsWith('saf_') || el.name.startsWith('fmt')) return;
+    skills[el.name] = el.value;
+  });
+
+  // Program format
+  const fmtEl = document.querySelector('input[name="fmt"]:checked');
+  const prog = fmtEl ? fmtEl.value : '';
+
+  // Narrative observations - collect all textarea values with their section header label
+  const obs = {};
+  document.querySelectorAll('.narr-box').forEach(box => {
+    const hdr = box.querySelector('.sec-hdr, [class*="sec-hdr"]');
+    const ta  = box.querySelector('textarea');
+    if (hdr && ta && ta.value.trim()) obs[hdr.textContent.trim()] = ta.value.trim();
+  });
+
+  // Practice plan rows
+  const plan = [];
+  document.querySelectorAll('.plan-row').forEach(row => {
+    const lbl = row.querySelector('.plan-lbl');
+    const inp = row.querySelector('input[type="text"]');
+    if (inp && inp.value.trim()) plan.push((lbl ? lbl.textContent.trim() + ': ' : '') + inp.value.trim());
+  });
+
+  // Priority field - first narr-box that mentions 'priority'
+  const priorityKey = Object.keys(obs).find(k => k.toLowerCase().includes('priority')) || '';
+  const priorityVal = obs[priorityKey] || '';
+
+  const payload = {
+    studentName:       (document.getElementById('s_name')  || {}).value || '',
+    instructorName:    (document.getElementById('s_instr') || {}).value || '',
+    program:           prog,
+    date:              (document.getElementById('s_date')  || {}).value || '',
+    location:          (document.getElementById('s_loc')   || {}).value || '',
+    skills:            skills,
+    observations:      JSON.stringify(obs),
+    priorityToDevelop: priorityVal,
+    practicePlan:      plan.join(' | '),
+    formHtml:          formHtml,
+  };
+
+  try {
+    const res = await fetch('https://macbrownflyfish.com/api/assessment', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    });
+    const data = await res.json();
+    if (data.ok) {
+      btn.textContent = data.studentEmailFound
+        ? '✓ Sent to Student'
+        : '✓ Saved — student email not found, copy sent to Mac';
+      btn.style.background = '#2d6a2d';
+      btn.style.color = '#fff';
+    } else {
+      throw new Error('Server error');
+    }
+  } catch (err) {
+    btn.textContent = '✗ Error — try again';
+    btn.style.background = '#a00';
+    btn.style.color = '#fff';
+    btn.disabled = false;
+  }
+}
+
+</script>
+</form>
+</body>
+</html>

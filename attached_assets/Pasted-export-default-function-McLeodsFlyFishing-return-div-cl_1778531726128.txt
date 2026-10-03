@@ -1,0 +1,186 @@
+export default function McLeodsFlyFishing() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            The Original Outfitter · Bryson City, NC · Since 1987
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            McLeod's Highland Fly Fishing
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-4 leading-relaxed">
+            The original name. The original outfitter. The same passion for fly fishing instruction that has defined this operation since the very beginning.
+          </p>
+          <p className="text-lg text-white italic mb-8">
+            Now operating as Mac Brown Fly Fish — same founder, same water, same commitment to excellence.
+          </p>
+          
+            href="/contact"
+            className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors inline-block"
+          >
+            Book a Trip or Lesson
+          </a>
+        </div>
+      </section>
+
+      {/* Origin Story */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Where It All Began
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              In 1987 Mac Brown launched the first professional fly fishing guide and instruction operation in the Smoky Mountains town of Bryson City, North Carolina. The company was called McLeod's Highland Fly Fishing — and it was the original. No one had done it before in this region, and no one since has matched the depth of local knowledge, the quality of instruction, or the consistency of results that the operation built over the decades that followed.
+            </p>
+            <p>
+              After the first decade in business the company name was changed to Mac Brown Fly Fish — reflecting the personal brand that had become synonymous with excellence in fly fishing instruction throughout Western North Carolina and beyond. The name changed. Nothing else did. The same founder, the same water, the same philosophy, the same relentless pursuit of better technique and deeper understanding that defined McLeod's Highland from day one.
+            </p>
+            <p>
+              Mac Brown Fly Fish remains the oldest permitted and licensed outfitter in the region — with programs in the Great Smoky Mountains National Park and Nantahala National Forest built on a foundation of nearly four decades of daily experience on these specific rivers and streams.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* The Story of Mac */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Founder — A Life Built on the Water
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Mac Brown first picked up a fly rod at the age of seven. What began as a childhood fascination became a lifelong pursuit that has taken him from the mountain streams of the Southern Appalachians to rivers in Tasmania, New Zealand, and beyond — guiding, competing, teaching, and constantly deepening his understanding of what is possible when casting a fly line.
+            </p>
+            <p>
+              The techniques Mac teaches are not assembled from books and other instructors' systems — they are original ideas developed and refined over 40 years of daily observation, experimentation, and teaching. Many of these methods have appeared in Fly Fisherman magazine, ESPN, public television, Angling Report, and Outdoor Life. The terminology he developed through his work at Western Carolina University — where he served as Associate Professor and created the most popular class in university history — has become common language among fly casting instructors globally.
+            </p>
+            <p>
+              As the only Master Casting Instructor in North Carolina, a former member of the FFI Board of Governors, a Mel Krieger Award recipient, and a coach whose students have stood on World Championship podiums, Mac brings a depth of knowledge to every lesson and guided trip that simply does not exist anywhere else in the region.
+            </p>
+            <p>
+              He has also built one of the most extensive databases of conditions and trout feeding behavior in the region — compiled from over 14,000 stomach samples taken from wild regional fish and decades of daily streamside observation. When Mac tells you what the fish are eating and why, it is not a guess. It is the result of a lifetime of paying attention.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Why Lessons */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Why a Fly Fishing Lesson Changes Everything
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Fly fishing is similar to golf in that it requires years of dedication to truly master — but unlike golf, most fly fishers never invest in proper instruction at the beginning. They learn from friends, YouTube videos, and trial and error — and they carry the resulting bad habits for decades, never quite understanding why their results plateau.
+            </p>
+            <p>
+              A lesson with Mac Brown eliminates years of that frustration in a single session. He has a keen eye for diagnosing the specific faults in any caster's stroke and offering the tools — the specific adjustments, the drills, the understanding — that produce immediate improvement. Not improvement that fades when you leave the stream. Improvement that becomes part of how you cast and fish for the rest of your life.
+            </p>
+            <p>
+              Most kinesthetic sports require hands-on teaching to truly sink in. Fly casting is no different. Reading about it helps. Watching it helps. But standing in a river with someone who has spent 40 years watching thousands of casters make every possible mistake — and knowing exactly how to fix each one — is the experience that actually changes the way you fish.
+            </p>
+          </div>
+
+          <div className="mt-8 grid sm:grid-cols-3 gap-4">
+            {[
+              { icon: "🎯", title: "Instant Improvement", desc: "Most casting faults are identified and corrected in a single session." },
+              { icon: "📚", title: "40 Years of Knowledge", desc: "Techniques developed over four decades of daily teaching and guiding." },
+              { icon: "🌊", title: "On-Stream Learning", desc: "Real water, real conditions, real fish — learning that sticks permanently." },
+            ].map((item, i) => (
+              <div key={i} className="bg-gray-50 rounded-xl p-6 border border-gray-200 text-center">
+                <div className="text-3xl mb-3">{item.icon}</div>
+                <h3 className="font-bold text-[#1a3a5c] mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* The Water */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Water — A Classroom That Never Runs Out
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              The Western North Carolina Smoky Mountains region is not just a beautiful place to fly fish. It is one of the most technically demanding and diverse fly fishing environments in the eastern United States — and that difficulty is precisely what makes it such an extraordinary place to learn.
+            </p>
+            <p>
+              Diverse currents, dense canopy, wild fish that have never been handed anything easy — these are the conditions that produce some of the finest fly casters Mac has ever encountered. The technical challenges of Smoky Mountain streams require casting in every plane, reading water with genuine depth, and presenting flies with a precision that tolerates almost no margin for error. Master it here and you are prepared for any water anywhere.
+            </p>
+            <p>
+              The region's temperate climate produces excellent year-round angling opportunities — with spring and fall as the peak seasons for dry fly fishing and the most diverse hatch activity. The Tuckasegee River, the Nantahala River, the streams of the Great Smoky Mountains National Park, and the broader network of wild mountain water surrounding Bryson City provide an endlessly varied and endlessly rewarding classroom.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Credentials */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Credentials Behind the Instruction
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              { title: "FFI Master Casting Instructor", desc: "The highest casting certification in fly fishing — held by fewer than a few hundred people worldwide. The only MCI in North Carolina." },
+              { title: "FFI Board of Governors", desc: "Served for years on the governing body of the Federation of Fly Fishers helping shape national standards for the sport." },
+              { title: "Mel Krieger Casting Award", desc: "Named for one of the most influential fly casting teachers who ever lived. Awarded for outstanding contribution to fly casting instruction." },
+              { title: "Hall of Fame Inductee", desc: "Inducted into the Southern Appalachian Fly Fishing Museum Hall of Fame for Recreation in 2017." },
+              { title: "Western Carolina University", desc: "Associate Professor who created the most popular class in university history and pioneered collegiate fly fishing education." },
+              { title: "Team USA Youth Coach", desc: "Coached competitors to World Championship titles representing the United States on the international stage." },
+              { title: "Field & Stream Angler of the Year", desc: "Nominated by Field & Stream magazine in the fall 1999 issue." },
+              { title: "Original Permitted Outfitter", desc: "The oldest permitted and licensed fly fishing outfitter in the Smoky Mountains region — operating since 1987." },
+            ].map((item, i) => (
+              <div key={i} className="bg-gray-50 rounded-xl p-6 border border-gray-200">
+                <h3 className="font-bold text-[#1a3a5c] mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-[#1a3a5c] text-white py-16 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6">
+            The Original. Still the Best.
+          </h2>
+          <p className="text-lg text-[#a0c4e0] mb-4 leading-relaxed">
+            McLeod's Highland Fly Fishing became Mac Brown Fly Fish. The name changed. The standard never did. Nearly four decades of guiding and teaching on the finest trout water in the eastern United States — and the same commitment to quality instruction that started it all in 1987.
+          </p>
+          <p className="text-lg text-[#a0c4e0] mb-8 leading-relaxed">
+            Whether you are booking your first guided trip, taking your first casting lesson, or returning after years away — you have my promise to provide you with the highest quality fly fishing instruction and guided experience you have ever had. Peak times are spring and fall — book early.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+              href="/contact"
+              className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Book a Trip or Lesson
+            </a>
+            
+              href="tel:8287361469"
+              className="bg-white hover:bg-gray-100 text-[#1a3a5c] font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Call 828-736-1469
+            </a>
+          </div>
+          <p className="text-[#a0c4e0] mt-6 text-sm">
+            macbrownflyfish@gmail.com · flyfishingguideschool.com · Bryson City, NC · Since 1987
+          </p>
+        </div>
+      </section>
+
+    </div>
+  );
+}

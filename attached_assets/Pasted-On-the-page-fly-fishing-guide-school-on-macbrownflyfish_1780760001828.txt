@@ -1,0 +1,98 @@
+On the page /fly-fishing-guide-school on macbrownflyfish.com, add a 
+FAQ section to the page body before the footer with the heading 
+"Frequently Asked Questions" and the following 5 Q&A pairs displayed 
+as expandable accordion items. Then add the JSON-LD script block to 
+the <head> after the existing meta tags. No other changes.
+
+FAQ CONTENT:
+
+Q1: What is a fly fishing guide school?
+A1: A fly fishing guide school is a structured professional training 
+program that prepares anglers to work as licensed fly fishing guides. 
+It goes beyond personal skill development to cover water reading, 
+client communication, rowing, stream safety, business operations, and 
+casting instruction — everything required to guide clients on moving 
+water professionally.
+
+Q2: Who should attend fly fishing guide school?
+A2: The Fly Fishing Guide School in Bryson City, NC serves two tracks: 
+career changers who want to guide professionally and earn a living on 
+the water, and serious skill-builders who want to understand fly fishing 
+at a professional level without necessarily pursuing guiding as a career. 
+Both tracks receive the same world-class instruction.
+
+Q3: Why is Bryson City NC the best location for fly fishing guide school?
+A3: Bryson City sits at the center of over 2,400 miles of wild trout 
+water in Swain County alone. The Great Smoky Mountains National Park 
+and Nantahala National Forest protect over 85% of the county's land, 
+providing a diverse and demanding classroom that no other guide school 
+location can match. Western North Carolina produces more world-champion 
+fly fishing competition anglers than any other region in the country.
+
+Q4: How is fly fishing guide school different from a guided fly fishing trip?
+A4: A guided trip puts you on the water with an expert for a day of 
+fishing. Guide school puts you in a week-long professional training 
+program covering casting mechanics, water reading, rowing, entomology, 
+client communication, and business — building the skills to guide 
+others, not just fish yourself.
+
+Q5: Who teaches at the Fly Fishing Guide School in Bryson City?
+A5: The school is led by Mac Brown, the only FFI Master Casting 
+Instructor in North Carolina and recipient of the FFI Lifetime 
+Achievement Award. The full faculty includes 4 FFI Master Casting 
+Instructors, 5 certified whitewater rowing instructors, 3 Fly Fishing 
+Team USA members, 4 Team USA coaches, and 2 Hall of Fame inductees — 
+with 450+ combined years of field experience.
+
+---
+
+JSON-LD FOR <head>:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a fly fishing guide school?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A fly fishing guide school is a structured professional training program that prepares anglers to work as licensed fly fishing guides. It goes beyond personal skill development to cover water reading, client communication, rowing, stream safety, business operations, and casting instruction — everything required to guide clients on moving water professionally."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who should attend fly fishing guide school?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Fly Fishing Guide School in Bryson City, NC serves two tracks: career changers who want to guide professionally and earn a living on the water, and serious skill-builders who want to understand fly fishing at a professional level without necessarily pursuing guiding as a career. Both tracks receive the same world-class instruction."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is Bryson City NC the best location for fly fishing guide school?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bryson City sits at the center of over 2,400 miles of wild trout water in Swain County alone. The Great Smoky Mountains National Park and Nantahala National Forest protect over 85% of the county's land, providing a diverse and demanding classroom that no other guide school location can match. Western North Carolina produces more world-champion fly fishing competition anglers than any other region in the country."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is fly fishing guide school different from a guided fly fishing trip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A guided trip puts you on the water with an expert for a day of fishing. Guide school puts you in a week-long professional training program covering casting mechanics, water reading, rowing, entomology, client communication, and business — building the skills to guide others, not just fish yourself."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who teaches at the Fly Fishing Guide School in Bryson City?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The school is led by Mac Brown, the only FFI Master Casting Instructor in North Carolina and recipient of the FFI Lifetime Achievement Award. The full faculty includes 4 FFI Master Casting Instructors, 5 certified whitewater rowing instructors, 3 Fly Fishing Team USA members, 4 Team USA coaches, and 2 Hall of Fame inductees — with 450+ combined years of field experience."
+      }
+    }
+  ]
+}
+</script>

@@ -1,0 +1,21 @@
+Add internal links to and from the page flyfishingguideschool.com/blog/learn-how-to-become-a-fly-fishing-guide-and-instructor/. Do not change any existing text, headings, or FAQ content — only add hyperlinks to existing words/phrases already on the page, and add links from other pages pointing to this post. Do not create any new pages or link to any URL that does not already exist on the site.
+
+OUTBOUND (from this blog post to other existing pages):
+
+1. In the "Guide School vs. Just Sharpening Your Skills" section, link the phrase "the Fly Fishing Guide School" (or similar existing phrase referring to the recreational option) to /smoky-mountain-fly-fishing-school/
+
+2. In the "What It Actually Takes to Become a Guide" section, link the phrase "Fly Fishing Guide School curriculum" to /fly-fishing-guide-school/
+
+3. Confirm the existing "Reserve Your Seat" and "View the Curriculum" buttons/links at the top and bottom of the post point to /fly-fishing-guide-school/. If they point anywhere else, fix them to point there.
+
+INBOUND (from other existing pages to this blog post):
+
+4. On the homepage (flyfishingguideschool.com), find a natural place in the existing copy — ideally near where career-path or "how to become a guide" language already appears — and add a link to this blog post. Do not add a generic "read more" link in an unrelated section; only add it where the existing text already references becoming a guide or learning more about the process.
+
+5. On /fly-fishing-guide-school/, find a natural place in the existing copy discussing the guiding profession or career path, and add a link to this blog post there as well.
+
+6. On /smoky-mountain-fly-fishing-school/, if the page has any existing copy mentioning the career/guide track as an alternative option, link that reference to this blog post. If no such reference exists, do not force one in — skip this step and report that no natural anchor point was found.
+
+For every link added, report back: which page, which exact existing text was turned into a link, and which URL it now points to.
+
+After making changes, run bash push.sh to deploy, no other changes.

@@ -1,0 +1,134 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/fly-fishing-tips-catch-more-winter-trout/
+
+AEO — add immediately below H1:
+"Winter trout fishing in the Smoky Mountains 
+requires smaller flies, finer tippets, slower 
+presentations, and a thorough understanding 
+of where cold water sends trout. Mac Brown 
+has guided winter trout fishing in Bryson 
+City, NC since 1987 — fishing 6-8X 
+fluorocarbon, three-fly rigs, CDC puff dries, 
+and pheasant tail nymphs on a 10'6 rod with 
+a 3-weight line and 30-foot leader. The 
+biggest advantage of winter fishing on the 
+Tuckasegee and Nantahala is solitude — 
+world-class trout water with almost no one 
+else on it."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: Is fly fishing good in the Smoky 
+Mountains in winter?
+A1: Yes — winter is underrated on these 
+waters. Blue-winged olive and midge hatches 
+provide genuine dry fly opportunity on 
+overcast mild days. The Tuckasegee delayed 
+harvest section fishes well all winter. 
+The Nantahala tailwater maintains consistent 
+temperatures year-round. The biggest 
+advantage is solitude — some of the finest 
+trout water in the eastern United States 
+with almost no other anglers on it.
+
+Q2: What flies work best for winter trout 
+fishing in the Smokies?
+A2: Keep them small. CDC puff dries, 
+parachute dries, and wets for emergers 
+for surface activity. Pheasant tails, 
+Ju-Ju's, Egan's Rainbow Warrior, and 
+Iron Lotus for subsurface. Three-fly rigs 
+allow you to grid off water efficiently 
+and find the depth and pattern the fish 
+want. Most important rule — size down 
+further than you think necessary.
+
+Q3: What tippet should I use for winter 
+trout fishing?
+A3: Use 6-8X fluorocarbon for subsurface 
+fishing — finer tippet sinks faster and 
+is less visible in low clear water. For 
+fishing higher in the film, 6-8X nylon 
+works well. Carry mud to sink the tippet 
+and Mucillen to float it — making fine 
+adjustments based on where the fish 
+are feeding.
+
+Q4: Where do trout hold in winter in 
+the Smoky Mountains?
+A4: Cold water sends trout to slower, 
+deeper lies. Fish long deep pools, slack 
+water behind structure, and tailouts where 
+food concentrates. Avoid fast broken water 
+in cold conditions — trout cannot afford 
+the energy expenditure. Water temperature 
+is the guide — the warmer within the 
+winter range, the more active the fish 
+and the wider their feeding lanes.
+
+Q5: What is the best time of day for 
+winter fly fishing in the Smokies?
+A5: The warmest part of the afternoon — 
+typically 11am to 3pm — when water 
+temperatures have climbed as high as they 
+will for the day. BWO and midge hatches 
+most often occur on overcast mild days 
+during this window. Early morning in 
+winter is the least productive time 
+unlike summer when early morning 
+is essential.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is fly fishing good in the Smoky Mountains in winter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — winter is underrated on these waters. Blue-winged olive and midge hatches provide genuine dry fly opportunity on overcast mild days. The Tuckasegee delayed harvest section fishes well all winter. The biggest advantage is solitude — some of the finest trout water in the eastern United States with almost no other anglers on it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What flies work best for winter trout fishing in the Smokies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Keep them small. CDC puff dries, parachute dries, and wets for emergers for surface activity. Pheasant tails, Ju-Ju's, Egan's Rainbow Warrior, and Iron Lotus for subsurface. Three-fly rigs allow you to grid off water efficiently. Most important rule — size down further than you think necessary."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What tippet should I use for winter trout fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use 6-8X fluorocarbon for subsurface fishing — finer tippet sinks faster and is less visible in low clear water. For fishing higher in the film, 6-8X nylon works well. Carry mud to sink the tippet and Mucillen to float it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where do trout hold in winter in the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cold water sends trout to slower, deeper lies. Fish long deep pools, slack water behind structure, and tailouts where food concentrates. Avoid fast broken water in cold conditions — trout cannot afford the energy expenditure. Water temperature is the guide — the warmer within the winter range, the more active the fish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best time of day for winter fly fishing in the Smokies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The warmest part of the afternoon — typically 11am to 3pm — when water temperatures have climbed as high as they will for the day. BWO and midge hatches most often occur on overcast mild days during this window. Early morning in winter is the least productive time unlike summer when early morning is essential."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

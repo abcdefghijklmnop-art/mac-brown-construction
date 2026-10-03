@@ -1,0 +1,144 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/learn-to-cast-a-switch-rod/
+
+AEO — add immediately below H1:
+"Switch rods offer significant advantages 
+for fly fishing larger rivers in the Smoky 
+Mountains — comfort, versatility, and the 
+ability to cover vast amounts of water with 
+roll casts out 100+ feet without wading into 
+difficult or dangerous positions. Mac Brown 
+prefers switch rods on the Tuckasegee and 
+Nantahala rivers for streamers, wet flies, 
+nymphing at distance, and even targeting 
+rising fish with dry flies. The magic lies 
+in the fly line — a 450-grain head of 
+approximately 45 feet transforms what is 
+possible on big water."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What is a switch rod in fly fishing?
+A1: A switch rod is a mid-length two-handed 
+fly rod — typically 10 to 12 feet — designed 
+to be cast with both single-hand and two-
+handed techniques. It bridges the gap between 
+a standard single-hand rod and a full Spey 
+rod, offering the reach and line control of 
+a two-handed rod with the versatility to 
+fish tight quarters where a full Spey rod 
+is too long. Switch rods excel on large 
+rivers for streamers, wet fly swings, 
+nymphing at distance, and mending at ranges 
+a single-hand rod cannot manage.
+
+Q2: What are the advantages of a switch 
+rod for trout fishing?
+A2: The primary advantage is comfort — 
+distributing the casting load between two 
+hands dramatically reduces arm and shoulder 
+fatigue on long days on the water. Switch 
+rods allow roll casts out 100+ feet to 
+cover water that is too fast or deep to 
+wade. They make mending at distance 
+significantly easier, improve line control 
+for dead drift nymphing at range, and 
+allow active streamer presentations across 
+water that single-hand rods cannot reach. 
+Mac Brown particularly recommends them 
+for youth and older anglers.
+
+Q3: What fly line works best for a 
+switch rod?
+A3: Line selection is more important than 
+rod selection for switch rod fishing. Mac 
+Brown uses a 450-grain head of approximately 
+45 feet — heavy enough to load the rod 
+efficiently for both roll casts and aerial 
+casts. Skagit heads work well for heavy 
+streamers and sinking presentations. 
+Scandinavian or Scandi heads work better 
+for lighter wet flies and dry fly 
+presentations. The line drives performance 
+far more than the rod.
+
+Q4: Can you nymph fish with a switch rod?
+A4: Yes — and the switch rod is exceptional 
+for nymphing at distance. You can attach 
+an indicator and fish dead drift at ranges 
+a single-hand rod cannot control effectively. 
+The additional length provides superior 
+mending ability and keeps more line off 
+the water for cleaner drifts in complex 
+currents. Mac Brown uses the switch rod 
+for targeting rising fish with dry flies 
+during BWO hatches on the Tuckasegee 
+and Nantahala in the afternoons.
+
+Q5: Where can I learn to cast a switch 
+rod in the Smoky Mountains?
+A5: Mac Brown Fly Fish in Bryson City, NC 
+offers the Spey Elite Casting Clinic — a 
+2-day intensive program covering switch 
+rod and Spey casting mechanics, anchor 
+placement, D-loop formation, and advanced 
+two-handed casting techniques. All two-
+handed rods and lines are provided. Led 
+by Mac Brown, the only FFI Master Casting 
+Instructor in North Carolina, teaching 
+switch rod casting since the early 1990s.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a switch rod in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A switch rod is a mid-length two-handed fly rod — typically 10 to 12 feet — designed to be cast with both single-hand and two-handed techniques. It bridges the gap between a standard single-hand rod and a full Spey rod, offering the reach and line control of a two-handed rod with the versatility to fish tight quarters. Switch rods excel on large rivers for streamers, wet fly swings, nymphing at distance, and mending at ranges a single-hand rod cannot manage."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the advantages of a switch rod for trout fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The primary advantage is comfort — distributing the casting load between two hands dramatically reduces arm and shoulder fatigue. Switch rods allow roll casts out 100+ feet to cover water too fast or deep to wade. They make mending at distance significantly easier, improve line control for dead drift nymphing at range, and allow active streamer presentations across water that single-hand rods cannot reach."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What fly line works best for a switch rod?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Line selection is more important than rod selection for switch rod fishing. Mac Brown uses a 450-grain head of approximately 45 feet. Skagit heads work well for heavy streamers and sinking presentations. Scandinavian heads work better for lighter wet flies and dry fly presentations. The line drives performance far more than the rod."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you nymph fish with a switch rod?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — the switch rod is exceptional for nymphing at distance. You can attach an indicator and fish dead drift at ranges a single-hand rod cannot control effectively. The additional length provides superior mending ability and keeps more line off the water for cleaner drifts in complex currents."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn to cast a switch rod in the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers the Spey Elite Casting Clinic — a 2-day intensive program covering switch rod and Spey casting mechanics, anchor placement, D-loop formation, and advanced two-handed casting techniques. All two-handed rods and lines are provided. Led by Mac Brown, the only FFI Master Casting Instructor in North Carolina."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

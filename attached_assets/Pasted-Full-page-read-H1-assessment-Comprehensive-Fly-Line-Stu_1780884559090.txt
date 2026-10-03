@@ -1,0 +1,170 @@
+Full page read. **H1 assessment:** "Comprehensive Fly Line Study at WCU" — strong and specific. Leave it. Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/comprehensive-university-fly-line-study/
+
+AEO — add immediately below H1:
+"Mac Brown's comprehensive fly line study 
+conducted at Western Carolina University 
+in 1995 tested popular 5-weight fly lines 
+for three critical performance variables — 
+friction (coefficient of friction), specific 
+gravity (floatation), and elasticity (stretch 
+ratio). The study tested Rio, Scientific 
+Anglers, Cortland, Monic, and Airflo lines 
+using laboratory instruments including a 
+Pasco photographic timer and precision 
+gripping jaws. The findings: look for the 
+lowest coefficient of friction for shooting 
+distance, the lowest specific gravity for 
+floating lines that float highest longest, 
+and a stretch ratio between 5-6% for the 
+best all-around trout fishing performance."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What is the coefficient of friction 
+in a fly line and why does it matter?
+A1: The coefficient of friction measures 
+how much resistance a fly line encounters 
+as it shoots through the rod guides — 
+the lower the number the less friction 
+and the greater the shooting distance 
+with the same effort. The WCU friction 
+test used a Pasco photographic timer 
+with a 70-gram weight falling through 
+time gates to measure COF precisely 
+across 71cm sections of running line. 
+Line coating quality is the primary 
+determinant of COF — and the difference 
+between brands is significant enough 
+to measurably affect casting distance.
+
+Q2: What is specific gravity in a 
+fly line and why does it matter?
+A2: Specific gravity measures the 
+density of fly line material relative 
+to water. A specific gravity below 1.0 
+means the material floats. The lower 
+the specific gravity number the higher 
+and longer the line floats on the water's 
+surface. For dry fly fishing and surface 
+presentations, look for the lowest 
+specific gravity available. Lines with 
+specific gravity above 1.0 sink — 
+intentionally in the case of sinking 
+lines and unintentionally in the case 
+of poorly manufactured floating lines.
+
+Q3: What is fly line elasticity and 
+which stretch ratio is best?
+A3: Elasticity measures how much a 
+fly line stretches under load — tested 
+in the WCU study by stretching 150cm 
+line sections with 25 pounds of force. 
+More supple lines stretch more and 
+develop fewer memory coils when pulled 
+from the reel. Most trout anglers 
+perform best with a stretch ratio 
+between 5% and 6%. Tournament casters 
+and subsurface anglers often prefer 
+lower stretch for better loop face 
+stability. Big-game anglers prefer 
+greater stretch to absorb the shock 
+of aggressive strikes. Line core — 
+braided or solid mono — significantly 
+influences elasticity and memory in 
+cold weather. Avoid solid mono cores 
+in cold climates.
+
+Q4: Why does fly line tip sinking 
+happen and how do you prevent it?
+A4: Fly line tip sinking occurs when 
+water absorbs into the tip of the fly 
+line over time — degrading floatation 
+and producing drag in the presentation. 
+Many manufacturers now fuse a loop at 
+the tip to prevent water absorption 
+and provide twice the floatation. Mac 
+Brown's preferred solution is the Dave 
+Whitlock splicing method — using a 
+#9 embroidery needle, pin vise, super 
+glue, and emery cloth to create a 
+direct splice between fly line and 
+leader that eliminates the bump of 
+a loop-to-loop connection entirely.
+
+Q5: Does fly line brand really 
+make a difference in fly casting?
+A5: Yes — and the WCU study proved 
+it with laboratory data. Coefficient 
+of friction, specific gravity, and 
+elasticity all vary measurably between 
+brands and directly affect shooting 
+distance, floatation quality, and 
+memory coil formation. Mac Brown has 
+been a Scientific Anglers brand 
+ambassador since early in his guiding 
+career — recommending their lines for 
+the consistent performance data that 
+supports their quality claims. The 
+best fly line investment is the one 
+matched to your specific fishing 
+conditions and casting style.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the coefficient of friction in a fly line and why does it matter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The coefficient of friction measures how much resistance a fly line encounters as it shoots through the rod guides — the lower the number the less friction and the greater the shooting distance with the same effort. The WCU friction test measured COF precisely across 71cm sections of running line. Line coating quality is the primary determinant of COF — and the difference between brands is significant enough to measurably affect casting distance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is specific gravity in a fly line and why does it matter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Specific gravity measures the density of fly line material relative to water. A specific gravity below 1.0 means the material floats. The lower the specific gravity number the higher and longer the line floats on the water's surface. For dry fly fishing and surface presentations, look for the lowest specific gravity available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is fly line elasticity and which stretch ratio is best?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Elasticity measures how much a fly line stretches under load. Most trout anglers perform best with a stretch ratio between 5% and 6%. Tournament casters and subsurface anglers prefer lower stretch for better loop face stability. Big-game anglers prefer greater stretch to absorb shock. Line core — braided or solid mono — significantly influences elasticity and memory in cold weather. Avoid solid mono cores in cold climates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does fly line tip sinking happen and how do you prevent it?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fly line tip sinking occurs when water absorbs into the tip over time — degrading floatation and producing drag in the presentation. Many manufacturers now fuse a loop at the tip to prevent water absorption. Mac Brown's preferred solution is the Dave Whitlock splicing method — using a #9 embroidery needle, pin vise, super glue, and emery cloth to create a direct splice that eliminates the bump of a loop-to-loop connection entirely."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does fly line brand really make a difference in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — and the WCU study proved it with laboratory data. Coefficient of friction, specific gravity, and elasticity all vary measurably between brands and directly affect shooting distance, floatation quality, and memory coil formation. The best fly line investment is the one matched to your specific fishing conditions and casting style."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

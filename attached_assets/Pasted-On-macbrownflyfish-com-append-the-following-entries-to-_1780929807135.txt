@@ -1,0 +1,77 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 3.
+
+    {
+      "@type": "Question",
+      "name": "What is a D-loop in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The D-loop is a loop of line that forms behind the rod tip before the delivery cast — it can be either dynamic or static. Spey casts use a dynamic D loop. A basic roll cast uses a static D loop. A properly formed D-loop loads the rod efficiently for the forward delivery cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is damping in a fly rod?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Damping refers to how quickly a rod recovers to a resting position at the end of rod motion. Lower damping numbers are better — rods that dampen quickly produce less tip oscillation after the stop, resulting in cleaner loops and greater accuracy. Damping can also refer to relaxing the grip after the stop to minimize rod tip oscillations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a delivery cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The delivery cast is the final cast that delivers the fly, leader, and line to a specific location on the water. Every casting sequence ends with a delivery cast — all prior strokes are setup moves to position the line for an efficient delivery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the double haul in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The double haul is a line acceleration technique where the line hand pulls the fly line on both the back cast and the forward cast. It increases rod load, tip speed, and line speed exponentially. It aids in keeping the rod tip straighter for longer, producing tighter loops at greater distances. Essential for distance casting, wind, and saltwater fly fishing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is drag in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drag occurs when the fly moves at a speed other than the current's speed in which it is traveling. Major drag is obvious — the fly skates rapidly across the surface. Micro drag is subtle — the tippet has increased tension that fish detect and refuse. Achieving drag-free drift is the most important skill in dry fly and nymph fishing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is drift in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drift in fly casting is a supplementary motion that takes place during the pause of the stroke for repositioning the rod. Drift offers an advantageous position for shooting line at the completion of the casting stroke. An upward drift toward the unrolling line opens up the casting stroke and arc angle, making it easier to shoot line. Drift is different from creep — drift is intentional repositioning, creep is an unintentional fault."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is effective rod length in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Effective rod length refers to the distance from the tip of the rod to the butt when the rod is bent under load during the cast. This is useful for video analysis since the rod is bent when performing casts. The shorter the effective rod length, the greater the maximum load — a deeply bent rod has a shorter effective length and is working harder."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are false casts in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "False casts are multiple casting strokes implemented without allowing the line to fall to the water or ground. They are used to extend line, change direction, dry a fly, or time a presentation. Most experienced anglers minimize false casting — every false cast is a cast that is not fishing. One back cast and a delivery is the goal on most presentations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the fly leg of a loop in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The fly leg is the part of the unrolling loop that contains the fly end to the center of the axis of the unrolling loop — the accelerating part of the loop. The fly leg is a mirror

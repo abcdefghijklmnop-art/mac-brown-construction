@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 20.
+
+    {
+      "@type": "Question",
+      "name": "What is dubbing in fly tying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dubbing is fly tying material that includes fur, yarn, wool, or synthetic fibers wrapped onto a thread with either wax or a dubbing loop — then wrapped around the shank of the hook to imitate the abdomen and thorax of an artificial fly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a drogue in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A drogue is a parachute device for slowing down the drift speed of a boat — essential equipment for lake fishing if there is wind present."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a dragonfly in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dragonflies are large and ferocious insects in the underwater world — excellent insectivores found in rivers, streams, and lakes. The large sizes of dragonflies make them an important food source for fish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a dory in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A dory is a fishing boat that has been around for centuries with simple lines and easy to build construction — usually 16-24 feet in length with high sides, an arched bottom, and sharp bows. Generally rowed using oars and oarlocks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is dry fly floatant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dry fly floatant is a chemical preparation applied to a dry fly to waterproof it immediately before use — available as a paste, liquid, or aerosol."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a Duncan loop knot in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Duncan loop is a loop knot from the early 1960s invented by Norman Duncan for tying the fly with a loop that tightens under pressure. It has been renamed by many others — Uni-Knot, Grinner — in an attempt to take credit for his idea."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a headwater in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The headwaters are an upstream section of the river before the main tributaries join it — typically much smaller in width and flow than the main river section."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are hero shots in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hero shots refer to anglers posing with fish for photographs — a practice that has become increasingly common with social media and the internet. Keep your fish wet and partially in the water in their natural setting for really great pictures."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a hook in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The hook is the foundation upon which a fly is tied — made from steel wire and either bronzed, cadmium-coated, or stainless. Hook designs vary widely and the style used depends on the type of fly being tied."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is hook size in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hooks are standardized based on the gape. Smaller numbers refer to larger hooks — for example a very small number 24 with a gape of 2mm to a very large number 2 with a gape of 10mm. Styles vary with wire thickness, gape, shank length, and hook eyes."
+      }
+    }
+
+Confirm saved. Stand by for Paste 20.

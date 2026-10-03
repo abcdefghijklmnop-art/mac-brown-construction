@@ -1,0 +1,238 @@
+Add the following AEO paragraphs to each page listed 
+below. Each paragraph goes immediately below the H1 
+and above any existing subhead or body copy. 
+Do not deploy yet. Confirm when saved.
+
+/fly-casting-instruction/
+"Mac Brown Fly Fish offers private fly casting lessons 
+in Bryson City, North Carolina — $400 per hour, 1-2 
+people at the same rate, single-hand, switch, and 
+Spey casting available. Led by Mac Brown, the only 
+FFI Master Casting Instructor in North Carolina. 
+Casting instruction is available year-round and is 
+the fastest way to eliminate faults, add distance, 
+and fish more difficult water effectively."
+
+/masterclass-fly-casting-workshop/
+"The Masterclass Fly Casting Workshop is an intensive 
+2-day casting school in Bryson City, North Carolina 
+— $1,550, led by FFI Master Casting Instructors. 
+Covers advanced loop control, distance casting, 
+accuracy, single-hand, switch, and Spey techniques. 
+Built for serious anglers ready to fish at a level 
+they have never reached."
+
+/smoky-mountain-weekend-schools/
+"Mac Brown Fly Fish offers weekend fly fishing schools 
+in Bryson City, North Carolina — $1,550, covering 
+dry fly, wet fly, nymph, and streamer fishing over 
+two days on the wild streams of the Great Smoky 
+Mountains. Small enrollment, FFI Certified 
+Instructors, all gear provided. The fastest way to 
+permanently change the way you fish."
+
+/river-navigation-academy/
+"The River Navigation Academy is a 2-day rowing and 
+drift boat school in Bryson City, North Carolina — 
+$1,550, led by ACA certified instructors with 60+ 
+years of combined time on moving water. Covers oar 
+frame setup, river reading from the rowing seat, 
+ferry angles, eddy turns, and boat safety. Essential 
+training for aspiring guides and serious boaters."
+
+/advanced-2-day-fly-casting-school/
+"The Advanced 2-Day Fly Casting School in Bryson 
+City, North Carolina is an intensive casting program 
+led by FFI Master Casting Instructors — $1,550, 
+covering advanced loop control, trajectory, timing, 
+and distance for single-hand rods. Built for 
+experienced casters ready to fish at a genuinely 
+advanced level."
+
+/spey-elite-casting-clinic/
+"The Spey Elite Casting Clinic in Bryson City, North 
+Carolina is an intensive 2-day program covering 
+switch rod and Spey casting mechanics, anchor 
+placement, D-loop formation, and advanced two-handed 
+casting techniques — $1,550, led by FFI Master 
+Casting Instructors. All two-handed rods and lines 
+provided."
+
+/saltwater-fly-casting-elite-masterclass-workshop/
+"The Saltwater Fly Casting Elite Masterclass in 
+Bryson City, North Carolina is a 2-day intensive 
+program covering the distance casting, accuracy, 
+and presentation skills required for saltwater fly 
+fishing — $1,550, led by FFI Master Casting 
+Instructors. Prepare for bonefish, tarpon, redfish, 
+and permit before your next saltwater trip."
+
+/online-fly-casting-lessons/
+"Mac Brown Fly Fish offers live online fly casting 
+lessons via FaceTime, Zoom, or Skype — $400, same 
+direct instruction as in-person, proven with students 
+on six continents. The only FFI Master Casting 
+Instructor in North Carolina teaching remotely. All 
+you need is a smartphone, open space, and a fly rod."
+
+/dry-fly-clinic/
+"The Comprehensive Dry Fly Clinic is a weekend 
+fly fishing school in Bryson City, North Carolina 
+— $1,550, covering surface presentations, reading 
+rises, matching the hatch, drag-free drift, and 
+the approach skills that fool selective trout. 
+Taught on the wild streams of the Great Smoky 
+Mountains by FFI Certified Instructors. All gear 
+provided, limited enrollment."
+
+/wet-fly-clinic/
+"The Comprehensive Wet Fly Clinic is a weekend 
+fly fishing school in Bryson City, North Carolina 
+— $1,550, covering the oldest and most underutilized 
+technique in fly fishing. Wet flies fish throughout 
+the water column at distance and are consistently 
+the most productive method when conditions align. 
+Taught on the wild streams of the Great Smoky 
+Mountains by FFI Certified Instructors."
+
+/nymph-fishing-clinic/
+"The Comprehensive Nymph Fishing Clinic is a weekend 
+fly fishing school in Bryson City, North Carolina 
+— $1,550, covering indicator nymphing, tight-line, 
+and Euro nymphing methods, depth control, rigging, 
+and the hookset timing most anglers never develop. 
+The most productive technique on most days — taught 
+on the wild streams of the Great Smoky Mountains 
+by FFI Certified Instructors."
+
+/streamer-clinic/
+"The Comprehensive Streamer Clinic is a weekend 
+fly fishing school in Bryson City, North Carolina 
+— $1,550, covering active retrieve and passive drift 
+presentations, depth control, presentation angles, 
+and the water-reading skills to locate the largest 
+trout in any river system. Taught on the wild 
+streams of the Great Smoky Mountains by FFI 
+Certified Instructors."
+
+/fly-fishing-seminars/
+"Mac Brown has been presenting fly fishing seminars, 
+casting clinics, and club programs nationally since 
+1987 — one of the longest-running presenters at The 
+Fly Fishing Show. Programs are fully customizable 
+for fly fishing clubs, TU chapters, and groups of 
+any size, covering casting mechanics, reading water, 
+entomology, stream tactics, and conservation. 
+Available nationwide."
+
+/group-corporate-fly-fishing/
+"Mac Brown Fly Fish offers corporate and group fly 
+fishing events in Bryson City, North Carolina — 
+fully custom programs for Fortune 500 companies, 
+sales teams, executive retreats, and friend groups 
+since 1988. All gear provided, all group sizes 
+welcome, all skill levels accommodated. No two 
+programs are alike."
+
+/bryson-city-fly-fishing/
+"Mac Brown Fly Fish offers guided fly fishing trips, 
+private casting instruction, and multi-day fly 
+fishing schools from Bryson City, North Carolina — 
+the original fly fishing outfitter in Western NC 
+since 1987. Bryson City is the county seat of Swain 
+County, home to more miles of quality wild trout 
+water than any other county in North Carolina, 
+including the Tuckasegee River Delayed Harvest 
+section minutes from downtown, the Nantahala River 
+tailwater 20 minutes away, and hundreds of miles 
+of wild mountain streams inside Great Smoky 
+Mountains National Park. Year-round guided trout 
+fishing for all skill levels — all gear provided, 
+no experience necessary."
+
+/great-smoky-mountains-fly-fishing/
+"The Great Smoky Mountains offer over 2,400 miles 
+of wild trout water in Swain County alone — wild 
+rainbow, brown, and brook trout in pristine mountain 
+streams flowing through the most visited national 
+park in America. Mac Brown Fly Fish has been guiding 
+these waters from Bryson City, North Carolina since 
+1987. Guided wade trips, float trips, and fly fishing 
+schools available year-round. All gear provided, all 
+skill levels welcome."
+
+/bio-mac-brown/
+"Mac Brown is the founder of Mac Brown Fly Fish in 
+Bryson City, North Carolina — the original fly 
+fishing guide and instructor in Western NC since 
+1987. The only FFI Master Casting Instructor in 
+North Carolina, recipient of the FFI Lifetime 
+Achievement Award (2023), the Mel Krieger Award 
+(2021), Field & Stream Angler of the Year, and 
+Southern Fly Fishing Hall of Fame inductee. Author 
+of Casting Angles, national presenter since 1987, 
+and co-teacher of the All-Day Advanced Fly Casting 
+Class with Gary Borger at The Fly Fishing Show."
+
+/casting-angles/
+"Casting Angles is a fly casting handbook written 
+by Mac Brown — the only FFI Master Casting 
+Instructor in North Carolina. Endorsed by the ACA, 
+FFI, and recognized instructors as a reference for 
+fly casting mechanics. Available signed directly 
+from Mac Brown for $34.95 plus shipping."
+
+/fly-fishing-certifications/
+"Mac Brown holds the FFI Master Casting Instructor 
+designation — the highest casting certification 
+offered by Fly Fishers International and the only 
+one held in North Carolina. Additional credentials 
+include the FFI Lifetime Achievement Award (2023), 
+the Mel Krieger Award (2021), Field & Stream Angler 
+of the Year (1999), Southern Fly Fishing Hall of 
+Fame inductee (2017), and Director of Teacher 
+Development for FFI Casting Instructor Education."
+
+/mcleods-highland-fly-fishing/
+"McLeod's Highland Fly Fishing was founded in 
+Bryson City, North Carolina in 1987 by Mac Brown 
+— the original fly fishing guide and instructor 
+in Western NC. The company name changed to Mac 
+Brown Fly Fish in the mid-1990s. Mac Brown remains 
+the same founder, the same waters, and the same 
+instruction philosophy that started it all — now 
+operating as the most credentialed fly fishing 
+outfitter in the state."
+
+/trout-fishing-nc/
+"North Carolina holds some of the finest wild trout 
+water in the eastern United States — with Swain 
+County alone containing over 2,400 miles of quality 
+trout streams, tailwaters, and mountain creeks. 
+Mac Brown Fly Fish has been guiding trout fishing 
+in North Carolina from Bryson City since 1987. 
+Guided float trips, wade trips, and fly fishing 
+schools available year-round for all skill levels."
+
+/learn-to-fly-fish-bryson-city/
+"Learn to fly fish in Bryson City, North Carolina 
+with Mac Brown Fly Fish — the original fly fishing 
+instructor in Western NC since 1987. The only FFI 
+Master Casting Instructor in the state teaches 
+complete beginners the correct foundation from day 
+one. Guided trips, private casting lessons, and 
+weekend schools available year-round. All gear 
+provided, no experience necessary."
+
+/wnc-fly-fishing-trail/
+"The Western North Carolina Fly Fishing Trail covers 
+some of the finest wild trout water in the eastern 
+United States — rivers, tailwaters, and mountain 
+streams flowing through Swain, Jackson, Macon, and 
+surrounding counties. Mac Brown Fly Fish has been 
+guiding the WNC Fly Fishing Trail waters from 
+Bryson City since 1987. Guided trips and instruction 
+available year-round for all skill levels."
+
+Confirm all AEO paragraphs are saved. 
+Do not run bash push.sh yet.

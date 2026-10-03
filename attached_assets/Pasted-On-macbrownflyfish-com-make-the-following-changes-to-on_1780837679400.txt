@@ -1,0 +1,145 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/learn-to-hammer-trout-with-dry-fly-techniques/
+
+AEO — add immediately below H1:
+"Dry fly fishing for trout requires mastering 
+active and passive presentations, curve and 
+pile casts, drag-free drift at distance, and 
+the ability to read rise forms accurately. 
+Mac Brown has been guiding dry fly fishing 
+on the Tuckasegee River, Nantahala River, 
+and wild Smoky Mountain streams since 1987 
+— and considers the dry fly the most 
+rewarding and technically demanding 
+discipline in fly fishing. Most anglers 
+never develop it because tight lining with 
+nymphs produces fish faster. That is exactly 
+why the dry fly separates serious anglers 
+from the rest."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: How do I get a drag-free drift with 
+a dry fly?
+A1: Drag-free drift requires three things 
+— the right leader length and design, a 
+well-placed upstream mend immediately 
+after the cast, and an approach angle 
+that minimizes line crossings over 
+conflicting currents. Long leaders of 
+12-16 feet minimum make mending less 
+disruptive to the fly. Curve and pile 
+casts build slack into the presentation 
+before the fly even lands — the most 
+advanced and effective dry fly skill 
+to develop.
+
+Q2: What is the difference between active 
+and passive dry fly presentations?
+A2: Passive presentations deliver the fly 
+with a drag-free drift at the same speed 
+as the current — imitating mayflies and 
+spent spinners that ride motionless in 
+the film. Active presentations impart 
+movement — a skate, skitter, or hop — 
+imitating the erratic behavior of caddis 
+and stoneflies on the surface. Reading 
+which the fish want on a given day is 
+the skill that separates good dry fly 
+anglers from great ones.
+
+Q3: What dry fly patterns work best in 
+the Smoky Mountains?
+A3: Attractor patterns with hot spots and 
+colored triggers consistently outperform 
+traditional drab patterns on Smoky Mountain 
+streams. CDC patterns, parachutes, and elk 
+hair caddis are the workhorses. Spinners 
+— the spent wing stage of mayflies — are 
+the most overlooked and most productive 
+dry fly situation on these waters. Carry 
+CDC spinners in sizes 16-22 and you will 
+consistently out-fish anglers who ignore 
+the spinner fall.
+
+Q4: When is dry fly fishing best in the 
+Smoky Mountains?
+A4: Spring is the strongest dry fly season 
+— March through May with quill gordons, 
+blue quills, and hendricksons. Fall brings 
+the October Caddis — the most aggressive 
+dry fly take from the largest brown trout 
+of the season. Summer dry fly fishing is 
+best with terrestrials in the morning 
+before water temperatures rise. Winter 
+provides midge and BWO dry fly 
+opportunities on overcast mild afternoons.
+
+Q5: How do I read rise forms to choose 
+the right dry fly?
+A5: A sipping rise with circular rings 
+indicates a fish taking spent spinners or 
+emergers in the film — use small CDC 
+patterns or trailing shuck emergers. A 
+splashy aggressive rise indicates a fish 
+chasing active insects — caddis or 
+stonefly patterns with a skated 
+presentation. A head-and-tail rise 
+indicates a fish taking duns just as they 
+lift off — parachutes and comparaduns in 
+the correct size and color.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I get a drag-free drift with a dry fly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drag-free drift requires the right leader length and design, a well-placed upstream mend immediately after the cast, and an approach angle that minimizes line crossings over conflicting currents. Long leaders of 12-16 feet minimum make mending less disruptive. Curve and pile casts build slack into the presentation before the fly lands — the most advanced dry fly skill to develop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between active and passive dry fly presentations?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Passive presentations deliver the fly with a drag-free drift at the same speed as the current — imitating mayflies and spent spinners. Active presentations impart movement — a skate, skitter, or hop — imitating the erratic behavior of caddis and stoneflies. Reading which the fish want on a given day separates good dry fly anglers from great ones."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What dry fly patterns work best in the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Attractor patterns with hot spots and colored triggers consistently outperform traditional drab patterns. CDC patterns, parachutes, and elk hair caddis are the workhorses. Spinners — the spent wing stage of mayflies — are the most overlooked and most productive dry fly situation on these waters. Carry CDC spinners in sizes 16-22 and you will consistently out-fish anglers who ignore the spinner fall."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When is dry fly fishing best in the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Spring is the strongest dry fly season — March through May with quill gordons, blue quills, and hendricksons. Fall brings the October Caddis — the most aggressive dry fly take from the largest brown trout of the season. Summer dry fly fishing is best with terrestrials in the morning. Winter provides midge and BWO dry fly opportunities on overcast mild afternoons."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I read rise forms to choose the right dry fly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A sipping rise with circular rings indicates a fish taking spent spinners or emergers in the film — use small CDC patterns or trailing shuck emergers. A splashy aggressive rise indicates a fish chasing active insects — caddis or stonefly patterns with a skated presentation. A head-and-tail rise indicates a fish taking duns just as they lift off — parachutes and comparaduns in the correct size and color."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

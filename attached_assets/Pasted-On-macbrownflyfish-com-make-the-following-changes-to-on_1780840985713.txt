@@ -1,0 +1,154 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/learn-fly-fish-black-caddis-hatch-tuckasegee-river/
+
+AEO — add immediately below H1:
+"The Black Caddis hatch on the Tuckasegee 
+River delayed harvest section in Bryson City, 
+NC is one of the finest dry fly events of 
+the early season — beginning on warm days 
+in early March and producing aggressive 
+surface feeding from both stocked and wild 
+trout. Mac Brown's preferred approach is a 
+three-fly rig fishing the film — Charlie 
+Craven's Clown Caddis on the point for 
+visibility, Gary LaFontaine's Sparkle 
+Emergent Pupa as the first dropper, and 
+an attractor emerger as the second dropper. 
+The key is fishing the film, not the 
+surface — and letting the emergers ride 
+just in or just below the meniscus."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: When does the Black Caddis hatch 
+on the Tuckasegee River?
+A1: The Black Caddis hatch on the 
+Tuckasegee River delayed harvest section 
+typically begins on warm days in early 
+March — when afternoon temperatures 
+climb enough to trigger the first 
+significant surface activity of the 
+season. The hatch runs through April 
+and is most productive on overcast 
+mild days when the insects emerge 
+steadily rather than in short bursts. 
+The delayed harvest section flows 
+right through downtown Bryson City 
+making it one of the most accessible 
+early season hatches in Western NC.
+
+Q2: What flies work best for the 
+Black Caddis hatch on the Tuckasegee?
+A2: Fish a three-fly rig focused on 
+the film. Mac Brown's preferred setup: 
+Charlie Craven's Clown Caddis on the 
+point for high visibility and film 
+riding, Gary LaFontaine's Sparkle 
+Emergent Pupa as the first dropper, 
+and an attractor emerger pattern as 
+the second dropper. Treat the dry fly 
+with Frogs Fanny or Dry Magic for 
+all-day floatation. The emerger 
+patterns should ride in or just below 
+the surface film — not deep in the 
+water column.
+
+Q3: What is the best technique for 
+fishing the Black Caddis hatch?
+A3: Fish the film — not the surface 
+and not deep. The most productive 
+approach during the Black Caddis hatch 
+is a three-fly rig with the best 
+floating pattern on the point and low-
+riding emergers as droppers. Cover 
+current lanes methodically — target 
+the foam lines and seams where emerging 
+insects concentrate. Swinging attractor 
+wet flies through rising fish is also 
+highly productive when fish are actively 
+feeding near the surface.
+
+Q4: Is the Tuckasegee River good for 
+fly fishing in early spring?
+A4: Yes — the Tuckasegee River delayed 
+harvest section through Bryson City is 
+one of the best early spring fly fishing 
+destinations in the eastern United States. 
+The delayed harvest program runs October 
+through May, keeping the river stocked 
+and well-managed through the prime spring 
+hatch season. Black Caddis, March Browns, 
+Hendricksons, and Quill Gordons all emerge 
+on the Tuckasegee in March and April — 
+often producing simultaneous mixed hatches 
+that challenge even experienced anglers.
+
+Q5: Can I book a guided float trip 
+for the Black Caddis hatch?
+A5: Yes — Mac Brown Fly Fish offers 
+guided float trips and wade trips on 
+the Tuckasegee River delayed harvest 
+section in Bryson City, NC year-round. 
+March and April float trips during the 
+Black Caddis hatch are among the most 
+exciting guided days of the entire year 
+— fish are active on the surface, 
+numbers are high, and the scenery of 
+the Smoky Mountains in early spring 
+is at its finest. All gear provided, 
+all skill levels welcome.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When does the Black Caddis hatch on the Tuckasegee River?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Black Caddis hatch on the Tuckasegee River delayed harvest section typically begins on warm days in early March and runs through April. It is most productive on overcast mild days when the insects emerge steadily. The delayed harvest section flows right through downtown Bryson City making it one of the most accessible early season hatches in Western NC."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What flies work best for the Black Caddis hatch on the Tuckasegee?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fish a three-fly rig focused on the film. Mac Brown's preferred setup: Charlie Craven's Clown Caddis on the point for high visibility, Gary LaFontaine's Sparkle Emergent Pupa as the first dropper, and an attractor emerger as the second dropper. Treat the dry fly with Frogs Fanny or Dry Magic. The emerger patterns should ride in or just below the surface film."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best technique for fishing the Black Caddis hatch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fish the film — not the surface and not deep. A three-fly rig with the best floating pattern on the point and low-riding emergers as droppers is the most productive approach. Cover current lanes methodically — target foam lines and seams where emerging insects concentrate. Swinging attractor wet flies through rising fish is also highly productive."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Tuckasegee River good for fly fishing in early spring?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — the Tuckasegee River delayed harvest section through Bryson City is one of the best early spring fly fishing destinations in the eastern United States. The delayed harvest program runs October through May. Black Caddis, March Browns, Hendricksons, and Quill Gordons all emerge in March and April — often producing simultaneous mixed hatches."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I book a guided float trip for the Black Caddis hatch?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — Mac Brown Fly Fish offers guided float trips and wade trips on the Tuckasegee River delayed harvest section year-round. March and April float trips during the Black Caddis hatch are among the most exciting guided days of the entire year — fish are active on the surface, numbers are high, and the scenery of the Smoky Mountains in early spring is at its finest. All gear provided, all skill levels welcome."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

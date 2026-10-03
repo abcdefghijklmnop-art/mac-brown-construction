@@ -1,0 +1,45 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 16.
+
+    {
+      "@type": "Question",
+      "name": "What are enlightenment casts in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Enlightenment casts are creative and imaginative uses of various actions when performing the casting stroke to gain a full understanding of the problems involved and their solutions on the stream. They include experimental casting explorations — casting in circles, figure eights, horizontal planes, and other non-standard motions that expand the caster's understanding of loop plane, tension, and transverse wave control."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are external system forces in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "External system forces are forces exerted on the objects of the fly casting system from outside. Examples include gravity, surface friction of water, wind, diverse currents, and obstacles surrounding the caster. Understanding external system forces helps casters adapt their stroke, timing, and loop plane to changing conditions rather than applying the same technique regardless of environment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are internal system forces in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Internal system forces are the interaction of the mechanics of the objects within the fly casting system and the relationships they exert on one another. The internal system includes all components of the caster and the equipment — rod, line, leader, and fly — and how they interact during the casting stroke. Optimizing internal system forces means making all components work together efficiently."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are complete system forces in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Complete system forces is a concept for viewing all internal and external systems in unison — the big picture — and the relationship of the interaction of all forces present on the objects of the system. This holistic view allows casting instructors and analysts to understand how changes in one variable affect every other variable in the casting system simultaneously."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a direction altered cast in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A direction altered cast is a casting stroke in which the forward or backward cast does not end up in the same plane from which it started. Direction altered casts allow the caster to change presentation angle without mul

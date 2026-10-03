@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 14.
+
+    {
+      "@type": "Question",
+      "name": "What is a follow through in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Follow through in fly casting is moving the rod in the direction of the unrolling loop after the stop. It can accomplish easier line shoots and extend the overall distance of the haul. Follow-through may be either a form of drift or a casting stroke depending on whether force is applied. An upward follow-through toward the unrolling loop is particularly effective for distance casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is forearm pronation in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Forearm pronation in fly casting is the rotation of the forearm backward from the anatomical position — rotating the palm downward or away from the caster. Pronation is used in various casting styles to apply force in specific directions and is particularly relevant for off-side casts, horizontal casting strokes, and certain mending techniques."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is forearm supination in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Forearm supination in fly casting is the rotation of the forearm forward when the palm faces opposite the anatomical position — rotating the palm upward or toward the caster. Supination is used in various casting styles for applying force in specific directions and is particularly relevant for underhand casts, certain Spey casting styles, and specific mending techniques."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the grip on a fly rod?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The grip is the handle of the fly rod — usually made of cork — where the angler pilots the rod. Many various grips are used depending on what you are attempting to accomplish. The three-point grip promotes a relaxed hand that makes a positive stop and pullback easier to achieve than the classic thumb-on-top grip. Grip pressure should remain light until the moment of the stop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the rod hand in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The rod hand is the hand that pilots or grips the fly rod while performing the cast. For most anglers this is the dominant hand. The rod hand controls the casting stroke, casting arc, rod plane, stop timing, and rotation — while the line hand controls hauling, line management, and retrieve. Coordinating both hands simultaneously is the key to efficient fly casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is latent rod force in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Latent rod force is the slight potential energy or spring of the rod when casting — the stored energy in the rod blank that is available for transfer into the line at the stop. Understanding latent rod force explains why a relaxed grip before the stop followed by a decisive squeeze produces more line speed than gripping tightly throughout the stroke."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is layout in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Layout is a concept used for measuring the displacement or initial positioning of the imitation, the leader, and the fly line following the casting stroke. Good layout means the fly, leader, and line land in the correct relationship to each other and to the fish — the fly first with adequate slack in the leader for a drag-free drift."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a level fly line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A level fly line is a line that is a consistent diameter throughout its length with no taper. Level lines are rarely used for standard fly fishing but are commonly used in tight-line Euro nymphing setups where the entire running line section outside the guides is part of the system. A level line used as a leader in Euro nymphing provides direct contact and superior strike detection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the load in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Load in fly casting is causing the rod to flex when moving the rod during the casting stroke — the resistance of the line weight and increasing momentum against the rod. Usually the rod is loaded most deeply when the line straightens or another similar tension is applied. A deeply loaded rod has more potential energy available for transfer into the fly line at the stop."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are parallel loop legs in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Parallel loop legs refers to the displacement of the fly and rod legs of the loop remaining parallel during the cast. This is the most aerodynamically efficient loop shape — useful for accuracy and distance casting. Parallel legs are produced by a straight rod tip path with smooth progressive acceleration. Any deviation from straight in the rod tip path produces non-parallel loop legs."
+      }
+    }
+
+Confirm saved. Stand by for Paste 14.

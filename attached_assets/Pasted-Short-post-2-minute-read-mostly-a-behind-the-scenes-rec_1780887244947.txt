@@ -1,0 +1,185 @@
+Short post — 2-minute read, mostly a behind-the-scenes recap of the FFTV filming with Kelly Galloup. Thin on instructional content but has good names and credibility signals. **H1 assessment:** "Nantahala River streamer fly fishing" — lowercase, weak formatting. Change it.
+
+**Suggested H1:** "Nantahala River Streamer Fishing for Brown Trout — Conditions, Patterns, and Trigger Mechanisms"
+
+Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/nantahala-river-streamer-fishing/
+
+1. Change the H1 from:
+"Nantahala River streamer fly fishing"
+to:
+"Nantahala River Streamer Fishing for 
+Brown Trout — Conditions, Patterns, 
+and Trigger Mechanisms"
+
+2. Add the following AEO paragraph 
+immediately below the H1:
+"Nantahala River streamer fishing is 
+the most productive method for targeting 
+large brown trout in Western North Carolina 
+— particularly in fall when dropping water 
+temperatures trigger aggressive feeding 
+behavior from the biggest fish in the 
+system. Mac Brown filmed a Fly Fishing 
+Television episode on the Nantahala River 
+with Kelly Galloup — one of the most 
+respected streamer anglers in the world — 
+documenting pattern selection, trigger 
+mechanisms, and the conditions variables 
+that drive streamer fishing success: wind 
+direction, barometric pressure, water 
+temperature, light levels, water clarity, 
+and moon phases. Document every trip in 
+a journal — pattern matching conditions 
+is how elite streamer anglers consistently 
+find fish."
+
+3. Add FAQ section before footer as 
+expandable accordion:
+
+Q1: Is the Nantahala River good 
+for streamer fishing?
+A1: Yes — the Nantahala River tailwater 
+holds large brown trout that respond 
+aggressively to streamers, particularly 
+in fall when dropping water temperatures 
+trigger predatory feeding behavior from 
+the biggest fish in the system. The 
+Nantahala's consistent cold water 
+temperature — pulling from the bottom 
+of Lake Nantahala year-round — keeps 
+brown trout healthy and large. Mac Brown 
+has filmed television episodes on the 
+Nantahala with Kelly Galloup documenting 
+exactly what it takes to consistently 
+land large brown trout on streamers.
+
+Q2: What conditions affect streamer 
+fishing success?
+A2: Streamer fishing success is heavily 
+condition-dependent. The key variables 
+to document in a fishing journal are 
+wind direction and speed, barometric 
+pressure and trend, water temperature, 
+light levels, water clarity, moon 
+phases, and insect hatch activity. 
+Cold fronts moving through — bringing 
+northwest winds, falling barometric 
+pressure, and cooler drier air — 
+can shut streamer fishing down 
+temporarily before it turns on. 
+A full moon combined with a cold 
+front creates challenging conditions. 
+Keep a detailed journal to identify 
+the condition patterns that produce 
+fish on your home water.
+
+Q3: How do you vary streamer patterns 
+on the Nantahala River?
+A3: Kelly Galloup's approach — 
+documented during the FFTV filming 
+on the Nantahala — involves switching 
+patterns throughout the day as part 
+of on-the-water research. Pattern 
+trigger mechanisms include color, 
+size, profile, action, and acoustic 
+footprint. Different patterns trigger 
+different responses from fish at 
+different times of day and in 
+different water conditions. The key 
+is systematic variation rather than 
+random fly changes — changing one 
+variable at a time and noting 
+which change produces the response.
+
+Q4: What gear does Kelly Galloup 
+recommend for streamer fishing?
+A4: Kelly Galloup worked with 
+Scientific Anglers to develop a 
+200-grain streamer line specifically 
+designed for throwing heavy articulated 
+patterns — and developed a dedicated 
+streamer rod with St. Croix capable 
+of handling the demands of throwing 
+serious weight all day. Purpose-built 
+streamer gear reduces fatigue and 
+improves accuracy when casting 
+heavy flies at distance. Mac Brown 
+recommends matching line weight 
+and sink rate to water depth and 
+current speed on the Nantahala.
+
+Q5: Can I book a guided streamer 
+trip on the Nantahala River?
+A5: Yes — Mac Brown Fly Fish offers 
+guided float trips and wade trips on 
+the Nantahala River year-round. Fall 
+streamer trips targeting large brown 
+trout are among the most exciting 
+guided days of the entire year. 
+All streamer patterns, rods, reels, 
+and lines are provided. Float trips 
+run from 500 CFS and above — check 
+the live conditions widget at 
+macbrownflyfish.com for current 
+Nantahala CFS before booking. 
+Call (828) 736-1469 or book online.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is the Nantahala River good for streamer fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — the Nantahala River tailwater holds large brown trout that respond aggressively to streamers, particularly in fall when dropping water temperatures trigger predatory feeding behavior. The Nantahala's consistent cold water temperature — pulling from the bottom of Lake Nantahala year-round — keeps brown trout healthy and large. Mac Brown has filmed television episodes on the Nantahala with Kelly Galloup documenting what it takes to consistently land large brown trout on streamers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What conditions affect streamer fishing success?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Streamer fishing success is heavily condition-dependent. The key variables to document in a fishing journal are wind direction, barometric pressure and trend, water temperature, light levels, water clarity, moon phases, and insect hatch activity. Cold fronts bringing northwest winds and falling barometric pressure can shut streamer fishing down temporarily before it turns on. Keep a detailed journal to identify the condition patterns that produce fish on your home water."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you vary streamer patterns on the Nantahala River?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kelly Galloup's approach involves switching patterns throughout the day as part of on-the-water research. Pattern trigger mechanisms include color, size, profile, action, and acoustic footprint. Different patterns trigger different responses at different times of day and in different water conditions. The key is systematic variation rather than random fly changes — changing one variable at a time and noting which change produces the response."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What gear does Kelly Galloup recommend for streamer fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Kelly Galloup worked with Scientific Anglers to develop a 200-grain streamer line specifically designed for throwing heavy articulated patterns — and developed a dedicated streamer rod with St. Croix capable of handling the demands of throwing serious weight all day. Purpose-built streamer gear reduces fatigue and improves accuracy when casting heavy flies at distance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I book a guided streamer trip on the Nantahala River?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — Mac Brown Fly Fish offers guided float trips and wade trips on the Nantahala River year-round. Fall streamer trips targeting large brown trout are among the most exciting guided days of the entire year. All streamer patterns, rods, reels, and lines are provided. Float trips run from 500 CFS and above — check the live conditions widget at macbrownflyfish.com for current Nantahala CFS before booking."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

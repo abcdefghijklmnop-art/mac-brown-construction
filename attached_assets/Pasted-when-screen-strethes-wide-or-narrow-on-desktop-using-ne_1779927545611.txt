@@ -1,0 +1,77 @@
+when screen strethes wide or narrow on desktop using next.js is there a code to keep the pic remaining in the screen without loosing the image cropping as its adjusted ?
+
+8:17 PM
+Yes! This is handled with CSS object-fit and responsive container techniques. Here are the key approaches for Next.js:
+
+Using Next.js <Image> Component (Recommended)
+jsx
+import Image from 'next/image';
+
+// Option 1: Fill parent container (most flexible)
+<div style={{ position: 'relative', width: '100%', height: '400px' }}>
+  <Image
+    src="/your-image.jpg"
+    alt="Description"
+    fill
+    style={{ objectFit: 'cover' }}   // crops to fill, never distorts
+  />
+</div>
+objectFit values:
+
+cover — fills the container, crops edges (most common for banners/heroes)
+contain — fits whole image inside, may show empty space
+fill — stretches to fill (distorts — avoid this)
+Hero/Banner That Stays Full-Width at Any Screen Size
+jsx
+<div style={{
+  position: 'relative',
+  width: '100%',
+  height: 'clamp(200px, 40vw, 600px)', // responsive height
+}}>
+  <Image
+    src="/hero.jpg"
+    alt="Hero"
+    fill
+    style={{
+      objectFit: 'cover',
+      objectPosition: 'center top', // anchor crop point
+    }}
+    priority
+  />
+</div>
+objectPosition controls where the crop focuses — useful to keep a face or subject visible:
+
+center center (default)
+top, bottom, left, right
+20% 30% (precise pixel/percent anchoring)
+With Tailwind CSS (cleaner syntax)
+jsx
+<div className="relative w-full h-[400px] md:h-[600px]">
+  <Image
+    src="/your-image.jpg"
+    alt="Description"
+    fill
+    className="object-cover object-center"
+  />
+</div>
+Plain <img> Tag (without Next.js Image)
+css
+img {
+  width: 100%;
+  height: 400px;         /* fixed height */
+  object-fit: cover;     /* smart crop */
+  object-position: center;
+}
+Key Rule of Thumb
+Goal	Use
+Full-width banner, smart crop	fill + object-fit: cover
+Show full image, no crop	fill + object-fit: contain
+Anchor crop to subject	object-position: top or 50% 20%
+Responsive height	clamp() or Tailwind responsive classes
+The fill + object-fit: cover combo is what you want in 90% of cases — it keeps the image filling its container at any width without ever distorting or losing it off-screen.
+
+
+
+
+
+

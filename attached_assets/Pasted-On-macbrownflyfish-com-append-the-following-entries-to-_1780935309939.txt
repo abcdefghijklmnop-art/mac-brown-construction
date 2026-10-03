@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 14.
+
+    {
+      "@type": "Question",
+      "name": "What is Fly Fishers International?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fly Fishers International is the global organization dedicated to the legacy of fly fishing for all fish in all waters by focusing on conservation, education, and a sense of community."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a fly reel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The fly reel is the fishing reel used in fly fishing to hold the fly line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a fly rod?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A fly rod is a type of fishing rod designed to cast a fly line. The reel attaches at the butt of the rod with the rod handle always above the reel. Fly rods usually have more line guides than other types of rods of the same length. Common lengths are between 7 and 9 feet. Materials used in fly rod construction are bamboo, fiberglass, and graphite."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a fly line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A fly line is a special line designed for fly fishing — made of a tapered plastic coating over a braided Dacron or nylon core. Available in several tapers and in floating, sinking, and sink-tip styles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a hair bug in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A hair bug is a fly constructed using hair spinning whereby buoyant hollow winter-coat hair from deer, elk, antelope, or caribou is made to flare and form a solid shape. Hair bugs are commonly used for warm-water fish but a mouse imitation hair bug is excellent for big brown trout on certain waters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a wading boot in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wading boots are boots designed specifically to be worn over stocking-foot waders. Their soles are made of either felt or rubber and many are also stud-compatible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are waders in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Waders are available in many styles and made of different waterproof fabrics. They come in two main types — boot foot with built-in boots and stocking foot requiring separate wading shoes. Boot-foot waders have built-in boots enabling you to just pull them on. Stocking-foot waders require a separate pair of wading shoes that generally provide better support and traction."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a wader belt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A wader belt is an adjustable belt cinched near the top of chest waders to keep out water — particularly recommended as a precaution in the event of a fall to prevent the waders from filling with water."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a wading staff in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A wading staff is a walking stick adapted to provide stability to a wading fly angler when moving through fast or deep water. Some wading staffs are foldable and can be kept in a fishing vest pocket until needed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a vest in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A vest is a fly fisher's garment used to store gear such as fly boxes, tippet, and nippers while fly fishing."
+      }
+    }
+
+Confirm saved. Stand by for Paste 14.

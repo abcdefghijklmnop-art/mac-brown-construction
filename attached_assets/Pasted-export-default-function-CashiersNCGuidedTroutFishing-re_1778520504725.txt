@@ -1,0 +1,201 @@
+export default function CashiersNCGuidedTroutFishing() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            Guided Fly Fishing · Western North Carolina · Since 1987
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Cashiers NC Guided Trout Fishing
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed">
+            Cashiers sits in the heart of some of the finest trout country in the eastern United States. World-class guided fly fishing is closer than you think.
+          </p>
+          
+            href="/contact"
+            className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors inline-block"
+          >
+            Book Your Trip
+          </a>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Best Fly Fishing Day Trip from Cashiers, NC
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Cashiers is surrounded by some of the most spectacular mountain scenery and finest trout water in the Southeast — and most of it is within easy reach for a guided fly fishing day trip. The creeks, rivers, and lakes of Western North Carolina offer an extraordinary variety of fishing experiences, and Mac Brown Fly Fish has been unlocking that water for visiting anglers since 1987.
+            </p>
+            <p>
+              As the original instructor and outfitter in Western North Carolina, Mac Brown Fly Fish offers more choices for trout fishing near Cashiers than any other operation in the Southeast. Whether you want to float a tailwater loaded with trout, wade a crystal-clear mountain stream in the national park, or fish the stillwater lakes of the Smoky Mountains for trophy-sized fish — the options are here and the guides who know them best are ready.
+            </p>
+            <p>
+              All gear is provided and a streamside lunch is included on full-day programs. You show up and we handle everything else.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Waters */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Water — Creeks, Rivers & Lakes Within Reach
+          </h2>
+          <p className="text-gray-600 italic mb-8">
+            Cashiers sits at the crossroads of some of the finest trout country in the southern Appalachians. Here is what is available within a short drive:
+          </p>
+
+          <div className="space-y-6">
+            {[
+              {
+                name: "Tuckasegee River — Delayed Harvest",
+                distance: "~45 minutes from Cashiers",
+                description: "The most popular guided water in Western NC — and the closest major tailwater to Cashiers. From October through May the Delayed Harvest section in Webster, NC is loaded with exceptional numbers of trout. Float trips cover miles of productive water from a drift boat. Wade trips get you into the river where the fish are holding. Either way this is a day on the water you will not forget.",
+                highlight: "Best for: Float trips, wade trips, all skill levels, October through May",
+              },
+              {
+                name: "Nantahala River",
+                distance: "~1 hour from Cashiers",
+                description: "The top tailwater in the state of North Carolina. Cold, clear, and productive every month of the year, the Nantahala holds exceptional wild brown and rainbow trout in one of the most beautiful river corridors in the eastern United States. A challenging and deeply rewarding fishery for anglers who want a genuine wild trout experience.",
+                highlight: "Best for: Wild trout, technical fishing, year-round",
+              },
+              {
+                name: "Local Cashiers Area Streams",
+                distance: "Minutes from Cashiers",
+                description: "The Cashiers Plateau at over 3,500 feet elevation is surrounded by its own network of quality mountain streams — the Horsepasture River, the Whitewater River, and several smaller creeks that hold wild trout in stunning natural settings. Some of the most beautiful water in the region is right outside your door.",
+                highlight: "Best for: Local wild trout, convenience, pristine mountain scenery",
+              },
+              {
+                name: "Great Smoky Mountains National Park Streams",
+                distance: "~1 hour from Cashiers",
+                description: "Deep Creek, Noland Creek, Forney Creek, the Oconaluftee, and dozens of other mountain streams flowing through the national park offer outstanding wild trout fishing in a protected wilderness setting. Native brook trout in the high-elevation streams. Wild rainbow and brown trout throughout. Pristine, uncrowded, and genuinely wild.",
+                highlight: "Best for: Backcountry adventure, wild native trout, pristine water",
+              },
+              {
+                name: "Smoky Mountain Lakes",
+                distance: "~1 hour from Cashiers",
+                description: "Fontana, Cheoah, Calderwood, and the other mountain lakes of the Smoky Mountains offer a completely different fly fishing experience — and some of the largest trout available anywhere in the region. Lake fishing is most productive from late fall through early spring. The fish run bigger, fight harder, and give you a story worth telling.",
+                highlight: "Best for: Trophy-sized trout, stillwater fishing, fall through spring",
+              },
+            ].map((water, index) => (
+              <div key={index} className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+                <div className="flex flex-wrap items-start justify-between gap-4 mb-3">
+                  <h3 className="text-xl font-bold text-[#1a3a5c]">{water.name}</h3>
+                  <span className="text-sm font-bold text-[#1D9E75] bg-green-50 px-3 py-1 rounded-full">
+                    📍 {water.distance}
+                  </span>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-3">{water.description}</p>
+                <p className="text-sm font-semibold text-[#2E6DA4] italic">{water.highlight}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What We Offer */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Every Way to Experience the Water
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-8">
+            Mac Brown Fly Fish offers the full spectrum of guided fly fishing experiences for Cashiers visitors — from single-day guided trips to multi-day schools and private instruction. Whatever your goal, whatever your skill level, there is a program built for you.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              { title: "Guided Float Trips", desc: "Drift the Tuckasegee in a Clackacraft or NRS boat. Cover water, catch fish, learn the river.", link: "/instructional-float-trips" },
+              { title: "Guided Wade Trips", desc: "Get in the water. Read the river. Learn to fish it with intention and precision.", link: "/instructional-wade-trips" },
+              { title: "Guided Lake Trips", desc: "Trophy trout on the stillwater lakes of the Smoky Mountains. A different game entirely.", link: "/instructional-lake-trips" },
+              { title: "Fly Casting Instruction", desc: "Private lessons for all skill levels. Guaranteed or free of charge.", link: "/fly-fishing-instruction" },
+              { title: "Fly Fishing Schools", desc: "Weekend immersion programs covering the full craft from foundation to advanced technique.", link: "/smoky-mountain-weekend-schools" },
+              { title: "Group & Corporate Trips", desc: "Customized fly fishing experiences for groups of any size. Team building on the water.", link: "/group-corporate-fly-fishing" },
+              { title: "Backcountry Trips", desc: "Remote water, wild fish, pristine wilderness. The Smoky Mountains backcountry awaits.", link: "/backcountry-trout-fishing" },
+              { title: "Online Casting Lessons", desc: "Live video instruction from anywhere. Get ready for your Cashiers trip before you arrive.", link: "/fly-fishing-instruction" },
+            ].map((item, i) => (
+              
+                key={i}
+                href={item.link}
+                className="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-md transition-shadow block"
+              >
+                <h3 className="text-lg font-bold text-[#1a3a5c] mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+                <p className="text-[#1D9E75] font-bold text-sm mt-3">Learn more →</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What to Bring */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What to Bring
+          </h2>
+          <p className="text-gray-700 text-lg mb-6">
+            All rods, reels, flies, leaders, and waders are provided. A streamside lunch is included on full-day programs. Here is what to bring from home:
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              "Rain gear — mountain weather changes without warning",
+              "Warm layers — mornings on the water can be cool year-round",
+              "Polarized sunglasses — essential for spotting fish and reading water",
+              "A hat with a brim — sun and glare protection",
+              "Sunscreen and lip balm",
+              "Clothing in earth tones — blend into your surroundings",
+              "Valid NC fishing license if over 16 — ncwildlife.org or 1-888-248-6834",
+              "Trout stamp — required outside GSMNP and Cherokee Tribal Waters",
+            ].map((item, i) => (
+              <div key={i} className="flex items-start gap-3 bg-white rounded-lg p-4 border border-gray-200">
+                <span className="text-[#1D9E75] font-bold mt-0.5">✓</span>
+                <span className="text-gray-700">{item}</span>
+              </div>
+            ))}
+          </div>
+          <p className="text-gray-500 text-sm mt-6 italic">
+            A tribal license for Cherokee waters can be purchased at stores in Cherokee, NC. A NC or TN fishing license is required for waters within the Great Smoky Mountains National Park.
+          </p>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-[#1a3a5c] text-white py-16 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6">
+            World-Class Trout Fishing — Right Outside Cashiers
+          </h2>
+          <p className="text-lg text-[#a0c4e0] mb-8 leading-relaxed">
+            You are surrounded by some of the finest fly fishing in the eastern United States. The only thing between you and a great day on the water is a guide who knows where to go and how to get you there. Mac Brown has been doing exactly that since 1987 — longer than anyone else in Western North Carolina.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            
+              href="/contact"
+              className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Book Your Cashiers Trip
+            </a>
+            
+              href="tel:8287361469"
+              className="bg-white hover:bg-gray-100 text-[#1a3a5c] font-bold px-10 py-4 rounded-lg text-lg transition-colors"
+            >
+              Call 828-736-1469
+            </a>
+          </div>
+          <p className="text-[#a0c4e0] mt-6 text-sm">
+            macbrownflyfish@gmail.com · flyfishingguideschool.com · Bryson City, NC · Since 1987
+          </p>
+        </div>
+      </section>
+
+    </div>
+  );
+}

@@ -1,0 +1,50 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/learning-to-nymph-fish/
+then run bash push.sh to deploy. 
+No other changes.
+
+    {
+      "@type": "Question",
+      "name": "What is the jigging technique in nymph fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "David Woody from Andrews, NC is credited with a jigging technique that moves the rod tip in small circles as the flies straighten well below the angler. This imparts small forward erratic movements to the flies as they ascend through the water column. His style of jigging flies has influenced many anglers in and around western NC."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are wet fly droppers in nymph fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fishing wet flies is the most overlooked technique throughout the country. They can cover vast amounts of water quickly enabling you to find fish in a hurry. Wet flies are usually tied without additional weight on the hook when fish are active. More advanced wet fly anglers use line control at great distance to sink the flies by mending line upstream then mending downstream when the flies are in a likely fish-holding spot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What factors influence trout behavior and nymph fishing success?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Light conditions, water clarity, barometric pressure, wind direction, moon phases, water temperature, and many other factors ensure things stay interesting on the stream. The biggest determining factor for success is how quickly you adjust to the behavior of the fish on that given day. Keep a journal if you want to learn how these elements influence fish activity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What advantage does suspender or indicator nymphing have over other methods?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Suspender fishing offers advantages for fishing far away — over 35 feet. However it may limit opportunities because it is fixed at a set distance. Other methods such as dead drifting, swinging, jigging, and the induced strike can be much more effective for fishing close — under 35 feet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who is credited with writing about lifting flies through the water column in America?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Jim Leisenring is credited in America with writing about lifting flies through the water column in the 1940s. There are times when nymphing where the only way to induce fish to eat is by lifting the flies through the water column."
+      }
+    }
+
+Then run bash push.sh to deploy. 
+No other changes.

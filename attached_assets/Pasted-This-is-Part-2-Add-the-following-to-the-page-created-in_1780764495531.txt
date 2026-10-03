@@ -1,0 +1,121 @@
+This is Part 2. Add the following to the page created 
+in Part 1. Then deploy.
+
+H2: Frequently Asked Questions
+Display as expandable accordion items:
+
+Q1: What is the best month to fly fish the Smoky Mountains?
+A1: The best month to fly fish the Smoky Mountains is 
+March. Water temperatures climb into the ideal mid-50s 
+range, the first major hatches of the year begin 
+emerging, and crowds have not yet arrived. Spring overall 
+— March through May — is the strongest season on both 
+the delayed harvest sections and the wild streams of 
+Great Smoky Mountains National Park.
+
+Q2: What water temperature is best for trout fishing?
+A2: Mid-50s Fahrenheit is ideal. Carry a thermometer 
+every time you fish. When temperatures push into the 
+mid-60s in summer, trout activity drops sharply — get 
+off the water or target warm water species instead.
+
+Q3: Can you fly fish the Smoky Mountains in summer?
+A3: Yes, but the window is narrow. Fish early morning 
+before the sun loads the water. Once temperatures hit 
+the mid-60s stop fishing for trout. Summer is terrestrial 
+season — ants, beetles, and hoppers fished tight to the 
+banks produce well during the early morning window.
+
+Q4: Is winter fly fishing good in the Smoky Mountains?
+A4: Yes — winter is underrated. Blue-winged olive and 
+midge hatches produce genuine dry fly opportunity on 
+overcast mild days. Nymphing and wet fly fishing remain 
+productive throughout winter. The biggest advantage is 
+solitude — world-class trout water with almost no crowds.
+
+Q5: What are the best hatches in the Smoky Mountains?
+A5: Spring brings blue quills, quill gordons, and 
+hendricksons early, followed by increasing variety 
+through April and May. Fall is defined by the October 
+Caddis hatch — aggressive dry fly takes from large brown 
+trout. Winter midge and BWO hatches provide dry fly 
+opportunity on mild overcast days.
+
+Q6: What rivers are best for trout fishing in the Smokies?
+A6: The Tuckasegee River through Bryson City, the 
+Nantahala River, Deep Creek, and the Oconaluftee River 
+are the top fisheries. The Tuckasegee and Nantahala 
+delayed harvest sections fish well year-round. Wild 
+streams of Great Smoky Mountains National Park offer 
+more technical water with wild brown and rainbow trout.
+
+H2: Book a Guided Trip
+Mac Brown Fly Fish offers guided float trips and wade 
+trips on the Tuckasegee, Nantahala, and wild Smoky 
+Mountain streams year-round. Every trip is tailored 
+to the season, the conditions, and your goals.
+
+CTA buttons:
+- "Book a Trip" linking to /reserve
+- "(828) 736-1469" linking to tel:+18287361469
+
+Add this JSON-LD block to the <head>:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best month to fly fish the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The best month to fly fish the Smoky Mountains is March. Water temperatures climb into the ideal mid-50s range, the first major hatches of the year begin emerging, and crowds have not yet arrived. Spring overall — March through May — is the strongest season on both the delayed harvest sections and the wild streams of Great Smoky Mountains National Park."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What water temperature is best for trout fishing in the Smokies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mid-50s Fahrenheit is the ideal water temperature for trout fishing in the Smoky Mountains. Carry a thermometer every time you fish. When temperatures push into the mid-60s in summer, trout activity drops sharply and it is time to get off the water or target warm water species instead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you fly fish the Smoky Mountains in summer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, but the window is narrow. Fish early morning before the sun loads the water. Once temperatures hit the mid-60s, stop fishing for trout. Summer is terrestrial season — ants, beetles, and hoppers fished tight to the banks produce well during the early morning window. Target warm water species once trout temperatures become stressful."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is winter fly fishing good in the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — winter is underrated on the Smokies. Blue-winged olive and midge hatches produce genuine dry fly opportunity on overcast, mild days. Nymphing and wet fly fishing remain productive throughout winter. The biggest advantage is solitude — world-class trout water with almost no crowds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best hatches for fly fishing the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Spring brings the strongest hatches — blue quills, quill gordons, and hendricksons emerge early, followed by increasing variety through April and May. Fall is defined by the October Caddis hatch, which produces aggressive dry fly takes from large brown trout. Winter midge and BWO hatches provide dry fly opportunity on mild, overcast days."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What rivers are best for trout fishing in the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Tuckasegee River through Bryson City, the Nantahala River, Deep Creek, and the Oconaluftee River are among the top fisheries in the Smoky Mountains. The Tuckasegee and Nantahala delayed harvest sections fish well year-round. The wild streams of Great Smoky Mountains National Park offer more technical water with wild brown and rainbow trout."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy.

@@ -1,0 +1,12 @@
+Add the following improvements to my blog post template in Next.js. Apply them to every blog post page:
+1. JSON-LD Structured Data
+Add a <Script> tag in the <head> of each blog post page with JSON-LD structured data using the Article schema type. It should include: headline (post title), author (name: "Mac Brown", url: "https://macbrownflyfish.com/bio-mac-brown"), datePublished (post date), description (post meta description), image (post hero image URL), publisher (name: "Mac Brown Fly Fish", logo: "https://macbrownflyfish.com/mbff-logo.webp"), and url (canonical URL of the post). These values should be passed in as props so each post can have its own data.
+2. Estimated Read Time
+Calculate read time automatically from the post body content string. Use the formula: word count divided by 200, rounded up to the nearest minute. Display it near the post date in the format "5 min read". Accept the body content as a prop to calculate this.
+3. Related Posts Section
+Add a Related Posts section at the bottom of each blog post, above the CTA block. Accept a relatedPosts prop that is an array of up to 3 objects, each with: title, slug, category, and date. Display them as a simple horizontal row of cards with the category label, title, and a "Read" link pointing to /blog/[slug].
+4. Image Alt Text Audit Helper
+Add a prop called heroAlt (string) for the hero image alt text, and a prop called bodyImageAlt (string) for the inline body image alt text. Make both required props with a console warning in development if they are empty or missing.
+5. Topic-Specific CTA Block
+Replace the generic CTA footer ("All Programs / Casting Instruction / Book a Trip") with a dynamic CTA component that accepts a cta prop. The cta prop should be an object with: label (string), description (string), and url (string). Default fallback if no prop is passed should be: label: "Book a Trip", description: "Ready to get on the water?", url: "/contact". This way each post can link to the most relevant school, clinic, or trip page instead of always showing the same three generic links.
+All of these should be added to a shared BlogPostLayout component that wraps every blog post page and accepts all the above as props. Do not hardcode any of these values inside the layout — everything should come in through props so individual posts can customize them.

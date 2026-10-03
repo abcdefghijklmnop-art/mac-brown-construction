@@ -1,0 +1,20 @@
+Pulled the live page. Here's the honest read:
+
+**Current state:** ~400 words, 2-min read, dated March 2017, no FAQ section, no visible FAQPage schema. It's a thin "why Bryson City" post — solid bones (government land stat, three-river diversity, conservation angle) but way under-built for what it's trying to rank for.
+
+**Are the keywords worth the investment? Yes, for three reasons:**
+
+1. **The keyword set is real and non-competing internally.** Bryson City trout fishing, Smoky Mountains fly fishing, Nantahala River, Tuckasegee River, wild trout NC — these aren't just fluff meta-keywords, they're genuine long-tail terms with local intent, and this post is the *only* FFGS blog content targeting them. It's not fighting your own MBFF content for the same terms since FFGS's framing is guide-training, not guided-trips.
+
+2. **It sits at the intersection of your two clearest priorities.** This page could simultaneously support the `bryson-city-fly-fishing-guide-school` landing page (already linked) AND serve as the anchor/hub post that your other 9 unsupported FFGS city pages (Asheville, Charlotte, Chattanooga, Knoxville, Nashville, Greenville, Birmingham, Raleigh) can point back to for the "why train in the Smokies" authority argument — one strong hub, many spokes.
+
+3. **AEO/FAQ fits naturally here** — questions like "why is Bryson City called the Trout Capital of the East," "what rivers do FFGS students train on," "is Bryson City good for wild trout fishing" are exactly the kind of direct-answer queries AEO targets, and the content already has the factual bones (85% government land, 3 distinct water types, GSMNP visitor stats) to answer them credibly without fabricating anything new.
+
+**What "great" looks like for this page:**
+- Expand each H2 section with more depth (currently each is 2-3 sentences)
+- Add a proper FAQ section (5-8 questions) with FAQPage JSON-LD
+- Add AEO-style direct-answer paragraphs near the top for the core "why Bryson City" question
+- Strengthen internal links: to the other 9 FFGS city pages, to `/fly-fishing-guide-school/`, and cross-brand to MBFF's `wnc-fly-fishing-trail` and `great-smoky-mountains-fly-fishing`
+- Update the dateline since 2017 is stale for a page you want treated as fresh/authoritative
+
+Want me to draft the expanded content (new section copy + FAQ questions/answers) right here in chat now, so you can review before it goes to Replit?

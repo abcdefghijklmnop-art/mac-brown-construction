@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 16.
+
+    {
+      "@type": "Question",
+      "name": "What is a damselfly in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A damselfly is an important still-water aquatic insect most commonly imitated in the nymphal form. Damselfly hatches are usually abundant in the summer months. The adult looks similar to a dragonfly but smaller and folds its wings along its back when at rest."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a curve cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A curve cast is a casting technique that allows the cast to land in an abrupt curve. Many fishing scenarios use curves for enhancing the presentation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a cone head fly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A cone head fly is the same as a beadhead but the bead is cone-shaped."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a clinch knot in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The clinch knot is the most common knot for attaching a hook or any other ring to the line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a catadromous fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Catadromous describes fish that migrate from freshwater to the sea for spawning."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a caudal fin on a fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The caudal fin is a large tail fin on the very back of a fish that provides thrust when swimming."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a cast of flies in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The cast of flies refers to the rigging and placement of the droppers and point fly on the leader — common terminology in the United Kingdom. A cast of flies would include a bob fly, dropper, and point fly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a bucktail fly pattern?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A bucktail is a streamer fly tied to imitate a fish. The fly usually features a long segment of hair from a deer's tail laid back from the eye to the bend of the hook."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a break-off in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A break-off occurs when a fish snaps the line — usually due to the angler applying too much pressure. It can also result from an undersized tippet, poor quality tippet material, or a poorly tied knot."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a bobbin in fly tying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The bobbin is the fly tying tool that holds the tying thread."
+      }
+    }
+
+Confirm saved. Stand by for Paste 16.

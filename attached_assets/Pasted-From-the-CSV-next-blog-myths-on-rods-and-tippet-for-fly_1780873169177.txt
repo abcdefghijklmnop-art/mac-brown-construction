@@ -1,0 +1,165 @@
+From the CSV — next:
+
+`/blog/myths-on-rods-and-tippet-for-fly-fishing/` — 0 clicks, 1 impression, position 11.0
+
+Pulling it now.Good — got enough from the search snippet. 
+
+**H1 assessment:** Current H1 is likely "Myths on Rods and Tippet for Fighting Fish" — that's strong and search-relevant. Leave it.
+
+Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/myths-on-rods-and-tippet-for-fly-fishing/
+
+AEO — add immediately below H1:
+"The myth that light rods and fine tippet 
+kill fish has been debated on fly fishing 
+forums for decades — and is largely wrong. 
+Mac Brown has spent 34+ years guiding and 
+instructing fly fishing in Bryson City, NC 
+and consistently finds that the drive for 
+efficiency — using the largest tippet you 
+can effectively get away with for the 
+situation at hand — is what separates 
+serious anglers from the masses. A longer 
+rod provides more leverage during the fight, 
+easier presentations at distance, and 
+simpler single-handed Spey casts — not a 
+disadvantage for fighting fish."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: Does light tippet kill more fish 
+in fly fishing?
+A1: Not necessarily — the myth that 
+light tippet kills fish oversimplifies 
+a complex issue. The real culprit is 
+prolonged fights from poor fish-fighting 
+technique, not tippet diameter alone. 
+The correct approach is to use the 
+largest tippet you can effectively 
+get away with for the situation at 
+hand — matching tippet to conditions 
+and fighting fish efficiently to 
+minimize time out of the water. A 
+fish fought and landed in 60 seconds 
+on 6X is less stressed than one 
+played for 5 minutes on 4X.
+
+Q2: Do lighter fly rods make it 
+harder to fight trout?
+A2: No — rod weight has minimal 
+impact on fish fighting ability for 
+trout. What matters is rod length 
+and fighting angle. A longer rod 
+provides more leverage by keeping 
+the fish off balance and maintaining 
+side pressure more effectively than 
+a short rod. The myth that heavy 
+rods fight fish better is not 
+supported by guiding experience — 
+technique and efficiency are what 
+land fish quickly and safely.
+
+Q3: What tippet size should I use 
+for trout fishing in the Smokies?
+A3: Use the largest tippet you can 
+effectively get away with for the 
+specific situation. In fast broken 
+water with larger flies — 3X to 4X. 
+In clear slow water with small flies 
+— 5X to 7X. The goal is always to 
+land fish as quickly as possible to 
+minimize stress. Fine tippet is not 
+a death sentence for fish — poor 
+fish fighting technique and excessive 
+handling time are far more damaging.
+
+Q4: How does competition fly fishing 
+influence tippet and rod selection?
+A4: Competition fly fishing has pushed 
+the sport toward greater efficiency — 
+using lighter, more sensitive rigs 
+that detect strikes earlier and present 
+flies more naturally. Competition 
+anglers in Bryson City, NC including 
+Team USA members have demonstrated 
+that fine tippet and light rods 
+produce more fish — not fewer — when 
+combined with efficient fighting 
+technique and proper landing practice. 
+Efficiency is the goal in both 
+competition and guided fly fishing.
+
+Q5: How do I fight and land trout 
+quickly to minimize stress?
+A5: Apply continuous side pressure 
+rather than lifting the rod straight 
+up — side pressure keeps the fish 
+off balance and tires it faster. 
+Use a longer rod to maintain pressure 
+at distance. Never play a fish to 
+exhaustion — land it as quickly as 
+possible. Revive in cold oxygenated 
+water facing upstream until it swims 
+away strongly on its own. During 
+hot summer months when water 
+temperatures exceed 65°F — do not 
+fish for trout at all.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does light tippet kill more fish in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not necessarily — the real culprit is prolonged fights from poor fish-fighting technique, not tippet diameter alone. The correct approach is to use the largest tippet you can effectively get away with for the situation at hand. A fish fought and landed in 60 seconds on 6X is less stressed than one played for 5 minutes on 4X."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do lighter fly rods make it harder to fight trout?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — rod weight has minimal impact on fish fighting ability for trout. What matters is rod length and fighting angle. A longer rod provides more leverage by keeping the fish off balance and maintaining side pressure more effectively. Technique and efficiency are what land fish quickly and safely."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What tippet size should I use for trout fishing in the Smokies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use the largest tippet you can effectively get away with for the specific situation. In fast broken water with larger flies — 3X to 4X. In clear slow water with small flies — 5X to 7X. Fine tippet is not a death sentence for fish — poor fish fighting technique and excessive handling time are far more damaging."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does competition fly fishing influence tippet and rod selection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Competition fly fishing has pushed the sport toward greater efficiency — using lighter, more sensitive rigs that detect strikes earlier and present flies more naturally. Competition anglers in Bryson City, NC have demonstrated that fine tippet and light rods produce more fish when combined with efficient fighting technique and proper landing practice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I fight and land trout quickly to minimize stress?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Apply continuous side pressure rather than lifting the rod straight up — side pressure keeps the fish off balance and tires it faster. Never play a fish to exhaustion — land it as quickly as possible. Revive in cold oxygenated water facing upstream until it swims away strongly. During hot summer months when water temperatures exceed 65°F — do not fish for trout at all."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

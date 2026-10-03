@@ -1,0 +1,98 @@
+On macbrownflyfish.com add the following 
+FAQPage JSON-LD to the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+If existing FAQPage JSON-LD is already 
+in the head replace it entirely with this 
+new version. Do not deploy yet. Confirm 
+when saved. Stand by for Paste 2.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an adipose fin?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The adipose fin is the small fin on the back of a fish behind the dorsal fin and in front of the caudal fin."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an anadromous fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Anadromous fish are born in freshwater, migrate to saltwater to grow, and return to freshwater to spawn — such as salmon and steelhead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an anti-reverse fly reel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Anti-reverse is a feature of fly reels where the spool handle does not turn as the line is pulled out from the reel — generally used in saltwater for big or fast species."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an attractor fly pattern?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An attractor is a style of fly effective in eliciting strikes with hot colors such as fluorescent orange, pink, and chartreuse, and mylar in silver, gold, and clear pearlescent — yet has few characteristics of a natural food item."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the arbor of a fly reel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The arbor is the center part of a fly reel onto which backing is wound. Fly reels come in standard arbor, mid-arbor, and large arbor configurations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an arbor knot in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An arbor knot is a knot used for tying backing to the arbor of the fly reel."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is backing on a fly reel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Backing is a braided line that connects the reel spool to the fly line. It serves two functions — filling out the spool so the angler makes fewer revolutions to wind the line back onto the reel, and providing additional length beyond the fly line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a barb on a hook?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The barb is the backward-facing projection cut into a hook."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a barbless hook in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Barbless hooks are either manufactured without a barb or the barb is squeezed down using hemostats or pliers or filed down. The use of barbless hooks makes it easy to remove a hook and reduces damage to the fish. Barbless hooks are superior for penetration and hook-ups."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a beadhead fly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A beadhead fly uses a bead immediately behind the hook eye — usually made of brass, lead, or tungsten — to assist in sinking the fly."
+      }
+    }
+  ]
+}
+</script>
+
+Confirm saved. Stand by for Paste 2.

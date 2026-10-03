@@ -1,0 +1,211 @@
+export default function AshevilleNCGuidedTroutFishing() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            Guided Fly Fishing · Western North Carolina · Since 1987
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Asheville NC Guided Trout Fishing
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed">
+            The finest wild trout water in the eastern United States is less than 90 minutes from your door. Let us show you what the Smoky Mountains have been hiding.
+          </p>
+          
+            href="/contact"
+            className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors inline-block"
+          >
+            Book Your Trip
+          </a>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Best Day Trip from Asheville — On the Water
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              An Asheville NC guided trout fishing trip is one of the finest ways to spend a day during your Smoky Mountains vacation. While Asheville is a remarkable city, the wild trout water surrounding it is extraordinary — and most visitors never find it. That is where we come in.
+            </p>
+            <p>
+              Bryson City sits at the center of what serious anglers call the Trout Mecca of the South. Swain County holds more miles of quality trout water than any other county in North Carolina — rivers, tailwaters, mountain streams, and backcountry creeks flowing through the Great Smoky Mountains National Park and the Nantahala National Forest. Over 75% of the county is protected public land, which means the water stays wild, the fish stay wild, and the experience stays real.
+            </p>
+            <p>
+              The Tuckasegee River Delayed Harvest section in Webster, NC is only a 35-minute drive from Asheville — and from October through May it is loaded with epic numbers of trout. A guided float trip on the Tuckasegee is one of the best ways to experience the larger rivers of Western NC, covering miles of productive water from a drift boat with the most experienced guides in the region.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Waters */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Waters — Something for Every Angler
+          </h2>
+          <p className="text-gray-600 italic mb-8">
+            Every trip is built around current conditions, your skill level, and what the water is doing that day. Here is what is available within reach of Asheville:
+          </p>
+
+          <div className="space-y-6">
+
+            {[
+              {
+                name: "Tuckasegee River — Delayed Harvest",
+                distance: "35 minutes from Asheville",
+                description: "The crown jewel of Western NC tailwater fishing. The Webster, NC section of the Tuckasegee runs loaded with trout from October through May. Float trips and wade trips both available. This is where most Asheville visitors spend their first day on the water — and where many come back to every year.",
+                highlight: "Best for: Float trips, beginners, intermediate anglers",
+              },
+              {
+                name: "Nantahala River",
+                distance: "90 minutes from Asheville",
+                description: "The top tailwater in the state of North Carolina. Cold, clear, and productive year-round, the Nantahala holds wild brown and rainbow trout in beautiful mountain scenery. A slightly longer drive from Asheville but worth every mile — especially for anglers looking for a true tailwater challenge.",
+                highlight: "Best for: Wild trout, technical fishing, experienced anglers",
+              },
+              {
+                name: "Great Smoky Mountains National Park Streams",
+                distance: "45–60 minutes from Asheville",
+                description: "Crystal-clear mountain streams flowing through one of the most visited national parks on earth — and one of the least-fished fisheries per mile anywhere in the region. Wild native brook trout in the high elevation streams. Wild rainbow and brown trout throughout. Pristine water, breathtaking scenery, and fish that have never been stocked.",
+                highlight: "Best for: Wild trout, backcountry adventure, pristine water",
+              },
+              {
+                name: "Davidson River",
+                distance: "45 minutes from Asheville",
+                description: "One of the finest freestone rivers in the Southern Appalachians and a personal favorite during the offseason. The Davidson runs through Pisgah National Forest and holds quality wild trout in beautiful surroundings. A special experience for the angler who wants something different from the tailwater scene.",
+                highlight: "Best for: Wild trout, freestone fishing, Pisgah National Forest",
+              },
+              {
+                name: "Laurel River — Hot Springs, NC",
+                distance: "60 minutes from Asheville",
+                description: "A Delayed Harvest stream near Hot Springs offering excellent trout fishing in a gorgeous mountain setting. A strong option when the larger tailwaters are running high or off-color.",
+                highlight: "Best for: Delayed Harvest, accessible wading",
+              },
+              {
+                name: "East Fork of the Pigeon River",
+                distance: "45 minutes from Asheville",
+                description: "Near Waynesville, NC — another Delayed Harvest option that fishes well throughout the cooler months and offers a quieter, less pressured experience than the larger rivers.",
+                highlight: "Best for: Delayed Harvest, less pressure, quality presentation practice",
+              },
+              {
+                name: "Little Tennessee River",
+                distance: "60 minutes from Asheville",
+                description: "A larger river system in Swain County offering a big-water experience with strong fish numbers. Similar feel to western rivers — wide open, powerful, and rewarding for anglers who want distance and reach in their casting.",
+                highlight: "Best for: Bigger water, western-style fishing experience",
+              },
+            ].map((water, index) => (
+              <div key={index} className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+                <div className="flex flex-wrap items-start justify-between gap-4 mb-3">
+                  <h3 className="text-xl font-bold text-[#1a3a5c]">{water.name}</h3>
+                  <span className="text-sm font-bold text-[#1D9E75] bg-green-50 px-3 py-1 rounded-full">
+                    📍 {water.distance}
+                  </span>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-3">{water.description}</p>
+                <p className="text-sm font-semibold text-[#2E6DA4] italic">{water.highlight}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Casting Instruction */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            New to Fly Fishing? Start Here.
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Bryson City is an excellent base for fly casting instruction before you hit the streams. For those new to the sport, a short casting lesson before your guided trip will benefit you for years of enjoyment down the road. Most beginners are making fishable casts within the first hour — and the confidence that comes from understanding what you are doing makes every moment on the water more rewarding.
+            </p>
+            <p>
+              Mac Brown is North Carolina's only FFI Master Casting Instructor. Whether you need a quick foundation before your trip or want to commit to a full school experience, the instruction available here is simply not found anywhere else in the region.
+            </p>
+          </div>
+          <div className="mt-8 flex flex-col sm:flex-row gap-4">
+            
+              href="/fly-fishing-instruction"
+              className="bg-[#1a3a5c] hover:bg-[#0f2640] text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors text-center"
+            >
+              Fly Casting Instruction
+            </a>
+            
+              href="/smoky-mountain-weekend-schools"
+              className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors text-center"
+            >
+              Fly Fishing Schools
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* What to Bring */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What to Bring
+          </h2>
+          <p className="text-gray-700 text-lg mb-6">
+            All gear is provided — rods, reels, flies, leaders, and waders. Lunch is included on full-day programs. Just show up ready to fish. Here is what to bring from home:
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              "Rain gear — mountain weather changes fast",
+              "Warm layers — mornings on the water can be cool",
+              "Polarized sunglasses — essential for spotting fish",
+              "A hat with a brim — sun and glare protection",
+              "Sunscreen and lip balm",
+              "Clothing in earth tones — blend into your surroundings",
+              "Valid NC fishing license if over 16 — purchase at ncwildlife.org or call 1-888-248-6834",
+              "Trout stamp — required for all waters outside GSMNP and Cherokee Tribal Waters",
+            ].map((item, i) => (
+              <div key={i} className="flex items-start gap-3 bg-white rounded-lg p-4 border border-gray-200">
+                <span className="text-[#1D9E75] font-bold mt-0.5">✓</span>
+                <span className="text-gray-700">{item}</span>
+              </div>
+            ))}
+          </div>
+          <p className="text-gray-500 text-sm mt-6 italic">
+            Note: A tribal license for Cherokee waters can be purchased at stores in Cherokee, NC. A NC or TN fishing license is required for waters within the Great Smoky Mountains National Park.
+          </p>
+        </div>
+      </section>
+
+      {/* Area Attractions */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Make It a Trip — Area Attractions
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Bryson City is one of the finest small towns in the Appalachian Mountains — and the perfect base for your Western NC adventure. Over 75% of Swain County is protected public land, which means the outdoor opportunities surrounding the town are extraordinary. The Great Smoky Mountains National Park alone draws over 14 million visitors per year — more than any other national park in the country.
+            </p>
+            <p>
+              Beyond the fishing you will find world-class whitewater rafting on the Nantahala River, the Great Smoky Mountains Railroad, hundreds of waterfall hikes, Appalachian Trail access, mountain biking trails, and a growing food and craft beverage scene anchored by the Nantahala Brewing Company — one of the region's best and a personal favorite after a long day on the water.
+            </p>
+          </div>
+
+          <div className="mt-8 grid sm:grid-cols-2 gap-4">
+            {[
+              { place: "Cherokee, NC", distance: "10 minutes" },
+              { place: "Gatlinburg, TN", distance: "45 minutes" },
+              { place: "Highlands & Asheville, NC", distance: "~1 hour" },
+              { place: "Knoxville & Chattanooga, TN", distance: "~2.5 hours" },
+              { place: "Atlanta, GA & Charlotte, NC", distance: "~3 hours" },
+            ].map((loc, i) => (
+              <div key={i} className="flex justify-between items-center bg-gray-50 rounded-lg p-4 border border-gray-200">
+                <span className="font-semibold text-[#1a3a5c]">{loc.place}</span>
+                <span className="text-[#1D9E75] font-bold text-sm">{loc.distance}</span>
+              </div>
+            ))}
+          </div>
+
+          <p className="text-gray-500 mt-6 text-sm">
+            For a f

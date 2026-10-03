@@ -1,0 +1,160 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/5-essentials-fly-casting/
+
+AEO — add immediately below H1:
+"The five essentials of fly casting are the 
+universal mechanical principles that govern 
+every fly cast regardless of style, rod, 
+line, or fishing situation — slack free line, 
+pause for the loop to unroll, vary stroke 
+length and arc with line length, maintain 
+a straight rod tip path, and accelerate 
+to a stop. First codified by Bill and Jay 
+Gammel and adopted by Fly Fishers 
+International as the foundation of casting 
+instructor certification, the five essentials 
+are the closest thing to universal law in 
+fly casting — and the starting point for 
+every diagnosis and correction at Mac Brown 
+Fly Fish in Bryson City, NC."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: What are the five essentials of 
+fly casting?
+A1: The five essentials are the 
+universal mechanical principles that 
+govern every fly cast: 1) There must 
+be a taut line connection between rod 
+tip and fly throughout the cast. 2) 
+The rod must pause to allow the loop 
+to unroll before the next stroke. 
+3) Stroke length and arc must vary 
+with the amount of line being cast. 
+4) The rod tip must travel in a 
+straight-line path. 5) Power must 
+be applied in a smooth acceleration 
+to a stop. Every casting fault can 
+be traced to a violation of one or 
+more of these five principles.
+
+Q2: Who developed the five essentials 
+of fly casting?
+A2: The five essentials were codified 
+by Bill and Jay Gammel and adopted 
+by Fly Fishers International as the 
+foundational framework for casting 
+instructor certification. They provide 
+a universal language for diagnosing 
+and correcting casting faults that 
+applies across all styles, rod types, 
+and fishing situations — from single 
+hand trout casting to two-handed 
+Spey casting.
+
+Q3: Why is a straight rod tip path 
+so important in fly casting?
+A3: The fly leg of the loop is a 
+mirror image of the rod tip path. 
+A straight rod tip path produces 
+a parallel loop with efficient 
+energy transfer and accurate 
+delivery. A convex rod tip path 
+produces a wide open loop. A 
+concave rod tip path produces a 
+tailing loop. Everything the fly 
+and line do in the air is a direct 
+consequence of what the rod tip 
+did during the stroke — making 
+rod tip path the most powerful 
+diagnostic variable available 
+to a casting instructor.
+
+Q4: What does acceleration to a 
+stop mean in fly casting?
+A4: Acceleration to a stop means 
+applying progressively increasing 
+force throughout the casting stroke 
+and stopping the rod abruptly at 
+the completion of that acceleration. 
+The stop loads the rod to maximum 
+flex and then allows it to spring 
+forward — transferring energy into 
+the fly line. Stopping too early 
+reduces loop speed. Continuing to 
+push past the stop rounds the loop. 
+The quality of the stop is one of 
+the most important and least 
+practiced elements of fly casting.
+
+Q5: Where can I get instruction 
+based on the five essentials?
+A5: Mac Brown Fly Fish in Bryson 
+City, NC offers private fly casting 
+lessons, the Masterclass Casting 
+Workshop, and the week-long Fly 
+Fishing Guide School — all taught 
+from the five essentials framework 
+by Mac Brown, the only FFI Master 
+Casting Instructor in North Carolina. 
+Every diagnosis and every correction 
+traces back to which essential is 
+being violated and why. Online 
+lessons available worldwide via 
+FaceTime, Zoom, or Skype at 
+$400 per session.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What are the five essentials of fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The five essentials are: 1) There must be a taut line connection between rod tip and fly. 2) The rod must pause to allow the loop to unroll before the next stroke. 3) Stroke length and arc must vary with the amount of line being cast. 4) The rod tip must travel in a straight-line path. 5) Power must be applied in a smooth acceleration to a stop. Every casting fault can be traced to a violation of one or more of these five principles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who developed the five essentials of fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The five essentials were codified by Bill and Jay Gammel and adopted by Fly Fishers International as the foundational framework for casting instructor certification. They provide a universal language for diagnosing and correcting casting faults that applies across all styles, rod types, and fishing situations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is a straight rod tip path so important in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The fly leg of the loop is a mirror image of the rod tip path. A straight rod tip path produces a parallel loop with efficient energy transfer. A convex path produces a wide open loop. A concave path produces a tailing loop. Everything the fly and line do in the air is a direct consequence of what the rod tip did during the stroke."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does acceleration to a stop mean in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Acceleration to a stop means applying progressively increasing force throughout the casting stroke and stopping the rod abruptly at the completion of that acceleration. The stop loads the rod to maximum flex and allows it to spring forward — transferring energy into the fly line. The quality of the stop is one of the most important and least practiced elements of fly casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I get instruction based on the five essentials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers private fly casting lessons, the Masterclass Casting Workshop, and the week-long Fly Fishing Guide School — all taught from the five essentials framework by Mac Brown, the only FFI Master Casting Instructor in North Carolina. Online lessons available worldwide via FaceTime, Zoom, or Skype at $400 per session."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

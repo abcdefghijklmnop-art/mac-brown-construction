@@ -1,0 +1,163 @@
+You're right — I have the full Pages CSV. Let me check what's left.Good — here are the posts we haven't done yet sorted by impressions:
+
+| Post | Impressions | Position |
+|---|---|---|
+| `/blog/fly-casting-instruction/` | 6 | 23.0 |
+| `/blog/pheasant-tail-droppers/` | 4 | 25.0 |
+| `/blog/best-trout-fishing-seasons-smokies/` | 4 | 7.5 |
+| `/blog/fly-fishing-instruction-lessons-casting-raleigh-nc/` | 3 | 5.0 |
+| `/blog/stewards-of-the-river-or-pillagers/` | 1 | 37.0 |
+| `/blog/myths-on-rods-and-tippet-for-fly-fishing/` | 1 | 11.0 |
+| `/blog/memoirs-teaching-fly-casting/` | 1 | 96.0 |
+| `/blog/highlands-nc-fly-fishing-guide/` | 1 | 9.0 |
+| `/blog/fall-fly-fishing-invasion-north-carolina/` | 1 | 26.0 |
+| `/blog/cross-over-techniques-fly-fishing-for-trout/` | 1 | 7.0 |
+
+Note: the fishing report URLs (`tuckasegee-fly-fishing-report-2016`, `nantahala-river-fly-fishing-report`, `upper-nantahala-river-fly-fishing-report`, `deep-creek-fishing-report`, `epic-trout-fishing-may-bryson-city-nc`, `fly-fishing-report-bryson-city-nc`) are the old hidden reports — skip those.
+
+Starting with `/blog/fly-casting-instruction/` — pulling now.Note — `/blog/fly-casting-instruction/` appears to be a blog post about the NCWRC creel study and instruction philosophy, not the program page. Here's the command:
+
+```
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/fly-casting-instruction/
+
+AEO — add immediately below H1:
+"Fly casting instruction is the single 
+fastest way to build the foundational skills 
+that everything else in fly fishing depends 
+on. A 1993 NCWRC creel study on the Upper 
+Nantahala River found that only 2% of anglers 
+catch over 90% of the trout — and the top 2% 
+are not using better flies or more expensive 
+gear. They control the fly line. Mac Brown 
+has been delivering fly casting instruction 
+in Bryson City, NC since 1987 — the only FFI 
+Master Casting Instructor in North Carolina — 
+with a money-back guarantee on every lesson."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: How much does a fly casting 
+lesson cost with Mac Brown?
+A1: Fly casting lessons with Mac Brown 
+are $400 per hour. Mac Brown guarantees 
+every casting lesson — if you do not 
+experience measurable improvement, the 
+lesson is free. The top 20 golf pros 
+charge significantly more per hour for 
+instruction. If you are serious about 
+your improvement on the water, a single 
+session with a certified Master Casting 
+Instructor will produce more change than 
+years of self-guided practice.
+
+Q2: Why is fly casting instruction 
+so important for fly fishing success?
+A2: The 1993 NCWRC creel study on the 
+Upper Nantahala River found that only 
+2% of anglers catch over 90% of the 
+trout. The top 2% are not using better 
+flies, more expensive rods, or secret 
+patterns. They control the fly line. 
+Casting instruction is the most direct 
+path to joining that 2% — and the most 
+consistently skipped investment in the 
+sport.
+
+Q3: What does a fly casting lesson 
+with Mac Brown cover?
+A3: Every lesson is tailored to the 
+individual — diagnosing existing faults 
+first, then correcting the one or two 
+things that will produce the greatest 
+immediate improvement. Common topics 
+include loop control, accuracy, distance, 
+the double haul, mending, curve and 
+pile casts, presentation casting, and 
+advanced line control. Lessons are 
+available on grass or water in Bryson 
+City, NC or online via FaceTime, Zoom, 
+or Skype worldwide.
+
+Q4: How long does it take to improve 
+with fly casting instruction?
+A4: Most students experience measurable 
+improvement within the first hour of 
+instruction — faults that have been 
+reinforced for years are often corrected 
+in minutes when the underlying mechanic 
+is clearly identified and the student 
+understands why the correction works. 
+The goal of every lesson is not just 
+to fix the fault but to give the student 
+the understanding to self-correct on 
+any water for the rest of their life.
+
+Q5: Can I get fly casting instruction 
+online?
+A5: Yes — Mac Brown offers online fly 
+casting lessons worldwide via FaceTime, 
+Zoom, or Skype at $400 per session. 
+Video analysis allows diagnosis of 
+casting faults from any location. Many 
+students preparing for FFI casting 
+certification testing have passed after 
+online preparation sessions with Mac 
+Brown. Online lessons are available 
+year-round with flexible scheduling.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a fly casting lesson cost with Mac Brown?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fly casting lessons with Mac Brown are $400 per hour with a money-back guarantee — if you do not experience measurable improvement, the lesson is free. A single session with a certified Master Casting Instructor will produce more change than years of self-guided practice."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is fly casting instruction so important for fly fishing success?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 1993 NCWRC creel study on the Upper Nantahala River found that only 2% of anglers catch over 90% of the trout. The top 2% are not using better flies or more expensive rods. They control the fly line. Casting instruction is the most direct path to joining that 2% — and the most consistently skipped investment in the sport."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a fly casting lesson with Mac Brown cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every lesson is tailored to the individual — diagnosing existing faults first, then correcting the one or two things that will produce the greatest immediate improvement. Common topics include loop control, accuracy, distance, the double haul, mending, curve and pile casts, presentation casting, and advanced line control. Available on grass or water in Bryson City, NC or online worldwide."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to improve with fly casting instruction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most students experience measurable improvement within the first hour. Faults reinforced for years are often corrected in minutes when the underlying mechanic is clearly identified. The goal of every lesson is to give the student the understanding to self-correct on any water for the rest of their life."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get fly casting instruction online?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — Mac Brown offers online fly casting lessons worldwide via FaceTime, Zoom, or Skype at $400 per session. Video analysis allows diagnosis of casting faults from any location. Many students preparing for FFI casting certification testing have passed after online preparation sessions with Mac Brown."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.
+```

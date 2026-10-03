@@ -1,0 +1,61 @@
+you realize i have the url live? you may want to study the menus, etc... already up there first? or have you done that already? macbrownflyfish.com and flyfishingguideschool.com
+
+
+Thinking about reviewing website content and menus from two fly fishing domains
+Thinking about reviewing website content and menus from two fly fishing domains
+Good call — I haven't pulled up the live sites in this conversation, and I should before we go further. Let me look now.
+
+
+Recognizing potential duplication with existing live site structure
+Recognizing potential duplication with existing live site structure
+That's a critical thing to know, and it changes the plan. This is already live and far more built-out than what I've been drafting from scratch — let me pull the actual flagship page you already have.
+
+
+Scrutinizing discrepancies between homepage and recreational track listings
+Scrutinizing discrepancies between homepage and recreational track listings
+This is important — I should have checked this before we built anything. Here's what's actually live already:
+
+The two-path split we've been designing already exists on the site, as three separate pages, not one combined page:
+
+Homepage (flyfishingguideschool.com) — already opens with "Two Paths. One School. Which brings you here?" and splits straight into two cards
+/fly-fishing-guide-school/ — the career/guide-training track page (5-day, $3,550 per that page — though the homepage says 4-day/$4,850, an inconsistency worth flagging to whoever maintains the site)
+/smoky-mountain-fly-fishing-school/ — the recreational track page (4-day, $4,850), which already explicitly says "Not about a career — about becoming the angler you have always wanted to be" and links over to the career page for anyone who wants that instead
+Both pages already have real curriculum breakdowns, real dates, real tuition, FAQ accordions, testimonials, and instructor credentials (450+ combined years, 4 FFI Master Instructors, etc.) — all live, all indexed.
+
+So the single combined page I've been drafting for you duplicates content that already exists on two live URLs, and it invents specifics (tuition, day count, curriculum items) that don't match what's actually posted. That's a problem I should have caught at the start.
+
+The real question now: what was this draft actually for?
+
+If it was meant to become the homepage split-intro copy — that's already built and live, and arguably in decent shape.
+If it was meant to refresh the /fly-fishing-guide-school/ career page — I'd rewrite against that page's real specs (5 days, $3,550, existing curriculum), not invent new ones.
+If it was meant to be a brand-new page (e.g., a broader "about the school" or brand-story page distinct from these three) — it needs a URL and a job that doesn't overlap what's already there.
+Which of those is it? And do you want me to also flag that day-count/tuition mismatch between the homepage and the career-track page to whoever manages the Next.js/Vercel deploy?
+
+/fly-fishing-guide-school/ — the career/guide-training track page (5-day, $3,550 per that page — though the homepage says 4-day/$4,850, an inconsistency worth flagging to whoever maintains the site) is this page from mbff or ffgs?
+
+
+Thinking about identifying website ownership and flagging pricing inconsistencies
+Thinking about identifying website ownership and flagging pricing inconsistencies
+That page is on flyfishingguideschool.com — so it's FFGS, not MBFF. The URL I fetched was https://flyfishingguideschool.com/fly-fishing-guide-school/.
+
+Same domain for the homepage split and the recreational-track page too — all three (homepage, /fly-fishing-guide-school/, /smoky-mountain-fly-fishing-school/) live under flyfishingguideschool.com. I haven't yet pulled macbrownflyfish.com to see how (or whether) it cross-links into this same guide-school architecture — want me to check that one too, since you run them as editorially separate brands?
+
+yes
+
+
+Identified SEO duplication issues and pricing inconsistencies across domains
+Identified SEO duplication issues and pricing inconsistencies across domains
+Good thing we checked — there's a real structural issue here, not just a copy question.
+
+macbrownflyfish.com also has its own /fly-fishing-guide-school page, listed right in the MBFF homepage program grid: "Four days of professional guide training in Bryson City, NC... Learn More" → linking to macbrownflyfish.com/fly-fishing-guide-school. That's a third page with the same name and same slug pattern, on a different domain from the two we already found on flyfishingguideschool.com. Let me pull that one too so I can compare all three side by side.
+
+
+Identified pricing inconsistencies and credibility concerns across pages
+Identified pricing inconsistencies and credibility concerns across pages
+Found it — and this is bigger than a duplicate-content issue. There's a real factual inconsistency spanning both live domains that's worth fixing before anything else:
+
+Page	Duration	Tuition
+flyfishingguideschool.com (homepage)	4-day	$4,850
+flyfishingguideschool.com/fly-fishing-guide-school/	5-day	$3,550
+macbrownflyfish.com (homepage teaser card)	"Four days"	not stated
+macbrownflyfish.com/fly-fishing-guide-school	"One week"	$4,850

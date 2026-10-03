@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 5.
+
+    {
+      "@type": "Question",
+      "name": "What is an eddy in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An eddy is a section of water that is less disturbed than the surrounding water — often found on the edge of a current or where two streams converge."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is elbow control in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For a tight wind-cutting loop in a vertical accuracy cast have the rod hand higher than your head and simply drop from the shoulder to lower the elbow. This stroke generates lots of fly line speed, eliminates tailing tendency, and loads the rod deeper into the butt section. Elbow control keeps the elbow on the shelf — in the same plane — for horizontal casts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an emerger in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pertaining to aquatic insects, an emerger describes that time frame when the nymph reaches the surface and the adult hatches out. The emerging nymph may be the single most important nymph phase for the fly fisher to imitate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a false cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A false cast is a standard fly fishing cast used to lengthen and shorten the line, change direction, and dry off the fly — frequently overused. In false casting the line is kept moving backward and forward without being allowed to touch the surface of the water or the ground."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a ferrule on a fly rod?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A ferrule is the collar found at the point where sections of a fly rod are joined. The end of one section fits inside the end of another in an overlapping fashion at the ferrule."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a fish ladder?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A fish ladder is a series of interconnected pools created on the side of a river obstruction such as a dam to allow salmon and other fish to pass upstream."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is fishing the drift in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fishing the drift is the process of fishing from your target point to where you will pick up the line for your next cast. If you chose your initial casting position carefully you can get a long drift — maximizing your chance of catching a fish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a floatant in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A floatant is a water-proofing — usually oily — salve or cream used to help flies, leaders, and fly lines float."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are fluffies in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fluffies are those who reiterate principles and fundamentals from a very narrow view regurgitated from an antiquated past — typically remaining stuck in an unconscious incompetence stage because they are content with where they are. Fluffies stagnate the progression and evolution of the sport."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is fluorocarbon tippet in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fluorocarbon is tippet or leader material that is virtually invisible underwater, sinks quickly, and does not reflect light on the water surface."
+      }
+    }
+
+Confirm saved. Stand by for Paste 5.

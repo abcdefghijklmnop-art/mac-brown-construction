@@ -1,0 +1,76 @@
+If old WordPress login URLs (like `/wp-login.php`, `/wp-admin/`, or `/wp-login/`) are showing up in your Google Search Console, it means Google is still trying to crawl the ghost pages from your old GoDaddy setup.
+
+Since your site is now completely on Next.js, those pages don't exist anymore—but Google will keep trying to check them until you force them out.
+
+You cannot click a simple "delete" button inside Search Console to erase a URL from the report, but **you can permanently remove them by taking these steps:**
+
+---
+
+## Step 1: Force a 410 "Gone" or 404 Status (Best Practice)
+
+Because your Next.js site naturally doesn't have a `/wp-login.php` file, your site should automatically return a **404 Not Found** error if someone tries to visit that URL.
+
+* **What to check:** Go to your browser and try to visit `[yourdomain.com/wp-login.php](https://yourdomain.com/wp-login.php)`. Make sure it loads your Next.js "Page Not Found" screen.
+* **Why this works:** Once Googlebot hits a 404 or 410 error a few times on those old login links, its system realizes the page is gone forever. Google will automatically drop those URLs from your index and they will eventually disappear entirely from your Search Console reports.
+
+---
+
+## Step 2: Use the Google Search Console "Removals" Tool (Immediate Fix)
+
+If these old login pages are actually showing up in live Google search results and you want them gone *immediately* while Google updates its database, you can block them directly inside Console:
+
+1. Open **Google Search Console**.
+2. On the left-hand sidebar, look under the *Indexing* section and click on **Removals**.
+3. Click the red **New Request** button.
+4. Select the **"Temporary Removal"** tab.
+5. Choose **"Remove all URLs with this prefix"**.
+6. Type in the specific path you want to clear out (for example: `/wp-` to catch both `wp-admin` and `wp-login`).
+7. Click **Next**, then **Submit Request**.
+
+> **Note:** This acts as an immediate safety blanket. It blocks those old login paths from appearing anywhere in Google search results for about 6 months, giving Googlebot plenty of time to crawl your new Next.js site, hit the 404 errors, and delete them from its permanent history.
+
+---
+
+## Step 3: Block Them in Your `next.config.js` or `robots.txt`
+
+To stop Google from wasting its crawl budget on these old WordPress files altogether, you can block them directly in your code.
+
+### Method A: Block via `robots.txt`
+
+In your Next.js `public/robots.txt` file, add lines to tell search bots to completely ignore your old WordPress folders:
+
+```text
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /wp-login/
+
+```
+
+### Method B: Block via `next.config.js` (Return a 410 Gone)
+
+If you want to be aggressive, you can add a redirect rule in your Next.js config that tells Google these pages are permanently extinct (Status 410). This forces Google to delete them much faster than a standard 404:
+
+```javascript
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/wp-login.php',
+        destination: '/404',
+        permanent: false,
+        statusCode: 410,
+      },
+      {
+        source: '/wp-admin/:path*',
+        destination: '/404',
+        permanent: false,
+        statusCode: 410,
+      },
+    ]
+  },
+}
+
+```
+
+Between submitting a prefix removal request in Search Console and letting your new Next.js site serve 404/410 errors, those old WordPress login ghosts will clear out of your reports completely.

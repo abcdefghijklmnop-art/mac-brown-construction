@@ -1,0 +1,57 @@
+You are an elite SEO and AEO copywriter for Macbrownflyfish.com and Flyfishingguideschool.com.
+
+ACCURACY RULES (CRITICAL):
+- Never invent facts, specs, or details not in the source text
+- No swimming certificates, no ACA mentions, no PR/First Aid mentions on any posts or pages
+- If data is missing, say "Information not available in current documentation" or ask
+- Factual accuracy over creative writing, always
+
+FORMATTING RULES:
+- No filler openers. Start with the data
+- Every FAQ = ### H3 markdown question header
+- First sentence directly answers the question (40–60 words max)
+- Bold critical terms, use bullets or tables for lists/specs/steps
+- 8th-grade reading level — clear, punchy, professional
+- No keyword stuffing
+- Each FAQ block stands alone, schema-ready
+- First sentence self-contained for voice search — no reliance on header
+- Consistent terminology throughout
+- No orphan claims — all stats/regs from source material only
+- One question = one answer, no topic pivoting
+- Active voice by default
+
+---
+
+PAGE: https://macbrownflyfish.com/blog/learn-to-hammer-trout-with-dry-fly-techniques/
+
+ACTION: Add these 5 NEW FAQs to the FAQ section of this page, after the 5 existing FAQs already there.
+
+---
+
+### Why should dry fly anglers slow down their cast?
+
+**Slowing down the cast is the number one correction Mac Brown makes with dry fly anglers.** A delivery that is too fast causes the fly to turn over too quickly — making it nearly impossible to find the dry fly on the water. A slow, smooth delivery gives you finesse, better loop control, and far more time to track the fly on the surface.
+
+---
+
+### What are the three main delivery casts used in dry fly fishing?
+
+Dry fly fishing relies on three primary delivery casts — **curve cast right**, **curve cast left**, and the **pile cast**. A straight cast is used only on rare occasions when targeting a rising fish with no current interference. Building slack into the presentation through curves and pile casts is the most effective way to achieve drag-free drift before the fly even lands.
+
+---
+
+### How does approach angle affect dry fly success?
+
+**Approach angle determines how much conflicting current your fly line crosses before reaching the fish.** The wrong angle means drag sets in immediately after the fly lands, regardless of how good the cast is. Look more and cast less — identify the fish's position and feeding lane first, then select the approach angle that keeps your line out of competing currents.
+
+---
+
+### How do you fish dry flies during winter BWO hatches?
+
+**Winter BWO dry fly fishing is most productive on overcast, mild afternoons** when blue-winged olive hatches bring trout to the surface. After hooking a fish from a feeding pod, rest the water — do not cast back into the pod immediately. Each hookup alerts the remaining fish, and impatient re-casting puts them down fast. Patience between hookups is the single biggest advantage a winter dry fly angler can have.
+
+---
+
+### How do you identify quality trout from their rise forms?
+
+**Large, high-quality trout take dry flies with very little surface disturbance** — a subtle sip with minimal rings. Small fish create a disproportionately large splash relative to their size. Learning to distinguish a quiet, confident rise from an aggressive, splashy one — a skill Mac Brown's friend Jim Estes taught him over three decades ago — lets you target the biggest fish in the pod rather than wasting presentations on small trout.

@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 17.
+
+    {
+      "@type": "Question",
+      "name": "What is a bodkin in fly tying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A bodkin is a tool with a needle and a handle — easily made from a piece of wood or stag and a needle. It is used in fly tying to deposit lacquer on a fly or pick out materials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a belly boat or float tube in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A belly boat is a one-person craft with a seat across the bottom on which the angler sits with feet in the water — using scuba fins to move around. This type of fishing boat is very popular with warm water fly fishers and those who fish high mountain lakes. Also called a kick boat."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the belly of a fly line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The belly is the middle portion of a tapered fly line — the thicker central section between the front and rear tapers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a Bimini twist knot in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Bimini twist is a knot used in saltwater fly fishing that has a loop and a double line section — making it especially strong."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a fly rod blank?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A blank is a hollow rod with no guides, ferrules, or reel seat. Fly rods are produced by wrapping sheets of fiberglass and graphite material around a carefully tapered steel rod called a mandrel. Blank is also the term used when you fail to land a single fish on your fishing outing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a bob fly in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The bob fly is the fly closest to the fly line when fishing multiple fly rigs — the top dropper of the leader."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a popper in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A popper is a topwater fly pattern made usually from spun deer hair with a flat face that creates a popping sound when retrieved."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a point fly in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The point fly is the fly at the end of the leader farthest from the fly line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are pectoral fins on a fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pectoral fins are a pair of fins located just behind the head and on the bottom of a fish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are pelvic fins on a fish?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pelvic fins are the pair of fins on the lower body of a fish near the abdomen — also called ventral fins."
+      }
+    }
+
+Confirm saved. Stand by for Paste 17.

@@ -1,0 +1,181 @@
+On macbrownconstruction.com make the 
+following changes to the homepage then 
+run bash push.sh to deploy. No other 
+changes.
+
+1. Add the following AEO paragraph 
+immediately below the H1 "Built to Last. 
+Built to Breathe.":
+
+"Mac Brown Construction has been building 
+custom homes, cabins, and timber frame 
+structures in Bryson City, NC since 1988 
+— held to an NC Unlimited General 
+Contractor license and a standard that 
+starts where building codes end. Every 
+home is built with energy efficiency as 
+a core principle: ICF foundations, foam 
+insulation, frost-proof footings, radiant 
+floors, and geothermal systems that reduce 
+energy costs for decades. Hands-on builder 
+from groundbreaking to final walk-through 
+in Swain County and surrounding Western 
+North Carolina."
+
+2. Add a FAQ section before the footer 
+as expandable accordion items with the 
+heading "Frequently Asked Questions":
+
+Q1: What does Mac Brown Construction 
+specialize in?
+A1: Mac Brown Construction specializes 
+in custom home building, timber frame 
+hybrid construction, and energy-efficient 
+green building in Bryson City, NC and 
+surrounding Western North Carolina. Every 
+project is built above code minimums — 
+using ICF foundations, P-2000 insulation, 
+frost-proof footings, radiant floors, and 
+geothermal systems where applicable. Over 
+35 years of hands-on building in the Smoky 
+Mountains with an NC Unlimited General 
+Contractor license.
+
+Q2: How much does it cost to build 
+a custom home in the Smoky Mountains?
+A2: Custom home costs in Western North 
+Carolina vary significantly based on 
+square footage, site conditions, materials, 
+and specification level. Contact Mac Brown 
+Construction at (828) 736-1469 for a free 
+estimate tailored to your project. Building 
+in the mountains requires additional 
+considerations for foundations, site access, 
+and energy efficiency — Mac Brown 
+Construction has been navigating all of 
+these variables in Swain County since 1988.
+
+Q3: What is an ICF foundation and 
+why is it better?
+A3: ICF — Insulated Concrete Form — 
+foundations use interlocking foam blocks 
+filled with concrete to create a foundation 
+wall that is structurally superior and 
+dramatically better insulated than standard 
+poured concrete or block foundations. ICF 
+walls provide continuous insulation with 
+no thermal bridging, significantly reducing 
+heating and cooling loads in mountain 
+climates. Mac Brown Construction recommends 
+ICF foundations for all new construction 
+in Western North Carolina.
+
+Q4: What is timber frame hybrid 
+construction?
+A4: Timber frame hybrid construction 
+combines the aesthetic appeal of exposed 
+indigenous local hardwood timbers with 
+modern state-of-the-art insulating 
+practices — creating homes that are 
+visually stunning and energy efficient. 
+The timber frame provides the structural 
+character while the hybrid shell uses 
+contemporary insulation methods to achieve 
+tight envelopes that standard timber frame 
+construction cannot match. Mac Brown 
+Construction has been building timber 
+frame hybrid homes in the Smoky Mountains 
+since the early 1990s.
+
+Q5: Does Mac Brown Construction 
+serve areas outside Bryson City?
+A5: Yes — Mac Brown Construction holds 
+an NC Unlimited General Contractor license 
+covering all project sizes throughout 
+Western North Carolina. Primary service 
+area includes Swain County, Jackson County, 
+Macon County, and surrounding mountain 
+communities. Contact Mac Brown directly 
+at (828) 736-1469 to discuss your project 
+location and scope.
+
+3. Add the following JSON-LD blocks 
+to the <head>:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Mac Brown Construction",
+  "description": "Custom home builder and licensed general contractor in Bryson City, NC since 1988. Specializing in energy-efficient construction, ICF foundations, and timber frame hybrid homes in the Smoky Mountains.",
+  "url": "https://macbrownconstruction.com",
+  "telephone": "+18287361469",
+  "email": "macbrownconstruction@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bryson City",
+    "addressRegion": "NC",
+    "postalCode": "28713",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 35.4265,
+    "longitude": -83.4473
+  },
+  "foundingDate": "1988",
+  "areaServed": "Western North Carolina"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does Mac Brown Construction specialize in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Construction specializes in custom home building, timber frame hybrid construction, and energy-efficient green building in Bryson City, NC and surrounding Western North Carolina. Every project is built above code minimums — using ICF foundations, P-2000 insulation, frost-proof footings, radiant floors, and geothermal systems. Over 35 years of hands-on building in the Smoky Mountains with an NC Unlimited General Contractor license."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does it cost to build a custom home in the Smoky Mountains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Custom home costs in Western North Carolina vary significantly based on square footage, site conditions, materials, and specification level. Contact Mac Brown Construction at (828) 736-1469 for a free estimate tailored to your project. Building in the mountains requires additional considerations for foundations, site access, and energy efficiency — Mac Brown Construction has been navigating all of these variables in Swain County since 1988."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an ICF foundation and why is it better?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ICF — Insulated Concrete Form — foundations use interlocking foam blocks filled with concrete to create a foundation wall that is structurally superior and dramatically better insulated than standard poured concrete or block foundations. ICF walls provide continuous insulation with no thermal bridging, significantly reducing heating and cooling loads in mountain climates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is timber frame hybrid construction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Timber frame hybrid construction combines the aesthetic appeal of exposed indigenous local hardwood timbers with modern state-of-the-art insulating practices — creating homes that are visually stunning and energy efficient. The timber frame provides structural character while the hybrid shell uses contemporary insulation methods to achieve tight envelopes that standard timber frame construction cannot match."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Mac Brown Construction serve areas outside Bryson City?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — Mac Brown Construction holds an NC Unlimited General Contractor license covering all project sizes throughout Western North Carolina. Primary service area includes Swain County, Jackson County, Macon County, and surrounding mountain communities. Contact Mac Brown directly at (828) 736-1469 to discuss your project location and scope."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. 
+No other changes.

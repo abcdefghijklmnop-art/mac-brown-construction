@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mac Brown — Bio & Content Strategy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&family=Barlow+Condensed:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --ink:    #1C1A16;
+  --forest: #1A3828;
+  --moss:   #2D5A3D;
+  --fern:   #4E8B5F;
+  --water:  #4A7C8E;
+  --gold:   #C49A2E;
+  --cream:  #F8F4EE;
+  --stone:  #EDE8E0;
+  --mist:   #E4EDE7;
+  --chalk:  #FDFBF8;
+  --gray:   #8A8070;
+}
+
+body {
+  font-family: 'Crimson Pro', Georgia, serif;
+  background: var(--cream);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+/* ── NAV TABS ───────────────────────────── */
+.tabs {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--forest);
+  display: flex;
+  border-bottom: 2px solid var(--moss);
+}
+
+.tab {
+  flex: 1;
+  padding: 0.9rem 1rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.45);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s, background 0.2s;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+}
+
+.tab:hover { color: rgba(255,255,255,0.75); }
+.tab.active { color: #F8F4EE; border-bottom-color: var(--gold); }
+
+/* ── PANELS ─────────────────────────────── */
+.panel { display: none; }
+.panel.active { display: block; }
+
+/* ══════════════════════════════════════════
+   BIO PANEL
+══════════════════════════════════════════ */
+.bio-hero {
+  background: var(--forest);
+  padding: 4rem 2rem 3.5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.bio-hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.bio-eyebrow {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--fern);
+  margin-bottom: 0.75rem;
+  opacity: 0;
+  animation: up 0.6s ease 0.1s forwards;
+}
+
+.bio-name {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  font-weight: 400;
+  color: #F8F4EE;
+  line-height: 1.05;
+  opacity: 0;
+  animation: up 0.6s ease 0.25s forwards;
+}
+
+.bio-tagline {
+  font-family: 'Crimson Pro', serif;
+  font-size: 1.05rem;
+  font-style: italic;
+  color: rgba(255,255,255,0.45);
+  margin-top: 0.6rem;
+  opacity: 0;
+  animation: up 0.6s ease 0.4s forwards;
+}
+
+@keyframes up {
+  from { opacity:0; transform:translateY(12px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+
+.bio-body {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 3.5rem 2rem 4rem;
+}
+
+.bio-graf {
+  font-size: 1.2rem;
+  line-height: 1.85;
+  color: #2E2A24;
+  margin-bottom: 1.75rem;
+  opacity: 0;
+  animation: up 0.7s ease forwards;
+}
+
+.bio-graf:nth-child(1) { animation-delay: 0.1s; }
+.bio-graf:nth-child(2) { animation-delay: 0.25s; }
+.bio-graf:nth-child(3) { animation-delay: 0.4s; }
+.bio-graf:nth-child(4) { animation-delay: 0.55s; }
+
+.bio-quote {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.35rem;
+  font-style: italic;
+  color: var(--moss);
+  border-left: 3px solid var(--gold);
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  margin: 2.5rem 0;
+  line-height: 1.65;
+  opacity: 0;
+  animation: up 0.7s ease 0.7s forwards;
+}
+
+/* Awards strip */
+.awards-strip {
+  background: var(--stone);
+  border-top: 1px solid rgba(0,0,0,0.06);
+  padding: 3rem 2rem;
+}
+
+.awards-inner { max-width: 680px; margin: 0 auto; }
+
+.awards-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gray);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1rem;
+}
+
+.award-item {
+  background: var(--chalk);
+  border: 1px solid rgba(0,0,0,0.07);
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+}
+
+.award-year {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  margin-bottom: 4px;
+}
+
+.award-name {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--ink);
+  line-height: 1.4;
+}
+
+.award-org {
+  font-size: 0.78rem;
+  color: var(--gray);
+  font-style: italic;
+  margin-top: 2px;
+}
+
+/* Mentors */
+.mentors {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2.5rem 2rem 3rem;
+  border-top: 1px solid var(--stone);
+}
+
+.mentors-label {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin-bottom: 1rem;
+}
+
+.mentor-names {
+  font-size: 0.9rem;
+  color: var(--gray);
+  line-height: 1.9;
+  font-style: italic;
+}
+
+/* ══════════════════════════════════════════
+   CALENDAR PANEL
+══════════════════════════════════════════ */
+.cal-header {
+  background: var(--forest);
+  padding: 2.5rem 2rem 2rem;
+  text-align: center;
+}
+
+.cal-header h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #F8F4EE;
+}
+
+.cal-header p {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: rgba(255,255,255,0.45);
+  margin-top: 0.4rem;
+}
+
+.cal-body {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+.month-card {
+  background: var(--chalk);
+  border: 1px solid rgba(0,0,0,0.07);
+  border-radius: 8px;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+}
+
+.month-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  background: var(--chalk);
+  border-bottom: 1px solid transparent;
+  transition: background 0.15s;
+}
+
+.month-header:hover { background: var(--stone); }
+.month-card.open .month-header { border-bottom-color: rgba(0,0,0,0.06); background: var(--mist); }
+
+.month-num {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--fern);
+  min-width: 32px;
+  line-height: 1;
+}
+
+.month-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  color: var(--forest);
+}
+
+.month-theme {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--gray);
+  margin-left: auto;
+  text-align: right;
+}
+
+.month-chevron {
+  font-size: 0.7rem;
+  color: var(--gray);
+  margin-left: 8px;
+  transition: transform 0.2s;
+}
+
+.month-card.open .month-chevron { transform: rotate(180deg); }
+
+.month-posts {
+  display: none;
+  padding: 1rem 1.25rem 1.25rem;
+}
+
+.month-card.open .month-posts { display: block; }
+
+.post-row {
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  gap: 10px;
+  align-items: start;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+  font-size: 0.88rem;
+}
+
+.post-row:last-child { border-bottom: none; }
+
+.post-platform {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  padding: 3px 7px;
+  border-radius: 3px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.plat-fb   { background: #E7EEF8; color: #2D4E8A; }
+.plat-ig   { background: #FAE8F2; color: #8A2E6A; }
+.plat-yt   { background: #FAE8E8; color: #8A2E2E; }
+.plat-all  { background: #EEF5E8; color: #2E5A1E; }
+.plat-blog { background: #F5F0E0; color: #5A440E; }
+
+.post-content { color: var(--ink); line-height: 1.45; }
+.post-content strong { color: var(--forest); }
+.post-type {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.06em;
+  color: var(--gray);
+  white-space: nowrap;
+  text-align: right;
+}
+
+.strategy-box {
+  background: var(--mist);
+  border-left: 3px solid var(--fern);
+  border-radius: 0 6px 6px 0;
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: var(--forest);
+  line-height: 1.6;
+}
+
+.strategy-box strong { font-family: 'Barlow Condensed', sans-serif; letter-spacing: 0.05em; font-size: 0.75rem; text-transform: uppercase; display: block; margin-bottom: 0.3rem; }
+
+@media (max-width: 540px) {
+  .post-row { grid-template-columns: 64px 1fr; }
+  .post-type { display: none; }
+  .month-theme { display: none; }
+}
+</style>
+</head>
+<body>
+
+<div class="tabs">
+  <button class="tab active" onclick="showPanel('bio', this)">Bio — Humble Rewrite</button>
+  <button class="tab" onclick="showPanel('cal', this)">12-Month Content Calendar</button>
+</div>
+
+<!-- ══ BIO PANEL ══════════════════════════════ -->
+<div class="panel active" id="panel-bio">
+
+  <div class="bio-hero">
+    <p class="bio-eyebrow">Bryson City, North Carolina · Est. 1987</p>
+    <h1 class="bio-name">Mac Brown</h1>
+    <p class="bio-tagline">Grateful for every single day on these rivers.</p>
+  </div>
+
+  <div class="bio-body">
+
+    <p class="bio-graf">
+      I've been lucky enough to call Bryson City, NC home since 1987 — and luckier still to have spent most of those years knee-deep in some of the most beautiful water in the world. What started as a passion became a life's work, and I'm grateful every morning it did.
+    </p>
+
+    <p class="bio-graf">
+      Along the way I had the chance to start the first full-time fly fishing guide service in Western North Carolina, and to help establish the first Delayed Harvest on the Upper Nantahala River back in 1993. Those weren't solo efforts — they happened because of a community of people who cared about these rivers as much as I did.
+    </p>
+
+    <p class="bio-graf">
+      Teaching has always been at the heart of what I do. I was fortunate to spend four years as Associate Professor at Western Carolina University, where we built a collegiate fly fishing program from scratch. Watching those students go on to shape competitive fly fishing in this region — and around the world — is one of the things I'm most proud of. I also wrote <em>Casting Angles</em>, a fly casting handbook endorsed by the ACA and FFI, and I hold the title of Master Casting Instructor through Fly Fishers International — a credential I worked hard for and don't take lightly.
+    </p>
+
+    <p class="bio-graf">
+      Over nearly four decades I've had the privilege of guiding and teaching tens of thousands of anglers — beginners who'd never held a fly rod, and seasoned fishers chasing their next level. Every single one of them taught me something too. That exchange is what keeps me out here.
+    </p>
+
+    <blockquote class="bio-quote">
+      "None of what I've been able to do happened alone. I've been shaped by great rivers, incredibly generous mentors, and more kind people than I can count. I'm just grateful to still be learning, still be teaching, and still be on the water."
+    </blockquote>
+
+    <p class="bio-graf">
+      If you're thinking about a trip, a school, or just want to learn more about fly fishing in the Smokies — I'd love to hear from you. These rivers are worth it. I promise.
+    </p>
+
+  </div>
+
+  <!-- Awards -->
+  <div class="awards-strip">
+    <div class="awards-inner">
+      <p class="awards-label">Some humbling recognitions received along the way</p>
+      <div class="awards-grid">
+        <div class="award-item">
+          <div class="award-year">2023</div>
+          <div class="award-name">Lifetime Achievement Award</div>
+          <div class="award-org">Fly Fishers International</div>
+        </div>
+        <div class="award-item">
+          <div class="award-year">2021</div>
+          <div class="award-name">Mel Krieger Casting Instructor Award</div>
+          <div class="award-org">Fly Fishers International</div>
+        </div>
+        <div class="award-item">
+          <div class="award-year">2017</div>
+          <div class="award-name">Hall of Fame Inductee</div>
+          <div class="award-org">Southern Fly Fishing Hall of Fame</div>
+        </div>
+        <div class="award-item">
+          <div class="award-year">2016–22</div>
+          <div class="award-name">Best Outfitter Award</div>
+          <div class="award-org">Fly Fishers United</div>
+        </div>
+        <div class="award-item">
+          <div class="award-year">1999</div>
+          <div class="award-name">Angler of the Year</div>
+          <div class="award-org">Field & Stream</div>
+        </div>
+        <div class="award-item">
+          <div class="award-year">1995–now</div>
+          <div class="award-name">Featured Presenter</div>
+          <div class="award-org">The Fly Fishing Show</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mentors -->
+  <div class="mentors">
+    <p class="mentors-label">Grateful to have learned alongside</p>
+    <p class="mentor-names">Bruce Richards · Al Buhr · Jim Green · Leon Chandler · Gary Borger · Jason Borger · Steve Rajeff · Tim Rajeff · Joan Wulff · Doug Swisher · Lefty Kreh · Mel Krieger · Dave Whitlock · Paul Arden · Simon Gawesworth · Carl McNeil · Peter Morse · and so many others who gave their time generously.</p>
+  </div>
+
+</div>
+
+<!-- ══ CALENDAR PANEL ══════════════════════════ -->
+<div class="panel" id="panel-cal">
+
+  <div class="cal-header">
+    <h2>12-Month Content Calendar</h2>
+    <p>Mac Brown Fly Fish · Built around your real story, not a formula.</p>
+  </div>
+
+  <div class="cal-body">
+
+    <div class="strategy-box">
+      <strong>Core Strategy</strong>
+      Post 3–4x per week across Facebook + Instagram. One YouTube video per month. One blog post per month. Lead always with <em>proof</em> — real fish, real students, real rivers. Let the credentials speak through stories, not announcements. Every post should feel like it could only come from Mac Brown.
+    </div>
+
+    <div id="calendar"></div>
+
+  </div>
+</div>
+
+<script>
+// ── Tab switching ────────────────────────────────────────
+function showPanel(id, btn) {
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('panel-' + id).classList.add('active');
+  btn.classList.add('active');
+}
+
+// ── Calendar data ────────────────────────────────────────
+const months = [
+  {
+    name: 'January', theme: 'Deep winter — the rivers nobody fishes',
+    posts: [
+      { platform: 'ig', type: 'Photo + Story', content: '<strong>Show the empty river.</strong> "Most people see January as the off-season. I see it as 8 hours on the water with no one else around." Winter trout shot.' },
+      { platform: 'fb', type: 'Educational Post', content: '<strong>Teach winter nymphing.</strong> Walk through your exact cold-water rig — tippet size, flies, depth. No one else explains it this specifically.' },
+      { platform: 'all', type: 'Throwback', content: '<strong>1987 story.</strong> "When I moved to Bryson City nobody was guiding full-time here. Here\'s what that first winter looked like." Build the origin myth through humility.' },
+      { platform: 'yt', type: 'Video', content: '<strong>Monthly video:</strong> "Reading winter water on the Nantahala" — on-stream teaching, no fancy production needed.' },
+    ]
+  },
+  {
+    name: 'February', theme: 'Casting mechanics — the indoor season',
+    posts: [
+      { platform: 'ig', type: 'Reel / Clip', content: '<strong>30-second casting tip.</strong> One specific flaw Mac sees beginners make — and the fix. Simple, repeatable, shareable.' },
+      { platform: 'fb', type: 'Long-form', content: '<strong>Why Casting Angles was written.</strong> The frustration that led to the book. Humble and personal — not a sales pitch.' },
+      { platform: 'all', type: 'Student story', content: '<strong>Feature a former WCU student</strong> now guiding or competing. "Watching this happen is better than any award I\'ve received."' },
+      { platform: 'blog', type: 'Blog Post', content: '<strong>"The one casting mistake that costs most anglers fish"</strong> — deep instructional post. Drives Google search traffic year-round.' },
+    ]
+  },
+  {
+    name: 'March', theme: 'Season opening — the excitement is real',
+    posts: [
+      { platform: 'ig', type: 'Countdown / Story', content: '<strong>Season opening week content.</strong> Daily behind-the-scenes: prepping gear, scouting flows, first clients of the year arriving.' },
+      { platform: 'fb', type: 'Live or Video', content: '<strong>Go live on opening day.</strong> 10 minutes from the river bank. Real-time. Nothing beats authenticity like live water sounds.' },
+      { platform: 'all', type: 'Conservation', content: '<strong>Celebrate the Nantahala Delayed Harvest.</strong> "This stretch exists because of a community effort in 1993. Still grateful for everyone who made it happen."' },
+      { platform: 'ig', type: 'Booking CTA', content: '<strong>"Spring dates are filling."</strong> Photo of packed drift boat. Simple, honest urgency — not salesy.' },
+    ]
+  },
+  {
+    name: 'April', theme: 'Schools & learning — peak enrollment season',
+    posts: [
+      { platform: 'fb', type: 'Student Feature', content: '<strong>First-timer success story.</strong> Photo of beginner\'s first trout. "This is why I do this. Every single time."' },
+      { platform: 'ig', type: 'Behind the scenes', content: '<strong>School setup day.</strong> Laying out gear, writing on a whiteboard, prepping the casting pond. Process = credibility.' },
+      { platform: 'all', type: 'Educational', content: '<strong>"Is a fly fishing school worth it?"</strong> Answer it honestly and specifically. Address the real hesitations people have.' },
+      { platform: 'yt', type: 'Video', content: '<strong>Monthly video:</strong> Full day at the school — from morning briefing to last cast. Real students, real learning.' },
+    ]
+  },
+  {
+    name: 'May', theme: 'Hatches — the content only you can make',
+    posts: [
+      { platform: 'ig', type: 'Hatch Report', content: '<strong>Live hatch update.</strong> "Sulphurs are popping on the Tuck right now." Photo of the surface. No one local is doing this consistently.' },
+      { platform: 'fb', type: 'Deep Teach', content: '<strong>Matching the hatch — the real explanation.</strong> Not a list. A story of reading the water, identifying the bug, making the switch.' },
+      { platform: 'all', type: 'Gear', content: '<strong>Fly recommendation post.</strong> Three flies for May in the Smokies. Personal picks, personal reasons. Mention sponsors naturally.' },
+      { platform: 'blog', type: 'Blog Post', content: '<strong>"May hatches in the Smokies — what to expect and how to prepare"</strong> — evergreen traffic driver for May searches every year.' },
+    ]
+  },
+  {
+    name: 'June', theme: 'GSMNP + family season',
+    posts: [
+      { platform: 'ig', type: 'Location Feature', content: '<strong>Great Smoky Mountains National Park water.</strong> Landscape + fish photo. "There is no classroom like this." Tag the park.' },
+      { platform: 'fb', type: 'Family Focus', content: '<strong>"Bringing kids fly fishing for the first time."</strong> Tips, what to expect, why it matters. Parents share this content.' },
+      { platform: 'all', type: 'Gratitude post', content: '<strong>Thank a mentor publicly.</strong> Share a story about Joan Wulff, Lefty Kreh, or another giant. Humility + name recognition = shares.' },
+      { platform: 'yt', type: 'Video', content: '<strong>Monthly video:</strong> GSMNP stream walk — identify 5 holding spots on a beautiful stretch of mountain water.' },
+    ]
+  },
+  {
+    name: 'July', theme: 'Summer heat — teach low water tactics',
+    posts: [
+      { platform: 'ig', type: 'Tactical Post', content: '<strong>Low summer water fishing.</strong> "Most people quit in July. Here\'s how to fish it." Early morning, specific flies, specific approach.' },
+      { platform: 'fb', type: 'Conservation', content: '<strong>Catch & Release in warm water.</strong> Educate on proper release when temps rise. Position as steward, not just guide.' },
+      { platform: 'all', type: 'Story', content: '<strong>A memorable July from 30 years ago.</strong> Storytelling beats information every time. Be specific — the river, the hatch, the person.' },
+      { platform: 'blog', type: 'Blog Post', content: '<strong>"Fly fishing in summer heat — how to still find fish in the Smokies"</strong> — answers a question people are actively Googling.' },
+    ]
+  },
+  {
+    name: 'August', theme: 'Build toward fall — anticipation content',
+    posts: [
+      { platform: 'ig', type: 'Teaser', content: '<strong>"Fall is coming."</strong> One moody late-summer river photo. Short caption. Let the image do the work.' },
+      { platform: 'fb', type: 'School Promo', content: '<strong>Fall school dates announcement.</strong> Framed around the experience, not the transaction. "I only do a handful of these each year."' },
+      { platform: 'all', type: 'Podcast / Appearance', content: '<strong>Share your Articulate Fly episode</strong> when it drops. Write 2–3 sentences about what you discussed and why it matters to you.' },
+      { platform: 'yt', type: 'Video', content: '<strong>Monthly video:</strong> "Getting ready for fall — my annual gear check and river prep." Practical, personal, trustworthy.' },
+    ]
+  },
+  {
+    name: 'September', theme: 'Fall is here — peak fishing content',
+    posts: [
+      { platform: 'ig', type: 'Photo Series', content: '<strong>3-post fall color series.</strong> Smokies foliage + river + fish. Schedule Tuesday / Thursday / Saturday. No caption needed beyond location.' },
+      { platform: 'fb', type: 'Booking', content: '<strong>"October and November are some of my favorite weeks of the year."</strong> Honest enthusiasm sells better than a discount.' },
+      { platform: 'all', type: 'Award Story', content: '<strong>Retell the Hall of Fame induction story humbly.</strong> "I was stunned. Still am. I thought of every person who put a rod in my hand first." Annual reprise — new followers haven\'t seen it.' },
+      { platform: 'blog', type: 'Blog Post', content: '<strong>"Fall fly fishing in the Smoky Mountains — the best-kept secret in the Southeast"</strong> — peak search traffic month.' },
+    ]
+  },
+  {
+    name: 'October', theme: 'The best month — show it like you mean it',
+    posts: [
+      { platform: 'ig', type: 'Daily Story', content: '<strong>Post every day in October.</strong> Story-format: morning mist, fish caught, client smiling, evening light. Consistency builds followers fast this month.' },
+      { platform: 'fb', type: 'Long Read', content: '<strong>"Why October on the Tuckasegee is unlike anywhere else."</strong> Specific, evocative, true. The kind of post people save and share.' },
+      { platform: 'all', type: 'Gear Feature', content: '<strong>Sponsor feature — Temple Fork or Patagonia.</strong> "Been fishing this rod for X years. Here\'s what I actually think." Authentic pro staff content.' },
+      { platform: 'yt', type: 'Video', content: '<strong>Monthly video:</strong> Full October guided float trip — from the ramp to the takeout. Real clients, real day.' },
+    ]
+  },
+  {
+    name: 'November', theme: 'Gratitude season — lean into it',
+    posts: [
+      { platform: 'fb', type: 'Gratitude Post', content: '<strong>Thanksgiving week: name names.</strong> Thank your guides, your students, your mentors, your family. This is the most authentic thing you can post all year.' },
+      { platform: 'ig', type: 'Year in Review Teaser', content: '<strong>"What a year on the water."</strong> Collage of best images from January–November. Simple. Warm.' },
+      { platform: 'all', type: 'Gift Guide', content: '<strong>"The fly fishing gift guide I\'d actually give."</strong> Casting Angles prominently featured, but genuinely helpful beyond that. Drives holiday sales.' },
+      { platform: 'blog', type: 'Blog Post', content: '<strong>"What 38 years on these rivers has taught me"</strong> — your most personal post of the year. This one gets shared far and wide.' },
+    ]
+  },
+  {
+    name: 'December', theme: 'Reflect, connect, set up next year',
+    posts: [
+      { platform: 'fb', type: 'Year in Review', content: '<strong>Full year recap post.</strong> How many students, memorable moments, what you learned. Numbers make it real. Humility makes it shareable.' },
+      { platform: 'ig', type: 'Gift Push', content: '<strong>"Casting Angles makes a great gift."</strong> Simple product shot, handwritten note feel. Holiday timing.' },
+      { platform: 'all', type: 'New Year Tease', content: '<strong>"Already thinking about next season."</strong> One sentence + one river photo. Creates anticipation and booking intent.' },
+      { platform: 'yt', type: 'Video', content: '<strong>Monthly video:</strong> "Looking back at the year — what I learned, what surprised me, what I\'m grateful for." Most personal video of the year.' },
+    ]
+  },
+];
+
+const platMap = { ig:'IG', fb:'FB', yt:'YT', all:'ALL', blog:'BLOG' };
+const platClass = { ig:'plat-ig', fb:'plat-fb', yt:'plat-yt', all:'plat-all', blog:'plat-blog' };
+
+const container = document.getElementById('calendar');
+months.forEach((m, i) => {
+  const card = document.createElement('div');
+  card.className = 'month-card';
+
+  const header = document.createElement('div');
+  header.className = 'month-header';
+  header.innerHTML = `
+    <span class="month-num">${String(i+1).padStart(2,'0')}</span>
+    <span class="month-name">${m.name}</span>
+    <span class="month-theme">${m.theme}</span>
+    <span class="month-chevron">▼</span>
+  `;
+
+  const posts = document.createElement('div');
+  posts.className = 'month-posts';
+  posts.innerHTML = m.posts.map(p => `
+    <div class="post-row">
+      <span class="post-platform ${platClass[p.platform]}">${platMap[p.platform]}</span>
+      <span class="post-content">${p.content}</span>
+      <span class="post-type">${p.type}</span>
+    </div>
+  `).join('');
+
+  header.addEventListener('click', () => {
+    card.classList.toggle('open');
+  });
+
+  card.appendChild(header);
+  card.appendChild(posts);
+  container.appendChild(card);
+});
+
+// Open first month by default
+document.querySelector('.month-card').classList.add('open');
+</script>
+
+</body>
+</html>

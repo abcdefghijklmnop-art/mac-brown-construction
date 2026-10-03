@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-casting-definitions-glossary-terminology/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 9.
+
+    {
+      "@type": "Question",
+      "name": "What is a transverse wave in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A transverse wave in fly casting is a moving wave consisting of oscillations occurring perpendicular to the direction of energy transfer. Transverse waves cause tailing loops, tracking errors, and inaccurate presentations when unintentional. They can also be used deliberately — as in S-cast mends, pile casts, curve casts, and aerial mends — making them one of the most powerful tools in advanced fly casting once understood and controlled."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a V-loop in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A V-loop is a V-shaped back loop of line formed behind the rod tip — more efficient than a D loop in flight. It offers greater load to pull against when timed with a proper anchor. V-loops are used in Spey casting for longer casts where a larger mass of line is needed behind the rod for efficient loading on the delivery cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the vector pull retrieve in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The vector pull retrieve is a line retrieval method that manipulates two strands of fly line at all times — as opposed to traditional retrieval which pulls only one strand. One retrieval equals approximately twice your body height. It produces over 400% less angler movement than traditional strip retrieval, handles four times the line per retrieve, and can remove over 24 feet of slack instantly on the hook set."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a weight forward fly line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A weight forward fly line has its casting weight concentrated toward the front of the line with the remainder being a long section of thin running line. It is the most common fly line taper for trout fishing — easier to cast than a double taper at distance and more versatile for shooting line and reaching longer distances."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What causes wind knots in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wind knots are overhand knots in the line or leader caused by tailing loops during the casting stroke — not by the wind. The fly leg crosses the rod leg and ties itself into a knot. Too much force too early in the stroke is the most common cause. Smoother acceleration and proper timing fix wind knots faster than any other adjustment. Wind may make a tailing loop worse but it does not cause it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is yank syndrome in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yank syndrome is ripping the fly line back off the water immediately after the line has settled — creating a loud splash. This habit is common with new fly fishers and should be avoided. It spooks fish in the immediate area and eliminates the fishing opportunity of the current drift. A slow smooth pickup that builds tension gradually before the casting stroke is the correct technique."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the waltz in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The waltz in fly casting is the transfer of the caster's body weight from one foot to the other during the casting cycle — the shifting of the caster's center of axis throughout the stroke. Proper weight transfer adds power to the casting stroke and is particularly effective for distance casting and Spey casting where the whole body is involved in generating line speed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a double taper fly line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A double taper fly line is tapered on each end and uniform throughout the remaining length. It can be reversed when one end wears out, effectively doubling the life of the line. Double taper lines roll cast and mend more efficiently than weight forward lines and are preferred by many dry fly anglers for delicate presentations at short to medium distances."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is stream awareness in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stream awareness describes an angler's knowledge and understanding of the behavior, intricacies, and relationships of streamflow and aquatic organisms and how they relate to the ecosystem. It is best developed through empirical lessons learned on the stream over many seasons. Stream awareness is the strategy component of the Fly Fisher's Triad — the hardest to develop and the longest to master."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a static roll cast?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A static roll cast uses a stationary fly line resting on the surface of water or grass with the rod held high in the key position ready to implement the forward stroke. It is the purest test of rod loading mechanics in fly casting and one of the most tested elements on FFI certification exams. Problems in the loading move show up immediately in the static roll cast at distance."
+      }
+    }
+
+Confirm saved. Stand by for Paste 9.

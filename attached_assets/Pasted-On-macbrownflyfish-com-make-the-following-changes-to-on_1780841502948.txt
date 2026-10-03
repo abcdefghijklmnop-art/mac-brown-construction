@@ -1,0 +1,171 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/standardization-fly-casting/
+
+AEO — add immediately below H1:
+"Standardization in fly casting instruction 
+leads to stagnation — when rules replace 
+mechanics and principles replace physics, 
+the sport stops evolving. Mac Brown has 
+observed two types of fly fishers in 38+ 
+years of teaching: recreational anglers 
+who seek shallow answers to complex topics, 
+and committed anglers who invest in 
+education and improve measurably. The 
+committed angler who understands why a 
+cast works — not just what to do — can 
+self-correct on any water in any condition 
+for the rest of their life. Rules cannot 
+do that. Mechanics can."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: Why does standardization hurt 
+fly casting instruction?
+A1: Standardization turns observations 
+into rules and rules into gospel — 
+divorced from the mechanics that made 
+them true in the first place. Rules 
+about rod arc, elbow position, wrist 
+use, and acceleration work in some 
+contexts and fail in others. When 
+instructors teach rules instead of 
+mechanics they produce students who 
+can perform one style of cast in one 
+set of conditions — and stagnate 
+the moment conditions change. 
+Mechanics are universal. Rules 
+are situational at best.
+
+Q2: What is the difference between 
+a recreational and a committed 
+fly fisher?
+A2: The recreational fly fisher 
+seeks entertainment and shallow 
+answers — they buy gear, follow 
+rules, and look for magic flies. 
+The committed fly fisher seeks 
+education and genuine improvement 
+— they invest in instruction, 
+practice deliberately, and want 
+to understand why things work. 
+Lefty Kreh observed that 90% 
+of the recreational community 
+would not benefit from a thousand 
+dollar rod. The top 5% of elite 
+casters cast the cheapest outfit 
+well — because skill is the 
+variable, not gear.
+
+Q3: Can children and women learn 
+fly casting faster than adult men?
+A3: Yes — Mac Brown has observed 
+this consistently since 1987. 
+Children learn quickly because 
+they have no ingrained projectile 
+sport habits to overcome. Women 
+often progress faster than men 
+in early stages for the same 
+reason — men are conditioned to 
+equate distance with power, which 
+is the opposite of efficient fly 
+casting. In fly casting, less is 
+more. Breaking that conditioning 
+is the first challenge for most 
+adult male beginners.
+
+Q4: How do elite fly casters 
+develop so quickly?
+A4: Early mentorship and 
+deliberate practice with 
+correct fundamentals from 
+the start. Norm Makatima 
+became a world champion 
+mentored by Davy Wotton. 
+Maxine McCormick won multiple 
+world championship gold medals 
+under the guidance of Chris 
+Korich. Mac Brown's own sons 
+began casting at two years old 
+with proper technique. The 
+common thread is not talent — 
+it is early exposure to quality 
+instruction that builds correct 
+myelin pathways before bad 
+habits can form.
+
+Q5: How do I avoid the 
+stagnation trap in fly fishing?
+A5: Stop treating rules as 
+gospel and start asking why. 
+Find a certified instructor 
+who teaches mechanics — not 
+just what to do but why it 
+works. Practice with intent 
+between sessions. Stay curious 
+and remain a student. Mac Brown 
+teaches from first principles 
+at every program at Mac Brown 
+Fly Fish in Bryson City, NC — 
+private lessons, weekend 
+clinics, and the week-long 
+Fly Fishing Guide School. 
+The goal is always to give 
+students the tools to 
+self-correct for life, not 
+to create dependency on a 
+guide or instructor.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why does standardization hurt fly casting instruction?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standardization turns observations into rules and rules into gospel — divorced from the mechanics that made them true in the first place. Rules about rod arc, elbow position, and acceleration work in some contexts and fail in others. When instructors teach rules instead of mechanics they produce students who stagnate the moment conditions change. Mechanics are universal. Rules are situational at best."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a recreational and a committed fly fisher?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The recreational fly fisher seeks entertainment and shallow answers — they buy gear, follow rules, and look for magic flies. The committed fly fisher seeks education and genuine improvement — they invest in instruction, practice deliberately, and want to understand why things work. Lefty Kreh observed that 90% of the recreational community would not benefit from a thousand dollar rod. The top 5% of elite casters cast the cheapest outfit well — because skill is the variable, not gear."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can children and women learn fly casting faster than adult men?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — Mac Brown has observed this consistently since 1987. Children learn quickly because they have no ingrained projectile sport habits. Women often progress faster than men in early stages for the same reason — men are conditioned to equate distance with power, which is the opposite of efficient fly casting. Breaking that conditioning is the first challenge for most adult male beginners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do elite fly casters develop so quickly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Early mentorship and deliberate practice with correct fundamentals from the start. Norm Makatima became a world champion mentored by Davy Wotton. Maxine McCormick won multiple world championship gold medals under Chris Korich. The common thread is not talent — it is early exposure to quality instruction that builds correct myelin pathways before bad habits can form."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I avoid the stagnation trap in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stop treating rules as gospel and start asking why. Find a certified instructor who teaches mechanics — not just what to do but why it works. Practice with intent between sessions. Mac Brown teaches from first principles at Mac Brown Fly Fish in Bryson City, NC — private lessons, weekend clinics, and the week-long Fly Fishing Guide School. The goal is always to give students the tools to self-correct for life."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

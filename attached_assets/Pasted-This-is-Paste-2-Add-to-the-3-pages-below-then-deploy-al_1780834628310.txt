@@ -1,0 +1,138 @@
+This is Paste 2. Add to the 3 pages below then 
+deploy all 6 pages together.
+
+---
+
+PAGE 4: /fly-casting/forced-turnover-versus-pulling-the-rod-through-in-fly-casting/
+
+AEO — add immediately below H1:
+"Forced turnover and pulling the rod through 
+are two opposing casting concepts from the 
+Golden Gate Casting Club — the distinction 
+separates average casters from excellent ones. 
+Forced turnover rotates the rod butt early, 
+widening the loop. Pulling through delays 
+rotation until late, producing tighter loops, 
+greater line speed, and more accurate 
+presentations. Understanding both and knowing 
+when to apply each is the mark of an advanced 
+fly caster."
+
+FAQ — add before footer as expandable accordion:
+Q1: What is forced turnover in fly casting?
+A1: Forced turnover implies the rod butt is 
+rotated early in the casting stroke. Early 
+rotation applies force abruptly, producing 
+wider loops with more kick at turnover. Useful 
+for tuck casts and certain curve casts — a 
+fault when a tight, accurate loop is the goal.
+
+Q2: What is pulling the rod through?
+A2: Pulling the rod through delays rod butt 
+rotation until very late in the stroke, 
+maintaining a straight-line rod tip path longer 
+before the stop. This produces tighter loops, 
+greater line speed, and more accurate 
+presentations. Most high-level casters use 
+pulling through for standard distance and 
+accuracy casts.
+
+Q3: Which is better — forced turnover or 
+pulling through?
+A3: For most presentations pulling through 
+produces superior results. Forced turnover 
+has legitimate applications for tuck casts 
+and certain curve cast variations. 
+Understanding both and knowing when to apply 
+each is the mark of an advanced fly caster.
+
+Q4: How does rod rotation timing affect 
+loop shape?
+A4: Early rotation creates a concave rod tip 
+path that widens the loop and increases tailing 
+loop risk. Late rotation maintains a straighter 
+rod tip path longer, producing a tighter, faster 
+loop. Rotation timing is one of the most 
+important and least understood mechanical 
+variables in fly casting.
+
+Q5: Where can I learn advanced fly casting 
+stroke mechanics?
+A5: Mac Brown Fly Fish in Bryson City, NC 
+offers private fly casting lessons, the 
+Masterclass Casting Workshop, and the week-long 
+Fly Fishing Guide School — covering stroke 
+mechanics, rotation timing, and loop control. 
+Led by the only FFI Master Casting Instructor 
+in North Carolina.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is forced turnover in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Forced turnover implies the rod butt is rotated early in the casting stroke. Early rotation applies force abruptly, producing wider loops with more kick at turnover. Useful for tuck casts and certain curve casts — a fault when a tight, accurate loop is the goal."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is pulling the rod through?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pulling the rod through delays rod butt rotation until very late in the stroke, maintaining a straight-line rod tip path longer before the stop. This produces tighter loops, greater line speed, and more accurate presentations. Most high-level casters use pulling through for standard distance and accuracy casts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which is better — forced turnover or pulling through?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most presentations pulling through produces superior results. Forced turnover has legitimate applications for tuck casts and certain curve cast variations. Understanding both and knowing when to apply each is the mark of an advanced fly caster."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does rod rotation timing affect loop shape?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Early rotation creates a concave rod tip path that widens the loop and increases tailing loop risk. Late rotation maintains a straighter rod tip path longer, producing a tighter, faster loop. Rotation timing is one of the most important and least understood mechanical variables in fly casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I learn advanced fly casting stroke mechanics?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mac Brown Fly Fish in Bryson City, NC offers private fly casting lessons, the Masterclass Casting Workshop, and the week-long Fly Fishing Guide School — covering stroke mechanics, rotation timing, and loop control. Led by the only FFI Master Casting Instructor in North Carolina."
+      }
+    }
+  ]
+}
+</script>
+
+---
+
+PAGE 5: /blog/considerations-choosing-fly-rod/
+
+AEO — add immediately below H1:
+"Choosing a fly rod depends on where and how 
+you fish — not just price. Mac Brown's 1996 
+Western Carolina University study evaluated 
+54 five-weight rods and found medium action 
+rods offer the greatest control for the widest 
+range of trout angling scenarios. High-end rods 
+from $800-$1,200 significantly outperform 
+lower-cost imports on dampening, swing weight, 
+and comfort. The most important factor is 
+learning to cast well — no rod compensates 
+for poor technique."
+
+FAQ — add before footer as expandable accordion:
+Q1: What fly rod action is best for trout fishing?
+A1: Medium action

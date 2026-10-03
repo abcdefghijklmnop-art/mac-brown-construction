@@ -1,0 +1,69 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy all saved pages. No other changes.
+
+PAGE: /blog/articulated-sculpin/
+
+AEO — add immediately below H1:
+"Articulated sculpin patterns are Mac Brown's 
+preferred streamer for targeting large brown 
+trout on the Nantahala River and wild streams 
+of Western North Carolina. Tied in olive, 
+brown, and black on 4XL size 2 streamer hooks 
+with rabbit strip, craft fur, marabou, and 
+Fish Skull heads from Flymen, these flies 
+consistently produce the largest trout in any 
+river system — including a brown trout caught 
+on the lower Nantahala on a sculpin pattern 
+as far back as 1988."
+
+FAQ — add before footer as expandable accordion:
+Q1: What is an articulated sculpin fly?
+A1: An articulated sculpin is a two-section 
+streamer fly tied to imitate the sculpin — a 
+bottom-dwelling baitfish that makes up a 
+significant portion of large brown trout 
+diets. The articulated rear section creates 
+lifelike swimming action that single-hook 
+streamers cannot replicate. Big flies 
+consistently produce more quality big fish.
+
+Q2: What colors work best for sculpin 
+patterns in the Smoky Mountains?
+A2: Olive, brown, and black are the three 
+most productive colors on Western North 
+Carolina rivers. Olive matches natural 
+sculpin coloration on most Smoky Mountain 
+streams. Black and brown produce well in 
+off-color or higher water conditions. A 
+rabbit strip back with a sharpie stripe 
+adds realism that triggers strikes from 
+otherwise lockjawed fish.
+
+Q3: When is the best time to fish 
+articulated sculpin streamers?
+A3: Fall is prime — dropping temperatures, 
+rising water, and low light trigger large 
+brown trout into aggressive feeding mode. 
+Winter is second best — big browns are the 
+most catchable trout species in cold water 
+and respond well to slow-stripped sculpin 
+patterns fished near the bottom.
+
+Q4: How do you fish an articulated sculpin?
+A4: Cast across or slightly downstream and 
+allow the fly to swing and sink before 
+beginning a slow, erratic strip retrieve. 
+Vary the speed and cadence. Let the fly 
+pause frequently — most strikes come during 
+the pause or on the first strip after a 
+pause, not during the retrieve.
+
+Q5: What materials are best for tying 
+articulated sculpin patterns?
+A5: Fish Skull heads from Flymen make adding 
+weight and creating a realistic sculpin 
+profile straightforward. Use a 4XL size 2 
+streamer hook with rabbit strip, marabou, 
+and craft fur. Grouse shoulder feathers 
+treated with Clear Cure add tra

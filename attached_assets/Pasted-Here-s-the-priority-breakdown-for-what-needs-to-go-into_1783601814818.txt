@@ -1,0 +1,19 @@
+Here's the priority breakdown for what needs to go into the Replit redirect prompt vs. what's noise:
+
+**Fix now (Replit redirect prompt):**
+
+1. **Redirect error — 28 pages** (Image 6) — highest priority. These are *broken* redirects (validation failed), not just redirects that exist. Includes the flagged orphaned page: `fly-fishing-guide-trips-north-carolina/wade-fishing/?amp` — confirms it's still live and crawlable. Also in this list: `meet-our-guides/?noamp=mobile`, `contact/?amp`, `contact-fly-fishing-guided-trips-bryson-city-nc/?amp`, `fly-fishers-complete-a-z-boot-camp/?amp`, `wnc-fly-fishing-trail/?amp`, `mac-brown-fly-fish-trucker-hats/?amp`, `nc-oar-frame-rowing-school-smokies/?amp`, `fly-casting-model/casting-model/?amp`. These are legacy AMP-parameter URLs — need explicit redirect rules that strip `?amp`/`?noamp=mobile` and 301 to the clean current URL.
+
+2. **Page with redirect — 778 pages** (Image 3) — worth a spot-check, not full rebuild. Most are probably resolving fine (that's normal for a migrated site), but a few in the examples are real content URLs worth confirming land on the right target: `fly-fishing-specialty-classes-show-itinerary/`, `learn-leader-construction/learn-leader-construction/` (looks like a duplicated path segment — check that one), `tuckasegee-river-fly-fishing/best-winter-fly-fishing/`. The `www.macbrownflyfish.com` and `wp-admin/admin-ajax.php` entries are just legacy WP cruft — no action needed beyond the redirect already in place.
+
+**Not a redirect-prompt issue — separate problem:**
+
+3. **Not found (404) — 49 pages** (Image 5) and **Crawled – currently not indexed — 483 pages** (Image 7) — almost entirely `_next/static/css/*.css?dpl=...` deployment asset files with hash/deployment IDs. This is Google crawling old Vercel build artifacts, not actual pages. Not something a redirect map fixes — likely stale references in a sitemap, cached HTML, or old deployment links somewhere pointing to prior build hashes. Flag as a separate Vercel/Cloudflare cache investigation, not content work.
+
+**Ignore / low priority:**
+
+4. **Blocked (403) — 3 pages** (Images 1, 8) — `wp-content/*`, `tag/morphing-loops/feed/`, `tag/great-smoky-mountains/feed/`. Legacy WP feed/asset paths, correctly not indexed. No action needed.
+
+5. **Alternate page with proper canonical tag — 142 pages** (Image 4) — this is expected, healthy behavior (duplicate content properly pointing to a canonical). Not an error to fix.
+
+**Bottom line for the Replit prompt:** add explicit rules to strip `?amp` and `?noamp=mobile` query params and 301 to clean URLs for the 28 redirect-error pages, and confirm the `learn-leader-construction/learn-leader-construction/` duplicate path. The CSS 404s are a separate deployment-cache issue — don't fold that into the content/redirect prompt.

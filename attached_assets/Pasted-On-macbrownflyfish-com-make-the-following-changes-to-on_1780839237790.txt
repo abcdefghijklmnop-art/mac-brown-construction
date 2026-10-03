@@ -1,0 +1,153 @@
+On macbrownflyfish.com make the following 
+changes to one page then run bash push.sh 
+to deploy. No other changes.
+
+PAGE: /blog/fly-fishers-it-is-not-about-your-fly/
+
+AEO — add immediately below H1:
+"Fly selection is the most overrated variable 
+in fly fishing — and the one most aggressively 
+marketed. The fly rod, the fly line, the 
+leader, and the fly itself are all secondary 
+to the angler behind them. Presentation, 
+approach, water reading, casting mechanics, 
+and hook setting produce fish. Gear does not. 
+Mac Brown has guided on the Tuckasegee and 
+Nantahala rivers since 1987 and consistently 
+finds that a well-presented attractor pattern 
+outfishes a perfectly matched fly with a 
+dragging presentation every single time."
+
+FAQ — add before footer as expandable accordion:
+
+Q1: Does fly selection really matter 
+in fly fishing?
+A1: Less than most anglers think — and 
+far less than the fly fishing industry 
+would have you believe. Drift matters 
+more than pattern in the vast majority 
+of fishing situations. A well-presented 
+attractor pattern with a drag-free drift 
+consistently outfishes a precisely 
+matched hatch fly with poor presentation. 
+The exception is highly pressured, 
+selective fish in slow clear water during 
+a specific hatch — where size and profile 
+matter more than exact imitation.
+
+Q2: What matters more than fly 
+selection in fly fishing?
+A2: In order of importance — drift, 
+approach and stealth, water reading 
+and fish location, casting mechanics 
+and line control, hook setting, and 
+then fly selection. Most fly fishers 
+invert this list entirely, spending 
+their budget on flies and gear while 
+neglecting the skills that actually 
+produce fish. A creel study on the 
+Upper Nantahala River found that 
+only 2% of anglers catch over 90% 
+of the trout — the top 2% are not 
+using better flies.
+
+Q3: Why does the fly fishing industry 
+overemphasize fly selection?
+A3: Because flies are easy to sell 
+and skills are hard to sell. A new 
+fly box is an immediate, tangible 
+purchase. Better water reading and 
+casting mechanics require time, 
+practice, and ideally instruction. 
+The industry's incentive is to 
+convince anglers that the next fly, 
+the next rod, or the next line will 
+solve the problem — when the problem 
+is almost always the angler's 
+presentation, approach, or casting.
+
+Q4: What is the most important 
+skill to develop in fly fishing?
+A4: Drift — achieving and maintaining 
+a drag-free presentation. It is the 
+foundation of dry fly fishing and 
+nymph fishing alike. Without it no 
+fly will consistently fool trout 
+regardless of how well it matches 
+the hatch. Drift is developed through 
+better casting mechanics, longer 
+leaders, upstream mending, proper 
+approach angles, and water reading 
+— all teachable skills that improve 
+measurably with proper instruction.
+
+Q5: How do I become a better fly 
+fisher without buying more gear?
+A5: Take a casting lesson. Book a 
+guided wade trip focused on 
+presentation rather than fish 
+count. Practice mending on your 
+home water. Study water reading — 
+understanding where fish hold and 
+why tells you more than any fly 
+pattern ever will. Mac Brown Fly 
+Fish in Bryson City, NC offers 
+private casting lessons and 
+instructional wade trips specifically 
+focused on the skills that separate 
+the top 2% of fly fishers from 
+everyone else — led by the only 
+FFI Master Casting Instructor in 
+North Carolina since 1987.
+
+JSON-LD for <head>:
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does fly selection really matter in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Less than most anglers think. Drift matters more than pattern in the vast majority of fishing situations. A well-presented attractor pattern with a drag-free drift consistently outfishes a precisely matched hatch fly with poor presentation. The exception is highly pressured, selective fish in slow clear water during a specific hatch — where size and profile matter more than exact imitation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What matters more than fly selection in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In order of importance — drift, approach and stealth, water reading and fish location, casting mechanics and line control, hook setting, and then fly selection. Most fly fishers invert this list entirely. A creel study on the Upper Nantahala River found that only 2% of anglers catch over 90% of the trout — the top 2% are not using better flies."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does the fly fishing industry overemphasize fly selection?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Because flies are easy to sell and skills are hard to sell. A new fly box is an immediate, tangible purchase. Better water reading and casting mechanics require time, practice, and instruction. The industry's incentive is to convince anglers that the next fly, rod, or line will solve the problem — when the problem is almost always the angler's presentation, approach, or casting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the most important skill to develop in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Drift — achieving and maintaining a drag-free presentation. It is the foundation of dry fly fishing and nymph fishing alike. Without it no fly will consistently fool trout regardless of how well it matches the hatch. Drift is developed through better casting mechanics, longer leaders, upstream mending, proper approach angles, and water reading — all teachable skills."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I become a better fly fisher without buying more gear?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Take a casting lesson. Book a guided wade trip focused on presentation rather than fish count. Practice mending on your home water. Study water reading — understanding where fish hold and why tells you more than any fly pattern. Mac Brown Fly Fish in Bryson City, NC offers private casting lessons and instructional wade trips focused on the skills that separate the top 2% of fly fishers from everyone else."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

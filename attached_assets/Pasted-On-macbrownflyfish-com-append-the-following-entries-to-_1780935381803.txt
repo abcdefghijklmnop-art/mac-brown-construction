@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 18.
+
+    {
+      "@type": "Question",
+      "name": "What is nymphing in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nymphing describes fish actively feeding on nymphs or the act of fly fishing with nymphs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are nippers in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nippers are a tool for clipping off monofilament. The best nippers are an inexpensive pair of nail clippers because of the leverage difference which makes cutting easier."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is marabou in fly tying?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Marabou refers to fluffy under feathers from chickens and turkeys used in fly tying."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a loop-to-loop connection in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A loop-to-loop connection joins a fly line and a leader by making a loop at the end of the leader using a perfection loop knot and joining it to a loop at the end of the fly line. Loop-to-loop connections are sometimes also made from a leader to a tippet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a level fly line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A level fly line is level throughout its length with no taper. These are great for building custom lines used as running line for shooting head or weight-forward systems. Level lines in small sizes are also excellent nymphing lines for pocket water scenarios."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a lay down cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A lay down cast uses only a single backcast. The line is lifted from the water, a backcast is made, and then a forward cast is allowed to straighten and fall into the water completing the cast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a kype on a trout or salmon?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A kype is a hook-like protrusion that develops on the mandible of male spawning trout or salmon. The kype is particularly striking in salmon."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a kick boat in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A kick boat is a one-person fishing boat with a seat between two pontoons positioned at a level that allows the angler's feet to be in the water — propelled by swim fins, oars, or a motor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a jumping rise in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A jumping rise is when a trout breaks through the water's surface to catch a rising or descending insect."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an improved clinch knot in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The improved clinch knot is one of the most widely used fishing knots — providing a good method for securing a fishing line to a hook, lure, or swivel."
+      }
+    }
+
+Confirm saved. Stand by for Paste 18.

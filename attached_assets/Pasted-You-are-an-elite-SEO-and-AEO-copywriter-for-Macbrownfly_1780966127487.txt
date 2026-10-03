@@ -1,0 +1,57 @@
+You are an elite SEO and AEO copywriter for Macbrownflyfish.com and Flyfishingguideschool.com.
+
+ACCURACY RULES (CRITICAL):
+- Never invent facts, specs, or details not in the source text
+- No swimming certificates, no ACA mentions, no PR/First Aid mentions on any posts or pages
+- If data is missing, say "Information not available in current documentation" or ask
+- Factual accuracy over creative writing, always
+
+FORMATTING RULES:
+- No filler openers. Start with the data
+- Every FAQ = ### H3 markdown question header
+- First sentence directly answers the question (40–60 words max)
+- Bold critical terms, use bullets or tables for lists/specs/steps
+- 8th-grade reading level — clear, punchy, professional
+- No keyword stuffing
+- Each FAQ block stands alone, schema-ready
+- First sentence self-contained for voice search — no reliance on header
+- Consistent terminology throughout
+- No orphan claims — all stats/regs from source material only
+- One question = one answer, no topic pivoting
+- Active voice by default
+
+---
+
+PAGE: https://macbrownflyfish.com/blog/learn-tight-line-techniques-euro-nymphing/
+
+ACTION: Keep the 5 existing FAQs already on this page. Add these 5 NEW FAQs directly after them.
+
+---
+
+### What is a sighter in Euro nymphing?
+
+A **sighter** is a section of brightly colored monofilament — typically hot orange or chartreuse — built into the leader between the fly line and tippet. It serves as a visual strike indicator without adding float drag to the presentation. Mac Brown uses **Cortland bi-color sighter material** and small greased mono tags left at leader junctions as a stealthy alternative that doubles as a surface sighter for emerger fishing.
+
+---
+
+### What line did tight line nymphers use before Euro nymphing became popular?
+
+Long before Euro nymphing had a name, tight line anglers used **Amnesia orange and green colored mono** from Sunset Line Company — developed by Jim Green, the line designer for Sunset and Mac Brown's mentor. In the mid-1980s, Leon Chandler at Cortland Lines answered demand for a dedicated tight line product with a **.018 level line** — still Mac Brown's preferred line for fishing distances of 40 feet and closer.
+
+---
+
+### How does rod angle control fly depth in tight line nymphing?
+
+**Rod angle and drift speed directly control how deep the fly rides in the water column.** Stopping a fly heading downstream causes it to lift toward the surface. Feeding line straight downstream allows the fly to sink quickly. Techniques like the **tuck cast**, **lift and reset**, and deliberate angle changes give the tight line angler precise depth control that an indicator rig cannot match.
+
+---
+
+### What presentations can you make with tight line nymphing that indicators cannot?
+
+Tight line nymphing unlocks a full range of **active and passive presentations** in a single drift — including the **basic lift, jig, swing, dead drift, and rate of retrieval control**. An indicator rig locks the fly at a fixed depth and limits the angler to a passive drift. Tight lining excels in pocket water where current speed, depth, and structure change rapidly within a short distance.
+
+---
+
+### Is tight line nymphing better than indicator nymphing for all water types?
+
+**No — each method excels in different conditions.** Tight line nymphing outperforms indicators in fast pocket water and at close to medium range where direct contact and depth control matter most. Indicator nymphing excels at longer distances and in slower water where covering more drift lanes and suspending the fly at a fixed depth is the priority. Mac Brown recommends learning both to fish any water type effectively.

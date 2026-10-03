@@ -1,0 +1,55 @@
+On macbrownflyfish.com add the following 
+FAQPage JSON-LD to the <head> of 
+/fly-casting-instruction/ only. 
+No other changes to this page.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much do fly casting lessons cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fly casting lessons with Mac Brown are $400 per hour — 1 or 2 people at the same rate. A 2-hour session is $800 and a 3-hour session is $1,200. Online lessons via FaceTime, Zoom, or Skype are the same rate. Mac Brown guarantees every lesson — if you do not experience measurable improvement, the lesson is free."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a fly casting lesson cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every lesson is tailored to the individual — diagnosing existing faults first, then correcting the one or two things that will produce the greatest immediate improvement. Topics include loop control, accuracy, distance, the double haul, mending, curve and pile casts, presentation casting, and advanced line control. Single-hand, switch, and Spey casting all available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is a fly casting lesson?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lessons are available in 1, 2, or 3-hour sessions. Most students experience measurable improvement within the first hour. A 2-hour session allows time to diagnose, correct, and practice the correction on grass or water. A 3-hour session is recommended for anglers working on multiple casting disciplines or preparing for FFI certification testing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need my own gear for a casting lesson?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — all rods, reels, and lines are provided for casting lessons. Bring your own gear if you want instruction specific to your personal setup. Lessons are conducted on grass or water in Bryson City, NC depending on what the session requires."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the cancellation and payment policy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Payment is due at the time of booking. Cancellations made more than 48 hours in advance receive a full refund or reschedule. Cancellations within 48 hours are non-refundable. Mac Brown guarantees every casting lesson — if you do not experience measurable improvement the lesson is free."
+      }
+    }
+  ]
+}
+</script>
+
+Then run bash push.sh to deploy. No other changes.

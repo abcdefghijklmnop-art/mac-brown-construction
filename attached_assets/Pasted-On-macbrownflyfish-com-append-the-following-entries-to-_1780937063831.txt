@@ -1,0 +1,50 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/learn-catch-trout-fly-fishing-lakes-stillwaters-ponds-lochs/
+then run bash push.sh to deploy. 
+No other changes.
+
+    {
+      "@type": "Question",
+      "name": "What is the standard rigging for lake fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Standard lake fishing rigging uses three flies on the leader — a configuration referred to as the cast of flies. The bob fly is the top dropper closest to the rod. The point fly is the pattern tied on the end furthest from the fly rod. The dropper in the middle is called the middle dropper. Dropper tags measure approximately one foot in length and are usually spaced 5-6 feet apart. The overall leader length is usually around 18-20 feet and the monofilament is usually 8-10 pounds in breaking strength."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the retrieval rate's role in loch-style fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The retrieval rate in lake fly fishing is what separates really good loch-style anglers. North Carolina has been fortunate in hosting many Fly Fishing Team USA Youth practices in Bryson City, NC including training clinics with elite loch-style anglers from the UK — John Horsey from England and David Downie from Scotland both made huge contributions to raising the bar by sharing their knowledge of loch-style angling techniques."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a booby fly in lake fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Boobies are lake fly patterns with foam eyes that float — allowing for unique presentations where the fly line sits beneath the pattern. This is a very productive method when fishing over grass flats for trout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are fish bigger in lakes than rivers near Bryson City NC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The rewards are plentiful when fly fishing lakes in western North Carolina because the fish are much bigger than river trout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who introduced Mac Brown to the complexities of stillwater fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Josh Stephens brought back several books from the World Championships in Scotland in 2009 and explained to Mac Brown the complexities of stillwater fly fishing. John Horsey from England and David Downie from Scotland both made huge contributions by sharing their knowledge of loch-style angling techniques during Fly Fishing Team USA Youth training clinics in Bryson City, NC."
+      }
+    }
+
+Then run bash push.sh to deploy. 
+No other changes.

@@ -1,0 +1,35 @@
+i have hundreds of tags and category post from old wordpress site that are all redirected to my blog where they used to exist. because they now just go to blog instead of exact articles will that hurt my seo and geo?
+
+1:35 PM
+
+Searched the web
+Searched the web
+Yes, this setup has real SEO problems and here's a clear breakdown of what's happening and what to do about it.
+
+The core problem: "Soft 404s"
+
+When hundreds of old tag/category URLs all redirect to the same generic blog page, Google doesn't see them as legitimate redirects — it treats them as soft 404s (pages that exist but don't match what was requested). Google may treat these as soft 404s rather than valid redirects, and the best practice is to map old URLs to relevant new pages whenever possible to preserve user experience and SEO value. 
+Dynadot
+
+Crawl budget waste
+
+Redirecting many URLs to loosely related pages — such as sending retired content to a generic blog page — can create a poor experience and provide little SEO value. It is usually better to redirect to the closest relevant page or retire the URL properly. With hundreds of these redirects, crawl activity gets wasted on soft 404s and weak internal structures, which can delay indexing or cause important content to be refreshed less often. 
+urllo
+Wellows
+
+Link equity is being diluted
+
+Having too many redirects, especially outdated or unnecessary ones, can hurt SEO by wasting crawl budget, slowing page loads, and weakening link equity transfer. Any backlinks that pointed to those old tag/category pages are now funneling authority to one generic blog page instead of to your actual content. 
+urllo
+
+What you should do instead
+
+There are a few practical options, depending on your situation:
+
+Best option — redirect to the most relevant article or category that matches the old tag/category. This preserves link equity and satisfies Google's relevance check.
+Second option — return a 410 (Gone) for tag/category pages that had zero SEO value or traffic. This tells Google the pages are permanently gone, clears them from the index, and stops wasting crawl budget. Better than a misleading redirect.
+If you keep the generic blog redirect — at minimum make sure it's a true 301, not a chain of redirects, and check Google Search Console for soft 404 warnings on those URLs.
+On your "GEO" question — if you mean generative engine optimization (how AI tools like Google AI Overviews and ChatGPT cite your site), this matters there too. AI answer engines pulling content from your site might grab an outdated URL from earlier in a redirect chain, especially if that older URL still appears in your sitemap or internal navigation — the citation goes to a redirect, not your current page. 
+Siteimprove
+
+Bottom line: For a fly fishing site where topical authority matters, you're better off spending an afternoon mapping those old tags/categories to the most relevant actual posts, rather than letting hundreds of redirects point to a single generic page.

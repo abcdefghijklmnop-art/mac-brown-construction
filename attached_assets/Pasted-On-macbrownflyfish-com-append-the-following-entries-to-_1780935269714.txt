@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 12.
+
+    {
+      "@type": "Question",
+      "name": "What is a tapered leader in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A tapered leader is made of monofilament and used for fly fishing. The back or butt section of the leader has a diameter nearly as large as the fly line — becoming progressively smaller toward the tip end."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a terrestrial fly pattern in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A terrestrial is a land-based insect that often serves as food for fish. Terrestrial activity is common during summer months. Late-summer grasshoppers, inchworms, beetles, and ants are all common examples of terrestrials."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is tippet in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The tippet is the end section of a tapered leader away from the fly line where the fly is attached — the smallest diameter section of monofilament. Carry a number of spools of tippet in various diameters and breaking strengths to quickly match the situation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a triangle taper fly line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A triangle taper is a continuous 40-foot taper profile to a fly line with a thinner running line. Triangle tapers make excellent roll-casting lines but poor distance lines because they turn over too quickly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Trout Unlimited?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Trout Unlimited is an organization dedicated to the protection and improvement of trout fisheries with an emphasis on wild trout."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is turn over in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Turn over describes how the fly line and leader turn over at the completion of the cast — whether curved, slack, or straight."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is unloading the rod in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unloading the rod is the unbending of the rod that transfers the casting energy from the rod back into the fly line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is warm water in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Warm water is water too warm to support salmonids such as trout, char, and salmon. Common warm-water fish include panfish, bass, and carp."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a water tension cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A water tension cast uses the tension of the water to assist in loading the rod while starting the casting stroke."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a weight forward fly line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A weight forward fly line carries most of its weight in the forward section. Instead of a level middle section like a double taper it quickly tapers down to a fine diameter running line — allowing it to shoot through the guides with less resistance for added distance. It is the most versatile fly line style."
+      }
+    }
+
+Confirm saved. Stand by for Paste 12.

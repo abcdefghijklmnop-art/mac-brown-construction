@@ -1,0 +1,89 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/fly-fishing-terms-glossary-definitions/
+Do not deploy yet. Confirm when saved.
+Stand by for Paste 10.
+
+    {
+      "@type": "Question",
+      "name": "What is a roll cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The roll cast is ideal for changing directions while fly fishing and can also be used to pick up the line off the water when using sink tips or heavy nymphs. The roll cast pickup is more efficient than false casting because it eliminates wasted casts back and forth."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an S cast in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An S cast is used to put deliberate and controlled slack into your presentation — used for achieving a drag-free float and in conjunction with mending line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a seam in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A seam is where two current flows meet — one slower and one faster — ideal for holding trout. Fish often hang out in the slower flow and dart into the faster flow to capture food. Locate seams where obstacles like islands and large rocks disrupt the flow and divert the main current."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is setting the hook in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Setting the hook is the act of pulling the hook into the fish's mouth. The amount of effort needed varies with hook size, fish species, and leader breaking strength. The general rule is that most anglers strike too hard on trout and warm-water fish and not hard enough on salmon and saltwater fish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is shooting line in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Shooting line is the process of lengthening your fly cast by releasing extra fly line during the cast. This technique allows you to cast with greater efficiency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a shooting taper or shooting head in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A shooting taper or shooting head is a short single-tapered fly line designed for longer casts with minimal effort. Shooting heads allow you to switch between different line types by quickly interchanging head sections. Most commonly used for salmon, steelhead, and saltwater species."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is sink rate in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sink rate is the speed at which a sinking fly line sinks. There are at least six different sink rates for fly lines ranging from very slow to extremely fast."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a sink-tip fly line?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A sink-tip fly line is a floating fly line with a sinking tip portion — available in 4-foot through 30-foot sinking tips. The 10-foot sink-tips are most commonly used. Sink-tip lines are especially effective for wet fly and streamer fishing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a sipping rise in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A sipping rise is the quiet trout rise that produces a circular waveform much like a rock dropped in a pool of water. This rise form may indicate a large trout feeding — especially at dawn or dusk."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is a spinner in fly fishing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The spinner is the egg-laying stage of the mayfly life cycle — providing fast and furious angling. During this final stage the clear wings are held out horizontally. It is also the most overlooked occurrence on the water by many anglers."
+      }
+    }
+
+Confirm saved. Stand by for Paste 10.

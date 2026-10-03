@@ -1,0 +1,174 @@
+export default function CharlotteFlyFishing() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero */}
+      <section className="bg-[#1a3a5c] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="text-xs font-bold tracking-widest uppercase text-[#a0c4e0] mb-4">
+            Guided Fly Fishing · Western North Carolina · Since 1987
+          </p>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Fly Fishing Trips from Charlotte, NC
+          </h1>
+          <p className="text-xl text-[#a0c4e0] mb-8 leading-relaxed">
+            Three hours west of Charlotte sits the Trout Mecca of the South. The finest guided fly fishing in the eastern United States is closer than you think.
+          </p>
+          <a href="/contact" className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors inline-block">
+            Book Your Trip
+          </a>
+        </div>
+      </section>
+
+      {/* Intro */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Three Hours West — The Mountains Are Waiting
+          </h2>
+          <div className="space-y-5 text-gray-700 text-lg leading-relaxed">
+            <p>
+              Charlotte is one of the fastest-growing cities in the Southeast — and one of the closest major cities to some of the finest wild trout water in the eastern United States. Three hours west on I-40 and you are in Bryson City, North Carolina, the county seat of Swain County and the Trout Mecca of the South.
+            </p>
+            <p>
+              Swain County holds more miles of quality trout water than any other county in North Carolina. Over 85% of the county is protected public land — the Great Smoky Mountains National Park and the Nantahala National Forest. The rivers run cold and clear year-round. The fish are wild. And Mac Brown Fly Fish has been guiding and teaching on this water since 1987 — longer than any other outfitter in Western North Carolina.
+            </p>
+            <p>
+              For Charlotte anglers this is the perfect weekend escape. Drive out Friday evening, fish Saturday and Sunday, drive back Monday morning. Two full days on some of the finest water in the Southeast — and instruction that will change the way you fish for the rest of your life.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Waters */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            The Water — Three Hours from Uptown Charlotte
+          </h2>
+          <div className="space-y-6">
+            {[
+              {
+                name: "Tuckasegee River — Delayed Harvest",
+                distance: "~3 hours from Charlotte",
+                description: "The most popular guided destination in Western NC. From October through May the Delayed Harvest section in Webster, NC is loaded with exceptional trout numbers. Float trips and wade trips both available. The perfect first stop for Charlotte anglers new to Smoky Mountain fly fishing.",
+                highlight: "Best for: Float trips, wade trips, all skill levels, October through May",
+              },
+              {
+                name: "Nantahala River",
+                distance: "~3 hours from Charlotte",
+                description: "The finest tailwater in North Carolina — right here in your home state. Cold, clear, and productive year-round. Wild brown and rainbow trout in stunning Nantahala Gorge scenery. A destination fishery that Charlotte anglers return to year after year.",
+                highlight: "Best for: Wild trout, technical fishing, year-round",
+              },
+              {
+                name: "Great Smoky Mountains National Park Streams",
+                distance: "~3 hours from Charlotte",
+                description: "Wild mountain streams in a pristine protected wilderness. Native brook trout at elevation. Wild rainbow and brown trout throughout. The kind of water that reminds you why you started fishing in the first place — and the opposite of everything available near Charlotte.",
+                highlight: "Best for: Wild trout, pristine water, backcountry adventure",
+              },
+              {
+                name: "Smoky Mountain Lakes",
+                distance: "~3 hours from Charlotte",
+                description: "Fontana Lake and the other mountain stillwaters offer exceptional fly fishing for large trout — significantly bigger fish than anything available near Charlotte. Most productive from late fall through early spring. A worthy addition to any Charlotte weekend trip to the mountains.",
+                highlight: "Best for: Trophy trout, stillwater fishing, fall through spring",
+              },
+            ].map((water, index) => (
+              <div key={index} className="bg-white rounded-xl p-8 shadow-sm border border-gray-200">
+                <div className="flex flex-wrap items-start justify-between gap-4 mb-3">
+                  <h3 className="text-xl font-bold text-[#1a3a5c]">{water.name}</h3>
+                  <span className="text-sm font-bold text-[#1D9E75] bg-green-50 px-3 py-1 rounded-full">
+                    📍 {water.distance}
+                  </span>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-3">{water.description}</p>
+                <p className="text-sm font-semibold text-[#2E6DA4] italic">{water.highlight}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What We Offer */}
+      <section className="py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            Every Way to Experience the Water
+          </h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              { title: "Guided Float Trips", desc: "Drift the Tuckasegee in a drift boat. Cover water and learn the river.", link: "/instructional-float-trips" },
+              { title: "Guided Wade Trips", desc: "Get in the water on the park streams or the Nantahala tailwater.", link: "/instructional-wade-trips" },
+              { title: "Guided Lake Trips", desc: "Trophy trout on Fontana Lake and the Smoky Mountain stillwaters.", link: "/instructional-lake-trips" },
+              { title: "Fly Casting Instruction", desc: "Private lessons from NC's only Master Casting Instructor. Guaranteed or free.", link: "/fly-fishing-instruction" },
+              { title: "Fly Fishing Schools", desc: "Weekend immersion programs — the perfect Charlotte weekend escape.", link: "/smoky-mountain-weekend-schools" },
+              { title: "Group & Corporate Trips", desc: "Customized fly fishing experiences for Charlotte groups and companies.", link: "/group-corporate-fly-fishing" },
+              { title: "Backcountry Trips", desc: "Remote national park streams — wild fish, pristine wilderness.", link: "/backcountry-trout-fishing" },
+              { title: "Online Casting Lessons", desc: "Get your casting ready in Charlotte before you make the drive.", link: "/fly-fishing-instruction" },
+            ].map((item, i) => (
+              <a key={i} href={item.link} className="bg-gray-50 rounded-xl p-6 border border-gray-200 hover:shadow-md transition-shadow block">
+                <h3 className="text-lg font-bold text-[#1a3a5c] mb-2">{item.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+                <p className="text-[#1D9E75] font-bold text-sm mt-3">Learn more →</p>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* What to Bring */}
+      <section className="bg-gray-50 py-16 px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-[#1a3a5c] mb-8 pb-3 border-b-2 border-[#1a3a5c]">
+            What to Bring
+          </h2>
+          <p className="text-gray-700 text-lg mb-6">
+            All rods, reels, flies, and leaders provided. Just show up ready to fish.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {[
+              "Rain gear — mountain weather changes fast",
+              "Warm layers — mornings on the water can be cool",
+              "Polarized sunglasses — essential for spotting fish",
+              "A hat with a brim — sun and glare protection",
+              "Sunscreen and lip balm",
+              "Clothing in earth tones — blend into your surroundings",
+              "Valid NC fishing license if over 16 — ncwildlife.org or 1-888-248-6834",
+            ].map((item, i) => (
+              <div key={i} className="flex items-start gap-3 bg-white rounded-lg p-4 border border-gray-200">
+                <span className="text-[#1D9E75] font-bold mt-0.5">✓</span>
+                <span className="text-gray-700">{item}</span>
+              </div>
+            ))}
+          </div>
+          <p className="text-gray-500 text-sm mt-6 italic">
+            A NC or TN fishing license is required for waters within the Great Smoky Mountains National Park.
+          </p>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="bg-[#1a3a5c] text-white py-16 px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-6">
+            Three Hours from Charlotte — A Lifetime of Better Fishing
+          </h2>
+          <p className="text-lg text-[#a0c4e0] mb-8 leading-relaxed">
+            The finest trout fishing in North Carolina is three hours from Uptown Charlotte. Mac Brown has been guiding it since 1987. Plan your mountain escape — the Smoky Mountains deliver every time.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="/contact" className="bg-[#1D9E75] hover:bg-[#0F6E56] text-white font-bold px-10 py-4 rounded-lg text-lg transition-colors">
+              Book Your Charlotte Trip
+            </a>
+            <a href="tel:8287361469" className="bg-white hover:bg-gray-100 text-[#1a3a5c] font-bold px-10 py-4 rounded-lg text-lg transition-colors">
+              Call 828-736-1469
+            </a>
+          </div>
+          <p className="text-[#a0c4e0] mt-6 text-sm">
+            macbrownflyfish@gmail.com · flyfishingguideschool.com · Bryson City, NC · Since 1987
+          </p>
+        </div>
+      </section>
+
+    </div>
+  );
+}

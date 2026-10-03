@@ -1,0 +1,30 @@
+where the heading say :tuckaseggee river Peak water, peak season on mbff (is this even necessary?) maybe drop the italics of tuckaseggee river and just leave peak water, peak seasons? What do you think and does it effect seo in any way? 
+To answer your question directly: No, it is not necessary for SEO, and visually, you are spot on—it’s adding to that "busy" clutter when the screen shrinks.
+
+Here is how breaking that section down affects both your search rankings and your layout.
+
+The SEO Impact: Does it matter?
+"TUCKASEGEE RIVER · FALL SEASON" and "Peak Season. Peak Waters." have zero negative impact on your SEO now because they are no longer coded as your H 
+1
+​
+ .
+
+Google is already getting exactly what it wants from your big, clear headline right below it: <h1>Guided Fly Fishing Trips & Schools in the Smoky Mountains</h1>.
+
+Because Google reads these smaller lines as regular paragraph text or minor subheadings, you can change, shrink, or delete them purely based on what looks best to your human visitors without hurting your search rankings.
+
+The Design Verdict: What you should do
+Looking at how that left-aligned text stacks on top of your massive new H 
+1
+​
+ , it creates a "text wall" that suffocates the photography.
+
+My Recommendation: Drop the Location Tag entirely
+You already have "BRYSON CITY, NORTH CAROLINA" stated in bold at the very top of the page under your name. Adding "Tuckasegee River · Fall Season" right below it is redundant. It forces the user to read three different geographic markers before they even get to your main point.
+
+The Cleanest Fix:
+Delete the italicized TUCKASEGEE RIVER · FALL SEASON entirely.
+
+Keep Peak Season. Peak Waters. but drop the italics to make it cleaner, or shrink it slightly so it functions as a tiny, elegant "kick-headline" above the main text.
+
+By removing that extra line, you instantly free up vertical breathing room. When an iPhone turns sideways, losing that extra row of text means the layout has less to crush together, leaving more room to actually see the river and the trees in your background image.

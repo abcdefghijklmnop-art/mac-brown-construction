@@ -1,0 +1,50 @@
+On macbrownflyfish.com append the following 
+entries to the existing FAQPage JSON-LD 
+in the <head> of 
+/blog/improve-tracking-fly-casting-accuracy/
+then run bash push.sh to deploy. 
+No other changes.
+
+    {
+      "@type": "Question",
+      "name": "What is straight tracking versus route tracking in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Straight tracking describes the rod tip traveling in a straight line without side-to-side wobble during the casting stroke — the most commonly used definition for accuracy casting at all skill levels. Route tracking describes the course the rod tip deliberately travels for more advanced casts that deviate from straight — used for three-dimensional casts including multiple loop planes, S-turns, corkscrews, curve casts, and pile casts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What causes the wrist roll tracking fault in fly casting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "One common tracking fault occurs toward the end of the backcast when the wrist rolls out — the reel points to the side rather than toward the target. This causes the line to swing around in a wide circle in the back and that wild wave carries forward into the forward cast. Many wrist-action fly casters who cast 25-30 feet struggle with this fault as soon as they extend to 40, 50, or 60 feet of line."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between transverse waves during the casting stroke versus after?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Transverse waves introduced during the casting stroke influence the fly leg of the loop — used for presentation casts including multiple loop planes, S-turns, corkscrews, curve casts, and pile casts. Transverse waves performed right after the casting stroke primarily affect the rod leg of the loop — these are called aerial mends."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who originated the pizza box tracking tool?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The pizza box tool was originated by Doug Swisher and described to Mac Brown during late-night fly tying sessions in 1988 at Cottonwood Camp on the Big Horn River. The tool is rightly named the pizza box tool or Swisher's tracking tool and appears as a diagram in Mac Brown's book Casting Angles."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who introduced the laser pointer technique for fly casting tracking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The laser pointer technique was introduced to Mac Brown by fellow MCI instructor David Lambert from Jacksonville, Florida — shared around 1995 at an FFI conclave. A simple red-dot laser attached to the rod creates a 40-foot rod effect on a large ceiling. It works for both straight tracking and route tracking diagnosis."
+      }
+    }
+
+Then run bash push.sh to deploy. 
+No other changes.

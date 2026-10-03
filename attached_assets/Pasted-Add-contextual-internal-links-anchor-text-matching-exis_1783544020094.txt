@@ -1,0 +1,33 @@
+Add contextual internal links (anchor text matching existing on-page phrasing, no new sentences, just hyperlink existing relevant words/phrases) in the following blog posts pointing to the following pages. Do not alter any other text, structure, or metadata on these posts.
+
+MBFF (macbrownflyfish.com):
+- /blog/highlands-nc-fly-fishing-guide/ → link to /highlands-nc-fly-fishing-trips/
+- /blog/fly-fishing-instruction-lessons-casting-raleigh-nc/ → link to /raleigh-fly-fishing/ and /fly-casting-instruction/
+- /blog/epic-trout-fishing-may-bryson-city-nc/ → link to /bryson-city-fly-fishing/ and /wnc-fly-fishing-trail/
+- /blog/fly-fishing-report-bryson-city-nc/ → link to /bryson-city-fly-fishing/ and /wnc-fly-fishing-trail/
+- /blog/deep-creek-fishing-report/ → link to /bryson-city-fly-fishing/ and /wnc-fly-fishing-trail/
+- /blog/nantahala-river-fly-fishing-report/ → link to /bryson-city-fly-fishing/ and /wnc-fly-fishing-trail/
+- /blog/tuckasegee-fly-fishing-report-2016/ → link to /bryson-city-fly-fishing/ and /wnc-fly-fishing-trail/
+- /blog/upper-nantahala-river-fly-fishing-report/ → link to /bryson-city-fly-fishing/ and /wnc-fly-fishing-trail/
+- /blog/how-choose-fly-fishing-guide/ → link to /guided-float-fly-fishing-trips/, /guided-wade-fly-fishing-trips/, /instructional-guided-trips/
+- /blog/how-to-choose-a-fly-fishing-guided-trip-in-nc/ → link to /guided-float-fly-fishing-trips/, /guided-wade-fly-fishing-trips/, /instructional-guided-trips/
+- /blog/learning-to-nymph-fish/ → link to /nymph-fishing-clinic/ and /nymph-fishing-school-nc/
+- /blog/learn-tight-line-techniques-euro-nymphing/ → link to /nymph-fishing-clinic/ and /nymph-fishing-school-nc/
+- /blog/a-few-thoughts-on-streamer-fishing/ → link to /streamer-clinic/ and /streamer-fishing-masterclass-nc/
+- /blog/articulated-sculpin/ → link to /streamer-clinic/ and /streamer-fishing-masterclass-nc/
+- /blog/nantahala-river-streamer-fishing/ → link to /streamer-clinic/ and /streamer-fishing-masterclass-nc/
+- /blog/dry-fly-philosophy-floating-fly/ → link to /dry-fly-clinic/ and /dry-fly-school-north-carolina/
+- /blog/instructional-methods-art-dry-fly-fishing/ → link to /dry-fly-clinic/ and /dry-fly-school-north-carolina/
+- /blog/thoughts-on-dry-fly-fishing/ → link to /dry-fly-clinic/ and /dry-fly-school-north-carolina/
+- /blog/learn-to-hammer-trout-with-dry-fly-techniques/ → link to /dry-fly-clinic/ and /dry-fly-school-north-carolina/
+- /blog/learn-to-cast-a-switch-rod/ → link to /spey-casting-clinics-nc/ and /spey-elite-casting-clinic/
+- /blog/fly-fishing-lessons-beginners/ → link to /fly-casting-instruction/
+
+FFGS (flyfishingguideschool.com):
+- /blog/fly-fishing-classes-north-carolina-smoky-mountains/ → link to /smoky-mountain-fly-fishing-school/
+- /blog/bryson-city-trout-capital-fly-fishing/ → link to /bryson-city-fly-fishing-guide-school/
+- /blog/top-fly-fishing-guide-school-atlanta-ga/ → link to /atlanta-fly-fishing-guide-school/
+- /blog/learn-how-to-become-a-fly-fishing-guide-and-instructor/ → link to /is-fly-fishing-guide-school-worth-it/ and /fly-fishing-guide-certification/
+- /blog/evolution-fly-casting-instruction-fly-fishing-lessons/ → link to /fly-fishing-guide-certification/
+
+Make changes, run bash push.sh to deploy, no other changes.
