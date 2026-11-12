@@ -17,7 +17,7 @@ const posts = POSTS.map((p) => ({
   ...p,
   href: p.path,
   img: img(p.image),
-  imgMobile: img(p.image.replace("/images/", "/images/mobile/")),
+  imgMobile: p.image.includes("timber-frame") ? undefined : img(p.image.replace("/images/", "/images/mobile/")),
 }));
 
 export default function Page() {

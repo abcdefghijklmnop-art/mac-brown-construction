@@ -43,7 +43,7 @@ export default function Page() {
       <section className="relative w-full h-screen min-h-[560px] overflow-hidden">
         <img
           src={img("/images/timber-frame.webp")}
-          srcSet={`${img("/images/mobile/timber-frame.webp")} 1280w, ${img("/images/timber-frame.webp")} 1920w`}
+
           alt="Timber frame construction by Mac Brown Construction, Bryson City NC"
           className="absolute inset-0 w-full h-full object-cover"
           style={{ objectPosition: "center 35%" }}
@@ -180,7 +180,7 @@ export default function Page() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src={img("/images/timber-frame.webp")}
-                srcSet={`${img("/images/mobile/timber-frame.webp")} 1280w, ${img("/images/timber-frame.webp")} 1920w`}
+
                 alt="Timber frame construction"
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -241,7 +241,7 @@ export default function Page() {
                 excerpt: "Timber frame hybrid construction can be aesthetically pleasing due to the craftsmanship of using indigenous local hardwoods, combined with state-of-the-art insulating practices.",
                 href: "/wall-plates/timber-frame-hybrid-construction/",
                 img: img("/images/timber-frame.webp"),
-                imgMobile: img("/images/mobile/timber-frame.webp"),
+                imgMobile: undefined,
                 category: "Wall Plates",
               },
             ].map((post) => (

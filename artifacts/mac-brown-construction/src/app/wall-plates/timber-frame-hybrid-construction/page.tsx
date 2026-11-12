@@ -45,7 +45,7 @@ export default function Page() {
       <section className="relative w-full h-72 md:h-[420px] overflow-hidden">
         <img
           src={img("/images/timber-frame.webp")}
-          srcSet={`${img("/images/mobile/timber-frame.webp")} 1280w, ${img("/images/timber-frame.webp")} 1920w`}
+
           alt="Timber frame hybrid construction project"
           className="absolute inset-0 w-full h-full object-cover"
           fetchPriority="high"

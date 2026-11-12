@@ -59,7 +59,7 @@ export default function Page() {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src={img("/images/timber-frame.webp")}
-                srcSet={`${img("/images/mobile/timber-frame.webp")} 1280w, ${img("/images/timber-frame.webp")} 1920w`}
+
                 alt="Timber frame project"
                 className="w-full h-full object-cover"
                 loading="lazy"
