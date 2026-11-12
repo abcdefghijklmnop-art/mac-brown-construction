@@ -4,6 +4,8 @@ import "./globals.css";
 import Link from "next/link";
 import { SiteNav } from "@/components/nav";
 import { SiteFooter } from "@/components/footer";
+import { SchemaScript } from "@/components/schema-script";
+import { localBusinessSchema, personSchema, websiteSchema } from "@/lib/schema";
 
 const inter = localFont({
   src: "./fonts/inter-latin.woff2",
@@ -54,6 +56,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
       <body>
+        <SchemaScript schema={localBusinessSchema} />
+        <SchemaScript schema={personSchema} />
+        <SchemaScript schema={websiteSchema} />
         <SiteNav logo={
           <Link href="/" className="flex items-center justify-center h-full">
             <img

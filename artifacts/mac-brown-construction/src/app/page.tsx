@@ -2,54 +2,31 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Phone, Check } from "lucide-react";
 import { img } from "@/lib/asset";
-import { localBusinessSchema, personSchema } from "@/lib/schema";
+import type { Faq } from "@/lib/schema";
+import { FaqSection } from "@/components/faq-section";
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "What does Mac Brown Construction specialize in?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Mac Brown Construction specializes in custom home building, timber frame hybrid construction, and energy-efficient green building in Bryson City, NC and surrounding Western North Carolina. Every project is built above code minimums — using ICF foundations, P-2000 insulation, frost-proof footings, radiant floors, and geothermal systems. Over 35 years of hands-on building in the Smoky Mountains with an NC Unlimited General Contractor license.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How much does it cost to build a custom home in the Smoky Mountains?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Custom home costs in Western North Carolina vary significantly based on square footage, site conditions, materials, and specification level. Contact Mac Brown Construction at (828) 736-1469 for a free estimate tailored to your project. Building in the mountains requires additional considerations for foundations, site access, and energy efficiency — Mac Brown Construction has been navigating all of these variables in Swain County since 1988.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is an ICF foundation and why is it better?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "ICF — Insulated Concrete Form — foundations use interlocking foam blocks filled with concrete to create a foundation wall that is structurally superior and dramatically better insulated than standard poured concrete or block foundations. ICF walls provide continuous insulation with no thermal bridging, significantly reducing heating and cooling loads in mountain climates.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What is timber frame hybrid construction?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Timber frame hybrid construction combines the aesthetic appeal of exposed indigenous local hardwood timbers with modern state-of-the-art insulating practices — creating homes that are visually stunning and energy efficient. The timber frame provides structural character while the hybrid shell uses contemporary insulation methods to achieve tight envelopes that standard timber frame construction cannot match.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Does Mac Brown Construction serve areas outside Bryson City?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes — Mac Brown Construction holds an NC Unlimited General Contractor license covering all project sizes throughout Western North Carolina. Primary service area includes Swain County, Jackson County, Macon County, and surrounding mountain communities. Contact Mac Brown directly at (828) 736-1469 to discuss your project location and scope.",
-      },
-    },
-  ],
-};
+const HOME_FAQS: Faq[] = [
+  {
+    q: "What does Mac Brown Construction specialize in?",
+    a: "Mac Brown Construction specializes in custom home building, timber frame hybrid construction, and energy-efficient green building in Bryson City, NC and surrounding Western North Carolina. Every project is built above code minimums — using ICF foundations, P-2000 insulation, frost-proof footings, radiant floors, and geothermal systems where applicable. Hands-on building in the Smoky Mountains since 1988, with an NC Unlimited General Contractor license.",
+  },
+  {
+    q: "How much does it cost to build a custom home in the Smoky Mountains?",
+    a: "Custom home costs in Western North Carolina vary significantly based on square footage, site conditions, materials, and specification level. Contact Mac Brown Construction at (828) 736-1469 for a free estimate tailored to your project. Building in the mountains requires additional considerations for foundations, site access, and energy efficiency — Mac Brown Construction has been navigating all of these variables in Swain County since 1988.",
+  },
+  {
+    q: "What is an ICF foundation and why is it better?",
+    a: "ICF — Insulated Concrete Form — foundations use interlocking foam blocks filled with concrete to create a foundation wall that is structurally superior and dramatically better insulated than standard poured concrete or block foundations. ICF walls provide continuous insulation with no thermal bridging, significantly reducing heating and cooling loads in mountain climates. Mac Brown Construction recommends ICF foundations for all new construction in Western North Carolina.",
+  },
+  {
+    q: "What is timber frame hybrid construction?",
+    a: "Timber frame hybrid construction combines the aesthetic appeal of exposed indigenous local hardwood timbers with modern state-of-the-art insulating practices — creating homes that are visually stunning and energy efficient. The timber frame provides the structural character while the hybrid shell uses contemporary insulation methods to achieve tight envelopes that standard timber frame construction cannot match.",
+  },
+  {
+    q: "Does Mac Brown Construction serve areas outside Bryson City?",
+    a: "Yes — Mac Brown Construction holds an NC Unlimited General Contractor license covering all project sizes throughout Western North Carolina. Primary service area includes Swain County, Jackson County, Macon County, and surrounding mountain communities. Contact Mac Brown directly at (828) 736-1469 to discuss your project location and scope.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Mac Brown Construction | Custom Home Builder | Bryson City, NC",
@@ -61,9 +38,6 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Hero */}
       <section className="relative w-full h-screen min-h-[560px] overflow-hidden">
@@ -131,7 +105,7 @@ export default function Page() {
           Your Dream Home, Engineered for the Mountains
         </h2>
         <p className="text-muted-foreground leading-relaxed mb-6">
-          Mac Brown Construction has been building custom homes in western North Carolina for over three decades. We specialize in energy-efficient construction that goes far beyond code minimums — tighter envelopes, superior insulation, and green building practices that save you money for years to come.
+          Mac Brown Construction has been building custom homes in western North Carolina since 1988. We specialize in energy-efficient construction that goes far beyond code minimums — tighter envelopes, superior insulation, and green building practices that save you money for years to come.
         </p>
         <blockquote className="border-l-4 border-primary/30 pl-6 text-left italic text-muted-foreground text-sm">
           "We can far surpass the code overall for energy savings that will save you large amounts of cash in the future."
@@ -189,7 +163,7 @@ export default function Page() {
             <ul className="space-y-3">
               {[
                 "Hands-on builder from start to finish",
-                "Over 35 years in western North Carolina",
+                "Building in western North Carolina since 1988",
                 "NC Unlimited General Contractor license",
                 "Specializing in sustainable, energy-efficient methods",
                 "Custom plans drawn in-house to your specs",
@@ -297,43 +271,7 @@ export default function Page() {
       </section>
 
       {/* FAQ */}
-      <section className="py-16 md:py-24 px-6 max-w-3xl mx-auto">
-        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-primary text-center mb-3">FAQ</p>
-        <h2 className="font-serif text-2xl md:text-3xl font-bold text-center mb-10">Frequently Asked Questions</h2>
-        <div className="divide-y divide-border border-t border-border">
-          {[
-            {
-              q: "What does Mac Brown Construction specialize in?",
-              a: "Mac Brown Construction specializes in custom home building, timber frame hybrid construction, and energy-efficient green building in Bryson City, NC and surrounding Western North Carolina. Every project is built above code minimums — using ICF foundations, P-2000 insulation, frost-proof footings, radiant floors, and geothermal systems where applicable. Over 35 years of hands-on building in the Smoky Mountains with an NC Unlimited General Contractor license.",
-            },
-            {
-              q: "How much does it cost to build a custom home in the Smoky Mountains?",
-              a: "Custom home costs in Western North Carolina vary significantly based on square footage, site conditions, materials, and specification level. Contact Mac Brown Construction at (828) 736-1469 for a free estimate tailored to your project. Building in the mountains requires additional considerations for foundations, site access, and energy efficiency — Mac Brown Construction has been navigating all of these variables in Swain County since 1988.",
-            },
-            {
-              q: "What is an ICF foundation and why is it better?",
-              a: "ICF — Insulated Concrete Form — foundations use interlocking foam blocks filled with concrete to create a foundation wall that is structurally superior and dramatically better insulated than standard poured concrete or block foundations. ICF walls provide continuous insulation with no thermal bridging, significantly reducing heating and cooling loads in mountain climates. Mac Brown Construction recommends ICF foundations for all new construction in Western North Carolina.",
-            },
-            {
-              q: "What is timber frame hybrid construction?",
-              a: "Timber frame hybrid construction combines the aesthetic appeal of exposed indigenous local hardwood timbers with modern state-of-the-art insulating practices — creating homes that are visually stunning and energy efficient. The timber frame provides the structural character while the hybrid shell uses contemporary insulation methods to achieve tight envelopes that standard timber frame construction cannot match. Mac Brown Construction has been building timber frame hybrid homes in the Smoky Mountains since the early 1990s.",
-            },
-            {
-              q: "Does Mac Brown Construction serve areas outside Bryson City?",
-              a: "Yes — Mac Brown Construction holds an NC Unlimited General Contractor license covering all project sizes throughout Western North Carolina. Primary service area includes Swain County, Jackson County, Macon County, and surrounding mountain communities. Contact Mac Brown directly at (828) 736-1469 to discuss your project location and scope.",
-            },
-          ].map(({ q, a }) => (
-            <details key={q} className="group py-1">
-              <summary className="flex items-center justify-between py-4 cursor-pointer list-none gap-4">
-                <span className="font-semibold text-sm leading-snug">{q}</span>
-                <span className="shrink-0 text-primary font-light text-xl leading-none group-open:hidden">+</span>
-                <span className="shrink-0 text-primary font-light text-xl leading-none hidden group-open:block">−</span>
-              </summary>
-              <p className="pb-5 text-sm text-muted-foreground leading-relaxed">{a}</p>
-            </details>
-          ))}
-        </div>
-      </section>
+      <FaqSection faqs={HOME_FAQS} />
 
       {/* Contact CTA */}
       <section className="bg-primary py-16 px-6 text-center">

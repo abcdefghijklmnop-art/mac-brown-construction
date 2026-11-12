@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { img } from "@/lib/asset";
+import { POSTS, formatDate } from "@/lib/posts";
+import { SchemaScript } from "@/components/schema-script";
+import { blogSchema, breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Green Building Tips & Home Construction Insights",
@@ -10,32 +13,18 @@ export const metadata: Metadata = {
   alternates: { canonical: "/blog/" },
 };
 
-const posts = [
-  {
-    title: "Timber Frame Hybrid Construction",
-    excerpt:
-      "Timber frame hybrid construction can be aesthetically pleasing due to the craftsmanship of using indigenous local hardwoods. The overall project combines timber with state-of-the-art insulating practices to yield very high efficiency, maintaining comfort in the home.",
-    href: "/wall-plates/timber-frame-hybrid-construction/",
-    img: img("/images/timber-frame.webp"),
-    imgMobile: img("/images/mobile/timber-frame.webp"),
-    category: "Wall Plates",
-    tags: ["timber-frame", "wall-plates", "p-2000"],
-  },
-  {
-    title: "Frost Proof Footings",
-    excerpt:
-      "With cold weather around, this is a good time to discuss the use of frost proof footings. The use of EPS foam in two inch thickness makes a huge difference, especially when used with ICFs (insulated concrete forms).",
-    href: "/foundations/frost-proof-footings/",
-    img: img("/images/icf-foundation.webp"),
-    imgMobile: img("/images/mobile/icf-foundation.webp"),
-    category: "Foundations",
-    tags: ["frost-proof-footings", "icf", "bryson-city"],
-  },
-];
+const posts = POSTS.map((p) => ({
+  ...p,
+  href: p.path,
+  img: img(p.image),
+  imgMobile: img(p.image.replace("/images/", "/images/mobile/")),
+}));
 
 export default function Page() {
   return (
     <>
+      <SchemaScript schema={blogSchema(POSTS)} />
+      <SchemaScript schema={breadcrumbSchema([{ name: "Blog", path: "/blog/" }])} />
       {/* Header */}
       <div className="bg-primary py-20 px-6 text-center pt-32">
         <p className="text-primary-foreground/80 text-xs font-semibold uppercase tracking-[0.35em] mb-3">Mac Brown Construction</p>
@@ -65,6 +54,7 @@ export default function Page() {
                 <h2 className="font-serif text-xl font-bold mb-3 group-hover:text-primary transition-colors">
                   <Link href={post.href}>{post.title}</Link>
                 </h2>
+                <p className="text-xs text-muted-foreground mb-3">Updated <time dateTime={post.modified}>{formatDate(post.modified)}</time></p>
                 <p className="text-muted-foreground text-sm leading-relaxed flex-1 mb-6">{post.excerpt}</p>
                 <div className="flex items-center justify-between">
                   <Link
@@ -73,13 +63,6 @@ export default function Page() {
                   >
                     Read More <ArrowRight size={12} />
                   </Link>
-                  <div className="flex gap-2 flex-wrap justify-end">
-                    {post.tags.map((tag) => (
-                      <span key={tag} className="text-[10px] font-medium uppercase tracking-[0.1em] bg-muted px-2 py-0.5 text-muted-foreground">
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
                 </div>
               </div>
             </article>

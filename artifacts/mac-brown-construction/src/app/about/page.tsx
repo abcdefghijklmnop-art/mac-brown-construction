@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Phone } from "lucide-react";
 import { img } from "@/lib/asset";
+import { SchemaScript } from "@/components/schema-script";
+import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "About — Mac Brown, Custom Home Builder & Contractor",
@@ -13,6 +15,8 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
+      <SchemaScript schema={{ "@context": "https://schema.org", "@type": "AboutPage", url: "https://macbrownconstruction.com/about/", mainEntity: { "@id": "https://macbrownconstruction.com/#mac-brown" } }} />
+      <SchemaScript schema={breadcrumbSchema([{ name: "About", path: "/about/" }])} />
       {/* Hero */}
       <section className="relative w-full h-72 md:h-[480px] overflow-hidden">
         <img

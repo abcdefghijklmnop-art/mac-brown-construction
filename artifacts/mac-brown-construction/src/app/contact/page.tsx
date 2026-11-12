@@ -2,17 +2,20 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Phone, MapPin, ArrowRight } from "lucide-react";
 import { img } from "@/lib/asset";
+import { SchemaScript } from "@/components/schema-script";
+import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Contact Us — Get a Free Estimate",
   description:
-    "Contact Mac Brown Construction for a free estimate on your custom home project. Licensed general contractor in Bryson City, NC. Call (828) 736-1469 or send a message online.",
+    "Contact Mac Brown Construction for a free estimate on your custom home project. Licensed general contractor in Bryson City, NC. Call (828) 736-1469 or email macbrownconstruction@gmail.com.",
   alternates: { canonical: "/contact/" },
 };
 
 export default function Page() {
   return (
     <>
+      <SchemaScript schema={breadcrumbSchema([{ name: "Contact", path: "/contact/" }])} />
       {/* Hero */}
       <section className="relative w-full h-64 md:h-96 overflow-hidden">
         <img

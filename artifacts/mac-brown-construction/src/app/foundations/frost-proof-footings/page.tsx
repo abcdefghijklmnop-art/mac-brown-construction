@@ -3,28 +3,44 @@ import Link from "next/link";
 import { ArrowRight, Phone } from "lucide-react";
 import { img } from "@/lib/asset";
 import { SchemaScript } from "@/components/schema-script";
-import { articleSchema } from "@/lib/schema";
+import { articleSchema, breadcrumbSchema, type Faq } from "@/lib/schema";
+import { getPost } from "@/lib/posts";
+import { PostDates } from "@/components/post-dates";
+import { FaqSection } from "@/components/faq-section";
 
-const POST = {
-  title: "Frost Proof Footings",
-  description:
-    "How ICF foundations and frost proof footings using 2-inch EPS foam protect mountain homes from ground energy loss — a cost-effective building technique from Mac Brown Construction, Bryson City, NC.",
-  date: "2024-12-01",
-  path: "/foundations/frost-proof-footings/",
-  image: "/images/icf-foundation.webp",
-};
+const POST = getPost("frost-proof-footings");
+
+const FAQS: Faq[] = [
+  {
+    q: "What is a frost proof footing?",
+    a: "A frost proof footing (also called a frost-protected shallow foundation) uses rigid foam insulation laid horizontally around the outside of the foundation to keep the ground under the footing from freezing. Mac Brown Construction uses 2-inch EPS foam next to ICF foundation walls, which performs like a footing set 5 to 6 feet deep.",
+  },
+  {
+    q: "Why insulate a foundation if heat rises?",
+    a: "Heat moves three ways: radiant, conductive, and convective. Frozen mountain ground pulls heat out of a foundation by conduction all winter long. Foam around the footing perimeter stops that conductive loss, so the home holds its warmth with less fuel.",
+  },
+  {
+    q: "Are frost proof footings worth the cost in Western North Carolina?",
+    a: "Yes. EPS foam around the footing perimeter is inexpensive to install and pays back in lower heating costs every winter. In the Smoky Mountains, where the ground can stay frozen until spring, it is one of the most cost-effective upgrades in a new home.",
+  },
+  {
+    q: "Why use ICF walls with frost proof footings?",
+    a: "ICF (insulated concrete form) walls give continuous insulation with an R-value over 60, and they go up fast. On one Mac Brown Construction project, more than 360 linear feet of ICF wall was set in the morning and poured the same day with several pump trucks, much faster than laying concrete block.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Frost Proof Footings with ICF & EPS Foam — Western NC",
-  description:
-    "How ICF foundations and frost proof footings using 2-inch EPS foam protect mountain homes from ground energy loss — a cost-effective building technique from Mac Brown Construction, Bryson City, NC.",
+  description: POST.description,
   alternates: { canonical: "/foundations/frost-proof-footings/" },
+  openGraph: { type: "article", url: POST.path, title: POST.title, description: POST.description, images: [POST.image], publishedTime: POST.published, modifiedTime: POST.modified },
 };
 
 export default function Page() {
   return (
     <>
       <SchemaScript schema={articleSchema(POST)} />
+      <SchemaScript schema={breadcrumbSchema([{ name: "Blog", path: "/blog/" }, { name: POST.title, path: POST.path }])} />
       {/* Hero */}
       <section className="relative w-full h-72 md:h-[420px] overflow-hidden">
         <img
@@ -46,11 +62,13 @@ export default function Page() {
 
       {/* Article */}
       <article className="py-16 md:py-24 px-6 max-w-3xl mx-auto">
-        <div className="flex items-center gap-3 mb-10">
+        <div className="flex items-center gap-3 mb-4">
           <span className="text-[10px] font-semibold uppercase tracking-[0.2em] bg-primary/10 text-primary px-3 py-1">Foundations</span>
           <span className="text-[10px] font-semibold uppercase tracking-[0.2em] bg-muted text-muted-foreground px-3 py-1">ICF</span>
           <span className="text-[10px] font-semibold uppercase tracking-[0.2em] bg-muted text-muted-foreground px-3 py-1">Bryson City, NC</span>
         </div>
+
+        <PostDates post={POST} />
 
         <div className="prose prose-sm max-w-none text-muted-foreground leading-relaxed space-y-5">
           <p>
@@ -113,9 +131,11 @@ export default function Page() {
 
         {/* Copyright */}
         <div className="mt-10 pt-8 border-t border-border text-xs text-muted-foreground">
-          &copy; {new Date(POST.date + "T00:00:00").getFullYear()} Mac Brown &middot; macbrownconstruction.com. All rights reserved.
+          &copy; {POST.published.slice(0, 4)} Mac Brown &middot; macbrownconstruction.com. All rights reserved.
         </div>
       </article>
+
+      <FaqSection faqs={FAQS} title="Foundations FAQ" className="!pt-0" />
 
       {/* CTA */}
       <section className="bg-primary py-12 px-6 text-center">

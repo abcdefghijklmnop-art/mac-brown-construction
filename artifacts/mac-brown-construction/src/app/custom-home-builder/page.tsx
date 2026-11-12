@@ -2,17 +2,45 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Check, Phone } from "lucide-react";
 import { img } from "@/lib/asset";
+import { SchemaScript } from "@/components/schema-script";
+import { FaqSection } from "@/components/faq-section";
+import { breadcrumbSchema, serviceSchema, type Faq } from "@/lib/schema";
+
+const FAQS: Faq[] = [
+  {
+    q: "Who is a custom home builder in Bryson City, NC?",
+    a: "Mac Brown Construction, LLC is a custom home builder and licensed general contractor based in Bryson City, NC, building in Swain County and surrounding Western North Carolina since 1988. The company holds an NC Unlimited General Contractor License covering projects of any size.",
+  },
+  {
+    q: "Does Mac Brown Construction design the house plans?",
+    a: "Yes. Plans are drawn in-house and tailored to each client's project, and Mac Brown works with every client from the plans through the entire build.",
+  },
+  {
+    q: "What makes a Mac Brown Construction home more energy efficient than code?",
+    a: "North Carolina building code is the legal minimum. Mac Brown Construction builds above it with poured concrete ICF foundations (R-value over 60), frost-proof footings with EPS foam, P-2000 and foam insulation for a tight envelope, and options like radiant floors, geothermal ground loops, and passive solar design.",
+  },
+  {
+    q: "What types of homes does Mac Brown Construction build?",
+    a: "Cabins, custom homes, timber frame hybrid homes, and stick-built houses. Every home is built as a unique structural envelope designed for comfort through Smoky Mountain winters and summers.",
+  },
+  {
+    q: "How do I get a free estimate for a custom home?",
+    a: "Call Mac Brown Construction at (828) 736-1469 or email macbrownconstruction@gmail.com to discuss your project, site, and budget.",
+  },
+];
 
 export const metadata: Metadata = {
   title: "Custom Home Builder — Bryson City, NC",
   description:
-    "Licensed custom home builder in Bryson City, NC. ICF foundations, timber frames, and green building practices. Over 35 years of energy-efficient custom home construction in western North Carolina.",
+    "Licensed custom home builder in Bryson City, NC. ICF foundations, timber frames, and green building practices. Building energy-efficient custom homes in western North Carolina since 1988.",
   alternates: { canonical: "/custom-home-builder/" },
 };
 
 export default function Page() {
   return (
     <>
+      <SchemaScript schema={serviceSchema("Custom Home Building", "Design-through-completion custom homes, cabins, and timber frame hybrid homes built above code with ICF foundations, frost-proof footings, and high-performance insulation in Western North Carolina.", "/custom-home-builder/")} />
+      <SchemaScript schema={breadcrumbSchema([{ name: "Custom Home Builder", path: "/custom-home-builder/" }])} />
       {/* Hero */}
       <section className="relative w-full h-72 md:h-[480px] overflow-hidden">
         <img
@@ -40,6 +68,13 @@ export default function Page() {
           ))}
         </div>
       </div>
+
+      {/* AEO */}
+      <section className="pt-12 md:pt-16 px-6 max-w-3xl mx-auto text-center">
+        <p className="text-muted-foreground leading-relaxed">
+          Mac Brown Construction, LLC is a licensed custom home builder in Bryson City, NC, building energy-efficient homes in Swain County and Western North Carolina since 1988. Every home is planned in-house and built above North Carolina code minimums with ICF foundations, frost-proof footings, P-2000 and foam insulation, and options for radiant floors, geothermal, and passive solar.
+        </p>
+      </section>
 
       {/* Intro */}
       <section className="py-16 md:py-24 px-6 max-w-3xl mx-auto text-center">
@@ -135,6 +170,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      <FaqSection faqs={FAQS} title="Custom Home Builder FAQ" />
 
       {/* CTA */}
       <section className="bg-primary py-16 px-6 text-center">
